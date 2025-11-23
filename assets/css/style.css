@@ -144,3 +144,24 @@ h1 {
     .theme-button { font-size: 13px; padding: 7px 12px; }
     .theme-button::after { display: none; }
 }
+
+/* 말풍선(InfoWindow) 내부 스타일 */
+.infowindow-content {
+    max-width: 250px; /* 말풍선 최대 너비 제한 */
+}
+
+.infowindow-content img {
+    width: 100%;       /* 너비 가득 차게 */
+    height: 120px;     /* 높이 고정 */
+    object-fit: cover; /* 이미지가 찌그러지지 않고 꽉 차게 자름 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    margin-bottom: 10px;
+    background-color: #f0f0f0; /* 이미지가 없을 때 회색 배경 */
+}
+
+.infowindow-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}

@@ -56,7 +56,7 @@ def get_all_posts():
 
             # --- [이미지 추출 로직 복구] ---
             # 1. 기본값은 로고 이미지로 설정 (사진 없을 때 대비)
-            thumbnail = "assets/images/JinjaMapLogo_H.png"
+            thumbnail = "assets/images/JinjaMapLogo_Horizontal.png"
             
             # 2. 본문에서 모든 이미지 태그 찾기
             images = soup.find_all('img')
