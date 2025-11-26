@@ -26,8 +26,11 @@ def get_all_posts():
     posts = []
     url = f"https://blog.hatena.ne.jp/{HATENA_USERNAME}/{HATENA_BLOG_ID}/atom/entry"
     
-    max_pages = 5 
+    max_pages = 20 
     current_page = 0
+    
+    # 기본 썸네일 경로
+    DEFAULT_THUMBNAIL = "assets/images/JinjaMapLogo_Horizontal.png"
 
     while url and current_page < max_pages:
         headers = {'X-WSSE': create_wsse_header(HATENA_USERNAME, HATENA_API_KEY)}
@@ -38,66 +41,92 @@ def get_all_posts():
             print(f"❌ API 요청 실패: {e}")
             break
 
-        root = ET.fromstring(response.content)
-        ns = {'atom': 'http://www.w3.org/2005/Atom', 'app': 'http://www.w3.org/2007/app'}
+        try:
+            root = ET.fromstring(response.content)
+            ns = {'atom': 'http://www.w3.org/2005/Atom', 'app': 'http://www.w3.org/2007/app'}
+        except ET.ParseError:
+            break
         
         entries = root.findall('atom:entry', ns)
         
         for entry in entries:
-            title = entry.find('atom:title', ns).text
+            # 1. 비공개 글 제외
+            control = entry.find('app:control', ns)
+            if control is not None:
+                draft = control.find('app:draft', ns)
+                if draft is not None and draft.text == 'yes':
+                    continue
+
+            # 2. 기본 정보
+            title_tag = entry.find('atom:title', ns)
+            title = title_tag.text if title_tag is not None else "No Title"
+            
             link_tag = entry.find('atom:link[@rel="alternate"]', ns)
             link = link_tag.get('href') if link_tag is not None else ""
+            
             categories = [cat.get('term') for cat in entry.findall('atom:category', ns)]
+            
+            published_tag = entry.find('atom:published', ns)
+            published_date = published_tag.text[:10] if published_tag is not None else ""
 
             content_tag = entry.find('atom:content', ns)
             content_html = content_tag.text if content_tag is not None else ""
+            
             soup = BeautifulSoup(content_html, 'html.parser')
             content_text = soup.get_text(separator=" ")
 
-            # --- [이미지 추출 로직 복구] ---
-            # 1. 기본값은 로고 이미지로 설정 (사진 없을 때 대비)
-            thumbnail = "assets/images/JinjaMapLogo_Horizontal.png"
+            # 3. [이미지 추출 로직 강화]
+            thumbnail = DEFAULT_THUMBNAIL
             
-            # 2. 본문에서 모든 이미지 태그 찾기
+            # (1단계) HTML <img> 태그 검색
             images = soup.find_all('img')
-            
             for img in images:
                 src = img.get('src')
-                if not src: continue
-                
-                # 아이콘이나 로고 파일은 건너뜀
-                if "icon" in src or "JinjaMapLogo" in src:
-                    continue
-                
-                # 하테나 포토라이프(f.st-hatena.com) 또는 일반 이미지 파일이면 채택
-                if "f.st-hatena.com" in src or src.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+                if src and "f.st-hatena.com" in src and "icon" not in src:
                     thumbnail = src
-                    break # 첫 번째 유효한 사진을 찾으면 중단
-            # ------------------------------
+                    break
+            
+            # (2단계) <img>가 없다면 하테나 문법 [f:id:...] 파싱 (스크린샷 문제 해결용)
+            # 패턴: [f:id:아이디:시간:...]
+            if thumbnail == DEFAULT_THUMBNAIL:
+                # 정규식으로 id, timestamp, 확장자코드를 찾음
+                # 예: [f:id:starful:20251123173439p:plain] -> p=png
+                match = re.search(r'\[f:id:([^:]+):([0-9]{14})([a-z])?:.*?\]', content_text)
+                if match:
+                    h_user = match.group(1) # starful
+                    h_time = match.group(2) # 20251123173439
+                    h_type = match.group(3) # p, j, g 등
+                    
+                    h_date = h_time[:8] # 20251123
+                    
+                    # 확장자 추론 (p=png, j=jpg, g=gif, 없으면 jpg)
+                    ext = 'png' if h_type == 'p' else 'gif' if h_type == 'g' else 'jpg'
+                    
+                    # 하테나 이미지 서버 URL 구성
+                    thumbnail = f"https://cdn-ak.f.st-hatena.com/images/fotolife/{h_user[0]}/{h_user}/{h_date}/{h_time}.{ext}"
 
-            # --- [주소 추출 로직] ---
+            # 4. [본문 요약 정리] (스크린샷의 [f:id...] 텍스트 제거)
+            # 하테나 문법 태그 제거
+            clean_summary = re.sub(r'\[f:id:[^\]]+\]', '', content_text)
+            # 공백 정리 및 길이 제한
+            clean_summary = re.sub(r'\s+', ' ', clean_summary).strip()
+            summary = clean_summary[:100] + "..."
+
+            # 5. [주소 추출]
             address = None
-            match = re.search(r'(소재지|주소|위치|Address)\s*[:：]?\s*([^\n\r]+)', content_text)
-            if match:
-                candidate = match.group(2).strip()
-                if len(candidate) < 30 and ('〒' in candidate or any(x in candidate for x in ['도', '시', '구', '현', '町', '県', '市', '区'])):
+            addr_match = re.search(r'(소재지|주소|위치|Address)\s*[:：]?\s*([^\n\r]+)', content_text)
+            if addr_match:
+                candidate = addr_match.group(2).strip()
+                if len(candidate) < 50 and ('〒' in candidate or any(x in candidate for x in ['도', '시', '구', '현', '町', '県', '市', '区'])):
                     address = candidate
             
             if not address:
                 clean_title = re.sub(r'\[.*?\]', '', title)
                 clean_title = re.split(r'[:：|\-–~]', clean_title)[0].strip()
+                clean_title = re.sub(r'\(.*?\)', '', clean_title).strip()
+                clean_title = clean_title.replace("를 찾아서", "").replace("방문", "").replace("여행", "").replace("후기", "").strip()
                 
-                parenthesis_match = re.search(r'\(([^)]+)\)', clean_title)
-                if parenthesis_match:
-                    inner_text = parenthesis_match.group(1)
-                    if re.search(r'[\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]', inner_text):
-                        clean_title = inner_text
-                    else:
-                        clean_title = re.sub(r'\(.*?\)', '', clean_title).strip()
-
-                clean_title = clean_title.replace("를 찾아서", "").replace("방문", "").replace("여행", "").strip()
-                
-                if len(clean_title) > 1 and len(clean_title) < 30:
+                if 1 < len(clean_title) < 30:
                     address = clean_title
                 else:
                     continue
@@ -105,10 +134,11 @@ def get_all_posts():
             posts.append({
                 "title": title,
                 "link": link,
+                "published": published_date,
                 "categories": categories,
-                "thumbnail": thumbnail,
+                "thumbnail": thumbnail, 
                 "address": address, 
-                "summary": content_text[:100] + "..."
+                "summary": summary
             })
 
         next_link = root.find('atom:link[@rel="next"]', ns)

@@ -1,198 +1,191 @@
-// map.js
 let map;
-let markers = []; // 마커들을 담을 배열
+let allMarkers = [];
+let infoWindow;
+let allShrinesData = [];
 
-// 1. 카테고리 매핑 (한글 태그 -> 영어 코드)
-const categoryMap = {
-    "재물": "wealth", "금전": "wealth", "사업": "wealth", "로또": "wealth",
-    "사랑": "love", "연애": "love", "인연": "love", "결혼": "love",
-    "건강": "health", "치유": "health", "장수": "health",
-    "학업": "study", "합격": "study", "시험": "study",
-    "안전": "safety", "교통안전": "safety", "액운": "safety",
-    "성공": "success", "승진": "success", "목표": "success",
-    "휴식": "relax", "힐링": "relax", "여행": "relax",
-    "역사": "history", "전통": "history", "관광": "history"
+// 1. 카테고리별 색상 정의 (우선순위 순서대로 배치하는 것이 좋음)
+const categoryColors = {
+    '재물': '#FBC02D', // Gold
+    '연애': '#E91E63', // Pink
+    '사랑': '#E91E63',
+    '건강': '#2E7D32', // Green
+    '학업': '#1565C0', // Blue
+    '안전': '#455A64', // BlueGrey
+    '성공': '#512DA8', // Purple
+    '역사': '#EF6C00', // Orange
+    '기타': '#D32F2F'  // Red (기본값)
 };
 
-// 2. 구글 맵 초기화
+// 2. [핵심] 신사에 가장 적합한 카테고리 색상을 찾는 함수
+function findMainCategory(categories) {
+    if (!categories || categories.length === 0) return '기타';
+
+    // 정의된 색상 키(재물, 연애 등)를 순서대로 돌면서
+    // 신사의 태그 목록에 해당 키워드가 포함되어 있는지 확인
+    for (const colorKey of Object.keys(categoryColors)) {
+        if (colorKey === '기타') continue; // 기타는 마지막에 처리
+
+        // 신사 태그 중 하나라도 colorKey를 포함하면 당첨 (예: "역사 탐방" -> "역사")
+        const match = categories.some(cat => cat.includes(colorKey));
+        if (match) {
+            return colorKey; // 찾았으면 바로 반환 (우선순위 적용)
+        }
+    }
+    return '기타'; // 맞는게 없으면 빨강
+}
+
+function getMarkerIcon(categoryName) {
+    // categoryName에 해당하는 색상 가져오기
+    let color = categoryColors[categoryName] || categoryColors['기타'];
+
+    return {
+        path: "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z",
+        fillColor: color,
+        fillOpacity: 1,
+        scale: 1.7,       
+        strokeColor: "#FFFFFF",
+        strokeWeight: 1.5,
+        anchor: new google.maps.Point(12, 22)
+    };
+}
+
 async function initMap() {
-    console.log("Google Maps initMap 시작됨!");
-
-    const { Map } = await google.maps.importLibrary("maps");
-    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
-
-    // [수정됨] 기본 중심 좌표 (도쿄 신주쿠/황거 주변)
-    const initialCenter = { lat: 35.6895, lng: 139.6917 };
-
-    map = new Map(document.getElementById("map"), {
-        zoom: 12, // [수정됨] 10 -> 12 (도쿄 시내가 더 잘 보이도록 확대)
-        center: initialCenter,
-        mapId: "2938bb3f7f034d78a2dbaf56",
+    const tokyoCoords = { lat: 35.6895, lng: 139.6917 };
+    map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 11,
+        center: tokyoCoords,
         mapTypeControl: false,
+        fullscreenControl: false,
         streetViewControl: false,
-        
-        // [수정됨] '두 손가락' 안내 없이 한 손가락으로 이동 가능하게 변경
-        gestureHandling: "greedy" 
+        styles: [
+            { featureType: "poi", elementType: "labels", stylers: [{ visibility: "off" }] }
+        ]
     });
 
-    fetchBlogPosts(AdvancedMarkerElement, PinElement);
-    setupFilterButtons();
-}
+    infoWindow = new google.maps.InfoWindow();
 
-// 3. 데이터 가져오기
-async function fetchBlogPosts(AdvancedMarkerElement, PinElement) {
-    const API_ENDPOINT = "/api/shrines";
     try {
-        const response = await fetch(API_ENDPOINT);
-        const posts = await response.json();
-        
-        if (posts.length === 0) {
-            console.log("데이터가 없습니다.");
-            return;
+        const response = await fetch('/api/shrines');
+        const jsonData = await response.json();
+        allShrinesData = jsonData.shrines ? jsonData.shrines : jsonData;
+
+        if (!Array.isArray(allShrinesData)) return;
+
+        if (jsonData.last_updated) {
+            const msgElement = document.getElementById('update-msg');
+            if (msgElement) msgElement.textContent = `데이터 업데이트: ${jsonData.last_updated}`;
         }
 
-        processBlogData(posts, AdvancedMarkerElement, PinElement);
+        addMarkers(allShrinesData);
+        renderTop5Shrines(allShrinesData);
+        setupFilterButtons();
+
     } catch (error) {
-        console.error("API 호출 실패:", error);
+        console.error("초기화 오류:", error);
     }
 }
 
-// 4. 데이터 처리 및 마커 생성
-function processBlogData(posts, AdvancedMarkerElement, PinElement) {
-    // [수정됨] 초기화면이 너무 광범위해지는 것을 막기 위해 bounds 로직 주석 처리
-    // const bounds = new google.maps.LatLngBounds(); 
+function addMarkers(shrines) {
+    allMarkers.forEach(marker => marker.setMap(null));
+    allMarkers = [];
 
-    for (const post of posts) {
-        if (post.lat && post.lng) {
-            
-            // 카테고리 결정 로직
-            let matchedTheme = 'history'; 
-            if (post.categories && post.categories.length > 0) {
-                for (let cat of post.categories) {
-                    if (categoryMap[cat]) {
-                        matchedTheme = categoryMap[cat];
-                        break;
-                    }
-                }
-            }
+    shrines.forEach((shrine) => {
+        if (!shrine.lat || !shrine.lng) return;
 
-            const shrineData = {
-                name: post.title,
-                lat: post.lat,
-                lng: post.lng,
-                theme: matchedTheme,
-                link: post.link,
-                address: post.address,
-                thumbnail: post.thumbnail
-            };
+        // [변경] 단순히 첫 번째 태그가 아니라, 색상 목록에 있는 '중요 태그'를 우선 추출
+        const mainCategoryKey = findMainCategory(shrine.categories);
 
-            createMarker(shrineData, AdvancedMarkerElement, PinElement);
-            
-            // [수정됨] bounds 확장 로직 제거
-            // bounds.extend({ lat: post.lat, lng: post.lng });
-        }
-    }
+        const marker = new google.maps.Marker({
+            position: { lat: shrine.lat, lng: shrine.lng },
+            map: map,
+            title: shrine.title,
+            icon: getMarkerIcon(mainCategoryKey), // 찾아낸 카테고리 색상 적용
+            animation: google.maps.Animation.DROP
+        });
 
-    // [수정됨] fitBounds 제거 (이것 때문에 지도가 일본 전체로 줌아웃 되었습니다)
-    // if (!bounds.isEmpty()) {
-    //     map.fitBounds(bounds);
-    // }
+        marker.categories = shrine.categories || [];
+        // 필터링을 위해 marker 객체에 '대표 카테고리' 정보도 심어둠 (선택사항)
+        marker.mainCategoryKey = mainCategoryKey; 
+
+        marker.addListener("click", () => {
+            const contentString = `
+                <div class="infowindow-content">
+                    <img src="${shrine.thumbnail}" alt="${shrine.title}">
+                    <h3>${shrine.title}</h3>
+                    <p>🏷️ ${shrine.categories.join(', ')}</p>
+                    <a href="${shrine.link}" target="_blank">자세히 보기 →</a>
+                </div>
+            `;
+            infoWindow.setContent(contentString);
+            infoWindow.open(map, marker);
+        });
+
+        allMarkers.push(marker);
+    });
 }
 
-// 5. 마커 생성 함수
-function createMarker(shrine, AdvancedMarkerElement, PinElement) {
-    // 테마별 색상
-    const colors = {
-        wealth: "#FFD700",  // 재물
-        love: "#FF4081",    // 사랑
-        health: "#4CAF50",  // 건강
-        study: "#2196F3",   // 학업
-        safety: "#607D8B",  // 안전
-        success: "#673AB7", // 성공
-        relax: "#00BCD4",   // 휴식
-        history: "#795548"  // 역사
-    };
-    
-    const markerColor = colors[shrine.theme] || colors['history'];
+function renderTop5Shrines(shrines) {
+    const listContainer = document.getElementById('shrine-list');
+    if (!listContainer) return;
 
-    const pin = new PinElement({
-        background: markerColor,
-        borderColor: "#ffffff",
-        glyphColor: "#ffffff"
-    });
+    listContainer.innerHTML = ''; 
+    const sortedShrines = [...shrines].sort((a, b) => new Date(b.published) - new Date(a.published));
+    const top5 = sortedShrines.slice(0, 5);
 
-    const marker = new AdvancedMarkerElement({
-        map: map,
-        position: { lat: shrine.lat, lng: shrine.lng },
-        title: shrine.name,
-        content: pin.element
-    });
+    top5.forEach(shrine => {
+        const categoryTag = shrine.categories && shrine.categories.length > 0 
+            ? ` • <span>🏷️ ${shrine.categories[0]}</span>` 
+            : '';
 
-    marker.category = shrine.theme; 
-
-    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${shrine.lat},${shrine.lng}`;
-
-    const contentString = `
-        <div class="infowindow-content">
-            <img src="${shrine.thumbnail}" 
-                 alt="${shrine.name}" 
-                 onerror="this.src='assets/images/JinjaMapLogo_Horizontal.png'">
-            
-            <h3>${shrine.name}</h3>
-            <p style="font-size:12px; color:#666; margin-bottom:5px;">${shrine.address}</p>
-            
-            <p style="margin-bottom:8px;">
-                <span style="display:inline-block; padding:2px 6px; background:${markerColor}; color:#fff; border-radius:10px; font-size:11px;">
-                    ${getKoreanThemeName(shrine.theme)}
-                </span>
-            </p>
-
-            <div style="display:flex; gap:5px;">
-                <a href="${shrine.link}" target="_blank" style="flex:1; text-align:center; padding:6px 0; background:#333; color:#fff; text-decoration:none; border-radius:4px; font-size:12px;">블로그 보기</a>
-                <a href="${directionsUrl}" target="_blank" style="flex:1; text-align:center; padding:6px 0; background:#4285F4; color:#fff; text-decoration:none; border-radius:4px; font-size:12px;">🗺️ 길찾기</a>
+        const cardHTML = `
+            <div class="shrine-card">
+                <a href="${shrine.link}" target="_blank" class="card-thumb-link">
+                    <img src="${shrine.thumbnail}" alt="${shrine.title}" class="card-thumb" loading="lazy">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">
+                        <a href="${shrine.link}" target="_blank">${shrine.title}</a>
+                    </h3>
+                    <div class="card-meta">
+                        <span>📅 ${shrine.published}</span>
+                        ${categoryTag}
+                    </div>
+                    <p class="card-summary">${shrine.summary}</p>
+                    <a href="${shrine.link}" target="_blank" class="card-btn">더 보기 →</a>
+                </div>
             </div>
-        </div>
-    `;
-
-    const infowindow = new google.maps.InfoWindow({
-        content: contentString
+        `;
+        listContainer.insertAdjacentHTML('beforeend', cardHTML);
     });
-
-    marker.addListener("click", () => {
-        infowindow.open(map, marker);
-    });
-
-    markers.push(marker);
 }
 
-function getKoreanThemeName(theme) {
-    const names = {
-        wealth: "재물", love: "사랑", health: "건강",
-        study: "학업", safety: "안전",
-        success: "성공", relax: "휴식", history: "역사"
-    };
-    return names[theme] || "역사";
-}
-
-// 6. 필터 버튼 로직
 function setupFilterButtons() {
     const buttons = document.querySelectorAll('.theme-button');
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            buttons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-            
-            const selectedTheme = button.getAttribute('data-theme');
-            
-            markers.forEach(marker => {
-                if (selectedTheme === 'all' || marker.category === selectedTheme) {
-                    marker.map = map;
-                } else {
-                    marker.map = null;
-                }
-            });
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const selectedTheme = btn.getAttribute('data-theme');
+            filterMapMarkers(selectedTheme);
         });
     });
 }
 
-window.initMap = initMap;
+function filterMapMarkers(theme) {
+    const themeMap = {
+        'wealth': '재물', 'love': '연애', 'health': '건강',
+        'study': '학업', 'safety': '안전', 'success': '성공', 'history': '역사'
+    };
+
+    const targetCategory = themeMap[theme];
+
+    allMarkers.forEach(marker => {
+        if (theme === 'all') {
+            marker.setVisible(true);
+        } else {
+            // 태그 배열 안에 해당 키워드가 포함되어 있는지 확인
+            const hasCategory = marker.categories.some(cat => cat.includes(targetCategory));
+            marker.setVisible(hasCategory);
+        }
+    });
+}

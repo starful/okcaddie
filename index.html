@@ -13,12 +13,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>도쿄 신사 지도 - 소원별(재물, 사랑, 건강) 맞춤 신사 찾기 | JinjaMap</title>
-    <meta name="description" content="도쿄 여행 필수 코스! 재물운, 연애운, 학업운 등 당신의 소원에 딱 맞는 신사를 지도에서 쉽게 찾아보세요.">
-    <meta name="keywords" content="도쿄 신사, 도쿄 여행, 일본 신사, 도쿄 지도, 엔무스비, 재물운 신사, 도쿄 파워스팟, JinjaMap">
+    <title>도쿄 신사 지도 (Tokyo Shrine Map / 東京神社マップ) - JinjaMap</title>
+    
+    <meta name="description" content="도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기. Explore Tokyo's shrines by wish (Wealth, Love, Health).">
+    <meta name="keywords" content="도쿄 신사, 도쿄 여행, 일본 신사, 도쿄 지도, 엔무스비, 재물운 신사, JinjaMap">
+    
     <link rel="canonical" href="https://jinjamap.com/">
 
-    <!-- SNS 설정 -->
+    <!-- SNS 설정 (OG 태그) -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jinjamap.com/">
     <meta property="og:title" content="도쿄 신사 지도: 당신의 소원을 이뤄줄 곳을 찾아보세요">
@@ -26,42 +28,22 @@
     <meta property="og:image" content="https://jinjamap.com/assets/images/JinjaMapLogo.png">
     <meta property="og:locale" content="ko_KR">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="도쿄 신사 지도 - JinjaMap">
-    <meta name="twitter:description" content="도쿄 여행 중 방문할 만한 신사를 테마별로 찾아보세요.">
-    <meta name="twitter:image" content="https://jinjamap.com/assets/images/JinjaMapLogo.png">
-
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- 구조화된 데이터 -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "JinjaMap",
-      "url": "https://jinjamap.com/",
-      "description": "도쿄의 신사 정보를 테마별로 제공하는 지도 서비스"
-    }
-    </script>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>
-                <!-- 반응형 로고 적용 (가로형/세로형) -->
                 <picture>
                     <source srcset="assets/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
                     <img src="assets/images/JinjaMapLogo_Vertical.png" alt="도쿄 신사 지도 JinjaMap 로고" class="logo-img">
                 </picture>
             </h1>
             
-            <!-- [SEO] 숨겨진 설명 텍스트 (수정됨: 가정, 예술 삭제) -->
-            <p style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0);">
-                JinjaMap은 도쿄에 있는 다양한 신사들의 위치와 정보를 제공합니다. 
-                재물, 사랑(연애), 건강, 학업, 안전, 성공, 휴식, 역사 등 당신이 기원하고 싶은 소원에 맞춰 신사를 찾아보세요.
-            </p>
-
+            <p id="update-msg" class="update-message">데이터 로딩 중...</p>
+            
+            <!-- 테마 필터 버튼 (7개 카테고리 + 전체보기) -->
             <div class="theme-filter-buttons">
                 <button class="theme-button active" data-theme="all" data-tooltip="모든 신사를 지도에 표시합니다.">전체 보기</button>
                 <button class="theme-button" data-theme="wealth" data-tooltip="사업 번창, 금전운, 재산 증식, 취업 성공 등 경제적 풍요를 기원.">재물</button>
@@ -69,9 +51,7 @@
                 <button class="theme-button" data-theme="health" data-tooltip="무병장수, 질병 치유, 심신의 안정 등 몸과 마음의 건강을 기원.">건강</button>
                 <button class="theme-button" data-theme="study" data-tooltip="시험 합격, 학업 성취, 지혜, 자격증 취득 등 배움과 관련된 기원.">학업</button>
                 <button class="theme-button" data-theme="safety" data-tooltip="교통안전, 여행, 재해 예방, 액운을 막는 '야쿠요케' 등 위험으로부터의 보호를 기원.">안전</button>
-                <!-- [삭제됨] 가정, 예술 버튼 삭제 -->
                 <button class="theme-button" data-theme="success" data-tooltip="승진, 목표 달성, 경기 승리 등 특정 분야에서의 성공과 성취를 기원.">성공</button>
-                <button class="theme-button" data-theme="relax" data-tooltip="아름다운 자연 경관을 즐기거나 '파워스팟'에서 기운을 얻으며 마음의 평온을 찾는 것.">휴식</button>
                 <button class="theme-button" data-theme="history" data-tooltip="신사의 역사적 가치, 독특한 건축물, 문화재 탐방 등 지적 탐구를 목적으로 방문.">역사</button>
             </div>
         </header>
@@ -87,11 +67,19 @@
                     </p>
                 </article>
             </section>
+
+            <!-- [추가됨] 최신 신사 리스트 영역 -->
+            <section class="list-section">
+                <h2 class="list-title">⛩️ 최신 신사 탐방기</h2>
+                <div id="shrine-list" class="shrine-grid">
+                    <!-- 자바스크립트로 여기에 카드가 생성됩니다 -->
+                </div>
+            </section>
+            
         </main>
     </div>
 
     <script src="assets/js/map.js"></script>
-    <!-- [보안] 키값 보호를 위해 리퍼러 제한 필수 -->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async"
       async defer>

@@ -11,7 +11,6 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: #fff;
-    /* 컨테이너 그림자 제거 (경계 없애기) */
     box-shadow: none;
     border-radius: 0;
     overflow: hidden;
@@ -37,16 +36,21 @@ h1 {
     height: auto;
     display: block;
     margin: 0 auto 30px auto;
-    
-    /* [수정] 그림자 효과(3D 효과) 제거 */
     filter: none; 
     transition: transform 0.3s ease;
 }
 
 .logo-img:hover {
-    /* [수정] 마우스 호버 시 뜨는 효과 및 그림자 제거 */
     transform: none;
     filter: none;
+}
+
+.update-message {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-weight: 500;
 }
 
 #map {
@@ -56,14 +60,35 @@ h1 {
     border-radius: 0;
 }
 
-/* 지도 전체화면 버튼 숨기기 (선택 사항) */
 .gm-fullscreen-control {
     display: none !important;
 }
 
-.infowindow-content h3 { margin: 0 0 5px 0; color: #e74c3c; }
+/* 말풍선(InfoWindow) 스타일 */
+.infowindow-content {
+    max-width: 250px;
+}
+
+.infowindow-content img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.infowindow-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}
+
 .infowindow-content p { margin: 0 0 10px 0; }
 .infowindow-content a { color: #3498db; font-weight: bold; text-decoration: none; }
+
+/* --- 버튼 및 필터 스타일 --- */
 
 .theme-filter-buttons {
     display: flex;
@@ -87,18 +112,8 @@ h1 {
     flex-shrink: 0;
 }
 
-.theme-button:hover {
-    border-color: #3498db;
-    color: #3498db;
-}
-
-.theme-button.active {
-    background-color: #3498db;
-    color: white;
-    border-color: #3498db;
-}
-
-.theme-button::after {
+/* 툴팁 스타일 (설명 문구) */
+.theme-button:hover::after {
     content: attr(data-tooltip);
     position: absolute;
     bottom: 125%;
@@ -111,57 +126,197 @@ h1 {
     font-size: 13px;
     font-weight: 500;
     white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease, visibility 0.2s ease;
     z-index: 10;
+    pointer-events: none;
 }
 
-.theme-button:hover::after {
-    opacity: 1;
-    visibility: visible;
-}
+/* --- 테마별 활성화(Active) 색상 (지도 핀 색상과 일치시킴) --- */
 
-.shrine-marker {
-    width: 30px; height: 30px; border-radius: 50% 50% 50% 0; border: 2px solid white;
-    position: absolute; transform: rotate(-45deg); left: -15px; top: -15px;
-    cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-}
+/* 1. 전체 보기 (파랑) */
+.theme-button[data-theme="all"]:hover { border-color: #3498db; color: #3498db; }
+.theme-button[data-theme="all"].active { background-color: #3498db; border-color: #3498db; color: white; }
 
-.shrine-marker::after {
-    content: ''; width: 10px; height: 10px; border-radius: 50%; background-color: white;
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(45deg);
-}
+/* 2. 재물 (#FBC02D - 진한 골드) */
+.theme-button[data-theme="wealth"]:hover { border-color: #FBC02D; color: #e0a800; }
+.theme-button[data-theme="wealth"].active { background-color: #FBC02D; border-color: #FBC02D; color: #333; }
 
+/* 3. 사랑 (#E91E63 - 핑크) */
+.theme-button[data-theme="love"]:hover { border-color: #E91E63; color: #E91E63; }
+.theme-button[data-theme="love"].active { background-color: #E91E63; border-color: #E91E63; color: white; }
+
+/* 4. 건강 (#2E7D32 - 진한 초록) */
+.theme-button[data-theme="health"]:hover { border-color: #2E7D32; color: #2E7D32; }
+.theme-button[data-theme="health"].active { background-color: #2E7D32; border-color: #2E7D32; color: white; }
+
+/* 5. 학업 (#1565C0 - 진한 파랑) */
+.theme-button[data-theme="study"]:hover { border-color: #1565C0; color: #1565C0; }
+.theme-button[data-theme="study"].active { background-color: #1565C0; border-color: #1565C0; color: white; }
+
+/* 6. 안전 (#455A64 - 블루그레이) */
+.theme-button[data-theme="safety"]:hover { border-color: #455A64; color: #455A64; }
+.theme-button[data-theme="safety"].active { background-color: #455A64; border-color: #455A64; color: white; }
+
+/* 7. 성공 (#512DA8 - 보라) */
+.theme-button[data-theme="success"]:hover { border-color: #512DA8; color: #512DA8; }
+.theme-button[data-theme="success"].active { background-color: #512DA8; border-color: #512DA8; color: white; }
+
+/* 8. 역사 (#EF6C00 - 오렌지) */
+.theme-button[data-theme="history"]:hover { border-color: #EF6C00; color: #EF6C00; }
+.theme-button[data-theme="history"].active { background-color: #EF6C00; border-color: #EF6C00; color: white; }
+
+
+/* 모바일 반응형 */
 @media (max-width: 768px) {
     .container { margin: 0; border-radius: 0; box-shadow: none; }
     header { padding: 30px 15px; }
-    .logo-img {
-        max-width: 90%;
-        margin-bottom: 30px;
-    }
+    .logo-img { max-width: 90%; margin-bottom: 30px; }
     .theme-filter-buttons { padding: 0 15px; }
     .theme-button { font-size: 13px; padding: 7px 12px; }
-    .theme-button::after { display: none; }
+    .theme-button:hover::after { display: none; } /* 모바일에선 툴팁 숨김 */
 }
 
-/* 말풍선(InfoWindow) 내부 스타일 */
+
+/* 말풍선(InfoWindow) 스타일 수정 */
 .infowindow-content {
-    max-width: 250px; /* 말풍선 최대 너비 제한 */
+    max-width: 260px; /* 폭을 약간 넓힘 */
 }
 
 .infowindow-content img {
-    width: 100%;       /* 너비 가득 차게 */
-    height: 120px;     /* 높이 고정 */
-    object-fit: cover; /* 이미지가 찌그러지지 않고 꽉 차게 자름 */
-    border-radius: 8px; /* 모서리 둥글게 */
-    margin-bottom: 10px;
-    background-color: #f0f0f0; /* 이미지가 없을 때 회색 배경 */
+    width: 100%;
+    height: 140px; /* 높이를 약간 키워서 사진이 잘 보이게 함 */
+    object-fit: cover; /* 비율 유지하며 꽉 채우기 (찌그러짐 방지) */
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #eee; /* 얇은 테두리 추가 */
 }
 
 .infowindow-content h3 {
     font-size: 16px;
     font-weight: bold;
-    margin: 5px 0;
+    margin: 8px 0 4px 0;
     color: #333;
+    line-height: 1.3;
+}
+
+.infowindow-content p { 
+    margin: 0 0 10px 0; 
+    font-size: 13px;
+    color: #666;
+}
+
+.infowindow-content a { 
+    color: #3498db; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 13px;
+}
+.infowindow-content a:hover {
+    text-decoration: underline;
+}
+
+/* --- [추가] 하단 리스트 스타일 --- */
+
+.list-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+.list-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.shrine-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* 반응형 그리드 */
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shrine-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.shrine-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-thumb-link {
+    display: block;
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.shrine-card:hover .card-thumb {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-meta {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.card-summary {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 3줄까지만 표시 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 8px 0;
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: auto; /* 하단 고정 */
+}
+
+.card-btn:hover {
+    text-decoration: underline;
 }
