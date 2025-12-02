@@ -30,7 +30,7 @@ def get_all_posts():
     current_page = 0
     
     # 기본 썸네일 경로
-    DEFAULT_THUMBNAIL = "assets/images/JinjaMapLogo_Horizontal.png"
+    DEFAULT_THUMBNAIL = "/static/images/JinjaMapLogo_Horizontal.png"
 
     while url and current_page < max_pages:
         headers = {'X-WSSE': create_wsse_header(HATENA_USERNAME, HATENA_API_KEY)}
@@ -110,7 +110,7 @@ def get_all_posts():
             clean_summary = re.sub(r'\[f:id:[^\]]+\]', '', content_text)
             # 공백 정리 및 길이 제한
             clean_summary = re.sub(r'\s+', ' ', clean_summary).strip()
-            summary = clean_summary[:100] + "..."
+            summary = clean_summary[:180] + "..." if len(clean_summary) > 180 else clean_summary
 
             # 5. [주소 추출]
             address = None

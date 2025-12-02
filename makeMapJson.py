@@ -3,7 +3,7 @@ import os
 import json
 import googlemaps
 from google.cloud import storage
-from hatena_client import get_all_posts
+from app.hatena_client import get_all_posts
 from datetime import datetime # [추가됨] 날짜 기능
 
 # 환경 변수

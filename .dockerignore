@@ -5,3 +5,5 @@ __pycache__
 .DS_Store
 venv/
 env/
+# 로컬 테스트용 키 파일 등이 있다면 제외
+command.txt

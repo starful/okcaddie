@@ -1,12 +1,12 @@
 # app.py
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, send_from_directory, render_template
 from google.cloud import storage
 import json
 import os
 import time
 
 # [중요] Flask 앱 객체 생성은 반드시 라우트(@app.route)보다 위에 있어야 합니다.
-app = Flask(__name__, static_url_path='/assets', static_folder='assets', template_folder='.')
+app = Flask(__name__)
 
 # 설정 변수
 BUCKET_NAME = "jinjamap-data" 
@@ -19,12 +19,17 @@ CACHE_DURATION = 3600  # 1시간 (초 단위)
 
 @app.route('/')
 def index():
-    return send_from_directory('.', 'index.html')
+    return render_template('index.html')
+
+# [추가] ads.txt 파일을 위한 라우트
+@app.route('/ads.txt')
+def ads_txt():
+    return send_from_directory(app.template_folder, 'ads.txt')
 
 # [추가됨] 개인정보처리방침 페이지 연결
 @app.route('/privacy.html')
 def privacy():
-    return send_from_directory('.', 'privacy.html')
+    return render_template('privacy.html')
 
 @app.route('/api/shrines')
 def api_shrines():

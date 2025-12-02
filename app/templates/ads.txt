@@ -1,0 +1,2 @@
+# jinjaMap/ads.txt
+google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0
