@@ -1,98 +1,99 @@
-# ⛩️ JinjaMap (Tokyo Shrine Explorer)
+# ⛩️ JinjaMap - Japan Shrine Guide
 
-**JinjaMap** is a web application that maps major shrines in Tokyo. It helps users discover power spots based on specific wishes (Wealth, Love, Health, etc.) using an interactive Google Map.
+**JinjaMap** is a web application that helps travelers discover hidden shrines and **"Power Spots"** across Japan. Whether you're looking for luck in **Wealth, Love, or Success**, JinjaMap guides you to the right spiritual destination.
 
-Unlike the previous version, this system now operates on a **static data build system** using Markdown files, ensuring faster performance and easier content management without external API dependencies.
+🔗 **Live Demo:** [https://jinjamap.com](https://jinjamap.com)
+
+---
 
 ## ✨ Features
 
-- **Markdown-Based Content**: Manage shrine data easily via local `.md` files in the `app/content/` directory.
-- **Automated Data Build**: The system automatically converts Markdown to JSON during the Docker build process.
-- **Google Maps Integration**: Visualizes shrine locations with custom markers and interactive info windows.
-- **Theme-Based Filtering**:
-  - 💰 **Wealth** (재물)
-  - ❤️ **Love** (연애/사랑)
-  - 💊 **Health** (건강)
-  - 🎓 **Study** (학업)
-  - 🛡️ **Safety** (안전)
-- **Responsive Design**: Fully optimized for mobile and desktop.
-- **Serverless Deployment**: Hosted on Google Cloud Run.
+*   **Interactive Map**: Visualize shrine locations with Google Maps integration.
+*   **Theme Filtering**: Find shrines based on specific wishes:
+    *   💰 **Wealth** (Money luck)
+    *   ❤️ **Love** (Matchmaking)
+    *   🎓 **Study** (Academic success)
+    *   🛡️ **Safety** (Protection)
+*   **Static Data Build**: Fast performance using pre-built JSON data from Markdown files.
+*   **Omikuji (Fortune Slip)**: A fun mini-game to draw your daily fortune.
+*   **Responsive Design**: Optimized for both desktop and mobile devices.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Python 3.10, Flask, Gunicorn
-- **Data Processing**: Python-frontmatter (Markdown parsing)
-- **Frontend**: HTML5, CSS3, Vanilla JS
-- **Infrastructure**: Docker, Google Cloud Run, Cloud Build
+*   **Backend**: Python 3.10, Flask
+*   **Frontend**: HTML5, CSS3, Vanilla JavaScript
+*   **Data**: Markdown (`.md`) based content management
+*   **Infrastructure**: Docker, Google Cloud Run
+*   **CI/CD**: Google Cloud Build
+
+---
 
 ## 📂 Project Structure
 
 ```text
 jinjaMap/
 ├── app/
-│   ├── content/            # [CORE] Shrine data files (.md)
+│   ├── content/            # Shrine data (Markdown files)
 │   ├── static/             # Assets (CSS, JS, Images, JSON)
 │   ├── templates/          # HTML Templates
-│   └── __init__.py         # Flask App
+│   └── __init__.py         # Flask Application Factory
 │
-├── build_data.py           # Script: Converts Markdown -> JSON
-├── Dockerfile              # Container config (Runs build_data.py)
-├── cloudbuild.yaml         # CI/CD config
-└── requirements.txt        # Dependencies
+├── script/                 # Helper scripts (Content Generator)
+├── build_data.py           # Build Script (Markdown -> JSON)
+├── Dockerfile              # Docker Configuration
+├── cloudbuild.yaml         # CI/CD Configuration
+└── requirements.txt        # Python Dependencies
 ```
 
-## 📝 How to Add a New Shrine
+---
 
-1. Create a new Markdown file in **`app/content/`** (e.g., `meiji_jingu.md`).
-2. Add the required **Frontmatter** at the top:
+## 🚀 How to Add New Content
+
+You don't need a database. Just add a Markdown file!
+
+1.  Create a new file in `app/content/` (e.g., `meiji_jingu.md`).
+2.  Add the required **Frontmatter**:
 
 ```yaml
 ---
 layout: post
 title: "Meiji Jingu Shrine"
-date: 2024-03-20
-categories: [love, peace]
-tags: [Tokyo, PowerSpot]
-thumbnail: /static/images/jinja/meiji.webp
+date: 2025-12-25
+categories: [History, Peace]
+tags: [Tokyo, PowerSpot, Emperor]
+thumbnail: /content/images/meiji_jingu.webp
 lat: 35.6764
 lng: 139.6993
-address: 1-1 Yoyogikamizonocho, Shibuya City, Tokyo
-excerpt: A brief summary of the shrine...
+address: "1-1 Yoyogikamizonocho, Shibuya City, Tokyo"
+excerpt: "A brief summary for the card view..."
 ---
+
 (Write the full description here using Markdown...)
 ```
 
-1. When you deploy, `build_data.py` will automatically include this file in the map data.
+3.  Deploy! The `build_data.py` script will automatically compile it into the app.
 
-## 🚀 Deployment Guide
+---
+
+## 📦 Deployment
 
 This project is deployed to **Google Cloud Run** using **Cloud Build**.
 
-### 1. Prerequisites
-
-- Google Cloud SDK installed.
-- Project ID set: `starful-258005`
-
-### 2. Deploy Command
-
-Since external API keys are no longer needed for the build process, the command is simple:
-
 ```bash
+# Trigger build and deploy
 gcloud builds submit
 ```
 
-This command will:
+The build process includes:
+1.   installing dependencies.
+2.  Running `build_data.py` to generate `shrines_data.json` & `sitemap.xml`.
+3.  Containerizing the app and pushing to Google Artifact Registry.
+4.  Deploying the new revision to Cloud Run.
 
-1. Upload the source code.
-2. Build the Docker image (and generate `shrines_data.json`).
-3. Deploy the new image to Cloud Run.
+---
 
-## ⚠️ Configuration
+## 🛡️ License
 
-### Google Maps API Key
-
-The Google Maps API key is client-side. Ensure `app/templates/index.html` contains a valid key with **HTTP Referrer restrictions** configured in the Google Cloud Console.
-
-## 📝 License
-
-This project is for educational and portfolio purposes.
+This project is open-source and available under the [MIT License](LICENSE).
