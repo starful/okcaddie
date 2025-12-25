@@ -6,24 +6,24 @@ Unlike the previous version, this system now operates on a **static data build s
 
 ## ✨ Features
 
-*   **Markdown-Based Content**: Manage shrine data easily via local `.md` files in the `app/content/` directory.
-*   **Automated Data Build**: The system automatically converts Markdown to JSON during the Docker build process.
-*   **Google Maps Integration**: Visualizes shrine locations with custom markers and interactive info windows.
-*   **Theme-Based Filtering**:
-    *   💰 **Wealth** (재물)
-    *   ❤️ **Love** (연애/사랑)
-    *   💊 **Health** (건강)
-    *   🎓 **Study** (학업)
-    *   🛡️ **Safety** (안전)
-*   **Responsive Design**: Fully optimized for mobile and desktop.
-*   **Serverless Deployment**: Hosted on Google Cloud Run.
+- **Markdown-Based Content**: Manage shrine data easily via local `.md` files in the `app/content/` directory.
+- **Automated Data Build**: The system automatically converts Markdown to JSON during the Docker build process.
+- **Google Maps Integration**: Visualizes shrine locations with custom markers and interactive info windows.
+- **Theme-Based Filtering**:
+  - 💰 **Wealth** (재물)
+  - ❤️ **Love** (연애/사랑)
+  - 💊 **Health** (건강)
+  - 🎓 **Study** (학업)
+  - 🛡️ **Safety** (안전)
+- **Responsive Design**: Fully optimized for mobile and desktop.
+- **Serverless Deployment**: Hosted on Google Cloud Run.
 
 ## 🛠️ Tech Stack
 
-*   **Backend**: Python 3.10, Flask, Gunicorn
-*   **Data Processing**: Python-frontmatter (Markdown parsing)
-*   **Frontend**: HTML5, CSS3, Vanilla JS
-*   **Infrastructure**: Docker, Google Cloud Run, Cloud Build
+- **Backend**: Python 3.10, Flask, Gunicorn
+- **Data Processing**: Python-frontmatter (Markdown parsing)
+- **Frontend**: HTML5, CSS3, Vanilla JS
+- **Infrastructure**: Docker, Google Cloud Run, Cloud Build
 
 ## 📂 Project Structure
 
@@ -43,8 +43,8 @@ jinjaMap/
 
 ## 📝 How to Add a New Shrine
 
-1.  Create a new Markdown file in **`app/content/`** (e.g., `meiji_jingu.md`).
-2.  Add the required **Frontmatter** at the top:
+1. Create a new Markdown file in **`app/content/`** (e.g., `meiji_jingu.md`).
+2. Add the required **Frontmatter** at the top:
 
 ```yaml
 ---
@@ -59,21 +59,22 @@ lng: 139.6993
 address: 1-1 Yoyogikamizonocho, Shibuya City, Tokyo
 excerpt: A brief summary of the shrine...
 ---
-
 (Write the full description here using Markdown...)
 ```
 
-3.  When you deploy, `build_data.py` will automatically include this file in the map data.
+1. When you deploy, `build_data.py` will automatically include this file in the map data.
 
 ## 🚀 Deployment Guide
 
 This project is deployed to **Google Cloud Run** using **Cloud Build**.
 
 ### 1. Prerequisites
-*   Google Cloud SDK installed.
-*   Project ID set: `starful-258005`
+
+- Google Cloud SDK installed.
+- Project ID set: `starful-258005`
 
 ### 2. Deploy Command
+
 Since external API keys are no longer needed for the build process, the command is simple:
 
 ```bash
@@ -81,13 +82,15 @@ gcloud builds submit
 ```
 
 This command will:
-1.  Upload the source code.
-2.  Build the Docker image (and generate `shrines_data.json`).
-3.  Deploy the new image to Cloud Run.
+
+1. Upload the source code.
+2. Build the Docker image (and generate `shrines_data.json`).
+3. Deploy the new image to Cloud Run.
 
 ## ⚠️ Configuration
 
 ### Google Maps API Key
+
 The Google Maps API key is client-side. Ensure `app/templates/index.html` contains a valid key with **HTTP Referrer restrictions** configured in the Google Cloud Console.
 
 ## 📝 License

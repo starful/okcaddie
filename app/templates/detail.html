@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en"> <!-- [변경] -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ post.title }} - JinjaMap</title>
+    <!-- 애드센스 스크립트 (유지) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
     <meta name="description" content="{{ post.summary }}">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
+        /* 스타일 그대로 유지 */
         .detail-container { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; }
         .detail-header { text-align: center; margin-bottom: 40px; }
         .detail-title { font-size: 2rem; margin-bottom: 10px; color: #333; }
@@ -32,16 +35,15 @@
                 </div>
             </div>
 
-            <!-- 메인 썸네일 -->
             <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
 
-            <!-- 마크다운 변환 내용 -->
             <div class="detail-content">
                 {{ content | safe }}
             </div>
 
             <div style="text-align: center;">
-                <a href="/" class="back-btn">🗺️ 지도 돌아가기</a>
+                <!-- [변경] 돌아가기 버튼 영어로 -->
+                <a href="/" class="back-btn">🗺️ Back to Map</a>
             </div>
         </article>
         

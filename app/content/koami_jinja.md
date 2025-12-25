@@ -1,153 +1,157 @@
 ---
 layout: post
-title: "[도쿄] 전쟁과 지진도 피해간 기적의 강운, '고아미 신사'에서 재물운 씻어내기"
+title: "[Tokyo] The Miraculous Strong Luck that Survived Wars and Earthquakes: Washing for Wealth at Koami Shrine"
 date: 2025-11-30
-categories: [재물, 안전, 성공]
-tags: [도쿄, 고아미신사, 강운액제, 제니아라이, 닌교초, 파워스팟, 일본신사여행]
+categories: [Wealth, Safety, Success]
+tags: [Tokyo, Koami Shrine, Goun-yakuyoke, Zeniarai, Ningyocho, Power Spot, Japan Shrine Travel]
 thumbnail: /content/images/koami_jinja.webp
 lat: 35.683548
 lng: 139.780112
 address: 16-23 Nihonbashikoamicho, Chuo City, Tokyo 103-0016, Japan
-excerpt: 도쿄 니혼바시에 위치한 '강운액제'의 성지, 고아미 신사를 소개합니다. 대공습과 지진을 피해간 기적의 역사와 재물운을 높여주는 '도쿄 제니아라이 벤텐'까지, 작지만 강력한 파워스팟의 모든 것을 알아보세요.
+excerpt: Introducing Koami Shrine, a sacred site for 'Goun-yakuyoke' (Strong Luck and Warding off Evil) located in Nihonbashi, Tokyo. Discover everything about this small yet powerful spot, from its miraculous history of surviving the Great Kanto Earthquake and air raids to the 'Tokyo Zeniarai Benten' for boosting your financial fortune.
 ---
 
-도쿄의 빌딩 숲, 그 숨 가쁜 심장부인 니혼바시(日本橋)에 시간의 흐름을 잊은 듯 고요히 자리한 작은 신사가 있습니다. 그 이름은 **고아미 신사(小網神社)**. 비록 그 규모는 작지만, 이곳에 깃든 영험한 기운과 기적 같은 역사는 도쿄 최강의 파워스팟 중 하나로 불리기에 부족함이 없습니다. 재앙을 막고 강한 운을 불러온다는 **'강운액제(強運厄除)'**의 효험으로 수많은 이들의 발길이 끊이지 않는 곳. 오늘은 단순한 관광지를 넘어, 신화와 역사가 교차하는 성지, 고아미 신사의 깊은 매력 속으로 여러분을 안내하고자 합니다.
-
----
-
-### 1. 🙏 제신과 유래: 신사의 심장부를 만나다
-
-신사를 이해하는 첫걸음은 그곳에 모셔진 신, 즉 제신(御祭神)과 창건의 배경을 아는 것입니다. 고아미 신사의 작은 경내에는 실로 강력하고 자비로운 신들이 좌정하여, 이곳을 찾는 이들의 간절한 소원에 귀를 기울이고 있습니다.
-
-#### **【모시는 신 (御祭神)】**
-
-고아미 신사에는 다음과 같은 신들이 모셔져 있습니다.
-
-*   **주된 신 (主祭神)**
-    *   **우카노미타마노카미 (倉稲魂神)**: 풍요와 번영을 상징하는 곡물의 신입니다. 오곡 풍요를 관장하기에 농업의 신으로 널리 알려졌지만, 시대가 변하면서 상업 번창과 사업 번영, 나아가 재물운 전반을 이끌어주는 신으로 깊은 신앙의 대상이 되었습니다. 우리가 흔히 '오이나리상(お稲荷さん)'이라 부르는 이나리 신사의 주신이 바로 이 신입니다.
-    *   **이치키시마히메노카미 (市杵島姫神)**: 물의 여신이자 예능과 재물의 신입니다. 인도 신화의 여신 사라스바티와 동일시되는 '벤자이텐(弁財天)'으로 더 잘 알려져 있으며, 특히 금전운과 인연을 맺어주는 효험이 크다고 전해집니다. 고아미 신사의 '제니아라이(銭洗い, 돈 씻기)' 신앙의 중심에 있는 신이기도 합니다.
-    *   **후쿠로쿠주 (福禄寿)**: 복(福), 녹(禄), 수(寿)를 관장하는 칠복신(七福神) 중 한 명으로, 인자한 미소를 띤 노인의 모습으로 표현됩니다. 자손 번영, 재물, 그리고 건강과 장수의 복을 내려주는 길상(吉祥)의 신입니다.
-
-이처럼 고아미 신사는 재물과 복을 관장하는 대표적인 신들을 함께 모시고 있어, 금전운과 사업운 상승을 기원하는 참배객들에게 절대적인 지지를 받고 있습니다.
-
-#### **【유래와 역사】**
-
-고아미 신사의 역사는 약 550여 년 전, 무로마치 시대로 거슬러 올라갑니다. 그 시작은 한 편의 기적과도 같은 이야기로부터 비롯되었습니다.
-
-때는 1466년(분세이 원년), 이 지역 일대에 끔찍한 역병이 창궐하여 수많은 사람들이 고통 속에 죽어가고 있었습니다. 마을 사람들은 속수무책으로 절망에 빠져있을 때, 뱃사람이자 어부였던 한 남자의 꿈에 혜일법사(恵心僧都)가 나타났습니다. 그는 *"지금부터 바다로 나가 그물을 던지면 나의 상(像)이 걸릴 것이니, 그 상을 마을 사람들이 아침저녁으로 정성껏 모시면 역병이 사라질 것이다"*라는 신탁을 내렸습니다.
-
-다음 날, 어부는 반신반의하며 바다로 나가 그물을 던졌습니다. 놀랍게도 그가 끌어올린 그물 안에는 빛나는 변재천(弁財天, 이치키시마히메노카미)과 이나리대신(稲荷大神, 우카노미타마노카미)의 신상(神像)이 모셔져 있었습니다. 그는 신탁에 따라 작은 사당(草庵)을 짓고 신상을 정성껏 모셨습니다. 그러자 거짓말처럼 마을을 뒤덮었던 역병이 순식간에 사라졌다고 합니다.
-
-이 기적 같은 이야기는 삽시간에 퍼져나갔고, 사람들은 그 작은 사당을 '작은 그물'이라는 뜻의 **'고아미(小網)'** 라는 이름으로 부르기 시작했습니다. 이것이 바로 고아미 신사의 창건 유래입니다.
-
-고아미 신사의 기적은 여기서 그치지 않았습니다. 근현대사에 이르러서도 신사의 신성한 힘은 여러 차례 증명되었습니다.
-
-*   **관동대지진의 기적**: 1923년, 도쿄를 잿더미로 만든 관동대지진이 발생했을 때, 주변의 모든 건물이 화마에 휩싸여 무너져 내렸습니다. 하지만 기적적으로 고아미 신사의 신전만은 불길을 피하고 온전한 모습을 유지했습니다. 당시 신사를 재건하던 궁궐 목수들은 신전을 지키기 위해 필사적으로 노력했고, 신의 가호 덕분에 살아남을 수 있었다고 전해집니다. 현재의 신전과 배전은 바로 이때 지어진 것으로, 전란과 재해를 이겨낸 역사의 산증인입니다.
-
-*   **도쿄 대공습의 기적**: 제2차 세계대전 말기, 도쿄는 미군의 대규모 공습으로 불바다가 되었습니다. 니혼바시 지역 역시 초토화되었지만, 고아미 신사가 위치한 일대는 기이할 정도로 피해를 입지 않았습니다. 당시 신사의 부적(お守り)을 몸에 지니고 출정한 병사들이 전원 무사히 생환했다는 일화는 매우 유명합니다. 이 이야기가 퍼지면서 고아미 신사는 재앙을 막고 목숨을 지켜주는 **'강운액제(強運厄除)'**의 신사로 그 명성을 확고히 하게 되었습니다.
-
-이처럼 역병, 지진, 전쟁이라는 거대한 재난 속에서도 굳건히 살아남은 고아미 신사의 역사는, 단순한 우연을 넘어 신의 강력한 가호가 깃들어 있음을 느끼게 합니다. 작은 신사가 뿜어내는 강렬한 생명력과 희망의 기운, 이것이 바로 수많은 사람들이 이곳을 찾는 이유일 것입니다.
+In the forest of skyscrapers that is Tokyo, in its breathless heart of Nihonbashi, there lies a small shrine that sits quietly, as if it has forgotten the flow of time. Its name is **Koami Shrine (小網神社)**. Although small in scale, the sacred energy and miraculous history enshrined here are more than enough for it to be called one of Tokyo's strongest power spots. It is a place where the footsteps of countless visitors never cease, drawn by the blessings of **'Goun-yakuyoke (強運厄除)'**, which means fending off disasters and inviting strong luck. Today, we will guide you beyond a simple tourist spot and into the deep charm of Koami Shrine, a sacred place where myth and history intersect.
 
 ---
 
-### 2. 境内 산책: 볼거리와 파워스팟
+### 1. 🙏 Deities and Origins: Meeting the Heart of the Shrine
 
-고아미 신사는 아담한 경내에 신성한 기운이 응축되어 있습니다. 참배의 순서에 따라 경내를 거닐며, 각 장소에 깃든 의미와 효험을 온몸으로 느껴보시길 바랍니다.
+The first step to understanding a shrine is to know the gods enshrined there, the Go-saijin (御祭神), and the background of its founding. Within the small precincts of Koami Shrine, truly powerful and benevolent gods are seated, listening to the earnest wishes of those who visit.
 
-#### **【본전(本殿)・배전(拝殿)】**
+#### **【Enshrined Deities (御祭神)】**
 
-도리이를 지나 경내로 들어서면 가장 먼저 눈에 들어오는 것이 바로 정면에 위치한 배전(拝殿)입니다. 관동대지진의 화마 속에서도 살아남은 이 목조 건물은 비록 크기는 작지만, 그 조각의 정교함과 위엄은 보는 이를 압도합니다.
+The following deities are enshrined at Koami Shrine.
 
-특히 주목해야 할 것은 지붕 아래에 새겨진 **'승룡(昇り龍)'과 '강룡(降り龍)'** 조각입니다. 신을 향해 참배객의 소원을 전하는 '승룡'과, 신의 덕을 참배객에게 내려주는 '강룡'은 강운액제의 효험을 상징하는 고아미 신사의 대표적인 상징물입니다. 용의 역동적인 모습과 섬세한 표현은 당대 최고의 궁궐 목수들이 빚어낸 예술 작품으로, 잠시 걸음을 멈추고 그 기운을 느껴보는 것만으로도 큰 힘을 얻는 듯합니다.
+- **Principal Deities (主祭神)**
+  - **Ukanomitama-no-kami (倉稲魂神)**: The god of grains, symbolizing abundance and prosperity. Presiding over the five grains, this deity was widely known as a god of agriculture, but as times changed, became a deeply revered object of faith as a god who guides commercial success, business prosperity, and overall financial fortune. This is the main deity of Inari shrines, whom we commonly call 'Oinari-san (お稲荷さん)'.
+  - **Ichikishimahime-no-kami (市杵島姫神)**: The goddess of water, arts, and wealth. She is better known as 'Benzaiten (弁財天)', who is identified with the Hindu goddess Saraswati, and is said to have great power in bringing financial luck and fostering relationships. She is also the central deity of the 'Zeniarai (銭洗い, money washing)' faith at Koami Shrine.
+  - **Fukurokuju (福禄寿)**: One of the Seven Lucky Gods (七福神) who governs fortune (福), prosperity (禄), and longevity (寿), depicted as an old man with a gentle smile. He is an auspicious god who bestows blessings of flourishing descendants, wealth, and health and long life.
 
-참배는 '이례이박수일례(二礼二拍手一礼)'의 예법에 따라 진행합니다.
-1.  새전함에 새전(お賽銭)을 조용히 넣습니다.
-2.  두 번 깊이 허리를 숙여 절합니다 (二礼).
-3.  가슴 높이에서 두 번 손뼉을 칩니다 (二拍手).
-4.  손을 모으고 간절히 소원을 빕니다.
-5.  마지막으로 다시 한번 깊이 허리를 숙여 절합니다 (一礼).
+As such, Koami Shrine enshrines representative deities who govern wealth and fortune together, receiving absolute support from worshippers praying for increased financial and business luck.
 
-이곳에서 신을 향한 경의를 표하며, 마음속 깊은 소원을 전해보세요.
+#### **【Origins and History】**
 
-#### **【도쿄 제니아라이 벤텐 (東京銭洗い弁天)】**
+The history of Koami Shrine dates back about 550 years to the Muromachi period. Its beginning stemmed from a story that was like a miracle.
 
-배전 왼편에는 고아미 신사에서 가장 인기가 많은 파워스팟 중 하나인 '도쿄 제니아라이 벤텐'이 있습니다. 이곳에서는 **'만복의 우물(万福の井)'**이라 불리는 신성한 물이 솟아나는데, 이 물에 돈을 씻으면 재물운이 몇 배로 불어난다고 전해집니다.
+In the year 1466 (the first year of the Bunsei era), a terrible plague ravaged this area, causing countless people to die in agony. As the villagers fell into despair, helpless, a figure named Eshin Sozu (恵心僧都) appeared in the dream of a man who was a sailor and fisherman. He delivered a divine message: *"Go out to the sea now and cast your net. My statue will be caught in it. If the villagers devotedly enshrine that statue morning and night, the plague will disappear."*
 
-1.  경내에 마련된 소쿠리(ざる)에 동전이나 지폐를 넣습니다.
-2.  '만복의 우물'에서 흘러나오는 물로 돈을 정성껏 씻습니다.
-3.  깨끗한 손수건으로 물기를 닦아냅니다.
-4.  이렇게 정화된 돈(種銭, 타네제니)은 바로 사용하지 않고 지갑에 고이 넣어두면, 다른 돈을 불러 모으는 역할을 한다고 합니다.
+The next day, the fisherman, half in doubt, went out to sea and cast his net. Astonishingly, inside the net he pulled up were enshrined the divine statues of a radiant Benzaiten (Ichikishimahime-no-kami) and Inari Okami (Ukanomitama-no-kami). Following the oracle, he built a small hermitage (草庵) and enshrined the statues with great care. Then, as if by magic, the plague that had blanketed the village vanished in an instant.
 
-이 의식은 단순히 재물을 기원하는 행위를 넘어, 돈에 깃든 부정한 기운을 씻어내고 깨끗한 마음으로 재물을 맞이하겠다는 다짐의 의미를 담고 있습니다. 많은 사람들이 진지한 표정으로 돈을 씻는 모습은 그 자체로 인상적인 풍경입니다.
+This miraculous story spread quickly, and people began to call the small shrine **'Koami (小網)'**, meaning 'small net'. This is the origin story of Koami Shrine's founding.
 
-#### **【후쿠로쿠주 (福禄寿) 신상】**
+The miracles of Koami Shrine did not stop there. Even in modern history, the sacred power of the shrine has been proven several times.
 
-제니아라이 벤텐 바로 옆에는 칠복신 중 한 명인 후쿠로쿠주 신상이 온화한 미소로 참배객을 맞이합니다. '니혼바시 칠복신 순례(日本橋七福神めぐり)'의 일부이기도 한 이 신상은 건강장수, 인덕, 재복의 신으로 알려져 있습니다.
+- **The Miracle of the Great Kanto Earthquake**: In 1923, when the Great Kanto Earthquake turned Tokyo to ashes, all the surrounding buildings were engulfed in flames and collapsed. But miraculously, only the shrine building of Koami Shrine escaped the blaze and remained intact. It is said that the palace carpenters who were rebuilding the shrine at the time worked desperately to protect it and were able to survive thanks to the divine protection of the gods. The current shrine hall and worship hall were built at this time and are living witnesses of history that have overcome war and disaster.
 
-신상의 머리를 부드럽게 쓰다듬으며 건강과 장수를 기원하고, 몸통을 만지며 복을 기원해 보세요. 오랜 세월 수많은 사람들의 손길이 닿아 반질반질해진 신상의 모습에서 그 영험함이 느껴지는 듯합니다.
+- **The Miracle of the Tokyo Air Raids**: At the end of World War II, Tokyo became a sea of fire due to large-scale air raids by the US military. The Nihonbashi area was also devastated, but the area where Koami Shrine is located strangely escaped damage. The story of soldiers who went to war carrying the shrine's amulets (お守り) and all returned safely is very famous. As this story spread, Koami Shrine firmly established its reputation as a shrine of **'Goun-yakuyoke (強運厄除)'**, which wards off disasters and protects lives.
+
+Thus, the history of Koami Shrine, which has staunchly survived the great disasters of plague, earthquake, and war, makes one feel that it is imbued with a powerful divine protection that goes beyond mere coincidence. The intense life force and hopeful energy emanating from this small shrine are precisely why so many people visit this place.
 
 ---
 
-### 3. 📜 고슈인과 授与品：참배의 증표
+### 2. A Stroll Through the Precincts: Sights and Power Spots
 
-참배를 마쳤다면 그 증표로 고슈인(御朱印)을 받거나, 신의 가호를 담은 오마모리(お守り)를 받는 것도 신사 순례의 큰 즐거움입니다. 고아미 신사에는 그 명성에 걸맞은 특별한 수여품들이 많이 있습니다.
+Koami Shrine is a place where sacred energy is condensed within its cozy precincts. As you walk through the grounds following the order of worship, I hope you feel the meaning and blessings imbued in each spot with your whole body.
 
-#### **【고슈인(御朱印)】**
+#### **【Main Hall (Honden)・Worship Hall (Haiden)】**
 
-고아미 신사에서는 두 종류의 고슈인을 받을 수 있습니다.
+After passing through the torii gate and entering the precincts, the first thing that catches your eye is the Haiden (Worship Hall) located directly in front. Although this wooden building, which survived the flames of the Great Kanto Earthquake, is small in size, the intricacy and dignity of its carvings are overwhelming.
 
-*   **고아미 신사 고슈인**: 중앙에는 먹으로 힘차게 '小網神社(고아미 신사)'라고 쓰여 있으며, 오른쪽에는 **'強運厄除(강운액제)'**라는 붉은 도장이 찍혀있어 신사의 효험을 한눈에 알 수 있습니다.
-*   **벤자이텐 고슈인**: 중앙에는 '辨財天(변재천)'이라고 쓰여 있으며, **'東京銭洗い弁天(도쿄 제니아라이 벤텐)'** 도장이 함께 찍혀 있어 재물운 상승을 기원하는 이들에게 특히 인기가 많습니다.
+Particularly noteworthy are the carvings of the **'Ascending Dragon (昇り龍)' and 'Descending Dragon (降り龍)'** under the roof. The 'Ascending Dragon', which conveys the worshippers' wishes to the gods, and the 'Descending Dragon', which bestows the gods' virtues upon the worshippers, are representative symbols of Koami Shrine, symbolizing the blessings of Goun-yakuyoke. The dynamic appearance and delicate expression of the dragons are works of art created by the best palace carpenters of the time, and simply pausing to feel their energy seems to grant great strength.
 
-두 고슈인 모두 유려하면서도 힘이 느껴지는 서체가 특징이며, 참배의 소중한 기념이 될 것입니다. 특별한 기간에는 한정 고슈인이 배포되기도 하니, 방문 전에 공식 웹사이트를 확인해 보시는 것을 추천합니다.
+Worship is conducted according to the 'Nirei-nihakushu-ichirei' (two bows, two claps, one bow) etiquette.
 
-#### **【오마모리(お守り)・엔기모노(縁起物)】**
+1. Quietly place your offering (お賽銭, osaisen) into the offering box.
+2. Bow deeply from the waist twice (二礼, nirei).
+3. Clap your hands twice at chest height (二拍手, nihakushu).
+4. Put your hands together and pray earnestly.
+5. Finally, bow deeply from the waist once more (一礼, ichirei).
 
-고아미 신사는 독특하고 효험이 뛰어나기로 유명한 오마모리가 많아 선택의 즐거움이 있습니다.
+Here, express your respect for the gods and convey the deep wishes of your heart.
 
-*   **마유다마 미쿠지 (まゆ玉みくじ)**: 진짜 누에고치 안에 운세 종이(おみくじ)가 들어있는 독특한 형태의 미쿠지입니다. 누에가 실을 뽑아 고치를 만들듯, 좋은 인연과 운의 실을 강하게 끌어당긴다는 의미를 담고 있습니다. 둥글고 귀여운 모양 덕분에 기념품으로도 인기가 높습니다.
-*   **미미즈쿠 (みみずく, 부엉이) 부적**: '강운액제'의 효험을 담은 부엉이 모양의 부적입니다. 부엉이는 일본에서 '고생하지 않는다(不苦労, 후쿠로)'는 의미와 '복이 온다(福来郎, 후쿠로)'는 의미를 가진 길한 동물로 여겨집니다.
-*   **제니아라이노 카메 (銭洗いの龜) 부적**: 제니아라이 벤텐의 효험을 담은 거북이 모양의 작은 금속 부적입니다. 지갑에 넣어두면 재물운을 높여준다고 합니다.
-*   **유비와마모리 (指輪守, 반지 부적)**: 작은 반지 형태의 부적으로, 항상 몸에 지니며 신의 가호를 받을 수 있어 인기가 많습니다. 액운을 막고 좋은 인연을 맺어준다고 합니다.
+#### **【Tokyo Zeniarai Benten (東京銭洗い弁天)】**
 
-이 외에도 다양한 종류의 오마모리가 있으니, 자신의 소원에 맞는 것을 신중하게 골라 소중히 간직해 보세요.
+To the left of the Haiden is the 'Tokyo Zeniarai Benten', one of the most popular power spots at Koami Shrine. Here, sacred water called the **'Well of Manpuku (万福の井)'** (Well of Ten Thousand Fortunes) gushes forth, and it is said that washing money in this water will multiply one's financial luck several times over.
 
----
+1. Place coins or bills in the baskets (ざる, zaru) provided in the precincts.
+2. Carefully wash the money with the water flowing from the 'Well of Manpuku'.
+3. Wipe the money dry with a clean handkerchief.
+4. It is said that if you keep this purified money (種銭, Tane-zeni, or seed money) in your wallet without using it right away, it will attract other money.
 
-### 4. 🚶 함께 둘러볼 곳: 주변 명소와 맛집
+This ritual is more than just an act of praying for wealth; it carries the meaning of washing away the negative energy attached to money and vowing to welcome wealth with a pure heart. The sight of many people washing their money with serious expressions is an impressive scene in itself.
 
-고아미 신사가 위치한 니혼바시 닌교초(人形町) 지역은 에도 시대의 정취가 남아있는 매력적인 동네입니다. 참배를 마친 후, 주변을 산책하며 여행의 즐거움을 더해보세요.
+#### **【Statue of Fukurokuju (福禄寿)】**
 
-**1. 닌교초 아마자케 요코초 (人形町 甘酒横丁)**
-*   **추천 이유**: 고아미 신사에서 도보로 약 5분 거리에 있는 작은 상점가입니다. 전통 과자점, 공예품 가게, 맛있는 먹거리를 파는 가게들이 옹기종기 모여 있어 옛 도쿄의 정겨운 분위기를 느끼기에 더없이 좋은 곳입니다.
-*   **볼거리/먹거리**: 이름처럼 맛있는 아마자케(甘酒, 달콤한 식혜)를 맛볼 수 있으며, 갓 구운 닌교야키(人形焼)나 센베(煎餅)를 먹으며 거리를 구경하는 재미가 쏠쏠합니다.
+Right next to the Zeniarai Benten, a statue of Fukurokuju, one of the Seven Lucky Gods, greets worshippers with a gentle smile. This statue, which is also part of the 'Nihonbashi Seven Lucky Gods Pilgrimage (日本橋七福神めぐり)', is known as the god of health and longevity, virtue, and financial fortune.
 
-**2. 스이텐구 (水天宮)**
-*   **추천 이유**: 고아미 신사에서 도보로 약 10분 거리에 위치한 또 다른 유명 신사입니다. 순산과 아이의 건강을 기원하는 신사로 매우 유명하여, 항상 많은 임산부와 가족 단위 참배객들로 붐빕니다. 현대적이고 웅장한 신전 건축이 고아미 신사와는 또 다른 매력을 선사합니다.
-*   **가는 법**: 닌교초 역 방향으로 큰길을 따라 걷다 보면 쉽게 찾을 수 있습니다. 두 신사를 함께 방문하며 각기 다른 신의 효험과 분위기를 비교해 보는 것도 흥미로운 경험이 될 것입니다.
-
-**3. 타마히데 (玉ひで)**
-*   **추천 이유**: 1760년에 창업한 닭 요리 전문점으로, 오야코동(親子丼)의 원조로 알려진 전설적인 맛집입니다. 점심시간에는 이곳의 명물인 '겐소 오야코동(元祖親子丼)'을 맛보기 위해 긴 줄이 늘어서는 진풍경이 벌어집니다.
-*   **대표 메뉴**: 진하고 깊은 맛의 육수와 부드러운 닭고기, 반숙 계란의 조화가 일품인 오야코동은 기다림의 수고를 잊게 할 만큼 훌륭한 맛을 자랑합니다. 고아미 신사 참배 후 특별한 점심 식사를 원한다면 최고의 선택이 될 것입니다.
+Gently stroke the statue's head to pray for health and longevity, and touch its body to pray for good fortune. The statue, polished smooth by the hands of countless people over many years, seems to exude its divine power.
 
 ---
 
-### 5. 🗺️ 오시는 길 및 기본 정보
+### 3. 📜 Goshuin and Juyohin: Proof of Your Visit
 
-| 항목 | 내용 |
-|:---|:---|
-| **소재지** | 〒103-0016 東京都中央区日本橋小網町16-23 |
-| **가까운 역** | 도쿄 메트로 히비야선 "닌교초(人形町)역" A2 출구에서 도보 약 5분<br>도에이 아사쿠사선 "닌교초(人形町)역" A5 출구에서 도보 약 7분<br>도쿄 메트로 한조몬선 "스이텐구마에(水天宮前)역" 8번 출구에서 도보 약 10분 |
-| **참배 시간** | 경내 참배는 24시간 가능 (야간에는 조용히 참배) |
-| **사무소 운영 시간**| 09:00～18:00 (고슈인, 수여품 등) |
-| **공식 웹사이트** | [https://www.koamijinja.or.jp/](https://www.koamijinja.or.jp/) |
+After finishing your worship, receiving a Goshuin (御朱印) as proof or an Omamori (お守り) containing the divine protection of the gods is another great pleasure of a shrine pilgrimage. Koami Shrine has many special items befitting its reputation.
+
+#### **【Goshuin (御朱印)】**
+
+You can receive two types of Goshuin at Koami Shrine.
+
+- **Koami Shrine Goshuin**: '小網神社 (Koami Jinja)' is powerfully written in the center with ink, and a red seal with **'強運厄除 (Goun-yakuyoke)'** is stamped on the right, showing the shrine's blessings at a glance.
+- **Benzaiten Goshuin**: '辨財天 (Benzaiten)' is written in the center, and the **'東京銭洗い弁天 (Tokyo Zeniarai Benten)'** seal is stamped alongside it, making it particularly popular among those wishing for increased financial luck.
+
+Both Goshuin feature calligraphy that is both elegant and powerful, and they will become a precious memento of your visit. Limited edition Goshuin may be available during special periods, so it is recommended to check the official website before your visit.
+
+#### **【Omamori (お守り) & Engimono (縁起物)】**
+
+Koami Shrine offers a wide variety of unique and effective Omamori, making the selection process enjoyable.
+
+- **Mayudama Mikuji (まゆ玉みくじ)**: A unique form of fortune slip (おみくじ, omikuji) where the paper fortune is inside a real silkworm cocoon. Just as a silkworm spins thread to make a cocoon, it holds the meaning of strongly pulling the threads of good relationships and luck. Its round, cute shape makes it a popular souvenir.
+- **Mimizuku (みみずく, Owl) Charm**: An owl-shaped charm containing the blessings of 'Goun-yakuyoke'. In Japan, the owl is considered an auspicious animal because its name, 'fukurou', is a pun for 'no hardship' (不苦労) and 'fortune comes' (福来郎).
+- **Zeniarai no Kame (銭洗いの龜) Charm**: A small metal turtle-shaped charm containing the blessings of the Zeniarai Benten. It is said to increase financial luck when kept in a wallet.
+- **Yubiwamamori (指輪守, Ring Charm)**: A small ring-shaped charm that is popular because it can always be worn to receive divine protection. It is said to ward off evil and bring good relationships.
+
+In addition to these, there are various other types of Omamori, so take your time to carefully choose the one that matches your wish and cherish it.
 
 ---
 
-### 6. ✨ 맺음말: 마음에 남는 참배 경험
+### 4. 🚶 Places to Visit Nearby: Attractions and Restaurants
 
-고아미 신사는 도쿄의 심장부에서 만날 수 있는 작지만 강한 성지입니다. 역병과 대화재, 전쟁의 포화 속에서도 기적처럼 살아남아 사람들을 지켜온 그 역사는, 이곳에 깃든 신의 힘이 얼마나 강력한지를 묵묵히 증명하고 있습니다.
+The Nihonbashi Ningyocho (人形町) area, where Koami Shrine is located, is a charming neighborhood that retains the atmosphere of the Edo period. After your visit to the shrine, take a walk around the area to add more enjoyment to your trip.
 
-강운액제(強運厄除)와 재물운 상승의 영험함은 물론, 경내를 가득 채운 고요하고 신성한 기운은 잠시나마 일상의 번잡함을 잊고 마음의 평화를 얻게 해줍니다. 용맹한 용 조각 아래에서 소원을 빌고, 맑은 물에 돈을 씻으며 새로운 복을 기원하는 경험은 분명 여러분의 마음에 깊은 울림을 남길 것입니다.
+**1. Ningyocho Amazake Yokocho (人形町 甘酒横丁)**
 
-도쿄 여행을 계획하고 있다면, 혹은 삶의 전환점에서 강력한 운의 기운이 필요하다면, 시간을 내어 고아미 신사를 찾아보세요. 그 작은 경내에서 당신은 분명 기대 이상의 큰 힘과 위안을 얻게 될 것입니다.
+- **Why it's recommended**: A small shopping street located about a 5-minute walk from Koami Shrine. Traditional sweet shops, craft stores, and shops selling delicious food are gathered together, making it a perfect place to feel the friendly atmosphere of old Tokyo.
+- **What to see/eat**: As the name suggests, you can taste delicious amazake (甘酒, a sweet fermented rice drink). It's also fun to explore the street while eating freshly baked Ningyoyaki (人形焼) or Senbei (煎餅).
+
+**2. Suitengu Shrine (水天宮)**
+
+- **Why it's recommended**: Another famous shrine located about a 10-minute walk from Koami Shrine. It is very famous as a shrine for praying for safe childbirth and the health of children, and is always bustling with many expectant mothers and families. The modern and magnificent shrine architecture offers a different charm from Koami Shrine.
+- **How to get there**: You can easily find it by walking along the main street in the direction of Ningyocho Station. Visiting both shrines and comparing the different divine blessings and atmospheres can be an interesting experience.
+
+**3. Tamahide (玉ひで)**
+
+- **Why it's recommended**: A chicken specialty restaurant founded in 1760, known as the legendary originator of Oyakodon (親子丼). During lunchtime, a long line forms to taste its famous 'Ganso Oyakodon (元祖親子丼)', creating a remarkable scene.
+- **Signature dish**: The Oyakodon, with its rich and deep-flavored broth, tender chicken, and perfectly soft-boiled egg, boasts a superb taste that makes the wait worthwhile. If you want a special lunch after visiting Koami Shrine, this would be the best choice.
+
+---
+
+### 5. 🗺️ Access and Basic Information
+
+| Item                | Details                                                                                                                                                                                                   |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Address**         | 16-23 Nihonbashikoamicho, Chuo City, Tokyo 103-0016, Japan                                                                                                                                                 |
+| **Nearest Station** | Tokyo Metro Hibiya Line "Ningyocho Station", approx. 5-min walk from Exit A2<br>Toei Asakusa Line "Ningyocho Station", approx. 7-min walk from Exit A5<br>Tokyo Metro Hanzomon Line "Suitengumae Station", approx. 10-min walk from Exit 8 |
+| **Worship Hours**   | The precincts are open for worship 24 hours a day (please be quiet at night)                                                                                                                             |
+| **Office Hours**    | 09:00～18:00 (for Goshuin, amulets, etc.)                                                                                                                                                                 |
+| **Official Website**| [https://www.koamijinja.or.jp/](https://www.koamijinja.or.jp/)                                                                                                                                             |
+
+---
+
+### 6. ✨ Conclusion: A Memorable Worship Experience
+
+Koami Shrine is a small yet powerful sacred place you can encounter in the heart of Tokyo. Its history of miraculously surviving plagues, great fires, and the devastation of war to protect people silently proves how strong the power of the gods enshrined here is.
+
+Beyond its divine blessings of Goun-yakuyoke (Strong Luck and Warding off Evil) and increased financial fortune, the quiet and sacred atmosphere that fills the precincts allows you to forget the hustle and bustle of daily life for a moment and find peace of mind. The experience of making a wish under the valiant dragon carvings and praying for new fortune while washing money in the clear water will surely leave a deep impression on your heart.
+
+If you are planning a trip to Tokyo, or if you are at a turning point in your life and need a powerful boost of luck, take the time to visit Koami Shrine. In its small precincts, you will surely receive greater strength and comfort than you expect.

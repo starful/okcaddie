@@ -401,3 +401,88 @@ footer {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* ... 기존 스타일 ... */
+
+/* Theme Filter Buttons */
+.theme-filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* 간격 조금 넓힘 */
+    padding: 0 15px;
+}
+
+.theme-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #555;
+    border-radius: 30px; /* 더 둥글게 */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex; /* 뱃지 정렬을 위해 flex 사용 */
+    align-items: center;
+    gap: 6px;
+}
+
+/* [추가] 건수 뱃지 스타일 */
+.count-badge {
+    background-color: #eee;
+    color: #666;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+/* 버튼이 활성화되었을 때 뱃지 스타일 */
+.theme-button.active .count-badge {
+    background-color: rgba(255, 255, 255, 0.3); /* 반투명 흰색 */
+    color: #fff;
+}
+
+/* --- Status Bar Styles --- */
+.status-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px; /* 로고와 필터 버튼 사이 여백 */
+    flex-wrap: wrap;
+}
+
+.status-badge {
+    background-color: rgba(51, 51, 51, 0.08); /* 연한 회색 배경 */
+    color: #555;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* 강조 뱃지 (Updating Weekly) */
+.status-badge.highlight {
+    background-color: #fff8e1; /* 연한 노란색 배경 */
+    color: #d35400; /* 주황색 텍스트 */
+    border-color: #ffe0b2;
+}
+
+/* 다크 모드 느낌을 원하시면 아래 주석을 해제하세요 */
+/*
+.status-badge {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+.status-badge.highlight {
+    background-color: #d35400;
+    color: white;
+}
+*/
+/* ... 나머지 스타일 ... */

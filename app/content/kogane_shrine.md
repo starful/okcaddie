@@ -1,136 +1,149 @@
 ---
 layout: post
-title: "황금빛 도리이가 부르는 풍요의 약속, 기후 '고가네 신사' 완벽 가이드"
+title: "The Golden Torii's Promise of Abundance: A Complete Guide to Gifu's 'Kogane Shrine'"
 date: 2025-11-30
-categories: [재물, 성공, 역사]
-tags: [기후현, 기후시, 고가네신사, 금전운, 사업번창, 황금도리이, 파워스팟, 한정고슈인]
+categories: [Wealth, Success, History]
+tags:
+  [
+    Gifu Prefecture,
+    Gifu City,
+    Kogane Shrine,
+    Financial Luck,
+    Business Prosperity,
+    Golden Torii,
+    Power Spot,
+    Limited Goshuin,
+  ]
 thumbnail: /content/images/kogane_shrine.webp
 lat: 35.419614
 lng: 136.758062
-address: 기후현 기후시 고가네마치 5초메 3 (〒500-8842)
-excerpt: 자신의 전 재산을 털어 백성을 구한 자애로운 여신의 전설이 깃든 곳. 기후 시내 한복판, 압도적인 황금빛 도리이와 매월 마지막 금요일에만 받을 수 있는 '한정판 고슈인'이 있는 금전운 최강 성지로 안내합니다.
+address: 5-chome-3 Kogane-machi, Gifu City, Gifu Prefecture (〒500-8842)
+excerpt: This is a place steeped in the legend of a benevolent goddess who saved her people by giving away her entire fortune. We guide you to the ultimate sacred site for financial luck, located in the heart of Gifu City, featuring a stunning golden torii and a 'limited edition Goshuin' available only on the last Friday of each month.
 ---
 
-기후(岐阜)시의 중심가, 분주한 일상의 소음이 잠시 멎는 곳에 고요히 자리한 성지가 있습니다. 그 이름은 **'고가네 신사(金神社)'**. 황금빛으로 빛나는 이름만큼이나 참배객들의 마음에 풍요와 희망의 빛을 드리우는 곳입니다.
+In the center of Gifu (岐阜) City, where the hustle and bustle of daily life momentarily subsides, lies a tranquil sacred site. Its name is **'Kogane Shrine (金神社)'**. Just as its name shines with the brilliance of gold, it casts a light of abundance and hope into the hearts of its worshipers.
 
-이곳은 단순히 금전운을 기원하는 장소를 넘어, 한 여신의 숭고한 헌신과 지역을 향한 깊은 사랑이 깃든 역사의 현장입니다. 오늘 우리는 시간의 강을 거슬러, 고가네 신사의 문을 열고 그 안에 담긴 신화와 믿음, 그리고 경내 곳곳에 스며있는 신비로운 기운을 함께 느껴보고자 합니다. 지갑의 풍요뿐만 아니라 마음의 풍요까지 채워줄 특별한 순례, 지금부터 시작합니다.
-
----
-
-### 1. 🙏 제신과 유래: 신사의 심장부를 만나다
-
-신사를 이해하는 첫걸음은 그곳에 모셔진 신, 즉 제신(御祭神)을 아는 것에서부터 시작됩니다. 고가네 신사의 심장부에는 어떤 신들이 좌정하고 있으며, 어떤 이야기가 우리를 기다리고 있을까요?
-
-#### **【모시는 신 (御祭神)】**
-
-고가네 신사에서 주로 모시는 신은 **누노시히메노미코토(渟熨斗姫命)**라는 여신입니다.
-
-많은 분들에게는 다소 생소한 이름일 수 있지만, 그녀는 일본의 제11대 스이닌(垂仁) 천황의 황후인 히바스히메노미코토(日葉酢媛命)의 딸이자, 이니시키이리히코노미코토(五十瓊敷入彦命)의 아내입니다. 이와 함께 남편과 시어머니도 함께 모셔져 있습니다.
-
-이 세 신이 함께 자리하며, 고가네 신사는 다음과 같은 강력한 효험(ご利益)을 지닌 것으로 널리 알려져 있습니다.
-
-*   **금전운 상승 및 재산 형성**: 신사의 이름과 유래에서 알 수 있듯 가장 대표적인 효험입니다.
-*   **사업 번창 및 상업 번성**: 지역 경제와 산업을 부흥시킨 여신의 이야기에서 비롯되었습니다.
-*   **가정의 평안과 원만한 인간관계**: 가족 신들이 함께 모셔져 있어 가정의 화목을 지켜준다고 믿어집니다.
-
-#### **【유래와 역사: 황금을 내어놓은 자애로운 여신】**
-
-고가네 신사의 역사는 일본의 신화 시대까지 거슬러 올라가는 장대한 서사시와 같습니다. 그 시작은 약 1900년 전, 제13대 게이코(景行) 천황 시절의 일입니다.
-
-당시 이 지역, 즉 미노(美濃) 지방에는 '무쓰노카미'라는 강력한 토착 세력이 백성들을 괴롭히고 있었습니다. 이에 천황은 자신의 아들인 이니시키이리히코노미코토에게 토벌을 명했고, 황자는 아내 누노시히메노미코토와 함께 미노 땅으로 향했습니다.
-
-황자는 마침내 적을 토벌하는 데 성공하지만, 오랜 전쟁으로 미노 땅은 황폐해질 대로 황폐해져 있었습니다. 농지는 망가지고, 백성들은 굶주림과 가난에 허덕였습니다. 전쟁은 이겼지만, 사람들의 얼굴에는 수심이 가득했습니다.
-
-이 모습을 가슴 아프게 지켜보던 누노시히메노미코토는 위대한 결단을 내립니다. 바로 **자신이 시집올 때 가져온 모든 개인 재산, 즉 황금과 보물들을 아낌없이 내어놓은 것입니다.**
-
-그녀는 그 재산을 사용하여 황무지를 개간하고, 수로를 정비하여 농업을 장려했습니다. 굶주린 이들에게는 식량을 나누어 주었습니다. 그녀의 사재(私財)는 절망에 빠진 사람들에게 새로운 삶을 시작할 수 있는 희망의 씨앗이 되었습니다. 그녀의 헌신 덕분에 미노 땅은 점차 활기를 되찾았고, 사람들의 얼굴에는 다시금 미소가 피어났습니다.
-
-백성들은 자신들을 구원한 이 자비로운 여신을 진심으로 존경하여, 그녀가 처음 터를 잡았던 이곳에 신사를 세워 모시기로 했습니다. 그녀가 **'금(金)'**을 사용하여 지역을 풍요롭게 했다는 이야기에서 유래하여, 신사의 이름은 자연스럽게 **'고가네 신사(金神社)'**가 되었습니다.
-
-이처럼 고가네 신사의 '금운'은 단순히 개인의 욕망을 채우는 것을 넘어, '나의 풍요가 곧 공동체의 풍요로 이어진다'는 숭고한 나눔 정신에 그 뿌리를 두고 있습니다. 그렇기에 이곳에서의 기도는 더욱 깊은 의미를 지니며, 많은 경영자와 사업가들이 사회적 책임을 다짐하기 위해 이곳을 찾는다고 합니다.
+This place is more than just a spot to pray for financial luck; it is a historical site imbued with the noble devotion of a goddess and her deep love for the region. Today, we will travel back through the river of time, open the gates of Kogane Shrine, and together experience the myths, beliefs, and mystical energy that permeate its grounds. A special pilgrimage that promises to enrich not only your wallet but also your soul begins now.
 
 ---
 
-### 2. 境内 산책: 볼거리와 파워스팟
+### 1. 🙏 Deities and Origins: Encountering the Heart of the Shrine
 
-고가네 신사의 경내는 그 역사만큼이나 깊은 매력을 품고 있습니다. 참배의 길을 따라 걸으며, 신성한 기운이 깃든 장소들을 하나씩 만나보겠습니다.
+The first step to understanding a shrine is to know the deity, or *Gosaishin* (御祭神), enshrined there. What gods are seated at the heart of Kogane Shrine, and what stories await us?
 
-#### **【황금빛 대형 도리이 (大鳥居)】**
+#### **【Enshrined Deities (御祭神)】**
 
-신사의 입구에 들어서면 가장 먼저 시선을 압도하는 것이 바로 거대한 황금빛 도리이입니다. 세속의 세계와 신의 영역을 구분하는 경계인 도리이가 선명한 황금색으로 칠해져 있는 모습은 고가네 신사의 정체성을 단적으로 보여줍니다.
+The primary deity enshrined at Kogane Shrine is the goddess **Nunoshihime-no-mikoto (渟熨斗姫命)**.
 
-맑은 날 햇살을 받아 반짝이는 이 도리이를 통과하는 순간, 마음속에 재물과 풍요의 기운이 가득 차오르는 듯한 특별한 경험을 하게 됩니다. 이곳은 최고의 포토 스팟이기도 하니, 본격적인 참배 전 기념사진을 남겨보세요.
+While her name may be unfamiliar to many, she is the daughter of Empress Hibasuhime-no-mikoto (日葉酢媛命), the consort of Japan's 11th Emperor Suinin (垂仁), and the wife of Inishikiirihiko-no-mikoto (五十瓊敷入彦命). Her husband and mother-in-law are also enshrined alongside her.
 
-#### **【본전(本殿)・배전(拝殿)】**
+With these three deities enshrined together, Kogane Shrine is widely known for the following powerful blessings (*goriyaku*):
 
-도리이를 지나 참배로를 따라 걷다 보면, 장엄하면서도 차분한 분위기의 배전(拝殿)이 모습을 드러냅니다. 이곳에서 일본 신사 참배의 기본 예법인 **'니레이 니하쿠슈 이치레이(二礼二拍手一礼)'**에 따라 참배를 드립니다.
+- **Increased financial luck and wealth building**: This is the most representative blessing, as indicated by the shrine's name and origin.
+- **Business and commercial prosperity**: Derived from the story of the goddess who revitalized the local economy and industry.
+- **Household peace and harmonious relationships**: It is believed that the family of deities enshrined together protects the harmony of the home.
 
-1.  **니레이(二礼)**: 허리를 90도로 굽혀 두 번 깊이 절합니다.
-2.  **니하쿠슈(二拍手)**: 가슴 높이에서 양손을 모으고, 오른손을 살짝 아래로 내려 두 번 손뼉을 칩니다. 그리고 다시 손을 모아 간절한 마음으로 소원을 빕니다.
-3.  **이치레이(一礼)**: 마지막으로 다시 한번 깊이 절하며 예를 마칩니다.
+#### **【Origins and History: The Benevolent Goddess Who Gave Away Gold】**
 
-#### **【숨겨진 명소・파워스팟】**
+The history of Kogane Shrine is like a grand epic that traces back to Japan's mythological era. It began about 1,900 years ago, during the reign of the 13th Emperor Keikō (景行).
 
-*   **경내사 에비스 신사 (恵比寿神社)**
-    배전 옆에는 작은 규모의 에비스 신사가 자리하고 있습니다. 에비스는 칠복신(七福神) 중 하나로, 상업 번성과 어업의 신입니다. 고가네 신사의 주신이 산업 전반의 부흥을 관장한다면, 에비스 신은 구체적인 상업 활동에서의 성공을 도와준다고 하니 두 곳 모두 참배하여 시너지 효과를 노려보세요.
+At that time, in this region, the Mino (美濃) Province, a powerful local clan known as 'Mutsunokami' was oppressing the people. In response, the emperor ordered his son, Inishikiirihiko-no-mikoto, to subdue them. The prince headed to the land of Mino with his wife, Nunoshihime-no-mikoto.
 
-*   **신목 은행나무 (ご神木のイチョウ)**
-    경내에는 하늘을 향해 곧게 뻗은 거대한 은행나무가 신목(ご神木)으로 모셔져 있습니다. 수백 년의 세월 동안 신사를 지켜온 이 나무는 생명력과 번영의 상징입니다. 특히 가을이 되면 나무 전체가 황금빛으로 물들어, 마치 신사의 이름 '고가네(金)'를 온몸으로 증명하는 듯한 장관을 연출합니다. 나무의 기운을 느끼며 건강과 꾸준한 성장을 기원해 보세요.
+The prince eventually succeeded in defeating the enemy, but the long war had left the land of Mino utterly devastated. Farmland was ruined, and the people suffered from hunger and poverty. Although the war was won, the faces of the people were filled with sorrow.
 
----
+Nunoshihime-no-mikoto, who watched this with a heavy heart, made a great decision. She decided to give away **all the personal property she had brought with her at marriage—her gold and treasures—without hesitation.**
 
-### 3. 📜 고슈인과 수여품(授与品)：참배의 증표
+She used this wealth to reclaim wastelands and improve waterways to encourage agriculture. She distributed food to the hungry. Her private fortune became a seed of hope for people mired in despair, allowing them to start new lives. Thanks to her devotion, the land of Mino gradually regained its vitality, and smiles returned to the faces of its people.
 
-참배를 마쳤다면, 그 증표로 신사의 특별한 기운을 담아 갈 차례입니다. 고가네 신사에서는 참배객들의 마음을 사로잡는 독특한 고슈인과 수여품을 만날 수 있습니다.
+The people, who sincerely revered this merciful goddess who had saved them, decided to build a shrine on the site where she first settled to enshrine her. Based on the story that she used **'gold (金)'** to enrich the region, the shrine's name naturally became **'Kogane Shrine (金神社)'**.
 
-#### **【고슈인(御朱印)】**
-
-고가네 신사의 고슈인은 그 명성에 걸맞게 매우 특별합니다.
-
-*   **통상 고슈인**: 중앙에는 힘찬 필체로 '金神社'라는 글씨가 쓰여 있고, 그 위로 신사의 붉은 인장이 찍힙니다.
-*   **프리미엄 프라이데이 한정 고슈인 (プレミアム金デー御朱印)** ★강력 추천★
-    고가네 신사를 특별하게 만드는 최고의 명물입니다. 매월 마지막 금요일, 즉 '프리미엄 프라이데이'에만 받을 수 있는 이 고슈인은 그야말로 예술 작품입니다. '금요일(金曜日)'의 '금(金)'자와 신사의 '금(金)'자를 연결한 재치 있는 아이디어로, **금박이나 금색 잉크**를 사용하여 화려하게 제작됩니다. 매번 디자인이 조금씩 바뀌기도 해, 이 고슈인을 받기 위해 전국의 수집가들이 일부러 날짜를 맞춰 방문할 정도입니다.
-
-#### **【오마모리(お守り)・엔기모노(縁起物)】**
-
-*   **금운 상승 부적 (金運御守)**: 가장 기본적이면서도 인기가 높은 부적입니다. 금색 실로 화려하게 수놓아진 주머니 형태로, 지니고 있으면 재물이 들어오고 불필요한 지출을 막아준다고 합니다.
-*   **황금알 부적 (金の御卵守)**: 작고 동그란 황금알 모양의 독특한 부적입니다. 당신의 재능과 노력이 결실을 맺어 큰 재산으로 '부화'하기를 기원하는 의미를 담고 있습니다. 귀여운 모습 덕분에 선물용으로도 인기입니다.
-*   **카드형 재산 형성 부적 (資産形成お守り)**: 현대인의 생활 방식에 맞춰 지갑에 쏙 들어가는 카드 형태로 제작된 부적입니다. 신용카드와 함께 보관하며 항상 재물운의 가호를 받을 수 있습니다.
+Thus, the 'financial luck' of Kogane Shrine goes beyond fulfilling personal desires; it is rooted in the noble spirit of sharing, where 'my abundance leads to the community's abundance.' That is why prayers here carry a deeper meaning, and many executives and business owners are said to visit this place to pledge their social responsibility.
 
 ---
 
-### 4. 🚶 함께 둘러볼 곳: 주변 명소와 맛집
+### 2. 境内 A Stroll Through the Grounds: Sights and Power Spots
 
-고가네 신사 참배를 마쳤다면, 기후시의 다채로운 매력을 더 깊이 즐겨볼 시간입니다.
+The grounds of Kogane Shrine hold a charm as deep as its history. Let's walk the path of worship and discover the places imbued with sacred energy, one by one.
 
-**1. 기후 성 (岐阜城)**
-*   **추천 이유**: 전국시대 영웅 오다 노부나가(織田信長)가 천하 통일의 거점으로 삼았던 성입니다. 긴카산(金華山) 정상의 천수각에서 내려다보는 기후 시내와 나가라가와(長良川)의 전경은 절경입니다. 고가네 신사에서 번영을 기원한 뒤, 이 땅을 호령했던 영웅의 발자취를 따라가 보세요.
-*   **가는 방법**: 신사 근처에서 버스로 기후 공원(岐阜公園) 이동 후 로프웨이 탑승.
+#### **【The Giant Golden Torii (大鳥居)】**
 
-**2. 가와라마치 옛 거리 (川原町)**
-*   **추천 이유**: 나가라가와 강변을 따라 에도 시대의 상점가 모습을 간직한 운치 있는 거리입니다. 전통 공예품점, 세련된 카페, 그리고 기후 명물인 '아유(은어)' 요리 전문점들이 즐비합니다.
-*   **가는 방법**: 신사에서 도보 약 20분 또는 버스 이용.
+Upon entering the shrine, the first thing that captures the eye is the massive, brilliant golden torii. The torii, which marks the boundary between the secular world and the divine realm, is painted in a vivid gold, starkly representing the identity of Kogane Shrine.
 
-**3. 기후 미디어 코스모스 (みんなの森 ぎふメディアコスモス)**
-*   **추천 이유**: 세계적인 건축가 이토 도요가 설계한 아름다운 복합 문화 시설입니다. 물결치는 목조 지붕과 독특한 인테리어의 도서관은 그 자체로 예술 작품입니다. 스타벅스에서 커피 한 잔 하며 쉬어가기 좋은 힐링 공간입니다.
-*   **가는 방법**: 신사에서 도보 약 10분.
+The moment you pass through this torii, glittering in the sunlight on a clear day, you'll have a special experience, as if your heart is being filled with the energy of wealth and abundance. This is also a prime photo spot, so be sure to take a commemorative picture before your formal worship.
 
----
+#### **【Main Hall (Honden) & Worship Hall (Haiden)】**
 
-### 5. 🗺️ 오시는 길 및 기본 정보
+After passing through the torii and walking along the approach, the solemn yet serene Worship Hall (拝殿) comes into view. Here, you will offer your prayers according to the basic etiquette of Japanese shrine worship, **'nirei nihakushu ichirei (二礼二拍手一礼)'**.
 
-| 항목 | 내용 |
-|:---|:---|
-| **소재지** | 〒500-8842 岐阜県岐阜市金町5丁目3番地 (기후현 기후시 고가네마치 5초메 3) |
-| **가까운 역** | JR **"기후(岐阜)역"** 또는 메이테츠 **"기후(名鉄岐阜)역"**에서 도보 약 15분 |
-| **버스 이용 시** | 기후역 버스 터미널에서 "기후 버스" 탑승, **"文化センター金神社前"** 정류장 하차 바로 앞 |
-| **참배 시간** | 06:00～20:00 (사무소 운영 시간은 09:00~17:00) |
-| **공식 웹사이트** | `http://koganejinjya.com/` |
+1.  **Nirei (二礼)**: Bow deeply twice at a 90-degree angle.
+2.  **Nihakushu (二拍手)**: Bring your hands together at chest height, slide your right hand down slightly, and clap twice. Then, bring your hands together again and make your wish with a sincere heart.
+3.  **Ichirei (一礼)**: Finally, bow deeply once more to conclude the prayer.
+
+#### **【Hidden Gems & Power Spots】**
+
+- **Ebisu Shrine (恵比寿神社), a subordinate shrine**
+  Next to the Worship Hall, there is a small Ebisu Shrine. Ebisu is one of the Seven Lucky Gods (七福神), the god of commerce and fishing. While the main deity of Kogane Shrine oversees the revival of industry as a whole, Ebisu Shrine is said to help with success in specific business activities. Be sure to pray at both for a synergistic effect.
+
+- **The Sacred Ginkgo Tree (ご神木のイチョウ)**
+  Within the grounds, a giant ginkgo tree stretching straight towards the sky is revered as a sacred tree (*goshimboku*). This tree, which has watched over the shrine for hundreds of years, is a symbol of vitality and prosperity. Especially in autumn, the entire tree turns a golden yellow, creating a magnificent spectacle as if proving the shrine's name 'Kogane (Gold)' with its entire being. Feel the tree's energy and pray for health and steady growth.
 
 ---
 
-### 6. ✨ 맺음말: 마음에 남는 참배 경험
+### 3. 📜 Goshuin and Charms (授与品): A Proof of Your Visit
 
-고가네 신사(金神社)는 단순히 '돈'을 기원하는 장소가 아니었습니다. 그곳은 한 여신의 숭고한 헌신이 지역 사회에 풍요를 가져온 역사의 증거이자, 나눔과 상생의 가치를 일깨워주는 성스러운 공간이었습니다.
+After finishing your worship, it's time to take home the special energy of the shrine as a token of your visit. At Kogane Shrine, you can find unique goshuin and charms that captivate the hearts of visitors.
 
-황금빛 도리이를 지나 경내에 발을 들였을 때 느꼈던 경건함, 수백 년 된 신목 아래에서 느꼈던 자연의 위대함, 그리고 누노시히메노미코토의 이야기에 담긴 따뜻한 마음이 오랫동안 기억에 남을 것 같습니다. 이곳에서의 참배는 우리에게 진정한 '풍요'란 지갑을 채우는 것을 넘어, 주변과 나누고 함께 성장하는 것임을 알려줍니다. 기후를 방문하신다면, 꼭 고가네 신사에 들러 당신만의 풍요를 기원해 보시길 바랍니다.
+#### **【Goshuin (御朱印)】**
+
+The goshuin of Kogane Shrine are, fittingly for its reputation, very special.
+
+- **Standard Goshuin**: The characters for '金神社' (Kogane Jinja) are written in powerful calligraphy in the center, with the shrine's red seal stamped over them.
+- **Limited Edition Premium "Kin" Day Goshuin (プレミアム金デー御朱印)** ★Highly Recommended★
+  This is the ultimate specialty that makes Kogane Shrine unique. Available only on the last Friday of each month, or 'Premium Friday', this goshuin is truly a work of art. It's a clever idea linking the 'Kin' (金) from Friday (金曜日, Kinyōbi) with the 'Kin' (金) from the shrine's name, and it is lavishly created using **gold foil or gold ink**. The design changes slightly each time, so collectors from all over the country make a point of visiting on this specific day just to receive it.
+
+#### **【Omamori (お守り) & Engimono (縁起物)】**
+
+- **Financial Luck Amulet (金運御守)**: This is the most basic yet most popular amulet. It comes in a pouch lavishly embroidered with gold thread and is said to attract wealth and prevent unnecessary spending when carried.
+- **Golden Egg Charm (金の御卵守)**: A unique charm in the shape of a small, round golden egg. It carries the wish that your talents and efforts will bear fruit and 'hatch' into great wealth. Its cute appearance makes it a popular gift.
+- **Card-type Wealth Building Charm (資産形成お守り)**: Designed to fit modern lifestyles, this card-shaped charm slips perfectly into a wallet. You can keep it with your credit cards to always receive the blessings of financial luck.
+
+---
+
+### 4. 🚶 Exploring the Area: Nearby Attractions and Restaurants
+
+Once you've finished your visit to Kogane Shrine, it's time to delve deeper into the diverse charms of Gifu City.
+
+**1. Gifu Castle (岐阜城)**
+
+- **Why it's recommended**: This was the castle that the Warring States hero Oda Nobunaga (織田信長) used as his base for unifying Japan. The panoramic view of Gifu City and the Nagara River (長良川) from the castle keep atop Mount Kinka (金華山) is spectacular. After praying for prosperity at Kogane Shrine, follow the footsteps of the hero who once commanded this land.
+- **How to get there**: Take a bus from near the shrine to Gifu Park (岐阜公園), then take the ropeway up.
+
+**2. Kawaramachi Old Street (川原町)**
+
+- **Why it's recommended**: This is a charming street along the Nagara River that preserves the appearance of an Edo-period merchant town. It's lined with traditional craft shops, stylish cafes, and restaurants specializing in Gifu's famous 'Ayu' (sweetfish) cuisine.
+- **How to get there**: About a 20-minute walk or a short bus ride from the shrine.
+
+**3. Gifu Media Cosmos (みんなの森 ぎふメディアコスモス)**
+
+- **Why it's recommended**: A beautiful multi-purpose cultural facility designed by world-renowned architect Toyo Ito. The undulating wooden roof and the library's unique interior are works of art in themselves. It's a great healing space to relax with a cup of coffee from Starbucks.
+- **How to get there**: About a 10-minute walk from the shrine.
+
+---
+
+### 5. 🗺️ Access and Basic Information
+
+| Item              | Details                                                                                 |
+| :---------------- | :-------------------------------------------------------------------------------------- |
+| **Address**       | 5-chome-3 Kogane-machi, Gifu City, Gifu Prefecture 〒500-8842                             |
+| **Nearest Station**| Approx. 15-minute walk from JR **"Gifu Station"** or Meitetsu **"Meitetsu Gifu Station"** |
+| **By Bus**        | From Gifu Station Bus Terminal, take a "Gifu Bus" and get off at **"Bunkacenter Kogane-jinja-mae"** stop, right in front. |
+| **Worship Hours** | 06:00～20:00 (Office hours are 09:00~17:00)                                           |
+| **Official Website**| `http://koganejinjya.com/`                                                              |
+
+---
+
+### 6. ✨ Conclusion: A Memorable Worship Experience
+
+Kogane Shrine (金神社) was not simply a place to pray for 'money.' It was a testament to the history of a goddess's noble devotion bringing prosperity to a community, and a sacred space that reminds us of the value of sharing and coexistence.
+
+The reverence I felt upon passing through the golden torii and stepping onto the grounds, the awe of nature I felt under the centuries-old sacred tree, and the warmth in the story of Nunoshihime-no-mikoto will remain in my memory for a long time. A visit here teaches us that true 'abundance' is not just about filling our wallets, but about sharing with those around us and growing together. If you visit Gifu, I highly recommend stopping by Kogane Shrine to pray for your own kind of abundance.

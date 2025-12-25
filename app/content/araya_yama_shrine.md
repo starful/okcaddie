@@ -1,147 +1,157 @@
 ---
 layout: post
-title: "일본 제일의 금전운 성지, 후지산의 기운을 품은 '아라야야마 신사' 참배 가이드"
+title: "A Pilgrimage Guide to Arayayama Shrine: Japan's Top Sacred Site for Financial Fortune, Embracing the Spirit of Mount Fuji"
 date: 2024-11-30
-categories: [재물, 성공, 역사]
-tags: [야마나시현, 후지요시다, 아라야야마신사, 금전운, 파워스팟, 후지산, 오쿠미야, 사업번창]
+categories: [Wealth, Success, History]
+tags:
+  [
+    Yamanashi Prefecture,
+    Fujiyoshida,
+    Arayayama Shrine,
+    Financial Fortune,
+    Power Spot,
+    Mount Fuji,
+    Okumiya,
+    Business Prosperity,
+  ]
 thumbnail: /content/images/araya_yama_shrine.webp
 lat: 35.474600
 lng: 138.807900
-address: 야마나시현 후지요시다시 아라야 1230 (〒403-0006)
-excerpt: 일본 경영의 신들과 유명 컨설턴트들이 극찬한 최고의 금전운 파워스팟. 후지산 2합목의 신비로운 오쿠미야와 소원을 들어주는 돌이 있는 본궁까지, 부의 기운을 받는 완벽한 순례 코스를 소개합니다.
+address: 1230 Araya, Fujiyoshida-shi, Yamanashi-ken 403-0006
+excerpt: Praised by titans of Japanese business and famous consultants as the ultimate power spot for financial luck. We introduce the perfect pilgrimage course to receive the energy of wealth, from the mysterious Okumiya at the 2nd station of Mt. Fuji to the main shrine with its wish-granting stone.
 ---
 
-안녕하세요, **JinjaMap** 에디터입니다.
+Hello, this is the **JinjaMap** editor.
 
-후지산(富士山)의 신령한 기운이 감도는 야마나시 현(山梨県). 이 신성한 산의 기슭에는 수많은 전설과 이야기가 깃들어 있습니다. 오늘 우리가 순례의 발걸음을 옮길 곳은 그중에서도 특히 강력한 힘을 지닌 곳으로, 일본 최고의 금전운 파워스팟 중 하나로 손꼽히는 **'아라야야마 신사(新屋山神社)'**입니다.
+In Yamanashi Prefecture, the sacred spirit of Mount Fuji permeates the air. At the foot of this divine mountain lie countless legends and stories. Today, our pilgrimage takes us to a place of particularly potent power, renowned as one of Japan's top power spots for financial fortune: **'Arayayama Shrine (新屋山神社)'**.
 
-이곳은 단순히 재물을 기원하는 장소를 넘어, 산과 자연에 대한 깊은 경외심, 그리고 오랜 세월 이어진 사람들의 염원이 겹겹이 쌓인 성지입니다. "평생 돈에 곤란하지 않게 해준다"는 입소문 덕분에 일본 전역의 경영자와 투자자들이 끊이지 않고 방문하는 곳이기도 하죠. 숲의 정령들이 속삭이는 듯한 고요함 속에서, 신사의 문을 열고 부와 신화의 세계로 들어가 보겠습니다.
-
----
-
-### 1. 🙏 제신과 유래: 신사의 심장부를 만나다
-
-아라야야마 신사의 본궁(本宮)과 오쿠미야(奥宮)는 일본 신화에서 중요한 위치를 차지하는 세 분의 신을 모시고 있습니다. 이 신들의 면면을 아는 것은 신사가 가진 힘의 원천을 이해하는 첫걸음입니다.
-
-#### **【모시는 신 (御祭神)】**
-
-*   **오야마츠미노 카미 (大山祇命)**
-    주된 제신(主祭神)으로, 산을 다스리는 위대한 신입니다. 일본 신화의 창조신인 이자나기와 이자나미 사이에서 태어났으며, 모든 산신(山神)의 우두머리로 여겨집니다. 그의 이름에 담긴 '츠미(祇)'는 신령한 존재를 의미하며, 산이 가진 풍요로움과 때로는 엄격한 자연의 힘을 상징합니다. 고대부터 산에서 살아가는 사람들, 즉 사냥꾼, 나무꾼, 광부들에게 깊은 숭배를 받아왔으며, 산이 베푸는 모든 은혜(목재, 광물, 먹거리)를 관장하는 신으로서 사업 번창과 재물운의 근원이 되는 신격으로 추앙받게 되었습니다.
-
-*   **아마테라스 오미카미 (天照大御神)**
-    일본 황실의 조상이자 태양을 상징하는 최고신입니다. 일본 전역의 신사를 총괄하는 이세 신궁(伊勢神宮)의 주신이기도 한 그녀가 이곳에 함께 모셔진 것은, 이곳이 그만큼 중요한 성지임을 의미합니다. 그녀의 빛은 만물을 성장시키고 풍요롭게 하므로, 오야마츠미노 카미의 산의 은혜와 더불어 국가의 번영과 개인의 성공을 비추는 강력한 힘을 더해줍니다.
-
-*   **코노하나사쿠야히메노 미코토 (木花開耶姫命)**
-    오야마츠미노 카미의 딸이자, 후지산의 여신으로 널리 알려진 아름다운 신입니다. 벚꽃처럼 덧없지만 찬란한 아름다움을 상징하며, 순산과 육아, 그리고 불의 재난으로부터 지켜주는 신으로 숭배받습니다. 후지산 그 자체를 신격화한 존재로서, 이곳 아라야야마 신사가 후지산의 정기를 직접 받는 성지임을 명확히 보여주는 존재입니다.
-
-이 세 신의 조합은 '산의 풍요(오야마츠미)', '하늘의 축복(아마테라스)', '후지산의 신령한 힘(코노하나사쿠야히메)'이 한데 어우러져, 이곳을 찾는 이들에게 강력한 운을 불어넣어 준다고 믿어집니다.
-
-#### **【유래와 역사】**
-
-아라야야마 신사의 창건 연대는 무로마치 시대(室町時代)인 1534년(덴분 3년)으로 거슬러 올라갑니다. 그 시작에는 한 편의 영화 같은 전설이 깃들어 있습니다.
-
-당시 이 지역을 다스리던 무장 다케다 가문(武田家)의 가신들이 후지산 기슭에서 사냥을 하고 있었습니다. 깊은 숲속에서 길을 잃고 헤매던 중, 갑자기 짙은 안개가 사방을 뒤덮었습니다. 한 치 앞도 보이지 않는 상황에서 일행은 공포에 휩싸였고, 오직 신에게 기도하는 것 외에는 할 수 있는 일이 없었습니다.
-
-바로 그때, 어디선가 나타난 백발의 노인이 그들 앞에 나타났습니다. 노인은 신비로운 분위기를 풍기며, **"이곳은 신성한 산이다. 길을 잃었거든 저 산의 신령께 길을 물어보라"**는 말을 남기고 홀연히 사라졌습니다.
-
-혼란에 빠진 가신들이 노인이 가리킨 방향으로 나아가자, 거짓말처럼 안개가 걷히고 그들 앞에는 작지만 위엄 있는 사당(祠)이 자리하고 있었습니다. 이것이 바로 아라야야마 신사의 시작이었습니다. 그들은 산신령의 인도로 목숨을 구했음에 감사하며 사당을 정비하고, 산의 신인 오야마츠미노 카미를 정중히 모셨다고 전해집니다.
-
-이후 신사는 후지산 기슭의 숲에서 일하는 임업 종사자들을 중심으로 깊은 신앙을 모았습니다. 그들은 매일 산에 들어가기 전, 이곳에서 안전과 풍성한 수확을 기원했습니다. '산에 들어가 생계를 유지한다'는 행위는 현대에 이르러 '회사에 출근해 사업을 번창시킨다'는 의미로 확장되었습니다. 즉, 산의 은혜를 받아 부를 일구던 과거의 믿음이 오늘날 '사업 번창'과 '금전운 상승'이라는 효험으로 자연스럽게 이어진 것입니다.
-
-특히 현대에 들어와 일본의 유명 경영 컨설턴트 후나이 유키오(舩井幸雄) 씨가 "이곳은 돈에 곤란하지 않게 해주는 신사"라고 소개하면서 전국적으로 그 명성이 퍼져나갔고, 기업 경영자, 자영업자, 투자가들이 끊임없이 찾아오는 일본 최고의 금전운 성지로 자리매김하게 되었습니다. 단순한 미신이 아니라, 자연의 은혜에 감사하고 그 힘을 빌려 번영을 기원했던 선조들의 지혜가 현대적인 형태로 계승된 것이라 할 수 있습니다.
+This is more than just a place to pray for wealth; it is a sacred ground layered with a deep reverence for mountains and nature, and the accumulated wishes of people over many long years. Thanks to word-of-mouth that "it ensures you'll never have trouble with money for the rest of your life," it has become a place where managers and investors from all over Japan visit ceaselessly. Amidst the tranquility, where it feels as though forest spirits are whispering, let us open the gates of the shrine and step into a world of wealth and myth.
 
 ---
 
-### 2. 境内 산책: 볼거리와 파워스팟
+### 1. 🙏 Deities and Origins: Meeting the Heart of the Shrine
 
-아라야야마 신사는 사실 두 곳으로 나뉩니다. 산기슭에 위치하여 누구나 쉽게 참배할 수 있는 '본궁(本宮)'과, 후지산 2합목(合目)의 깊은 숲속에 자리한 '오쿠미야(奥宮)'가 그것입니다. 진정한 힘은 오쿠미야에 있다고들 하지만, 두 곳을 모두 참배해야 비로소 온전한 가호를 받을 수 있다고 합니다.
+The Hongu (Main Shrine) and Okumiya (Inner Shrine) of Arayayama Shrine enshrine three deities who hold important positions in Japanese mythology. Knowing these deities is the first step to understanding the source of the shrine's power.
 
-#### **본궁(本宮): 일상과 이어진 성역의 입구**
+#### **【Enshrined Deities (御祭神)】**
 
-**1) 배전(拝殿)과 본전(本殿)**
-숲속에 고즈넉이 자리한 본궁의 배전은 화려하지 않지만, 오랜 세월의 흔적이 느껴지는 기품 있는 목조 건물입니다. 참배객들은 이곳에서 먼저 마음을 가다듬고 신에게 인사를 올립니다. 참배 예법은 '두 번 절하고, 두 번 박수치고, 한 번 절하는(二拝二拍手一拝)' 것이 기본입니다. 박수를 칠 때는 오른손을 살짝 아래로 내려 소리를 내는데, 이는 신에 대한 경의를 표하는 의미입니다. 배전 뒤편에는 신이 머무는 가장 신성한 공간인 본전이 자리 잡고 있습니다. 비록 가까이 다가갈 수는 없지만, 그 존재만으로도 경건한 기운이 감돕니다.
+- **Oyamatsumi-no-Kami (大山祇命)**
+  As the main deity (主祭神), he is the great god who rules over mountains. Born between the creator gods of Japanese mythology, Izanagi and Izanami, he is considered the chief of all mountain gods (山神). The 'tsumi (祇)' in his name signifies a divine being, symbolizing both the abundance of the mountains and the sometimes harsh power of nature. Since ancient times, he has been deeply worshipped by people who live off the mountains—hunters, woodcutters, and miners. As the god who governs all blessings bestowed by the mountains (timber, minerals, food), he came to be revered as a deity who is the source of business prosperity and financial fortune.
 
-**2) 오카가이이시 (お伺い石): 신의 뜻을 묻는 신비한 돌**
-본궁에서 가장 유명한 파워스팟은 바로 이 '오카가이이시(뜻을 묻는 돌)'입니다. 세 개의 둥근 돌이 놓여 있는데, 참배객은 이 돌을 통해 자신의 소원이 이루어질지 신의 뜻을 점쳐볼 수 있습니다.
+- **Amaterasu Omikami (天照大御神)**
+  She is the ancestor of the Japanese Imperial family and the supreme deity who symbolizes the sun. The fact that she, the main deity of Ise Grand Shrine (伊勢神宮) which oversees all shrines in Japan, is also enshrined here signifies that this is an incredibly important sacred site. Her light causes all things to grow and prosper, so alongside the mountain blessings of Oyamatsumi-no-Kami, she adds a powerful force that illuminates national prosperity and personal success.
 
-*   **체험 방법:**
-    1.  먼저 신에게 정중히 인사를 올립니다.
-    2.  마음속으로 이루고 싶은 소원을 구체적으로 빌면서 첫 번째로 돌을 들어봅니다. 이때의 무게를 기억합니다.
-    3.  다시 한번 간절히 소원을 빌고, 두 번째로 돌을 들어봅니다.
-*   **해석:**
-    만약 두 번째 들었을 때 돌이 처음보다 **가볍게 느껴진다면**, 그 소원은 신의 가호를 받아 이루어질 징조라고 합니다. 반대로 더 무겁게 느껴진다면, 아직은 때가 아니거나 더 많은 노력이 필요하다는 신호라고 하네요. 돌의 실제 무게는 변하지 않지만, 기도하는 사람의 마음과 기운에 따라 체감 무게가 달라진다고 하니, 꼭 한번 체험해 보시길 바랍니다.
+- **Konohanasakuya-hime-no-Mikoto (木花開耶姫命)**
+  She is the daughter of Oyamatsumi-no-Kami and a beautiful goddess widely known as the goddess of Mount Fuji. Symbolizing a beauty as fleeting yet brilliant as cherry blossoms, she is worshipped as a goddess of safe childbirth, child-rearing, and protection from fire disasters. As a personification of Mount Fuji itself, her presence clearly shows that Arayayama Shrine is a sacred place that directly receives the spiritual energy of Mount Fuji.
 
-#### **오쿠미야(奥宮): 후지산의 심장부에 닿다**
+It is believed that the combination of these three deities—'the abundance of the mountains (Oyamatsumi)', 'the blessing of the heavens (Amaterasu)', and 'the divine power of Mount Fuji (Konohanasakuya-hime)'—come together to bestow powerful fortune upon those who visit.
 
-본궁에서 차로 약 30분, 후지산 스바루 라인을 따라 2합목까지 올라가면 마침내 '오쿠미야'에 도착합니다. 이곳은 1년 중 눈이 없는 4월 말부터 11월까지만 문을 여는 비밀스러운 장소로, 그야말로 원시적인 자연의 에너지가 넘실대는 곳입니다.
+#### **【Origins and History】**
 
-**1) 신역의 입구, 붉은 도리이(鳥居)**
-주차장에 차를 세우고 나면, 깊은 숲으로 이어지는 길목에 선명한 붉은색 도리이가 서 있습니다. 이 도리이를 지나는 순간, 공기의 질감부터 달라지는 것을 느낄 수 있습니다. 속세의 기운은 사라지고, 오직 흙과 나무, 그리고 이끼의 냄새만이 가득한 신의 영역으로 들어서는 관문입니다.
+The founding of Arayayama Shrine dates back to the Muromachi period (室町時代) in 1534 (Tenbun 3). Its beginning is steeped in a legend worthy of a film.
 
-**2) 환상열석 (環状列石 - 스톤 서클)**
-오쿠미야의 핵심이자 가장 강력한 파워스팟은 바로 작은 사당 뒤편에 있는 환상열석입니다. 인공적으로 둥글게 배치된 돌들은 마치 고대의 제단처럼 신비로운 분위기를 자아냅니다. 이곳은 후지산의 용맥(龍脈), 즉 땅의 에너지가 지상으로 솟구쳐 나오는 용혈(龍穴) 자리라고 알려져 있습니다. 많은 참배객들이 이 돌들 주위를 돌거나 중앙에 서서 눈을 감고 명상하며 후지산의 정기를 온몸으로 받아들입니다. 손을 뻗으면 따스하거나 찌릿한 기운이 느껴진다고도 하니, 조용히 집중하며 대지의 에너지를 느껴보세요.
+At the time, retainers of the Takeda clan (武田家), the warriors who ruled the region, were hunting at the foot of Mount Fuji. While wandering lost deep in the forest, a thick fog suddenly enveloped them. Unable to see even a step ahead, the group was overcome with fear, and all they could do was pray to the gods.
 
-**3) 작은 사당 (祠)**
-오쿠미야의 사당은 본궁과 달리 매우 작고 소박합니다. 하지만 그 안에 깃든 힘은 결코 작지 않습니다. 이곳에서 다시 한번 오야마츠미노 카미께 인사를 드리며, 후지산의 심장부까지 무사히 이끌어주심에 감사하는 마음을 전합니다. 오쿠미야 참배는 '소원을 비는' 행위를 넘어, 대자연과 하나가 되는 영적인 체험에 가깝습니다.
+Just then, a white-haired old man appeared before them out of nowhere. Exuding a mystical aura, the old man said, **"This is a sacred mountain. If you are lost, ask the spirit of that mountain for the way,"** and then vanished as suddenly as he had appeared.
 
----
+As the bewildered retainers proceeded in the direction the old man had pointed, the fog miraculously lifted, and before them stood a small but dignified shrine (祠). This was the beginning of Arayayama Shrine. Thankful for having their lives saved by the guidance of the mountain spirit, they restored the shrine and respectfully enshrined the mountain god, Oyamatsumi-no-Kami.
 
-### 3. 📜 고슈인과 수여품(授与品)：참배의 증표
+Thereafter, the shrine gathered deep faith, primarily from forestry workers who worked in the forests at the foot of Mount Fuji. Every day before entering the mountains, they prayed here for safety and a bountiful harvest. The act of 'entering the mountain to make a living' has expanded in the modern era to mean 'going to the company to make business prosper'. In other words, the ancient belief of building wealth by receiving the mountain's blessings has naturally evolved into today's blessings of 'business prosperity' and 'increased financial luck'.
 
-참배의 기억을 오래도록 간직하게 해 줄 고슈인과 오마모리는 신사 순례의 또 다른 즐거움입니다.
-
-#### **【고슈인(御朱印)】**
-
-아라야야마 신사에서는 본궁과 오쿠미야에서 각각 다른 디자인의 고슈인을 받을 수 있습니다.
-
-*   **본궁 고슈인**: 중앙에 '新屋山神社'라는 신사명이 힘찬 서체로 쓰여 있고, 오른쪽에는 '富士山鎮座(후지산에 자리함)'이라는 문구가 적혀 이곳의 정체성을 보여줍니다. 주홍색 신사 인장이 선명하게 찍혀 있어 정통적인 아름다움을 자랑합니다.
-*   **오쿠미야 고슈인**: 본궁의 것과는 다른 디자인으로, 중앙에 '新屋山神社 奥宮'라고 쓰여 있습니다. 오쿠미야는 참배 기간이 한정되어 있기 때문에, 이 고슈인을 받는 것 자체가 특별한 경험의 증표가 됩니다. 두 고슈인을 나란히 받으면, 성지 순례를 완성했다는 뿌듯함을 느낄 수 있습니다.
-
-#### **【오마모리(お守り)・엔기모노(縁起物)】**
-
-금전운의 성지답게, 재물과 관련된 독특하고 효험이 뛰어나다고 알려진 수여품들이 많습니다.
-
-*   **금운상승 부적 (金運上昇お守り)**: 가장 인기 있는 대표적인 부적입니다. 금색 비단 주머니 형태로, 안에는 신의 가호가 깃든 신찰(神札)이 들어있습니다. 지갑에 넣어두거나 몸에 지니고 다니면 재물이 따르고 금전적인 어려움이 해소된다고 하여, 많은 분들이 가장 먼저 찾는 부적입니다.
-*   **오오야마츠미노 카미 카드 부적 (大山祇命カード守り)**: 현대적인 형태의 카드형 부적입니다. 지갑이나 명함 지갑에 쏙 들어가는 크기로, 사업가나 영업직에 종사하는 분들에게 특히 인기가 많습니다. 신의 모습이 그려져 있어, 중요한 계약이나 상담이 있을 때 든든한 힘이 되어준다고 합니다.
-*   **신사의 모래 (御神砂)**: 신사 경내의 신성한 모래를 담은 작은 주머니입니다. 집의 현관이나 회사의 입구에 두면 나쁜 기운을 막고 좋은 운을 불러들인다고 합니다. 특히 집을 지을 때 땅에 묻거나, 가게를 열 때 뿌리는 풍습도 있습니다.
+In modern times, its fame spread nationwide after the famous Japanese business consultant Mr. Yukio Funai (舩井幸雄) introduced it as "a shrine that will ensure you never have trouble with money." It has since established itself as Japan's top sacred site for financial fortune, attracting a constant stream of corporate executives, self-employed individuals, and investors. This is not just a superstition, but rather a modern inheritance of the wisdom of our ancestors who prayed for prosperity by giving thanks for the blessings of nature and borrowing its power.
 
 ---
 
-### 4. 🚶 함께 둘러볼 곳: 주변 명소와 맛집
+### 2. 境内 Strolling the Grounds: Sights and Power Spots
 
-아라야야마 신사 참배 후에는 후지산과 가와구치 호수 주변의 아름다운 풍경과 맛을 즐기며 여행의 여운을 더해보세요.
+Arayayama Shrine is actually divided into two locations. There is the 'Hongu' (Main Shrine), located at the foot of the mountain and easily accessible to all, and the 'Okumiya' (Inner Shrine), nestled deep in the forest at the 2nd station (合目) of Mount Fuji. While it is said that the true power lies in the Okumiya, it is believed that one must visit both places to receive the full blessing.
 
-**1. 가와구치 호수 (河口湖)**
+#### **Hongu (本宮): Entrance to the Sanctuary Connected to Daily Life**
 
-후지 5호 중에서도 가장 유명하고 접근성이 좋은 호수입니다. 호숫가를 산책하며 시시각각 변하는 후지산의 모습을 감상하는 것만으로도 힐링이 됩니다. 유람선을 타거나 '가치카치야마 로프웨이'를 타고 전망대에 오르면, 호수와 후지산이 어우러진 그림 같은 파노라마를 한눈에 담을 수 있습니다. 신사에서 차로 약 20분 거리에 있어 함께 둘러보기 좋습니다.
+**1) Haiden (拝殿) & Honden (本殿) - Hall of Worship & Main Hall**
+The Haiden of the Hongu, situated peacefully in the forest, is not extravagant but is a dignified wooden structure that shows the passage of time. Visitors first compose themselves here and offer their greetings to the deity. The standard prayer etiquette is 'two bows, two claps, one bow' (二拝二拍手一拝). When clapping, the right hand is slightly lowered to make a sound, which signifies respect for the deity. Behind the Haiden lies the Honden, the most sacred space where the deity resides. Although you cannot get close, its mere presence creates a solemn atmosphere.
 
-**2. 오시노핫카이 (忍野八海)**
+**2) Okagai-ishi (お伺い石): The Mystical Stone that Asks the God's Will**
+The most famous power spot at the Hongu is this 'Okagai-ishi' (the stone for asking). There are three round stones, and visitors can use them to divine whether their wish will be granted by the deity.
 
-후지산의 눈 녹은 물이 수십 년에 걸쳐 지하 용암층을 통해 여과되어 솟아나는 8개의 신비로운 연못입니다. 믿을 수 없을 만큼 투명하고 푸른 물빛은 그 자체로 경이롭습니다. 연못 바닥의 수초가 흔들리는 모습까지 선명하게 보일 정도죠. 마치 일본 전통 회화 속에 들어온 듯한 고즈넉한 마을 풍경 속에서 맑은 물을 바라보며 마음을 정화하는 시간을 가질 수 있습니다. 신사에서 차로 약 30분 거리에 위치합니다.
+- **How to Experience:**
+  1. First, respectfully bow to the deity.
+  2. While concretely making a wish in your heart, lift one of the stones for the first time. Remember its weight.
+  3. Make your wish earnestly once more, and then lift the stone a second time.
+- **Interpretation:**
+  If the stone feels **lighter** the second time you lift it, it is a sign that your wish will be granted with the deity's blessing. Conversely, if it feels heavier, it is a sign that the time is not yet right or that more effort is needed. The actual weight of the stone doesn't change, but it's said that the perceived weight changes depending on the heart and energy of the person praying, so be sure to give it a try.
 
-**3. 호토 후도 (ほうとう不動)**
+#### **Okumiya (奥宮): Reaching the Heart of Mount Fuji**
 
-야마나시 현의 향토 요리인 '호토(ほうとう)'를 맛볼 수 있는 전문점입니다. 호토는 된장을 베이스로 한 국물에 넓고 두툼한 면과 호박, 버섯, 각종 채소를 듬뿍 넣고 끓인 음식으로, 영양이 풍부하고 속을 든든하게 채워줍니다. 특히 '호토 후도 가와구치코점'은 마치 이글루나 구름을 연상시키는 독특한 흰색 돔 형태의 건축물로도 유명합니다. 신사 참배로 조금 쌀쌀해진 몸을 따뜻한 호토 한 그릇으로 녹여보는 것은 어떨까요?
+About a 30-minute drive from the Hongu, up the Fuji Subaru Line to the 2nd station, you will finally arrive at the 'Okumiya'. This is a secret place that only opens from late April to November when there is no snow, and it truly overflows with primal natural energy.
+
+**1) The Red Torii (鳥居), Entrance to the Sacred Precinct**
+After parking your car, a vivid red torii stands at the entrance to a path leading deep into the forest. The moment you pass through this torii, you can feel a change in the very texture of the air. The energy of the mundane world disappears, and you enter the realm of the gods, filled only with the scent of earth, trees, and moss.
+
+**2) Kanjo-resseki (環状列石 - Stone Circle)**
+The core and most powerful spot of the Okumiya is the stone circle located behind the small shrine. The stones, artificially arranged in a circle, create a mystical atmosphere like an ancient altar. This spot is known as a "dragon hole" (龍穴, Ryūketsu), where the dragon veins (龍脈, Ryūmyaku) of Mount Fuji—the earth's energy—are said to surge up to the surface. Many visitors walk around these stones or stand in the center, close their eyes, and meditate, absorbing the spiritual energy of Mount Fuji with their whole body. Some say they can feel a warm or tingling sensation if they extend their hands, so try to quietly focus and feel the energy of the earth.
+
+**3) The Small Shrine (祠)**
+The shrine at the Okumiya is very small and simple, unlike the Hongu. However, the power it holds is by no means small. Here, you should once again offer your greetings to Oyamatsumi-no-Kami and express your gratitude for being safely guided to the heart of Mount Fuji. A visit to the Okumiya is less about 'making a wish' and more of a spiritual experience of becoming one with great nature.
 
 ---
 
-### 5. 🗺️ 오시는 길 및 기본 정보
+### 3. 📜 Goshuin and Juyohin: Proof of Your Visit
 
-| 항목 | 내용 |
-|:---|:---|
-| **소재지 (본궁)** | 〒403-0006 山梨県富士吉田市新屋1230 (야마나시현 후지요시다시 아라야 1230) |
-| **소재지 (오쿠미야)** | 富士山2合目 (후지산 2합목, 정확한 주소 없음, 후지 스바루 라인 이용) |
-| **가까운 역** | 후지큐코선(富士急行線) "후지산역(富士山駅)"에서 택시로 약 10분 |
-| **버스 이용 시** | 후지산역에서 후지큐 버스 "아라야(新屋)" 정류장 하차 후 도보 약 5분 (본궁) |
-| **참배 시간** | 본궁: 09:00～16:00 / 오쿠미야: 10:00～15:30 (4월 말~11월 말 한정 개방) |
-| **공식 웹사이트** | `http://www.arayayamajinja.jp/` |
+The goshuin and omamori that help you cherish the memory of your visit are another joy of shrine pilgrimages.
 
-**※ 중요 주의사항**: 오쿠미야는 동절기(12월~4월 중순)에는 임도 폐쇄로 인해 참배가 불가능합니다. 방문 전 반드시 공식 웹사이트에서 개방 기간을 확인하시기 바랍니다.
+#### **【Goshuin (御朱印)】**
+
+At Arayayama Shrine, you can receive goshuin with different designs from both the Hongu and the Okumiya.
+
+- **Hongu Goshuin**: The shrine's name, '新屋山神社' (Arayayama Jinja), is written in a powerful script in the center. On the right, the phrase '富士山鎮座' (Enshrined at Mount Fuji) shows its identity. The vermilion shrine seal is stamped clearly, boasting a traditional beauty.
+- **Okumiya Goshuin**: With a different design from the Hongu's, it has '新屋山神社 奥宮' (Arayayama Jinja Okumiya) written in the center. Since the Okumiya is only open for a limited period, receiving this goshuin is a testament to a special experience. Receiving both goshuin side-by-side gives a sense of accomplishment for completing the pilgrimage.
+
+#### **【Omamori (お守り) & Engimono (縁起物)】**
+
+As a sacred site for financial luck, there are many unique and reputedly effective items related to wealth.
+
+- **Amulet for Increased Financial Luck (金運上昇お守り)**: This is the most popular and representative amulet. It is a gold-colored silk pouch containing a sacred talisman (神札) imbued with the deity's blessing. It is said that keeping it in your wallet or carrying it with you will attract wealth and resolve financial difficulties, making it the first item many people seek.
+- **Oyamatsumi-no-Kami Card Amulet (大山祇命カード守り)**: A modern, card-style amulet. It's the perfect size to slip into a wallet or business card holder and is especially popular among businesspeople and sales professionals. It features an image of the deity and is said to provide reassuring strength during important contracts or negotiations.
+- **Sacred Sand (御神砂)**: A small pouch containing sacred sand from the shrine grounds. Placing it at the entrance of a house or company is said to ward off bad energy and invite good fortune. There is also a custom of burying it in the ground when building a house or scattering it when opening a shop.
 
 ---
 
-### 6. ✨ 맺음말: 마음에 남는 참배 경험
+### 4. 🚶 Places to Visit Nearby: Attractions and Restaurants
 
-아라야야마 신사 순례는 단순히 금전운을 기원하는 것을 넘어, 일본인들의 자연 숭배 사상의 근원을 체험하는 여정입니다. 산의 품에 안긴 본궁의 고요함 속에서 자신을 돌아보고, 후지산의 심장부인 오쿠미야의 원시적인 에너지 속에서 대자연과 교감하는 경험은 일상에 지친 마음에 새로운 활력을 불어넣어 줄 것입니다.
+After your visit to Arayayama Shrine, enhance your trip by enjoying the beautiful scenery and flavors around Mount Fuji and Lake Kawaguchiko.
 
-산의 신이 베푸는 풍요로움이 오늘날 사업 번창과 재물운으로 이어졌다는 이야기는, 결국 우리의 모든 부와 성공이 자연이라는 거대한 뿌리에서 비롯됨을 일깨워 줍니다. 아라야야마 신사에서 후지산의 신령한 기운을 가득 받고, 여러분의 삶에도 풍요로운 은혜가 깃들기를 진심으로 기원합니다.
+**1. Lake Kawaguchiko (河口湖)**
+
+The most famous and accessible of the Fuji Five Lakes. Simply strolling along the lakeside and admiring the ever-changing face of Mount Fuji is a healing experience in itself. You can take a sightseeing boat or ride the Kachi Kachi Yama Ropeway to an observation deck for a picturesque panoramic view of the lake and Mount Fuji together. It's about a 20-minute drive from the shrine, making it a great place to visit together.
+
+**2. Oshino Hakkai (忍野八海)**
+
+A set of eight mystical ponds where snowmelt from Mount Fuji, filtered through underground lava layers for decades, springs to the surface. The incredibly transparent and blue water is a marvel in itself. You can clearly see the aquatic plants swaying at the bottom of the ponds. You can take time to purify your mind while gazing at the clear water in a tranquil village landscape that feels like stepping into a traditional Japanese painting. It's located about a 30-minute drive from the shrine.
+
+**3. Hoto Fudo (ほうとう不動)**
+
+A specialty restaurant where you can taste 'Hoto' (ほうとう), a local dish from Yamanashi Prefecture. Hoto is a hearty and nutritious dish made with wide, thick noodles, pumpkin, mushrooms, and various vegetables simmered in a miso-based broth. The Hoto Fudo Kawaguchiko branch is particularly famous for its unique white dome-shaped architecture, reminiscent of an igloo or a cloud. Why not warm your slightly chilled body with a bowl of hot Hoto after your shrine visit?
+
+---
+
+### 5. 🗺️ Access and Basic Information
+
+| Item                  | Details                                                                      |
+| :-------------------- | :------------------------------------------------------------------------ |
+| **Address (Hongu)**   | 1230 Araya, Fujiyoshida-shi, Yamanashi-ken 403-0006 |
+| **Address (Okumiya)** | Mt. Fuji 2nd Station (No exact address, use the Fuji Subaru Line)       |
+| **Nearest Station**   | Approx. 10 min by taxi from "Fujisan Station" on the Fujikyu Line (富士急行線) |
+| **By Bus**            | From Fujisan Station, take the Fujikyu Bus to "Araya" stop, then walk approx. 5 min (for Hongu) |
+| **Visiting Hours**    | Hongu: 09:00–16:00 / Okumiya: 10:00–15:30 (Open only from late April to late November)    |
+| **Official Website**  | `http://www.arayayamajinja.jp/`                                           |
+
+**※ Important Note**: The Okumiya is inaccessible during the winter season (December to mid-April) due to road closures. Please be sure to check the opening period on the official website before your visit.
+
+---
+
+### 6. ✨ Concluding Remarks: A Memorable Pilgrimage Experience
+
+A pilgrimage to Arayayama Shrine is more than just a prayer for financial luck; it is a journey to experience the roots of the Japanese reverence for nature. Reflecting on yourself in the tranquility of the Hongu nestled in the mountain's embrace, and communing with great nature amidst the primal energy of the Okumiya at the heart of Mount Fuji, will surely breathe new life into a mind weary from daily life.
+
+The story of how the abundance bestowed by the mountain god led to today's blessings of business prosperity and financial fortune reminds us that all our wealth and success ultimately stem from the great root that is nature. We sincerely hope that you will be filled with the sacred spirit of Mount Fuji at Arayayama Shrine, and that abundant blessings will grace your life.

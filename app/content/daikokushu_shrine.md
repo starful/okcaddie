@@ -1,143 +1,154 @@
 ---
 layout: post
-title: "오사카 상인들의 비밀! 재물운과 인연을 한 번에 잡는 '다이코쿠슈 신사' 완전 정복"
+title: "The Secret of Osaka Merchants! Mastering Daikokushu Shrine to Seize Wealth and Good Fortune"
 date: 2025-11-30
-categories: [재물, 성공, 역사]
-tags: [오사카, 난바, 다이코쿠슈신사, 금전운, 사업번창, 파워스팟, 신사순례, 다이코쿠초]
+categories: [Wealth, Success, History]
+tags:
+  [
+    Osaka,
+    Namba,
+    Daikokushu Shrine,
+    Financial Luck,
+    Business Prosperity,
+    Power Spot,
+    Shrine Pilgrimage,
+    Daikokucho,
+  ]
 thumbnail: /content/images/daikokushu_shrine.webp
 lat: 34.656111
 lng: 135.497500
-address: 오사카부 오사카시 나니와구 시키쓰니시 1-2-12 (〒556-0015)
-excerpt: 거대한 사자머리 전각이 액운을 삼키고, 오사카 상인들이 숭배해 온 다이코쿠님이 재물운을 불러오는 곳. 도심 속 숨겨진 강력한 파워스팟, 다이코쿠슈 신사에서 당신의 운을 바꿔보세요.
+address: 1-2-12 Shikitsunishi, Naniwa-ku, Osaka-shi, Osaka-fu (〒556-0015)
+excerpt: Where a giant lion-head hall swallows misfortune, and Daikoku-sama, worshipped by Osaka merchants, beckons financial luck. Change your fortune at Daikokushu Shrine, a powerful hidden power spot in the heart of the city.
 ---
 
-오사카의 번화가 난바(難波)에서 그리 멀지 않은 곳, 분주한 도시의 소음 속에서도 고요한 위엄을 잃지 않는 성지가 있습니다. 현지인들에게는 **'기즈노 다이코쿠상(木津の大国さん)'**이라는 친근한 애칭으로 더 잘 알려진 곳, 바로 **'다이코쿠슈 신사(敷津松之宮・大国主神社)'**입니다.
+Not far from Osaka's bustling Namba district, amidst the noise of the busy city, lies a sacred ground that maintains a quiet dignity. To the locals, it is better known by its affectionate nickname, **'Kizu no Daikoku-san' (the Daikoku of Kizu)**. This is **'Daikokushu Shrine (Shikitsumatsunomiya・Okuninushi Shrine)'**.
 
-이곳은 단순히 소원을 비는 장소를 넘어, 고대 신화의 숨결과 상인들의 뜨거운 염원이 겹겹이 쌓인 역사의 지층과도 같은 곳입니다. 특히 금전운과 인연 맺기에 강력한 효험이 있다고 알려져, 성공을 꿈꾸는 이들의 발길이 끊이지 않습니다. 오늘 우리는 시간의 흐름을 거슬러, 이 신성한 공간에 깃든 깊은 이야기와 신비로운 힘을 찾아 떠나보려 합니다.
-
----
-
-### 1. 🙏 제신과 유래: 신사의 심장부를 만나다
-
-다이코쿠슈 신사는 이름에서 알 수 있듯, 두 개의 신사, **'시키쓰마쓰노미야(敷津松之宮)'**와 **'오쿠니누시 신사(大国主神社)'**가 함께 자리한 독특한 구조를 가지고 있습니다. 덕분에 이곳을 찾는 참배객들은 더욱 다채로운 신의 가호를 받을 수 있습니다.
-
-#### **【모시는 신 (御祭神)】**
-
-*   **시키쓰마쓰노미야 (敷津松之宮)**
-    *   **스사노오노 미코토 (素盞嗚尊)**: 폭풍과 바다의 신이자, 야마타노오로치라는 뱀을 퇴치한 영웅신입니다. 그의 강력한 힘은 재앙을 막고 액운을 물리치는 **액막이(厄除け)**와 **질병 퇴치**에 큰 효험이 있다고 믿어집니다.
-    *   **오오야쓰히메노 미코토 (大屋津姫命)**: 나무의 신으로, 목재 산업의 번영을 돕습니다.
-
-*   **오쿠니누시 신사 (大国主神社)**
-    *   **오쿠니누시노 미코토 (大国主命)**: 나라를 세운 '국토 개척의 신'이자, 인자한 성품으로 곤경에 처한 토끼를 구해준 일화로 유명합니다. 사람과 사람 사이의 좋은 인연을 맺어주는 **인연 맺기(縁結び)**의 신으로 절대적인 믿음을 얻고 있습니다.
-    *   **고토시로누시노 미코토 (事代主命)**: 오쿠니누시의 아들로, 칠복신 중 '에비스(えびす)'와 동일시됩니다. 어업과 상업의 번창을 관장하는 **상업 번성(商売繁盛)**의 신으로, 오사카 상인들의 깊은 신앙을 받아왔습니다.
-
-이처럼 다이코쿠슈 신사는 액운을 막는 강력한 힘과 나라를 세운 위대한 지혜, 그리고 상업 번성과 좋은 인연을 가져다주는 풍요로움까지, 인간사의 다양한 염원을 아우르는 신들을 함께 모시고 있는 매우 특별한 공간입니다.
-
-#### **【유래와 역사: 소나무에서 시작된 전설】**
-
-이 신사의 역사는 신화의 시대로 거슬러 올라갑니다. 그 시작은 전설적인 여걸 **진구 황후(神功皇后)**의 이야기와 깊이 연결되어 있습니다.
-
-서기 3세기경, 원정을 마치고 귀국하던 진구 황후는 거친 파도를 헤치고 현재의 오사카만에 상륙했습니다. 그녀는 무사 귀환을 신들께 감사하며, 해안가에 서 있던 소나무(松)를 뽑아 손수 이곳 시키쓰(敷津) 땅에 심었다고 전해집니다. 이 소나무를 신성하게 여긴 지역 사람들은 그 자리에 사당을 짓고 스사노오노 미코토를 모시기 시작했으니, 이것이 바로 **시키쓰마쓰노미야(敷津松之宮)**의 시작입니다.
-
-시간이 흘러 에도 시대인 1744년, 신사는 새로운 전기를 맞이합니다. 당시 신사가 위치한 기즈(木津) 지역은 오사카 경제의 심장부인 '기즈 시장'이 있던 곳이었습니다. 활기 넘치는 시장의 상인들에게는 장사의 번영과 재물운을 가져다줄 신이 절실했습니다.
-
-이에 이즈모타이샤(出雲大社)로부터 오쿠니누시노 미코토의 신령을 모셔와 함께 제사를 지내게 되었고, '오쿠니누시 신사'가 경내에 세워지게 되었습니다. 오쿠니누시노 미코토는 칠복신 중 하나인 **다이코쿠텐(大黒天, 대흑천)**과 동일시되는 신으로, 부와 풍요의 상징입니다. 이때부터 신사는 '기즈의 다이코쿠상'으로 불리며 금전운과 사업 번창의 성지로 자리 잡게 되었습니다.
-
-특히 바로 옆에 위치한 '이마미야 에비스 신사'의 에비스 신(아들)과 다이코쿠슈 신사의 다이코쿠 신(아버지)을 함께 참배하면 효험이 배가 된다는 **'양쪽 모두 참배(両参り)'** 풍습은 오사카 상인들 사이에서 불문율처럼 전해져 오고 있습니다.
+This place is more than just a spot to make wishes; it is like a historical stratum where the breath of ancient myths and the fervent prayers of merchants have layered upon one another. It is particularly renowned for its powerful blessings for financial luck and matchmaking, drawing a constant stream of visitors dreaming of success. Today, we will journey back in time to discover the deep stories and mystical power that reside in this sacred space.
 
 ---
 
-### 2. 境内 산책: 볼거리와 파워스팟
+### 1. 🙏 Deities and Origins: Meeting the Heart of the Shrine
 
-신사의 도리이를 지나 경내로 들어서는 순간, 번잡한 도시의 소음은 사라지고 고요한 성역이 펼쳐집니다. 이곳에서 놓치지 말아야 할 파워스팟들을 소개합니다.
+As its name suggests, Daikokushu Shrine has a unique structure, housing two shrines together: **'Shikitsumatsunomiya'** and **'Okuninushi Shrine'**. Thanks to this, visitors can receive a more diverse range of divine protection.
 
-#### **【본전(本殿)・배전(拝殿)】**
+#### **【Enshrined Deities (御祭神)】**
 
-참배의 중심이 되는 곳입니다. 이곳에서는 일본 신사 참배의 기본 예법인 **'이례 이박수 일례(二礼二拍手一礼)'**에 따라 경건하게 기도를 올립니다.
-1.  새전함에 동전을 넣고 종을 울립니다.
-2.  허리를 90도로 굽혀 두 번 절합니다.
-3.  가슴 높이에서 손뼉을 두 번 칩니다.
-4.  손을 모으고 간절한 소원을 빕니다.
-5.  마지막으로 다시 한번 깊이 절합니다.
+- **Shikitsumatsunomiya (敷津松之宮)**
+  - **Susanoo-no-Mikoto (素盞嗚尊)**: The god of storms and the sea, and a heroic deity who vanquished the eight-headed serpent, Yamata no Orochi. His immense power is believed to be highly effective in **warding off evil (厄除け)** and **curing illnesses**.
+  - **Ooyatsuhime-no-Mikoto (大屋津姫命)**: The goddess of trees, who aids in the prosperity of the timber industry.
 
-배전 처마 밑에 걸린 거대한 금줄 '시메나와'의 위엄 있는 모습도 놓치지 마세요.
+- **Okuninushi Shrine (大国主神社)**
+  - **Okuninushi-no-Mikoto (大国主命)**: Known as the 'god of nation-building' who founded the country, he is also famous for the tale where his benevolent nature led him to save a rabbit in distress. He has earned absolute faith as the god of **matchmaking (縁結び)**, who forges good relationships between people.
+  - **Kotoshironushi-no-Mikoto (事代主命)**: The son of Okuninushi, identified with 'Ebisu (えびす),' one of the Seven Lucky Gods. As the god who oversees the flourishing of fishing and commerce, he is the god of **business prosperity (商売繁盛)** and has been deeply revered by the merchants of Osaka.
 
-#### **【사자전 (獅子殿): 액운을 삼키는 거대한 입】**
+Thus, Daikokushu Shrine is a very special place that enshrines deities who encompass a wide range of human desires—from the mighty power to ward off evil, the great wisdom that built a nation, to the abundance that brings business prosperity and good relationships.
 
-다이코쿠슈 신사의 가장 압도적인 상징물, 바로 **사자전(獅子殿)**입니다. 높이 12미터, 폭 11미터에 달하는 이 거대한 사자머리 형태의 무대는 보는 이를 단번에 사로잡습니다. 입을 크게 벌린 사자의 모습은 마치 세상의 모든 악운과 불행을 한입에 삼켜버리고, 행운과 승운(勝運)을 불러들일 것만 같은 기백을 뿜어냅니다.
+#### **【Origin and History: The Legend that Began with a Pine Tree】**
 
-실제로 사자의 눈은 헤드라이트로, 코는 스피커로 만들어져 축제 때는 신악(神楽) 공연 무대로 사용됩니다. 사자전 앞에 서서 그 거대한 눈과 마주하며 마음속의 불안을 털어내고, 강력한 정화의 에너지를 받아 가세요. 사진 촬영 명소로도 인기 만점입니다.
+The history of this shrine dates back to the age of myths. Its beginnings are deeply connected to the story of the legendary heroine, **Empress Jingu (神功皇后)**.
 
-#### **【다이코쿠사마와 에비스사마, 그리고 '다네센'】**
+Around the 3rd century AD, while returning from a military expedition, Empress Jingu navigated through rough waves and landed at what is now Osaka Bay. To thank the gods for her safe return, she is said to have personally uprooted a pine tree (松) from the coast and planted it in this land of Shikitsu (敷津). The local people, revering this pine tree as sacred, built a shrine on the spot and began to worship Susanoo-no-Mikoto. This marked the beginning of **Shikitsumatsunomiya (敷津松之宮)**.
 
-오쿠니누시 신사 앞에는 요술 방망이를 든 다이코쿠사마와 도미를 든 에비스사마의 석상이 나란히 서 있습니다. 이곳에는 매우 특별한 금전운 의식이 전해집니다. 바로 **'다네센(種銭, 씨앗 돈)'**입니다.
+As time passed, the shrine entered a new era in 1744, during the Edo period. At that time, the Kizu (木津) area where the shrine was located was home to the 'Kizu Market,' the heart of Osaka's economy. The vibrant market merchants desperately needed a god who would bring them business prosperity and financial luck.
 
-1.  신사 사무소에서 '오다네센(お種銭)'이라는 부적 주머니를 받습니다.
-2.  그 안에 든 동전을 자신의 지갑이나 금고에 넣어 '자금의 씨앗'으로 삼습니다.
-3.  1년 뒤, 불어난 재물에 감사하며 빌렸던 돈보다 더 많은 금액을 신사에 돌려드립니다(배가에시).
+In response, the spirit of Okuninushi-no-Mikoto was invited from Izumo Taisha (出雲大社) to be enshrined alongside, and the 'Okuninushi Shrine' was established within the grounds. Okuninushi-no-Mikoto is a deity identified with **Daikokuten (大黒天)**, one of the Seven Lucky Gods and a symbol of wealth and abundance. From this time, the shrine became known as 'Kizu no Daikoku-san' and established itself as a sacred site for financial luck and business prosperity.
 
-이는 신의 가호를 씨앗 삼아 스스로의 노력으로 풍요를 일구겠다는 다짐이자 약속입니다. 많은 사업가들이 매년 이곳을 찾아 새로운 한 해의 번영을 기원합니다.
-
-#### **【아쓰히메 이나리 신사 (熱姫稲荷神社)와 붉은 도리이】**
-
-경내 한편에는 붉은 도리이가 줄지어 선 작은 신사가 있습니다. 사업 번창과 풍요의 신인 이나리(稲荷) 신을 모시는 곳입니다. 붉은 도리이 터널을 걸으며 신비로운 기분을 느껴보세요. 다이코쿠사마와 에비스사마에게 참배한 뒤, 이곳까지 들르면 상업 번창의 기운이 더욱 강해진다고 합니다.
+In particular, the custom of **'worshipping at both shrines (両参り)'**, where visiting both the Ebisu god (the son) at the adjacent 'Imamiya Ebisu Shrine' and the Daikoku god (the father) at Daikokushu Shrine is believed to double the blessings, has been passed down among Osaka merchants as an unwritten rule.
 
 ---
 
-### 3. 📜 고슈인과 수여품(授与品)：참배의 증표
+### 2. A Stroll Through the Grounds: Sights and Power Spots
 
-참배를 마친 후에는 그 증표이자 신과의 인연을 기념하는 고슈인과 오마모리를 챙겨보세요.
+The moment you pass through the shrine's torii gate and step into the grounds, the clamor of the bustling city fades away, and a tranquil sanctuary unfolds. Here are the power spots you shouldn't miss.
 
-#### **【고슈인(御朱印)】**
+#### **【Main Hall (Honden) & Hall of Worship (Haiden)】**
 
-다이코쿠슈 신사의 고슈인은 두 신사의 이름이 함께 적혀 있어 특별합니다. 중앙에는 '敷津松之宮' 또는 '大国主神社'라는 글씨가 힘차게 쓰여 있고, 다이코쿠텐의 요술 방망이나 신사 문양이 붉게 찍힙니다. 정월이나 축제 기간에는 한정 고슈인을 받을 수도 있으니 미리 확인해 보세요.
+This is the center of worship. Here, you can offer your prayers reverently following the basic etiquette of Japanese shrine worship, **'two bows, two claps, one bow (二礼二拍手一礼)'**.
 
-#### **【오마모리(お守り)・엔기모노(縁起物)】**
+1.  Place a coin in the offering box and ring the bell.
+2.  Bow deeply at a 90-degree angle twice.
+3.  Clap your hands twice at chest level.
+4.  Put your hands together and make a heartfelt wish.
+5.  Finally, bow deeply once more.
 
-금전운 상승을 위한 아이템들이 가득합니다.
+Don't miss the majestic sight of the giant 'shimenawa' (sacred rope) hanging under the eaves of the Haiden.
 
-*   **다네센 주머니 (種銭守り)**: 앞서 소개한 '다네센' 의식을 위한 필수 아이템. 재물의 씨앗이 되는 동전이 들어있습니다.
-*   **우치데노코즈치 (打ち出の小槌) 부적**: 요술 방망이 모양의 부적으로, 흔들면 재물과 행운이 쏟아진다고 합니다.
-*   **이치료반 (一両判) 금화 부적**: 에도 시대 금화 모양을 본뜬 부적으로, 지갑에 넣어두면 금전운이 상승한다고 믿어집니다.
-*   **인연 맺기 (縁結び) 부적**: 오쿠니누시노 미코토의 효험을 담아 좋은 인연을 기원하는 부적입니다.
+#### **【Shishiden (獅子殿): The Giant Mouth that Swallows Misfortune】**
 
----
+The most overwhelming symbol of Daikokushu Shrine is the **Shishiden (Lion Hall)**. This massive stage, shaped like a lion's head and standing 12 meters tall and 11 meters wide, instantly captivates onlookers. The lion's wide-open mouth seems to radiate an aura powerful enough to swallow all the world's bad luck and misfortune in a single gulp, beckoning good fortune and victory (勝運).
 
-### 4. 🚶 함께 둘러볼 곳: 주변 명소와 맛집
+In fact, the lion's eyes are headlights and its nose is a speaker, and it is used as a stage for Shinto music and dance (神楽) performances during festivals. Stand before the Shishiden, meet its enormous eyes, and cast away your anxieties to receive its powerful purifying energy. It is also a very popular photo spot.
 
-신사 참배 후, 오사카의 활기를 만끽할 수 있는 주변 명소들입니다.
+#### **【Daikoku-sama, Ebisu-sama, and the 'Tanesen'】**
 
-**1. 이마미야 에비스 신사 (今宮戎神社)**
+In front of the Okuninushi Shrine stand stone statues of Daikoku-sama holding a magic mallet and Ebisu-sama holding a sea bream. A very special ritual for financial luck is passed down here: the **'Tanesen (種銭, seed money)'**.
 
-*   **추천 이유**: 다이코쿠슈 신사와 '세트'로 참배해야 하는 곳입니다. 오사카 상업의 수호신 '에벳상'을 모시며, 매년 1월 '도카에비스' 축제로 유명합니다. 두 신사를 모두 참배하여 완벽한 상업 번성의 기운을 완성하세요.
-*   **가는 법**: 남쪽으로 도보 5분 거리.
+1.  Receive a charm pouch called 'O-tanesen (お種銭)' from the shrine office.
+2.  Place the coin inside it in your own wallet or safe to serve as a 'seed for your funds.'
+3.  A year later, with gratitude for the increased wealth, return more money to the shrine than you borrowed (a practice known as 'baigaeshi' or returning double).
 
-**2. 기즈 도매시장 (木津卸売市場)**
+This is both a pledge and a promise to cultivate abundance through your own efforts, using the god's blessing as a seed. Many business owners visit here every year to pray for prosperity in the new year.
 
-*   **추천 이유**: 300년 역사를 자랑하는 오사카의 부엌입니다. 신사 바로 옆에 위치하며, 갓 잡은 해산물로 만든 신선한 스시나 카이센동을 맛볼 수 있는 미식 천국입니다. 아침 일찍 방문하여 시장의 활기를 느껴보세요.
-*   **가는 법**: 신사 바로 옆, 도보 2~3분.
+#### **【Atsuhime Inari Shrine (熱姫稲荷神社) and its Red Torii Gates】**
 
-**3. 신세카이 (新世界) & 쓰텐카쿠 (通天閣)**
-
-*   **추천 이유**: 오사카의 레트로한 감성을 느낄 수 있는 곳입니다. 화려한 간판들 사이에서 오사카 명물 '쿠시카츠'를 맛보고, 쓰텐카쿠 전망대에서 시내를 조망해 보세요.
-*   **가는 법**: 도보 약 15분 또는 지하철 1정거장 거리.
+In one corner of the grounds, there is a small shrine lined with red torii gates. This is where the Inari (稲荷) deity, the god of business prosperity and abundance, is enshrined. Feel the mystical atmosphere as you walk through the tunnel of red torii. It is said that after praying to Daikoku-sama and Ebisu-sama, visiting here as well will further strengthen the energy of business prosperity.
 
 ---
 
-### 5. 🗺️ 오시는 길 및 기본 정보
+### 3. 📜 Goshuin and Amulets (授与品): Proof of Your Visit
 
-| 항목 | 내용 |
-|:---|:---|
-| **소재지** | 〒556-0015 大阪府大阪市浪速区敷津西1丁目2-12 (오사카부 오사카시 나니와구 시키쓰니시 1-2-12) |
-| **가까운 역** | 오사카 메트로 미도스지선/요쓰바시선 **"다이코쿠초(大国町)역" 1번 출구**에서 도보 약 3분 |
-| **버스 이용 시** | 오사카 시티버스 "시키쓰초(敷津町)" 정류장 하차 바로 |
-| **참배 시간** | 09:00～17:00 (사무소 운영 시간 기준, 경내 참배는 상시 가능) |
-| **공식 웹사이트** | `http://www.sikitu.or.jp/` |
+After completing your worship, be sure to get a goshuin and omamori to commemorate your connection with the gods and as proof of your visit.
+
+#### **【Goshuin (御朱印)】**
+
+The goshuin from Daikokushu Shrine is special because it features the names of both shrines. In the center, the characters for '敷津松之宮' or '大国主神社' are powerfully written, and a red stamp of Daikokuten's magic mallet or the shrine's crest is imprinted. During New Year's or festival periods, you might be able to receive a limited-edition goshuin, so be sure to check in advance.
+
+#### **【Omamori (お守り) & Engimono (縁起物)】**
+
+The shrine is full of items to boost your financial luck.
+
+-   **Tanesen Pouch (種銭守り)**: An essential item for the 'Tanesen' ritual described earlier. It contains the coin that will become the seed of your wealth.
+-   **Uchide-no-kozuchi (打ち出の小槌) Charm**: A charm in the shape of a magic mallet, believed to shower you with wealth and good fortune when shaken.
+-   **Ichiryōban (一両判) Gold Coin Charm**: A charm modeled after an Edo-period gold coin. It is believed to increase financial luck when kept in a wallet.
+-   **Matchmaking (縁結び) Charm**: A charm that carries the blessings of Okuninushi-no-Mikoto to pray for good relationships.
 
 ---
 
-### 6. ✨ 맺음말: 마음에 남는 참배 경험
+### 4. 🚶 What to See Nearby: Attractions and Eateries
 
-다이코쿠슈 신사(敷津松之宮・大国主神社)는 단순히 복을 비는 장소를 넘어, 오사카라는 도시의 역사와 상인 정신이 응축된 곳입니다. 거대한 사자전 앞에서 모든 시름을 털어내고, 온화한 미소의 다이코쿠사마 앞에서 내일의 풍요를 기원하는 시간은 일상의 번잡함을 잊게 해줍니다.
+After visiting the shrine, here are some nearby spots where you can enjoy the vibrant energy of Osaka.
 
-보이지 않는 거대한 힘과 연결되는 신성한 경험, 그리고 오사카 상인들의 긍정적인 에너지를 느끼고 싶다면, 화려한 도심 속 묵묵히 자리를 지키는 이 작은 거인, 다이코쿠슈 신사를 꼭 찾아보시길 바랍니다. 당신의 여행에 잊지 못할 깊이와 특별한 행운을 더해줄 것입니다.
+**1. Imamiya Ebisu Shrine (今宮戎神社)**
+
+-   **Why we recommend it**: This is a place you should visit as a 'set' with Daikokushu Shrine. It enshrines 'Ebessan,' the patron god of commerce in Osaka, and is famous for the 'Toka Ebisu' festival every January. Complete your prayer for business prosperity by visiting both shrines.
+-   **How to get there**: A 5-minute walk to the south.
+
+**2. Kizu Wholesale Market (木津卸売市場)**
+
+-   **Why we recommend it**: Known as Osaka's kitchen, this market boasts a 300-year history. Located right next to the shrine, it's a food lover's paradise where you can enjoy fresh sushi or kaisendon made with freshly caught seafood. Visit early in the morning to experience the market's lively atmosphere.
+-   **How to get there**: Right next to the shrine, a 2-3 minute walk.
+
+**3. Shinsekai (新世界) & Tsutenkaku Tower (通天閣)**
+
+-   **Why we recommend it**: A place where you can feel the retro atmosphere of Osaka. Savor Osaka's specialty 'kushikatsu' amidst the flashy signboards, and enjoy a view of the city from the Tsutenkaku Tower observatory.
+-   **How to get there**: About a 15-minute walk or one subway stop away.
+
+---
+
+### 5. 🗺️ Access and Basic Information
+
+| Item              | Details                                                                                     |
+| :---------------- | :------------------------------------------------------------------------------------------ |
+| **Address**       | 1-2-12 Shikitsunishi, Naniwa-ku, Osaka-shi, Osaka-fu 〒556-0015                               |
+| **Nearest Station** | Osaka Metro Midosuji Line/Yotsubashi Line **"Daikokucho Station," Exit 1**, about a 3-minute walk |
+| **By Bus**        | Get off at the Osaka City Bus "Shikitsucho" stop, located right there.                       |
+| **Visiting Hours**  | 09:00～17:00 (Based on office hours; the grounds are always open for worship)                 |
+| **Official Website** | `http://www.sikitu.or.jp/`                                                                  |
+
+---
+
+### 6. ✨ Conclusion: A Memorable Worship Experience
+
+Daikokushu Shrine (Shikitsumatsunomiya・Okuninushi Shrine) is more than just a place to pray for blessings; it is a space where the history and mercantile spirit of the city of Osaka are condensed. The time spent casting off all worries before the giant Shishiden and praying for tomorrow's prosperity before the gentle smile of Daikoku-sama allows you to forget the hustle and bustle of daily life.
+
+If you wish to have a sacred experience connecting with an unseen great power and feel the positive energy of Osaka's merchants, be sure to visit this small giant, Daikokushu Shrine, which stands quietly in the midst of the glamorous city. It will surely add an unforgettable depth and special luck to your journey.

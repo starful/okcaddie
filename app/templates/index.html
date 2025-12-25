@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <!-- Google Analytics 및 AdSense 코드는 유지 -->
+    <!-- Google Analytics & AdSense -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SWMP4KC55"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -13,19 +13,31 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JinjaMap - 도쿄 신사 여행 가이드</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>JinjaMap - Discover Japanese Shrines & Power Spots</title>
+    <meta name="description" content="Explore hidden shrines and power spots in Japan. Find your luck in Wealth, Love, Health, and Success with our interactive map guide.">
+    <meta name="keywords" content="Japan Shrine, Tokyo Power Spot, Jinja Map, Shinto Shrine, Omamori, Goshuin, Japan Travel Guide">
+    <meta name="author" content="JinjaMap Project">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="JinjaMap - Japan Shrine Guide">
+    <meta property="og:description" content="Find your destiny at Japan's most spiritual places.">
+    <meta property="og:url" content="https://jinjamap.com">
+
     <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
 </head>
 <body>
 
-    <!-- 번역기 위치 고정 -->
+    <!-- Google Translate -->
     <div id="google_translate_element" style="position: absolute; top: 10px; right: 10px; z-index: 2000;"></div>
     <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({
-        pageLanguage: 'ko', 
+        pageLanguage: 'en',
         includedLanguages: 'en,ja,ko,zh-CN,zh-TW',
         layout: google.translate.TranslateElement.InlineLayout.SIMPLE
       }, 'google_translate_element');
@@ -33,56 +45,80 @@
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <!-- [1] 헤더: 고정형으로 변경됨 -->
     <header>
         <div class="container">
             <h1>
                 <a href="/">
+                    <!-- 로고 이미지 설정 -->
                     <picture>
+                        <!-- 모바일용 가로 로고 (없으면 이 줄 삭제 가능) -->
                         <source srcset="/static/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
+                        <!-- 데스크탑용 세로 로고 (기본) -->
                         <img src="/static/images/JinjaMapLogo_Vertical.png" alt="JinjaMap" class="logo-img">
                     </picture>
                 </a>
             </h1>
 
-            <p id="last-updated" class="update-info"></p>
+            <div class="status-bar">
+                <div class="status-badge">
+                    ⛩️ <span id="total-shrines">0</span> Shrines Listed
+                </div>
+                <div class="status-badge">
+                    📅 Last Updated: <span id="last-updated-date">-</span>
+                </div>
+                <div class="status-badge highlight">
+                    🔄 Updating Weekly
+                </div>
+            </div>
 
-            <!-- 필터 버튼 -->
+            <!-- Filter Buttons with Counts -->
             <div class="theme-filter-buttons">
-                <button class="theme-button active" data-theme="all">전체</button>
-                <button class="theme-button" data-theme="wealth">💰 재물</button>
-                <button class="theme-button" data-theme="love">💘 사랑</button>
-                <button class="theme-button" data-theme="health">💊 건강</button>
-                <button class="theme-button" data-theme="study">🎓 학업</button>
-                <button class="theme-button" data-theme="safety">🛡️ 안전</button>
-                <button class="theme-button" data-theme="success">🏆 성공</button>
-                <button class="theme-button" data-theme="history">📜 역사</button>
+                <button class="theme-button active" data-theme="all">
+                    All <span class="count-badge" id="count-all">0</span>
+                </button>
+                <button class="theme-button" data-theme="wealth">
+                    💰 Wealth <span class="count-badge" id="count-wealth">0</span>
+                </button>
+                <button class="theme-button" data-theme="love">
+                    💘 Love <span class="count-badge" id="count-love">0</span>
+                </button>
+                <button class="theme-button" data-theme="health">
+                    💊 Health <span class="count-badge" id="count-health">0</span>
+                </button>
+                <button class="theme-button" data-theme="study">
+                    🎓 Study <span class="count-badge" id="count-study">0</span>
+                </button>
+                <button class="theme-button" data-theme="safety">
+                    🛡️ Safety <span class="count-badge" id="count-safety">0</span>
+                </button>
+                <button class="theme-button" data-theme="success">
+                    🏆 Success <span class="count-badge" id="count-success">0</span>
+                </button>
+                <button class="theme-button" data-theme="history">
+                    📜 History <span class="count-badge" id="count-history">0</span>
+                </button>
             </div>
         </div>
     </header>
     
     <main>
-        <!-- [2] 지도 섹션: 화면 너비 100% 사용 -->
         <section class="map-section">
             <div id="map"></div>
         </section>
 
-        <!-- [3] 컨텐츠 영역: 위로 살짝 올라오는 카드 형태 -->
         <div class="content-wrapper">
-            <!-- 소개 박스 -->
             <article class="intro-box">
-                <h2>⛩️ 당신의 소원을 들어줄 신사는 어디일까요?</h2>
+                <h2>⛩️ Discover Your Power Spot in Japan</h2>
                 <p>
-                    JinjaMap은 도쿄 곳곳에 숨겨진 <strong>파워스팟(Power Spot)</strong>을 찾아드립니다.<br>
-                    지도의 핀을 클릭하거나 아래 리스트에서 여행지를 찾아보세요.
+                    JinjaMap helps you find hidden <strong>Power Spots</strong> across Japan.<br>
+                    Click the pins on the map or explore the list below to find your destination.
                 </p>
             </article>
 
-            <!-- 리스트 섹션 -->
             <section id="list-section">
-                <h2 class="list-title">🎏 최신 신사 탐방기</h2>
+                <h2 class="list-title">🎏 Latest Shrine Guides</h2>
                 <div id="shrine-list" class="shrine-grid">
-                    <!-- map.js가 이곳에 카드를 자동으로 채웁니다 -->
+                    <!-- Cards will be populated here by main.js -->
                 </div>
                 <div id="scroll-sentinel" style="height: 20px; width: 100%;"></div>
             </section>
@@ -90,23 +126,23 @@
     </main>
 
     <footer>
-        <p><strong>JinjaMap Project</strong><br>도쿄 여행자들의 소원 성취를 돕는 비영리 프로젝트입니다.</p>
+        <p><strong>JinjaMap Project</strong><br>A non-profit project helping travelers find their wishes.</p>
         <p style="margin-top: 10px; font-size: 0.8rem;">
-            <a href="/privacy.html">개인정보처리방침</a> | &copy; 2024 JinjaMap
+            <a href="/privacy.html">Privacy Policy</a> | &copy; 2024 JinjaMap
         </p>
     </footer>
 
-    <!-- 오미쿠지 UI (그대로 유지) -->
-    <button id="omikuji-btn" class="omikuji-floating-btn">🥠 운세 뽑기</button>
+    <!-- Omikuji UI -->
+    <button id="omikuji-btn" class="omikuji-floating-btn">🥠 Fortune</button>
     <div id="omikuji-modal" class="modal-overlay" style="display: none;">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <div id="omikuji-step1">
-                <h2>신사 오미쿠지</h2>
+                <h2>Omikuji (Fortune Slip)</h2>
                 <div class="omikuji-box">
-                    <img src="/static/images/omikuji_box.png" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;" alt="오미쿠지"> 
+                    <img src="/static/images/omikuji_box.png" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;" alt="Omikuji Box"> 
                 </div>
-                <button id="draw-btn" class="action-btn">운세 확인하기</button>
+                <button id="draw-btn" class="action-btn">Draw Fortune</button>
             </div>
             <div id="omikuji-step2" style="display: none;">
                 <h2 id="result-title" style="font-size: 2rem;"></h2>
@@ -116,7 +152,7 @@
         </div>
     </div>
 
-    <!-- 스크립트 -->
+    <!-- Scripts -->
     <script type="module" src="/static/js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&libraries=marker&v=beta&loading=async" async defer></script>
 </body>

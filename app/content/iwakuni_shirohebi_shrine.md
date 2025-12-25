@@ -1,149 +1,164 @@
 ---
 layout: post
-title: "살아있는 신의 사자를 만나다! 재물운이 폭발하는 야마구치 '이와쿠니 시로헤비 신사' 순례"
+title: "Meet the Messenger of a Living God! A Pilgrimage to Yamaguchi's 'Iwakuni Shirohebi Shrine' for an Explosion of Wealth Luck"
 date: 2025-11-30
-categories: [재물, 성공, 역사]
-tags: [야마구치현, 이와쿠니, 시로헤비신사, 금전운, 백사, 파워스팟, 긴타이쿄, 이색신사]
+categories: [Wealth, Success, History]
+tags:
+  [
+    Yamaguchi Prefecture,
+    Iwakuni,
+    Shirohebi Shrine,
+    Financial Luck,
+    White Snake,
+    Powerspot,
+    Kintaikyo Bridge,
+    Unique Shrine,
+  ]
 thumbnail: /content/images/iwakuni_shirohebi_shrine.webp
 lat: 34.170428
 lng: 132.222341
-address: 야마구치현 이와쿠니시 이마즈마치 6초메 4-2 (〒741-0081)
-excerpt: 붉은 눈과 새하얀 비늘을 가진 '살아있는 신'이 머무는 곳. 천연기념물 흰 뱀(시로헤비)을 모시며 강력한 금전운을 약속하는 이와쿠니의 특별한 성지로 여러분을 안내합니다.
+address: 6-chome-4-2 Imazumachi, Iwakuni City, Yamaguchi Prefecture (〒741-0081)
+excerpt: A place where a 'living god' with red eyes and pure white scales resides. We guide you to this special sacred site in Iwakuni, which enshrines the natural monument white snake (Shirohebi) and promises powerful financial fortune.
 ---
 
-안녕하세요, **JinjaMap** 에디터입니다.
+Hello, this is the **JinjaMap** editor.
 
-야마구치현 동부, 유려한 5연 아치교인 '긴타이쿄(錦帯橋)'와 산 정상에 우뚝 솟은 '이와쿠니 성'으로 유명한 역사 도시 이와쿠니(岩国). 이곳에는 일본 전역, 아니 전 세계를 통틀어봐도 유례를 찾기 힘든 매우 특별한 신앙의 중심지가 자리하고 있습니다.
+In the eastern part of Yamaguchi Prefecture lies the historic city of Iwakuni, famous for its elegant five-arched bridge, 'Kintaikyo,' and 'Iwakuni Castle' perched atop a mountain. Here, you'll find a center of faith so unique that it's hard to find a parallel anywhere else in Japan, or even the world.
 
-바로 살아있는 신의 사자(使者), **'이와쿠니의 흰 뱀(シロヘビ)'**을 모시는 **'이와쿠니 시로헤비 신사(岩国白蛇神社)'**입니다.
+This is the **'Iwakuni Shirohebi Shrine' (岩国白蛇神社)**, which enshrines the living messenger of the gods, the **'White Snake of Iwakuni (シロヘビ)'**.
 
-보통의 신사가 신화 속의 존재나 역사적 인물을 모시는 것과 달리, 이곳은 실존하는 생명체이자 천연기념물인 '흰 뱀'을 신성시합니다. 수백 년 전 쌀 창고를 지키던 뱀에 대한 고마움이 신앙으로 승화된 이곳은, 오늘날 "금전운과 사업 번창에 강력한 효험이 있다"는 입소문을 타고 전국 각지에서 참배객들을 불러 모으고 있습니다.
+Unlike ordinary shrines that deify mythological beings or historical figures, this shrine venerates the 'white snake,' a real, living creature and a designated natural monument. The gratitude for snakes that protected rice granaries centuries ago has sublimated into a faith that today attracts worshippers from all over the country, drawn by word-of-mouth that it offers powerful blessings for "financial luck and business prosperity."
 
-오늘 저와 함께, 신비로운 붉은 눈의 흰 뱀 전설을 따라 신사의 문을 열고, 그 안에 깃든 깊은 역사와 영험한 기운을 온몸으로 느껴보는 순례의 여정을 떠나보시죠.
-
----
-
-### 1. 🙏 제신과 유래: 신사의 심장부를 만나다
-
-이와쿠니 시로헤비 신사는 '흰 뱀' 그 자체를 신으로 모시는 것이라기보다, 흰 뱀을 '신의 사자'로 여기며 재물과 복을 관장하는 신들을 모시는 곳입니다.
-
-#### **【모시는 신 (御祭神)】**
-
-이곳의 중심에는 풍요와 번영을 상징하는 강력한 신들이 좌정해 있습니다.
-
-*   **우카노미타마노카미 (宇迦之御魂神)**
-    우리가 흔히 '오이나리상(お稲荷さん)'이라고 부르는 이나리 신사의 주신입니다. 본래 곡물과 농업을 관장하는 신이었으나, 시대가 흐르며 상업과 산업 전반의 번창을 가져다주는 신으로 널리 숭배받게 되었습니다. 쌀 창고를 지켰던 흰 뱀의 전설과 가장 잘 어울리는 신이라 할 수 있습니다.
-
-*   **무나카타 삼여신 (宗像三女神) - 배사신(配祀神)**
-    다구리히메, 다키츠히메, 그리고 **이치키시마히메노미코토(市杵島姫神)**를 함께 모십니다. 특히 이치키시마히메는 칠복신 중 유일한 여신이자 재물과 예술을 관장하는 **벤자이텐(弁財天)**과 동일시되는 신입니다. 예로부터 뱀, 그중에서도 흰 뱀은 벤자이텐의 신성한 사자(神使)로 여겨져 왔기에, 이 신사의 정체성을 완성하는 중요한 신격입니다.
-
-이렇듯 이곳에 모셔진 신들은 하나같이 '풍요', '재물', '번영'이라는 키워드로 연결되어 있습니다. 그리고 그 신들의 뜻을 인간 세상에 전하는 메신저가 바로 '이와쿠니의 흰 뱀'인 것입니다.
-
-#### **【유래와 역사: 쌀 창고의 수호신에서 천연기념물로】**
-
-이와쿠니 시로헤비 신사의 역사는 고대 신화가 아닌, 에도 시대 이와쿠니 땅에서 실제로 일어난 신비로운 현상에서 시작됩니다.
-
-이야기는 약 300여 년 전으로 거슬러 올라갑니다. 당시 이와쿠니 번(藩)의 경제적 기반은 쌀이었고, 곳곳에는 수확한 쌀을 보관하는 거대한 창고 '고메구라(米蔵)'가 있었습니다. 그런데 언제부터인가 이 창고 주변에서 눈처럼 새하얀 몸에 루비처럼 붉은 눈을 가진 신비로운 뱀들이 나타나기 시작했습니다.
-
-처음에는 두려워하던 사람들도 이내 놀라운 사실을 발견했습니다. 이 흰 뱀들이 쌀을 훔쳐 먹는 쥐들을 잡아먹어 없애주는 것이었죠. 흰 뱀이 나타나는 창고는 쥐로 인한 피해가 현저히 줄어들었고, 쌀은 안전하게 보존되었습니다. 사람들은 이 뱀을 단순한 동물이 아니라, **"쌀 창고를 지켜주고 풍요를 가져다주는 수호신이자, 벤자이텐 님의 사자"**라고 믿기 시작했습니다.
-
-"흰 뱀을 보면 부자가 된다", "흰 뱀이 집에 들어오면 복이 온다"는 믿음은 걷잡을 수 없이 퍼져나갔고, 사람들은 뱀을 해치지 않고 정성껏 보호했습니다. 이러한 민간 신앙 덕분에 이와쿠니의 흰 뱀은 멸종되지 않고 개체 수를 유지할 수 있었습니다.
-
-현대에 이르러 이 흰 뱀은 일본 고유종인 줄무늬뱀(アオダイショウ)의 알비노(백색 변이) 개체임이 밝혀졌습니다. 하지만 돌연변이가 특정 지역에서 안정적으로 유전 형질을 이어 군집을 이루는 것은 세계적으로도 유례가 없는 일입니다. 그 가치를 인정받아 1972년에는 **'이와쿠니의 시로헤비'**라는 이름으로 국가 천연기념물로 지정되었습니다.
-
-오랜 세월 지역 주민들의 마음속에 존재하던 신앙을 담아낼 그릇이 필요하다는 열망이 모여, 마침내 2012년 12월 16일 '이와쿠니 시로헤비 신사'가 정식으로 창건되었습니다. 비록 건물은 새것이지만, 그 안에 담긴 믿음의 역사는 300년이 넘는 세월을 품고 있는 셈입니다.
+Join me today on a pilgrimage as we follow the legend of the mystical, red-eyed white snake, open the gates of the shrine, and feel the deep history and sacred energy that dwells within.
 
 ---
 
-### 2. 境内 산책: 볼거리와 파워스팟
+### 1. 🙏 Deities and Origins: Meeting the Heart of the Shrine
 
-현대적인 감각과 전통적인 신사의 격식이 조화를 이루는 경내는 티끌 하나 없이 정갈하게 관리되어 있습니다. 들어서는 순간부터 맑은 기운이 느껴지며 마음이 차분해집니다.
+Rather than worshiping the 'white snake' itself as a god, Iwakuni Shirohebi Shrine is a place that venerates the white snake as a 'messenger of the gods' while enshrining deities who govern wealth and fortune.
 
-#### **본전(本殿)・배전(拝殿)**
+#### **【Enshrined Deities (御祭神)】**
 
-참배의 중심이 되는 배전과 본전은 밝은 색의 목재를 사용한 신메이즈쿠리(神明造) 양식으로 지어졌습니다. 화려한 장식보다는 목재 본연의 아름다움을 살린 간결한 모습이 오히려 더 신성함을 자아냅니다.
+At the center of this shrine sit powerful deities symbolizing abundance and prosperity.
 
-배전 앞에 서면, 먼저 몸과 마음을 가다듬고 정중하게 참배를 올립니다.
-1.  **새전(お賽銭)**을 조용히 넣습니다.
-2.  허리를 90도로 숙여 **두 번 절합니다(二礼)**.
-3.  가슴 높이에서 **손뼉을 두 번 칩니다(二拍手)**. (오른손을 살짝 아래로 내리는 것이 포인트!)
-4.  손을 모으고 금전운, 사업 번창 등 간절한 소원을 빕니다.
-5.  마지막으로 다시 깊게 **한 번 절하며(一礼)** 마무리합니다.
+- **Ukanomitama-no-kami (宇迦之御魂神)**
+  This is the main deity of Inari shrines, commonly known as 'Oinari-san.' Originally a god of grains and agriculture, over time, this deity came to be widely worshipped as a bringer of prosperity in commerce and industry. This is perhaps the most fitting deity for the legend of the white snakes that guarded the rice granaries.
 
-#### **상징적인 건축물과 장식들**
+- **The Three Munakata Goddesses (宗像三女神) - Associated Deities (配祀神)**
+  Tagorihime, Takitsuhime, and **Ichikishimahime-no-mikoto (市杵島姫神)** are enshrined together. Ichikishimahime, in particular, is identified with **Benzaiten (弁財天)**, the only goddess among the Seven Lucky Gods and the deity of wealth and the arts. Since ancient times, snakes, especially white ones, have been considered sacred messengers (神使) of Benzaiten, making her a crucial deity that completes the identity of this shrine.
 
-경내를 거닐다 보면 곳곳에서 '흰 뱀'을 모티브로 한 독창적인 장식들을 발견할 수 있습니다. 숨은 그림 찾기 하듯 둘러보는 재미가 쏠쏠합니다.
+As you can see, the deities enshrined here are all connected by the keywords 'abundance,' 'wealth,' and 'prosperity.' And the messenger who conveys the will of these gods to the human world is none other than the 'White Snake of Iwakuni.'
 
-*   **뱀 테미즈야(手水舎)**: 참배 전 손과 입을 씻는 곳입니다. 보통 용의 입에서 물이 나오지만, 이곳에서는 또아리를 튼 흰 뱀의 입에서 맑은 물이 흘러나옵니다. 참배의 시작부터 이곳이 '뱀의 성지'임을 확실히 각인시켜 줍니다.
-*   **흰색 도리이(鳥居)**: 신사의 입구를 알리는 도리이 역시 붉은색이나 나무색이 아닌, 깨끗한 흰색으로 칠해져 있습니다.
-*   **지붕의 뱀 기와**: 배전 지붕 끝을 장식하는 오니가와라(鬼瓦)를 유심히 보세요. 무서운 도깨비 얼굴 대신, 똬리를 튼 뱀이 조각되어 신사를 수호하고 있습니다.
+#### **【Origin and History: From Guardian of Rice Granaries to Natural Monument】**
 
-#### **숨겨진 명소・파워스팟: 살아있는 신의 사자를 만나다**
+The history of Iwakuni Shirohebi Shrine does not begin with ancient mythology but with a mysterious phenomenon that actually occurred in the land of Iwakuni during the Edo period.
 
-이와쿠니 시로헤비 신사 참배의 하이라이트이자, 다른 신사에서는 절대 경험할 수 없는 것이 있습니다. 바로 **'살아있는 흰 뱀'**을 직접 만나는 것입니다.
+The story dates back about 300 years. At that time, the economic foundation of the Iwakuni domain was rice, and there were large granaries called 'komegura' everywhere to store the harvested rice. Then, at some point, mysterious snakes with snow-white bodies and ruby-red eyes began to appear around these granaries.
 
-*   **시로헤비 관람소 (白蛇観覧所)**
-    신사 바로 옆에는 흰 뱀을 사육하고 보호하는 관람 시설이 마련되어 있습니다. 통유리를 통해 여러 마리의 흰 뱀들이 살아가는 모습을 코앞에서 볼 수 있습니다.
-    온순한 성격의 흰 뱀들은 나무 위에 똬리를 틀고 있거나 천천히 움직입니다. 눈처럼 새하얀 비늘과 보석 루비처럼 반짝이는 붉은 눈동자를 마주하는 순간, 묘한 전율과 함께 경건한 마음이 듭니다. 왜 옛사람들이 이들을 신의 사자로 여겼는지 온몸으로 이해하게 되는 순간이죠. 이곳이야말로 신사의 가장 강력한 파워스팟입니다. 살아있는 신의 사자에게 눈을 맞추며 영험한 기운을 받아 가시길 바랍니다.
+People who were initially afraid soon discovered something amazing. These white snakes were preying on the rats that stole the rice. Granaries where white snakes appeared had significantly less damage from rats, and the rice was kept safe. People began to believe that these snakes were not just animals, but **"guardian deities who protect the rice granaries and bring abundance, and messengers of Lady Benzaiten."**
 
-*   **벤자이텐샤 (弁財天社)**
-    경내 한쪽에는 벤자이텐을 모시는 작은 사당이 따로 마련되어 있습니다. 흰 뱀의 주인 격인 신을 모시는 곳이니, 이곳에 들러 함께 참배하면 재물운과 예능운(예술적 재능)을 더욱 강하게 끌어올릴 수 있다고 합니다.
+Beliefs like "seeing a white snake brings wealth" and "a white snake entering your home brings fortune" spread uncontrollably, and people carefully protected the snakes without harming them. Thanks to this folk belief, the white snakes of Iwakuni were able to maintain their population without going extinct.
+
+In modern times, it has been revealed that these white snakes are albino individuals of the Japanese rat snake (アオダイショウ). However, for a mutation to be stably inherited in a specific region and form a colony is a globally unprecedented phenomenon. In recognition of their value, they were designated as a National Natural Monument in 1972 under the name **'Iwakuni no Shirohebi.'**
+
+The desire to create a vessel for the faith that had long existed in the hearts of local residents finally came to fruition, and on December 16, 2012, the 'Iwakuni Shirohebi Shrine' was formally established. Although the buildings are new, the history of the faith they contain spans over 300 years.
 
 ---
 
-### 3. 📜 고슈인과 수여품(授与品)：참배의 증표
+### 2. A Walk Through the Grounds: Sights and Powerspots
 
-참배를 마쳤다면, 그 증표로 고슈인과 오마모리를 받아보세요. '재물운'에 특화된 이곳만의 특별한 아이템들이 가득합니다.
+The shrine grounds, where modern sensibilities and traditional shrine formalities are in harmony, are impeccably maintained. From the moment you step inside, you can feel a clear energy that calms the mind.
 
-#### **【고슈인(御朱印)】**
+#### **Main Hall (Honden) & Worship Hall (Haiden)**
 
-이곳의 고슈인은 단연 흰 뱀이 주인공입니다.
-*   **일반 고슈인**: 중앙에 '岩国白蛇神社'라는 묵서가 힘차게 쓰여 있고, 붉은 인장과 함께 흰 뱀의 모습을 형상화한 금색 또는 은색 스탬프가 찍힙니다. 심플하면서도 신사의 정체성을 명확하게 보여주는 아름다운 디자인입니다.
-*   **특별 고슈인**: 정월이나 특정 기념일에는 색지가 다르거나, 그 해의 간지(干支)와 흰 뱀이 함께 그려진 한정판 고슈인을 수여하기도 합니다.
+The Haiden (Worship Hall) and Honden (Main Hall), the center of worship, are built in the Shinmei-zukuri style using light-colored wood. The simple appearance, which highlights the natural beauty of the wood rather than ornate decorations, exudes a greater sense of divinity.
 
-#### **【오마모리(お守り)・엔기모노(縁起物)】**
+Standing before the Haiden, first compose your body and mind, and then offer your prayers respectfully.
 
-재물운 상승을 원하신다면 이곳의 수여소는 보물창고와 다름없습니다.
+1. Quietly place your offering (**Osaisen**) into the box.
+2. Bow deeply twice at a 90-degree angle (**Nirei**).
+3. Clap your hands twice at chest height (**Nihakushu**). (The key is to have your right hand slightly lower!)
+4. Put your hands together and make your earnest wish, such as for financial luck or business prosperity.
+5. Finally, bow deeply once more (**Ichirei**) to conclude.
 
-1.  **누케가라 부적 (抜け殻お守り)** ★강력 추천★
-    '최강의 금전운 부적'으로 불리는 이곳의 명물입니다. 바로 **실제 흰 뱀의 허물(抜け殻)** 조각을 넣어서 만든 부적입니다. 뱀은 허물을 벗으며 성장하고 재생하는데, 이 모습이 '무한한 번영', '재산 증식', '액운 타파'를 상징한다고 여겨집니다. "지갑에 넣어두면 돈이 마르지 않는다"는 속설이 있어 가장 먼저 품절되는 인기 아이템입니다.
-2.  **시로헤비 오마모리 (白蛇お守り)**
-    하얀 바탕에 금색 실로 흰 뱀을 수놓은 고급스러운 부적입니다. 금전운 상승, 사업 번창, 가내 안전 등 전반적인 행운을 지켜줍니다.
-3.  **시로헤비 도자기 인형 (白蛇の置物)**
-    귀여운 모습의 흰 뱀 도자기 인형은 집이나 가게의 현관, 금고 위에 두는 길상물(엔기모노)입니다. 복을 불러들이고 재물이 새나가는 것을 막아준다고 하여 개업 선물로도 인기가 높습니다.
+#### **Symbolic Structures and Decorations**
 
----
+As you walk around the grounds, you will discover unique decorations with a 'white snake' motif everywhere. It's fun to look around as if on a scavenger hunt.
 
-### 4. 🚶 함께 둘러볼 곳: 주변 명소와 맛집
+- **Snake Chozuya (手水舎)**: This is where you purify your hands and mouth before praying. While water usually flows from a dragon's mouth, here, clear water flows from the mouth of a coiled white snake. This firmly establishes the place as a 'sacred ground of snakes' right from the start of your visit.
+- **White Torii (鳥居)**: The torii gate marking the entrance to the shrine is also painted a clean white, not the usual red or natural wood color.
+- **Snake Roof Tiles**: Look closely at the Onigawara (demon tiles) decorating the ends of the Haiden's roof. Instead of fearsome demon faces, you'll find coiled snakes sculpted to protect the shrine.
 
-시로헤비 신사 참배 후에는 이와쿠니의 상징적인 명소들을 함께 둘러보며 여행의 즐거움을 더해보세요.
+#### **Hidden Gems & Powerspots: Meeting the Living Messengers of the Gods**
 
-**1. 긴타이쿄 (錦帯橋)**
-*   **추천 이유**: 일본 3대 명교(名橋) 중 하나로 꼽히는 아름다운 5연속 목조 아치교입니다. 못을 하나도 사용하지 않고 나무를 엮어 만든 건축 기술의 정수입니다. 봄의 벚꽃, 가을의 단풍 등 사계절 내내 절경을 자랑합니다. 다리 위를 직접 걸으며 니시키가와(錦川) 강의 흐름을 느껴보세요.
-*   **이동**: 신사에서 차로 약 10분 거리.
+This is the highlight of a visit to Iwakuni Shirohebi Shrine, something you absolutely cannot experience at any other shrine: meeting a **'living white snake'** in person.
 
-**2. 이와쿠니 성 (岩国城)**
-*   **추천 이유**: 긴타이쿄 너머 시로야마(城山) 산 정상에 위치한 성입니다. 로프웨이를 타고 올라가 천수각 전망대에서 내려다보는 풍경이 압권입니다. 발아래로 펼쳐진 긴타이쿄와 이와쿠니 시내, 멀리 세토 내해의 섬들까지 한눈에 담을 수 있습니다.
+- **Shirohebi Viewing Facility (白蛇観覧所)**
+  Right next to the shrine, there is a viewing facility where the white snakes are bred and protected. Through a glass window, you can see several white snakes living their lives up close.
+  The gentle-natured white snakes are often coiled on branches or moving slowly. The moment you meet their snow-white scales and ruby-like sparkling red eyes, you feel a strange thrill and a sense of reverence. It's a moment when you understand with your whole body why the people of old considered them messengers of the gods. This is arguably the most powerful powerspot in the shrine. We hope you will make eye contact with the living messengers of the gods and receive their sacred energy.
 
-**3. 깃코 공원 앞 '사사키 코지로 상점'**
-*   **추천 이유**: 이와쿠니는 '소프트 아이스크림 격전지'로 유명합니다. 특히 이 가게는 무려 100종류가 넘는 맛을 판매합니다. 바닐라, 초코는 기본이고 라멘 맛, 낫토 맛, 와사비 맛 등 상상을 초월하는 메뉴들이 있습니다. 참배 후 달콤하고 시원한 휴식을 즐겨보세요.
+- **Benzaiten-sha (弁財天社)**
+  In a corner of the grounds, there is a small, separate shrine dedicated to Benzaiten. Since this is where the master deity of the white snakes is enshrined, visiting and praying here is said to further enhance your luck in wealth and the arts.
 
 ---
 
-### 5. 🗺️ 오시는 길 및 기본 정보
+### 3. 📜 Goshuin and Amulets: Proof of Your Visit
 
-| 항목 | 내용 |
-|:---|:---|
-| **소재지** | 〒741-0081 山口県岩国市今津町6丁目4-2 (야마구치현 이와쿠니시 이마즈마치 6초메 4-2) |
-| **가까운 역** | JR 산요 본선(山陽本線) **"이와쿠니역(岩国駅)"**에서 도보 약 15~20분, 택시 약 5분 |
-| **버스 이용 시** | 이와쿠니역 버스 터미널에서 '이와쿠니 버스(いわくにバス)' 탑승, **'시로헤비 진자마에(白蛇神社前)'** 정류장 하차 바로 |
-| **참배 시간** | 08:00～17:00 (시로헤비 관람소 및 수여소 운영 기준) |
-| **공식 웹사이트** | `http://shirohebi.info/` |
+After finishing your prayers, get a goshuin and an omamori as a memento of your visit. The shrine is full of special items specializing in 'financial luck.'
+
+#### **【Goshuin (御朱印)】**
+
+The white snake is undoubtedly the star of the goshuin here.
+
+- **Standard Goshuin**: The calligraphic characters for 'Iwakuni Shirohebi Jinja' are powerfully written in the center, accompanied by a red seal and a gold or silver stamp depicting a white snake. It's a simple yet beautiful design that clearly shows the shrine's identity.
+- **Special Goshuin**: On New Year's or special anniversaries, they may offer limited-edition goshuin on colored paper or with a design featuring the year's zodiac animal alongside the white snake.
+
+#### **【Omamori (Amulets) & Engimono (Lucky Charms)】**
+
+If you wish for an increase in financial luck, the amulet office here is nothing short of a treasure trove.
+
+1. **Shed Skin Amulet (抜け殻お守り)** ★Highly Recommended★
+    This is the shrine's specialty, known as the 'ultimate financial luck charm.' It's an amulet containing a piece of a **real white snake's shed skin (抜け殻)**. Snakes grow and regenerate by shedding their skin, a process believed to symbolize 'infinite prosperity,' 'asset growth,' and 'warding off misfortune.' It's the most popular item and often sells out first due to the belief that "if you keep it in your wallet, money will never run out."
+2. **Shirohebi Omamori (白蛇お守り)**
+    This is an elegant amulet with a white snake embroidered in gold thread on a white background. It protects overall fortune, including financial luck, business prosperity, and family safety.
+3. **Ceramic Shirohebi Figurine (白蛇の置物)**
+    This cute ceramic white snake figurine is a lucky charm (engimono) to be placed at the entrance of a home or shop, or on top of a safe. It is said to invite fortune and prevent wealth from escaping, making it a popular gift for new business openings.
 
 ---
 
-### 6. ✨ 맺음말: 마음에 남는 참배 경험
+### 4. 🚶 What to See Nearby: Local Attractions and Eateries
 
-이와쿠니 시로헤비 신사는 고대의 신화가 아닌, 이 땅에 살아가는 사람들의 자연에 대한 순수한 경외심과 감사의 마음이 오랜 세월을 거쳐 빚어낸 살아있는 신앙의 공간입니다. 경내에 들어서면 느껴지는 맑고 정갈한 공기, 그리고 관람소에서 마주한 신비로운 흰 뱀의 붉은 눈동자는 우리에게 생명의 존엄성과 보이지 않는 힘에 대한 경건함을 일깨워 줍니다.
+After visiting Shirohebi Shrine, enhance your trip by exploring Iwakuni's iconic landmarks.
 
-단순히 재물운을 기원하는 것을 넘어, 자연과 인간이 어떻게 조화를 이루며 독특한 문화를 만들어왔는지를 직접 보고 느낄 수 있는 곳. 이곳에서의 참배는 여러분의 마음에 깊은 울림과 함께 강력한 긍정의 에너지를 가득 채워줄 것입니다. 야마구치를 여행하신다면, 신비로운 흰 뱀의 가호를 받으러 꼭 한번 들러보시기를 강력히 추천합니다.
+**1. Kintaikyo Bridge (錦帯橋)**
+
+- **Why We Recommend It**: This beautiful five-arched wooden bridge is considered one of Japan's three most famous bridges. It is a masterpiece of architectural skill, constructed by fitting wood together without using a single nail. It boasts spectacular scenery throughout the seasons, with cherry blossoms in spring and colorful leaves in autumn. Walk across the bridge yourself and feel the flow of the Nishiki River.
+- **Access**: About a 10-minute drive from the shrine.
+
+**2. Iwakuni Castle (岩国城)**
+
+- **Why We Recommend It**: This castle is located on top of Mt. Shiroyama, beyond the Kintaikyo Bridge. The view from the castle keep's observation deck, reached by ropeway, is breathtaking. You can see the Kintaikyo Bridge, the city of Iwakuni, and even the islands of the Seto Inland Sea in the distance.
+
+**3. 'Sasaki Kojiro Shoten' in front of Kikko Park**
+
+- **Why We Recommend It**: Iwakuni is famous as a 'soft-serve ice cream battleground.' This particular shop sells over 100 different flavors. Beyond basics like vanilla and chocolate, they have unimaginable options like ramen, natto, and wasabi flavor. Enjoy a sweet and cool break after your shrine visit.
+
+---
+
+### 5. 🗺️ Access and Basic Information
+
+| Item              | Details                                                                                                             |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **Address**       | 6-chome-4-2 Imazumachi, Iwakuni City, Yamaguchi Prefecture 〒741-0081                                                  |
+| **Nearest Station**| Approx. 15-20 min walk or 5 min taxi from **"Iwakuni Station"** on the JR Sanyo Main Line (山陽本線)                     |
+| **By Bus**        | From Iwakuni Station Bus Terminal, take an 'Iwakuni Bus' (いわくにバス) and get off at **'Shirohebi Jinja-mae'** stop. |
+| **Visiting Hours**| 08:00–17:00 (Based on the operating hours of the Shirohebi Viewing Facility and amulet office)                            |
+| **Official Website**| `http://shirohebi.info/`                                                                                            |
+
+---
+
+### 6. ✨ Conclusion: A Memorable Worship Experience
+
+Iwakuni Shirohebi Shrine is not a space of ancient mythology, but a living sanctuary forged over long years from the pure reverence and gratitude of the local people for nature. The clear, pristine air you feel upon entering the grounds and the mystical red eyes of the white snake you encounter at the viewing facility awaken in us a reverence for the sanctity of life and unseen powers.
+
+This is a place where you can go beyond simply praying for financial fortune to see and feel how nature and humans have harmonized to create a unique culture. A visit here will surely fill your heart with a deep resonance and powerful positive energy. If you travel to Yamaguchi, we strongly recommend you stop by to receive the divine protection of the mystical white snake.

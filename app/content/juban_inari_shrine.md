@@ -1,157 +1,169 @@
 ---
 layout: post
-title: "도심 속 불을 끄는 두꺼비의 전설? 아자부주반의 숨겨진 파워스팟 '주반 이나리 신사' 완벽 가이드"
+title: "The Legend of the Toad that Extinguishes Fires in the City? A Complete Guide to Azabu-Juban's Hidden Power Spot, 'Juban Inari Shrine'"
 date: 2024-11-30
-categories: [재물, 안전, 역사]
-tags: [도쿄, 아자부주반, 주반이나리신사, 파워스팟, 금전운, 화재예방, 신사순례, 7복신]
+categories: [Wealth, Safety, History]
+tags:
+  [
+    Tokyo,
+    Azabu-Juban,
+    JubanInariShrine,
+    PowerSpot,
+    FinancialLuck,
+    FirePrevention,
+    ShrinePilgrimage,
+    SevenLuckyGods,
+  ]
 thumbnail: /content/images/juban_inari_shrine.webp
 lat: 35.655845
 lng: 139.736025
-address: 도쿄도 미나토구 아자부주반 1-4-6 (〒106-0045)
-excerpt: 화려한 아자부주반 거리 속, 화재를 막은 신비한 두꺼비 전설과 7복신 보물선이 깃든 성지가 있습니다. 잃어버린 운을 되찾고 재물을 불러오는 '주반 이나리 신사'로 힐링 여행을 떠나보세요.
+address: 1-4-6 Azabu-Juban, Minato-ku, Tokyo (〒106-0045)
+excerpt: In the glamorous streets of Azabu-Juban lies a sacred place imbued with the legend of a mystical toad that stopped a fire and the Treasure Ship of the Seven Lucky Gods. Embark on a healing journey to 'Juban Inari Shrine' to reclaim lost luck and attract wealth.
 ---
 
-안녕하세요, **JinjaMap** 에디터입니다.
+Hello, this is the **JinjaMap** editor.
 
-도쿄의 세련된 거리, 아자부주반(麻布十番). 화려한 상점과 현대적인 빌딩 숲 사이에, 시간을 거슬러 올라간 듯 고요한 성역이 자리하고 있습니다. 바로 **'주반 이나리 신사(十番稲荷神社)'**입니다.
+In the stylish district of Tokyo, Azabu-Juban, amidst the glittering shops and modern skyscrapers, lies a tranquil sanctuary that seems to have traveled back in time. This is the **'Juban Inari Shrine (十番稲荷神社)'**.
 
-이곳은 단순히 복을 비는 장소를 넘어, 흥미로운 신화와 역사가 겹겹이 쌓인, 도심 속 숨겨진 보석과도 같은 파워스팟입니다. 특히 '불을 끄는 두꺼비' 전설과 '돌아온다(Kaeru)'는 의미를 담은 재물운으로 유명한 곳이죠. 오늘 우리는 이 신비로운 신사의 문을 열고, 그 안에 깃든 이야기 속으로 깊은 순례를 떠나보고자 합니다.
-
----
-
-### 1. 🙏 제신과 유래: 신사의 심장부를 만나다
-
-모든 신사에는 그곳을 지키는 신, 즉 제신(祭神)이 있으며, 그 신을 모시게 된 고유한 이야기가 있습니다. 주반 이나리 신사의 심장부를 이해하기 위해서는, 이곳에 모셔진 신들과 두 개의 신사가 하나로 합쳐진 특별한 역사를 먼저 알아야 합니다.
-
-#### **【모시는 신 (御祭神)】**
-
-주반 이나리 신사는 여러 신의 가호를 한 번에 받을 수 있는 매우 영험한 곳으로 알려져 있습니다. 주된 제신은 다음과 같습니다.
-
-*   **우카노미타마노미코토 (倉稲魂命)**
-    일본 신화에 등장하는 곡물과 음식의 신으로, 이나리 신(稲荷神)의 총본산인 교토 후시미이나리타이샤(伏見稲荷大社)의 주신이기도 합니다. 농업이 중심이었던 과거에는 풍요와 번영의 상징이었으며, 현대에 이르러서는 상업 번창, 사업 번영, 금전운 상승 등 재물과 관련된 모든 것을 관장하는 신으로 널리 숭배받고 있습니다.
-
-*   **야마토타케루노미코토 (日本武尊)**
-    일본의 전설적인 영웅으로, 고사기(古事記)와 일본서기(日本書紀)에 등장하는 비운의 황자입니다. 뛰어난 무용(武勇)으로 동쪽의 오랑캐를 정벌한 그의 일화는 수많은 전설을 낳았습니다. 그의 강인함과 의지는 재앙을 막고(厄除け), 문무양도(文武両道)와 출세(出世開運)의 효험으로 이어져 많은 이들의 귀감이 되고 있습니다.
-
-*   **미나토 구 7복신 다카라부네 (港区七福神 宝船)**
-    주반 이나리 신사는 미나토 구의 7복신 순례지 중 하나이기도 합니다. 다른 신사들이 7복신 중 한 분씩을 모시는 것과 달리, 이곳은 특별하게도 7복신 모두가 타고 있는 '보물선(宝船, 다카라부네)' 그 자체를 모십니다. 이는 모든 복을 한 번에 가져다준다는 의미로, 강한 길운(吉運)과 소원 성취의 상징으로 여겨집니다.
-
-#### **【유래와 역사: 두 개의 전설이 하나로】**
-
-주반 이나리 신사의 현재 모습은 1997년에 완성되었지만, 그 뿌리는 천 년이 넘는 시간 속으로 깊숙이 뻗어 있습니다. 이 신사는 본래 **'스에히로 신사(末廣神社)'**와 **'다케조 이나리 신사(竹長稲荷神社)'**라는 두 개의 유서 깊은 신사가 하나로 합쳐져 탄생한 곳입니다. 이 두 신사에 얽힌 이야기는 그 자체로 한 편의 신화와 같습니다.
-
-**이야기 하나: 야마토타케루의 부채와 '스에히로 신사'**
-첫 번째 이야기의 주인공은 전설적인 영웅, 야마토타케루노미코토입니다. 지금으로부터 약 1,900년 전, 그는 동쪽 땅을 정벌하기 위한 머나먼 여정에 올랐습니다. 도쿄만에 이르러 바다를 건너려 할 때, 거친 폭풍우가 그의 앞길을 막아섰습니다. 이때 그의 아내인 오토타치바나히메(弟橘媛)가 스스로 바다에 몸을 던져 해신의 노여움을 풀었고, 야마토타케루는 무사히 바다를 건널 수 있었습니다.
-
-슬픔 속에서 여정을 계속하던 그는 현재의 아자부주반 지역에 이르러 잠시 휴식을 취하게 됩니다. 지친 몸을 뉘인 그곳에서 그는 아내를 그리워하며 깊은 시름에 잠겼습니다. 바로 그때, 어디선가 여덟 마리의 백조가 날아와 그의 주위를 맴돌며 위로하듯 춤을 추기 시작했습니다. 이 신비로운 광경에 힘을 얻은 야마토타케루는 가지고 있던 부채(扇, 오기)를 그 자리에 남겨두고 다시 길을 떠났다고 합니다.
-
-훗날, 이 지역의 사람들이 야마토타케루의 위업과 이 신비로운 일화를 기리기 위해 그가 부채를 남겨둔 자리에 사당을 세웠습니다. 부채는 펼치면 끝이 넓어지는 모양 때문에 '끝으로 갈수록 번성한다'는 의미를 담아 '스에히로오기(末広扇)'라고 불립니다. 이 때문에 사당의 이름은 '스에히로 신사(末廣神社)'가 되었고, 끝없는 번영과 발전을 기원하는 이들의 발길이 끊이지 않았습니다.
-
-**이야기 둘: 불을 끄는 개구리, '다케조 이나리 신사'**
-두 번째 이야기는 에도 시대로 거슬러 올라갑니다. 당시 아자부주반 지역에는 야마사키(山崎) 가문이라는 유력한 다이묘의 저택이 있었습니다. 저택 안에는 '가마이케(蝦蟇池)'라고 불리는 커다란 연못이 있었는데, 이 연못에는 거대한 두꺼비(蝦蟇, 가마)가 살고 있다는 전설이 전해져 내려왔습니다.
-
-1772년, 에도 시내를 휩쓴 대화재가 아자부 지역까지 번져왔습니다. 불길은 맹렬한 기세로 모든 것을 삼키며 야마사키 가문의 저택으로 향했습니다. 모두가 절망에 빠져 속수무책으로 불길을 바라보고 있을 때, 기적이 일어났습니다. 연못에 살던 거대한 두꺼비가 나타나 입에서 세찬 물줄기를 뿜어내 불길을 막아선 것입니다. 두꺼비의 신통력 덕분에 야마사키 가문의 저택은 기적적으로 화재를 피할 수 있었습니다.
-
-이 신비한 사건 이후, 야마사키 가문은 저택 안에 이나리 신을 모시는 '다케조 이나리 신사(竹長稲荷神社)'를 세우고, 불을 끄는 영험한 두꺼비를 신의 사자로 숭배하기 시작했습니다. 이 소문은 에도 전역으로 퍼져나가, '가마이케의 이나리 님'은 화재 예방과 재난 방지의 신으로 큰 명성을 얻게 되었습니다.
-
-**두 이야기가 하나로, '주반 이나리 신사'의 탄생**
-시간이 흘러 2차 세계대전이 끝난 후, 도쿄는 급격한 도시 개발의 시기를 맞이합니다. 이 과정에서 스에히로 신사와 다케조 이나리 신사는 원래의 자리를 지키기 어려워졌습니다. 결국 1950년, 두 신사는 오랜 역사를 함께 이어가기로 결정하고 하나로 합쳐지게 됩니다. 그리고 1997년, 현재의 위치에 새로운 신전을 짓고 '주반 이나리 신사'라는 이름으로 다시 태어났습니다.
-
-이처럼 주반 이나리 신사는 야마토타케루의 끝없는 번영의 기운과, 재앙을 막는 신비한 두꺼비의 힘을 동시에 품고 있는, 매우 특별하고 강력한 에너지를 지닌 성지인 것입니다.
+More than just a place to pray for blessings, this is a power spot, a hidden gem in the city where fascinating myths and history are layered upon one another. It is particularly famous for the legend of the 'fire-extinguishing toad' and for bringing financial luck, derived from the word 'kaeru,' which means 'to return.' Today, we will open the gates of this mystical shrine and embark on a deep pilgrimage into the stories that dwell within.
 
 ---
 
-### 2. 境内 산책: 볼거리와 파워스팟
+### 1. 🙏 Deities and Origins: Meeting the Heart of the Shrine
 
-현대적인 빌딩 사이에 자리한 주반 이나리 신사의 경내는 아담하지만, 그 안에는 신화와 전설이 깃든 볼거리들이 알차게 모여 있습니다. 참배의 순서에 따라 경내를 거닐며 그 깊은 의미를 느껴보겠습니다.
+Every shrine has its guardian deities, or *saijin* (祭神), and a unique story of how they came to be enshrined. To understand the heart of Juban Inari Shrine, we must first learn about the deities enshrined here and the special history of how two shrines merged into one.
 
-#### **본전(本殿)・배전(拝殿)**
+#### **【Enshrined Deities (御祭神)】**
 
-경내에 들어서면 가장 먼저 정면에 자리한 배전이 눈에 들어옵니다. 현대적인 철근 콘크리트 구조로 지어져 전통적인 목조 신사와는 다른 느낌을 주지만, 그 위엄과 성스러움은 여전합니다. 배전 앞에서는 일본 신사 참배의 기본 예법인 '이배이박수일배(二拝二拍手一拝)'를 따라 경건한 마음으로 참배합니다.
+Juban Inari Shrine is known as a highly potent place where one can receive the blessings of multiple gods at once. The main deities are as follows:
 
-1.  새전함(賽銭箱)에 조용히 동전을 넣습니다.
-2.  허리를 90도로 굽혀 두 번 절합니다(二拝).
-3.  가슴 높이에서 손뼉을 두 번 칩니다(二拍手). 이때 오른손을 왼손 첫 번째 마디만큼 살짝 아래로 내렸다가, 손뼉을 칠 때 가지런히 모으는 것이 정중한 방식입니다.
-4.  손을 모은 채로 간절히 소원을 빕니다.
-5.  마지막으로 다시 한번 90도로 깊이 절하며 마무리합니다(一拝).
+- **Ukanomitama-no-Mikoto (倉稲魂命)**
+  A god of grains and food from Japanese mythology, also the main deity of Fushimi Inari Taisha in Kyoto, the head shrine of all Inari shrines. In the past, when agriculture was central to life, this deity was a symbol of abundance and prosperity. In modern times, Ukanomitama-no-Mikoto is widely worshipped as the god governing all things related to wealth, including commercial prosperity, business success, and increased financial luck.
 
-배전 뒤편으로는 신의 영혼이 머무는 가장 신성한 공간인 본전이 자리하고 있습니다. 비록 직접 볼 수는 없지만, 그곳에 깃든 신들의 기운을 느끼며 마음을 다해 기도하는 것이 중요합니다.
+- **Yamato Takeru-no-Mikoto (日本武尊)**
+  A legendary hero of Japan, an ill-fated prince who appears in the *Kojiki* and *Nihon Shoki*. His tale of subjugating the eastern barbarians with outstanding martial prowess has given rise to numerous legends. His strength and will are believed to ward off disasters (厄除け), and he serves as an inspiration for many, bestowing blessings for proficiency in both literary and military arts (文武両道) and success in life (出世開運).
 
-#### **가마이케(蝦蟇池)와 불을 끄는 두꺼비상**
+- **Minato Ward's Seven Lucky Gods Takarabune (港区七福神 宝船)**
+  Juban Inari Shrine is also one of the pilgrimage sites for the Minato Ward's Seven Lucky Gods. Unlike other shrines that each enshrine one of the seven, this shrine uniquely enshrines the 'Treasure Ship (宝船, Takarabune)' itself, on which all seven gods ride. This signifies bringing all blessings at once and is regarded as a powerful symbol of good fortune (吉運) and wish fulfillment.
 
-배전 왼쪽으로 발걸음을 옮기면, 이 신사의 가장 핵심적인 파워스팟인 '가마이케'의 흔적을 만날 수 있습니다. 현재는 실제 연못이 아니라 그 전설을 기리는 작은 공간으로 조성되어 있습니다. 이곳에는 두 마리의 두꺼비 석상이 앉아 있는데, 바로 야마사키 저택을 화재로부터 지켜낸 전설 속 두꺼비를 형상화한 것입니다.
+#### **【Origins and History: Two Legends Become One】**
 
-*   **오가마사마(おがま様):** 오른쪽에 앉아 있는 두꺼비상으로, 눈이 아픈 사람이 물을 적셔 눈을 씻으면 병이 낫는다는 전설이 있습니다.
-*   **두꺼비상에 물 뿌리기:** 많은 참배객들이 이곳에서 작은 바가지로 두꺼비상에 물을 뿌리며 소원을 빕니다. 이는 화재 예방, 재난 방지는 물론, '개구리/두꺼비'를 뜻하는 일본어 '카에루(かえる)'가 '돌아오다(帰る)', '되찾다(返る)'와 발음이 같은 점에서 착안한 것입니다. **"잃어버린 물건이 돌아오길", "나갔던 돈이 돌아오길(금전운)", "젊음이 돌아오길(건강)"** 등 다양한 소원을 비는 강력한 파워스팟으로 사랑받고 있습니다.
+While the current structure of Juban Inari Shrine was completed in 1997, its roots stretch back over a thousand years. The shrine was born from the merger of two historic shrines: **'Suehiro Shrine (末廣神社)'** and **'Takecho Inari Shrine (竹長稲荷神社)'**. The stories surrounding these two shrines are like myths in themselves.
 
-이곳에 잠시 머물며, 맹렬한 불길에 맞서 물을 뿜어냈던 전설 속 두꺼비의 용기와 신비한 힘을 상상해 보세요. 도시의 소음이 잦아들고 마음속에 평온이 찾아오는 것을 느낄 수 있을 것입니다.
+**Story One: Yamato Takeru's Fan and 'Suehiro Shrine'**
+The protagonist of the first story is the legendary hero, Yamato Takeru-no-Mikoto. About 1,900 years ago, he set out on a long journey to conquer the eastern lands. When he reached Tokyo Bay and attempted to cross the sea, a violent storm blocked his path. At that moment, his wife, Ototachibana-hime (弟橘媛), sacrificed herself to the sea to appease the sea god's wrath, allowing Yamato Takeru to cross safely.
 
-#### **미나토 구 7복신 다카라부네 (宝船)**
+Continuing his journey in sorrow, he reached the present-day Azabu-Juban area and took a rest. As he lay down his weary body, he was lost in deep grief, longing for his wife. Just then, eight white swans appeared from nowhere, flew around him, and began to dance as if to console him. Empowered by this mystical sight, Yamato Takeru left his fan (扇, *ōgi*) at that spot and continued on his way.
 
-가마이케 옆에는 또 하나의 중요한 상징물이 있습니다. 바로 7복신이 타고 있는 '다카라부네(보물선)' 석상입니다. 에비스(상업), 다이코쿠텐(재물), 벤자이텐(예술), 비샤몬텐(승리), 후쿠로쿠주(장수), 주로진(지혜), 호테이(행복) 등 일본인들이 가장 사랑하는 일곱 신이 한 배에 타고 있는 모습은 보기만 해도 마음이 풍요로워집니다.
+Later, the local people built a small shrine on the spot where he left the fan to honor his great deeds and this mysterious tale. Because a fan widens at the end when opened, it is called a 'Suehiro-ōgi (末広扇),' symbolizing 'prospering towards the end.' For this reason, the shrine was named 'Suehiro Shrine (末廣神社),' and it attracted a continuous stream of visitors praying for endless prosperity and growth.
 
-이 보물선은 모든 종류의 복을 싣고 항해하는 행운의 상징입니다. 사업 번창, 금전운, 건강, 학업, 인연 등 다방면에 걸친 소원을 이곳에서 한 번에 빌 수 있습니다. 특히 매년 정월이 되면 '미나토 7복신 순례(港七福神めぐり)'를 하는 참배객들로 붐비며, 순례의 중심지 역할을 톡톡히 합니다.
+**Story Two: The Fire-Extinguishing Toad and 'Takecho Inari Shrine'**
+The second story dates back to the Edo period. At that time, the residence of a powerful daimyo family, the Yamazaki clan, was located in the Azabu-Juban area. Within the estate was a large pond called 'Gamaike (蝦蟇池),' and legend had it that a giant toad (蝦蟇, *gama*) lived in this pond.
 
----
+In 1772, a great fire that swept through Edo spread to the Azabu area. The flames, with ferocious intensity, consumed everything in their path and headed towards the Yamazaki residence. Just as everyone watched the fire in helpless despair, a miracle occurred. The giant toad from the pond appeared and shot a powerful stream of water from its mouth, blocking the flames. Thanks to the toad's miraculous power, the Yamazaki residence was miraculously saved from the fire.
 
-### 3. 📜 고슈인과 수여품(授与品)：참배의 증표
+After this mysterious event, the Yamazaki family built 'Takecho Inari Shrine (竹長稲荷神社)' within their estate to enshrine the god Inari and began to worship the spiritually powerful fire-extinguishing toad as a divine messenger. The story spread throughout Edo, and 'the Inari of Gamaike' gained great fame as a deity of fire prevention and disaster protection.
 
-신사 참배의 또 다른 즐거움은 그곳에서만 받을 수 있는 고슈인과 오마모리를 통해 신과의 인연을 기념하는 것입니다. 주반 이나리 신사는 그 독특한 유래만큼이나 매력적인 수여품(授与品)들을 만날 수 있습니다.
+**Two Stories Become One, The Birth of 'Juban Inari Shrine'**
+As time passed, Tokyo entered a period of rapid urban development after World War II. During this process, it became difficult for Suehiro Shrine and Takecho Inari Shrine to remain in their original locations. Finally, in 1950, the two shrines decided to carry on their long histories together and merged into one. Then, in 1997, a new shrine building was constructed at the current location, and it was reborn under the name 'Juban Inari Shrine.'
 
-#### **【고슈인(御朱印)】**
-
-주반 이나리 신사의 고슈인은 신사의 특징을 아름답게 담아내고 있습니다.
-
-*   **중앙의 문구**: 중앙에는 '十番稲荷神社'라는 신사명이 힘찬 서체로 적혀 있습니다.
-*   **붉은 인장(朱印)**: 신사명 위에는 신사의 문양이, 아래에는 이 신사의 상징인 **'가마이케'의 두꺼비 인장**이 선명하게 찍혀 있습니다. 이 두꺼비 인장은 다른 곳에서는 볼 수 없는 이곳만의 특별한 증표입니다.
-*   **특별 고슈인**: 정월 기간에는 7복신 순례를 위한 특별 고슈인을 받을 수 있으며, 다카라부네 인장이 찍혀 있어 더욱 화려하고 영험한 기운을 느낄 수 있습니다. 고슈인 수집가라면 이 기간을 놓치지 않는 것이 좋습니다.
-
-#### **【오마모리(お守り)・엔기모노(縁起物)】**
-
-이곳의 오마모리는 단연 '두꺼비'를 모티브로 한 것들이 가장 인기가 높습니다.
-
-*   **카에루 오마모리 (かえるお守り)**: '무사히 돌아오다(無事かえる)', '돈이 돌아오다(お金がかえる)', '젊음이 돌아오다(若がえる)' 등 '카에루'의 언어유희를 활용한 부적입니다. 작은 금색 두꺼비가 달려 있어 매우 귀엽고, 여행 안전, 금전운, 건강운 등 다방면에 효험이 있다고 알려져 있습니다.
-*   **화재 예방 부적 (火防守)**: 가마이케의 전설에 따라, 화재와 재난으로부터 지켜주는 효험이 강한 부적입니다. 가정이나 사업장에 두면 좋다고 합니다.
-*   **다카라부네 에마 (宝船の絵馬)**: 7복신이 탄 보물선이 그려진 에마(絵馬, 소원을 적는 나무판)도 인기입니다. 구체적인 소원을 적어 경내에 걸어두면 7복신이 그 소원을 이루어준다고 믿어집니다.
+Thus, Juban Inari Shrine is a very special and powerful sacred site, simultaneously embodying the spirit of endless prosperity from Yamato Takeru and the protective power of the mystical toad that wards off disaster.
 
 ---
 
-### 4. 🚶 함께 둘러볼 곳: 주변 명소와 맛집
+### 2. 境内 A Stroll Through the Grounds: Sights and Power Spots
 
-주반 이나리 신사 참배를 마쳤다면, 세련됨과 전통이 공존하는 아자부주반 거리의 매력을 만끽해 보세요. 신사에서 도보로 이동 가능한 추천 명소들을 소개합니다.
+Nestled between modern buildings, the grounds of Juban Inari Shrine are compact but filled with sights imbued with myth and legend. Let's walk through the grounds following the order of worship and feel their deep significance.
 
-**1. 아자부주반 상점가 (麻布十番商店街)**
-*   **추천 이유**: 300년 이상의 역사를 자랑하는 노포(老舗)부터 최신 트렌드를 이끄는 세련된 가게까지, 다채로운 매력이 공존하는 곳입니다. 신사 참배 후 가볍게 산책하며 간식을 즐기기에 완벽한 장소입니다.
-*   **신사에서의 거리**: 도보 약 2~3분.
-*   **대표 맛집**:
-    *   **나니와야소혼텐 (浪花家総本店)**: 1909년에 창업한 '타이야키(たい焼き, 붕어빵)'의 원조 가게입니다. 얇고 바삭한 피 안에 팥소가 꼬리 끝까지 꽉 차 있는 것이 특징입니다. 항상 줄이 길게 늘어서 있지만 기다릴 가치가 충분합니다.
-    *   **마메겐 (豆源)**: 1865년에 창업한 콩과자 전문점입니다. 수십 종류의 다채로운 콩과자와 센베를 판매하며, 시식도 가능해 구경하는 재미가 쏠쏠합니다. 선물용으로도 인기가 높습니다.
+#### **Main Hall (Honden) & Worship Hall (Haiden)**
 
-**2. 롯폰기 힐스 (六本木ヒルズ)**
-*   **추천 이유**: 전통적인 신사와 상점가를 둘러본 후, 도쿄의 현대적인 스카이라인과 문화를 즐기고 싶다면 이곳이 제격입니다. 미술관, 전망대, 쇼핑, 다이닝 등 모든 것을 한곳에서 즐길 수 있는 복합 문화 공간입니다.
-*   **신사에서의 거리**: 도보 약 10~15분.
-*   **볼거리**:
-    *   **도쿄 시티 뷰 (Tokyo City View)**: 해발 250m 높이에서 도쿄 타워와 도심의 파노라마 전경을 감상할 수 있는 전망대입니다. 특히 해 질 녘과 야경이 아름답습니다.
-    *   **모리 미술관 (森美術館)**: 현대 미술을 중심으로 독창적이고 수준 높은 기획전을 선보이는 곳으로, 예술에 관심이 있다면 꼭 들러볼 만합니다.
+Upon entering the grounds, the first thing that catches your eye is the worship hall (Haiden) directly in front. Built with modern reinforced concrete, it has a different feel from traditional wooden shrines, but its dignity and sacredness remain. In front of the Haiden, offer your prayers with a reverent heart, following the basic etiquette of Japanese shrine worship, 'Nihai-nihakushu-ippai (two bows, two claps, one bow).'
+
+1.  Quietly place a coin in the offering box (Saisen-bako).
+2.  Bow deeply twice at a 90-degree angle (Nihai).
+3.  Clap your hands twice at chest level (Nihakushu). A respectful way is to slightly lower your right hand below the first knuckle of your left hand, then bring them together when you clap.
+4.  With your hands still together, make your earnest wish.
+5.  Finally, bow deeply one more time at a 90-degree angle to conclude (Ippai).
+
+Behind the Haiden lies the Honden, the most sacred space where the spirit of the deity resides. Although you cannot see it directly, it is important to pray with all your heart, feeling the presence of the deities enshrined there.
+
+#### **Gamaike (蝦蟇池) and the Fire-Extinguishing Toad Statue**
+
+Moving to the left of the Haiden, you will find a trace of the shrine's most central power spot, 'Gamaike.' Today, it is not an actual pond but a small space commemorating the legend. Here sit two stone statues of toads, representing the legendary toad that protected the Yamazaki residence from fire.
+
+-   **Ogama-sama (おがま様):** This is the toad statue on the right. Legend has it that if a person with an eye ailment wets their eyes with water from here, they will be cured.
+-   **Pouring Water on the Toad Statue:** Many visitors pour water over the toad statues with a small ladle while making a wish. This ritual is for fire prevention and disaster protection, but it also draws on the Japanese wordplay of 'kaeru' (かえる), which means 'frog/toad,' 'to return' (帰る), and 'to be rejuvenated' (返る). It has become a beloved and powerful spot for making various wishes, such as: **"May my lost items return," "May the money I spent come back (financial luck)," and "May my youth return (health)."**
+
+Pause here for a moment and imagine the courage and mystical power of the legendary toad that spewed water to fight the raging flames. You may feel the city's noise fade away and a sense of peace settle in your heart.
+
+#### **Minato Ward's Seven Lucky Gods Takarabune (宝船)**
+
+Next to Gamaike is another important symbol: a stone statue of the 'Takarabune (Treasure Ship)' carrying the Seven Lucky Gods. The sight of the seven most beloved gods in Japan—Ebisu (commerce), Daikokuten (wealth), Benzaiten (arts), Bishamonten (victory), Fukurokuju (longevity), Jurojin (wisdom), and Hotei (happiness)—all on one ship is enough to make one's heart feel abundant.
+
+This treasure ship is a symbol of luck, sailing with all kinds of blessings. Here, you can pray for a wide range of wishes all at once, including business prosperity, financial luck, health, academic success, and good relationships. It becomes especially crowded during the New Year with visitors participating in the 'Minato Seven Lucky Gods Pilgrimage (港七福神めぐり),' playing a central role in the pilgrimage.
 
 ---
 
-### 5. 🗺️ 오시는 길 및 기본 정보
+### 3. 📜 Goshuin and Items for Purchase (授与品): A Proof of Worship
 
-주반 이나리 신사를 방문하는 분들을 위한 실용적인 정보입니다.
+Another joy of visiting a shrine is commemorating your connection with the deities through Goshuin and Omamori that can only be obtained there. Juban Inari Shrine offers charming items for purchase (授与品) that reflect its unique origins.
 
-| 항목 | 내용 |
-|:---|:---|
-| **소재지** | 〒106-0045 東京都港区麻布十番1-4-6 (도쿄도 미나토구 아자부주반 1-4-6) |
-| **가까운 역** | 도쿄메트로 난보쿠선(南北線)・도에이 오에도선(大江戸線) **"아자부주반(麻布十番)역" 7번 출구**에서 도보 약 1분 |
-| **버스 이용 시** | 도에이 버스(都営バス) "아자부주반역 앞(麻布十番駅前)" 정류장 하차 바로 |
-| **참배 시간** | 09:00～17:00 (사무소 접수 시간 기준, 경내 자유) |
-| **공식 웹사이트** | `http://www.jubaninari.or.jp/` |
+#### **【Goshuin (御朱印)】**
+
+The Goshuin of Juban Inari Shrine beautifully captures the shrine's characteristics.
+
+-   **Central Text**: In the center, the shrine's name '十番稲荷神社' is written in powerful calligraphy.
+-   **Red Seals (朱印)**: Above the shrine's name is the shrine's crest, and below it is a distinct seal of the **'Gamaike' toad**, a symbol of this shrine. This toad seal is a special proof of visit you won't find anywhere else.
+-   **Special Goshuin**: During the New Year period, you can receive a special Goshuin for the Seven Lucky Gods pilgrimage, which features a Takarabune seal, making it feel even more brilliant and spiritually charged. Goshuin collectors should not miss this period.
+
+#### **【Omamori (お守り) & Engimono (縁起物)】**
+
+The Omamori (charms) here are, without a doubt, most popular for their 'toad' motifs.
+
+-   **Kaeru Omamori (かえるお守り)**: A charm that plays on the word 'kaeru,' meaning 'to return safely (無事かえる),' 'for money to return (お金がかえる),' and 'for youth to return (若がえる).' It comes with a small golden toad, making it very cute, and is said to be effective for various wishes, including travel safety, financial luck, and health.
+-   **Fire Prevention Charm (火防守)**: In line with the legend of Gamaike, this is a powerful charm that protects from fire and disasters. It is said to be good to keep at home or in a place of business.
+-   **Takarabune Ema (宝船の絵馬)**: Ema (絵馬, wooden plaques for writing wishes) depicting the treasure ship with the Seven Lucky Gods are also popular. It is believed that if you write a specific wish on it and hang it on the shrine grounds, the Seven Lucky Gods will grant your wish.
 
 ---
 
-### 6. ✨ 맺음말: 마음에 남는 참배 경험
+### 4. 🚶 What to See Nearby: Attractions and Restaurants
 
-주반 이나리 신사는 단순히 소원을 비는 장소를 넘어, 도쿄의 심장부에서 신화와 역사가 어떻게 현재와 공존하는지를 생생하게 보여주는 살아있는 박물관과 같습니다. 전설적인 영웅의 숨결이 깃든 번영의 기운, 그리고 재앙의 불길을 막아선 신비한 두꺼비의 수호 에너지. 이 두 개의 강력한 이야기가 하나로 어우러진 이곳에서의 참배는 분명 여러분의 마음에 깊은 울림과 긍정적인 힘을 선사할 것입니다.
+After your visit to Juban Inari Shrine, immerse yourself in the charm of the Azabu-Juban area, where sophistication and tradition coexist. Here are some recommended spots within walking distance of the shrine.
 
-아자부주반의 세련된 거리를 거닐다 잠시 발걸음을 멈추고, 이 고요한 성역에 들어서 보시길 바랍니다. 도시의 소음 속에서 잠시 잊고 있던 평온을 되찾고, 전설이 주는 특별한 가호를 듬뿍 받아 가시는, 잊지 못할 순례의 경험이 되기를 기원합니다.
+**1. Azabu-Juban Shopping Street (麻布十番商店街)**
+
+-   **Why it's recommended**: A place where diverse charms coexist, from well-established shops (老舗) with over 300 years of history to trendy stores leading the latest trends. It's the perfect place for a light stroll and enjoying snacks after visiting the shrine.
+-   **Distance from shrine**: About a 2-3 minute walk.
+-   **Top Spots**:
+    -   **Naniwaya Souhonten (浪花家総本店)**: The original shop of 'taiyaki' (たい焼き, a fish-shaped cake with red bean filling), founded in 1909. It's known for its thin, crispy crust filled with red bean paste all the way to the tail. There's always a long line, but it's well worth the wait.
+    -   **Mamegen (豆源)**: A specialty shop for bean snacks, founded in 1865. They sell dozens of varieties of colorful bean snacks and rice crackers, and you can often sample them, making it fun to browse. They are also popular as gifts.
+
+**2. Roppongi Hills (六本木ヒルズ)**
+
+-   **Why it's recommended**: If you want to enjoy Tokyo's modern skyline and culture after exploring the traditional shrine and shopping street, this is the perfect place. It's a multipurpose complex where you can enjoy an art museum, an observation deck, shopping, and dining all in one place.
+-   **Distance from shrine**: About a 10-15 minute walk.
+-   **Highlights**:
+    -   **Tokyo City View**: An observation deck 250 meters above sea level offering a panoramic view of Tokyo Tower and the city center. The sunset and night views are particularly beautiful.
+    -   **Mori Art Museum (森美術館)**: Showcasing original and high-quality exhibitions centered on contemporary art, it's a must-visit if you are interested in art.
+
+---
+
+### 5. 🗺️ Access and Basic Information
+
+Here is some practical information for those visiting Juban Inari Shrine.
+
+| Item              | Details                                                                                                      |
+| :---------------- | :----------------------------------------------------------------------------------------------------------- |
+| **Address**       | 1-4-6 Azabu-Juban, Minato-ku, Tokyo 〒106-0045                                                                |
+| **Nearest Station** | Approx. 1-minute walk from **Exit 7** of **"Azabu-Juban Station"** on the Tokyo Metro Namboku Line and Toei Oedo Line. |
+| **By Bus**        | Get off at the Toei Bus stop "Azabu-Juban Ekimae" (麻布十番駅前), right by the shrine.                            |
+| **Worship Hours** | 09:00–17:00 (Based on office reception hours; grounds are freely accessible)                                 |
+| **Official Website** | `http://www.jubaninari.or.jp/`                                                                               |
+
+---
+
+### 6. ✨ Conclusion: A Memorable Worship Experience
+
+Juban Inari Shrine is more than just a place to make a wish; it is a living museum that vividly shows how myth and history coexist with the present in the heart of Tokyo. The spirit of prosperity left by a legendary hero and the protective energy of a mystical toad that stopped the flames of disaster. A visit to this place, where these two powerful stories intertwine, will surely leave a deep impression on your heart and bestow upon you a positive force.
+
+When strolling through the stylish streets of Azabu-Juban, I encourage you to pause for a moment and step into this quiet sanctuary. I hope you will rediscover the tranquility you may have forgotten amidst the city's noise and receive the special blessings that its legends have to offer, making for an unforgettable pilgrimage experience.
