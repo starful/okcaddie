@@ -137,3 +137,10 @@ Whether it's the person you are waiting for or the precious connection you alrea
 ### ♨️ Relax at a Nearby Onsen: LaQua (ラクーア)
 
 LaQua is a relaxing day-trip onsen conveniently located within the Tokyo Dome City complex. While not a traditional onsen with naturally sourced water from deep underground within the immediate Tokyo area, it offers a variety of bath types, saunas, and relaxation facilities. Its urban location makes it incredibly accessible after visiting nearby In the Heart of Tokyo, Meet the Gods of Ise Grand Shrine: Finding Love and Happiness at Tokyo Daijingu, the Sacred Place of Relationships, making it ideal for a quick and relaxing break in the city. Consider this onsen for a convenient and rejuvenating day-trip onsen experience.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Love Luck:** Discover [The Best Sacred Site Near Tokyo with 2,400 Years of Mystery: Encountering Fated Connections at Omiya Hikawa Shrine](/shrine/hikawa_shrine), another powerful spot for your wishes.
+- **While in Tokyo:** Don't miss a visit to [Senso-ji, Tokyo: A 1,400-Year-Old Red Lantern and Wish Fulfillment at Asakusa's Temple of Kannon](/shrine/senso_ji) nearby.

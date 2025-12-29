@@ -140,3 +140,10 @@ Are you dreaming of a new connection? Or do you wish to wash away your worries? 
 ### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
 
 After a spiritual journey at Kifune Shrine, a Hidden Gem of Kyoto and a Sanctuary of Water: A Mystical Encounter with Red Lanterns and Water Fortune-Telling, indulge in a relaxing day-trip onsen experience at Kurama Onsen. Nestled in the mountains, this onsen boasts rotemburo (outdoor baths) with scenic views, offering a tranquil escape. The natural radium hot spring waters are known for their therapeutic properties, making it an ideal spot to unwind and rejuvenate after exploring the shrine. It’s a perfect nearby Kifune Shrine option for a truly unforgettable Kyoto day.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Love Luck:** Discover [The Land of Japanese Creation Myths Where Love and Destiny Begin: A Complete Guide to Ibaraki's Tsukubasan Shrine](/shrine/tsukubasan_shrine), another powerful spot for your wishes.
+- **While in Kyoto:** Don't miss a visit to [The 13-Meter Miracle on a Cliff: Discover a Millennium of History and the Blessings of Three Sacred Streams at Kyoto's Kiyomizu-dera Temple](/shrine/kiyomizu_dera) nearby.

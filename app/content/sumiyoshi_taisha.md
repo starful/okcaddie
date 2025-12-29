@@ -139,3 +139,10 @@ If you need a moment of pause during your Osaka trip, come to Sumiyoshi Taisha.
 ### ♨️ Relax at a Nearby Onsen: Spa World Onsen (スパワールド 世界の大温泉)
 
 Spa World is a great day-trip onsen option nearby A Myth of 1800 Years, Osaka's Sumiyoshi Taisha Where the Sea God Resides: Crossing the Red Arch Bridge to Find Fortune, offering a unique and globally-themed bathing experience. This large complex houses onsen inspired by different cultures around the world, from ancient Rome to exotic Asia. It's a super relaxing place to unwind after exploring the shrine and provides a fun and memorable onsen experience.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Wealth Luck:** Discover [Money Washed in a Cave Spring Returns as Manifold Blessings: The Miracle of Kamakura's Zeniarai Benten Shrine](/shrine/zeniarai_benten), another powerful spot for your wishes.
+- **While in Osaka:** Don't miss a visit to [A Sacred Place for Love Hidden in Osaka's Concrete Jungle: Forging a Thousand-Year Bond at Tsuyunoten Shrine (Ohatsu Tenjin)](/shrine/osaka_ohatsutenjin) nearby.

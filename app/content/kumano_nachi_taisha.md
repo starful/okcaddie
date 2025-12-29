@@ -136,3 +136,10 @@ If you need true healing away from the frustrations of daily life, the forest of
 ### ♨️ Relax at a Nearby Onsen: Hotel Urashima (ホテル浦島)
 
 Hotel Urashima is a fantastic day-trip onsen option nearby The Mystery of the 133-Meter Waterfall, a Sanctuary Where Gods Dwell: Purifying the Soul at Kumano Nachi Taisha. Known for its stunning ocean views from its Bokido Cave bath, a natural cave directly connected to the sea, it provides a truly unique and relaxing onsen experience. The sulfurous waters are said to have therapeutic properties, making it a perfect way to unwind after exploring the sacred shrine and waterfalls. For a truly memorable and relaxing soak, this is a must-visit day-trip onsen.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For History Luck:** Discover [The Red Heart of Kyoto's Millennium of History: A Stroll Through Heian Jingu's Majestic Architecture and Secret Garden](/shrine/heian_jingu), another powerful spot for your wishes.
+- **While in Wakayama:** Don't miss a visit to [The Soul's Rebirth at the End of a Thousand-Year Pilgrimage: Kumano Hongu Taisha and the Great Silence of Oyunohara](/shrine/kumano_hongu_taisha) nearby.

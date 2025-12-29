@@ -137,3 +137,9 @@ Breathe in the phytoncides emitted by the thousand-year-old forest, and let your
 ### ♨️ Relax at a Nearby Onsen: Hinatayu Hisuien (日の出湯 翡翠苑)
 
 Hinatayu Hisuien is an excellent choice for a relaxing day-trip onsen nearby The Beginning of a Myth, Where the Heart of Japan Resides: A Pilgrimage to Ise Jingu. Located a short distance from Ise Jingu, it offers a convenient and tranquil escape. The onsen boasts smooth, skin-friendly waters, providing a rejuvenating experience after a day of exploring the shrine. It's the perfect way to unwind and complete your Ise pilgrimage with a soothing soak.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For History Luck:** Discover [A 100-Year-Old Forest Breathes in this Urban Sanctuary: Discover Meiji Jingu, a Symbol of Modern Japan and a 'Power Spot'](/shrine/meiji_jingu), another powerful spot for your wishes.

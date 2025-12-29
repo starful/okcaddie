@@ -142,3 +142,10 @@ If you are arriving in or departing from Tokyo via Haneda Airport, take a moment
 ### ♨️ Relax at a Nearby Onsen: Heiwajima Onsen (平和島温泉)
 
 Heiwajima Onsen is an excellent choice for a relaxing day-trip onsen near The Red Guardian of the Skies: Tokyo's Anamori Inari Shrine, its Red Torii Tunnel, and Mysterious Sand. Conveniently located and accessible by shuttle bus from Heiwajima Station (a short train ride from Anamori Inari Shrine), this onsen boasts a variety of indoor and outdoor baths, including natural hot spring water sourced from deep underground. It offers a perfect opportunity to unwind and rejuvenate after exploring the shrine and its surroundings.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Success Luck:** Discover [Kibitsuhiko Shrine: A Journey Through Myth and History in Okayama](/shrine/kibitsuhiko), another powerful spot for your wishes.
+- **While in Tokyo:** Don't miss a visit to [[Tokyo] The Miraculous Strong Luck that Survived Wars and Earthquakes: Washing for Wealth at Koami Shrine](/shrine/koami_jinja) nearby.

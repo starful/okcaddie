@@ -139,3 +139,10 @@ Strike the gong behind the main hall 'clang, clang' and shout your wishes out lo
 ### ♨️ Relax at a Nearby Onsen: Spa World (スパワールド 世界の大温泉)
 
 Spa World is an excellent choice for a relaxing day-trip onsen experience nearby Where the Spirit of Osaka Merchants Lives: Experience the Heat of 'Toka Ebisu' at Imamiya Ebisu Shrine. Just a short subway ride away, this unique onsen facility offers a wide variety of themed baths from around the world, providing a truly global bathing experience. It's perfect for unwinding after exploring the shrine and immersing yourself in a different culture, all while enjoying the therapeutic benefits of hot springs.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Success Luck:** Discover [Harness the Dragon's Energy in Tokyo! A Complete Guide to Shinagawa Shrine, the Shogun's Chosen Sanctuary for Success and Prosperity](/shrine/shinagawa_shrine), another powerful spot for your wishes.
+- **While in Osaka:** Don't miss a visit to [The Guardian of Osaka Castle: Encountering Toyotomi Hideyoshi's Success Story at Hokoku Shrine](/shrine/hokoku_shrine) nearby.

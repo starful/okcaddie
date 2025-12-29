@@ -136,3 +136,10 @@ Create unforgettable memories at Nogi Shrine, where poignant history and warm lo
 ### ♨️ Relax at a Nearby Onsen: Thermae-Yu (テルマー湯)
 
 Thermae-Yu is a fantastic day-trip onsen option, conveniently located near A Sacred Urban Sanctuary of Loyalty and Love: The Sublime Vow of Tokyo's Nogi Shrine. While not a traditional outdoor onsen, it offers a wide variety of indoor baths sourced from natural hot springs, offering a truly relaxing experience. Its stylish and modern atmosphere makes it a pleasant escape from the city, a perfect way to unwind after visiting the shrine. Enjoy this urban oasis for a rejuvenating day-trip onsen experience.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Love Luck:** Discover [A Pilgrimage to Akasaka Hikawa Shrine: The Shogun's Beloved Hidden Sanctuary in Tokyo, a 1,000-Year Bond of Fate](/shrine/akasaka_hikawa_shrine), another powerful spot for your wishes.
+- **While in Tokyo:** Don't miss a visit to [Home of the Maneki-neko! The Legend of the Red String of Fate, a Perfect Guide to Asakusa's 'Imado Shrine'](/shrine/imado_shrine) nearby.

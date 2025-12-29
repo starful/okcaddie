@@ -133,3 +133,10 @@ If you are going through a difficult time or are on the verge of a new beginning
 ### ♨️ Relax at a Nearby Onsen: Mori no Spa Resort Hokkaido Hotel (森のスパリゾート 北海道ホテル)
 
 The Mori no Spa Resort Hokkaido Hotel offers a fantastic day-trip onsen experience, conveniently located near A Forest with the Spirit of Hokkaido's Pioneers: Meet Squirrels and Make Wishes Come True at Obihiro Shrine. It is known for its unique "Moor Onsen," a rare type of hot spring with plant-derived organic matter, leaving your skin feeling incredibly smooth. This relaxing onsen boasts beautiful garden views, perfect for unwinding after visiting the shrine.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Success Luck:** Discover [A Hidden Gem in Japan Praised by CNN! A Complete Guide to Yamaguchi's 'Motonosumi Shrine,' Where 123 Red Torii Gates Dance](/shrine/motonosumi), another powerful spot for your wishes.
+- **While in Hokkaido:** Don't miss a visit to [The Forest of Hokkaido's Pioneering Dreams: A 130-Year-Old Prayer at Asahikawa Shrine](/shrine/asahikawa_shrine) nearby.

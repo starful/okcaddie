@@ -137,3 +137,10 @@ Are you facing a major challenge in life, such as finding a job, getting a promo
 ### ♨️ Relax at a Nearby Onsen: Spa World World Big-Bath (スパワールド 世界の大温泉)
 
 Spa World is a fantastic choice for a relaxing day-trip onsen experience nearby The Guardian of Osaka Castle: Encountering Toyotomi Hideyoshi's Success Story at Hokoku Shrine. This unique facility offers a diverse range of themed baths from around the globe, allowing you to sample various onsen cultures in one location. After exploring the shrine, unwind in the rejuvenating waters and enjoy the entertainment options available within Spa World.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Success Luck:** Discover [A Hidden Gem in Japan Praised by CNN! A Complete Guide to Yamaguchi's 'Motonosumi Shrine,' Where 123 Red Torii Gates Dance](/shrine/motonosumi), another powerful spot for your wishes.
+- **While in Osaka:** Don't miss a visit to [Guardian of Osaka Castle, Tamatsukuri Inari Shrine: The Legend of the Fox that Binds Love and Fulfills Toyotomi Hideyoshi's Wish](/shrine/tamatsukuri_inari_shrine) nearby.

@@ -123,7 +123,7 @@ Since a trip to Kinkasan requires a ferry ride, exploring the departure points o
 
 ---
 
-### 5. 🗺️ Access & Information
+### 5. 📍 Visitor's Guide: How to Get Therermation
 
 As Kinkasan is an island, it is essential to check the ferry schedule in advance. Operations can change depending on the season and weather, so please be sure to consult the official website.
 
@@ -150,3 +150,10 @@ The legend says, "Visit for three consecutive years, and you will never worry ab
 ### ♨️ Relax at a Nearby Onsen: Hotel New Mitoya (ホテルニュー水戸屋)
 
 Hotel New Mitoya offers a fantastic **day-trip onsen** experience and is a relatively accessible option after visiting the Kinkasan Koganeyama Shrine. You can **relaxing** enjoy a variety of indoor and outdoor baths with high-quality spring water known for its therapeutic properties. Making it a refreshing way to cap off your **nearby Visit for 3 Consecutive Years for a Lifetime Free of Money Worries? A Traveler's Guide to Kinkasan Koganeyama Shrine, Japan's Ultimate Sacred Site for Financial Luck**. It's a great way to wash away the day's travels and rejuvenate both body and mind.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Wealth Luck:** Discover [A Pilgrimage Guide to Arayayama Shrine: Japan's Top Sacred Site for Financial Fortune, Embracing the Spirit of Mount Fuji](/shrine/araya_yama_shrine), another powerful spot for your wishes.
+- **While in Miyagi:** Don't miss a visit to [The Thousand-Year Port Guarded by the Salt God: The Miracle of 202 Steps at Shiogama Shrine](/shrine/shiogama_shrine) nearby.

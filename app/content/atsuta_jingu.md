@@ -137,3 +137,9 @@ Do you have a victory you desperately want to achieve or a love you want to prot
 ### ♨️ Relax at a Nearby Onsen: Nagoya Natural Hot Spring Genji no Yu (名古屋天然温泉GENJIの湯)
 
 Escape the city bustle and unwind after visiting A Forest Breathing with a Thousand Years of Myth: Encounter the Legendary Sword and a History of Victory at Nagoya's Atsuta Jingu at Nagoya Natural Hot Spring Genji no Yu. This easily accessible *day-trip onsen* offers a welcome respite with its natural hot spring waters, known for their skin-softening properties. Enjoy a *relaxing* soak and various amenities that will leave you refreshed after exploring *nearby A Forest Breathing with a Thousand Years of Myth: Encounter the Legendary Sword and a History of Victory at Nagoya's Atsuta Jingu*.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For History Luck:** Discover [A Forest of Divine Messengers: The Light of 3,000 Lanterns at Nara's Kasuga Taisha](/shrine/kasuga_taisha), another powerful spot for your wishes.

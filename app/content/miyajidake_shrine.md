@@ -147,3 +147,9 @@ If you are weary of the daily grind, or if you have a dream you desperately wish
 ### ♨️ Relax at a Nearby Onsen: [Please Provide Shrine Name and Address] ([神社名と住所を提供してください])
 
 To find the best day-trip onsen for you, I need the specific Japanese shrine name and its address. Once you provide this information, I can recommend a truly relaxing hot spring, considering its unique water quality, scenic views, or tranquil atmosphere. I'll search for a perfect nearby onsen to complement your visit to the Unknown Shrine. Please provide the shrine's details to get your personalized recommendation.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For History Luck:** Discover [A Forest of Divine Messengers: The Light of 3,000 Lanterns at Nara's Kasuga Taisha](/shrine/kasuga_taisha), another powerful spot for your wishes.

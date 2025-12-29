@@ -148,3 +148,10 @@ When you emerge from the stone, may only good connections and a hopeful future a
 ### ♨️ Relax at a Nearby Onsen: Hotel Kanra Kyoto (ホテル カンラ 京都)
 
 Hotel Kanra Kyoto offers a serene and accessible "day-trip onsen" experience relatively nearby Sever Bad Ties, Forge Good Ones: A New Beginning at Kyoto's Yasui Konpiragu Shrine. While not a traditional onsen town experience, its stylish and modern bath facilities boast high-quality water sourced from deep underground, providing a truly "relaxing" escape after visiting the shrine. Its convenient location in Kyoto makes it an ideal choice for travelers looking for a quick and refreshing onsen experience.
+***
+### 🗺️ Nearby Recommendations
+
+If you enjoyed your visit, consider exploring these other sacred sites:
+
+- **For Love Luck:** Discover [Jishu Shrine, Kyoto's Ultimate Romantic Sanctuary: The Jomon Period's Love Stones and a Three-Year Wait](/shrine/jishu_shrine), another powerful spot for your wishes.
+- **While in Kyoto:** Don't miss a visit to [Yoshida Shrine, the Forest That Changed the History of Japanese Shinto: In Search of the Ultimate Power Spot Where Eight Million Gods Gather](/shrine/yoshida_shrine) nearby.
