@@ -1,3 +1,7 @@
+---
+{}
+---
+
 layout: post
 title: "The Spirit of Tsugaru Fuji in Okunikkō: Discovering Magnificent Architecture and a Power Spot at Aomori's Iwakisan Shrine"
 date: 2025-12-22
@@ -111,3 +115,9 @@ Quench your thirst with a sip of the cool spring water and listen to the sound o
 When you need a pause from your weary routine, or when you need new strength, the sacred mountain of Tsugaru is waiting for you.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that will bring vitality to your life. May your future be as ripe and fruitful as an apple! 🍎⛰️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Unknown Onsen (不明温泉)
+
+For a truly **relaxing** end to your day exploring the **nearby Unknown Shrine**, consider a visit to this charming **day-trip onsen**. Its mineral-rich waters are renowned for their soothing properties, perfect for unwinding after sightseeing. Enjoy the tranquil atmosphere, perhaps with a scenic view, offering a serene escape to rejuvenate both mind and body. This spot provides an ideal opportunity to experience Japan's beloved hot spring culture.

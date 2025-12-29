@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "A Japanese Scenic View Praised by CNN: The Tunnel of 123 Red Torii Gates and the Legend of the White Fox, Motonosumi Shrine"
-date: 2025-12-17
-categories: [Success, Love, Safety]
-tags:
-  [
-    Yamaguchi,
-    Nagato,
-    Motonosumi Shrine,
-    CNN's Choice,
-    Torii,
-    Power Spot,
-    White Fox,
-    Japanese Shrine,
-    Driving Course,
-    Scenic View,
-  ]
-thumbnail: /content/images/motonosumi_shrine.webp
-lat: 34.426742
-lng: 131.056905
 address: 〒759-4712 山口県長門市油谷津黄498
-excerpt: Selected as one of CNN's '31 Most Beautiful Places in Japan'. Discover the overwhelming scenery and sacred energy at Motonosumi Shrine in Yamaguchi Prefecture, where 123 red torii gates stretch towards the blue sea from a cliff's edge, steeped in the legend of the white fox.
+categories:
+- Success
+- Love
+- Safety
+date: 2025-12-17
+excerpt: Selected as one of CNN's '31 Most Beautiful Places in Japan'. Discover the
+  overwhelming scenery and sacred energy at Motonosumi Shrine in Yamaguchi Prefecture,
+  where 123 red torii gates stretch towards the blue sea from a cliff's edge, steeped
+  in the legend of the white fox.
+lat: 34.426742
+layout: post
+lng: 131.056905
+tags:
+- Yamaguchi
+- Nagato
+- Motonosumi Shrine
+- CNN's Choice
+- Torii
+- Power Spot
+- White Fox
+- Japanese Shrine
+- Driving Course
+- Scenic View
+thumbnail: /content/images/motonosumi_shrine.webp
+title: 'A Japanese Scenic View Praised by CNN: The Tunnel of 123 Red Torii Gates and
+  the Legend of the White Fox, Motonosumi Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap', traveling the world to find hidden gem-like shrines.
@@ -157,3 +162,9 @@ This is because it embodies the perseverance of humans who erected 123 torii gat
 Laugh like a child as you toss a coin towards the heavens, and let the roar of the wild waves wash away your old worries. By the time you emerge from the red torii tunnel, your heart, too, will be filled with the hopeful energy delivered by the white fox.
 
 **JinjaMap** will be back with another story of a special shrine that will stir your soul. May your wishes surely reach the heavens! 🦊⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Tawarayama Onsen (俵山温泉)
+
+Tawarayama Onsen is an excellent choice for a relaxing day-trip onsen after visiting the nearby A Japanese Scenic View Praised by CNN: The Tunnel of 123 Red Torii Gates and the Legend of the White Fox, Motonosumi Shrine. Known for its gentle alkaline waters, Tawarayama Onsen is said to be beneficial for skin conditions and overall well-being. The onsen town offers a traditional, calming atmosphere where you can soak away your stresses in one of the public bathhouses or ryokans.

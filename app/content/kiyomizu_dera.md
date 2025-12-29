@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The 13-Meter Miracle on a Cliff: Discover a Millennium of History and the Blessings of Three Sacred Streams at Kyoto's Kiyomizu-dera Temple"
-date: 2025-12-18
-categories: [History, Health, Academics]
-tags:
-  [
-    Kyoto,
-    Kiyomizu-dera,
-    Pure Water Temple,
-    Power Spot,
-    Otowa Waterfall,
-    Jishu Shrine,
-    Enmusubi,
-    World Heritage,
-    Kyoto Travel,
-    Kiyomizu Stage,
-  ]
-thumbnail: /content/images/kiyomizu_dera.webp
-lat: 34.994712
-lng: 135.785345
 address: 〒605-0862 京都府京都市東山区清水1丁目294
-excerpt: A 1,200-year-old World Heritage site. Experience Kyoto's best scenery and spiritual power at the 'Stage of Kiyomizu,' built without a single nail, and the 'Otowa Waterfall,' which grants three wishes.
+categories:
+- History
+- Health
+- Academics
+date: 2025-12-18
+excerpt: A 1,200-year-old World Heritage site. Experience Kyoto's best scenery and
+  spiritual power at the 'Stage of Kiyomizu,' built without a single nail, and the
+  'Otowa Waterfall,' which grants three wishes.
+lat: 34.994712
+layout: post
+lng: 135.785345
+tags:
+- Kyoto
+- Kiyomizu-dera
+- Pure Water Temple
+- Power Spot
+- Otowa Waterfall
+- Jishu Shrine
+- Enmusubi
+- World Heritage
+- Kyoto Travel
+- Kiyomizu Stage
+thumbnail: /content/images/kiyomizu_dera.webp
+title: 'The 13-Meter Miracle on a Cliff: Discover a Millennium of History and the
+  Blessings of Three Sacred Streams at Kyoto''s Kiyomizu-dera Temple'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -126,3 +130,9 @@ Kiyomizu-dera is not just a tourist spot with spectacular sights. It is a place 
 Quench your thirst with a sip of cool water from the Otowa Waterfall and gaze out at the open sky of Kyoto from the stage. You will feel your worries wash away and new hope spring forth.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that resonate with your heart. May your wishes come true, as clear as pure water! 💧🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Kurama Onsen is an excellent choice for a day-trip onsen after visiting the Kiyomizu-dera Temple. Although a bit further from Kiyomizu-dera than some options, the journey to Kurama is rewarding. Known for its scenic outdoor rotenburo (open-air bath) nestled amidst the mountains, Kurama Onsen offers a truly relaxing experience. The natural hot spring waters are said to have therapeutic properties, making it a perfect way to unwind and rejuvenate after exploring the bustling temple grounds. It's a bit of a trip but worth it to truly relax after visiting nearby The 13-Meter Miracle on a Cliff: Discover a Millennium of History and the Blessings of Three Sacred Streams at Kyoto's Kiyomizu-dera Temple, making it a memorable day-trip onsen.

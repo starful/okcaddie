@@ -1,3 +1,7 @@
+---
+{}
+---
+
 layout: post
 title: "Kashihara Jingu Shrine (橿原神宮): The Sacred Land Embracing Japan's Beginning"
 date: 2025-12-16
@@ -102,3 +106,7 @@ Kashihara Jingu is more than just a place to admire beautiful architecture and n
 ### 🔖 Recommended Hashtags
 
 #History #Kashihara Jingu (橿原神宮)
+
+***
+
+Okay, I'm ready. Please provide the Japanese shrine name and address so I can find the best nearby onsen for a day-trip traveler.

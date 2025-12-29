@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Encountering the Legend of the Dragon Palace in a Cave Beneath a Cliff: A Mystical Pilgrimage to Udo Shrine in Miyazaki"
-date: 2025-12-17
-categories: [Love, History, Safety]
-tags:
-  [
-    Miyazaki,
-    Udo Jingu Shrine,
-    Nichinan,
-    Power Spot,
-    Prayer for easy childbirth,
-    Matchmaking,
-    Undama,
-    Japanese Mythology,
-    Kyushu Travel,
-    Scenic Drive,
-  ]
-thumbnail: /content/images/udo_jingu.webp
-lat: 31.649722
-lng: 131.465556
 address: 〒887-0101 宮崎県日南市大字宮浦3232番地
-excerpt: Nestled in a natural cave beneath a cliff overlooking the blue sea, Udo Shrine. Pray for special connections and good fortune at this place imbued with the poignant love story of Japan's founding myth and a mother's heart.
+categories:
+- Love
+- History
+- Safety
+date: 2025-12-17
+excerpt: Nestled in a natural cave beneath a cliff overlooking the blue sea, Udo Shrine.
+  Pray for special connections and good fortune at this place imbued with the poignant
+  love story of Japan's founding myth and a mother's heart.
+lat: 31.649722
+layout: post
+lng: 131.465556
+tags:
+- Miyazaki
+- Udo Jingu Shrine
+- Nichinan
+- Power Spot
+- Prayer for easy childbirth
+- Matchmaking
+- Undama
+- Japanese Mythology
+- Kyushu Travel
+- Scenic Drive
+thumbnail: /content/images/udo_jingu.webp
+title: 'Encountering the Legend of the Dragon Palace in a Cave Beneath a Cliff: A
+  Mystical Pilgrimage to Udo Shrine in Miyazaki'
 ---
 
 Hello, this is the editor from 'JinjaMap,' here to share the excitement of travel.
@@ -155,3 +159,9 @@ The thrill of standing before the red shrine that illuminates the darkness of th
 For some, it will be a place to make a heartfelt wish; for others, a place remembered for its unforgettable scenery. On your next trip to Kyushu, why not become the protagonist of a myth along the blue sea of Nichinan?
 
 **JinjaMap** will be back with more stories of hidden gem shrines from all corners of Japan. May good fortune always be with you on your travels! 🌊🐢
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Aoshima Grand Hotel (青島グランドホテル)
+
+Aoshima Grand Hotel offers a fantastic day-trip onsen experience perfect for relaxing after visiting the Encountering the Legend of the Dragon Palace in a Cave Beneath a Cliff: A Mystical Pilgrimage to Udo Shrine in Miyazaki. Its location provides stunning ocean views while you soak, and the sodium bicarbonate spring water is known for leaving skin feeling smooth and refreshed. The combination of beautiful scenery and skin-beautifying waters makes it a truly rejuvenating experience for a day-trip onsen.

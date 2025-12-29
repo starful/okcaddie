@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Up 785 Steps to a Heavenly Sanctuary: Discover the Yellow Amulet of Happiness at Kotohira-gu"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Kagawa,
-    Kotohira-gu,
-    Konpira-san,
-    785 Steps,
-    Yellow Amulet of Happiness,
-    Power Spot,
-    Okusha,
-    Sanuki Udon,
-    Shikoku Travel,
-    Maritime Safety,
-  ]
-thumbnail: /content/images/kotohiragu.webp
-lat: 34.184212
-lng: 133.809712
 address: 〒766-8501 香川県仲多度郡琴平町892-1
-excerpt: Ascend 1,368 stone steps to encounter Shikoku's greatest sacred site. Experience the miracle of 'Konpira-san,' the guardian deity of maritime safety, and the positive energy of the yellow amulet.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: Ascend 1,368 stone steps to encounter Shikoku's greatest sacred site. Experience
+  the miracle of 'Konpira-san,' the guardian deity of maritime safety, and the positive
+  energy of the yellow amulet.
+lat: 34.184212
+layout: post
+lng: 133.809712
+tags:
+- Kagawa
+- Kotohira-gu
+- Konpira-san
+- 785 Steps
+- Yellow Amulet of Happiness
+- Power Spot
+- Okusha
+- Sanuki Udon
+- Shikoku Travel
+- Maritime Safety
+thumbnail: /content/images/kotohiragu.webp
+title: 'Up 785 Steps to a Heavenly Sanctuary: Discover the Yellow Amulet of Happiness
+  at Kotohira-gu'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -132,3 +136,9 @@ The refreshing breeze and the single yellow amulet you find at the top of 785 st
 If you need a reliable compass for the voyage of life, come to Konpira-san in Shikoku.
 
 **JinjaMap** will be back with more stories of Japan's special sacred sites that bring positive change to your life. May a fair wind blow on your future! 🚢💛
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Konpira Onsen (こんぴら温泉)
+
+Konpira Onsen is located right within Kotohira Town, making it the perfect **day-trip onsen** destination after your pilgrimage. After the exhilarating climb **nearby Up 785 Steps to a Heavenly Sanctuary: Discover the Yellow Amulet of Happiness at Kotohira-gu**, immerse yourself in the warm, alkaline simple hot spring waters, known for their skin-softening properties and ability to soothe tired muscles. Many local ryokans offer *higaeri onsen* (day-trip bath) options, providing a deeply **relaxing** experience in a traditional Japanese setting. It's an ideal way to refresh your spirit and body before continuing your journey.

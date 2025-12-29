@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Senso-ji, Tokyo: A 1,400-Year-Old Red Lantern and Wish Fulfillment at Asakusa's Temple of Kannon"
-date: 2025-12-18
-categories: [Success, History, Wealth]
-tags:
-  [
-    Tokyo,
-    Asakusa,
-    Senso-ji,
-    Kaminarimon,
-    Wish Fulfillment,
-    Kannon Bodhisattva,
-    Power Spot,
-    Nakamise-dori,
-    Tokyo Travel,
-    Japanese History,
-  ]
-thumbnail: /content/images/senso_ji.webp
-lat: 35.714712
-lng: 139.796345
 address: 〒111-0032 東京都台東区浅草2-3-1
-excerpt: Senso-ji, Tokyo's oldest temple. Pass through the giant red lantern of Kaminarimon to meet the wish-granting Kannon Bodhisattva and experience the atmosphere of the Edo period.
+categories:
+- Success
+- History
+- Wealth
+date: 2025-12-18
+excerpt: Senso-ji, Tokyo's oldest temple. Pass through the giant red lantern of Kaminarimon
+  to meet the wish-granting Kannon Bodhisattva and experience the atmosphere of the
+  Edo period.
+lat: 35.714712
+layout: post
+lng: 139.796345
+tags:
+- Tokyo
+- Asakusa
+- Senso-ji
+- Kaminarimon
+- Wish Fulfillment
+- Kannon Bodhisattva
+- Power Spot
+- Nakamise-dori
+- Tokyo Travel
+- Japanese History
+thumbnail: /content/images/senso_ji.webp
+title: 'Senso-ji, Tokyo: A 1,400-Year-Old Red Lantern and Wish Fulfillment at Asakusa''s
+  Temple of Kannon'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to the hidden sacred places of the city.
@@ -128,3 +132,9 @@ Senso-ji is not just an old temple. It is a 'sanctuary for the soul,' where the 
 Take a photo under the red lantern of Kaminarimon, purify yourself with the incense smoke, and feel the energy of Nakamise-dori. The warm compassion of Kannon will surely soothe your weary heart.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that can bring strength to your life. May your wishes come true! 🙏🏮
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa LaQua (スパ ラクーア)
+
+After exploring the historic Senso-ji, Tokyo, why not indulge in a truly relaxing day-trip onsen experience at Spa LaQua? Located conveniently at Tokyo Dome City, this urban oasis boasts natural hot spring water drawn from 1,700 meters underground, offering a luxurious escape from the city bustle. With a variety of indoor and outdoor baths, saunas, and tranquil relaxation lounges, it's the perfect spot to soothe tired muscles. Experience this rejuvenating onsen visit nearby Senso-ji, Tokyo: A 1,400-Year-Old Red Lantern and Wish Fulfillment at Asakusa's Temple of Kannon.

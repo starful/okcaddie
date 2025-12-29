@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Millennium of Miracles, a Sacred Site of Kobo Daishi to Ward Off Evil: Finding Peace and Vitality at Kawasaki Daishi"
-date: 2025-12-18
-categories: [Health, History, Safety]
-tags:
-  [
-    Kawasaki,
-    Kawasaki Daishi,
-    Kobo Daishi,
-    Evil-warding,
-    Yakuyoke,
-    Daruma,
-    Kuzumochi,
-    Tontoko Ame,
-    Shitenno-mon Gate,
-    Octagonal Five-Storied Pagoda,
-  ]
-thumbnail: /content/images/kawasaki_daishi.webp
-lat: 35.534212
-lng: 139.728543
 address: 〒210-8521 神奈川県川崎市川崎区大師町4-48
-excerpt: The head temple for warding off evil (yakuyoke). Shake off bad fortune at Kawasaki Daishi, an ancient temple founded in 1128, and enjoy the famous kuzumochi and the charm of its vibrant shopping street.
+categories:
+- Health
+- History
+- Safety
+date: 2025-12-18
+excerpt: The head temple for warding off evil (yakuyoke). Shake off bad fortune at
+  Kawasaki Daishi, an ancient temple founded in 1128, and enjoy the famous kuzumochi
+  and the charm of its vibrant shopping street.
+lat: 35.534212
+layout: post
+lng: 139.728543
+tags:
+- Kawasaki
+- Kawasaki Daishi
+- Kobo Daishi
+- Evil-warding
+- Yakuyoke
+- Daruma
+- Kuzumochi
+- Tontoko Ame
+- Shitenno-mon Gate
+- Octagonal Five-Storied Pagoda
+thumbnail: /content/images/kawasaki_daishi.webp
+title: 'A Millennium of Miracles, a Sacred Site of Kobo Daishi to Ward Off Evil: Finding
+  Peace and Vitality at Kawasaki Daishi'
 ---
 
 Hello, dear readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -129,3 +133,9 @@ Burn away your worries while watching the flames of the solemn Homa ritual, and 
 If you feel stuck in your daily life or are about to embark on a new beginning, come to Kawasaki Daishi. The compassionate power of Kobo Daishi will surely protect you.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites to brighten your life. May your future be filled with clear and sunny days! 🌞🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yokohama Minato Mirai Manyo Club (横浜みなとみらい 万葉倶楽部)
+
+Yokohama Minato Mirai Manyo Club is a great choice for a relaxing day-trip onsen nearby A Millennium of Miracles, a Sacred Site of Kobo Daishi to Ward Off Evil: Finding Peace and Vitality at Kawasaki Daishi. Despite being in the urban Minato Mirai area, it transports you to a tranquil onsen experience, offering hot spring water trucked in daily from Yugawara and Atami. This makes it a convenient and accessible option to unwind after visiting the shrine, offering a relaxing and refreshing end to your day.

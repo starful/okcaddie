@@ -85,28 +85,7 @@ In addition to the standard *goshuin*, a limited-edition *goshuin* from the **'T
 
 ---
 
-### 4. ♨️ Nearby Attractions: Healing with Hot Springs and Ramen
-
-After visiting the shrine, enjoy the flavors and sights of Yamagata.
-
-#### **1. Akayu Onsen (赤湯温泉)**
-
-- **Distance**: 10 minutes by car.
-- **Features**: A hot spring town with 900 years of history. The reddish water, rich in iron, is excellent for relieving fatigue. Unwind from your travels by enjoying a footbath or a day-trip onsen.
-
-#### **2. Ryushanghai Main Store (Karamiso Ramen)**
-
-- **Distance**: Located within Akayu Onsen.
-- **Features**: The originator of Yamagata's specialty, **'Spicy Miso Ramen (Karamiso Ramen)'**. The taste of the rich miso broth mixed with a spicy red paste is highly addictive. It's a popular spot where you'll likely have to queue, so patience is a must!
-
-#### **3. Uesugi Shrine**
-
-- **Distance**: 30 minutes by car (in Yonezawa City).
-- **Features**: A shrine dedicated to the Warring States period god of war, Uesugi Kenshin. A must-visit for history enthusiasts.
-
----
-
-### 5. 🗺️ Access & Travel Information
+### 4. 🗺️ Access & Travel Information
 
 Access from Tokyo is convenient via the Yamagata Shinkansen.
 
@@ -129,3 +108,9 @@ It's a place where you can experience the process of gathering your heartfelt wi
 Do you have a connection or a wish you're earnestly hoping for right now? If so, come to the forests of Yamagata, to Kumano Taisha. The third hidden rabbit might just bring you a miraculous stroke of luck.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to bring excitement to your heart. May all your wishes come true! 🐰🌕
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Akayu Onsen (赤湯温泉)
+
+Just a 10-minute drive from Kumano Taisha lies **Akayu Onsen**, a historic hot spring town with over 900 years of tradition. Known for its sulfur and sodium-chloride springs, the water is said to be highly effective for healing cuts and skin diseases, earning it a reputation as a place of recovery since ancient times. After your shrine visit, you can unwind in one of the many public footbaths (ashiyu) scattered around town or enjoy a day-trip bath at a traditional ryokan, soaking in the retro atmosphere while savoring the famous local spicy miso ramen nearby.

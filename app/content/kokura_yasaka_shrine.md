@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A 400-Year-Old Prayer on the Beat of a Drum: Feeling the Breath of History at Kitakyushu's Kokura Yasaka Shrine"
-date: 2025-12-17
-categories: [History, Success, Love]
-tags:
-  [
-    Kitakyushu,
-    Kokura,
-    Yasaka Shrine,
-    Kokura Castle,
-    Gion Matsuri,
-    Susanoo,
-    Ward off evil,
-    Power Spot,
-    Kyushu Travel,
-    Japanese History,
-  ]
-thumbnail: /content/images/kokura_yasaka_shrine.webp
-lat: 33.884153
-lng: 130.873212
 address: 〒803-0813 福岡県北九州市小倉北区城内2-2
-excerpt: A historic sacred site nestled in the embrace of Kokura Castle. Ward off misfortune with the power of Susanoo-no-Mikoto, worshipped by legendary warriors, and feel the passion of the 400-year-old 'Kokura Gion Daiko' festival.
+categories:
+- History
+- Success
+- Love
+date: 2025-12-17
+excerpt: A historic sacred site nestled in the embrace of Kokura Castle. Ward off
+  misfortune with the power of Susanoo-no-Mikoto, worshipped by legendary warriors,
+  and feel the passion of the 400-year-old 'Kokura Gion Daiko' festival.
+lat: 33.884153
+layout: post
+lng: 130.873212
+tags:
+- Kitakyushu
+- Kokura
+- Yasaka Shrine
+- Kokura Castle
+- Gion Matsuri
+- Susanoo
+- Ward off evil
+- Power Spot
+- Kyushu Travel
+- Japanese History
+thumbnail: /content/images/kokura_yasaka_shrine.webp
+title: 'A 400-Year-Old Prayer on the Beat of a Drum: Feeling the Breath of History
+  at Kitakyushu''s Kokura Yasaka Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -131,3 +135,9 @@ It is a place where the noise of the city fades beyond the castle walls, leaving
 Do you want to cast off misfortune and gain new energy? If so, come to Yasaka Shrine, nestled in the embrace of Kokura Castle. The mighty power of the deity Susanoo and the passionate drumbeats of the Gion Daiko will powerfully cheer you on your path forward.
 
 **JinjaMap** will return with more stories of special sacred sites to enrich your travels. May good fortune, as clear as the sound of a drum, resonate in your day! 🥁🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Mikasa Onsen Hotel Royal (みかさ温泉 ホテルロイヤル)
+
+Mikasa Onsen Hotel Royal is an excellent choice for a relaxing day-trip onsen nearby A 400-Year-Old Prayer on the Beat of a Drum: Feeling the Breath of History at Kitakyushu's Kokura Yasaka Shrine. Known for its skin-softening waters and tranquil atmosphere, this onsen offers a respite from sightseeing. Enjoy the views of the surrounding landscape while soaking in the hot spring, a perfect way to unwind after exploring the shrine.

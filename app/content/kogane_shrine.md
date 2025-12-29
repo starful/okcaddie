@@ -1,24 +1,30 @@
 ---
-layout: post
-title: "The Golden Torii's Promise of Abundance: A Complete Guide to Gifu's 'Kogane Shrine'"
-date: 2025-11-30
-categories: [Wealth, Success, History]
-tags:
-  [
-    Gifu Prefecture,
-    Gifu City,
-    Kogane Shrine,
-    Financial Luck,
-    Business Prosperity,
-    Golden Torii,
-    Power Spot,
-    Limited Goshuin,
-  ]
-thumbnail: /content/images/kogane_shrine.webp
-lat: 35.419614
-lng: 136.758062
 address: 5-chome-3 Kogane-machi, Gifu City, Gifu Prefecture (〒500-8842)
-excerpt: This is a place steeped in the legend of a benevolent goddess who saved her people by giving away her entire fortune. We guide you to the ultimate sacred site for financial luck, located in the heart of Gifu City, featuring a stunning golden torii and a 'limited edition Goshuin' available only on the last Friday of each month.
+categories:
+- Wealth
+- Success
+- History
+date: 2025-11-30
+excerpt: This is a place steeped in the legend of a benevolent goddess who saved her
+  people by giving away her entire fortune. We guide you to the ultimate sacred site
+  for financial luck, located in the heart of Gifu City, featuring a stunning golden
+  torii and a 'limited edition Goshuin' available only on the last Friday of each
+  month.
+lat: 35.419614
+layout: post
+lng: 136.758062
+tags:
+- Gifu Prefecture
+- Gifu City
+- Kogane Shrine
+- Financial Luck
+- Business Prosperity
+- Golden Torii
+- Power Spot
+- Limited Goshuin
+thumbnail: /content/images/kogane_shrine.webp
+title: 'The Golden Torii''s Promise of Abundance: A Complete Guide to Gifu''s ''Kogane
+  Shrine'''
 ---
 
 In the center of Gifu (岐阜) City, where the hustle and bustle of daily life momentarily subsides, lies a tranquil sacred site. Its name is **'Kogane Shrine (金神社)'**. Just as its name shines with the brilliance of gold, it casts a light of abundance and hope into the hearts of its worshipers.
@@ -147,3 +153,9 @@ Once you've finished your visit to Kogane Shrine, it's time to delve deeper into
 Kogane Shrine (金神社) was not simply a place to pray for 'money.' It was a testament to the history of a goddess's noble devotion bringing prosperity to a community, and a sacred space that reminds us of the value of sharing and coexistence.
 
 The reverence I felt upon passing through the golden torii and stepping onto the grounds, the awe of nature I felt under the centuries-old sacred tree, and the warmth in the story of Nunoshihime-no-mikoto will remain in my memory for a long time. A visit here teaches us that true 'abundance' is not just about filling our wallets, but about sharing with those around us and growing together. If you visit Gifu, I highly recommend stopping by Kogane Shrine to pray for your own kind of abundance.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Nagaragawa Onsen (長良川温泉)
+
+Nagaragawa Onsen is a fantastic choice for a relaxing day-trip onsen nearby The Golden Torii's Promise of Abundance: A Complete Guide to Gifu's 'Kogane Shrine'. Situated along the scenic Nagara River, it offers stunning views that enhance the bathing experience. The alkaline waters are known for their skin-beautifying properties, making it a perfect way to unwind after visiting the shrine and exploring Gifu City.

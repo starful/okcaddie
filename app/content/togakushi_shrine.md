@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Legendary Gate That Hid the Sun Goddess: A Mythical Forest Walk at the 2000-Year-Old Togakushi Shrine"
-date: 2025-12-18
-categories: [Success, History, Wealth]
-tags:
-  [
-    Nagano,
-    Togakushi Shrine,
-    Amano-Iwato,
-    Power Spot,
-    Okusha,
-    Cedar Forest,
-    Japanese Mythology,
-    Togakushi Soba,
-    Ninja Village,
-    Good Fortune,
-  ]
-thumbnail: /content/images/togakushi_shrine.webp
-lat: 36.746212
-lng: 138.083154
 address: 〒381-4101 長野県長野市戸隠中社3506
-excerpt: The setting of Japan's creation myth, the 'Amano-Iwato' legend. Walk through a 400-year-old cedar forest path and open the door to new opportunities on the Togakushi Shrine's Five-Shrine Pilgrimage.
+categories:
+- Success
+- History
+- Wealth
+date: 2025-12-18
+excerpt: The setting of Japan's creation myth, the 'Amano-Iwato' legend. Walk through
+  a 400-year-old cedar forest path and open the door to new opportunities on the Togakushi
+  Shrine's Five-Shrine Pilgrimage.
+lat: 36.746212
+layout: post
+lng: 138.083154
+tags:
+- Nagano
+- Togakushi Shrine
+- Amano-Iwato
+- Power Spot
+- Okusha
+- Cedar Forest
+- Japanese Mythology
+- Togakushi Soba
+- Ninja Village
+- Good Fortune
+thumbnail: /content/images/togakushi_shrine.webp
+title: 'The Legendary Gate That Hid the Sun Goddess: A Mythical Forest Walk at the
+  2000-Year-Old Togakushi Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.
@@ -124,3 +128,9 @@ Togakushi Shrine is not merely a place to make wishes. Just as the gods joined f
 Catch your breath as you walk the path through the giant cedar forest, and let the cool mountain breeze clear your head. The gods of Togakushi will surely help you powerfully open the second chapter of your life.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that can bring light into your life. May your future be bright and sunny! ☀️🌲
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Togakushi Onsen Yutorogi-no-yu (戸隠神告げ温泉 湯とろぎの湯)
+
+After exploring the sacred trails of The Legendary Gate That Hid the Sun Goddess: A Mythical Forest Walk at the 2000-Year-Old Togakushi Shrine, unwind at this perfectly situated onsen. Togakushi Onsen Yutorogi-no-yu offers a truly relaxing experience with its soothing sodium-calcium chloride spring water, known for its skin-friendly properties and ability to melt away fatigue. Enjoy a tranquil soak in the indoor or open-air baths, surrounded by the peaceful Togakushi natural beauty, making it an ideal day-trip onsen choice to rejuvenate your body and mind. It's the most convenient and highly recommended nearby day-trip onsen.

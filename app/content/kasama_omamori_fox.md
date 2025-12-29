@@ -1,15 +1,28 @@
 ---
-layout: post
-title: "A Journey of Prosperity and Art: Discovering 1,370 Years of Mystery at Kasama Inari Shrine, One of Japan's Three Great Inari Shrines"
-date: 2025-12-02
-categories: [Ibaraki, Shrine, History]
-tags:
-  [Kasama, Ukanomitama, BusinessProsperity, Wisteria, KasamaWare, JapansThreeGreatInari, PowerSpot]
-thumbnail: /content/images/kasama_inari_main.webp
-lat: 36.384260
-lng: 140.258942
 address: 茨城県笠間市笠間1番地 (1 Kasama, Kasama-shi, Ibaraki)
-excerpt: A guide to a mystical pilgrimage at one of Japan's Three Great Inari Shrines, located in Kasama, Ibaraki. Explore 1,370 years of history, powerful blessings for business prosperity, and the enchanting 400-year-old wisteria trees that adorn the shrine grounds.
+categories:
+- Ibaraki
+- Shrine
+- History
+date: 2025-12-02
+excerpt: A guide to a mystical pilgrimage at one of Japan's Three Great Inari Shrines,
+  located in Kasama, Ibaraki. Explore 1,370 years of history, powerful blessings for
+  business prosperity, and the enchanting 400-year-old wisteria trees that adorn the
+  shrine grounds.
+lat: 36.38426
+layout: post
+lng: 140.258942
+tags:
+- Kasama
+- Ukanomitama
+- BusinessProsperity
+- Wisteria
+- KasamaWare
+- JapansThreeGreatInari
+- PowerSpot
+thumbnail: /content/images/kasama_inari_main.webp
+title: 'A Journey of Prosperity and Art: Discovering 1,370 Years of Mystery at Kasama
+  Inari Shrine, One of Japan''s Three Great Inari Shrines'
 ---
 
 Nestled in the tranquil landscape of Kasama City, Ibaraki Prefecture, lies **Kasama Inari Shrine (笠間稲荷神社)**, a sacred site of profound historical significance, renowned as one of the **Three Great Inari Shrines of Japan (日本三大稲荷)**. More than just a place of worship, this shrine, which has embraced the heartfelt prayers of countless people for over 1,370 years, is a living piece of history itself.
@@ -129,3 +142,9 @@ Kasama is also one of **Japan's leading chestnut production areas**. Around the 
 Kasama Inari Shrine is more than just a place to make wishes; it is a witness to history and a treasure trove of culture that has breathed alongside people's lives for 1,370 long years. Everything here, from the mystical founding legend and the strong faith of the people who rebuilt it after a fire, to the beautiful architecture and nature that adorn the grounds, resonates deeply within us.
 
 The earnest prayers for business prosperity and an abundant life, the wonder of nature felt beneath centuries-old wisteria trees, and the delights of Kasama's art and cuisine—a day at Kasama Inari Shrine will surely etch a serene and fulfilling memory in your heart that will last for a long time. In this sacred land where myth and history are alive, we hope you will forge your own special connection.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Tsukuba Onsen (筑波温泉)
+
+After exploring the rich history and art at A Journey of Prosperity and Art: Discovering 1,370 Years of Mystery at Kasama Inari Shrine, unwind with a rejuvenating **day-trip onsen** experience at Tsukuba Onsen. Nestled on the scenic slopes of Mt. Tsukuba, this **nearby** hot spring boasts alkaline simple springs known for their skin-smoothing properties. Enjoy the breathtaking panoramic views of the Kanto Plain from its outdoor baths, providing a truly **relaxing** escape. It's the perfect way to cap off your visit to A Journey of Prosperity and Art: Discovering 1,370 Years of Mystery at Kasama Inari Shrine.

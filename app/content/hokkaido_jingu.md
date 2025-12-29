@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Heart of Hokkaido: Discovering Pioneer History and Healing at Sapporo's Hokkaido Jingu Shrine"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Hokkaido,
-    Sapporo,
-    Hokkaido Jingu,
-    Maruyama Park,
-    Kaitaku Shrine,
-    Rokkatei,
-    Hangan-sama,
-    Power Spot,
-    Snow Trip,
-    Emperor Meiji,
-  ]
-thumbnail: /content/images/hokkaido_jingu.webp
-lat: 43.053812
-lng: 141.307945
 address: 〒064-8505 北海道札幌市中央区宮ヶ丘474
-excerpt: The head shrine of Hokkaido, nestled in a primeval forest in the heart of Sapporo. A sacred space enshrining the three pioneer deities, where you can enjoy the famous 'Hangan-sama' mochi and a moment of healing.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: The head shrine of Hokkaido, nestled in a primeval forest in the heart of
+  Sapporo. A sacred space enshrining the three pioneer deities, where you can enjoy
+  the famous 'Hangan-sama' mochi and a moment of healing.
+lat: 43.053812
+layout: post
+lng: 141.307945
+tags:
+- Hokkaido
+- Sapporo
+- Hokkaido Jingu
+- Maruyama Park
+- Kaitaku Shrine
+- Rokkatei
+- Hangan-sama
+- Power Spot
+- Snow Trip
+- Emperor Meiji
+thumbnail: /content/images/hokkaido_jingu.webp
+title: 'The Heart of Hokkaido: Discovering Pioneer History and Healing at Sapporo''s
+  Hokkaido Jingu Shrine'
 ---
 
 Hello, readers! This is your 'JinjaMap' editor, here to add depth to your travels.
@@ -126,3 +130,9 @@ As you walk the forest path imbued with the sweat of pioneers from 150 years ago
 If you want to fully embrace the energy of the vast northern land, come to Hokkaido Jingu.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that bring peace to your heart. May your days ahead be filled with clear, positive energy! ❄️⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Jozankei Onsen (定山渓温泉)
+
+Just a scenic one-hour bus ride from Sapporo, Jozankei Onsen is the perfect *day-trip onsen* escape after exploring the city. Nestled in a picturesque valley along the Toyohira River, its sodium chloride springs are renowned for their warming and *relaxing* properties, ideal for soothing tired muscles. With numerous hotels offering *day-trip onsen* plans, it's incredibly convenient to immerse yourself in the natural beauty and therapeutic waters. It offers a tranquil retreat *nearby The Heart of Hokkaido: Discovering Pioneer History and Healing at Sapporo's Hokkaido Jingu Shrine*, making it an ideal post-shrine rejuvenation spot.

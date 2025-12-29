@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Sacred Site for Maritime Safety and Life's Journey: Discover 80,000 National Treasures at Munakata Taisha, Fukuoka"
-date: 2025-12-17
-categories: [Safety, History, Success]
-tags:
-  [
-    Fukuoka,
-    Munakata,
-    MunakataTaisha,
-    WorldHeritage,
-    TrafficSafety,
-    Okinoshima,
-    JapaneseMythology,
-    NationalTreasure,
-    PowerSpot,
-    KyushuTravel,
-  ]
-thumbnail: /content/images/munakata_taisha.webp
-lat: 33.830512
-lng: 130.513543
 address: 〒811-3505 福岡県宗像市田島2331
-excerpt: The headquarters of traffic safety in Japan and a UNESCO World Heritage site. Journey to Munakata Taisha, where national treasures from the forbidden island of Okinoshima and the blessings of three goddesses who open new paths await.
+categories:
+- Safety
+- History
+- Success
+date: 2025-12-17
+excerpt: The headquarters of traffic safety in Japan and a UNESCO World Heritage site.
+  Journey to Munakata Taisha, where national treasures from the forbidden island of
+  Okinoshima and the blessings of three goddesses who open new paths await.
+lat: 33.830512
+layout: post
+lng: 130.513543
+tags:
+- Fukuoka
+- Munakata
+- MunakataTaisha
+- WorldHeritage
+- TrafficSafety
+- Okinoshima
+- JapaneseMythology
+- NationalTreasure
+- PowerSpot
+- KyushuTravel
+thumbnail: /content/images/munakata_taisha.webp
+title: 'A Sacred Site for Maritime Safety and Life''s Journey: Discover 80,000 National
+  Treasures at Munakata Taisha, Fukuoka'
 ---
 
 Hello, readers! This is the editor of 'JinjaMap,' here to add depth to your travels.
@@ -136,3 +140,9 @@ Standing in the serene forest of Takamiya Saijo, feel the invisible power that p
 For those who drive, and for those seeking to chart a new course in life, the three goddesses of Munakata will surely be a reassuring beacon.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that illuminate your life. We wish you safe and smooth travels on all your paths! 🚗🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Munakata Ōmaru Natural Onsen Yamatsubasa (宗像王丸・天然温泉 やまつばさ)
+
+After exploring the spiritual heritage of Munakata Taisha, treat yourself to a truly relaxing experience at Munakata Ōmaru Natural Onsen Yamatsubasa. This popular day-trip onsen boasts spacious facilities with a variety of indoor and outdoor baths, all featuring high-quality sodium chloride spring water known for its skin-soothing properties. It's the perfect spot to unwind and rejuvenate, offering a serene escape just a short drive from nearby A Sacred Site for Maritime Safety and Life's Journey: Discover 80,000 National Treasures at Munakata Taisha, Fukuoka.

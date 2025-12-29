@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "The Divine Monkey Protecting Edo Castle: The Red Torii and Mystical Power of Tokyo's Akasaka Hie Shrine"
-date: 2025-12-17
-categories: [Success, History, Love]
-tags:
-  [
-    Tokyo,
-    Akasaka,
-    Hie Shrine,
-    Tokyo tourism,
-    power spot,
-    red torii,
-    monkey god,
-    business prosperity,
-    enmusubi,
-    Tokugawa Ieyasu,
-  ]
-thumbnail: /content/images/hie_shrine.webp
-lat: 35.674712
-lng: 139.739767
 address: 〒100-0014 東京都千代田区永田町2-10-5
-excerpt: Hie Shrine, located in the heart of Tokyo next to the National Diet Building. Introducing an urban power spot filled with the energy of the 'Shinsaru (divine monkey),' the guardian deity of the Tokugawa clan, known for bringing business prosperity and connecting people.
+categories:
+- Success
+- History
+- Love
+date: 2025-12-17
+excerpt: Hie Shrine, located in the heart of Tokyo next to the National Diet Building.
+  Introducing an urban power spot filled with the energy of the 'Shinsaru (divine
+  monkey),' the guardian deity of the Tokugawa clan, known for bringing business prosperity
+  and connecting people.
+lat: 35.674712
+layout: post
+lng: 139.739767
+tags:
+- Tokyo
+- Akasaka
+- Hie Shrine
+- Tokyo tourism
+- power spot
+- red torii
+- monkey god
+- business prosperity
+- enmusubi
+- Tokugawa Ieyasu
+thumbnail: /content/images/hie_shrine.webp
+title: 'The Divine Monkey Protecting Edo Castle: The Red Torii and Mystical Power
+  of Tokyo''s Akasaka Hie Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find sacred places like hidden gems in the city.
@@ -131,3 +136,9 @@ Clear your cluttered mind as you walk through the red torii tunnel, and fill you
 For the businessperson dreaming of success, the lover seeking romance, and you, who wish to create special memories of your Tokyo trip. Come to Hie Shrine, where the Shinsaru await on the hills of Akasaka.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites to energize your life. May all your endeavors be successful (masaru)! 🐵⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: LaQua (ラクーア)
+
+LaQua, located in Tokyo Dome City, offers a convenient and relaxing day-trip onsen experience nearby The Divine Monkey Protecting Edo Castle: The Red Torii and Mystical Power of Tokyo's Akasaka Hie Shrine. While not a traditional onsen town, LaQua boasts natural hot spring water sourced from deep underground, multiple indoor and outdoor baths, saunas, and relaxation spaces. It's the perfect urban escape for a quick and easy relaxing onsen visit after exploring the shrine, offering a modern and accessible option for a rejuvenating day-trip onsen experience.

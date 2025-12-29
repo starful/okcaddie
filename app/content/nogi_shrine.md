@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Sacred Urban Sanctuary of Loyalty and Love: The Sublime Vow of Tokyo's Nogi Shrine"
-date: 2025-12-18
-categories: [Love, History, Academics]
-tags:
-  [
-    Tokyo,
-    Nogi Shrine,
-    Nogizaka,
-    Power Spot,
-    Marital Harmony,
-    Matchmaking,
-    Luck in Competitions,
-    Meiji Era,
-    Japanese History,
-    Roppongi,
-  ]
-thumbnail: /content/images/nogi_shrine.webp
-lat: 35.666212
-lng: 139.728543
 address: 〒107-0052 東京都港区赤坂8-11-27
-excerpt: A sacred place in the heart of Tokyo, imbued with the sublime love and loyalty of General Nogi and his wife. Pray for an eternal bond along its serene forest paths and with its beautiful 'couple's guardian amulet.'
+categories:
+- Love
+- History
+- Academics
+date: 2025-12-18
+excerpt: A sacred place in the heart of Tokyo, imbued with the sublime love and loyalty
+  of General Nogi and his wife. Pray for an eternal bond along its serene forest paths
+  and with its beautiful 'couple's guardian amulet.'
+lat: 35.666212
+layout: post
+lng: 139.728543
+tags:
+- Tokyo
+- Nogi Shrine
+- Nogizaka
+- Power Spot
+- Marital Harmony
+- Matchmaking
+- Luck in Competitions
+- Meiji Era
+- Japanese History
+- Roppongi
+thumbnail: /content/images/nogi_shrine.webp
+title: 'A Sacred Urban Sanctuary of Loyalty and Love: The Sublime Vow of Tokyo''s
+  Nogi Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to profound sacred sites around the world.
@@ -126,3 +130,9 @@ Like the 'Yorisoi Mamori' that lean on each other, why not walk these grounds wi
 Create unforgettable memories at Nogi Shrine, where poignant history and warm love coexist.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that will touch your heart. May your love be eternal! 👰🤵💍
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Thermae-Yu (テルマー湯)
+
+Thermae-Yu is a fantastic day-trip onsen option, conveniently located near A Sacred Urban Sanctuary of Loyalty and Love: The Sublime Vow of Tokyo's Nogi Shrine. While not a traditional outdoor onsen, it offers a wide variety of indoor baths sourced from natural hot springs, offering a truly relaxing experience. Its stylish and modern atmosphere makes it a pleasant escape from the city, a perfect way to unwind after visiting the shrine. Enjoy this urban oasis for a rejuvenating day-trip onsen experience.

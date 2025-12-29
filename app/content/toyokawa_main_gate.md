@@ -1,15 +1,28 @@
 ---
-layout: post
-title: "A Sacred Site of Wishes Guarded by Thousands of Foxes: The Complete Pilgrimage Guide to Toyokawa Inari in Aichi Prefecture"
-date: 2025-11-30
-categories: [Aichi, History, Power Spot]
-tags:
-  [Toyokawa, Dakinishinten, Business Prosperity, Reikozuka, Inarizushi, Three Great Inari Shrines of Japan, Shinbutsu-shugo]
-thumbnail: /content/images/toyokawa_inari_main.webp
-lat: 34.825126
-lng: 137.394142
 address: 愛知県豊川市豊川町1番地 (1 Toyokawa-cho, Toyokawa-shi, Aichi)
-excerpt: Toyokawa Inari, a unique sacred site in Japan where Shinto and Buddhism beautifully merge. This is an in-depth cultural journey to discover the mystical scenery of 'Reikozuka,' created by over 1,000 fox statues, and the powerful blessings for business prosperity.
+categories:
+- Aichi
+- History
+- Power Spot
+date: 2025-11-30
+excerpt: Toyokawa Inari, a unique sacred site in Japan where Shinto and Buddhism beautifully
+  merge. This is an in-depth cultural journey to discover the mystical scenery of
+  'Reikozuka,' created by over 1,000 fox statues, and the powerful blessings for business
+  prosperity.
+lat: 34.825126
+layout: post
+lng: 137.394142
+tags:
+- Toyokawa
+- Dakinishinten
+- Business Prosperity
+- Reikozuka
+- Inarizushi
+- Three Great Inari Shrines of Japan
+- Shinbutsu-shugo
+thumbnail: /content/images/toyokawa_inari_main.webp
+title: 'A Sacred Site of Wishes Guarded by Thousands of Foxes: The Complete Pilgrimage
+  Guide to Toyokawa Inari in Aichi Prefecture'
 ---
 
 Across Japan, there are paths of endless red torii gates, guarded by mystical fox statues. The name 'Inari' is deeply ingrained in our minds as a symbol of abundance and prosperity. However, even among the numerous Inari shrines, there is one that boasts an unparalleled status and history. This is **Toyokawa Inari (豊川稲荷)**, located in Toyokawa City, Aichi Prefecture.
@@ -135,3 +148,9 @@ After your visit to Toyokawa Inari, enhance your trip by exploring nearby attrac
 Toyokawa Inari is not just a tourist destination. It is a living space of faith where the earnest wishes of countless people have been accumulated and fulfilled over 600 years. The unique culture where Buddhism and Shinto beautifully harmonize, the powerful prayers for business prosperity and abundance, and above all, the overwhelming sacredness exuded by the thousands of fox statues at the Reikozuka leave a deep impression and a lasting resonance that cannot be experienced anywhere else.
 
 A visit here is more than just an act of praying for blessings; it is a spiritual journey that allows you to reflect on your own desires within the flow of history and to feel a sense of awe for a great, unseen power. It is my hope that the time you spend at Toyokawa Inari will remain in your heart as a warm lantern, becoming a precious source of strength that illuminates your path forward.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Gamagori Onsen (蒲郡温泉)
+
+After your spiritual journey at A Sacred Site of Wishes Guarded by Thousands of Foxes: The Complete Pilgrimage Guide to Toyokawa Inari in Aichi Prefecture, treat yourself to a truly relaxing day-trip onsen experience at Gamagori Onsen. Nestled along the picturesque Mikawa Bay, this renowned hot spring resort offers stunning panoramic ocean views directly from many of its baths. The area's saline springs are celebrated for their skin-beautifying properties and therapeutic warmth, providing the perfect opportunity to unwind. It's an ideal choice for visitors looking to soothe tired muscles and enjoy a tranquil coastal atmosphere just a short journey from the shrine.

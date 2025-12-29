@@ -1,14 +1,21 @@
 ---
-layout: post
-title: "Kamigamo Jinja Shrine: Kyoto's Ancient Guardian of Thunder"
+address: 가미가모 신사 (上賀茂神社)
+categories:
+- History
 date: 2025-12-27
-categories: ['History']
-tags: ['Japan', 'Shrine', 'Travel', 'History', 'Kyoto']
-thumbnail: /content/images/kamigamo_jinja_shrine.webp
+excerpt: Long before Kyoto was Kyoto, when it was a fertile basin known as Yamashiro,
+  a powerful clan named Kamo worshipped the forces of nature that governed their li...
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "가미가모 신사 (上賀茂神社)"
-excerpt: "Long before Kyoto was Kyoto, when it was a fertile basin known as Yamashiro, a powerful clan named Kamo worshipped the forces of nature that governed their li..."
+tags:
+- Japan
+- Shrine
+- Travel
+- History
+- Kyoto
+thumbnail: /content/images/kamigamo_jinja_shrine.webp
+title: 'Kamigamo Jinja Shrine: Kyoto''s Ancient Guardian of Thunder'
 ---
 
 ### 🙏 Introduction: Deities & History
@@ -72,3 +79,9 @@ Kamigamo Jinja is located in the north of Kyoto City. While not directly on a su
 Kamigamo Jinja is more than just a historical landmark; it is a sanctuary where mythology, nature, and faith converge. It is a place to feel the immense scale of Kyoto’s history, standing on ground that was sacred centuries before the city's golden pavilions were even conceived. Walking its gravel paths, standing before the mysterious Tatesuna, and feeling the cool breeze from the Nara no Ogawa, you connect with a primal spirituality that has protected and nurtured Kyoto for over 1,300 years. It offers a profound sense of peace and a powerful reminder that in Kyoto, the gods of thunder still whisper through the ancient trees.
 
 ---
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Kurama Onsen is an excellent choice for a relaxing day-trip onsen experience nearby Kamigamo Jinja Shrine: Kyoto's Ancient Guardian of Thunder. Tucked away in the mountains, this onsen boasts stunning outdoor baths (rotenburo) with incredible views, offering a serene escape after exploring the shrine. The waters are known for their skin-beautifying properties, making it a truly rejuvenating experience. It's a perfect way to unwind and complete your Kyoto adventure with a memorable and authentic Japanese onsen visit.

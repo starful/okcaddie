@@ -1,25 +1,30 @@
 ---
-layout: post
-title: "The True Stage of the Momotaro Legend! A Pilgrimage to Okayama's 'Kibitsu Shrine,' Boasting Japan's Unique Architectural Beauty"
-date: 2025-12-02
-categories: [Success, History, Safety]
-tags:
-  [
-    Okayama,
-    Kibitsu Shrine,
-    Momotaro,
-    Narukama Shinji,
-    National Treasure,
-    Warding off evil,
-    Prayers for passing exams,
-    Winning luck,
-    Power spot,
-  ]
-thumbnail: /content/images/kibitsu_shrine.webp
-lat: 34.669866
-lng: 133.851722
 address: 931 Kibitsu, Kita-ku, Okayama-shi, Okayama Prefecture (〒701-1341)
-excerpt: The mythical land where the fierce battle between the hero who became the model for the Momotaro legend and an oni took place. We invite you to Kibitsu Shrine, a national treasure with a beautiful 360m corridor and the mysterious 'Crying Cauldron' divination.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-02
+excerpt: The mythical land where the fierce battle between the hero who became the
+  model for the Momotaro legend and an oni took place. We invite you to Kibitsu Shrine,
+  a national treasure with a beautiful 360m corridor and the mysterious 'Crying Cauldron'
+  divination.
+lat: 34.669866
+layout: post
+lng: 133.851722
+tags:
+- Okayama
+- Kibitsu Shrine
+- Momotaro
+- Narukama Shinji
+- National Treasure
+- Warding off evil
+- Prayers for passing exams
+- Winning luck
+- Power spot
+thumbnail: /content/images/kibitsu_shrine.webp
+title: The True Stage of the Momotaro Legend! A Pilgrimage to Okayama's 'Kibitsu Shrine,'
+  Boasting Japan's Unique Architectural Beauty
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -132,3 +137,9 @@ A famous tonkatsu (pork cutlet) restaurant located within the Kurashiki Bikan Hi
 Kibitsu Shrine is more than just a place to make a wish; it is like a living museum where a grand myth breathes. From the main hall's unparalleled architectural beauty, designated as a National Treasure, to the stunning 360-meter corridor that harmonizes with nature, and the mystical 'Narukama Shinji' steeped in the legend of the oni 'Ura'—the experience here will leave a deep, unforgettable echo in your heart.
 
 As you walk in the footsteps of the hero Okibitsuhiko-no-mikoto, listen to the voice of the myth that speaks to us across hundreds of years. A pilgrimage to Kibitsu Shrine will surely add special meaning, serene emotion, and a powerful aura of victory to your journey.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yakage Honjin Yunosato (やかげ本陣 湯ノ里)
+
+Yakage Honjin Yunosato is a fantastic day-trip onsen option after visiting the nearby The True Stage of the Momotaro Legend! A Pilgrimage to Okayama's 'Kibitsu Shrine,' Boasting Japan's Unique Architectural Beauty. Located a convenient distance from Kibitsu Shrine, it provides a relaxing atmosphere steeped in history, as Yakage was once a prominent post town. Enjoy the soothing waters and the chance to unwind amidst traditional Japanese architecture, making for a truly memorable and refreshing experience.

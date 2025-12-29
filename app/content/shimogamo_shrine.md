@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Where the Ancient Forest Meets the Flowing River: Forging a Thousand-Year Bond at Kyoto's Shimogamo Shrine"
-date: 2025-12-17
-categories: [Love, History, Health]
-tags:
-  [
-    Kyoto,
-    Shimogamo Shrine,
-    Tadasu no Mori,
-    Matchmaking,
-    Enmusubi,
-    Mitarashi Dango,
-    Hime-mamori,
-    World Heritage,
-    Kamogawa,
-    Japanese Mythology,
-  ]
-thumbnail: /content/images/shimogamo_shrine.webp
-lat: 35.039212
-lng: 135.773243
 address: 〒606-0807 59 Shimogamo Izumigawacho, Sakyo Ward, Kyoto
-excerpt: Kyoto's oldest shrine and a World Heritage site. Pray for special connections and beauty with the primeval Tadasu no Mori forest, Mitarashi Pond, and the one-of-a-kind 'Hime-mamori' amulet.
+categories:
+- Love
+- History
+- Health
+date: 2025-12-17
+excerpt: Kyoto's oldest shrine and a World Heritage site. Pray for special connections
+  and beauty with the primeval Tadasu no Mori forest, Mitarashi Pond, and the one-of-a-kind
+  'Hime-mamori' amulet.
+lat: 35.039212
+layout: post
+lng: 135.773243
+tags:
+- Kyoto
+- Shimogamo Shrine
+- Tadasu no Mori
+- Matchmaking
+- Enmusubi
+- Mitarashi Dango
+- Hime-mamori
+- World Heritage
+- Kamogawa
+- Japanese Mythology
+thumbnail: /content/images/shimogamo_shrine.webp
+title: 'Where the Ancient Forest Meets the Flowing River: Forging a Thousand-Year
+  Bond at Kyoto''s Shimogamo Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -134,3 +138,9 @@ It's a time to erase the noise of daily life while treading the dirt path of Tad
 If you need true rest and excitement during your trip to Kyoto, come to Shimogamo Shrine. The red thread of fate may be waiting for you.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that bring peace to your heart. May your connections blossom beautifully! 🌸🌿
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Located a short train ride north of Shimogamo Shrine, Kurama Onsen offers a secluded and relaxing day-trip onsen experience nestled in the forested mountains of Kyoto. Its open-air rotenburo boasts stunning views of the surrounding nature, perfect for unwinding after visiting Where the Ancient Forest Meets the Flowing River: Forging a Thousand-Year Bond at Kyoto's Shimogamo Shrine. The onsen's waters are known for their therapeutic properties, providing a truly rejuvenating experience in a serene atmosphere, making it a great option for a nearby day-trip onsen.

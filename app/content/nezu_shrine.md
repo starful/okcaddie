@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Miraculous Forest Founded by Yamato Takeru 1,900 Years Ago: Walking Through the Red Torii Tunnel of Tokyo's Nezu Shrine"
-date: 2025-12-18
-categories: [History, Love, Success]
-tags:
-  [
-    Tokyo,
-    Nezu Shrine,
-    Yanesen,
-    Azalea Festival,
-    Senbon Torii,
-    Important Cultural Property,
-    Power Spot,
-    Yamato Takeru,
-    Tokyo Travel,
-    Taiyaki,
-  ]
-thumbnail: /content/images/nezu_shrine.webp
-lat: 35.719742
-lng: 139.760212
 address: 1-28-9 Nezu, Bunkyo-ku, Tokyo 113-0031
-excerpt: A spectacular tunnel of red torii gates in the heart of Tokyo. Experience the romance of the Edo period and the energy of a powerful spiritual spot at Nezu Shrine, where 1,900 years of history and 3,000 azalea bushes come together.
+categories:
+- History
+- Love
+- Success
+date: 2025-12-18
+excerpt: A spectacular tunnel of red torii gates in the heart of Tokyo. Experience
+  the romance of the Edo period and the energy of a powerful spiritual spot at Nezu
+  Shrine, where 1,900 years of history and 3,000 azalea bushes come together.
+lat: 35.719742
+layout: post
+lng: 139.760212
+tags:
+- Tokyo
+- Nezu Shrine
+- Yanesen
+- Azalea Festival
+- Senbon Torii
+- Important Cultural Property
+- Power Spot
+- Yamato Takeru
+- Tokyo Travel
+- Taiyaki
+thumbnail: /content/images/nezu_shrine.webp
+title: 'The Miraculous Forest Founded by Yamato Takeru 1,900 Years Ago: Walking Through
+  the Red Torii Tunnel of Tokyo''s Nezu Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find sacred places like hidden gems in the city.
@@ -130,3 +134,9 @@ Clearing your mind as you pass through the red torii tunnel, and taking a moment
 If you wish to walk through alleyways filled with the breath of people from the past, come to Nezu Shrine. Its 1,900 years of history will welcome you warmly.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to bring a moment of peace to your heart. May your life be a path of flowers! 🌺⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: LaQua (ラクーア)
+
+Located within Tokyo Dome City, LaQua offers a fantastic **day-trip onsen** experience relatively **nearby The Miraculous Forest Founded by Yamato Takeru 1,900 Years Ago: Walking Through the Red Torii Tunnel of Tokyo's Nezu Shrine**. It boasts natural hot spring water pumped from 1,700 meters underground, known for its skin-beautifying properties. With a variety of indoor and outdoor baths, saunas, and relaxation spaces, LaQua provides a truly **relaxing** urban escape after exploring the shrine.

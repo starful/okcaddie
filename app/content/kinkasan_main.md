@@ -1,14 +1,29 @@
 ---
-layout: post
-title: "Visit for 3 consecutive years and never worry about money again? The mysterious golden island, Kinkasan Koganeyama Shrine"
+address: 986-2523 宮城県石巻市鮎川浜金華山５
+categories:
+- Miyagi
+- Shrine
+- Power Spot
+- Wealth
 date: 2023-11-30
-categories: [Miyagi, Shrine, Power Spot, Wealth]
-tags: [Miyagi Prefecture, Ishinomaki, Kinkasan, financial luck, deer, 3 consecutive years pilgrimage]
-thumbnail: /content/images/kinkasan_main.webp
+excerpt: At the tip of the Oshika Peninsula in Miyagi Prefecture, Kinkasan is a divine
+  realm floating on the Pacific Ocean. Along with the legend of Japan's first gold
+  discovery, we guide you to this powerful spot for financial luck, where it's said
+  that 'visiting for three consecutive years will free you from money worries for
+  life'.
 lat: 38.297123
+layout: post
 lng: 141.564512
-address: "986-2523 宮城県石巻市鮎川浜金華山５"
-excerpt: "At the tip of the Oshika Peninsula in Miyagi Prefecture, Kinkasan is a divine realm floating on the Pacific Ocean. Along with the legend of Japan's first gold discovery, we guide you to this powerful spot for financial luck, where it's said that 'visiting for three consecutive years will free you from money worries for life'."
+tags:
+- Miyagi Prefecture
+- Ishinomaki
+- Kinkasan
+- financial luck
+- deer
+- 3 consecutive years pilgrimage
+thumbnail: /content/images/kinkasan_main.webp
+title: Visit for 3 consecutive years and never worry about money again? The mysterious
+  golden island, Kinkasan Koganeyama Shrine
 ---
 
 At the tip of Miyagi Prefecture's Oshika Peninsula, floating alone on the blue waves of the Pacific Ocean, lies the mysterious island of **Kinkasan**. This entire island is considered a sacred realm, a holy ground, and home to a legendary shrine deeply connected to the first discovery of gold in Japanese history.
@@ -107,3 +122,9 @@ A visit to Kinkasan Koganeyama Shrine is not just a trip, but a "pilgrimage."
 The legend says, "Visit for three consecutive years and you will never worry about money for the rest of your life." Regardless of whether this is true, anyone with the earnestness and diligence to undertake this arduous journey three times would likely be able to enrich their own life, even without the gods' divine protection, wouldn't they?
 
 We hope you begin your own special pilgrimage here at Kinkasan, a place to pray for a golden blessing to grace your life.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel Kanyo (ホテル観洋)
+
+Hotel Kanyo in Kesennuma offers a fantastic day-trip onsen experience easily accessible after visiting the Visit for 3 consecutive years and never worry about money again? The mysterious golden island, Kinkasan Koganeyama Shrine. Known for its ocean views from the baths, you can enjoy a relaxing soak while taking in the stunning scenery of the Pacific coastline. This is a perfect way to unwind after a spiritual journey, making it an ideal choice for a rejuvenating and relaxing day-trip onsen.

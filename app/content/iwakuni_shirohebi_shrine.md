@@ -1,24 +1,28 @@
 ---
-layout: post
-title: "Meet the Messenger of a Living God! A Pilgrimage to Yamaguchi's 'Iwakuni Shirohebi Shrine' for an Explosion of Wealth Luck"
-date: 2025-11-30
-categories: [Wealth, Success, History]
-tags:
-  [
-    Yamaguchi Prefecture,
-    Iwakuni,
-    Shirohebi Shrine,
-    Financial Luck,
-    White Snake,
-    Powerspot,
-    Kintaikyo Bridge,
-    Unique Shrine,
-  ]
-thumbnail: /content/images/iwakuni_shirohebi_shrine.webp
-lat: 34.170428
-lng: 132.222341
 address: 6-chome-4-2 Imazumachi, Iwakuni City, Yamaguchi Prefecture (〒741-0081)
-excerpt: A place where a 'living god' with red eyes and pure white scales resides. We guide you to this special sacred site in Iwakuni, which enshrines the natural monument white snake (Shirohebi) and promises powerful financial fortune.
+categories:
+- Wealth
+- Success
+- History
+date: 2025-11-30
+excerpt: A place where a 'living god' with red eyes and pure white scales resides.
+  We guide you to this special sacred site in Iwakuni, which enshrines the natural
+  monument white snake (Shirohebi) and promises powerful financial fortune.
+lat: 34.170428
+layout: post
+lng: 132.222341
+tags:
+- Yamaguchi Prefecture
+- Iwakuni
+- Shirohebi Shrine
+- Financial Luck
+- White Snake
+- Powerspot
+- Kintaikyo Bridge
+- Unique Shrine
+thumbnail: /content/images/iwakuni_shirohebi_shrine.webp
+title: Meet the Messenger of a Living God! A Pilgrimage to Yamaguchi's 'Iwakuni Shirohebi
+  Shrine' for an Explosion of Wealth Luck
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -162,3 +166,9 @@ After visiting Shirohebi Shrine, enhance your trip by exploring Iwakuni's iconic
 Iwakuni Shirohebi Shrine is not a space of ancient mythology, but a living sanctuary forged over long years from the pure reverence and gratitude of the local people for nature. The clear, pristine air you feel upon entering the grounds and the mystical red eyes of the white snake you encounter at the viewing facility awaken in us a reverence for the sanctity of life and unseen powers.
 
 This is a place where you can go beyond simply praying for financial fortune to see and feel how nature and humans have harmonized to create a unique culture. A visit here will surely fill your heart with a deep resonance and powerful positive energy. If you travel to Yamaguchi, we strongly recommend you stop by to receive the divine protection of the mystical white snake.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Mikawa Yukari no Mori (みかわ幽谷温泉　湯免ふれあいセンター)
+
+After visiting Iwakuni Shirohebi Shrine, rejuvenate your spirit with a relaxing day-trip onsen experience at Mikawa Yukari no Mori. Nestled amidst lush greenery, this onsen boasts naturally alkaline waters renowned for leaving skin feeling smooth and refreshed. It provides a tranquil escape and is conveniently located for those seeking a nearby Meet the Messenger of a Living God! A Pilgrimage to Yamaguchi's 'Iwakuni Shirohebi Shrine' for an Explosion of Wealth Luck. Enjoy the peaceful atmosphere and unwind after your shrine visit.

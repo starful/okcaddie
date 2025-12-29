@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "In the Heart of Tokyo, Meet the Gods of Ise Grand Shrine: Finding Love and Happiness at Tokyo Daijingu, the Sacred Place of Relationships"
-date: 2025-12-17
-categories: [Love, History, Success]
-tags:
-  [
-    Tokyo,
-    Iidabashi,
-    Tokyo Daijingu,
-    Matchmaking,
-    En-musubi,
-    Ise Grand Shrine,
-    Power Spot,
-    Shrine Wedding,
-    Lily of the Valley Charm,
-    Tokyo Travel,
-  ]
-thumbnail: /content/images/tokyo_daijingu.webp
-lat: 35.699712
-lng: 139.746156
 address: 〒102-0071 東京都千代田区富士見2-4-1
-excerpt: Encounter a branch of Ise Grand Shrine in the heart of Tokyo. Receive special energy for love at the ultimate sacred ground for 'matchmaking,' the first place in Japan to conduct shrine weddings.
+categories:
+- Love
+- History
+- Success
+date: 2025-12-17
+excerpt: Encounter a branch of Ise Grand Shrine in the heart of Tokyo. Receive special
+  energy for love at the ultimate sacred ground for 'matchmaking,' the first place
+  in Japan to conduct shrine weddings.
+lat: 35.699712
+layout: post
+lng: 139.746156
+tags:
+- Tokyo
+- Iidabashi
+- Tokyo Daijingu
+- Matchmaking
+- En-musubi
+- Ise Grand Shrine
+- Power Spot
+- Shrine Wedding
+- Lily of the Valley Charm
+- Tokyo Travel
+thumbnail: /content/images/tokyo_daijingu.webp
+title: 'In the Heart of Tokyo, Meet the Gods of Ise Grand Shrine: Finding Love and
+  Happiness at Tokyo Daijingu, the Sacred Place of Relationships'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find hidden gems and sacred places in the city.
@@ -127,3 +131,9 @@ In the sacred atmosphere where countless couples have pledged their eternal love
 Whether it's the person you are waiting for or the precious connection you already have, the Sun Goddess and the gods of creation will surely bestow their warm blessings upon you.
 
 **JinjaMap** will return with more stories of special sacred places in Japan that will bring a rosy flutter to your heart. May your love be fulfilled! 💖🌸
+
+***
+
+### ♨️ Relax at a Nearby Onsen: LaQua (ラクーア)
+
+LaQua is a relaxing day-trip onsen conveniently located within the Tokyo Dome City complex. While not a traditional onsen with naturally sourced water from deep underground within the immediate Tokyo area, it offers a variety of bath types, saunas, and relaxation facilities. Its urban location makes it incredibly accessible after visiting nearby In the Heart of Tokyo, Meet the Gods of Ise Grand Shrine: Finding Love and Happiness at Tokyo Daijingu, the Sacred Place of Relationships, making it ideal for a quick and relaxing break in the city. Consider this onsen for a convenient and rejuvenating day-trip onsen experience.

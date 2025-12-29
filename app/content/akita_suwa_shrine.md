@@ -1,24 +1,28 @@
 ---
-layout: post
-title: "Where the Divine Tree of Victory Grows! The 400-Year History of Akita's 'Suwa-miya Shrine,' Where a Warlord Vowed and a God Answered"
-date: 2025-12-02
-categories: [Success, Fortune, History]
-tags:
-  [
-    Akita Prefecture,
-    Misato Town,
-    Suwa-miya Shrine,
-    Victory luck,
-    Prayers for success in exams,
-    Mizunara Divine Tree,
-    Power Spot,
-    Siege of Osaka,
-  ]
-thumbnail: /content/images/akita_suwa_shrine.webp
-lat: 39.418083
-lng: 140.547139
 address: 59 Hondo-machi, Rokugo, Misato-cho, Senboku-gun, Akita Prefecture (〒019-1404)
-excerpt: A shrine built on the vow of a warlord victorious in the Siege of Osaka. The miraculous divine 'Mizunara' tree, which grew from a staff into a giant, invites you to a powerful spot that promises victory and success.
+categories:
+- Success
+- Fortune
+- History
+date: 2025-12-02
+excerpt: A shrine built on the vow of a warlord victorious in the Siege of Osaka.
+  The miraculous divine 'Mizunara' tree, which grew from a staff into a giant, invites
+  you to a powerful spot that promises victory and success.
+lat: 39.418083
+layout: post
+lng: 140.547139
+tags:
+- Akita Prefecture
+- Misato Town
+- Suwa-miya Shrine
+- Victory luck
+- Prayers for success in exams
+- Mizunara Divine Tree
+- Power Spot
+- Siege of Osaka
+thumbnail: /content/images/akita_suwa_shrine.webp
+title: Where the Divine Tree of Victory Grows! The 400-Year History of Akita's 'Suwa-miya
+  Shrine,' Where a Warlord Vowed and a God Answered
 ---
 
 Nestled in the wide plains of Akita, in the town of Misato (美郷町) where clear springs gush forth, lies **Akita Suwa-miya Shrine (諏訪宮)**.
@@ -112,3 +116,9 @@ A prestigious 160-year-old establishment famous for Akita's specialty, 'Inaniwa 
 Akita Suwa-miya Shrine is more than just a place of prayer; it is a place where the story of a man's firm vow and a god's response vividly lives on, transcending 400 years. As you step onto the grounds, you can feel the strong will of the warrior who navigated the rough storms of the Sengoku period and the overwhelming life force of the divine tree.
 
 On the long journey of life, when you wish to pray for an important victory or seek courage before a new challenge, why not visit Akita Suwa-miya Shrine? A visit here will plant a root of steadfast belief in your heart and imbue you with the powerful strength to move toward your goals.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Sun Road Karia Onsen (サンロード角館温泉)
+
+Sun Road Karia Onsen is a fantastic **day-trip onsen** option **nearby Where the Divine Tree of Victory Grows! The 400-Year History of Akita's 'Suwa-miya Shrine,' Where a Warlord Vowed and a God Answered**. Located a short drive away, this onsen boasts naturally warm mineral waters known for their skin-beautifying properties, perfect for **relaxing** after visiting the shrine. The serene atmosphere and picturesque views of the surrounding countryside enhance the overall experience, making it an ideal spot to unwind.

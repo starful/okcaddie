@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "The Red Heart of Kyoto's Gion, Yasaka Shrine: The Guardian Deity Who Fended Off a 1300-Year-Old Plague and the Mystical Spring That Bestows Beauty"
-date: 2025-12-17
-categories: [History, Health, Love]
-tags:
-  [
-    Kyoto,
-    Gion,
-    Yasaka Shrine,
-    Gion Matsuri,
-    Power Spot,
-    Matchmaking,
-    Beauty Water,
-    Night View Spot,
-    Kansai Travel,
-    Susanoo,
-  ]
-thumbnail: /content/images/yasaka_shrine.webp
-lat: 35.003656
-lng: 135.778553
 address: 〒605-0073 625 Gionmachi Kitagawa, Higashiyama Ward, Kyoto
-excerpt: An essential stop on any Kyoto trip and the birthplace of the Gion Matsuri. We invite you to Yasaka Shrine, home to the powerful guardian deity Susanoo who vanquishes plagues, and the legendary 'Beauty Water' said to make you beautiful just by applying it.
+categories:
+- History
+- Health
+- Love
+date: 2025-12-17
+excerpt: An essential stop on any Kyoto trip and the birthplace of the Gion Matsuri.
+  We invite you to Yasaka Shrine, home to the powerful guardian deity Susanoo who
+  vanquishes plagues, and the legendary 'Beauty Water' said to make you beautiful
+  just by applying it.
+lat: 35.003656
+layout: post
+lng: 135.778553
+tags:
+- Kyoto
+- Gion
+- Yasaka Shrine
+- Gion Matsuri
+- Power Spot
+- Matchmaking
+- Beauty Water
+- Night View Spot
+- Kansai Travel
+- Susanoo
+thumbnail: /content/images/yasaka_shrine.webp
+title: 'The Red Heart of Kyoto''s Gion, Yasaka Shrine: The Guardian Deity Who Fended
+  Off a 1300-Year-Old Plague and the Mystical Spring That Bestows Beauty'
 ---
 
 Hello, this is the editor of 'JinjaMap,' where we introduce mystical sacred sites from around the world.
@@ -150,3 +155,9 @@ It is a place that offers prayers for healing when plagues strike, a thread of c
 If you travel to Kyoto, why not visit Yasaka Shrine, where the vibrancy of the day and the tranquility of the night coexist, to receive the energy of the Blue Dragon and purify your heart with its beauty water?
 
 **JinjaMap** will return with another story of a beautiful Japanese shrine to add a moment of peace to your heart. May the blessings of the gods be with you on your journey! 🌸⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Kurama Onsen is an excellent choice for a relaxing day-trip onsen experience nearby The Red Heart of Kyoto's Gion, Yasaka Shrine: The Guardian Deity Who Fended Off a 1300-Year-Old Plague and the Mystical Spring That Bestows Beauty. Located a short train ride north of Kyoto, it boasts naturally heated outdoor baths surrounded by lush mountain scenery, offering a tranquil escape from the city. The rotenburo (outdoor bath) is particularly enchanting, providing a serene atmosphere perfect for unwinding after exploring the shrine. It's a fantastic way to add a rejuvenating element to your Kyoto itinerary.

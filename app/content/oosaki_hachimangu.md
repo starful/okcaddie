@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "Osaki Hachimangu, Sendai's Black Jewel: The Victorious Prayers and National Treasure Left by Date Masamune"
-date: 2025-12-17
-categories: [Success, History, Safety]
-tags:
-  [
-    Sendai,
-    Osaki Hachimangu,
-    Date Masamune,
-    National Treasure,
-    Power Spot,
-    Luck in Competitions,
-    Protection from Evil,
-    Miyagi Prefecture,
-    Japanese History,
-    Zunda Mochi,
-  ]
-thumbnail: /content/images/oosaki_hachimangu.webp
-lat: 38.272112
-lng: 140.843612
 address: 〒980-0871 宮城県仙台市青葉区八幡4丁目6-1
-excerpt: Discover Osaki Hachimangu, Sendai's guardian shrine and a national treasure built by Date Masamune. Experience the essence of Momoyama architecture with its shining black lacquer and gold leaf, and receive powerful energy for victory and protection from misfortune.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-17
+excerpt: Discover Osaki Hachimangu, Sendai's guardian shrine and a national treasure
+  built by Date Masamune. Experience the essence of Momoyama architecture with its
+  shining black lacquer and gold leaf, and receive powerful energy for victory and
+  protection from misfortune.
+lat: 38.272112
+layout: post
+lng: 140.843612
+tags:
+- Sendai
+- Osaki Hachimangu
+- Date Masamune
+- National Treasure
+- Power Spot
+- Luck in Competitions
+- Protection from Evil
+- Miyagi Prefecture
+- Japanese History
+- Zunda Mochi
+thumbnail: /content/images/oosaki_hachimangu.webp
+title: 'Osaki Hachimangu, Sendai''s Black Jewel: The Victorious Prayers and National
+  Treasure Left by Date Masamune'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find hidden gems and sacred sites around the world.
@@ -123,3 +128,9 @@ Osaki Hachimangu is a place where, behind the magnificent National Treasure arch
 As you stand before the black pavilion, imagine the world that Date Masamune dreamed of. And offer a powerful prayer for the goals you hold in your own heart. The energy of victory, which has been passed down for 400 years, will surely give you a strong push forward.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that will empower your heart. We wish you certain victory! 🐉⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Akiu Onsen (秋保温泉)
+
+Akiu Onsen is a fantastic option for a relaxing day-trip onsen nearby Osaki Hachimangu, Sendai's Black Jewel: The Victorious Prayers and National Treasure Left by Date Masamune. Known for its rich history and diverse range of ryokans offering various bathing experiences, Akiu Onsen provides a welcome escape from the city. The waters are reputed to have skin-beautifying properties, and the scenic gorge location adds to the overall rejuvenating atmosphere.

@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Forest of Divine Messengers: The Light of 3,000 Lanterns at Nara's Kasuga Taisha"
-date: 2025-12-18
-categories: [History, Love, Success]
-tags:
-  [
-    Nara,
-    Kasuga Taisha,
-    Nara Park,
-    Power Spot,
-    Lantern,
-    World Heritage,
-    Mantoro,
-    Matchmaking,
-    Meoto Daikoku,
-    Nara Travel,
-  ]
-thumbnail: /content/images/kasuga_taisha.webp
-lat: 34.681212
-lng: 135.848212
 address: 〒630-8212 奈良県奈良市春日野町160
-excerpt: A 1,300-year-old World Heritage site. In a primeval forest where the divine messenger deer roam, discover special connections and tranquility at the mystical Kasuga Taisha, illuminated by 3,000 lanterns.
+categories:
+- History
+- Love
+- Success
+date: 2025-12-18
+excerpt: A 1,300-year-old World Heritage site. In a primeval forest where the divine
+  messenger deer roam, discover special connections and tranquility at the mystical
+  Kasuga Taisha, illuminated by 3,000 lanterns.
+lat: 34.681212
+layout: post
+lng: 135.848212
+tags:
+- Nara
+- Kasuga Taisha
+- Nara Park
+- Power Spot
+- Lantern
+- World Heritage
+- Mantoro
+- Matchmaking
+- Meoto Daikoku
+- Nara Travel
+thumbnail: /content/images/kasuga_taisha.webp
+title: 'A Forest of Divine Messengers: The Light of 3,000 Lanterns at Nara''s Kasuga
+  Taisha'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.
@@ -138,3 +142,9 @@ Kasuga Taisha is not just an old shrine. It is a place where you can feel the re
 It's a time to find your own light while strolling among thousands of lanterns, and to find peace while gazing into the clear eyes of a deer. I hope you will light a bright lantern in your own heart at Nara's Kasuga Taisha.
 
 **JinjaMap** will return with another story of a special sacred site in Japan that illuminates your life. May the luck of the deer be with you on your journey! 🦌✨
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel New Wakasa Nara Onsen (ホテルニューわかさ 奈良温泉)
+
+Hotel New Wakasa Nara Onsen offers a convenient and relaxing day-trip onsen experience close to A Forest of Divine Messengers: The Light of 3,000 Lanterns at Nara's Kasuga Taisha. The onsen features natural hot spring water sourced from deep underground, known for its skin-smoothing properties. This makes it an ideal spot to unwind after exploring the shrine and enjoy a rejuvenating soak. Enjoy the tranquil atmosphere and let your worries melt away at this delightful nearby onsen.

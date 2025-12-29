@@ -1,24 +1,28 @@
 ---
-layout: post
-title: "A Breathtaking View at the Top of 398 Steps! A Symbol of Japan Forged by Mt. Fuji and a Red Pagoda, 'Arakura Fuji Sengen Shrine'"
-date: 2025-11-25
-categories: [History, Safety, Love]
-tags:
-  [
-    Yamanashi Prefecture,
-    Fujiyoshida,
-    ArakurafujiSengenShrine,
-    Mt. Fuji,
-    Chureito Pagoda,
-    Power Spot,
-    Cherry Blossom Spot,
-    Shrine Pilgrimage,
-  ]
-thumbnail: /content/images/arakura_fuji_sengen_shrine.webp
-lat: 35.500583
-lng: 138.801667
 address: 3353-1 Arakura, Fujiyoshida City, Yamanashi Prefecture (〒403-0011)
-excerpt: The "breathtaking view you must see before you die" that has captivated photographers worldwide. Discover 1,300 years of history and a stunning landscape at this sacred site dedicated to Konohanasakuya-hime, the goddess of Mt. Fuji.
+categories:
+- History
+- Safety
+- Love
+date: 2025-11-25
+excerpt: The "breathtaking view you must see before you die" that has captivated photographers
+  worldwide. Discover 1,300 years of history and a stunning landscape at this sacred
+  site dedicated to Konohanasakuya-hime, the goddess of Mt. Fuji.
+lat: 35.500583
+layout: post
+lng: 138.801667
+tags:
+- Yamanashi Prefecture
+- Fujiyoshida
+- ArakurafujiSengenShrine
+- Mt. Fuji
+- Chureito Pagoda
+- Power Spot
+- Cherry Blossom Spot
+- Shrine Pilgrimage
+thumbnail: /content/images/arakura_fuji_sengen_shrine.webp
+title: A Breathtaking View at the Top of 398 Steps! A Symbol of Japan Forged by Mt.
+  Fuji and a Red Pagoda, 'Arakura Fuji Sengen Shrine'
 ---
 
 ---
@@ -118,3 +122,9 @@ The Goshuin from Arakura Fuji Sengen Shrine boasts different charms each season.
 Arakura Fuji Sengen Shrine is not just a place to see a postcard-perfect view in person. The sweat shed while climbing the 398 steps becomes a purification of the mind, and the overwhelming scenery from the observation deck becomes a solace for the soul.
 
 In this sacred place where past and present, myth and history coexist, I hope you feel the gentle aura of Konohanasakuya-hime and form your own special connection. It will gift you with a spiritual fulfillment and beautiful memories that will last a lifetime.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Benifuji no Yu (紅富士の湯)
+
+Benifuji no Yu is an excellent day-trip onsen option nearby A Breathtaking View at the Top of 398 Steps! A Symbol of Japan Forged by Mt. Fuji and a Red Pagoda, 'Arakura Fuji Sengen Shrine'. This onsen is famed for its stunning views of Mount Fuji, especially when the mountain is bathed in a red glow during sunrise or sunset. The natural hot spring water is known for its skin-beautifying properties, providing a truly relaxing experience after visiting the shrine. Enjoy a revitalizing and relaxing soak in this popular day-trip onsen destination.

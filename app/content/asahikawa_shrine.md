@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Forest of Hokkaido's Pioneering Dreams: A 130-Year-Old Prayer at Asahikawa Shrine"
-date: 2025-12-22
-categories: [Success, History, Love]
-tags:
-  [
-    Hokkaido,
-    Asahikawa,
-    Asahikawa Shrine,
-    Pioneer Shrine,
-    Tondenhei,
-    Asahiyama Zoo,
-    Power Spot,
-    Asahikawa Ramen,
-    Enmusubi,
-    Forest Travel,
-  ]
-thumbnail: /content/images/asahikawa_shrine.webp
-lat: 43.748312
-lng: 142.368543
 address: 〒078-8329 北海道旭川市神楽岡公園2
-excerpt: A place steeped in the sweat and tears of the Tondenhei who pioneered the harsh lands of Hokkaido. Experience the pioneering spirit and a time of healing at the 130-year-old Asahikawa Shrine, nestled in a forest.
+categories:
+- Success
+- History
+- Love
+date: 2025-12-22
+excerpt: A place steeped in the sweat and tears of the Tondenhei who pioneered the
+  harsh lands of Hokkaido. Experience the pioneering spirit and a time of healing
+  at the 130-year-old Asahikawa Shrine, nestled in a forest.
+lat: 43.748312
+layout: post
+lng: 142.368543
+tags:
+- Hokkaido
+- Asahikawa
+- Asahikawa Shrine
+- Pioneer Shrine
+- Tondenhei
+- Asahiyama Zoo
+- Power Spot
+- Asahikawa Ramen
+- Enmusubi
+- Forest Travel
+thumbnail: /content/images/asahikawa_shrine.webp
+title: 'The Forest of Hokkaido''s Pioneering Dreams: A 130-Year-Old Prayer at Asahikawa
+  Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find hidden sacred gems around the world.
@@ -126,3 +130,9 @@ Feel the spirit of the people from 130 years ago who planted seeds of hope in a 
 Are you afraid of a new beginning? Come to Asahikawa Shrine in the forests of Hokkaido. The trees that have withstood fierce blizzards will give you the courage to say, "You can do it."
 
 **JinjaMap** will return with another story of a special sacred place in Japan that will empower your life. May warm sunlight shine upon your path ahead! ☀️🌲
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Shirogane Onsen (白金温泉)
+
+After your spiritual visit to The Forest of Hokkaido's Pioneering Dreams: A 130-Year-Old Prayer at Asahikawa Shrine, rejuvenate your senses with a relaxing day-trip onsen experience at Shirogane Onsen. Nestled in the picturesque Biei region, just about an hour's drive away, this charming hot spring village is renowned for its clear, highly mineralized waters, believed to soothe muscles and relieve fatigue. Enjoy the serene forest atmosphere and perhaps even a glimpse of the famous Shirohige Waterfall or Blue Pond nearby, making it a perfect extension for a truly relaxing escape nearby The Forest of Hokkaido's Pioneering Dreams: A 130-Year-Old Prayer at Asahikawa Shrine.

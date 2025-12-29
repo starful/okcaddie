@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Sever Bad Ties, Forge Good Ones: A New Beginning at Kyoto's Yasui Konpiragu Shrine"
-date: 2025-12-18
-categories: [Love, History, Health]
-tags:
-  [
-    Kyoto,
-    Gion,
-    Yasui Konpiragu,
-    Severing bad ties,
-    Enmusubi,
-    Enkiri,
-    Power Spot,
-    Passing through the stone,
-    Japanese History,
-    Kyoto Travel,
-  ]
-thumbnail: /content/images/yasui_konpiragu.webp
-lat: 34.999567
-lng: 135.776654
 address: 〒605-0823 70 Shimobentencho, Higashiyama Ward, Kyoto
-excerpt: A hidden power spot in Kyoto's Gion district. Welcome a turning point in your life at Yasui Konpiragu, a shrine with a massive stone that severs bad ties and forges good ones, steeped in the legend of the tragic Emperor Sutoku.
+categories:
+- Love
+- History
+- Health
+date: 2025-12-18
+excerpt: A hidden power spot in Kyoto's Gion district. Welcome a turning point in
+  your life at Yasui Konpiragu, a shrine with a massive stone that severs bad ties
+  and forges good ones, steeped in the legend of the tragic Emperor Sutoku.
+lat: 34.999567
+layout: post
+lng: 135.776654
+tags:
+- Kyoto
+- Gion
+- Yasui Konpiragu
+- Severing bad ties
+- Enmusubi
+- Enkiri
+- Power Spot
+- Passing through the stone
+- Japanese History
+- Kyoto Travel
+thumbnail: /content/images/yasui_konpiragu.webp
+title: 'Sever Bad Ties, Forge Good Ones: A New Beginning at Kyoto''s Yasui Konpiragu
+  Shrine'
 ---
 
 Hello, this is your editor from 'JinjaMap', a journey to mystical sacred sites around the world.
@@ -138,3 +142,9 @@ As you pass through that narrow hole, let the beads of sweat carry away all the 
 When you emerge from the stone, may only good connections and a hopeful future await you. If you need to hit the reset button on life during your Kyoto travels, be sure to remember this place.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that can bring positive change to your life. We are rooting for your new beginning! ✂️❤️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel Kanra Kyoto (ホテル カンラ 京都)
+
+Hotel Kanra Kyoto offers a serene and accessible "day-trip onsen" experience relatively nearby Sever Bad Ties, Forge Good Ones: A New Beginning at Kyoto's Yasui Konpiragu Shrine. While not a traditional onsen town experience, its stylish and modern bath facilities boast high-quality water sourced from deep underground, providing a truly "relaxing" escape after visiting the shrine. Its convenient location in Kyoto makes it an ideal choice for travelers looking for a quick and refreshing onsen experience.

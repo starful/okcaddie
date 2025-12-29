@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Mysterious Island Where Samurai Armor Slumbers: Encountering 2,600 Years of History at Oyamazumi Shrine in Ehime"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Ehime,
-    Oyamazumi Shrine,
-    Omishima,
-    Treasure Museum,
-    National Treasure,
-    Power Spot,
-    2600-year-old camphor tree,
-    Shimanami Kaido,
-    God of War,
-    Maritime Safety,
-  ]
-thumbnail: /content/images/ooyamazumi_shrine.webp
-lat: 34.248312
-lng: 133.005243
 address: 〒794-1304 愛媛県今治市大三島町宮浦3327
-excerpt: The guardian deity of Japan, located on Omishima, the 'Island of the Gods' in the Seto Inland Sea. Receive the energy of victory and safety at Oyamazumi Shrine, home to a 2,600-year-old sacred tree and countless samurai treasures.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: The guardian deity of Japan, located on Omishima, the 'Island of the Gods'
+  in the Seto Inland Sea. Receive the energy of victory and safety at Oyamazumi Shrine,
+  home to a 2,600-year-old sacred tree and countless samurai treasures.
+lat: 34.248312
+layout: post
+lng: 133.005243
+tags:
+- Ehime
+- Oyamazumi Shrine
+- Omishima
+- Treasure Museum
+- National Treasure
+- Power Spot
+- 2600-year-old camphor tree
+- Shimanami Kaido
+- God of War
+- Maritime Safety
+thumbnail: /content/images/ooyamazumi_shrine.webp
+title: 'The Mysterious Island Where Samurai Armor Slumbers: Encountering 2,600 Years
+  of History at Oyamazumi Shrine in Ehime'
 ---
 
 Hello, this is your editor from 'JinjaMap,' on a journey to find hidden gems and sacred sites around the world.
@@ -124,3 +128,9 @@ Standing under the camphor tree planted by Ochi-no-Miko, imagine the fervent pra
 Are you wavering in the face of life's waves? If so, come to Omishima, the Island of the Gods. The gods of the mountains and the sea will surely instill in you steadfast courage and the energy of victory.
 
 **JinjaMap** will be back with more stories of Japan's special sacred sites that can empower your life. May the flag of victory fly high in your future! 🚩🌿
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Sunrise Shimanami (サンライズ糸山)
+
+Located a short drive from Oyamazumi Shrine, Sunrise Shimanami offers a fantastic day-trip onsen experience. Its elevated location provides stunning views of the Seto Inland Sea and the iconic Kurushima Kaikyo Bridge, perfect for a relaxing soak after exploring The Mysterious Island Where Samurai Armor Slumbers: Encountering 2,600 Years of History at Oyamazumi Shrine in Ehime. This makes it an ideal spot for a refreshing and picturesque day-trip onsen. Enjoy the relaxing atmosphere and rejuvenating waters!

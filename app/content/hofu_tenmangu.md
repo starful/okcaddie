@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The First Tenman-gū in Japan: Discovering the Traces of the Ill-fated Genius Michizane and the Scent of Plum Blossoms in Hōfu"
-date: 2025-12-18
-categories: [Academics, History, Success]
-tags:
-  [
-    Yamaguchi,
-    Hōfu Tenman-gū,
-    God of Learning,
-    Sugawara no Michizane,
-    Tenjin,
-    Power Spot,
-    Plum Blossom Spot,
-    Prayer for Passing Exams,
-    Three Great Tenjin,
-    First in Japan,
-  ]
-thumbnail: /content/images/hofu_tenmangu.webp
-lat: 34.057212
-lng: 131.573543
 address: 〒747-0029 山口県防府市松崎町14-1
-excerpt: The first Tenman-gū in Japan and one of the Three Great Tenjin. Receive powerful energy for academic achievement and wish fulfillment at Hōfu Tenman-gū, where Sugawara no Michizane stayed, longing for Kyoto, on his sorrowful journey to exile.
+categories:
+- Academics
+- History
+- Success
+date: 2025-12-18
+excerpt: The first Tenman-gū in Japan and one of the Three Great Tenjin. Receive powerful
+  energy for academic achievement and wish fulfillment at Hōfu Tenman-gū, where Sugawara
+  no Michizane stayed, longing for Kyoto, on his sorrowful journey to exile.
+lat: 34.057212
+layout: post
+lng: 131.573543
+tags:
+- Yamaguchi
+- Hōfu Tenman-gū
+- God of Learning
+- Sugawara no Michizane
+- Tenjin
+- Power Spot
+- Plum Blossom Spot
+- Prayer for Passing Exams
+- Three Great Tenjin
+- First in Japan
+thumbnail: /content/images/hofu_tenmangu.webp
+title: 'The First Tenman-gū in Japan: Discovering the Traces of the Ill-fated Genius
+  Michizane and the Scent of Plum Blossoms in Hōfu'
 ---
 
 Hello, dear readers! This is your editor from 'JinjaMap', here to add depth to your travels.
@@ -131,3 +135,9 @@ Try to understand the heart of Michizane, who looked towards Kyoto from the hill
 Do you have a dream you desperately wish to achieve? If so, come to the first Tenman-gū in Japan. The energy of Tenjin-sama, which has flowed for 1,100 years, will surely support your dream.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that bring wisdom and courage to your life. We wish you the best of luck in passing your exams! 🌸🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yuno Yama Onsen (湯の山温泉)
+
+Yuno Yama Onsen is a wonderful option for a relaxing day-trip onsen experience near The First Tenman-gū in Japan: Discovering the Traces of the Ill-fated Genius Michizane and the Scent of Plum Blossoms in Hōfu. Known for its high-quality alkaline spring water, the onsen is said to soothe tired muscles and leave skin feeling refreshed. Enjoy the peaceful mountain views and traditional Japanese atmosphere while unwinding after exploring the shrine. This provides a perfect complement to a cultural visit with a rejuvenating onsen escape.

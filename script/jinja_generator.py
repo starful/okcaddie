@@ -37,17 +37,27 @@ if not GEMINI_API_KEY:
     exit(1)
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash", # 또는 gemini-pro
-    generation_config={"temperature": 0.7, "max_output_tokens": 8192}
-)
+
+# 모델 자동 선택 (최신 모델 우선)
+def get_best_model():
+    try:
+        models = [m.name for m in genai.list_models()]
+        for m in models:
+            if 'gemini-1.5-pro' in m: return genai.GenerativeModel(m)
+        for m in models:
+            if 'gemini-1.5-flash' in m: return genai.GenerativeModel(m)
+        return genai.GenerativeModel("gemini-pro")
+    except:
+        return genai.GenerativeModel("gemini-pro")
+
+model = get_best_model()
 
 # 한글 카테고리 -> 영어 매핑
 CATEGORY_EN_MAP = {
     '재물': 'Wealth',
     '사랑': 'Love',
     '건강': 'Health',
-    '학업': 'Success',
+    '학업': 'Success', # Study -> Success 통합
     '안전': 'Safety',
     '성공': 'Success',
     '역사': 'History'
@@ -74,16 +84,11 @@ def get_target_row():
         reader = csv.DictReader(f)
         for row in reader:
             shrine_name = row.get('shrine_name', '').strip()
-            # 이미 처리된 신사는 건너뜀
             if shrine_name and normalize_text(shrine_name) not in processed_items:
                 return row, shrine_name
     return None, None
 
-def extract_hashtags(content):
-    tags = re.findall(r'#(\w+)', content)
-    return sorted(list(set(tags)))
-
-# --- 3. 프롬프트 생성 (영어) ---
+# --- 3. 프롬프트 생성 (온천 정보 추가됨) ---
 def generate_jinja_prompt(shrine_name, region):
     return f"""
 # Role
@@ -100,7 +105,6 @@ A professional travel writer specializing in Japanese history, mythology, and cu
 # Output Format (Markdown)
 1. The first line MUST be the Title starting with `#`.
 2. The last line MUST be **FILENAME: shrine_name_english_slug**.
-   - Example: FILENAME: meiji_jingu_shrine
 
 ---
 # Content Structure
@@ -120,15 +124,17 @@ A professional travel writer specializing in Japanese history, mythology, and cu
 - Unique charms and stamps available here.
 
 ***
-### 4. 🚶 Nearby Attractions
-- Sightseeing spots or food in {region}.
-
-***
-### 5. 🗺️ Access & Info
+### 4. 🗺️ Access & Info
 (Table: Address, Nearest Station, Hours)
 
 ***
-### 6. ✨ Conclusion
+### 5. ✨ Conclusion
+
+***
+### ♨️ Relax at a Nearby Onsen: [Name of Onsen]
+- Please recommend ONE best nearby Onsen (Hot Spring) for a day-trip.
+- Write 3~4 sentences about why it's good (water quality, view, etc).
+- Include the Japanese name of the Onsen in parentheses.
 
 ---
 
@@ -146,22 +152,18 @@ def save_to_markdown(title, content, row_data, filename_slug):
     body = re.sub(r'#.*?\n', '', content).strip()
     excerpt = body[:160].replace('\n', ' ') + "..."
 
-    # 카테고리 변환 (한글 -> 영어)
+    # 카테고리 변환
     kor_cat = row_data.get('Category', '역사')
     eng_cat = CATEGORY_EN_MAP.get(kor_cat, 'History')
     categories = [eng_cat]
 
-    # 태그 생성 (기본 태그 + 지역명)
     tags = ["Japan", "Shrine", "Travel", eng_cat]
-    
-    # 지역명 추출 (예: "도쿄 (Tokyo)" -> "Tokyo")
     region_raw = row_data.get('Region', '')
     region_match = re.search(r'\((.*?)\)', region_raw)
     if region_match:
-        tags.append(region_match.group(1)) # Tokyo
+        tags.append(region_match.group(1))
     
-    # 위경도 및 주소
-    lat = row_data.get('lat', '35.6895')
+    lat = row_data.get('lat', '35.6895') # CSV에 없으면 기본값
     lng = row_data.get('lng', '139.6917')
     addr = row_data.get('address', row_data.get('shrine_name', ''))
     
@@ -209,7 +211,6 @@ if __name__ == "__main__":
         logging.info(f"[{i+1}/{args.count}] Generating: {shrine_name}")
         
         try:
-            # 지역명 파싱 (프롬프트용)
             region = "Japan"
             if '(' in row.get('Region', ''):
                 region = row['Region'].split('(')[1].replace(')', '')
@@ -218,33 +219,28 @@ if __name__ == "__main__":
             resp = model.generate_content(prompt)
             content = resp.text
             
-            # 제목 추출 및 정리
             header_match = re.search(r'^#\s+.+', content, re.MULTILINE)
             if header_match:
                 content = content[header_match.start():]
             else:
                 content = f"# {shrine_name}\n\n" + content
 
-            # 파일명 추출
             filename_slug = f"shrine_{int(time.time())}"
             file_match = re.search(r'FILENAME:\s*([\w_]+)', content)
             if file_match:
                 filename_slug = file_match.group(1).strip().lower()
                 content = content.replace(file_match.group(0), '').strip()
 
-            # Frontmatter용 제목 추출
             t_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
             title = t_match.group(1).strip().replace('**', '') if t_match else shrine_name
             
-            # 본문 내 중복 제목 제거
             content = re.sub(r'^#\s+.*?\n', '', content, count=1).strip()
             
-            # 저장
             if save_to_markdown(title, content, row, filename_slug):
                 with open(LOG_PATH, 'a', encoding='utf-8') as f:
                     f.write(f"{normalize_text(shrine_name)}\n")
                 success_count += 1
-                time.sleep(3) # API 제한 고려
+                time.sleep(5) # 유료 API라 5초면 충분
 
         except Exception as e:
             logging.error(f"❌ Error: {e}")

@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Red Heart of Kyoto's Millennium of History: A Stroll Through Heian Jingu's Majestic Architecture and Secret Garden"
-date: 2025-12-18
-categories: [History, Success, Love]
-tags:
-  [
-    Kyoto,
-    Heian Jingu,
-    Power Spot,
-    Shin-en Garden,
-    Jidai Matsuri,
-    Cherry Blossom Spot,
-    Matchmaking,
-    Kyoto Travel,
-    O-torii,
-    Yudofu,
-  ]
-thumbnail: /content/images/heian_jingu.webp
-lat: 35.016012
-lng: 135.782543
 address: 〒606-8341 京都府京都市左京区岡崎西天王町97
-excerpt: A vermilion sacred site built to commemorate the 1100th anniversary of Kyoto's founding. A journey through time to Heian Jingu, home to the magnificent Daigokuden, the beautiful four-season Shin-en Garden, and the pride of Kyoto's people.
+categories:
+- History
+- Success
+- Love
+date: 2025-12-18
+excerpt: A vermilion sacred site built to commemorate the 1100th anniversary of Kyoto's
+  founding. A journey through time to Heian Jingu, home to the magnificent Daigokuden,
+  the beautiful four-season Shin-en Garden, and the pride of Kyoto's people.
+lat: 35.016012
+layout: post
+lng: 135.782543
+tags:
+- Kyoto
+- Heian Jingu
+- Power Spot
+- Shin-en Garden
+- Jidai Matsuri
+- Cherry Blossom Spot
+- Matchmaking
+- Kyoto Travel
+- O-torii
+- Yudofu
+thumbnail: /content/images/heian_jingu.webp
+title: 'The Red Heart of Kyoto''s Millennium of History: A Stroll Through Heian Jingu''s
+  Majestic Architecture and Secret Garden'
 ---
 
 Hello, this is your 'JinjaMap' editor, traveling to beautiful sacred sites around the world.
@@ -132,3 +136,9 @@ Walk among the vermilion pillars and imagine the elegance of the ancient nobilit
 Heian Jingu is where past glory and present tranquility coexist. I hope you find your own special 'peace' (平安) there.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to bring a moment of pause to your heart. May your days be filled with peace! ⛩️🌸
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Located north of Kyoto city, Kurama Onsen offers a secluded and relaxing day-trip onsen experience easily accessible from Heian Jingu. Its outdoor rotenburo (open-air bath) provides stunning views of the surrounding mountains, allowing you to immerse yourself in nature. The onsen water is known for its skin-beautifying properties, making it a perfect way to unwind after exploring The Red Heart of Kyoto's Millennium of History: A Stroll Through Heian Jingu's Majestic Architecture and Secret Garden. Consider it for a truly rejuvenating and nearby day-trip onsen adventure.

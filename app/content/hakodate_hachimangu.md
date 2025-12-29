@@ -124,3 +124,9 @@ As you stand on the hill, feeling the cool sea breeze and making a vow for victo
 Are you facing a challenge in life, such as an exam, a job search, or a business venture? If so, come to Hakodate Hachimangu Shrine. The cute squid amulet will give you the cheerful encouragement, "You'll win, by any means!"
 
 **JinjaMap** will be back with another story of a special sacred site in Japan that will bring vitality to your life. We are cheering for your victory! 🦑🚩
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yachigashira Onsen (谷地頭温泉)
+
+Just a 5-minute walk downhill from the shrine, **Yachigashira Onsen** is a beloved public bathhouse frequented by locals. Known for its distinctively brown, iron-rich water, it warms the body to the core and leaves the skin feeling smooth. The spacious open-air bath, shaped like a star (referencing Hakodate's Goryokaku Fort), offers a refreshing sense of freedom with views of Mt. Hakodate, making it the perfect spot to wash away travel fatigue.

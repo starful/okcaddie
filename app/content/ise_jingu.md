@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Beginning of a Myth, Where the Heart of Japan Resides: A Pilgrimage to Ise Jingu, Walking Through a Thousand-Year-Old Forest"
-date: 2025-12-18
-categories: [History, Success, Love]
-tags:
-  [
-    Ise Jingu,
-    Mie Prefecture,
-    Amaterasu,
-    Shikinen Sengu,
-    Okage Yokocho,
-    Akafuku,
-    Ise Udon,
-    Japanese Mythology,
-    Power Spot,
-    Healing,
-  ]
-thumbnail: /content/images/ise_jingu.webp
-lat: 34.455012
-lng: 136.725845
 address: 〒516-0023 三重県伊勢市宇治館町1
-excerpt: The pinnacle of Japanese faith, Ise Jingu. Encounter the sun goddess Amaterasu and the god of abundance Toyouke in a 2,000-year-old forest. From the soul-cleansing Isuzu River to the vibrant Okage Yokocho, it's the perfect healing journey.
+categories:
+- History
+- Success
+- Love
+date: 2025-12-18
+excerpt: The pinnacle of Japanese faith, Ise Jingu. Encounter the sun goddess Amaterasu
+  and the god of abundance Toyouke in a 2,000-year-old forest. From the soul-cleansing
+  Isuzu River to the vibrant Okage Yokocho, it's the perfect healing journey.
+lat: 34.455012
+layout: post
+lng: 136.725845
+tags:
+- Ise Jingu
+- Mie Prefecture
+- Amaterasu
+- Shikinen Sengu
+- Okage Yokocho
+- Akafuku
+- Ise Udon
+- Japanese Mythology
+- Power Spot
+- Healing
+thumbnail: /content/images/ise_jingu.webp
+title: 'The Beginning of a Myth, Where the Heart of Japan Resides: A Pilgrimage to
+  Ise Jingu, Walking Through a Thousand-Year-Old Forest'
 ---
 
 Hello, this is the editor from 'JinjaMap', traveling to sacred sites around the world.
@@ -127,3 +131,9 @@ Regardless of religion, Ise Jingu is a grand heritage site that shows how nature
 Breathe in the phytoncides emitted by the thousand-year-old forest, and let your worries float away in the clear river. Then, fill your stomach with delicious food, and you will find the strength to return to your daily life.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that can be a moment of pause in your life. May a sun-like bright energy fill your heart! 🌞🌿
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hinatayu Hisuien (日の出湯 翡翠苑)
+
+Hinatayu Hisuien is an excellent choice for a relaxing day-trip onsen nearby The Beginning of a Myth, Where the Heart of Japan Resides: A Pilgrimage to Ise Jingu. Located a short distance from Ise Jingu, it offers a convenient and tranquil escape. The onsen boasts smooth, skin-friendly waters, providing a rejuvenating experience after a day of exploring the shrine. It's the perfect way to unwind and complete your Ise pilgrimage with a soothing soak.

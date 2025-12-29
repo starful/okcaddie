@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "Unyielding Loyalty Blossoming Amidst Historical Tragedy: Encountering Emperor Go-Daigo's Dream at Yoshino Jingu Shrine, Nara"
-date: 2025-12-17
-categories: [History, Success, Academics]
-tags:
-  [
-    Nara,
-    Yoshino,
-    Yoshino Jingu,
-    Southern Court,
-    Emperor Go-Daigo,
-    Power Spot,
-    Cherry Blossom Spot,
-    Historical Journey,
-    Japanese History,
-    Kansai Travel,
-  ]
-thumbnail: /content/images/yoshino_jingu.webp
-lat: 34.368385
-lng: 135.856170
 address: 〒639-3115 奈良県吉野郡吉野町吉野山3226
-excerpt: Emperor Go-Daigo lived one of the most dramatic lives in Japanese history. Receive the powerful energy for 'great wish fulfillment' at Yoshino Jingu Shrine, which honors his indomitable spirit resting in Yoshino, the capital of the Southern Court.
+categories:
+- History
+- Success
+- Academics
+date: 2025-12-17
+excerpt: Emperor Go-Daigo lived one of the most dramatic lives in Japanese history.
+  Receive the powerful energy for 'great wish fulfillment' at Yoshino Jingu Shrine,
+  which honors his indomitable spirit resting in Yoshino, the capital of the Southern
+  Court.
+lat: 34.368385
+layout: post
+lng: 135.85617
+tags:
+- Nara
+- Yoshino
+- Yoshino Jingu
+- Southern Court
+- Emperor Go-Daigo
+- Power Spot
+- Cherry Blossom Spot
+- Historical Journey
+- Japanese History
+- Kansai Travel
+thumbnail: /content/images/yoshino_jingu.webp
+title: 'Unyielding Loyalty Blossoming Amidst Historical Tragedy: Encountering Emperor
+  Go-Daigo''s Dream at Yoshino Jingu Shrine, Nara'
 ---
 
 Hello, readers! This is the editor of 'JinjaMap,' here to add depth to your travels.
@@ -131,3 +136,9 @@ The story of a man who, despite losing everything and being exiled to the mounta
 While the spring days when cherry blossoms are in full bloom are wonderful, Yoshino Jingu Shrine in the lush green of summer or the quiet solitude of winter offers an even deeper resonance. If you are planning a trip to Nara, I highly recommend embarking on this special pilgrimage through the mountain paths of Yoshino, a journey back in time.
 
 **JinjaMap** will return with another story of a sacred place in Japan that will leave a lasting impression on your heart. We wish you the best in achieving your great dreams! 🙏🌸
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Dorogawa Onsen (洞川温泉)
+
+Dorogawa Onsen is a fantastic day-trip onsen option near Unyielding Loyalty Blossoming Amidst Historical Tragedy: Encountering Emperor Go-Daigo's Dream at Yoshino Jingu Shrine, Nara. Known for its alkaline simple hot spring water, it provides a relaxing experience that's gentle on the skin. Enjoy the rustic atmosphere of the onsen town, nestled in the mountains, offering a peaceful escape after visiting the shrine.

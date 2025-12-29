@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Hanshin Tigers' Annual Pilgrimage for Victory: The Powerful Winning Luck and Azalea Blessings of Hyogo's Hirota Shrine"
-date: 2025-12-17
-categories: [Success, History, Health]
-tags:
-  [
-    Hyogo,
-    Nishinomiya,
-    Hirota Shrine,
-    Hanshin Tigers,
-    Winning Luck,
-    Azalea Spot,
-    Amaterasu,
-    Power Spot,
-    Japanese Mythology,
-    Kansai Travel,
-  ]
-thumbnail: /content/images/hirota_shrine.webp
-lat: 34.754712
-lng: 135.342156
 address: 〒662-0867 兵庫県西宮市大社町7-7
-excerpt: Japan's oldest shrine, founded by Empress Jingū in the 3rd century. Discover the powerful winning luck and the magnificent spectacle of 20,000 azaleas at Hirota Shrine, home to the 'God of Victory' where the Hanshin Tigers pray for their championship.
+categories:
+- Success
+- History
+- Health
+date: 2025-12-17
+excerpt: Japan's oldest shrine, founded by Empress Jingū in the 3rd century. Discover
+  the powerful winning luck and the magnificent spectacle of 20,000 azaleas at Hirota
+  Shrine, home to the 'God of Victory' where the Hanshin Tigers pray for their championship.
+lat: 34.754712
+layout: post
+lng: 135.342156
+tags:
+- Hyogo
+- Nishinomiya
+- Hirota Shrine
+- Hanshin Tigers
+- Winning Luck
+- Azalea Spot
+- Amaterasu
+- Power Spot
+- Japanese Mythology
+- Kansai Travel
+thumbnail: /content/images/hirota_shrine.webp
+title: 'The Hanshin Tigers'' Annual Pilgrimage for Victory: The Powerful Winning Luck
+  and Azalea Blessings of Hyogo''s Hirota Shrine'
 ---
 
 Hello, readers! This is the editor from 'JinjaMap,' introducing you to unique shrines across Japan.
@@ -134,3 +138,9 @@ Hirota Shrine may not be flashy, but the energy dwelling within it is hotter and
 Is there a wall you must overcome before you? If so, do not hesitate to come to Hirota Shrine. In the quiet forest, the Aramitama of Amaterasu will place a hand on your back and instill in you the powerful conviction that "You can do it, you can win."
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that can bring positive change to your life. We wish you certain victory! 🏆🌺
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Arima Onsen (有馬温泉)
+
+Arima Onsen is an excellent choice for a relaxing day-trip onsen experience nearby The Hanshin Tigers' Annual Pilgrimage for Victory: The Powerful Winning Luck and Azalea Blessings of Hyogo's Hirota Shrine. Boasting two distinct types of mineral-rich hot springs, the "Kinsen" (gold spring) and "Ginsen" (silver spring), Arima offers a uniquely therapeutic bathing experience. Its charming, historic town atmosphere provides a delightful contrast to the bustling city, making it a perfect escape for visitors seeking tranquility after shrine visits.

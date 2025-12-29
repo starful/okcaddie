@@ -1,24 +1,28 @@
 ---
-layout: post
-title: "A Pilgrimage to Akasaka Hikawa Shrine: The Shogun's Beloved Hidden Sanctuary in Tokyo, a 1,000-Year Bond of Fate"
-date: 2025-11-30
-categories: [Love, Success, History]
-tags:
-  [
-    Tokyo,
-    Akasaka,
-    Hikawa Shrine,
-    Enmusubi,
-    Yakuyoke,
-    Power Spot,
-    Tokyo Jissha,
-    Yakan-no-suzu,
-  ]
-thumbnail: /content/images/akasaka_hikawa_shrine.webp
-lat: 35.669866
-lng: 139.736417
 address: 6-10-12 Akasaka, Minato-ku, Tokyo (〒107-0052)
-excerpt: In the heart of Tokyo, a tranquil forest shrine guarded by a 400-year-old giant tree. Receive powerful blessings for matchmaking and warding off evil at the national treasure-class main hall, built by order of the 8th Shogun Yoshimune.
+categories:
+- Love
+- Success
+- History
+date: 2025-11-30
+excerpt: In the heart of Tokyo, a tranquil forest shrine guarded by a 400-year-old
+  giant tree. Receive powerful blessings for matchmaking and warding off evil at the
+  national treasure-class main hall, built by order of the 8th Shogun Yoshimune.
+lat: 35.669866
+layout: post
+lng: 139.736417
+tags:
+- Tokyo
+- Akasaka
+- Hikawa Shrine
+- Enmusubi
+- Yakuyoke
+- Power Spot
+- Tokyo Jissha
+- Yakan-no-suzu
+thumbnail: /content/images/akasaka_hikawa_shrine.webp
+title: 'A Pilgrimage to Akasaka Hikawa Shrine: The Shogun''s Beloved Hidden Sanctuary
+  in Tokyo, a 1,000-Year Bond of Fate'
 ---
 
 In the heart of Tokyo lies Akasaka (赤坂), a district bustling with glamorous skyscrapers and sophisticated shops. Within this modern urban landscape, there exists a sacred precinct, enveloped in serene, deep greenery, as if it has traveled back in time. This is **Akasaka Hikawa Shrine (赤坂氷川神社)**, which has watched over Tokyo's prosperity and the connections between its people for over 1,000 years.
@@ -127,3 +131,9 @@ The goshuin of Akasaka Hikawa Shrine is famous for its very neat yet dignified c
 Akasaka Hikawa Shrine is more than just a place to make wishes; it is like a precious treasure chest holding fragments of time that the metropolis of Tokyo has lost. Standing beneath the Edo-period architecture imbued with the shogun's prayers, feeling the breath of the 400-year-old ginkgo tree, and listening to the stories of mythological gods will surely be an unforgettable experience.
 
 When you wish to strengthen the bond with a loved one, when you need the strength to overcome life's difficult hurdles, or when you simply want to escape the hustle and bustle of daily life and find rest for your soul, visit Akasaka Hikawa Shrine. With every step you take through its quiet precincts, the peace and blessings built up over a thousand years of history will gently settle upon you.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Thermae-Yu (テルマー湯)
+
+Thermae-Yu is a fantastic option for a relaxing day-trip onsen experience nearby A Pilgrimage to Akasaka Hikawa Shrine: The Shogun's Beloved Hidden Sanctuary in Tokyo, a 1,000-Year Bond of Fate. While not a natural hot spring within central Tokyo itself, it trucks in high-quality onsen water directly from hot spring sources in the Izu Peninsula, offering a truly authentic onsen experience. The facility boasts a variety of baths, relaxation areas, and dining options, making it a convenient and enjoyable way to unwind after exploring the shrine. It's perfect for a quick and accessible city center day-trip onsen visit.

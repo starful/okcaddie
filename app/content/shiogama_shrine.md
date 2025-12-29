@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Thousand-Year Port Guarded by the Salt God: The Miracle of 202 Steps at Shiogama Shrine"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Miyagi,
-    Shiogama,
-    ShiogamaShrine,
-    GodOfSalt,
-    Exorcism,
-    PowerSpot,
-    Otoko-zaka,
-    CherryBlossomSpot,
-    Matsushima,
-    TohokuTravel,
-  ]
-thumbnail: /content/images/shiogama_shrine.webp
-lat: 38.319712
-lng: 141.026156
 address: 〒985-8510 宮城県塩竈市一森山1-1
-excerpt: The 1200-year-old guardian deity of Tohoku. Climb the 202 stone steps to cast off misfortune and receive powerful energy for purification and success at Shiogama Shrine, home to the legend of the mystical salt cauldrons.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: The 1200-year-old guardian deity of Tohoku. Climb the 202 stone steps to
+  cast off misfortune and receive powerful energy for purification and success at
+  Shiogama Shrine, home to the legend of the mystical salt cauldrons.
+lat: 38.319712
+layout: post
+lng: 141.026156
+tags:
+- Miyagi
+- Shiogama
+- ShiogamaShrine
+- GodOfSalt
+- Exorcism
+- PowerSpot
+- Otoko-zaka
+- CherryBlossomSpot
+- Matsushima
+- TohokuTravel
+thumbnail: /content/images/shiogama_shrine.webp
+title: 'The Thousand-Year Port Guarded by the Salt God: The Miracle of 202 Steps at
+  Shiogama Shrine'
 ---
 
 Hello, this is your editor from 'JinjaMap,' on a journey to discover hidden gems and sacred sites around the world.
@@ -131,3 +135,9 @@ The sweat you shed climbing the 202 steps will wash away your worries, and the e
 Are you troubled by something that won't resolve? Then come to Shiogama Shrine. The purifying power of salt and the guidance of the gods will help your life's path run smoothly.
 
 **JinjaMap** will be back with more stories of Japan's special sacred sites that bring positive energy to your life. May your future shine as bright as salt! ✨🧂
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel Grand Park Oga (ホテルグランドパーク小向)
+
+Hotel Grand Park Oga offers a convenient and relaxing day-trip onsen experience nearby The Thousand-Year Port Guarded by the Salt God: The Miracle of 202 Steps at Shiogama Shrine. Known for its natural hot spring waters, it's the perfect way to unwind after exploring the shrine. Guests can enjoy a tranquil atmosphere and rejuvenate body and mind with this refreshing day-trip onsen.

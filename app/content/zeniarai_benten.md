@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Money Washed in a Cave Spring Returns as Manifold Blessings: The Miracle of Kamakura's Zeniarai Benten Shrine"
-date: 2025-12-17
-categories: [Wealth, History, Success]
-tags:
-  [
-    Kamakura,
-    Zeniarai Benten,
-    Ugafuku Shrine,
-    Power Spot,
-    Wealth Luck,
-    Financial Luck,
-    Day Trip from Tokyo,
-    Benzaiten,
-    Cave Shrine,
-    Money Washing,
-  ]
-thumbnail: /content/images/zeniarai_benten.webp
-lat: 35.326212
-lng: 139.542154
 address: 〒248-0017 神奈川県鎌倉市佐助2丁目25-16
-excerpt: A mystical cave shrine in Kamakura. Experience the legendary 'Zeniarai,' where washing money in the clear spring water is said to multiply it, and receive a powerful boost to your financial luck.
+categories:
+- Wealth
+- History
+- Success
+date: 2025-12-17
+excerpt: A mystical cave shrine in Kamakura. Experience the legendary 'Zeniarai,'
+  where washing money in the clear spring water is said to multiply it, and receive
+  a powerful boost to your financial luck.
+lat: 35.326212
+layout: post
+lng: 139.542154
+tags:
+- Kamakura
+- Zeniarai Benten
+- Ugafuku Shrine
+- Power Spot
+- Wealth Luck
+- Financial Luck
+- Day Trip from Tokyo
+- Benzaiten
+- Cave Shrine
+- Money Washing
+thumbnail: /content/images/zeniarai_benten.webp
+title: 'Money Washed in a Cave Spring Returns as Manifold Blessings: The Miracle of
+  Kamakura''s Zeniarai Benten Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -129,3 +133,9 @@ As you dip your hands in the cold cave water and wash your money, you make a wis
 If you travel to Kamakura, be sure to stop by and carefully wash even a single coin from your pocket. That small coin might just bring you unexpected good fortune.
 
 **JinjaMap** will be back with more stories of Japan's special sacred sites to enrich your life. May you all become rich! 💸🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Enoshima Island Spa (江の島アイランドスパ)
+
+Enoshima Island Spa is a great day-trip onsen option after visiting Money Washed in a Cave Spring Returns as Manifold Blessings: The Miracle of Kamakura's Zeniarai Benten Shrine. Enjoy stunning ocean views from their open-air baths, offering a truly relaxing experience. The onsen boasts natural hot spring water and various spa treatments, making it the perfect way to unwind after a day of sightseeing.

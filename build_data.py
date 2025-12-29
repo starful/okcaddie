@@ -2,7 +2,7 @@ import os
 import json
 import frontmatter
 import markdown
-from bs4 import BeautifulSoup  # HTML 태그 제거용
+from bs4 import BeautifulSoup
 from datetime import datetime
 
 # 설정
@@ -12,15 +12,9 @@ SITEMAP_OUTPUT = 'app/static/sitemap.xml'
 BASE_URL = 'https://jinjamap.com'
 
 def strip_markdown(text):
-    """
-    마크다운 텍스트를 순수 텍스트로 변환하는 함수
-    1. 마크다운 -> HTML 변환
-    2. HTML -> 텍스트 추출 (태그 제거)
-    """
+    """마크다운을 순수 텍스트로 변환 (요약문 생성용)"""
     try:
-        # 마크다운을 HTML로 변환
         html = markdown.markdown(text)
-        # BeautifulSoup을 이용해 HTML 태그를 모두 제거하고 텍스트만 추출
         soup = BeautifulSoup(html, "html.parser")
         return soup.get_text()
     except Exception as e:
@@ -28,7 +22,7 @@ def strip_markdown(text):
         return text
 
 def generate_sitemap(shrines):
-    """사이트맵 XML 내용을 생성하는 함수"""
+    """사이트맵 XML 생성"""
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     
@@ -74,7 +68,7 @@ def main():
             with open(filepath, 'r', encoding='utf-8') as f:
                 post = frontmatter.load(f)
                 
-                # Draft(초안) 기능 (선택 사항)
+                # Draft 기능 (개발환경 변수 없으면 스킵)
                 if post.get('draft') == True and not os.environ.get('DEV_MODE'):
                     continue
 
@@ -87,13 +81,16 @@ def main():
                 else:
                     published_date = datetime.now().strftime('%Y-%m-%d')
 
-                # [핵심 수정 부분] 요약문 생성 로직 개선
+                # 요약문 생성
                 summary = post.get('summary')
                 if not summary:
-                    # 마크다운 문법 제거 후 앞부분 120자만 추출
                     clean_text = strip_markdown(post.content)
                     summary = clean_text[:120] + '...'
                 
+                # [핵심] 온천 정보 유무 확인
+                content_str = str(post.content)
+                has_onsen = "Relax at a Nearby Onsen" in content_str or "Nearby Attractions: Hot Springs" in content_str
+
                 shrine = {
                     "id": filename.replace('.md', ''),
                     "title": post.get('title', 'No Title'),
@@ -103,14 +100,16 @@ def main():
                     "thumbnail": post.get('thumbnail', '/static/images/default.png'),
                     "address": post.get('address', ''),
                     "published": published_date,
-                    "summary": summary,  # 정제된 요약문 사용
-                    "link": f"/shrine/{filename.replace('.md', '')}" 
+                    "summary": summary,
+                    "link": f"/shrine/{filename.replace('.md', '')}",
+                    "has_onsen": has_onsen # 👈 JSON 필드 추가
                 }
                 shrines.append(shrine)
 
         except Exception as e:
             print(f"❌ 에러 발생 ({filename}): {e}")
 
+    # 최신순 정렬
     shrines.sort(key=lambda x: x['published'], reverse=True)
 
     final_data = {

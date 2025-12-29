@@ -1,24 +1,28 @@
 ---
-layout: post
-title: "The Secret of Osaka Merchants! Mastering Daikokushu Shrine to Seize Wealth and Good Fortune"
-date: 2025-11-30
-categories: [Wealth, Success, History]
-tags:
-  [
-    Osaka,
-    Namba,
-    Daikokushu Shrine,
-    Financial Luck,
-    Business Prosperity,
-    Power Spot,
-    Shrine Pilgrimage,
-    Daikokucho,
-  ]
-thumbnail: /content/images/daikokushu_shrine.webp
-lat: 34.656111
-lng: 135.497500
 address: 1-2-12 Shikitsunishi, Naniwa-ku, Osaka-shi, Osaka-fu (〒556-0015)
-excerpt: Where a giant lion-head hall swallows misfortune, and Daikoku-sama, worshipped by Osaka merchants, beckons financial luck. Change your fortune at Daikokushu Shrine, a powerful hidden power spot in the heart of the city.
+categories:
+- Wealth
+- Success
+- History
+date: 2025-11-30
+excerpt: Where a giant lion-head hall swallows misfortune, and Daikoku-sama, worshipped
+  by Osaka merchants, beckons financial luck. Change your fortune at Daikokushu Shrine,
+  a powerful hidden power spot in the heart of the city.
+lat: 34.656111
+layout: post
+lng: 135.4975
+tags:
+- Osaka
+- Namba
+- Daikokushu Shrine
+- Financial Luck
+- Business Prosperity
+- Power Spot
+- Shrine Pilgrimage
+- Daikokucho
+thumbnail: /content/images/daikokushu_shrine.webp
+title: The Secret of Osaka Merchants! Mastering Daikokushu Shrine to Seize Wealth
+  and Good Fortune
 ---
 
 Not far from Osaka's bustling Namba district, amidst the noise of the busy city, lies a sacred ground that maintains a quiet dignity. To the locals, it is better known by its affectionate nickname, **'Kizu no Daikoku-san' (the Daikoku of Kizu)**. This is **'Daikokushu Shrine (Shikitsumatsunomiya・Okuninushi Shrine)'**.
@@ -152,3 +156,9 @@ After visiting the shrine, here are some nearby spots where you can enjoy the vi
 Daikokushu Shrine (Shikitsumatsunomiya・Okuninushi Shrine) is more than just a place to pray for blessings; it is a space where the history and mercantile spirit of the city of Osaka are condensed. The time spent casting off all worries before the giant Shishiden and praying for tomorrow's prosperity before the gentle smile of Daikoku-sama allows you to forget the hustle and bustle of daily life.
 
 If you wish to have a sacred experience connecting with an unseen great power and feel the positive energy of Osaka's merchants, be sure to visit this small giant, Daikokushu Shrine, which stands quietly in the midst of the glamorous city. It will surely add an unforgettable depth and special luck to your journey.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa World Onsen (スパワールド 世界の大温泉)
+
+After seeking wealth and good fortune at The Secret of Osaka Merchants! Mastering Daikokushu Shrine to Seize Wealth and Good Fortune, unwind at the nearby Spa World Onsen. This massive, world-themed spa offers a unique and relaxing day-trip onsen experience, featuring a diverse array of baths inspired by different global cultures. Enjoy soothing natural hot spring water, perfect for alleviating fatigue and rejuvenating your body. Its convenient location makes it an ideal spot for unwinding after your shrine visit, offering a truly distinctive and accessible onsen escape right in Osaka.

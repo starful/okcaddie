@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A 100-Year-Old Forest Breathes in this Urban Sanctuary: Discover Meiji Jingu, a Symbol of Modern Japan and a 'Power Spot'"
-date: 2025-12-25
-categories: [History, Love, Success]
-tags:
-  [
-    Tokyo,
-    Meiji Jingu,
-    Harajuku,
-    Power Spot,
-    Kiyomasa's Well,
-    Meoto Kusu (Couple Camphor Trees),
-    Tokyo Travel,
-    Japanese History,
-    Emperor Meiji,
-    Forest Walk,
-  ]
-thumbnail: /content/images/meiji_jingu.webp
-lat: 35.676397
-lng: 139.699326
 address: 〒151-8557 東京都渋谷区代々木神園町1-1
-excerpt: Between Shibuya and Harajuku lies a vast man-made forest lush with 100,000 trees. Experience a powerful 'power spot' and serene relaxation in this sacred space dedicated to Emperor Meiji, the leader of Japan's modernization.
+categories:
+- History
+- Love
+- Success
+date: 2025-12-25
+excerpt: Between Shibuya and Harajuku lies a vast man-made forest lush with 100,000
+  trees. Experience a powerful 'power spot' and serene relaxation in this sacred space
+  dedicated to Emperor Meiji, the leader of Japan's modernization.
+lat: 35.676397
+layout: post
+lng: 139.699326
+tags:
+- Tokyo
+- Meiji Jingu
+- Harajuku
+- Power Spot
+- Kiyomasa's Well
+- Meoto Kusu (Couple Camphor Trees)
+- Tokyo Travel
+- Japanese History
+- Emperor Meiji
+- Forest Walk
+thumbnail: /content/images/meiji_jingu.webp
+title: 'A 100-Year-Old Forest Breathes in this Urban Sanctuary: Discover Meiji Jingu,
+  a Symbol of Modern Japan and a ''Power Spot'''
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to special sacred sites around the world.
@@ -126,3 +130,9 @@ Listen to the sound of your footsteps on the gravel path, breathe in the fresh a
 When you need a pause from your busy travel schedule, or when you dream of an everlasting bond with a loved one, the forest of Meiji Jingu will always be there waiting for you.
 
 **JinjaMap** will return with more stories of Japan's special sacred places that bring peace to your heart. May your life be filled with the clear energy of the forest! 🌿⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Thermae-Yu (テルマー湯)
+
+Just a short journey from A 100-Year-Old Forest Breathes in this Urban Sanctuary: Discover Meiji Jingu, a Symbol of Modern Japan and a 'Power Spot', Thermae-Yu offers an exceptional urban escape. This sophisticated facility brings natural hot spring water from Nakaizu to its luxurious baths, providing a truly relaxing day-trip onsen experience right in the heart of Shinjuku. With a variety of indoor and outdoor baths, saunas, and spacious relaxation lounges, it's the perfect place to unwind and rejuvenate after your spiritual exploration.

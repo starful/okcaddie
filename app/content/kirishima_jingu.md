@@ -44,7 +44,7 @@ He brought with him the **'Three Sacred Treasures'** (a mirror, a jewel, and a s
 
 #### **【Origins and History: The Fire-Breathing Mountain and Faith】**
 
-It is said that the place where Ninigi-no-Mikoto first descended is the summit of **'Takachiho-no-mine,'** the highest peak of the Kirishima mountain range. There, the legendary spear **'Amanosakahoko,'** which he is said to have thrust into the ground, is still embedded.
+It is said that the place where Ninigi-no-Mikoto first descended is the summit of **'Takachiho-no-mine,'** the highest peak of the Kirishima mountain range. There, the legendary spear **'Amanosakahoko,'** which is said to have been thrust into the ground, is still embedded.
 The original shrine was located near the summit, but Mount Kirishima is an active volcano. After being repeatedly destroyed by eruptions, it was magnificently rebuilt in its current, safer location in 1715 by Yoshitaka Shimazu, the lord of the Satsuma Domain. That is why the current buildings are so splendid and delicately decorated that they are called the 'Nikko of the West.'
 
 ---
@@ -84,28 +84,7 @@ The Goshuin of Kirishima Jingu is stamped with **'Tenson Korin Hōsai-chi (天�
 
 ---
 
-### 4. ♨️ Nearby Attractions: Healing at Hot Springs and Waterfalls
-
-After visiting the shrine, immerse yourself in the great nature of Kirishima.
-
-#### **1. Kirishima Onsen Market**
-
-- **Location**: 15 minutes by car.
-- **What to enjoy**: You can taste eggs, corn, and manju steamed with hot spring vapor. Soak your feet in the **free footbath** in the plaza to relieve travel fatigue.
-
-#### **2. Maruo Falls**
-
-- **Location**: Near the Onsen Market.
-- **Features**: A rare waterfall where hot spring water mixes with the river water. In winter, you can see a dreamlike scene with white steam rising, and it becomes even more beautiful when lit up at night.
-
-#### **3. Kurobuta (Black Pork) Restaurant 'Wakaba'**
-
-- **Location**: 10 minutes by car from the shrine.
-- **Menu**: You must try Kagoshima's specialty, **'Kurobuta (black pork)'** cuisine. Enjoy the unique savory and chewy flavor of black pork as a thick tonkatsu or shabu-shabu.
-
----
-
-### 5. 🗺️ Access and Travel Information
+### 4. 🗺️ Access and Travel Information
 
 Use a rental car or bus from Kagoshima Airport or the city center.
 
@@ -128,3 +107,9 @@ Stand beneath the 800-year-old cedar tree and take a deep breath. The pristine a
 Are you on the verge of a new beginning, or in need of guidance in life? Then come to Kirishima Jingu. The heavenly grandson Ninigi-no-Mikoto and the nine masks will brightly illuminate the path ahead of you.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan to inspire your heart. May your journey be filled with divine blessings! 🌋🌿
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kirishima Hotel (Kirishima Onsen)
+
+Just a 10-minute drive from the shrine, **Kirishima Hotel** offers an unforgettable day-trip onsen experience with its massive "Sennin-buro" (Thousand-Person Bath). This expansive indoor bath features a stunning garden-like atmosphere and multiple pools fed by four different types of spring water, allowing you to enjoy a variety of therapeutic benefits in one place. The milky sulfur-rich waters are renowned for beautifying the skin and relieving muscle fatigue, making it the perfect spot to unwind and absorb the mystical energy of the Kirishima mountains after your shrine visit.

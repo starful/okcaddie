@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Myth of 1800 Years, Osaka's Sumiyoshi Taisha Where the Sea God Resides: Crossing the Red Arch Bridge to Find Fortune"
-date: 2025-12-18
-categories: [Wealth, Success, History]
-tags:
-  [
-    Osaka,
-    Sumiyoshi Taisha,
-    Power Spot,
-    Omokaruishi,
-    Godairiki,
-    Red Bridge,
-    Sorihashi,
-    Hankai Tramway,
-    Financial Luck,
-    Sumiyoshi Ward,
-  ]
-thumbnail: /content/images/sumiyoshi_taisha.webp
-lat: 34.612056
-lng: 135.495045
 address: 〒558-0045 大阪府大阪市住吉区住吉2丁目 9-89
-excerpt: The head shrine of over 2,300 Sumiyoshi shrines nationwide. Cross Osaka's iconic red arch bridge into the realm of the gods, where the miracles of 'Omokaruishi' and 'Godairiki,' which summon wealth and luck, await you.
+categories:
+- Wealth
+- Success
+- History
+date: 2025-12-18
+excerpt: The head shrine of over 2,300 Sumiyoshi shrines nationwide. Cross Osaka's
+  iconic red arch bridge into the realm of the gods, where the miracles of 'Omokaruishi'
+  and 'Godairiki,' which summon wealth and luck, await you.
+lat: 34.612056
+layout: post
+lng: 135.495045
+tags:
+- Osaka
+- Sumiyoshi Taisha
+- Power Spot
+- Omokaruishi
+- Godairiki
+- Red Bridge
+- Sorihashi
+- Hankai Tramway
+- Financial Luck
+- Sumiyoshi Ward
+thumbnail: /content/images/sumiyoshi_taisha.webp
+title: 'A Myth of 1800 Years, Osaka''s Sumiyoshi Taisha Where the Sea God Resides:
+  Crossing the Red Arch Bridge to Find Fortune'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -129,3 +133,9 @@ Take a deep breath on the red bridge and place your hopes in a small pebble. The
 If you need a moment of pause during your Osaka trip, come to Sumiyoshi Taisha.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites to bring good fortune into your life. May your future be filled with abundant blessings! 🌊🐇
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa World Onsen (スパワールド 世界の大温泉)
+
+Spa World is a great day-trip onsen option nearby A Myth of 1800 Years, Osaka's Sumiyoshi Taisha Where the Sea God Resides: Crossing the Red Arch Bridge to Find Fortune, offering a unique and globally-themed bathing experience. This large complex houses onsen inspired by different cultures around the world, from ancient Rome to exotic Asia. It's a super relaxing place to unwind after exploring the shrine and provides a fun and memorable onsen experience.

@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "The Miracle of the Golden Rice Ears, Ochobo-san: A Pilgrimage to Gifu's Chiyohoinari Shrine for Business Prosperity and Success"
-date: 2025-12-17
-categories: [Success, Wealth, History]
-tags:
-  [
-    Gifu,
-    Kaizu,
-    Chiyohoinari Shrine,
-    Ochobo-san,
-    Business Prosperity,
-    Financial Luck,
-    Power Spot,
-    Kushikatsu,
-    Inari Shrine,
-    Nagoya Day Trip,
-  ]
-thumbnail: /content/images/chiyohoinari_shrine.webp
-lat: 35.295245
-lng: 136.658712
 address: 〒503-0303 Gifu, Kaizu, Hiratacho Misato, 1980
-excerpt: One of Japan's three great Inari shrines and a sacred place for entrepreneurs, 'Ochobo-san.' Experience the energy of success at Chiyohoinari Shrine, known for its unique worship culture of offering fried tofu and business cards, and the legend of the golden rice ears.
+categories:
+- Success
+- Wealth
+- History
+date: 2025-12-17
+excerpt: One of Japan's three great Inari shrines and a sacred place for entrepreneurs,
+  'Ochobo-san.' Experience the energy of success at Chiyohoinari Shrine, known for
+  its unique worship culture of offering fried tofu and business cards, and the legend
+  of the golden rice ears.
+lat: 35.295245
+layout: post
+lng: 136.658712
+tags:
+- Gifu
+- Kaizu
+- Chiyohoinari Shrine
+- Ochobo-san
+- Business Prosperity
+- Financial Luck
+- Power Spot
+- Kushikatsu
+- Inari Shrine
+- Nagoya Day Trip
+thumbnail: /content/images/chiyohoinari_shrine.webp
+title: 'The Miracle of the Golden Rice Ears, Ochobo-san: A Pilgrimage to Gifu''s Chiyohoinari
+  Shrine for Business Prosperity and Success'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to special sacred sites around the world.
@@ -134,3 +139,9 @@ Ochobo-san is not a solemn and quiet shrine. It is a living crucible of energy, 
 Are you currently struggling with your business or facing a new challenge? If so, come to Ochobo-san in Gifu Prefecture. After lighting a candle, offering fried tofu, and praying earnestly, take a bite of a hot fried skewer. You will surely find the courage and grit to start anew.
 
 **JinjaMap** will return with another story of a special sacred site in Japan that will cheer on your success. Wishing great success to all of you! 🦊💰
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Nagashima Onsen Yurano Shima (長島温泉 湯あみの島)
+
+Nagashima Onsen Yurano Shima is a fantastic day-trip onsen option nearby The Miracle of the Golden Rice Ears, Ochobo-san: A Pilgrimage to Gifu's Chiyohoinari Shrine for Business Prosperity and Success. This large onsen complex boasts a diverse selection of indoor and outdoor baths, offering stunning views and a truly relaxing experience after your shrine visit. Known for its high-quality waters sourced from deep underground, Yurano Shima is the perfect place to unwind and rejuvenate. It's a superb choice for a day-trip onsen in the area.

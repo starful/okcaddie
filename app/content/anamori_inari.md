@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Red Guardian of the Skies: Tokyo's Anamori Inari Shrine, its Red Torii Tunnel, and Mysterious Sand"
-date: 2025-12-17
-categories: [Success, Wealth, Safety]
-tags:
-  [
-    Tokyo,
-    Anamori Inari,
-    Haneda Airport,
-    Aviation Safety,
-    Travel Safety,
-    Financial Luck,
-    Power Spot,
-    Osuna,
-    Red Torii,
-    Tokyo Travel,
-  ]
-thumbnail: /content/images/anamori_inari.webp
-lat: 35.549212
-lng: 139.743154
 address: 〒144-0043 東京都大田区羽田5丁目2-7
-excerpt: Beside Haneda Airport, a shrine with a red torii tunnel that guards travel safety and financial luck. Journey into its miraculous history and discover 'Osuna,' the mysterious sand that brings good fortune.
+categories:
+- Success
+- Wealth
+- Safety
+date: 2025-12-17
+excerpt: Beside Haneda Airport, a shrine with a red torii tunnel that guards travel
+  safety and financial luck. Journey into its miraculous history and discover 'Osuna,'
+  the mysterious sand that brings good fortune.
+lat: 35.549212
+layout: post
+lng: 139.743154
+tags:
+- Tokyo
+- Anamori Inari
+- Haneda Airport
+- Aviation Safety
+- Travel Safety
+- Financial Luck
+- Power Spot
+- Osuna
+- Red Torii
+- Tokyo Travel
+thumbnail: /content/images/anamori_inari.webp
+title: 'The Red Guardian of the Skies: Tokyo''s Anamori Inari Shrine, its Red Torii
+  Tunnel, and Mysterious Sand'
 ---
 
 Hello, this is the editor from 'JinjaMap,' where we journey to special sacred sites around the world.
@@ -132,3 +136,9 @@ On your exciting trip, praying for safety as you pass through the red torii tunn
 If you are arriving in or departing from Tokyo via Haneda Airport, take a moment to stroll through this red forest guarded by the fox deity. Solid good fortune will be with you on all your travels.
 
 **JinjaMap** will return with another story of a special sacred site to enrich your travels. Have a safe and enjoyable trip! 🦊✈️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Heiwajima Onsen (平和島温泉)
+
+Heiwajima Onsen is an excellent choice for a relaxing day-trip onsen near The Red Guardian of the Skies: Tokyo's Anamori Inari Shrine, its Red Torii Tunnel, and Mysterious Sand. Conveniently located and accessible by shuttle bus from Heiwajima Station (a short train ride from Anamori Inari Shrine), this onsen boasts a variety of indoor and outdoor baths, including natural hot spring water sourced from deep underground. It offers a perfect opportunity to unwind and rejuvenate after exploring the shrine and its surroundings.

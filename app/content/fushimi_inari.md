@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Tunnel of 10,000 Red Torii: Legends and Secrets of Business Prosperity at Kyoto's Fushimi Inari Taisha"
-date: 2025-12-22
-categories: [Success, Wealth, History]
-tags:
-  [
-    Kyoto,
-    Fushimi Inari,
-    Senbon Torii,
-    Power Spot,
-    Inari God,
-    Fox Shrine,
-    Business Prosperity,
-    Omokaru Ishi,
-    Kyoto Travel,
-    Perfect Photo Op,
-  ]
-thumbnail: /content/images/fushimi_inari.webp
-lat: 34.967212
-lng: 135.772654
 address: 〒612-0882 京都府京都市伏見区深草藪之内町68
-excerpt: The head shrine of 30,000 Inari shrines across Japan. An overwhelming spectacle of red torii tunnels, the wish-granting 'Omokaru Ishi' stone, and Kyoto's top power spot with 1,300 years of history.
+categories:
+- Success
+- Wealth
+- History
+date: 2025-12-22
+excerpt: The head shrine of 30,000 Inari shrines across Japan. An overwhelming spectacle
+  of red torii tunnels, the wish-granting 'Omokaru Ishi' stone, and Kyoto's top power
+  spot with 1,300 years of history.
+lat: 34.967212
+layout: post
+lng: 135.772654
+tags:
+- Kyoto
+- Fushimi Inari
+- Senbon Torii
+- Power Spot
+- Inari God
+- Fox Shrine
+- Business Prosperity
+- Omokaru Ishi
+- Kyoto Travel
+- Perfect Photo Op
+thumbnail: /content/images/fushimi_inari.webp
+title: 'The Tunnel of 10,000 Red Torii: Legends and Secrets of Business Prosperity
+  at Kyoto''s Fushimi Inari Taisha'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.
@@ -132,3 +136,9 @@ As you walk through the endless torii tunnel, engrave your own personal wish dee
 Success in business, passing an exam, or the happiness of a loved one. Any wish is welcome. The warm gaze of the fox god and the energy of the red light will cheer on your dreams.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that bring positive energy into your life. May your future shine as brightly as the red torii! 🦊⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hozukyo Onsen (保津峡温泉)
+
+After exploring The Tunnel of 10,000 Red Torii: Legends and Secrets of Business Prosperity at Kyoto's Fushimi Inari Taisha, unwind at the tranquil Hozukyo Onsen. Nestled along the scenic Hozugawa River, this **day-trip onsen** offers a truly **relaxing** escape with its alkaline simple hot spring water, known for its skin-smoothing properties. Enjoy rejuvenating baths while soaking in the beautiful natural surroundings, a perfect tranquil contrast to your shrine visit and an ideal option for a **nearby** onsen experience. It's easily accessible by JR train, making it a convenient choice for unwinding after your Fushimi Inari adventure.

@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Where the Myths and Bounties of the Sea Meet: Forging a Special Connection with Lord Ebisu at Shimane's Miho Shrine"
-date: 2025-12-17
-categories: [Wealth, History, Success]
-tags:
-  [
-    Shimane,
-    Matsue,
-    Miho Shrine,
-    Ebisu,
-    Power Spot,
-    Izumo Taisha,
-    Japanese Mythology,
-    Enmusubi,
-    Business Prosperity,
-    Japan Travel,
-  ]
-thumbnail: /content/images/miho_shrine.webp
-lat: 35.556212
-lng: 133.307312
 address: 〒690-1501 島根県松江市美保関町美保関608
-excerpt: The head shrine of all 3,385 Ebisu shrines in Japan. Discover powerful financial luck and special connections at Miho Shrine, the stage for the mythological "land transfer" and home to the god of business prosperity and abundance.
+categories:
+- Wealth
+- History
+- Success
+date: 2025-12-17
+excerpt: The head shrine of all 3,385 Ebisu shrines in Japan. Discover powerful financial
+  luck and special connections at Miho Shrine, the stage for the mythological "land
+  transfer" and home to the god of business prosperity and abundance.
+lat: 35.556212
+layout: post
+lng: 133.307312
+tags:
+- Shimane
+- Matsue
+- Miho Shrine
+- Ebisu
+- Power Spot
+- Izumo Taisha
+- Japanese Mythology
+- Enmusubi
+- Business Prosperity
+- Japan Travel
+thumbnail: /content/images/miho_shrine.webp
+title: 'Where the Myths and Bounties of the Sea Meet: Forging a Special Connection
+  with Lord Ebisu at Shimane''s Miho Shrine'
 ---
 
 Hello, this is your editor from 'JinjaMap,' where we explore sacred and mystical sites around the world.
@@ -131,3 +135,9 @@ A journey where you ask the father god (at Izumo Taisha) for a connection, and t
 At this divine harbor where the sound of waves echoes, I hope you will pre-emptively fish for the joy of a full catch (満船) that will come into your life.
 
 **JinjaMap** will return with another story of a special sacred site in Japan that will fill your heart. May you all prosper! 🐟💰
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Lamp no Yado Arasaki (ランプの宿 荒崎)
+
+For a truly relaxing day-trip onsen experience nearby Where the Myths and Bounties of the Sea Meet: Forging a Special Connection with Lord Ebisu at Shimane's Miho Shrine, consider Lamp no Yado Arasaki. This secluded onsen offers stunning views of the Sea of Japan, especially beautiful during sunset. The restorative waters and tranquil atmosphere make it an ideal spot to unwind after visiting the shrine and reconnect with nature.

@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Yoshida Shrine, the Forest That Changed the History of Japanese Shinto: In Search of the Ultimate Power Spot Where Eight Million Gods Gather"
-date: 2025-12-18
-categories: [History, Success, Wealth]
-tags:
-  [
-    Kyoto,
-    Yoshida Shrine,
-    Daigengu,
-    Power Spot,
-    Setsubun,
-    Kyoto Travel,
-    God of Cooking,
-    God of Confections,
-    Japanese Mythology,
-    Shinto History,
-  ]
-thumbnail: /content/images/yoshida_shrine.webp
-lat: 35.024712
-lng: 135.787654
 address: 〒606-8311 京都府京都市左京区吉田神楽岡町30
-excerpt: The majesty of 'Daigengu,' where gods from all over Japan are gathered in one place. Meet unique deities like the God of Cooking and the God of Confections at Yoshida Shrine, a place that changed the history of Shinto.
+categories:
+- History
+- Success
+- Wealth
+date: 2025-12-18
+excerpt: The majesty of 'Daigengu,' where gods from all over Japan are gathered in
+  one place. Meet unique deities like the God of Cooking and the God of Confections
+  at Yoshida Shrine, a place that changed the history of Shinto.
+lat: 35.024712
+layout: post
+lng: 135.787654
+tags:
+- Kyoto
+- Yoshida Shrine
+- Daigengu
+- Power Spot
+- Setsubun
+- Kyoto Travel
+- God of Cooking
+- God of Confections
+- Japanese Mythology
+- Shinto History
+thumbnail: /content/images/yoshida_shrine.webp
+title: 'Yoshida Shrine, the Forest That Changed the History of Japanese Shinto: In
+  Search of the Ultimate Power Spot Where Eight Million Gods Gather'
 ---
 
 Hello, this is the editor of 'JinjaMap,' where we introduce profound sacred sites from around the world.
@@ -130,3 +134,9 @@ Stand before the Daigengu to feel the energy of the eight million gods of Japan,
 For those who wish to immerse themselves in contemplation while walking along a quiet forest path, Yoshida Shrine will be the perfect sanctuary.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to satisfy your intellectual curiosity. May the blessings of the gods be with you in your life! 🌿⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Kurama Onsen is an excellent choice for a relaxing day-trip onsen experience after visiting nearby Yoshida Shrine, the Forest That Changed the History of Japanese Shinto: In Search of the Ultimate Power Spot Where Eight Million Gods Gather. Known for its rotemburo (outdoor bath) overlooking the stunning Kurama mountains, the onsen boasts a serene atmosphere and skin-smoothing waters said to have therapeutic properties. It provides a perfect escape and a chance to unwind in nature.

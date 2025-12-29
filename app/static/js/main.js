@@ -1,10 +1,10 @@
-// main.js - JinjaMap Core Logic (Fixed for Scope Issues)
+// main.js - JinjaMap Core Logic
 
 let shrinesData = [];
 let map;
 let markers = [];
 let currentInfoWindow = null;
-let isMapLoaded = false; // 지도 로딩 상태
+let isMapLoaded = false;
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchShrines();
@@ -37,7 +37,7 @@ async function fetchShrines() {
         updateCategoryCounts();
         renderCards(shrinesData);
 
-        // 만약 지도가 이미 로드된 상태라면 마커를 찍음
+        // 지도 로드 후 데이터가 오면 마커 표시
         if (isMapLoaded) {
             updateMapMarkers(shrinesData);
         }
@@ -48,29 +48,25 @@ async function fetchShrines() {
 }
 
 // [2] Google Maps Initialization
-// 모듈 스코프 밖인 window 객체에 initMap을 강제로 할당하여 
-// HTML의 &callback=initMap 파라미터가 이 함수를 찾을 수 있게 합니다.
 window.initMap = async function() {
     const mapEl = document.getElementById('map');
     if (!mapEl) return;
 
     try {
-        // Dynamic Library Import 사용
         const { Map } = await google.maps.importLibrary("maps");
-        const center = { lat: 35.6895, lng: 139.6917 }; // 도쿄 중심
+        const center = { lat: 36.2048, lng: 138.2529 }; // 일본 중심부
 
         map = new Map(mapEl, {
-            zoom: 11,
+            zoom: 5,
             center: center,
-            mapId: "DEMO_MAP_ID", // 실제 프로덕션용 Map ID가 있다면 교체 필요
+            mapId: "DEMO_MAP_ID",
             disableDefaultUI: false,
             zoomControl: true,
             streetViewControl: false
         });
 
-        isMapLoaded = true; // 지도 로딩 완료 플래그
+        isMapLoaded = true;
 
-        // 데이터가 먼저 로드되어 대기 중이라면 마커를 바로 찍음
         if (shrinesData.length > 0) {
             updateMapMarkers(shrinesData);
         }
@@ -80,9 +76,9 @@ window.initMap = async function() {
     }
 };
 
-// [3] Update Markers (AdvancedMarkerElement 사용)
+// [3] Update Markers
 async function updateMapMarkers(data) {
-    if (!map) return; // 지도가 없으면 중단
+    if (!map) return;
 
     // 기존 마커 삭제
     markers.forEach(m => m.map = null);
@@ -92,7 +88,6 @@ async function updateMapMarkers(data) {
         const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
         data.forEach(shrine => {
-            // 커스텀 마커 아이콘 생성
             const markerIcon = document.createElement('div');
             markerIcon.className = 'marker-icon';
             if (shrine.thumbnail) {
@@ -100,7 +95,6 @@ async function updateMapMarkers(data) {
                 markerIcon.style.backgroundSize = 'cover';
             }
 
-            // 마커 생성
             const marker = new AdvancedMarkerElement({
                 map: map,
                 position: { lat: parseFloat(shrine.lat), lng: parseFloat(shrine.lng) },
@@ -108,13 +102,20 @@ async function updateMapMarkers(data) {
                 content: markerIcon
             });
 
-            // 마커 클릭 이벤트 (Info Window)
             marker.addListener('click', () => {
                 if (currentInfoWindow) currentInfoWindow.close();
 
+                // [지도 정보창] 온천 뱃지 표시
+                const onsenTag = shrine.has_onsen 
+                    ? '<span class="info-onsen-tag">♨️ Onsen Nearby</span>' 
+                    : '';
+
                 const infoContent = `
                     <div class="infowindow-content">
-                        <img src="${shrine.thumbnail}" alt="${shrine.title}" loading="lazy">
+                        <div style="position:relative;">
+                            <img src="${shrine.thumbnail}" alt="${shrine.title}" loading="lazy">
+                            ${onsenTag}
+                        </div>
                         <h3>${shrine.title}</h3>
                         <p>📍 ${shrine.address}</p>
                         <div class="info-btn-group">
@@ -124,8 +125,6 @@ async function updateMapMarkers(data) {
                     </div>
                 `;
                 
-                // InfoWindow는 아직 레거시 방식을 사용할 수 있으나, importLibrary로 가져올 수도 있음.
-                // 편의상 전역 google 객체 사용 (이미 로드됨 보장)
                 const infoWindow = new google.maps.InfoWindow({ content: infoContent });
                 infoWindow.open(map, marker);
                 currentInfoWindow = infoWindow;
@@ -169,17 +168,23 @@ function renderCards(data) {
     }
 
     data.forEach(shrine => {
-        // NEW 뱃지 계산 (7일 이내)
+        // NEW 뱃지 계산
         const pubDate = new Date(shrine.published);
         const now = new Date();
         const diffDays = Math.ceil((now - pubDate) / (1000 * 60 * 60 * 24));
         const isNew = diffDays <= 7;
+
+        // [카드 리스트] 온천 뱃지 표시
+        const onsenBadge = shrine.has_onsen 
+            ? '<span class="onsen-badge">♨️ Onsen</span>' 
+            : '';
 
         const card = document.createElement('div');
         card.className = 'shrine-card';
         card.innerHTML = `
             <a href="${shrine.link}" class="card-thumb-link">
                 ${isNew ? '<span class="new-badge">NEW</span>' : ''}
+                ${onsenBadge}
                 <img src="${shrine.thumbnail}" alt="${shrine.title}" class="card-thumb" loading="lazy">
             </a>
             <div class="card-content">
@@ -198,7 +203,7 @@ function renderCards(data) {
 
 // [6] Search & Filter Logic
 function initSearch() {
-    const searchInput = document.getElementById('search-input'); // HTML에 검색창이 있다면 사용
+    const searchInput = document.getElementById('search-input');
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             filterData(e.target.value.toLowerCase(), getCurrentTheme());
@@ -210,11 +215,8 @@ function initThemeFilters() {
     const buttons = document.querySelectorAll('.theme-button');
     buttons.forEach(btn => {
         btn.addEventListener('click', () => {
-            // 버튼 활성화 스타일 변경
             buttons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
-            // 필터링 실행
             filterData('', btn.dataset.theme);
         });
     });
@@ -228,14 +230,12 @@ function getCurrentTheme() {
 function filterData(keyword, theme) {
     let filtered = shrinesData;
 
-    // 테마 필터링
     if (theme !== 'all') {
         filtered = filtered.filter(item => 
             item.categories.some(cat => cat.toLowerCase() === theme.toLowerCase())
         );
     }
 
-    // 키워드 검색 (제목, 주소, 태그)
     if (keyword) {
         filtered = filtered.filter(item => 
             item.title.toLowerCase().includes(keyword) || 
@@ -265,7 +265,6 @@ function initOmikuji() {
         step2.style.display = 'none'; 
     });
 
-    // 모달 닫기
     close.addEventListener('click', () => { modal.style.display = 'none'; });
     window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
 
@@ -282,7 +281,6 @@ function initOmikuji() {
     function showResult() {
         if (shrinesData.length === 0) return;
 
-        // 랜덤 신사 및 운세 추천
         const randomShrine = shrinesData[Math.floor(Math.random() * shrinesData.length)];
         const fortuneTypes = ['Great Blessing (Dai-kichi)', 'Blessing (Kichi)', 'Middle Blessing (Chu-kichi)', 'Small Blessing (Sho-kichi)'];
         const randomFortune = fortuneTypes[Math.floor(Math.random() * fortuneTypes.length)];
@@ -297,14 +295,12 @@ function initOmikuji() {
         goBtn.innerText = "Go to Shrine";
         goBtn.onclick = () => { window.location.href = randomShrine.link; };
 
-        // 폭죽 효과 (라이브러리 로드 시)
         if (typeof confetti === 'function') {
             confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
         }
     }
 }
 
-// 오미쿠지 흔들림 애니메이션 주입
 const style = document.createElement('style');
 style.innerHTML = `@keyframes shake { 0% { transform: translate(1px, 1px) rotate(0deg); } 10% { transform: translate(-1px, -2px) rotate(-1deg); } 20% { transform: translate(-3px, 0px) rotate(1deg); } 30% { transform: translate(3px, 2px) rotate(0deg); } 40% { transform: translate(1px, -1px) rotate(1deg); } 50% { transform: translate(-1px, 2px) rotate(-1deg); } 60% { transform: translate(-3px, 1px) rotate(0deg); } 70% { transform: translate(3px, 1px) rotate(-1deg); } 80% { transform: translate(-1px, -1px) rotate(1deg); } 90% { transform: translate(1px, 2px) rotate(0deg); } 100% { transform: translate(1px, -2px) rotate(-1deg); } }`;
 document.head.appendChild(style);

@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "The Mountain of Birth, Death, and Rebirth: The Dewa Sanzan Pilgrimage in Yamagata and the Miracle of 2,446 Stone Steps"
-date: 2025-12-18
-categories: [History, Success, Health]
-tags:
-  [
-    Yamagata,
-    Dewa Sanzan,
-    Mt. Haguro,
-    National Treasure Five-Storied Pagoda,
-    Mountain Worship,
-    Shugendo,
-    Shojin Ryori,
-    Power Spot,
-    Rebirth,
-    Healing Journey,
-  ]
-thumbnail: /content/images/dewa_sanzan.webp
-lat: 38.706212
-lng: 139.967845
 address: 〒997-0292 山形県鶴岡市羽黒町手向字手向7
-excerpt: The three sacred mountains governing the past, present, and future. A journey of rebirth to purify your soul by climbing 2,446 stone steps, and to find your true self amidst the National Treasure Five-Storied Pagoda and the Michelin 3-star cedar-lined path.
+categories:
+- History
+- Success
+- Health
+date: 2025-12-18
+excerpt: The three sacred mountains governing the past, present, and future. A journey
+  of rebirth to purify your soul by climbing 2,446 stone steps, and to find your true
+  self amidst the National Treasure Five-Storied Pagoda and the Michelin 3-star cedar-lined
+  path.
+lat: 38.706212
+layout: post
+lng: 139.967845
+tags:
+- Yamagata
+- Dewa Sanzan
+- Mt. Haguro
+- National Treasure Five-Storied Pagoda
+- Mountain Worship
+- Shugendo
+- Shojin Ryori
+- Power Spot
+- Rebirth
+- Healing Journey
+thumbnail: /content/images/dewa_sanzan.webp
+title: 'The Mountain of Birth, Death, and Rebirth: The Dewa Sanzan Pilgrimage in Yamagata
+  and the Miracle of 2,446 Stone Steps'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -130,3 +135,8 @@ The Dewa Sanzan is not just a walking path. It is a spiritual journey to cast of
 The refreshing breeze you meet at the end of the 2,446 steps, and the profound comfort offered by the ancient thousand-year-old trees. Amidst it all, I hope you too will experience a true 'rebirth'.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that stir the soul. We are cheering for your new beginning! 🏔️🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yunohama Onsen (湯野浜温泉)
+After conquering the 2,446 stone steps and immersing yourself in the spiritual journey of the nearby The Mountain of Birth, Death, and Rebirth: The Dewa Sanzan Pilgrimage in Yamagata, treat yourself to a truly relaxing escape at Yunohama Onsen. Located along the beautiful Japan Sea coast, this popular day-trip onsen offers therapeutic alkaline waters perfect for soothing tired muscles and rejuvenating your spirit. Many of its baths boast stunning ocean views, providing an incredible backdrop, especially at sunset, making it an ideal spot to unwind and reflect. It's the perfect way to conclude your pilgrimage with unparalleled relaxation.

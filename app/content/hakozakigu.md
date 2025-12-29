@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Fukuoka's Guardian Deity of Victory and Miracles: Encountering the History of 'Surrender of the Enemy Nation' at Hakozakigu Shrine"
-date: 2025-12-17
-categories: [Luck in Competitions, History, Safety]
-tags:
-  [
-    Fukuoka,
-    Hakozakigu Shrine,
-    Luck in Competitions,
-    Power Spot,
-    Mongol Invasions,
-    Kamikaze,
-    Three Great Hachiman Shrines,
-    Kyushu Travel,
-    Japanese History,
-    Goshuin,
-  ]
-thumbnail: /content/images/hakozakigu.webp
-lat: 33.614212
-lng: 130.423543
 address: 〒812-0053 福岡県福岡市東区箱崎1-22-1
-excerpt: One of Japan's Three Great Hachiman Shrines and a sacred site for national protection. Experience a special visit at Hakozakigu Shrine, steeped in the miraculous history of repelling the Mongol invasions and a powerful aura of victory.
+categories:
+- Luck in Competitions
+- History
+- Safety
+date: 2025-12-17
+excerpt: One of Japan's Three Great Hachiman Shrines and a sacred site for national
+  protection. Experience a special visit at Hakozakigu Shrine, steeped in the miraculous
+  history of repelling the Mongol invasions and a powerful aura of victory.
+lat: 33.614212
+layout: post
+lng: 130.423543
+tags:
+- Fukuoka
+- Hakozakigu Shrine
+- Luck in Competitions
+- Power Spot
+- Mongol Invasions
+- Kamikaze
+- Three Great Hachiman Shrines
+- Kyushu Travel
+- Japanese History
+- Goshuin
+thumbnail: /content/images/hakozakigu.webp
+title: 'Fukuoka''s Guardian Deity of Victory and Miracles: Encountering the History
+  of ''Surrender of the Enemy Nation'' at Hakozakigu Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -124,3 +128,9 @@ Hakozakigu Shrine is not simply a place to pray for 'winning.' As the true meani
 Are you wavering at a crucial moment in your life? If so, try standing beneath the grand Romon gate of Hakozakigu Shrine. The miraculous wind that saved a nation 700 years ago will surely blow strongly at your back.
 
 **JinjaMap** will return with another story of a special sacred place in Japan that will bring courage to your life. We wish you certain victory! 🕊️🚩
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa Resort Major Land Fukuoka (スパリゾート Major Land 福岡店)
+
+This onsen is an excellent choice for a relaxing day-trip onsen near Fukuoka's Guardian Deity of Victory and Miracles: Encountering the History of 'Surrender of the Enemy Nation' at Hakozakigu Shrine. Spa Resort Major Land Fukuoka boasts a wide variety of baths, including natural hot spring water piped in from underground. The convenient location and diverse bath options make it perfect for unwinding after visiting the shrine.

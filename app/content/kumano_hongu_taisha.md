@@ -147,3 +147,9 @@ Kumano Hongu Taisha may not be a tourist destination overflowing with flashy att
 When you feel lost in life, or when you want to start something new, visit the forests of Kumano. The divine messenger Yatagarasu will guide you on the path you should take, and the primeval forest will warmly embrace your weary soul and help you rise again. Because this is the land of 'rebirth.'
 
 **JinjaMap** will return with another story of a beautiful sacred site in Japan to enrich your soul. May the blessings of the gods be with you on your journey! 🌿⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yunomine Onsen (湯の峰温泉)
+
+A short 15-minute bus ride or a scenic 1-hour hike over the mountain will bring you to **Yunomine Onsen**, one of Japan's oldest hot spring villages with over 1,800 years of history. Pilgrims of old would perform purification rituals in these mystical, color-changing waters before visiting Kumano Hongu Taisha. Don't miss the chance to bathe in "Tsuboyu," the small, rock-enclosed bath that is the only hot spring registered as a UNESCO World Heritage site, where you can soak in the same healing waters as emperors and nobles from centuries past.

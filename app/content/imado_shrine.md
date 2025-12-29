@@ -1,15 +1,28 @@
 ---
-layout: post
-title: "Home of the Maneki-neko! The Legend of the Red String of Fate, a Perfect Guide to Asakusa's 'Imado Shrine'"
-date: 2025-11-30
-categories: [Love, Fortune, History]
-tags:
-  [Tokyo, Asakusa, Imado Shrine, Maneki-neko, Enmusubi, Relationships, Power Spot, Shrine Pilgrimage]
-thumbnail: /content/images/imado_shrine.webp
-lat: 35.719702
-lng: 139.802061
 address: 1-5-22 Imado, Taito-ku, Tokyo (〒111-0024)
-excerpt: The birthplace of the Maneki-neko and a sacred site for powerful 'matchmaking'. Catch both love and luck at Imado Shrine, where cute cat statues and unique round ema await.
+categories:
+- Love
+- Fortune
+- History
+date: 2025-11-30
+excerpt: The birthplace of the Maneki-neko and a sacred site for powerful 'matchmaking'.
+  Catch both love and luck at Imado Shrine, where cute cat statues and unique round
+  ema await.
+lat: 35.719702
+layout: post
+lng: 139.802061
+tags:
+- Tokyo
+- Asakusa
+- Imado Shrine
+- Maneki-neko
+- Enmusubi
+- Relationships
+- Power Spot
+- Shrine Pilgrimage
+thumbnail: /content/images/imado_shrine.webp
+title: Home of the Maneki-neko! The Legend of the Red String of Fate, a Perfect Guide
+  to Asakusa's 'Imado Shrine'
 ---
 
 Just a step away from the hustle and bustle of Asakusa, in the heart of Tokyo, you'll find a special place where time seems to stand still, weaving countless threads of fate. This is **Imado Shrine (今戸神社)**, known for its powerful 'Enmusubi' (縁結び, matchmaking) energy.
@@ -124,3 +137,9 @@ The *goshuin* (shrine seal) of Imado Shrine is particularly popular among visito
 My time at Imado Shrine was more than just making a wish; it was a precious experience that allowed me to feel how the grandeur of Japanese mythology and warm folk legends reside close to our daily lives.
 
 The gentle smiles of the countless Maneki-neko filling the grounds feel like a warm welcome from the gods, wishing good fortune upon all who visit. It is a place that grants courage to those seeking love and wisdom to those who wish to protect their precious relationships. At Imado Shrine, the hidden gem of Asakusa, I sincerely hope you discover a special thread of fate that will remain in your heart for a long time to come.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Asakusa ROX Matsuri-yu (浅草ROXまつり湯)
+
+Asakusa ROX Matsuri-yu is a convenient and **relaxing** **day-trip onsen** option **nearby Home of the Maneki-neko! The Legend of the Red String of Fate, a Perfect Guide to Asakusa's 'Imado Shrine'**. While not a natural hot spring, it offers a variety of indoor and outdoor baths with different temperatures and mineral compositions, offering a chance to unwind after visiting the shrine. Its location in Asakusa ROX provides easy access to other attractions and dining options, making it perfect for a full day of exploration and relaxation.

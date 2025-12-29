@@ -1,14 +1,29 @@
 ---
-layout: post
-title: "[Tokyo] The Miraculous Strong Luck that Survived Wars and Earthquakes: Washing for Wealth at Koami Shrine"
-date: 2025-11-30
-categories: [Wealth, Safety, Success]
-tags: [Tokyo, Koami Shrine, Goun-yakuyoke, Zeniarai, Ningyocho, Power Spot, Japan Shrine Travel]
-thumbnail: /content/images/koami_jinja.webp
-lat: 35.683548
-lng: 139.780112
 address: 16-23 Nihonbashikoamicho, Chuo City, Tokyo 103-0016, Japan
-excerpt: Introducing Koami Shrine, a sacred site for 'Goun-yakuyoke' (Strong Luck and Warding off Evil) located in Nihonbashi, Tokyo. Discover everything about this small yet powerful spot, from its miraculous history of surviving the Great Kanto Earthquake and air raids to the 'Tokyo Zeniarai Benten' for boosting your financial fortune.
+categories:
+- Wealth
+- Safety
+- Success
+date: 2025-11-30
+excerpt: Introducing Koami Shrine, a sacred site for 'Goun-yakuyoke' (Strong Luck
+  and Warding off Evil) located in Nihonbashi, Tokyo. Discover everything about this
+  small yet powerful spot, from its miraculous history of surviving the Great Kanto
+  Earthquake and air raids to the 'Tokyo Zeniarai Benten' for boosting your financial
+  fortune.
+lat: 35.683548
+layout: post
+lng: 139.780112
+tags:
+- Tokyo
+- Koami Shrine
+- Goun-yakuyoke
+- Zeniarai
+- Ningyocho
+- Power Spot
+- Japan Shrine Travel
+thumbnail: /content/images/koami_jinja.webp
+title: '[Tokyo] The Miraculous Strong Luck that Survived Wars and Earthquakes: Washing
+  for Wealth at Koami Shrine'
 ---
 
 In the forest of skyscrapers that is Tokyo, in its breathless heart of Nihonbashi, there lies a small shrine that sits quietly, as if it has forgotten the flow of time. Its name is **Koami Shrine (小網神社)**. Although small in scale, the sacred energy and miraculous history enshrined here are more than enough for it to be called one of Tokyo's strongest power spots. It is a place where the footsteps of countless visitors never cease, drawn by the blessings of **'Goun-yakuyoke (強運厄除)'**, which means fending off disasters and inviting strong luck. Today, we will guide you beyond a simple tourist spot and into the deep charm of Koami Shrine, a sacred place where myth and history intersect.
@@ -155,3 +170,9 @@ Koami Shrine is a small yet powerful sacred place you can encounter in the heart
 Beyond its divine blessings of Goun-yakuyoke (Strong Luck and Warding off Evil) and increased financial fortune, the quiet and sacred atmosphere that fills the precincts allows you to forget the hustle and bustle of daily life for a moment and find peace of mind. The experience of making a wish under the valiant dragon carvings and praying for new fortune while washing money in the clear water will surely leave a deep impression on your heart.
 
 If you are planning a trip to Tokyo, or if you are at a turning point in your life and need a powerful boost of luck, take the time to visit Koami Shrine. In its small precincts, you will surely receive greater strength and comfort than you expect.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: LaQua (ラクーア)
+
+LaQua is an excellent day-trip onsen option near Koami Shrine. While technically within Tokyo Dome City, it offers a surprisingly authentic onsen experience with natural hot spring water sourced from deep underground. Visitors can enjoy a variety of indoor and outdoor baths, saunas, and relaxation facilities. It's a great way to enjoy a relaxing break after visiting the shrine and benefit from a nearby day-trip onsen.

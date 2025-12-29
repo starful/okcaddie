@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Crossing the Ogre's Washboard to the Island of Love: Forging a Millennial Bond at Miyazaki's Aoshima Shrine"
-date: 2025-12-17
-categories: [Love, History, Safety]
-tags:
-  [
-    Miyazaki,
-    AoshimaShrine,
-    PowerSpot,
-    Matchmaking,
-    OgresWashboard,
-    MythologyTour,
-    Yamasachihiko,
-    MiyazakiTrip,
-    Enmusubi,
-    KyushuTrip,
-  ]
-thumbnail: /content/images/aoshima_shrine.webp
-lat: 31.804153
-lng: 131.474612
 address: 〒889-2162 宮崎県宮崎市青島2丁目13番1号
-excerpt: Aoshima, a mysterious island covered in tropical plants, set upon the blue sea. Pray for a special connection and good fortune at Aoshima Shrine, home to a poignant love story from Japan's founding mythology.
+categories:
+- Love
+- History
+- Safety
+date: 2025-12-17
+excerpt: Aoshima, a mysterious island covered in tropical plants, set upon the blue
+  sea. Pray for a special connection and good fortune at Aoshima Shrine, home to a
+  poignant love story from Japan's founding mythology.
+lat: 31.804153
+layout: post
+lng: 131.474612
+tags:
+- Miyazaki
+- AoshimaShrine
+- PowerSpot
+- Matchmaking
+- OgresWashboard
+- MythologyTour
+- Yamasachihiko
+- MiyazakiTrip
+- Enmusubi
+- KyushuTrip
+thumbnail: /content/images/aoshima_shrine.webp
+title: 'Crossing the Ogre''s Washboard to the Island of Love: Forging a Millennial
+  Bond at Miyazaki''s Aoshima Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -134,3 +138,9 @@ Aoshima Shrine is more than just a tourist spot. It's a place where the courage 
 Do you have someone you love now? Or are you waiting for a new connection? If so, come to the blue island of Aoshima. As you cross the Ogre's Washboard, pass through the jungle-like forest, and stand before the red shrine, your heart will surely be filled with a rosy flutter of excitement and courage.
 
 **JinjaMap** will return with another story of a special sacred place in Japan that will resonate with your heart. May your love last forever! 🏝️❤️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Aoshima Grand Hotel (青島グランドホテル)
+
+This onsen is a fantastic choice for a relaxing day-trip onsen, conveniently located nearby Crossing the Ogre's Washboard to the Island of Love: Forging a Millennial Bond at Miyazaki's Aoshima Shrine. Aoshima Grand Hotel boasts a stunning ocean view from its rotenburo (outdoor bath), allowing you to soak in the therapeutic waters while enjoying the picturesque coastline. The sodium chloride spring water is known for its skin-softening properties, perfect for unwinding after exploring the shrine.

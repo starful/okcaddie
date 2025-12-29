@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Divine Palace Floating on the Sea, Itsukushima Shrine: Walking Through a Thousand Years of History and Vermilion Corridors"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Hiroshima,
-    Miyajima,
-    ItsukushimaShrine,
-    O-torii,
-    WorldHeritage,
-    ThreeViewsOfJapan,
-    TairaNoKiyomori,
-    MaritimeSafety,
-    MomijiManju,
-    GrilledOysters,
-  ]
-thumbnail: /content/images/itsukushima_shrine.webp
-lat: 34.295967
-lng: 132.319812
 address: 〒739-0588 広島県廿日市市宮島町1-1
-excerpt: A UNESCO World Heritage site and one of Japan's Three Great Views. Experience unforgettable wonder at Itsukushima Shrine, with its mystical red torii gate floating on the sea, imbued with the ambition of Taira no Kiyomori.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: A UNESCO World Heritage site and one of Japan's Three Great Views. Experience
+  unforgettable wonder at Itsukushima Shrine, with its mystical red torii gate floating
+  on the sea, imbued with the ambition of Taira no Kiyomori.
+lat: 34.295967
+layout: post
+lng: 132.319812
+tags:
+- Hiroshima
+- Miyajima
+- ItsukushimaShrine
+- O-torii
+- WorldHeritage
+- ThreeViewsOfJapan
+- TairaNoKiyomori
+- MaritimeSafety
+- MomijiManju
+- GrilledOysters
+thumbnail: /content/images/itsukushima_shrine.webp
+title: 'The Divine Palace Floating on the Sea, Itsukushima Shrine: Walking Through
+  a Thousand Years of History and Vermilion Corridors'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to beautiful sacred sites around the world.
@@ -134,3 +138,9 @@ Feel the tranquility of the shrine floating on the sea at high tide, and walk th
 May the sea breeze blowing between the red pillars that have stood for a millennium wash away your worries, and may the blessings of the three goddesses brighten your path ahead.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that resonate deeply with the heart. Wishing you the best of luck on all your travels! 🌊⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Miyajima Hotel Makoto (宮島ホテルまこと)
+
+For a truly convenient and relaxing experience after exploring Itsukushima Shrine, consider Miyajima Hotel Makoto's day-trip onsen. Located directly on Miyajima Island, it allows you to easily enjoy the rejuvenating hot springs without needing to take an additional ferry. The tranquil atmosphere and soothing waters provide a perfect, relaxing escape, making it an ideal "day-trip onsen" for visitors. It's the ultimate way to unwind nearby The Divine Palace Floating on the Sea, Itsukushima Shrine: Walking Through a Thousand Years of History and Vermilion Corridors.

@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Thousand-Year Bond and Healing Forged by a Rabbit: Toyama's Takase Shrine, the Majesty of Echigo Ichinomiya"
-date: 2025-12-17
-categories: [Success, Love, Health]
-tags:
-  [
-    Toyama,
-    Nanto,
-    TakaseShrine,
-    NadeUsagi,
-    PowerSpot,
-    Ichinomiya,
-    Okuninushi,
-    Matchmaking,
-    GodofMedicine,
-    HokurikuTravel,
-  ]
-thumbnail: /content/images/takase_shrine.webp
-lat: 36.604212
-lng: 136.965412
 address: 〒932-0252 富山県南砺市高瀬291
-excerpt: Discover the 2,000-year history of Takase Shrine in the Echigo (Toyama) Plain. Experience the success, love, and mysterious healing power of the 'Nade-usagi' bestowed by Okuninushi-no-Mikoto, the protagonist of Japan's nation-building myths.
+categories:
+- Success
+- Love
+- Health
+date: 2025-12-17
+excerpt: Discover the 2,000-year history of Takase Shrine in the Echigo (Toyama) Plain.
+  Experience the success, love, and mysterious healing power of the 'Nade-usagi' bestowed
+  by Okuninushi-no-Mikoto, the protagonist of Japan's nation-building myths.
+lat: 36.604212
+layout: post
+lng: 136.965412
+tags:
+- Toyama
+- Nanto
+- TakaseShrine
+- NadeUsagi
+- PowerSpot
+- Ichinomiya
+- Okuninushi
+- Matchmaking
+- GodofMedicine
+- HokurikuTravel
+thumbnail: /content/images/takase_shrine.webp
+title: 'A Thousand-Year Bond and Healing Forged by a Rabbit: Toyama''s Takase Shrine,
+  the Majesty of Echigo Ichinomiya'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find Japan's hidden sacred sites.
@@ -50,3 +54,9 @@ The main deity (主祭神) here is **Okuninushi-no-Mikoto (大国主命)**. Alon
 According to myth, after ceding the country to the descendants of the heavenly gods, Okuninushi and his son sailed to and landed in this land of Echigo (Toyama). It is said that he transformed this once-rugged wasteland into a prosperous paradise by teaching farming methods, weaving techniques, and medicine. In gratitude for his blessings, the people built a shrine at the rapids (takase, 高瀬) where he landed, marking the beginning of Takase Shrine.
 
 Historically, its status was immense. It was recorded as a 'Myojin Taisha' (a nationally important shrine) in the 10th-century legal text "Engishiki," and was designated as the **'Ichinomiya' (一宮)**, the highest-ranking shrine in all of Echigo Province (Toyama Prefecture), receiving veneration from the imperial court and warriors alike. The Warring States period hero Uesugi Kenshin is also said to have visited here to pray for victory in battle, which attests to its spiritual
+
+***
+
+### ♨️ Relax at a Nearby Onsen: IOX-AROSA (イオックス・アローザ)
+
+IOX-AROSA is a great day-trip onsen option nearby A Thousand-Year Bond and Healing Forged by a Rabbit: Toyama's Takase Shrine, the Majesty of Echigo Ichinomiya. The onsen boasts stunning views of the surrounding mountains, providing a truly relaxing experience. This is a perfect spot to unwind after visiting the shrine, making it an ideal choice for those seeking a rejuvenating and relaxing day-trip onsen.

@@ -1,15 +1,30 @@
 ---
-layout: post
-title: "Visit for 3 Consecutive Years for a Lifetime Free of Money Worries? A Traveler's Guide to Kinkasan Koganeyama Shrine, Japan's Ultimate Sacred Site for Financial Luck"
-date: 2025-11-30
-categories: [Wealth, Success, History]
-tags:
-  [Miyagi, Kinkasan, KoganeyamaShrine, FinancialLuck, PowerSpot, IslandTrip, 3YearPilgrimage, JapaneseShrine]
-thumbnail: /content/images/kinkasan_koganeyama.webp
-lat: 38.296570
-lng: 141.563721
 address: 5 Kinkasan, Ayukawahama, Ishinomaki, Miyagi 986-2523, Japan
-excerpt: "Introducing Kinkasan Koganeyama Shrine in Miyagi Prefecture, the legendary sacred site where it's said that 'visiting for three consecutive years brings a lifetime free of money worries.' Embark on a special pilgrimage to a mystical island, accessible by boat, to pray for golden financial fortune."
+categories:
+- Wealth
+- Success
+- History
+date: 2025-11-30
+excerpt: Introducing Kinkasan Koganeyama Shrine in Miyagi Prefecture, the legendary
+  sacred site where it's said that 'visiting for three consecutive years brings a
+  lifetime free of money worries.' Embark on a special pilgrimage to a mystical island,
+  accessible by boat, to pray for golden financial fortune.
+lat: 38.29657
+layout: post
+lng: 141.563721
+tags:
+- Miyagi
+- Kinkasan
+- KoganeyamaShrine
+- FinancialLuck
+- PowerSpot
+- IslandTrip
+- 3YearPilgrimage
+- JapaneseShrine
+thumbnail: /content/images/kinkasan_koganeyama.webp
+title: Visit for 3 Consecutive Years for a Lifetime Free of Money Worries? A Traveler's
+  Guide to Kinkasan Koganeyama Shrine, Japan's Ultimate Sacred Site for Financial
+  Luck
 ---
 
 At the tip of the Oshika Peninsula in Miyagi Prefecture, a mysterious island floats alone on the blue waves of the Pacific Ocean: **Kinkasan (金華山)**. The entire island is considered a sacred domain of the gods and is home to a legendary shrine with deep ties to the first discovery of gold in Japanese history. It is a place where the powerful belief has been passed down that "if you visit for three consecutive years, you can live your entire life without money worries." This is **Kinkasan Koganeyama Shrine (金華山黄金山神社)**.
@@ -129,3 +144,9 @@ A visit to Kinkasan Koganeyama Shrine is not just a trip; it is a 'pilgrimage'. 
 In this sacred space, built upon the myth of a gold discovery that changed Japan's history, we come face to face with humanity's age-old desire for wealth and abundance. However, the true teaching this place offers may go beyond mere material prosperity. It might be about the divine protection that grants miraculous opportunities to those who earnestly wish and strive, and the grateful heart that acknowledges it.
 
 The legend says, "Visit for three consecutive years, and you will never worry about money." Regardless of whether it's true, wouldn't a person with enough earnestness and diligence to endure this arduous journey three times be capable of enriching their own life, even without divine intervention? Kinkasan Koganeyama Shrine is a power spot in the truest sense, one that nurtures that very will and courage. We hope you will begin your special pilgrimage to invite a golden blessing into your life, right here at Kinkasan.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel New Mitoya (ホテルニュー水戸屋)
+
+Hotel New Mitoya offers a fantastic **day-trip onsen** experience and is a relatively accessible option after visiting the Kinkasan Koganeyama Shrine. You can **relaxing** enjoy a variety of indoor and outdoor baths with high-quality spring water known for its therapeutic properties. Making it a refreshing way to cap off your **nearby Visit for 3 Consecutive Years for a Lifetime Free of Money Worries? A Traveler's Guide to Kinkasan Koganeyama Shrine, Japan's Ultimate Sacred Site for Financial Luck**. It's a great way to wash away the day's travels and rejuvenate both body and mind.

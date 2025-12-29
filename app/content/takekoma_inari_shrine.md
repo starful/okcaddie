@@ -1,3 +1,7 @@
+---
+{}
+---
+
 layout: post
 title: "The Dignity of Japan's Three Great Inari, Takekoma Inari Shrine: A Millennium of History and a Message of Abundance from the White Fox"
 date: 2025-12-17
@@ -131,3 +135,7 @@ As you pass through the red torii tunnel and make a heartfelt wish before the wh
 Are you starting a new business? Or dreaming of a more prosperous life? If so, come to Takekoma Inari Shrine in Miyagi. The good fortune brought by the white fox is waiting for you.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that will enrich your life. May your future be filled with golden blessings! 🦊🌾
+
+***
+
+Okay, I understand. Please provide the Japanese shrine name and address, and I will find the best nearby onsen for a day-trip traveler and format the response as requested. I will focus on finding an onsen that complements a visit to the shrine and is accessible for a day trip.

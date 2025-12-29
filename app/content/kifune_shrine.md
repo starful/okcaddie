@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "Kifune Shrine, a Hidden Gem of Kyoto and a Sanctuary of Water: A Mystical Encounter with Red Lanterns and Water Fortune-Telling"
-date: 2025-12-17
-categories: [Love, History, Health]
-tags:
-  [
-    Kyoto,
-    Kifune Shrine,
-    Matchmaking,
-    Water God,
-    Power Spot,
-    Red Lanterns,
-    Mizu-ura Mikuji,
-    Kawadoko,
-    Kyoto Travel,
-    Healing,
-  ]
-thumbnail: /content/images/kifune_shrine.webp
-lat: 35.122512
-lng: 135.763545
 address: 〒601-1112 180 Kurama-kibune-cho, Sakyo-ku, Kyoto
-excerpt: In the mountains north of Kyoto lies Kifune Shrine, dedicated to the god of water. Discover its mystical stone staircase illuminated by red lanterns and the unique 'Mizu-ura Mikuji' fortune-telling slips where words appear when floated on water.
+categories:
+- Love
+- History
+- Health
+date: 2025-12-17
+excerpt: In the mountains north of Kyoto lies Kifune Shrine, dedicated to the god
+  of water. Discover its mystical stone staircase illuminated by red lanterns and
+  the unique 'Mizu-ura Mikuji' fortune-telling slips where words appear when floated
+  on water.
+lat: 35.122512
+layout: post
+lng: 135.763545
+tags:
+- Kyoto
+- Kifune Shrine
+- Matchmaking
+- Water God
+- Power Spot
+- Red Lanterns
+- Mizu-ura Mikuji
+- Kawadoko
+- Kyoto Travel
+- Healing
+thumbnail: /content/images/kifune_shrine.webp
+title: 'Kifune Shrine, a Hidden Gem of Kyoto and a Sanctuary of Water: A Mystical
+  Encounter with Red Lanterns and Water Fortune-Telling'
 ---
 
 Hello, this is the editor from 'JinjaMap,' on a journey to discover beautiful sacred sites around the world.
@@ -129,3 +134,9 @@ Catching your breath as you climb the red lantern staircase, and clearing your m
 Are you dreaming of a new connection? Or do you wish to wash away your worries? If so, come to Kifune Shrine, deep in the forests of Kyoto. The clear water god will bless the path before you.
 
 **JinjaMap** will return with another story of a special sacred site in Japan that will bring a moment of peace to your heart. May your life be filled with clear and positive energy! 💧🌿
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+After a spiritual journey at Kifune Shrine, a Hidden Gem of Kyoto and a Sanctuary of Water: A Mystical Encounter with Red Lanterns and Water Fortune-Telling, indulge in a relaxing day-trip onsen experience at Kurama Onsen. Nestled in the mountains, this onsen boasts rotemburo (outdoor baths) with scenic views, offering a tranquil escape. The natural radium hot spring waters are known for their therapeutic properties, making it an ideal spot to unwind and rejuvenate after exploring the shrine. It’s a perfect nearby Kifune Shrine option for a truly unforgettable Kyoto day.

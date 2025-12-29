@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Where the Spirit of the Samurai Lives On: A Panorama of Victory and History at Kamakura's Tsurugaoka Hachimangu Shrine"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Kamakura,
-    Tsurugaoka Hachimangu,
-    Minamoto no Yoritomo,
-    Power Spot,
-    Luck in Competitions,
-    Dove Charm,
-    Kamakura Great Buddha,
-    Komachi-dori,
-    Tokyo Day Trip,
-    Historical Travel,
-  ]
-thumbnail: /content/images/tsurugaoka_hachimangu.webp
-lat: 35.326212
-lng: 139.556212
 address: 〒248-8588 神奈川県鎌倉市雪ノ下2-1-31
-excerpt: The guardian deity of the Kamakura Shogunate and the spiritual pillar of the samurai. Receive the energy of victory at Tsurugaoka Hachimangu Shrine and stroll through its magnificent grounds steeped in 800 years of history.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: The guardian deity of the Kamakura Shogunate and the spiritual pillar of
+  the samurai. Receive the energy of victory at Tsurugaoka Hachimangu Shrine and stroll
+  through its magnificent grounds steeped in 800 years of history.
+lat: 35.326212
+layout: post
+lng: 139.556212
+tags:
+- Kamakura
+- Tsurugaoka Hachimangu
+- Minamoto no Yoritomo
+- Power Spot
+- Luck in Competitions
+- Dove Charm
+- Kamakura Great Buddha
+- Komachi-dori
+- Tokyo Day Trip
+- Historical Travel
+thumbnail: /content/images/tsurugaoka_hachimangu.webp
+title: 'Where the Spirit of the Samurai Lives On: A Panorama of Victory and History
+  at Kamakura''s Tsurugaoka Hachimangu Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -128,3 +132,9 @@ The view of the Kamakura streets from the main shrine seems to show the peaceful
 When you need a victory, or when you need new energy in your life, come to this red shrine in Kamakura. The steadfast support of the god Hachiman will surely give you a push forward.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that bring courage to your heart. We wish you victory! 🕊️🏹
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Enoshima Island Spa (江の島アイランドスパ)
+
+Enoshima Island Spa is an excellent choice for a relaxing day-trip onsen nearby Where the Spirit of the Samurai Lives On: A Panorama of Victory and History at Kamakura's Tsurugaoka Hachimangu Shrine. Located on Enoshima Island, it boasts stunning panoramic views of the ocean and Mount Fuji on clear days. The spa features both indoor and outdoor onsen facilities, offering a luxurious and rejuvenating experience. It is a perfect spot to unwind after exploring the historical and cultural sights of Kamakura.

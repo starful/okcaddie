@@ -1,24 +1,29 @@
 ---
-layout: post
-title: "A Pilgrimage Guide to Arayayama Shrine: Japan's Top Sacred Site for Financial Fortune, Embracing the Spirit of Mount Fuji"
-date: 2024-11-30
-categories: [Wealth, Success, History]
-tags:
-  [
-    Yamanashi Prefecture,
-    Fujiyoshida,
-    Arayayama Shrine,
-    Financial Fortune,
-    Power Spot,
-    Mount Fuji,
-    Okumiya,
-    Business Prosperity,
-  ]
-thumbnail: /content/images/araya_yama_shrine.webp
-lat: 35.474600
-lng: 138.807900
 address: 1230 Araya, Fujiyoshida-shi, Yamanashi-ken 403-0006
-excerpt: Praised by titans of Japanese business and famous consultants as the ultimate power spot for financial luck. We introduce the perfect pilgrimage course to receive the energy of wealth, from the mysterious Okumiya at the 2nd station of Mt. Fuji to the main shrine with its wish-granting stone.
+categories:
+- Wealth
+- Success
+- History
+date: 2024-11-30
+excerpt: Praised by titans of Japanese business and famous consultants as the ultimate
+  power spot for financial luck. We introduce the perfect pilgrimage course to receive
+  the energy of wealth, from the mysterious Okumiya at the 2nd station of Mt. Fuji
+  to the main shrine with its wish-granting stone.
+lat: 35.4746
+layout: post
+lng: 138.8079
+tags:
+- Yamanashi Prefecture
+- Fujiyoshida
+- Arayayama Shrine
+- Financial Fortune
+- Power Spot
+- Mount Fuji
+- Okumiya
+- Business Prosperity
+thumbnail: /content/images/araya_yama_shrine.webp
+title: 'A Pilgrimage Guide to Arayayama Shrine: Japan''s Top Sacred Site for Financial
+  Fortune, Embracing the Spirit of Mount Fuji'
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -155,3 +160,9 @@ A specialty restaurant where you can taste 'Hoto' (ほうとう), a local dish f
 A pilgrimage to Arayayama Shrine is more than just a prayer for financial luck; it is a journey to experience the roots of the Japanese reverence for nature. Reflecting on yourself in the tranquility of the Hongu nestled in the mountain's embrace, and communing with great nature amidst the primal energy of the Okumiya at the heart of Mount Fuji, will surely breathe new life into a mind weary from daily life.
 
 The story of how the abundance bestowed by the mountain god led to today's blessings of business prosperity and financial fortune reminds us that all our wealth and success ultimately stem from the great root that is nature. We sincerely hope that you will be filled with the sacred spirit of Mount Fuji at Arayayama Shrine, and that abundant blessings will grace your life.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Benifuji no Yu (紅富士の湯)
+
+Located a convenient distance from A Pilgrimage Guide to Arayayama Shrine: Japan's Top Sacred Site for Financial Fortune, Embracing the Spirit of Mount Fuji, Benifuji no Yu offers a truly relaxing day-trip onsen experience. This onsen is renowned for its breathtaking views of Mount Fuji, particularly stunning when the mountain is bathed in the morning or evening light ("Benifuji" or "Red Fuji"). The alkaline spring water is also known for its skin-beautifying properties, making it a perfect way to unwind after visiting the shrine. It's an ideal spot for a tranquil and rejuvenating break.

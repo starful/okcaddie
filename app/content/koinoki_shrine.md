@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Meet Japan's Only 'God of Love': Fukuoka's Koinoki Shrine, Steeped in Pink Hearts and a Thousand Years of Longing"
-date: 2025-12-17
-categories: [Love, History]
-tags:
-  [
-    Fukuoka,
-    Chikugo,
-    Koinoki Shrine,
-    Mizuta Tenmangu,
-    Matchmaking,
-    Love Luck,
-    Power Spot,
-    Heart Shrine,
-    Pink Shrine,
-    Kyushu Travel,
-  ]
-thumbnail: /content/images/koinoki_shrine.webp
-lat: 33.204543
-lng: 130.491232
 address: 〒833-0027 福岡県筑後市水田62-1
-excerpt: The pink sanctuary that enshrines Japan's only 'God of Love (Koinomikoto)'. Reflect on the true meaning of relationships and walk the special heart-themed path at Fukuoka's Koinoki Shrine, born from Sugawara no Michizane's poignant love for his family.
+categories:
+- Love
+- History
+date: 2025-12-17
+excerpt: The pink sanctuary that enshrines Japan's only 'God of Love (Koinomikoto)'.
+  Reflect on the true meaning of relationships and walk the special heart-themed path
+  at Fukuoka's Koinoki Shrine, born from Sugawara no Michizane's poignant love for
+  his family.
+lat: 33.204543
+layout: post
+lng: 130.491232
+tags:
+- Fukuoka
+- Chikugo
+- Koinoki Shrine
+- Mizuta Tenmangu
+- Matchmaking
+- Love Luck
+- Power Spot
+- Heart Shrine
+- Pink Shrine
+- Kyushu Travel
+thumbnail: /content/images/koinoki_shrine.webp
+title: 'Meet Japan''s Only ''God of Love'': Fukuoka''s Koinoki Shrine, Steeped in
+  Pink Hearts and a Thousand Years of Longing'
 ---
 
 Hello, this is an editor from 'JinjaMap,' here to introduce you to the hidden gems of travel.
@@ -151,3 +155,9 @@ On the surface, Koinoki Shrine might just seem like a pretty and cute 'Instagram
 It's a time to learn how to love yourself while walking the heart-adorned path, and a time to vow for eternity with your loved one in front of the Meotoiwa. The experience at this small, lovely shrine will not only fill your heart with pink excitement but also reawaken you to the preciousness of 'bonds.'
 
 For those in need of love, or for those who wish to make their current love even stronger—if you are planning a trip to Fukuoka, why not embark on a warm pilgrimage to this place in the small town of Chikugo, where Koinomikoto awaits?
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Funakoya (船小屋温泉)
+
+Funakoya Onsen is an excellent choice for a relaxing day-trip onsen after visiting nearby Meet Japan's Only 'God of Love': Fukuoka's Koinoki Shrine, Steeped in Pink Hearts and a Thousand Years of Longing. Known for its high-quality radium-containing water, it is believed to ease various ailments. The peaceful atmosphere and traditional Japanese inn settings offer a truly rejuvenating experience, making it a perfect escape for a relaxing break.

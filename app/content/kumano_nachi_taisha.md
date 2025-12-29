@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Mystery of the 133-Meter Waterfall, a Sanctuary Where Gods Dwell: Purifying the Soul at Kumano Nachi Taisha"
-date: 2025-12-18
-categories: [History, Success, Health]
-tags:
-  [
-    Wakayama,
-    Kumano Nachi Taisha,
-    Nachi Falls,
-    Yatagarasu,
-    Power Spot,
-    Kumano Kodo,
-    World Heritage,
-    Daimonzaka,
-    Tuna,
-    Healing,
-  ]
-thumbnail: /content/images/kumano_nachi_taisha.webp
-lat: 33.668545
-lng: 135.890612
 address: 〒649-5301 和歌山県東牟婁郡那智勝浦町那智山1
-excerpt: A mystical sanctuary that worships Nachi Falls, one of Japan's three great waterfalls, as its deity. Meet Yatagarasu, the messenger of the gods, at Kumano Nachi Taisha, the pinnacle of the UNESCO World Heritage site, Kumano Kodo.
+categories:
+- History
+- Success
+- Health
+date: 2025-12-18
+excerpt: A mystical sanctuary that worships Nachi Falls, one of Japan's three great
+  waterfalls, as its deity. Meet Yatagarasu, the messenger of the gods, at Kumano
+  Nachi Taisha, the pinnacle of the UNESCO World Heritage site, Kumano Kodo.
+lat: 33.668545
+layout: post
+lng: 135.890612
+tags:
+- Wakayama
+- Kumano Nachi Taisha
+- Nachi Falls
+- Yatagarasu
+- Power Spot
+- Kumano Kodo
+- World Heritage
+- Daimonzaka
+- Tuna
+- Healing
+thumbnail: /content/images/kumano_nachi_taisha.webp
+title: 'The Mystery of the 133-Meter Waterfall, a Sanctuary Where Gods Dwell: Purifying
+  the Soul at Kumano Nachi Taisha'
 ---
 
 Hello, this is your editor from 'JinjaMap,' on a journey to discover hidden gems and sacred sites around the world.
@@ -126,3 +130,9 @@ Wash away your idle thoughts with the sound of the falling water and find the ri
 If you need true healing away from the frustrations of daily life, the forest of the gods, Kumano, awaits you.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to fill your soul. May a bright light shine upon your path! ☀️🦅
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel Urashima (ホテル浦島)
+
+Hotel Urashima is a fantastic day-trip onsen option nearby The Mystery of the 133-Meter Waterfall, a Sanctuary Where Gods Dwell: Purifying the Soul at Kumano Nachi Taisha. Known for its stunning ocean views from its Bokido Cave bath, a natural cave directly connected to the sea, it provides a truly unique and relaxing onsen experience. The sulfurous waters are said to have therapeutic properties, making it a perfect way to unwind after exploring the sacred shrine and waterfalls. For a truly memorable and relaxing soak, this is a must-visit day-trip onsen.

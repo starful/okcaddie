@@ -1,14 +1,22 @@
 ---
-layout: post
-title: "Oarai Isosaki Shrine: Where Gods Descended Upon the Pacific Waves"
+address: 오아라이 이소사키 신사 (大洗磯前神社)
+categories:
+- Health
 date: 2025-12-26
-categories: ['Health']
-tags: ['Japan', 'Shrine', 'Travel', 'Health', 'Ibaraki']
-thumbnail: /content/images/oarai_isosaki_shrine.webp
+excerpt: In the annals of Japanese mythology, the creation of the nation was not a
+  singular act but a collaborative effort by countless deities, or *kami*. Among the
+  mos...
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "오아라이 이소사키 신사 (大洗磯前神社)"
-excerpt: "In the annals of Japanese mythology, the creation of the nation was not a singular act but a collaborative effort by countless deities, or *kami*. Among the mos..."
+tags:
+- Japan
+- Shrine
+- Travel
+- Health
+- Ibaraki
+thumbnail: /content/images/oarai_isosaki_shrine.webp
+title: 'Oarai Isosaki Shrine: Where Gods Descended Upon the Pacific Waves'
 ---
 
 ### 1. 🙏 Introduction: Deities & History
@@ -91,3 +99,9 @@ Oarai and the surrounding Ibaraki area offer a wealth of attractions to compleme
 Oarai Isosaki Shrine is not simply a place of worship; it is a testament to the enduring power of myth and the profound beauty of nature. It is where the divine narrative of Japan's creation meets the raw, untamed energy of the Pacific Ocean. To stand on its shores at dawn and watch the sun rise behind the Kamiiso-no-Torii is to witness a scene of such elemental power and grace that it transcends religion and speaks directly to the soul. It’s a reminder that in Japan, the gods are not confined to halls of wood and gold but are present in the crashing waves, the steadfast rocks, and the first light of a new day. A visit here is an unforgettable pilgrimage to the very edge of the world, where the sacred and the spectacular become one.
 
 ---
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hotel New Akao Royal Wing Hot Spring (ホテルニューアカオ ロイヤルウイング 海峯楼)
+
+Just a short distance from the revered Oarai Isosaki Shrine: Where Gods Descended Upon the Pacific Waves, the Hotel New Akao Royal Wing offers a luxurious day-trip onsen experience. The highlight is the incredible ocean view from their cliffside baths, allowing you to soak in mineral-rich waters while gazing out at the vast Pacific. This relaxing getaway provides a perfect complement to a spiritual visit, offering a tranquil escape and rejuvenation of the body and soul.

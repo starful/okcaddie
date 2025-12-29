@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Forest Imbued with the Romance of the Tale of Genji: The Bamboo Grove Path and Love Stone of Nonomiya Shrine in Arashiyama, Kyoto"
-date: 2025-12-17
-categories: [Love, History, Academics]
-tags:
-  [
-    Kyoto,
-    Arashiyama,
-    Nonomiya Shrine,
-    Tale of Genji,
-    Bamboo Forest,
-    Power Spot,
-    Okame-ishi,
-    Matchmaking,
-    Japanese Mythology,
-    Kyoto Travel,
-  ]
-thumbnail: /content/images/nonomiya_shrine.webp
-lat: 35.017742
-lng: 135.674212
 address: 〒616-8393 京都府京都市右京区嵯峨野宮町1
-excerpt: In the Arashiyama Bamboo Grove, Nonomiya Shrine holds the prayers of an imperial princess from a thousand years ago. Discover the mystical power of the 'Okame-ishi' turtle rock, a setting from 'The Tale of Genji' that grants wishes.
+categories:
+- Love
+- History
+- Academics
+date: 2025-12-17
+excerpt: In the Arashiyama Bamboo Grove, Nonomiya Shrine holds the prayers of an imperial
+  princess from a thousand years ago. Discover the mystical power of the 'Okame-ishi'
+  turtle rock, a setting from 'The Tale of Genji' that grants wishes.
+lat: 35.017742
+layout: post
+lng: 135.674212
+tags:
+- Kyoto
+- Arashiyama
+- Nonomiya Shrine
+- Tale of Genji
+- Bamboo Forest
+- Power Spot
+- Okame-ishi
+- Matchmaking
+- Japanese Mythology
+- Kyoto Travel
+thumbnail: /content/images/nonomiya_shrine.webp
+title: 'A Forest Imbued with the Romance of the Tale of Genji: The Bamboo Grove Path
+  and Love Stone of Nonomiya Shrine in Arashiyama, Kyoto'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to find beautiful sacred sites around the world.
@@ -130,3 +134,9 @@ Listen to the sound of the wind in the bamboo forest, place your hand on the tur
 If you need a moment of pause during your Kyoto travels, come to Nonomiya Shrine in the Arashiyama forest.
 
 **JinjaMap** will return with another story of a special sacred site in Japan that will touch your heart. May your wishes come true! 🎋🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Arashiyama Onsen Saikan (嵐山温泉 彩四季の宿 花筏)
+
+Arashiyama Onsen Saikan is a fantastic choice for a relaxing day-trip onsen experience nearby A Forest Imbued with the Romance of the Tale of Genji: The Bamboo Grove Path and Love Stone of Nonomiya Shrine in Arashiyama, Kyoto. It offers stunning views of the Hozugawa River and surrounding mountains from its open-air baths, allowing you to immerse yourself in nature. The alkaline simple hot spring water is known for its skin-softening properties, making it a perfect way to unwind after exploring the bamboo forest. This onsen is a great option for a soothing and rejuvenating day-trip.

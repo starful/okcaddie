@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Star of Kyoto, Meeting the Legendary Onmyoji Abe no Seimei: The Pentagram and Warding Peach of Seimei Shrine"
-date: 2025-12-18
-categories: [History, Health, Success]
-tags:
-  [
-    Kyoto,
-    Seimei Shrine,
-    Abe no Seimei,
-    Onmyoji,
-    Power Spot,
-    Pentagram,
-    Warding off evil,
-    Hanyu Yuzuru,
-    Seimei Well,
-    Kyoto Travel,
-  ]
-thumbnail: /content/images/seimei_shrine.webp
-lat: 35.029812
-lng: 135.751345
 address: 〒602-8222 京都市上京区晴明町806
-excerpt: The former residence of Abe no Seimei, the greatest Onmyoji of the Heian period. A mystical power spot journey to ward off misfortune and pray for victory within a powerful barrier protected by the star-shaped 'pentagram'.
+categories:
+- History
+- Health
+- Success
+date: 2025-12-18
+excerpt: The former residence of Abe no Seimei, the greatest Onmyoji of the Heian
+  period. A mystical power spot journey to ward off misfortune and pray for victory
+  within a powerful barrier protected by the star-shaped 'pentagram'.
+lat: 35.029812
+layout: post
+lng: 135.751345
+tags:
+- Kyoto
+- Seimei Shrine
+- Abe no Seimei
+- Onmyoji
+- Power Spot
+- Pentagram
+- Warding off evil
+- Hanyu Yuzuru
+- Seimei Well
+- Kyoto Travel
+thumbnail: /content/images/seimei_shrine.webp
+title: 'Star of Kyoto, Meeting the Legendary Onmyoji Abe no Seimei: The Pentagram
+  and Warding Peach of Seimei Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -134,3 +138,9 @@ The moment you pass under the torii adorned with a star, you can feel the heavy 
 If things aren't going your way for no reason, or if you're anxious about an important exam, come to Seimei Shrine in Kyoto. The genius Onmyoji from a thousand years ago will light a star for you.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites to bring light into your life. May the protection of the pentagram be with you in your future! ⭐🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Arashiyama Onsen (嵐山温泉)
+
+After exploring the mystical grounds of the nearby Star of Kyoto, Meeting the Legendary Onmyoji Abe no Seimei: The Pentagram and Warding Peach of Seimei Shrine, unwind at Arashiyama Onsen. This popular day-trip onsen destination offers several traditional ryokans and hotels where you can enjoy rejuvenating hot springs with scenic views of the Hozugawa River or the iconic bamboo groves. The alkaline simple hot spring water is known for its skin-softening properties, providing a truly relaxing escape just a short journey from central Kyoto. It's the perfect way to cap off your historical exploration with some much-needed relaxation.

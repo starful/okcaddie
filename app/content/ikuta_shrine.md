@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Red Heart of Kobe, Ikuta Shrine: The Miracles of Love and Rebirth Tied by a Mythical Goddess"
-date: 2025-12-18
-categories: [Love, History, Health]
-tags:
-  [
-    Kobe,
-    Ikuta Shrine,
-    Enmusubi,
-    Matchmaking,
-    Power Spot,
-    Wakahirume,
-    Mizumikuji,
-    Kobe Travel,
-    Sannomiya,
-    Rebirth,
-  ]
-thumbnail: /content/images/ikuta_shrine.webp
-lat: 34.695345
-lng: 135.191612
 address: 〒650-0011 兵庫県神戸市中央区下山手通1丁目2-1
-excerpt: An ancient shrine with 1,800 years of history from which the name 'Kobe' originated. Discover the 'God of Rebirth,' who overcame war and earthquakes, and the mystical water fortune-telling, 'Mizumikuji,' which forges romantic connections.
+categories:
+- Love
+- History
+- Health
+date: 2025-12-18
+excerpt: An ancient shrine with 1,800 years of history from which the name 'Kobe'
+  originated. Discover the 'God of Rebirth,' who overcame war and earthquakes, and
+  the mystical water fortune-telling, 'Mizumikuji,' which forges romantic connections.
+lat: 34.695345
+layout: post
+lng: 135.191612
+tags:
+- Kobe
+- Ikuta Shrine
+- Enmusubi
+- Matchmaking
+- Power Spot
+- Wakahirume
+- Mizumikuji
+- Kobe Travel
+- Sannomiya
+- Rebirth
+thumbnail: /content/images/ikuta_shrine.webp
+title: 'The Red Heart of Kobe, Ikuta Shrine: The Miracles of Love and Rebirth Tied
+  by a Mythical Goddess'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -126,3 +130,9 @@ The forest has silently stood its ground as thousands of seasons have passed, an
 If you are dreaming of love or preparing for a new chapter in your life, come to Ikuta Shrine in Kobe. The warm energy of the goddess will surely tie your destiny with a red thread.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that bring hope to your life. May your love come true! ❤️🌿
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Arima Onsen (有馬温泉)
+
+Arima Onsen is a fantastic day-trip onsen choice nearby The Red Heart of Kobe, Ikuta Shrine: The Miracles of Love and Rebirth Tied by a Mythical Goddess. Renowned for its two distinct types of hot spring water - the Kinsen (gold spring), rich in iron and sodium chloride, and the Ginsen (silver spring), containing radium and carbonate – Arima offers a truly relaxing and therapeutic experience. Its historic atmosphere and proximity to Kobe make it an easily accessible and enjoyable escape for a day of onsen relaxation.

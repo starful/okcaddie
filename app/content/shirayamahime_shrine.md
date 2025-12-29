@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Goddess of Reconciliation Who Crosses the Boundary of Life and Death: Finding Healing and Connection at Shirayamahime Shrine"
-date: 2025-12-22
-categories: [Love, History, Health]
-tags:
-  [
-    Ishikawa,
-    Hakusan,
-    Shirayamahime Shrine,
-    Ichinomiya,
-    Matchmaking,
-    Enmusubi,
-    Power Spot,
-    Kenrokuen,
-    Gold Leaf Ice Cream,
-    Japanese Mythology,
-  ]
-thumbnail: /content/images/shirayamahime_shrine.webp
-lat: 36.438512
-lng: 136.634212
 address: 〒920-2114 石川県白山市三宮町ニ105-1
-excerpt: The head shrine of 3,000 Hakusan shrines nationwide. Reconnect strained relationships with the power of the goddess 'Kukurihime,' who reconciled the creator god couple, and receive the pure energy of the sacred Mount Hakusan.
+categories:
+- Love
+- History
+- Health
+date: 2025-12-22
+excerpt: The head shrine of 3,000 Hakusan shrines nationwide. Reconnect strained relationships
+  with the power of the goddess 'Kukurihime,' who reconciled the creator god couple,
+  and receive the pure energy of the sacred Mount Hakusan.
+lat: 36.438512
+layout: post
+lng: 136.634212
+tags:
+- Ishikawa
+- Hakusan
+- Shirayamahime Shrine
+- Ichinomiya
+- Matchmaking
+- Enmusubi
+- Power Spot
+- Kenrokuen
+- Gold Leaf Ice Cream
+- Japanese Mythology
+thumbnail: /content/images/shirayamahime_shrine.webp
+title: 'The Goddess of Reconciliation Who Crosses the Boundary of Life and Death:
+  Finding Healing and Connection at Shirayamahime Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to discover mystical sacred sites around the world.
@@ -127,3 +131,9 @@ The wisdom and love of Kukurihime, who reconciled even the divine couple that ha
 Are you struggling with a tangled relationship? Or do you wish to strengthen the bond with someone precious to you? If so, come to Shirayamahime Shrine at the foot of Mount Hakusan. The goddess's knot will beautifully tie your connections.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that bring peace to your life. May all your relationships resolve with warmth! 🤝💖
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Miyataya Ryokan (宮田屋旅館)
+
+Miyataya Ryokan offers a fantastic day-trip onsen experience not far from The Goddess of Reconciliation Who Crosses the Boundary of Life and Death: Finding Healing and Connection at Shirayamahime Shrine. Known for its smooth, skin-nourishing waters sourced directly from the local hot spring, Miyataya provides a truly relaxing atmosphere. The ryokan boasts both indoor and outdoor baths, allowing you to fully immerse yourself in the tranquility of the surrounding natural landscape. For a convenient and refreshing break after visiting the shrine, it’s the perfect nearby day-trip onsen to unwind.

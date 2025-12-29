@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ```markdown
 ---
 layout: post
@@ -131,3 +135,7 @@ Do you have a dream you want to challenge? A mountain you need to overcome? Then
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that bring courage to your life. May your wishes surely be fulfilled! 🏔️⛓️
 ```
+
+***
+
+Okay, I understand. Please provide the Shrine Name and Address so I can research the best nearby onsen. Once you provide that information, I will generate the Markdown content as requested. I will search for an Onsen that's suitable for a day trip and highlight its appealing features.

@@ -1,293 +1,2018 @@
 {
-  "last_updated": "2025.12.15",
+  "last_updated": "2025.12.29",
   "shrines": [
     {
-      "id": "enoshima",
-      "title": "에노시마 신사 (Enoshima Shrine)",
-      "lat": 35.3006,
-      "lng": 139.4802,
+      "id": "suwa_taisha_kamisha_honmiya",
+      "title": "Suwa Taisha Kamisha Honmiya: Gateway to Japan's Oldest Gods",
+      "lat": 35.6895,
+      "lng": 139.6917,
       "categories": [
-        "사랑",
-        "건강"
+        "Success"
       ],
-      "thumbnail": "/content/images/enoshima.webp",
-      "address": "가나가와현 후지사와시 에노시마 2-3-8",
-      "published": "2025-12-15",
-      "summary": "일본 3대 벤자이텐을 모시는 연애와 재물의 성지. 용과 선녀의 전설이 깃든 에노시마의 파워스팟과 아름다운 풍경을 소개합니다.",
-      "link": "/shrine/enoshima"
+      "thumbnail": "/content/images/suwa_taisha_kamisha_honmiya.webp",
+      "address": "스와 타이샤 상사 본궁 (諏訪大社 上社本宮)",
+      "published": "2025-12-27",
+      "summary": "🙏 Introduction: Deities & History\nStep into the crisp mountain air of Nagano Prefecture, and you may feel a presence far...",
+      "link": "/shrine/suwa_taisha_kamisha_honmiya",
+      "has_onsen": true
+    },
+    {
+      "id": "hiyoshi_taisha_shrine",
+      "title": "Hiyoshi Taisha: Sacred Mountain of the Divine Monkey Messengers",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Safety"
+      ],
+      "thumbnail": "/content/images/hiyoshi_taisha_shrine.webp",
+      "address": "히요시 타이샤 (日吉大社)",
+      "published": "2025-12-27",
+      "summary": "🙏 Introduction: Deities & History\nNestled at the foot of the sacred Mount Hiei, overlooking the vast expanse of Lake Biw...",
+      "link": "/shrine/hiyoshi_taisha_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kamigamo_jinja_shrine",
+      "title": "Kamigamo Jinja Shrine: Kyoto's Ancient Guardian of Thunder",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "History"
+      ],
+      "thumbnail": "/content/images/kamigamo_jinja_shrine.webp",
+      "address": "가미가모 신사 (上賀茂神社)",
+      "published": "2025-12-27",
+      "summary": "🙏 Introduction: Deities & History\nLong before Kyoto was \"Kyoto,\" when it was a fertile basin known as Yamashiro, a power...",
+      "link": "/shrine/kamigamo_jinja_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "oarai_isosaki_shrine",
+      "title": "Oarai Isosaki Shrine: Where Gods Descended Upon the Pacific Waves",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Health"
+      ],
+      "thumbnail": "/content/images/oarai_isosaki_shrine.webp",
+      "address": "오아라이 이소사키 신사 (大洗磯前神社)",
+      "published": "2025-12-26",
+      "summary": "1. 🙏 Introduction: Deities & History\nIn the annals of Japanese mythology, the creation of the nation was not a singular ...",
+      "link": "/shrine/oarai_isosaki_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "takeo_shrine_saga",
+      "title": "Takeo Shrine: Whispers of Ancient Gods and a 3,000-Year-Old Tree",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Health"
+      ],
+      "thumbnail": "/content/images/takeo_shrine_saga.webp",
+      "address": "다케오 신사 (武雄神社)",
+      "published": "2025-12-26",
+      "summary": "1. 🙏 Introduction: Deities & History\nDeep in the heart of Saga Prefecture, nestled within a hushed, primeval forest, lie...",
+      "link": "/shrine/takeo_shrine_saga",
+      "has_onsen": true
+    },
+    {
+      "id": "meiji_jingu",
+      "title": "A 100-Year-Old Forest Breathes in this Urban Sanctuary: Discover Meiji Jingu, a Symbol of Modern Japan and a 'Power Spot'",
+      "lat": 35.676397,
+      "lng": 139.699326,
+      "categories": [
+        "History",
+        "Love",
+        "Success"
+      ],
+      "thumbnail": "/content/images/meiji_jingu.webp",
+      "address": "〒151-8557 東京都渋谷区代々木神園町1-1",
+      "published": "2025-12-25",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to special sacred sites around the world.\nToday, I'll guide you to a...",
+      "link": "/shrine/meiji_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "nikko_toshogu",
+      "title": "The Secret of the Sleeping Cat Amidst Golden Splendor: Encountering Japan's Ultimate Power and Art at Nikko Toshogu Shrine",
+      "lat": 36.758067,
+      "lng": 139.600645,
+      "categories": [
+        "History",
+        "Success",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/nikko_toshogu.webp",
+      "address": "〒321-1431 栃木県日光市山内2301",
+      "published": "2025-12-22",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to discover the great heritage sites of the world.\nToday, I will g...",
+      "link": "/shrine/nikko_toshogu",
+      "has_onsen": true
+    },
+    {
+      "id": "fushimi_inari",
+      "title": "The Tunnel of 10,000 Red Torii: Legends and Secrets of Business Prosperity at Kyoto's Fushimi Inari Taisha",
+      "lat": 34.967212,
+      "lng": 135.772654,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/fushimi_inari.webp",
+      "address": "〒612-0882 京都府京都市伏見区深草藪之内町68",
+      "published": "2025-12-22",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.\nToday, we'll guide you to...",
+      "link": "/shrine/fushimi_inari",
+      "has_onsen": true
+    },
+    {
+      "id": "asahikawa_shrine",
+      "title": "The Forest of Hokkaido's Pioneering Dreams: A 130-Year-Old Prayer at Asahikawa Shrine",
+      "lat": 43.748312,
+      "lng": 142.368543,
+      "categories": [
+        "Success",
+        "History",
+        "Love"
+      ],
+      "thumbnail": "/content/images/asahikawa_shrine.webp",
+      "address": "〒078-8329 北海道旭川市神楽岡公園2",
+      "published": "2025-12-22",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find hidden sacred gems around the world.\nToday, I will guide y...",
+      "link": "/shrine/asahikawa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "fujisan_hongu_sengen_taisha",
+      "title": "The Garden of the Gods where Mt. Fuji's Clear Water Springs Forth: Finding Healing and Wish Fulfillment at Fujisan Hongu Sengen Taisha",
+      "lat": 35.225612,
+      "lng": 138.609745,
+      "categories": [
+        "Health",
+        "Success",
+        "Love"
+      ],
+      "thumbnail": "/content/images/fujisan_hongu_sengen_taisha.webp",
+      "address": "〒418-0067 静岡県富士宮市宮町1-1",
+      "published": "2025-12-22",
+      "summary": "Hello, this is the editor of 'JinjaMap', traveling to discover the great heritage sites of the world.\nToday, we journey ...",
+      "link": "/shrine/fujisan_hongu_sengen_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "shirayamahime_shrine",
+      "title": "The Goddess of Reconciliation Who Crosses the Boundary of Life and Death: Finding Healing and Connection at Shirayamahime Shrine",
+      "lat": 36.438512,
+      "lng": 136.634212,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/shirayamahime_shrine.webp",
+      "address": "〒920-2114 石川県白山市三宮町ニ105-1",
+      "published": "2025-12-22",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to discover mystical sacred sites around the world.\nToday, we jour...",
+      "link": "/shrine/shirayamahime_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "obihiro_shrine",
+      "title": "A Forest with the Spirit of Hokkaido's Pioneers: Meet Squirrels and Make Wishes Come True at Obihiro Shrine",
+      "lat": 42.923112,
+      "lng": 143.208745,
+      "categories": [
+        "Success",
+        "History",
+        "Love"
+      ],
+      "thumbnail": "/content/images/obihiro_shrine.webp",
+      "address": "〒080-0847 北海道帯広市東3条南2丁目1",
+      "published": "2025-12-22",
+      "summary": "Hello, this is the editor of 'JinjaMap,' traveling to find hidden gem-like sacred sites around the world.\nToday, I will ...",
+      "link": "/shrine/obihiro_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "hokkaido_jingu",
+      "title": "The Heart of Hokkaido: Discovering Pioneer History and Healing at Sapporo's Hokkaido Jingu Shrine",
+      "lat": 43.053812,
+      "lng": 141.307945,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/hokkaido_jingu.webp",
+      "address": "〒064-8505 北海道札幌市中央区宮ヶ丘474",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your 'JinjaMap' editor, here to add depth to your travels.\nToday, I will guide you to 'Hokkaido ...",
+      "link": "/shrine/hokkaido_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "dewa_sanzan",
+      "title": "The Mountain of Birth, Death, and Rebirth: The Dewa Sanzan Pilgrimage in Yamagata and the Miracle of 2,446 Stone Steps",
+      "lat": 38.706212,
+      "lng": 139.967845,
+      "categories": [
+        "History",
+        "Success",
+        "Health"
+      ],
+      "thumbnail": "/content/images/dewa_sanzan.webp",
+      "address": "〒997-0292 山形県鶴岡市羽黒町手向字手向7",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a pla...",
+      "link": "/shrine/dewa_sanzan",
+      "has_onsen": true
+    },
+    {
+      "id": "seimei_shrine",
+      "title": "Star of Kyoto, Meeting the Legendary Onmyoji Abe no Seimei: The Pentagram and Warding Peach of Seimei Shrine",
+      "lat": 35.029812,
+      "lng": 135.751345,
+      "categories": [
+        "History",
+        "Health",
+        "Success"
+      ],
+      "thumbnail": "/content/images/seimei_shrine.webp",
+      "address": "〒602-8222 京都市上京区晴明町806",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a pla...",
+      "link": "/shrine/seimei_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kotohiragu",
+      "title": "Up 785 Steps to a Heavenly Sanctuary: Discover the Yellow Amulet of Happiness at Kotohira-gu",
+      "lat": 34.184212,
+      "lng": 133.809712,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kotohiragu.webp",
+      "address": "〒766-8501 香川県仲多度郡琴平町892-1",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to 'Kotohi...",
+      "link": "/shrine/kotohiragu",
+      "has_onsen": true
+    },
+    {
+      "id": "togakushi_shrine",
+      "title": "The Legendary Gate That Hid the Sun Goddess: A Mythical Forest Walk at the 2000-Year-Old Togakushi Shrine",
+      "lat": 36.746212,
+      "lng": 138.083154,
+      "categories": [
+        "Success",
+        "History",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/togakushi_shrine.webp",
+      "address": "〒381-4101 長野県長野市戸隠中社3506",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.\nToday, we guide you deep ...",
+      "link": "/shrine/togakushi_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "katori_shrine",
+      "title": "Katori Shrine, the God of the Sword Who Beckons Victory and Decision: Legends of a Thousand-Year-Old Forest and the Stone That Pins a Giant Catfish",
+      "lat": 35.885612,
+      "lng": 140.528345,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/katori_shrine.webp",
+      "address": "〒287-0017 千葉県香取市香取1697",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to Sawara,...",
+      "link": "/shrine/katori_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "senso_ji",
+      "title": "Senso-ji, Tokyo: A 1,400-Year-Old Red Lantern and Wish Fulfillment at Asakusa's Temple of Kannon",
+      "lat": 35.714712,
+      "lng": 139.796345,
+      "categories": [
+        "Success",
+        "History",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/senso_ji.webp",
+      "address": "〒111-0032 東京都台東区浅草2-3-1",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to the hidden sacred places of the city.\nToday, I will guide you to ...",
+      "link": "/shrine/senso_ji",
+      "has_onsen": true
+    },
+    {
+      "id": "yushima_tenmangu",
+      "title": "The Scent of Plum Blossoms Opening the Gates to Success: Meet the Gods of Learning and Strength at Tokyo's Yushima Tenmangu Shrine",
+      "lat": 35.707712,
+      "lng": 139.768412,
+      "categories": [
+        "Academics",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/yushima_tenmangu.webp",
+      "address": "〒113-0034 東京都文京区湯島3-30-1",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to Yushi...",
+      "link": "/shrine/yushima_tenmangu",
+      "has_onsen": true
+    },
+    {
+      "id": "itsukushima_shrine",
+      "title": "The Divine Palace Floating on the Sea, Itsukushima Shrine: Walking Through a Thousand Years of History and Vermilion Corridors",
+      "lat": 34.295967,
+      "lng": 132.319812,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/itsukushima_shrine.webp",
+      "address": "〒739-0588 広島県廿日市市宮島町1-1",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to beautiful sacred sites around the world.\nToday, we journey to see...",
+      "link": "/shrine/itsukushima_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kumano_nachi_taisha",
+      "title": "The Mystery of the 133-Meter Waterfall, a Sanctuary Where Gods Dwell: Purifying the Soul at Kumano Nachi Taisha",
+      "lat": 33.668545,
+      "lng": 135.890612,
+      "categories": [
+        "History",
+        "Success",
+        "Health"
+      ],
+      "thumbnail": "/content/images/kumano_nachi_taisha.webp",
+      "address": "〒649-5301 和歌山県東牟婁郡那智勝浦町那智山1",
+      "published": "2025-12-18",
+      "summary": "Hello, this is your editor from 'JinjaMap,' on a journey to discover hidden gems and sacred sites around the world.\nToda...",
+      "link": "/shrine/kumano_nachi_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "hofu_tenmangu",
+      "title": "The First Tenman-gū in Japan: Discovering the Traces of the Ill-fated Genius Michizane and the Scent of Plum Blossoms in Hōfu",
+      "lat": 34.057212,
+      "lng": 131.573543,
+      "categories": [
+        "Academics",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/hofu_tenmangu.webp",
+      "address": "〒747-0029 山口県防府市松崎町14-1",
+      "published": "2025-12-18",
+      "summary": "Hello, dear readers! This is your editor from 'JinjaMap', here to add depth to your travels.\nToday, I will guide you to ...",
+      "link": "/shrine/hofu_tenmangu",
+      "has_onsen": true
+    },
+    {
+      "id": "yutoku_inari_shrine",
+      "title": "The Grandeur of the Red Shrine on the Cliff, Yutoku Inari Shrine: The Sacred Site of the West, Known as the Nikko of Saga",
+      "lat": 33.072512,
+      "lng": 130.108243,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/yutoku_inari_shrine.webp",
+      "address": "〒849-1321 佐賀県鹿島市古枝乙1855",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' traveling to beautiful sacred sites around the world.\nToday, I will guide you t...",
+      "link": "/shrine/yutoku_inari_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "ise_jingu",
+      "title": "The Beginning of a Myth, Where the Heart of Japan Resides: A Pilgrimage to Ise Jingu, Walking Through a Thousand-Year-Old Forest",
+      "lat": 34.455012,
+      "lng": 136.725845,
+      "categories": [
+        "History",
+        "Success",
+        "Love"
+      ],
+      "thumbnail": "/content/images/ise_jingu.webp",
+      "address": "〒516-0023 三重県伊勢市宇治館町1",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor from 'JinjaMap', traveling to sacred sites around the world.\nToday, I will guide you to the pi...",
+      "link": "/shrine/ise_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "kawasaki_daishi",
+      "title": "A Millennium of Miracles, a Sacred Site of Kobo Daishi to Ward Off Evil: Finding Peace and Vitality at Kawasaki Daishi",
+      "lat": 35.534212,
+      "lng": 139.728543,
+      "categories": [
+        "Health",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kawasaki_daishi.webp",
+      "address": "〒210-8521 神奈川県川崎市川崎区大師町4-48",
+      "published": "2025-12-18",
+      "summary": "Hello, dear readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to ...",
+      "link": "/shrine/kawasaki_daishi",
+      "has_onsen": true
+    },
+    {
+      "id": "ooyamazumi_shrine",
+      "title": "The Mysterious Island Where Samurai Armor Slumbers: Encountering 2,600 Years of History at Oyamazumi Shrine in Ehime",
+      "lat": 34.248312,
+      "lng": 133.005243,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/ooyamazumi_shrine.webp",
+      "address": "〒794-1304 愛媛県今治市大三島町宮浦3327",
+      "published": "2025-12-18",
+      "summary": "Hello, this is your editor from 'JinjaMap,' on a journey to find hidden gems and sacred sites around the world.\nToday, I...",
+      "link": "/shrine/ooyamazumi_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "nogi_shrine",
+      "title": "A Sacred Urban Sanctuary of Loyalty and Love: The Sublime Vow of Tokyo's Nogi Shrine",
+      "lat": 35.666212,
+      "lng": 139.728543,
+      "categories": [
+        "Love",
+        "History",
+        "Academics"
+      ],
+      "thumbnail": "/content/images/nogi_shrine.webp",
+      "address": "〒107-0052 東京都港区赤坂8-11-27",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to profound sacred sites around the world.\nToday, I will guide you t...",
+      "link": "/shrine/nogi_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "nezu_shrine",
+      "title": "The Miraculous Forest Founded by Yamato Takeru 1,900 Years Ago: Walking Through the Red Torii Tunnel of Tokyo's Nezu Shrine",
+      "lat": 35.719742,
+      "lng": 139.760212,
+      "categories": [
+        "History",
+        "Love",
+        "Success"
+      ],
+      "thumbnail": "/content/images/nezu_shrine.webp",
+      "address": "1-28-9 Nezu, Bunkyo-ku, Tokyo 113-0031",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find sacred places like hidden gems in the city.\nToday, I invit...",
+      "link": "/shrine/nezu_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kanda_myoujin",
+      "title": "The Guardian of Edo with 1300 Years of History: Praying for Victory and Success at Kanda Myoujin Shrine in Akihabara, Tokyo",
+      "lat": 35.702045,
+      "lng": 139.767912,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/kanda_myoujin.webp",
+      "address": "〒101-0021 東京都千代田区外神田2-16-2",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a pla...",
+      "link": "/shrine/kanda_myoujin",
+      "has_onsen": true
+    },
+    {
+      "id": "suga_shrine",
+      "title": "Suga Shrine, Japan's First Palace: Encounter a Heroic Myth and the Birth of Waka Poetry",
+      "lat": 35.297512,
+      "lng": 132.964243,
+      "categories": [
+        "Love",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/suga_shrine.webp",
+      "address": "〒690-2404 島根県雲南市大東町須賀260",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.\nToday, we journey to the ...",
+      "link": "/shrine/suga_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "naritasan_shinshoji",
+      "title": "A Millennial Miracle, the Sanctuary of Fire Guarded by Fudo Myoo: Burning Away Misfortune at Naritasan Shinshoji Temple",
+      "lat": 35.786512,
+      "lng": 140.318212,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/naritasan_shinshoji.webp",
+      "address": "〒286-0023 千葉県成田市成田1",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.\nToday, I will guide you t...",
+      "link": "/shrine/naritasan_shinshoji",
+      "has_onsen": true
+    },
+    {
+      "id": "oomiwa_shrine",
+      "title": "The Sacred Mountain God: Discovering the Origins of Japanese Faith at Nara's Omiwa Shrine",
+      "lat": 34.529212,
+      "lng": 135.852543,
+      "categories": [
+        "Health",
+        "Success",
+        "History"
+      ],
+      "thumbnail": "/content/images/oomiwa_shrine.webp",
+      "address": "〒633-8538 奈良県桜井市三輪1422",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.\nToday, we travel to the d...",
+      "link": "/shrine/oomiwa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "togo_shrine",
+      "title": "Where the Flag of Victory Flies: Finding Indomitable Will and Prayers for Certain Victory at Harajuku's Togo Shrine",
+      "lat": 35.670612,
+      "lng": 139.704243,
+      "categories": [
+        "Success",
+        "History",
+        "Academics"
+      ],
+      "thumbnail": "/content/images/togo_shrine.webp",
+      "address": "〒150-0001 1-5-3 Jingumae, Shibuya-ku, Tokyo",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor from 'JinjaMap,' on a journey to find the hidden gems of the city.\nHarajuku is a place brimmin...",
+      "link": "/shrine/togo_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "atsuta_jingu",
+      "title": "A Forest Breathing with a Thousand Years of Myth: Encounter the Legendary Sword and a History of Victory at Nagoya's Atsuta Jingu",
+      "lat": 35.125612,
+      "lng": 136.908745,
+      "categories": [
+        "History",
+        "Success",
+        "Health"
+      ],
+      "thumbnail": "/content/images/atsuta_jingu.webp",
+      "address": "〒456-8585 愛知県名古屋市熱田区神宮1丁目1-1",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, we journey to Nagoya, the...",
+      "link": "/shrine/atsuta_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "aso_shrine",
+      "title": "A Healing Land Blessed by a Volcano's Spirit: Discover the History of Pioneering and Hope for Revival at Kumamoto's Aso Shrine",
+      "lat": 32.947912,
+      "lng": 131.122154,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/aso_shrine.webp",
+      "address": "〒869-2612 熊本県阿蘇市一の宮町宮地3083-1",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to 'Aso ...",
+      "link": "/shrine/aso_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kasuga_taisha",
+      "title": "A Forest of Divine Messengers: The Light of 3,000 Lanterns at Nara's Kasuga Taisha",
+      "lat": 34.681212,
+      "lng": 135.848212,
+      "categories": [
+        "History",
+        "Love",
+        "Success"
+      ],
+      "thumbnail": "/content/images/kasuga_taisha.webp",
+      "address": "〒630-8212 奈良県奈良市春日野町160",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.\nToday, I will guide you t...",
+      "link": "/shrine/kasuga_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "shiogama_shrine",
+      "title": "The Thousand-Year Port Guarded by the Salt God: The Miracle of 202 Steps at Shiogama Shrine",
+      "lat": 38.319712,
+      "lng": 141.026156,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/shiogama_shrine.webp",
+      "address": "〒985-8510 宮城県塩竈市一森山1-1",
+      "published": "2025-12-18",
+      "summary": "Hello, this is your editor from 'JinjaMap,' on a journey to discover hidden gems and sacred sites around the world.\nToda...",
+      "link": "/shrine/shiogama_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "ikuta_shrine",
+      "title": "The Red Heart of Kobe, Ikuta Shrine: The Miracles of Love and Rebirth Tied by a Mythical Goddess",
+      "lat": 34.695345,
+      "lng": 135.191612,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/ikuta_shrine.webp",
+      "address": "〒650-0011 兵庫県神戸市中央区下山手通1丁目2-1",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nKobe, the vibrant port city. Whe...",
+      "link": "/shrine/ikuta_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "sumiyoshi_taisha",
+      "title": "A Myth of 1800 Years, Osaka's Sumiyoshi Taisha Where the Sea God Resides: Crossing the Red Arch Bridge to Find Fortune",
+      "lat": 34.612056,
+      "lng": 135.495045,
+      "categories": [
+        "Wealth",
+        "Success",
+        "History"
+      ],
+      "thumbnail": "/content/images/sumiyoshi_taisha.webp",
+      "address": "〒558-0045 大阪府大阪市住吉区住吉2丁目 9-89",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a mys...",
+      "link": "/shrine/sumiyoshi_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "tsurugaoka_hachimangu",
+      "title": "Where the Spirit of the Samurai Lives On: A Panorama of Victory and History at Kamakura's Tsurugaoka Hachimangu Shrine",
+      "lat": 35.326212,
+      "lng": 139.556212,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/tsurugaoka_hachimangu.webp",
+      "address": "〒248-8588 神奈川県鎌倉市雪ノ下2-1-31",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to Kamakur...",
+      "link": "/shrine/tsurugaoka_hachimangu",
+      "has_onsen": true
+    },
+    {
+      "id": "kitano_tenmangu",
+      "title": "Kitano Tenmangu, Kyoto's Sacred Ground of Learning: The Legend of Tenjin-sama for Exam Success and a Feast of Plum Blossoms",
+      "lat": 35.031512,
+      "lng": 135.735212,
+      "categories": [
+        "Academics",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/kitano_tenmangu.webp",
+      "address": "〒602-8386 京都府京都市上京区馬喰町",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to special sacred sites around the world.\nToday, I will guide you to...",
+      "link": "/shrine/kitano_tenmangu",
+      "has_onsen": true
+    },
+    {
+      "id": "heian_jingu",
+      "title": "The Red Heart of Kyoto's Millennium of History: A Stroll Through Heian Jingu's Majestic Architecture and Secret Garden",
+      "lat": 35.016012,
+      "lng": 135.782543,
+      "categories": [
+        "History",
+        "Success",
+        "Love"
+      ],
+      "thumbnail": "/content/images/heian_jingu.webp",
+      "address": "〒606-8341 京都府京都市左京区岡崎西天王町97",
+      "published": "2025-12-18",
+      "summary": "Hello, this is your 'JinjaMap' editor, traveling to beautiful sacred sites around the world.\nToday, I will guide you to ...",
+      "link": "/shrine/heian_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "usa_jingu",
+      "title": "Usa Jingu, Head Shrine of Japan's Hachiman Shrines: Meet the God of Victory at the Pinnacle of 44,000 Shrines",
+      "lat": 33.526512,
+      "lng": 131.374243,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/usa_jingu.webp",
+      "address": "〒872-0102 大分県宇佐市南宇佐2859",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to the qui...",
+      "link": "/shrine/usa_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "sanoyakuyoke_daishi",
+      "title": "A Millennia-Old Temple to Ward Off Misfortune: Miracles at Sano Yakuyoke Daishi and the Taste of Sano Ramen",
+      "lat": 36.315243,
+      "lng": 139.574612,
+      "categories": [
+        "Health",
+        "Safety",
+        "History"
+      ],
+      "thumbnail": "/content/images/sanoyakuyoke_daishi.webp",
+      "address": "〒327-0015 栃木県佐野市金井上町2233",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to 'Sano...",
+      "link": "/shrine/sanoyakuyoke_daishi",
+      "has_onsen": true
+    },
+    {
+      "id": "yasui_konpiragu",
+      "title": "Sever Bad Ties, Forge Good Ones: A New Beginning at Kyoto's Yasui Konpiragu Shrine",
+      "lat": 34.999567,
+      "lng": 135.776654,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/yasui_konpiragu.webp",
+      "address": "〒605-0823 70 Shimobentencho, Higashiyama Ward, Kyoto",
+      "published": "2025-12-18",
+      "summary": "Hello, this is your editor from 'JinjaMap', a journey to mystical sacred sites around the world.\nToday, I will guide you...",
+      "link": "/shrine/yasui_konpiragu",
+      "has_onsen": true
+    },
+    {
+      "id": "hakodate_hachimangu",
+      "title": "The Northern Sanctuary for Victory and Success: Encountering the Squid Amulet and Yachigashira Onsen at Hakodate Hachimangu Shrine",
+      "lat": 41.748312,
+      "lng": 140.714243,
+      "categories": [
+        "Success",
+        "History",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/hakodate_hachimangu.webp",
+      "address": "2-5 Yachigashira-cho, Hakodate, Hokkaido 040-0046",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' where we journey to discover hidden gem-like sacred sites around the world.\nTod...",
+      "link": "/shrine/hakodate_hachimangu",
+      "has_onsen": true
+    },
+    {
+      "id": "yoshida_shrine",
+      "title": "Yoshida Shrine, the Forest That Changed the History of Japanese Shinto: In Search of the Ultimate Power Spot Where Eight Million Gods Gather",
+      "lat": 35.024712,
+      "lng": 135.787654,
+      "categories": [
+        "History",
+        "Success",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/yoshida_shrine.webp",
+      "address": "〒606-8311 京都府京都市左京区吉田神楽岡町30",
+      "published": "2025-12-18",
+      "summary": "Hello, this is the editor of 'JinjaMap,' where we introduce profound sacred sites from around the world.\nToday, I will g...",
+      "link": "/shrine/yoshida_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kiyomizu_dera",
+      "title": "The 13-Meter Miracle on a Cliff: Discover a Millennium of History and the Blessings of Three Sacred Streams at Kyoto's Kiyomizu-dera Temple",
+      "lat": 34.994712,
+      "lng": 135.785345,
+      "categories": [
+        "History",
+        "Health",
+        "Academics"
+      ],
+      "thumbnail": "/content/images/kiyomizu_dera.webp",
+      "address": "〒605-0862 京都府京都市東山区清水1丁目294",
+      "published": "2025-12-18",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to a templ...",
+      "link": "/shrine/kiyomizu_dera",
+      "has_onsen": true
+    },
+    {
+      "id": "hokoku_shrine",
+      "title": "The Guardian of Osaka Castle: Encountering Toyotomi Hideyoshi's Success Story at Hokoku Shrine",
+      "lat": 34.685212,
+      "lng": 135.526212,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/hokoku_shrine.webp",
+      "address": "〒540-0002 大阪府大阪市中央区大阪城２−1",
+      "published": "2025-12-18",
+      "summary": "Hello, dear readers! This is your editor from 'JinjaMap,' here to add more depth to your travels.\nOsaka Castle is a must...",
+      "link": "/shrine/hokoku_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "motonosumi",
+      "title": "A Hidden Gem in Japan Praised by CNN! A Complete Guide to Yamaguchi's 'Motonosumi Shrine,' Where 123 Red Torii Gates Dance",
+      "lat": 34.426732,
+      "lng": 131.056035,
+      "categories": [
+        "Success",
+        "Love",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/motonosumi_shrine.webp",
+      "address": "〒759-4712 山口県長門市油谷津黄498",
+      "published": "2025-12-17",
+      "summary": "On the edge of a cliff in Nagato, Yamaguchi Prefecture, where the rough waves of the blue East Sea crash into white foam...",
+      "link": "/shrine/motonosumi",
+      "has_onsen": true
+    },
+    {
+      "id": "yahiko_shrine",
+      "title": "The 2,400-Year-Old Mystery, Meeting the Guardian of Echigo: Yahiko Shrine's Powerful Pioneering Energy and the Hinotamaishi",
+      "lat": 37.699742,
+      "lng": 138.825243,
+      "categories": [
+        "Success",
+        "History",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/yahiko_shrine.webp",
+      "address": "〒959-0393 新潟県西蒲原郡弥彦村弥彦2887-2",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to discovering Japan's hidden sacred gems.\nToday, I will guide you t...",
+      "link": "/shrine/yahiko_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "izumo_taisha",
+      "title": "The Pinnacle of Japanese Mythology, the Palace of the God of Bonds: A Special Pilgrimage with 8 Million Gods at Shimane's Izumo Taisha",
+      "lat": 35.399512,
+      "lng": 132.685243,
+      "categories": [
+        "Love",
+        "History",
+        "Fortune"
+      ],
+      "thumbnail": "/content/images/izumo_taisha.webp",
+      "address": "〒699-0701 島根県出雲市大社町杵築東195",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' introducing mystical sacred sites from around the world.\nToday, we will guide y...",
+      "link": "/shrine/izumo_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "munakata_taisha",
+      "title": "A Sacred Site for Maritime Safety and Life's Journey: Discover 80,000 National Treasures at Munakata Taisha, Fukuoka",
+      "lat": 33.830512,
+      "lng": 130.513543,
+      "categories": [
+        "Safety",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/munakata_taisha.webp",
+      "address": "〒811-3505 福岡県宗像市田島2331",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is the editor of 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to Munakata...",
+      "link": "/shrine/munakata_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "kumano_hongu_taisha",
+      "title": "The Soul's Rebirth at the End of a Thousand-Year Pilgrimage: Kumano Hongu Taisha and the Great Silence of Oyunohara",
+      "lat": 33.840767,
+      "lng": 135.773825,
+      "categories": [
+        "History",
+        "Success",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kumano_hongu_taisha.webp",
+      "address": "〒647-1731 和歌山県田辺市本宮町本宮1110",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' where we explore and document mystical sacred sites around the world.\nToday, I ...",
+      "link": "/shrine/kumano_hongu_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "toyokawa_inari",
+      "title": "The Legend of a Thousand Foxes that Guarded Edo's Prosperity: Praying for Financial Luck at Toyokawa Inari Tokyo Betsuin in Akasaka",
+      "lat": 35.676512,
+      "lng": 139.734267,
+      "categories": [
+        "Wealth",
+        "Success",
+        "History"
+      ],
+      "thumbnail": "/content/images/toyokawa_inari.webp",
+      "address": "〒107-0051 1-4-7 Motoakasaka, Minato-ku, Tokyo",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is the editor of 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a very s...",
+      "link": "/shrine/toyokawa_inari",
+      "has_onsen": true
+    },
+    {
+      "id": "jishu_shrine",
+      "title": "Jishu Shrine, Kyoto's Ultimate Romantic Sanctuary: The Jomon Period's Love Stones and a Three-Year Wait",
+      "lat": 34.994712,
+      "lng": 135.785345,
+      "categories": [
+        "Love",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/jishu_shrine.webp",
+      "address": "〒605-0862 京都市東山区清水一丁目317",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to romantic sanctuaries around the world.\nToday, I will guide you to...",
+      "link": "/shrine/jishu_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "tsukubasan_shrine",
+      "title": "The Land of Japanese Creation Myths Where Love and Destiny Begin: A Complete Guide to Ibaraki's Tsukubasan Shrine",
+      "lat": 36.212045,
+      "lng": 140.106461,
+      "categories": [
+        "Love",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/tsukubasan_shrine.webp",
+      "address": "〒300-4352 茨城県つくば市筑波1番地",
+      "published": "2025-12-17",
+      "summary": "Hello, dear readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nLeaving the concrete jungle...",
+      "link": "/shrine/tsukubasan_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "tamasaki_shrine",
+      "title": "Where the Sun's Path Begins: Chiba's Tamasaki Shrine, The Black Sanctuary and the Miraculous Barefoot Path",
+      "lat": 35.372545,
+      "lng": 140.365312,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/tamasaki_shrine.webp",
+      "address": "〒299-4301 千葉県長生郡一宮町一宮3048",
+      "published": "2025-12-17",
+      "summary": "Hello, this is your editor from 'JinjaMap', where we seek out moments of rest in our daily lives.\nToday, we're heading t...",
+      "link": "/shrine/tamasaki_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "hakone_shrine",
+      "title": "A Sacred Site on the Lake Imbued with Wishes for Victory and Peace: The Red Torii of Hakone Shrine and the Legend of the Nine-Headed Dragon",
+      "lat": 35.204558,
+      "lng": 139.025348,
+      "categories": [
+        "Success",
+        "History",
+        "Love"
+      ],
+      "thumbnail": "/content/images/hakone_shrine.webp",
+      "address": "〒250-0522 神奈川県足柄下郡箱根町元箱根80-1",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to beautiful sacred sites around the world.\nToday, I will guide yo...",
+      "link": "/shrine/hakone_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "imamiya_ebisu_shrine",
+      "title": "Where the Spirit of Osaka Merchants Lives: Experience the Heat of 'Toka Ebisu' at Imamiya Ebisu Shrine",
+      "lat": 34.655212,
+      "lng": 135.501512,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/imamiya_ebisu_shrine.webp",
+      "address": "〒556-0003 1-6-10 Ebisunishi, Naniwa-ku, Osaka",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' introducing vibrant sacred sites from around the world.\nOsaka is known as the '...",
+      "link": "/shrine/imamiya_ebisu_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kashima_shrine",
+      "title": "Home of the Divine Sword of Victory and New Beginnings: Find the Power of Decision at Ibaraki's Kashima Jingu",
+      "lat": 35.969112,
+      "lng": 140.631267,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kashima_shrine.webp",
+      "address": "〒314-0031 茨城県鹿嶋市宮中 2306-1",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to a mysti...",
+      "link": "/shrine/kashima_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "hie_shrine",
+      "title": "The Divine Monkey Protecting Edo Castle: The Red Torii and Mystical Power of Tokyo's Akasaka Hie Shrine",
+      "lat": 35.674712,
+      "lng": 139.739767,
+      "categories": [
+        "Success",
+        "History",
+        "Love"
+      ],
+      "thumbnail": "/content/images/hie_shrine.webp",
+      "address": "〒100-0014 東京都千代田区永田町2-10-5",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find sacred places like hidden gems in the city.\nToday, I will ...",
+      "link": "/shrine/hie_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "shimogamo_shrine",
+      "title": "Where the Ancient Forest Meets the Flowing River: Forging a Thousand-Year Bond at Kyoto's Shimogamo Shrine",
+      "lat": 35.039212,
+      "lng": 135.773243,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/shimogamo_shrine.webp",
+      "address": "〒606-0807 59 Shimogamo Izumigawacho, Sakyo Ward, Kyoto",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to the n...",
+      "link": "/shrine/shimogamo_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "zeniarai_benten",
+      "title": "Money Washed in a Cave Spring Returns as Manifold Blessings: The Miracle of Kamakura's Zeniarai Benten Shrine",
+      "lat": 35.326212,
+      "lng": 139.542154,
+      "categories": [
+        "Wealth",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/zeniarai_benten.webp",
+      "address": "〒248-0017 神奈川県鎌倉市佐助2丁目25-16",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nJust an hour by train from Tokyo...",
+      "link": "/shrine/zeniarai_benten",
+      "has_onsen": true
+    },
+    {
+      "id": "keta_taisha",
+      "title": "Where the 33,000-Square-Meter Forbidden Forest Breathes: Forging a Thousand-Year Bond at Noto Peninsula's Keta Taisha",
+      "lat": 36.924874,
+      "lng": 136.763523,
+      "categories": [
+        "Love",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/keta_taisha.webp",
+      "address": "〒925-0003 石川県羽咋市寺家町ク1-1",
+      "published": "2025-12-17",
+      "summary": "Hello, fellow travel lovers! This is the editor of 'JinjaMap,' where we introduce hidden gem shrines from all over Japan...",
+      "link": "/shrine/keta_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "hakozakigu",
+      "title": "Fukuoka's Guardian Deity of Victory and Miracles: Encountering the History of 'Surrender of the Enemy Nation' at Hakozakigu Shrine",
+      "lat": 33.614212,
+      "lng": 130.423543,
+      "categories": [
+        "Luck in Competitions",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/hakozakigu.webp",
+      "address": "〒812-0053 福岡県福岡市東区箱崎1-22-1",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a mag...",
+      "link": "/shrine/hakozakigu",
+      "has_onsen": true
+    },
+    {
+      "id": "takachiho_shrine",
+      "title": "Strolling Through the Forest of Myths: Discovering 1900 Years of Mystery and Powerful Matchmaking at Takachiho Shrine",
+      "lat": 32.705123,
+      "lng": 131.306543,
+      "categories": [
+        "History",
+        "Love",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/takachiho_shrine.webp",
+      "address": "〒882-1101 宮崎県西臼杵郡高千穂町大字三田井1037",
+      "published": "2025-12-17",
+      "summary": "Hello to all you travel lovers! This is your 'JinjaMap' editor, here to introduce you to the hidden gems of shrines scat...",
+      "link": "/shrine/takachiho_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kokura_yasaka_shrine",
+      "title": "A 400-Year-Old Prayer on the Beat of a Drum: Feeling the Breath of History at Kitakyushu's Kokura Yasaka Shrine",
+      "lat": 33.884153,
+      "lng": 130.873212,
+      "categories": [
+        "History",
+        "Success",
+        "Love"
+      ],
+      "thumbnail": "/content/images/kokura_yasaka_shrine.webp",
+      "address": "〒803-0813 福岡県北九州市小倉北区城内2-2",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to the hea...",
+      "link": "/shrine/kokura_yasaka_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kuzuryu_shrine",
+      "title": "Encounter the Legend of the Nine-Headed Dragon God in Hakone's Deep Forest: Kuzuryu Shrine Shingu and the Mystic Sacred Water 'Ryujinsui'",
+      "lat": 35.204558,
+      "lng": 139.025348,
+      "categories": [
+        "Wealth",
+        "Love",
+        "History"
+      ],
+      "thumbnail": "/content/images/kuzuryu_shrine.webp",
+      "address": "〒250-0522 神奈川県足柄下郡箱根町元箱根80-1",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor from 'JinjaMap,' introducing sacred places where you can find solace for your soul away from t...",
+      "link": "/shrine/kuzuryu_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "ootori_taisha",
+      "title": "A Mythical Hero's Final Resting Place: Learning the Courage of Resilience and Victory at Ootori Taisha",
+      "lat": 34.536712,
+      "lng": 135.462345,
+      "categories": [
+        "Success",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/ootori_taisha.webp",
+      "address": "〒593-8328 1-1-2 Otori-higashimachi, Nishi-ku, Sakai, Osaka",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is the editor of 'JinjaMap', where we introduce you to hidden, gem-like sacred sites across Japan.\n...",
+      "link": "/shrine/ootori_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "dazaifu_tenmangu",
+      "title": "The Thousand-Year Forest Where the God of Learning Sleeps: Praying for Success and Wisdom at Fukuoka's Dazaifu Tenmangu Shrine",
+      "lat": 33.521512,
+      "lng": 130.534865,
+      "categories": [
+        "Academics",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/dazaifu_tenmangu.webp",
+      "address": "〒818-0117 福岡県太宰府市宰府4丁目7-1",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll guide you to 'Dazaif...",
+      "link": "/shrine/dazaifu_tenmangu",
+      "has_onsen": true
+    },
+    {
+      "id": "koinoki_shrine",
+      "title": "Meet Japan's Only 'God of Love': Fukuoka's Koinoki Shrine, Steeped in Pink Hearts and a Thousand Years of Longing",
+      "lat": 33.204543,
+      "lng": 130.491232,
+      "categories": [
+        "Love",
+        "History"
+      ],
+      "thumbnail": "/content/images/koinoki_shrine.webp",
+      "address": "〒833-0027 福岡県筑後市水田62-1",
+      "published": "2025-12-17",
+      "summary": "Hello, this is an editor from 'JinjaMap,' here to introduce you to the hidden gems of travel.\nToday, I want to invite yo...",
+      "link": "/shrine/koinoki_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "osaka_ohatsutenjin",
+      "title": "A Sacred Place for Love Hidden in Osaka's Concrete Jungle: Forging a Thousand-Year Bond at Tsuyunoten Shrine (Ohatsu Tenjin)",
+      "lat": 34.699478,
+      "lng": 135.50117,
+      "categories": [
+        "Love",
+        "History",
+        "Academics"
+      ],
+      "thumbnail": "/content/images/osaka_ohatsutenjin.webp",
+      "address": "〒530-0057 2-5-4 Sonezaki, Kita-ku, Osaka",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' introducing you to the hidden gems of the city.\nIn Umeda (梅田), the heart of Osa...",
+      "link": "/shrine/osaka_ohatsutenjin",
+      "has_onsen": true
+    },
+    {
+      "id": "udo_jingu",
+      "title": "Encountering the Legend of the Dragon Palace in a Cave Beneath a Cliff: A Mystical Pilgrimage to Udo Shrine in Miyazaki",
+      "lat": 31.649722,
+      "lng": 131.465556,
+      "categories": [
+        "Love",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/udo_jingu.webp",
+      "address": "〒887-0101 宮崎県日南市大字宮浦3232番地",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor from 'JinjaMap,' here to share the excitement of travel.\nToday, I want to guide you to the Nic...",
+      "link": "/shrine/udo_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "anamori_inari",
+      "title": "The Red Guardian of the Skies: Tokyo's Anamori Inari Shrine, its Red Torii Tunnel, and Mysterious Sand",
+      "lat": 35.549212,
+      "lng": 139.743154,
+      "categories": [
+        "Success",
+        "Wealth",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/anamori_inari.webp",
+      "address": "〒144-0043 東京都大田区羽田5丁目2-7",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor from 'JinjaMap,' where we journey to special sacred sites around the world.\nToday, we introduc...",
+      "link": "/shrine/anamori_inari",
+      "has_onsen": true
+    },
+    {
+      "id": "chogosonshiji_temple",
+      "title": "The Sacred Ground of Victory Where the Tiger's Spirit Roars: Encounter the Legend of Bishamonten at Chogosonshiji Temple on Mount Shigi, Nara",
+      "lat": 34.608312,
+      "lng": 135.671312,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/chogosonshiji_temple.webp",
+      "address": "〒636-0923 奈良県生駒郡平群町信貴山2280-1",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is the editor of 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a rugged...",
+      "link": "/shrine/chogosonshiji_temple",
+      "has_onsen": true
+    },
+    {
+      "id": "kawagoe_hikawa_shrine",
+      "title": "A Place Steeped in a 1,500-Year Legend of Love: Finding the Red Thread of Fate at Kawagoe Hikawa Shrine",
+      "lat": 35.926512,
+      "lng": 139.489712,
+      "categories": [
+        "Love",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kawagoe_hikawa_shrine.webp",
+      "address": "〒350-0052 埼玉県川越市宮下町2-11-3",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nJust about an hour by train from...",
+      "link": "/shrine/kawagoe_hikawa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "miho_shrine",
+      "title": "Where the Myths and Bounties of the Sea Meet: Forging a Special Connection with Lord Ebisu at Shimane's Miho Shrine",
+      "lat": 35.556212,
+      "lng": 133.307312,
+      "categories": [
+        "Wealth",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/miho_shrine.webp",
+      "address": "〒690-1501 島根県松江市美保関町美保関608",
+      "published": "2025-12-17",
+      "summary": "Hello, this is your editor from 'JinjaMap,' where we explore sacred and mystical sites around the world.\nToday, I'll gui...",
+      "link": "/shrine/miho_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "yasaka_shrine",
+      "title": "The Red Heart of Kyoto's Gion, Yasaka Shrine: The Guardian Deity Who Fended Off a 1300-Year-Old Plague and the Mystical Spring That Bestows Beauty",
+      "lat": 35.003656,
+      "lng": 135.778553,
+      "categories": [
+        "History",
+        "Health",
+        "Love"
+      ],
+      "thumbnail": "/content/images/yasaka_shrine.webp",
+      "address": "〒605-0073 625 Gionmachi Kitagawa, Higashiyama Ward, Kyoto",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' where we introduce mystical sacred sites from around the world.\nIn the thousand...",
+      "link": "/shrine/yasaka_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "oosaki_hachimangu",
+      "title": "Osaki Hachimangu, Sendai's Black Jewel: The Victorious Prayers and National Treasure Left by Date Masamune",
+      "lat": 38.272112,
+      "lng": 140.843612,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/oosaki_hachimangu.webp",
+      "address": "〒980-0871 宮城県仙台市青葉区八幡4丁目6-1",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find hidden gems and sacred sites around the world.\nToday, I wi...",
+      "link": "/shrine/oosaki_hachimangu",
+      "has_onsen": true
+    },
+    {
+      "id": "aoshima_shrine",
+      "title": "Crossing the Ogre's Washboard to the Island of Love: Forging a Millennial Bond at Miyazaki's Aoshima Shrine",
+      "lat": 31.804153,
+      "lng": 131.474612,
+      "categories": [
+        "Love",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/aoshima_shrine.webp",
+      "address": "〒889-2162 宮崎県宮崎市青島2丁目13番1号",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I want to guide you to a ...",
+      "link": "/shrine/aoshima_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "takase_shrine",
+      "title": "A Thousand-Year Bond and Healing Forged by a Rabbit: Toyama's Takase Shrine, the Majesty of Echigo Ichinomiya",
+      "lat": 36.604212,
+      "lng": 136.965412,
+      "categories": [
+        "Success",
+        "Love",
+        "Health"
+      ],
+      "thumbnail": "/content/images/takase_shrine.webp",
+      "address": "〒932-0252 富山県南砺市高瀬291",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find Japan's hidden sacred sites.\nToday, I invite you to the de...",
+      "link": "/shrine/takase_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "yoshino_jingu",
+      "title": "Unyielding Loyalty Blossoming Amidst Historical Tragedy: Encountering Emperor Go-Daigo's Dream at Yoshino Jingu Shrine, Nara",
+      "lat": 34.368385,
+      "lng": 135.85617,
+      "categories": [
+        "History",
+        "Success",
+        "Academics"
+      ],
+      "thumbnail": "/content/images/yoshino_jingu.webp",
+      "address": "〒639-3115 奈良県吉野郡吉野町吉野山3226",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is the editor of 'JinjaMap,' here to add depth to your travels.\nToday, I will guide you to a place ...",
+      "link": "/shrine/yoshino_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "nonomiya_shrine",
+      "title": "A Forest Imbued with the Romance of the Tale of Genji: The Bamboo Grove Path and Love Stone of Nonomiya Shrine in Arashiyama, Kyoto",
+      "lat": 35.017742,
+      "lng": 135.674212,
+      "categories": [
+        "Love",
+        "History",
+        "Academics"
+      ],
+      "thumbnail": "/content/images/nonomiya_shrine.webp",
+      "address": "〒616-8393 京都府京都市右京区嵯峨野宮町1",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find beautiful sacred sites around the world.\nToday, I will gui...",
+      "link": "/shrine/nonomiya_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "motonosumi_shrine",
+      "title": "A Japanese Scenic View Praised by CNN: The Tunnel of 123 Red Torii Gates and the Legend of the White Fox, Motonosumi Shrine",
+      "lat": 34.426742,
+      "lng": 131.056905,
+      "categories": [
+        "Success",
+        "Love",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/motonosumi_shrine.webp",
+      "address": "〒759-4712 山口県長門市油谷津黄498",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap', traveling the world to find hidden gem-like shrines.\nToday, I want to guide you...",
+      "link": "/shrine/motonosumi_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "tamatsukuri_inari_shrine",
+      "title": "Guardian of Osaka Castle, Tamatsukuri Inari Shrine: The Legend of the Fox that Binds Love and Fulfills Toyotomi Hideyoshi's Wish",
+      "lat": 34.678256,
+      "lng": 135.530263,
+      "categories": [
+        "History",
+        "Love",
+        "Success"
+      ],
+      "thumbnail": "/content/images/tamatsukuri_inari_shrine.webp",
+      "address": "〒540-0004 大阪府大阪市中央区玉造２丁目３−８",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor from 'JinjaMap', where we introduce hidden sacred sites from around the world.\nOsaka is a city...",
+      "link": "/shrine/tamatsukuri_inari_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "hikawa_shrine",
+      "title": "The Best Sacred Site Near Tokyo with 2,400 Years of Mystery: Encountering Fated Connections at Omiya Hikawa Shrine",
+      "lat": 35.916712,
+      "lng": 139.629745,
+      "categories": [
+        "Love",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/hikawa_shrine.webp",
+      "address": "〒330-0803 埼玉県さいたま市大宮区高鼻町1-407",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nWhile the glamour of Tokyo is wo...",
+      "link": "/shrine/hikawa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "futarasan_shrine",
+      "title": "Futarasan Shrine, The True Heart of Nikko: 1200 Years of Myth and Golden Bonds of Love",
+      "lat": 36.758368,
+      "lng": 139.596347,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/futarasan_shrine.webp",
+      "address": "2307 Sannai, Nikko, Tochigi 321-1431",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor from 'JinjaMap,' where we introduce you to hidden sacred gems around the world.\nToday, I will ...",
+      "link": "/shrine/futarasan_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "tokyo_daijingu",
+      "title": "In the Heart of Tokyo, Meet the Gods of Ise Grand Shrine: Finding Love and Happiness at Tokyo Daijingu, the Sacred Place of Relationships",
+      "lat": 35.699712,
+      "lng": 139.746156,
+      "categories": [
+        "Love",
+        "History",
+        "Success"
+      ],
+      "thumbnail": "/content/images/tokyo_daijingu.webp",
+      "address": "〒102-0071 東京都千代田区富士見2-4-1",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' on a journey to find hidden gems and sacred places in the city.\nDid you know th...",
+      "link": "/shrine/tokyo_daijingu",
+      "has_onsen": true
+    },
+    {
+      "id": "isaniwa_shrine",
+      "title": "The Crimson Jewel of Dogo Onsen: Meet the God of Victory at the Top of 135 Steps, Isaniwa Shrine",
+      "lat": 33.851612,
+      "lng": 132.788415,
+      "categories": [
+        "Success",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/isaniwa_shrine.webp",
+      "address": "〒790-0838 愛媛県松山市桜谷町173",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I'll be guiding you to Ma...",
+      "link": "/shrine/isaniwa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kumano_taisha",
+      "title": "Find the Three Hidden Rabbits: The Legend of Love and Connection at Yamagata's Kumano Taisha Shrine",
+      "lat": 38.077212,
+      "lng": 140.115423,
+      "categories": [
+        "Love",
+        "History",
+        "Wealth"
+      ],
+      "thumbnail": "/content/images/kumano_taisha.webp",
+      "address": "〒992-0472 山形県南陽市宮内3476-1",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, we're heading to Yamagata...",
+      "link": "/shrine/kumano_taisha",
+      "has_onsen": true
+    },
+    {
+      "id": "kirishima_jingu",
+      "title": "Kirishima Jingu, the Start of Japan's Founding Myth: Meet the 9 Masks and an 800-Year-Old Cedar in the Land of Tenson Korin",
+      "lat": 31.857212,
+      "lng": 130.869512,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kirishima_jingu.webp",
+      "address": "〒899-4201 鹿児島県霧島市霧島田口2608-5",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' introducing mystical sacred sites from around the world.\nToday, I'll guide you ...",
+      "link": "/shrine/kirishima_jingu",
+      "has_onsen": true
+    },
+    {
+      "id": "nishinomiya_shrine",
+      "title": "Nishinomiya Shrine, the Head Shrine of Japan's God of Fortune: The Miracle of Abundance and Good Luck from 'Ebisu-sama'",
+      "lat": 34.733568,
+      "lng": 135.336154,
+      "categories": [
+        "Wealth",
+        "Success",
+        "History"
+      ],
+      "thumbnail": "/content/images/nishinomiya_shrine.webp",
+      "address": "1-17 Shakecho, Nishinomiya, Hyogo 662-0974",
+      "published": "2025-12-17",
+      "summary": "Hello, dear readers! This is your editor from 'JinjaMap,' here to add depth to your travels.\nToday, I invite you to a sp...",
+      "link": "/shrine/nishinomiya_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "hirota_shrine",
+      "title": "The Hanshin Tigers' Annual Pilgrimage for Victory: The Powerful Winning Luck and Azalea Blessings of Hyogo's Hirota Shrine",
+      "lat": 34.754712,
+      "lng": 135.342156,
+      "categories": [
+        "Success",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/hirota_shrine.webp",
+      "address": "〒662-0867 兵庫県西宮市大社町7-7",
+      "published": "2025-12-17",
+      "summary": "Hello, readers! This is the editor from 'JinjaMap,' introducing you to unique shrines across Japan.\nToday, I'll guide yo...",
+      "link": "/shrine/hirota_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "chiyohoinari_shrine",
+      "title": "The Miracle of the Golden Rice Ears, Ochobo-san: A Pilgrimage to Gifu's Chiyohoinari Shrine for Business Prosperity and Success",
+      "lat": 35.295245,
+      "lng": 136.658712,
+      "categories": [
+        "Success",
+        "Wealth",
+        "History"
+      ],
+      "thumbnail": "/content/images/chiyohoinari_shrine.webp",
+      "address": "〒503-0303 Gifu, Kaizu, Hiratacho Misato, 1980",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor of 'JinjaMap,' your guide to special sacred sites around the world.\nToday, I will guide you to...",
+      "link": "/shrine/chiyohoinari_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kifune_shrine",
+      "title": "Kifune Shrine, a Hidden Gem of Kyoto and a Sanctuary of Water: A Mystical Encounter with Red Lanterns and Water Fortune-Telling",
+      "lat": 35.122512,
+      "lng": 135.763545,
+      "categories": [
+        "Love",
+        "History",
+        "Health"
+      ],
+      "thumbnail": "/content/images/kifune_shrine.webp",
+      "address": "〒601-1112 180 Kurama-kibune-cho, Sakyo-ku, Kyoto",
+      "published": "2025-12-17",
+      "summary": "Hello, this is the editor from 'JinjaMap,' on a journey to discover beautiful sacred sites around the world.\nToday, we l...",
+      "link": "/shrine/kifune_shrine",
+      "has_onsen": true
     },
     {
       "id": "kasama_omamori_fox",
-      "title": "1,370년의 신비, 일본 3대 이나리 '가사마 이나리 신사'에서 만나는 풍요와 예술의 여행",
+      "title": "A Journey of Prosperity and Art: Discovering 1,370 Years of Mystery at Kasama Inari Shrine, One of Japan's Three Great Inari Shrines",
       "lat": 36.38426,
       "lng": 140.258942,
       "categories": [
-        "이바라키",
-        "신사",
-        "역사"
+        "Ibaraki",
+        "Shrine",
+        "History"
       ],
       "thumbnail": "/content/images/kasama_inari_main.webp",
       "address": "茨城県笠間市笠間1番地 (1 Kasama, Kasama-shi, Ibaraki)",
       "published": "2025-12-02",
-      "summary": "이바라키현 가사마시, 고즈넉한 풍경 속에 자리한 이곳은 **일본 3대 이나리(日本三大稲荷)** 중 하나로 꼽히는 유서 깊은 성지, **가사마 이나리 신사(笠間稲荷神社)**입니다. ...",
-      "link": "/shrine/kasama_omamori_fox"
+      "summary": "Nestled in the tranquil landscape of Kasama City, Ibaraki Prefecture, lies Kasama Inari Shrine (笠間稲荷神社), a sacred site o...",
+      "link": "/shrine/kasama_omamori_fox",
+      "has_onsen": true
     },
     {
       "id": "kasama_inari_shrine",
-      "title": "일본 3대 이나리의 위엄! 1,370년 역사가 깃든 사업 번창의 성지 '가사마 이나리 신사' 완전 정복",
+      "title": "The Majesty of One of Japan's Three Great Inari Shrines! A Complete Guide to Kasama Inari Shrine, a Sacred Site for Business Prosperity with 1,370 Years of History",
       "lat": 36.386124,
       "lng": 140.257321,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/kasama_inari_shrine.webp",
-      "address": "이바라키현 가사마시 가사마 1 (〒309-1611)",
+      "address": "1 Kasama, Kasama City, Ibaraki Prefecture (〒309-1611)",
       "published": "2025-12-02",
-      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n도심의 빌딩 숲을 벗어나 조금은 고즈넉한 풍경 속으로 들어가 보고 싶지 않으신가요? 오늘은 이바라키현 가사마시의 평화로운 풍경 ...",
-      "link": "/shrine/kasama_inari_shrine"
+      "summary": "Hello, this is the JinjaMap editor.\nDon't you ever feel the urge to escape the urban jungle of skyscrapers and step into...",
+      "link": "/shrine/kasama_inari_shrine",
+      "has_onsen": true
     },
     {
-      "id": "kasama_inari",
-      "title": "[이바라키] 일본 3대 이나리의 품격, 1370년 역사가 깃든 '가사마 이나리 신사' 완전 정복",
-      "lat": 36.386938,
-      "lng": 140.258757,
+      "id": "akita_suwa_shrine",
+      "title": "Where the Divine Tree of Victory Grows! The 400-Year History of Akita's 'Suwa-miya Shrine,' Where a Warlord Vowed and a God Answered",
+      "lat": 39.418083,
+      "lng": 140.547139,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Success",
+        "Fortune",
+        "History"
       ],
-      "thumbnail": "/content/images/kasama_inari.webp",
-      "address": "1 Kasama, Kasama, Ibaraki 309-1611, Japan",
+      "thumbnail": "/content/images/akita_suwa_shrine.webp",
+      "address": "59 Hondo-machi, Rokugo, Misato-cho, Senboku-gun, Akita Prefecture (〒019-1404)",
       "published": "2025-12-02",
-      "summary": "이바라키현 가사마시, 고즈넉한 풍경 속에 자리한 이곳은 **일본 3대 이나리(日本三大稲荷)** 중 하나로 꼽히는 유서 깊은 성지, **가사마 이나리 신사**입니다. 단순한 참배의 ...",
-      "link": "/shrine/kasama_inari"
+      "summary": "Nestled in the wide plains of Akita, in the town of Misato (美郷町) where clear springs gush forth, lies Akita Suwa-miya Sh...",
+      "link": "/shrine/akita_suwa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "takahashi_inari_shrine",
+      "title": "Kumamoto's Crimson Secret! The 500-Year-Old Fox's Promise of Abundance at 'Takahashi Inari Shrine'",
+      "lat": 32.812222,
+      "lng": 130.687222,
+      "categories": [
+        "Wealth",
+        "Success",
+        "History"
+      ],
+      "thumbnail": "/content/images/takahashi_inari_shrine.webp",
+      "address": "1-83-1 Kamitakahashi, Nishi-ku, Kumamoto-shi, Kumamoto Prefecture (〒860-0058)",
+      "published": "2025-12-02",
+      "summary": "Just a short distance from the bustling city center of Kumamoto, there is a place where time seems to stand still, envel...",
+      "link": "/shrine/takahashi_inari_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "kibitsu_shrine",
+      "title": "The True Stage of the Momotaro Legend! A Pilgrimage to Okayama's 'Kibitsu Shrine,' Boasting Japan's Unique Architectural Beauty",
+      "lat": 34.669866,
+      "lng": 133.851722,
+      "categories": [
+        "Success",
+        "History",
+        "Safety"
+      ],
+      "thumbnail": "/content/images/kibitsu_shrine.webp",
+      "address": "931 Kibitsu, Kita-ku, Okayama-shi, Okayama Prefecture (〒701-1341)",
+      "published": "2025-12-02",
+      "summary": "Hello, this is the JinjaMap editor.\nToday, we will guide you to Kibitsu Shrine (吉備津神社), the true stage of the Japanese f...",
+      "link": "/shrine/kibitsu_shrine",
+      "has_onsen": true
     },
     {
       "id": "saijo_inari",
-      "title": "[오카야마] 신사와 사찰의 기묘한 동거, 1200년 역사의 '사이조 이나리' 완벽 가이드",
+      "title": "[Okayama] The Curious Cohabitation of a Shrine and Temple: A Complete Guide to the 1200-Year-Old 'Saijo Inari'",
       "lat": 34.707153,
       "lng": 133.829064,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/saijo_inari.webp",
       "address": "712 Takamatsu Inari, Kita Ward, Okayama, 701-1331, Japan",
       "published": "2025-12-02",
-      "summary": "오카야마현을 여행하다 보면 붉은 도리이가 끝없이 펼쳐진 신비로운 장소를 마주하게 됩니다. 하지만 이곳은 단순한 신사가 아닙니다. 1200년이라는 긴 세월 동안 불교와 신토가 서로를...",
-      "link": "/shrine/saijo_inari"
+      "summary": "When traveling through Okayama Prefecture, you may encounter a mystical place where red torii gates stretch endlessly. B...",
+      "link": "/shrine/saijo_inari",
+      "has_onsen": true
     },
     {
       "id": "daikokushu_shrine",
-      "title": "오사카 상인들의 비밀! 재물운과 인연을 한 번에 잡는 '다이코쿠슈 신사' 완전 정복",
+      "title": "The Secret of Osaka Merchants! Mastering Daikokushu Shrine to Seize Wealth and Good Fortune",
       "lat": 34.656111,
       "lng": 135.4975,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/daikokushu_shrine.webp",
-      "address": "오사카부 오사카시 나니와구 시키쓰니시 1-2-12 (〒556-0015)",
+      "address": "1-2-12 Shikitsunishi, Naniwa-ku, Osaka-shi, Osaka-fu (〒556-0015)",
       "published": "2025-11-30",
-      "summary": "오사카의 번화가 난바(難波)에서 그리 멀지 않은 곳, 분주한 도시의 소음 속에서도 고요한 위엄을 잃지 않는 성지가 있습니다. 현지인들에게는 **'기즈노 다이코쿠상(木津の大国さん)'...",
-      "link": "/shrine/daikokushu_shrine"
+      "summary": "Not far from Osaka's bustling Namba district, amidst the noise of the busy city, lies a sacred ground that maintains a q...",
+      "link": "/shrine/daikokushu_shrine",
+      "has_onsen": true
     },
     {
       "id": "toyokawa_main_gate",
-      "title": "수천 마리의 여우가 지키는 소원의 성지, 아이치현 '도요카와 이나리' 완벽 순례 가이드",
+      "title": "A Sacred Site of Wishes Guarded by Thousands of Foxes: The Complete Pilgrimage Guide to Toyokawa Inari in Aichi Prefecture",
       "lat": 34.825126,
       "lng": 137.394142,
       "categories": [
-        "아이치",
-        "역사",
-        "파워스팟"
+        "Aichi",
+        "History",
+        "Power Spot"
       ],
       "thumbnail": "/content/images/toyokawa_inari_main.webp",
       "address": "愛知県豊川市豊川町1番地 (1 Toyokawa-cho, Toyokawa-shi, Aichi)",
       "published": "2025-11-30",
-      "summary": "일본 전역에 붉은 토리이가 끝없이 이어진 길, 그리고 그 곁을 지키는 신비로운 여우 석상. '이나리(稲荷)'라는 이름은 우리에게 풍요와 번영의 상징으로 깊이 각인되어 있습니다. 하...",
-      "link": "/shrine/toyokawa_main_gate"
+      "summary": "Across Japan, there are paths of endless red torii gates, guarded by mystical fox statues. The name 'Inari' is deeply in...",
+      "link": "/shrine/toyokawa_main_gate",
+      "has_onsen": true
     },
     {
       "id": "shinagawa_shrine",
-      "title": "도쿄에서 용의 기운을 받다! 쇼군이 선택한 성공과 번영의 성지 '시나가와 신사' 완전 정복",
+      "title": "Harness the Dragon's Energy in Tokyo! A Complete Guide to Shinagawa Shrine, the Shogun's Chosen Sanctuary for Success and Prosperity",
       "lat": 35.619888,
       "lng": 139.740428,
       "categories": [
-        "성공",
-        "재물",
-        "역사"
+        "Success",
+        "Wealth",
+        "History"
       ],
       "thumbnail": "/content/images/shinagawa_shrine.webp",
-      "address": "도쿄도 시나가와구 기타시나가와 3-7-15 (〒140-0001)",
+      "address": "3-7-15 Kita-Shinagawa, Shinagawa-ku, Tokyo (〒140-0001)",
       "published": "2025-11-30",
-      "summary": "도쿄의 번잡함 속에서 잠시 숨을 고르고, 시공을 초월한 영적인 기운을 느끼고 싶을 때, 저는 주저 없이 **시나가와 신사(品川神社)**로 발걸음을 향합니다.\n\n빌딩 숲 사이에 자리...",
-      "link": "/shrine/shinagawa_shrine"
-    },
-    {
-      "id": "matsunoo_taisha",
-      "title": "[교토] 술의 신과 만나는 신비로운 시간, 일본 최고(最古)의 신사 '마츠노오 타이샤'",
-      "lat": 35.000301,
-      "lng": 135.685577,
-      "categories": [
-        "성공",
-        "역사",
-        "재물"
-      ],
-      "thumbnail": "/content/images/matsunoo_taisha.webp",
-      "address": "3 Arashiyama Miyamachi, Nishikyo Ward, Kyoto, 616-0024, Japan",
-      "published": "2025-11-30",
-      "summary": "교토(京都)라는 도시의 서쪽 끝, 아라시야마(嵐山)의 한적한 기슭에 자리한 **마츠노오 타이샤(松尾大社)**. 이곳은 화려한 관광지의 소란스러움에서 한 걸음 비켜나, 수천 년의 역...",
-      "link": "/shrine/matsunoo_taisha"
+      "summary": "When I want to take a breath amidst the hustle and bustle of Tokyo and feel a spiritual energy that transcends time and ...",
+      "link": "/shrine/shinagawa_shrine",
+      "has_onsen": true
     },
     {
       "id": "hoto_shrine",
-      "title": "로또 1등 당첨의 성지? 배 타고 가는 보물섬, 사가현 '호토 신사' 참배 가이드",
+      "title": "The Mecca of First-Prize Lottery Winners? A Pilgrim's Guide to Hoto Shrine in Saga, the Treasure Island You Reach by Boat",
       "lat": 33.48002,
       "lng": 129.98715,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/hoto_shrine.webp",
-      "address": "사가현 가라쓰시 다카시마 523 (〒847-0027)",
+      "address": "523 Takashima, Karatsu, Saga 847-0027",
       "published": "2025-11-30",
-      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n오늘은 규슈 북서부, 사가현 가라쓰시(唐津市)의 앞바다로 여러분을 안내하려 합니다. 겐카이나다(玄界灘)의 푸른 물결 위에 조용히...",
-      "link": "/shrine/hoto_shrine"
+      "summary": "Hello, this is the JinjaMap editor.\nToday, I want to guide you to the waters off Karatsu City in northwestern Kyushu. Qu...",
+      "link": "/shrine/hoto_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "akasaka_hikawa_shrine",
+      "title": "A Pilgrimage to Akasaka Hikawa Shrine: The Shogun's Beloved Hidden Sanctuary in Tokyo, a 1,000-Year Bond of Fate",
+      "lat": 35.669866,
+      "lng": 139.736417,
+      "categories": [
+        "Love",
+        "Success",
+        "History"
+      ],
+      "thumbnail": "/content/images/akasaka_hikawa_shrine.webp",
+      "address": "6-10-12 Akasaka, Minato-ku, Tokyo (〒107-0052)",
+      "published": "2025-11-30",
+      "summary": "In the heart of Tokyo lies Akasaka (赤坂), a district bustling with glamorous skyscrapers and sophisticated shops. Within ...",
+      "link": "/shrine/akasaka_hikawa_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "imado_shrine",
+      "title": "Home of the Maneki-neko! The Legend of the Red String of Fate, a Perfect Guide to Asakusa's 'Imado Shrine'",
+      "lat": 35.719702,
+      "lng": 139.802061,
+      "categories": [
+        "Love",
+        "Fortune",
+        "History"
+      ],
+      "thumbnail": "/content/images/imado_shrine.webp",
+      "address": "1-5-22 Imado, Taito-ku, Tokyo (〒111-0024)",
+      "published": "2025-11-30",
+      "summary": "Just a step away from the hustle and bustle of Asakusa, in the heart of Tokyo, you'll find a special place where time se...",
+      "link": "/shrine/imado_shrine",
+      "has_onsen": true
     },
     {
       "id": "koami_jinja",
-      "title": "[도쿄] 전쟁과 지진도 피해간 기적의 강운, '고아미 신사'에서 재물운 씻어내기",
+      "title": "[Tokyo] The Miraculous Strong Luck that Survived Wars and Earthquakes: Washing for Wealth at Koami Shrine",
       "lat": 35.683548,
       "lng": 139.780112,
       "categories": [
-        "재물",
-        "안전",
-        "성공"
+        "Wealth",
+        "Safety",
+        "Success"
       ],
       "thumbnail": "/content/images/koami_jinja.webp",
       "address": "16-23 Nihonbashikoamicho, Chuo City, Tokyo 103-0016, Japan",
       "published": "2025-11-30",
-      "summary": "도쿄의 빌딩 숲, 그 숨 가쁜 심장부인 니혼바시(日本橋)에 시간의 흐름을 잊은 듯 고요히 자리한 작은 신사가 있습니다. 그 이름은 **고아미 신사(小網神社)**. 비록 그 규모는 ...",
-      "link": "/shrine/koami_jinja"
+      "summary": "In the forest of skyscrapers that is Tokyo, in its breathless heart of Nihonbashi, there lies a small shrine that sits q...",
+      "link": "/shrine/koami_jinja",
+      "has_onsen": true
     },
     {
       "id": "sakatsura_isosaki_shrine",
-      "title": "로또 1등 당첨의 기운이 서린 곳? 300년 수목 터널을 지나 만나는 이바라키 '사카츠라 이소사키 신사'",
+      "title": "A Place Imbued with the Aura of a First-Prize Lottery Win? Discover Ibaraki's Sakatsura Isosaki Shrine After Passing Through a 300-Year-Old Tree Tunnel",
       "lat": 36.386576,
       "lng": 140.609144,
       "categories": [
-        "재물",
-        "건강",
-        "역사"
+        "Wealth",
+        "Health",
+        "History"
       ],
       "thumbnail": "/content/images/sakatsura_isosaki_shrine.webp",
-      "address": "이바라키현 히타치나카시 이소자키초 4607-2 (〒311-1202)",
+      "address": "4607-2 Isozakicho, Hitachinaka, Ibaraki Prefecture (〒311-1202)",
       "published": "2025-11-30",
-      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n도쿄에서 조금만 벗어나면 만날 수 있는 이바라키현. 이곳에는 드넓은 태평양을 마주하고 선, 시간의 흐름조차 비켜 간 듯한 고요한...",
-      "link": "/shrine/sakatsura_isosaki_shrine"
+      "summary": "Hello, this is the JinjaMap editor.\nJust a short trip from Tokyo lies Ibaraki Prefecture. Here, facing the vast Pacific ...",
+      "link": "/shrine/sakatsura_isosaki_shrine",
+      "has_onsen": true
     },
     {
       "id": "iwakuni_shirohebi_shrine",
-      "title": "살아있는 신의 사자를 만나다! 재물운이 폭발하는 야마구치 '이와쿠니 시로헤비 신사' 순례",
+      "title": "Meet the Messenger of a Living God! A Pilgrimage to Yamaguchi's 'Iwakuni Shirohebi Shrine' for an Explosion of Wealth Luck",
       "lat": 34.170428,
       "lng": 132.222341,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/iwakuni_shirohebi_shrine.webp",
-      "address": "야마구치현 이와쿠니시 이마즈마치 6초메 4-2 (〒741-0081)",
+      "address": "6-chome-4-2 Imazumachi, Iwakuni City, Yamaguchi Prefecture (〒741-0081)",
       "published": "2025-11-30",
-      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n야마구치현 동부, 유려한 5연 아치교인 '긴타이쿄(錦帯橋)'와 산 정상에 우뚝 솟은 '이와쿠니 성'으로 유명한 역사 도시 이와쿠...",
-      "link": "/shrine/iwakuni_shirohebi_shrine"
+      "summary": "Hello, this is the JinjaMap editor.\nIn the eastern part of Yamaguchi Prefecture lies the historic city of Iwakuni, famou...",
+      "link": "/shrine/iwakuni_shirohebi_shrine",
+      "has_onsen": true
     },
     {
       "id": "kinkasan_koganeyama",
-      "title": "3년 연속 참배하면 평생 돈 걱정 끝? 일본 최강 금전운 성지 '긴카산 고가네야마 신사' 여행 가이드",
+      "title": "Visit for 3 Consecutive Years for a Lifetime Free of Money Worries? A Traveler's Guide to Kinkasan Koganeyama Shrine, Japan's Ultimate Sacred Site for Financial Luck",
       "lat": 38.29657,
       "lng": 141.563721,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/kinkasan_koganeyama.webp",
       "address": "5 Kinkasan, Ayukawahama, Ishinomaki, Miyagi 986-2523, Japan",
       "published": "2025-11-30",
-      "summary": "미야기현(宮城県) 오시카 반도(牡鹿半島) 끝자락, 태평양의 푸른 물결 위에 홀로 떠 있는 신비로운 섬, **긴카산(金華山)**. 이곳은 섬 전체가 신의 영역으로 여겨지는 성지이자,...",
-      "link": "/shrine/kinkasan_koganeyama"
+      "summary": "At the tip of the Oshika Peninsula in Miyagi Prefecture, a mysterious island floats alone on the blue waves of the Pacif...",
+      "link": "/shrine/kinkasan_koganeyama",
+      "has_onsen": true
     },
     {
       "id": "kogane_shrine",
-      "title": "황금빛 도리이가 부르는 풍요의 약속, 기후 '고가네 신사' 완벽 가이드",
+      "title": "The Golden Torii's Promise of Abundance: A Complete Guide to Gifu's 'Kogane Shrine'",
       "lat": 35.419614,
       "lng": 136.758062,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/kogane_shrine.webp",
-      "address": "기후현 기후시 고가네마치 5초메 3 (〒500-8842)",
+      "address": "5-chome-3 Kogane-machi, Gifu City, Gifu Prefecture (〒500-8842)",
       "published": "2025-11-30",
-      "summary": "기후(岐阜)시의 중심가, 분주한 일상의 소음이 잠시 멎는 곳에 고요히 자리한 성지가 있습니다. 그 이름은 **'고가네 신사(金神社)'**. 황금빛으로 빛나는 이름만큼이나 참배객들의...",
-      "link": "/shrine/kogane_shrine"
+      "summary": "In the center of Gifu (岐阜) City, where the hustle and bustle of daily life momentarily subsides, lies a tranquil sacred ...",
+      "link": "/shrine/kogane_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "arakura_fuji_sengen_shrine",
+      "title": "A Breathtaking View at the Top of 398 Steps! A Symbol of Japan Forged by Mt. Fuji and a Red Pagoda, 'Arakura Fuji Sengen Shrine'",
+      "lat": 35.500583,
+      "lng": 138.801667,
+      "categories": [
+        "History",
+        "Safety",
+        "Love"
+      ],
+      "thumbnail": "/content/images/arakura_fuji_sengen_shrine.webp",
+      "address": "3353-1 Arakura, Fujiyoshida City, Yamanashi Prefecture (〒403-0011)",
+      "published": "2025-11-25",
+      "summary": "\nNot far from Tokyo, in Yamanashi Prefecture, stands a sacred site facing the magnificent Mt. Fuji. The breathtaking vie...",
+      "link": "/shrine/arakura_fuji_sengen_shrine",
+      "has_onsen": true
     },
     {
       "id": "kanemochi_shrine",
-      "title": "로또 1등 당첨자가 비밀로 하는 곳? 일본 최고의 금전운 성지 '가네모치 신사' 완전 정복",
+      "title": "A Lottery Winner's Secret? A Complete Guide to 'Kanemochi Shrine,' Japan's Top Sacred Spot for Financial Luck",
       "lat": 35.24422,
       "lng": 133.43547,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
-      "thumbnail": "/static/images/kanemochi_shrine.webp",
-      "address": "돗토리현 히노군 히노초 가네모치 74 (〒689-4512)",
+      "thumbnail": "/content/images/kanemochi_shrine.webp",
+      "address": "74 Kanemochi, Hino-cho, Hino-gun, Tottori Prefecture (〒689-4512)",
       "published": "2024-11-30",
-      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n오늘 여러분께 소개해 드릴 곳은 일본 전역, 아니 전 세계에서 '돈'을 사랑하는 사람들이라면 누구나 한 번쯤 꿈꾸는 궁극의 파워...",
-      "link": "/shrine/kanemochi_shrine"
+      "summary": "Hello, this is the JinjaMap editor.\nToday, I want to introduce you to the ultimate power spot that anyone who loves 'mon...",
+      "link": "/shrine/kanemochi_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "juban_inari_shrine",
+      "title": "The Legend of the Toad that Extinguishes Fires in the City? A Complete Guide to Azabu-Juban's Hidden Power Spot, 'Juban Inari Shrine'",
+      "lat": 35.655845,
+      "lng": 139.736025,
+      "categories": [
+        "Wealth",
+        "Safety",
+        "History"
+      ],
+      "thumbnail": "/content/images/juban_inari_shrine.webp",
+      "address": "1-4-6 Azabu-Juban, Minato-ku, Tokyo (〒106-0045)",
+      "published": "2024-11-30",
+      "summary": "Hello, this is the JinjaMap editor.\nIn the stylish district of Tokyo, Azabu-Juban, amidst the glittering shops and moder...",
+      "link": "/shrine/juban_inari_shrine",
+      "has_onsen": true
     },
     {
       "id": "araya_yama_shrine",
-      "title": "일본 제일의 금전운 성지, 후지산의 기운을 품은 '아라야야마 신사' 참배 가이드",
+      "title": "A Pilgrimage Guide to Arayayama Shrine: Japan's Top Sacred Site for Financial Fortune, Embracing the Spirit of Mount Fuji",
       "lat": 35.4746,
       "lng": 138.8079,
       "categories": [
-        "재물",
-        "성공",
-        "역사"
+        "Wealth",
+        "Success",
+        "History"
       ],
       "thumbnail": "/content/images/araya_yama_shrine.webp",
-      "address": "야마나시현 후지요시다시 아라야 1230 (〒403-0006)",
+      "address": "1230 Araya, Fujiyoshida-shi, Yamanashi-ken 403-0006",
       "published": "2024-11-30",
-      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n후지산(富士山)의 신령한 기운이 감도는 야마나시 현(山梨県). 이 신성한 산의 기슭에는 수많은 전설과 이야기가 깃들어 있습니다....",
-      "link": "/shrine/araya_yama_shrine"
+      "summary": "Hello, this is the JinjaMap editor.\nIn Yamanashi Prefecture, the sacred spirit of Mount Fuji permeates the air. At the f...",
+      "link": "/shrine/araya_yama_shrine",
+      "has_onsen": true
     },
     {
       "id": "kinkasan_main",
-      "title": "3년 연속 참배하면 평생 돈 걱정 끝? 신비로운 황금의 섬, 긴카산 고가네야마 신사",
+      "title": "Visit for 3 consecutive years and never worry about money again? The mysterious golden island, Kinkasan Koganeyama Shrine",
       "lat": 38.297123,
       "lng": 141.564512,
       "categories": [
-        "미야기",
-        "신사",
-        "파워스팟",
-        "재물"
+        "Miyagi",
+        "Shrine",
+        "Power Spot",
+        "Wealth"
       ],
       "thumbnail": "/content/images/kinkasan_main.webp",
       "address": "986-2523 宮城県石巻市鮎川浜金華山５",
       "published": "2023-11-30",
-      "summary": "미야기현(宮城県) 오시카 반도(牡鹿半島) 끝자락, 태평양의 푸른 물결 위에 홀로 떠 있는 신비로운 섬, **긴카산(金華山)**. 이곳은 섬 전체가 신의 영역으로 여겨지는 성지이자,...",
-      "link": "/shrine/kinkasan_main"
+      "summary": "At the tip of Miyagi Prefecture's Oshika Peninsula, floating alone on the blue waves of the Pacific Ocean, lies the myst...",
+      "link": "/shrine/kinkasan_main",
+      "has_onsen": true
     }
   ]
 }

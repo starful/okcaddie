@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Sacred Site on the Lake Imbued with Wishes for Victory and Peace: The Red Torii of Hakone Shrine and the Legend of the Nine-Headed Dragon"
-date: 2025-12-17
-categories: [Success, History, Love]
-tags:
-  [
-    Hakone,
-    Hakone Shrine,
-    Lake Ashinoko,
-    Torii of Peace,
-    Kuzuryu Shrine,
-    Power Spot,
-    Luck in Competitions,
-    Matchmaking,
-    Day trip from Tokyo,
-    Dragon God,
-  ]
-thumbnail: /content/images/hakone_shrine.webp
-lat: 35.204558
-lng: 139.025348
 address: 〒250-0522 神奈川県足柄下郡箱根町元箱根80-1
-excerpt: The mystery of the red torii gate floating on Lake Ashinoko. Receive the energy of victory and the blessings of the nine-headed dragon god at Hakone Shrine, with its 1200 years of history.
+categories:
+- Success
+- History
+- Love
+date: 2025-12-17
+excerpt: The mystery of the red torii gate floating on Lake Ashinoko. Receive the
+  energy of victory and the blessings of the nine-headed dragon god at Hakone Shrine,
+  with its 1200 years of history.
+lat: 35.204558
+layout: post
+lng: 139.025348
+tags:
+- Hakone
+- Hakone Shrine
+- Lake Ashinoko
+- Torii of Peace
+- Kuzuryu Shrine
+- Power Spot
+- Luck in Competitions
+- Matchmaking
+- Day trip from Tokyo
+- Dragon God
+thumbnail: /content/images/hakone_shrine.webp
+title: 'A Sacred Site on the Lake Imbued with Wishes for Victory and Peace: The Red
+  Torii of Hakone Shrine and the Legend of the Nine-Headed Dragon'
 ---
 
 Hello, this is the editor of 'JinjaMap,' on a journey to beautiful sacred sites around the world.
@@ -134,3 +138,9 @@ A time to pray for peace while gazing at the red torii floating on the lake, and
 If you are facing a new challenge or wish to protect a precious bond, come to the forests of Hakone. The nine-headed dragon god and the deities of victory will surely answer your earnest prayers.
 
 **JinjaMap** will return with another story of a beautiful sacred site in Japan to enrich your soul. May your journey be filled with good fortune! 🐉⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hakone Yuryo (箱根湯寮)
+
+Hakone Yuryo is an excellent choice for a relaxing day-trip onsen experience nearby A Sacred Site on the Lake Imbued with Wishes for Victory and Peace: The Red Torii of Hakone Shrine and the Legend of the Nine-Headed Dragon. It offers a traditional Japanese atmosphere with beautiful natural surroundings, providing a peaceful escape after visiting the shrine. You can easily enjoy a rejuvenating soak and delicious meal, making it a perfect complement to your Hakone sightseeing itinerary. It's ideal for those seeking a convenient and tranquil day-trip onsen experience.

@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Suga Shrine, Japan's First Palace: Encounter a Heroic Myth and the Birth of Waka Poetry"
-date: 2025-12-18
-categories: [Love, History, Success]
-tags:
-  [
-    Shimane,
-    Suga Shrine,
-    Susanoo,
-    Enmusubi,
-    Meoto Iwa,
-    Birthplace of Waka,
-    Power Spot,
-    Izumo Mythology,
-    Kushinadahime,
-    Yakuyoke,
-  ]
-thumbnail: /content/images/suga_shrine.webp
-lat: 35.297512
-lng: 132.964243
 address: 〒690-2404 島根県雲南市大東町須賀260
-excerpt: The place where the hero Susanoo, who defeated the monster Yamata-no-Orochi, built his newlywed home. Receive powerful blessings for relationships and victory at Suga Shrine, Japan's first palace and the birthplace of Waka poetry.
+categories:
+- Love
+- History
+- Success
+date: 2025-12-18
+excerpt: The place where the hero Susanoo, who defeated the monster Yamata-no-Orochi,
+  built his newlywed home. Receive powerful blessings for relationships and victory
+  at Suga Shrine, Japan's first palace and the birthplace of Waka poetry.
+lat: 35.297512
+layout: post
+lng: 132.964243
+tags:
+- Shimane
+- Suga Shrine
+- Susanoo
+- Enmusubi
+- Meoto Iwa
+- Birthplace of Waka
+- Power Spot
+- Izumo Mythology
+- Kushinadahime
+- Yakuyoke
+thumbnail: /content/images/suga_shrine.webp
+title: 'Suga Shrine, Japan''s First Palace: Encounter a Heroic Myth and the Birth
+  of Waka Poetry'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.
@@ -134,3 +138,9 @@ The courage to defeat a monster, the love for a wife, and the romantic spirit to
 If you are embarking on a new beginning or wish to protect the love you share with someone precious, come to Suga Shrine. The refreshing breeze will surely cleanse your heart.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan to inspire your life. May your day also be 'sugasugashii' (refreshing)! ☁️🗡️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yukari-kan (湯YOUパーク ゆかり館)
+
+Yukari-kan is a wonderful **day-trip onsen** offering a **relaxing** experience after visiting the spiritually significant **nearby Suga Shrine, Japan's First Palace: Encounter a Heroic Myth and the Birth of Waka Poetry**. This onsen boasts naturally soft, alkaline spring water known for its skin-beautifying properties. The indoor and outdoor baths provide a tranquil atmosphere with views of the surrounding countryside, making it a perfect place to unwind and rejuvenate.

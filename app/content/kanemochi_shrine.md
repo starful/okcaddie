@@ -1,24 +1,29 @@
 ---
-layout: post
-title: "A Lottery Winner's Secret? A Complete Guide to 'Kanemochi Shrine,' Japan's Top Sacred Spot for Financial Luck"
-date: 2024-11-30
-categories: [Wealth, Success, History]
-tags:
-  [
-    Tottori Prefecture,
-    Kanemochi Shrine,
-    Financial Luck,
-    Lottery Winning,
-    Power Spot,
-    Unique Travel,
-    Japanese Shrine,
-    Wish Fulfillment,
-  ]
-thumbnail: /content/images/kanemochi_shrine.webp
-lat: 35.244220
-lng: 133.435470
 address: 74 Kanemochi, Hino-cho, Hino-gun, Tottori Prefecture (〒689-4512)
-excerpt: Introducing the mysterious origins and powerful blessings of 'Kanemochi (Rich Person) Shrine,' a place with an extraordinary name. Awaken your dormant fortune at Japan's number one power spot for financial luck, born from a history of ancient iron-making.
+categories:
+- Wealth
+- Success
+- History
+date: 2024-11-30
+excerpt: Introducing the mysterious origins and powerful blessings of 'Kanemochi (Rich
+  Person) Shrine,' a place with an extraordinary name. Awaken your dormant fortune
+  at Japan's number one power spot for financial luck, born from a history of ancient
+  iron-making.
+lat: 35.24422
+layout: post
+lng: 133.43547
+tags:
+- Tottori Prefecture
+- Kanemochi Shrine
+- Financial Luck
+- Lottery Winning
+- Power Spot
+- Unique Travel
+- Japanese Shrine
+- Wish Fulfillment
+thumbnail: /content/images/kanemochi_shrine.webp
+title: A Lottery Winner's Secret? A Complete Guide to 'Kanemochi Shrine,' Japan's
+  Top Sacred Spot for Financial Luck
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -155,3 +160,9 @@ Kanemochi Shrine (金持神社) is a place too profound to be defined simply as 
 A visit here is more than just a prayer for material gain; it is an experience to receive positive energy to enrich your life and to charge yourself with the courage for a new beginning. As you feel the breath of the gods in the quiet forest and watch the yellow waves flutter in the wind, I hope that true 'abundance' will settle in your heart. I believe that a special day at Kanemochi Shrine will make your tomorrow shine even brighter.
 
 **JinjaMap** supports your prosperous journey. We'll be back with another fascinating shrine story in our next post.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Hanayasai Onsen Yurari (花やさい湯楽里)
+
+After praying for financial fortune at A Lottery Winner's Secret? A Complete Guide to 'Kanemochi Shrine,' Japan's Top Sacred Spot for Financial Luck, reward yourself with a relaxing day-trip onsen experience at Hanayasai Onsen Yurari. Boasting natural hot spring water with skin-beautifying properties, Yurari offers both indoor and outdoor baths. The serene atmosphere, combined with views of the surrounding countryside, makes it the perfect spot to unwind and soak away any stress. It is a fantastic option for a nearby onsen and well-suited for a peaceful afternoon.

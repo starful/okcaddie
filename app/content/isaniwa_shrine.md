@@ -148,3 +148,9 @@ Isaniwa Shrine may look like a flamboyant tourist spot on the surface, but it ho
 Are you facing an important test or challenge in your life? If so, try climbing to the crimson, shining Isaniwa Shrine on the hill of Dogo Onsen. With the refreshing Matsuyama breeze, the god of victory will surely give you a firm push on the back.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that will empower your heart. We wish for all your challenges to hit the mark! 🎯⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Dogo Onsen Main Building (道後温泉本館)
+
+Just steps away from the shrine lies the legendary **Dogo Onsen Main Building**, Japan's oldest and most iconic public bathhouse, often cited as the inspiration for the bathhouse in Studio Ghibli's "Spirited Away." Immerse yourself in the history and therapeutic waters of the "Kami-no-Yu" (Bath of the Gods), known for its smooth, alkaline quality that leaves skin feeling soft and rejuvenated. After your soak, relax in the tatami-matted resting rooms and enjoy traditional tea and sweets while soaking in the nostalgic Meiji-era atmosphere.

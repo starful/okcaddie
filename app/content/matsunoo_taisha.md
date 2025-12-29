@@ -1,3 +1,7 @@
+---
+{}
+---
+
 layout: post
 title: "[Kyoto] A Mystical Encounter with the God of Sake at 'Matsunoo Taisha', Japan's Oldest Shrine"
 date: 2025-11-30
@@ -141,3 +145,7 @@ The Arashiyama area, where Matsunoo Taisha is located, is one of Kyoto's premier
 Matsunoo Taisha is not just another tourist spot to pass by. It is a place where the grand flow of time from the age of myths, the dignity of the guardian deity who watched over the birth of Kyoto, and the living history of sake, deeply rooted in Japanese food culture, all breathe.
 
 In the clear, cool air you feel the moment you step into the precincts, amidst the sacred energy of the 'Kamei' well and the sight of hundreds of sake barrels conveying unwavering faith, you can forget the hustle and bustle of daily life and have a quiet moment of self-reflection. Whether you are about to embark on a new beginning, wish for a life of abundance and peace, or simply want to immerse yourself in the fragrance of deep history, I hope you will visit Matsunoo Taisha, the sacred ground on the west side of Kyoto. It will surely gift you with a deep resonance and tranquility that will remain in your heart for a long time.
+
+***
+
+Okay, I understand. Please provide the shrine name and address, and I'll find a suitable nearby onsen for a day trip. I'll format the answer as Markdown according to your instructions.

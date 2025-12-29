@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Millennial Miracle, the Sanctuary of Fire Guarded by Fudo Myoo: Burning Away Misfortune at Naritasan Shinshoji Temple"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Narita,
-    NaritasanShinshoji,
-    FudoMyoo,
-    PowerSpot,
-    Omotesando,
-    Unadon,
-    GomaFireRitual,
-    TokyoSuburbsTrip,
-    ChibaTrip,
-    TemplePilgrimage,
-  ]
-thumbnail: /content/images/naritasan_shinshoji.webp
-lat: 35.786512
-lng: 140.318212
 address: 〒286-0023 千葉県成田市成田1
-excerpt: Naritasan Shinshoji was founded 1,000 years ago with a prayer for peace. A perfect healing journey to cast away misfortune in the flames of the Goma ritual and rejuvenate with 300-year-old traditional eel rice.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: Naritasan Shinshoji was founded 1,000 years ago with a prayer for peace.
+  A perfect healing journey to cast away misfortune in the flames of the Goma ritual
+  and rejuvenate with 300-year-old traditional eel rice.
+lat: 35.786512
+layout: post
+lng: 140.318212
+tags:
+- Narita
+- NaritasanShinshoji
+- FudoMyoo
+- PowerSpot
+- Omotesando
+- Unadon
+- GomaFireRitual
+- TokyoSuburbsTrip
+- ChibaTrip
+- TemplePilgrimage
+thumbnail: /content/images/naritasan_shinshoji.webp
+title: 'A Millennial Miracle, the Sanctuary of Fire Guarded by Fudo Myoo: Burning
+  Away Misfortune at Naritasan Shinshoji Temple'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to mystical sacred sites around the world.
@@ -126,3 +130,9 @@ The experience of praying for a safe journey while watching the solemn fire ritu
 Do you have some time before your flight? Or are you looking for a special place near Tokyo? If so, don't hesitate to come to Naritasan. The fiery energy of Fudo Myoo awaits you.
 
 **JinjaMap** will return with another story of a special sacred site to enrich your travels. May the flames of victory light up your future! 🔥🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Narita View Hotel Sorayu ([成田ビューホテル 空港温泉 空の湯])
+
+Narita View Hotel Sorayu offers a convenient and relaxing day-trip onsen experience just a short distance from A Millennial Miracle, the Sanctuary of Fire Guarded by Fudo Myoo: Burning Away Misfortune at Naritasan Shinshoji Temple. Boasting natural hot spring water piped directly from the source, Sorayu provides a soothing escape with its indoor and open-air baths. The highlight is the panoramic view from the open-air bath, allowing for a truly refreshing and relaxing experience after visiting the temple. If you are looking for a nearby day-trip onsen to feel reinvigorated, this is a superb choice!

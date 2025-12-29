@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Jishu Shrine, Kyoto's Ultimate Romantic Sanctuary: The Jomon Period's Love Stones and a Three-Year Wait"
-date: 2025-12-17
-categories: [Love, History, Success]
-tags:
-  [
-    Kyoto,
-    Kiyomizu-dera,
-    Jishu Shrine,
-    Enmusubi,
-    Power Spot,
-    Love Stones,
-    Japanese Mythology,
-    Okuninushi,
-    World Heritage,
-    Kyoto Travel,
-  ]
-thumbnail: /content/images/jishu_shrine.webp
-lat: 34.994712
-lng: 135.785345
 address: 〒605-0862 京都市東山区清水一丁目317
-excerpt: Inside Kiyomizu-dera lies Jishu Shrine, a legendary sanctuary for matchmaking. Discover the mystical legends of the 3,000-year-old 'Love Stones' and feel the enduring power of Enmusubi, even during its renovation.
+categories:
+- Love
+- History
+- Success
+date: 2025-12-17
+excerpt: Inside Kiyomizu-dera lies Jishu Shrine, a legendary sanctuary for matchmaking.
+  Discover the mystical legends of the 3,000-year-old 'Love Stones' and feel the enduring
+  power of Enmusubi, even during its renovation.
+lat: 34.994712
+layout: post
+lng: 135.785345
+tags:
+- Kyoto
+- Kiyomizu-dera
+- Jishu Shrine
+- Enmusubi
+- Power Spot
+- Love Stones
+- Japanese Mythology
+- Okuninushi
+- World Heritage
+- Kyoto Travel
+thumbnail: /content/images/jishu_shrine.webp
+title: 'Jishu Shrine, Kyoto''s Ultimate Romantic Sanctuary: The Jomon Period''s Love
+  Stones and a Three-Year Wait'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to romantic sanctuaries around the world.
@@ -135,3 +139,9 @@ Although you cannot walk between the 'Love Stones' at this moment, you can still
 In 2025, on the day the shrine reopens, how about climbing the stone steps of Jishu Shrine holding the hand of your loved one, or in anticipation of a new relationship?
 
 **JinjaMap** will be back with more stories of Japan's special sanctuaries that will make your heart flutter. May your love come true! 💖⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Kurama Onsen is a fantastic day-trip onsen option after visiting Jishu Shrine, Kyoto's Ultimate Romantic Sanctuary: The Jomon Period's Love Stones and a Three-Year Wait. Located a scenic train ride north of Kyoto, it offers a secluded and relaxing escape. Its renowned outdoor rotenburo (open-air bath) amidst the mountains provides stunning views and a tranquil atmosphere, allowing you to soak in the healing waters and unwind after exploring the shrine. This is a perfect choice for a rejuvenating day-trip onsen experience.

@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "A Sacred Place for Love Hidden in Osaka's Concrete Jungle: Forging a Thousand-Year Bond at Tsuyunoten Shrine (Ohatsu Tenjin)"
-date: 2025-12-17
-categories: [Love, History, Academics]
-tags:
-  [
-    Osaka,
-    Umeda,
-    Ohatsu Tenjin,
-    Tsuyunoten Shrine,
-    Matchmaking,
-    Love Fortune,
-    Sonezaki Shinju,
-    Power Spot,
-    Night View Spot,
-    Umeda Gourmet,
-  ]
-thumbnail: /content/images/osaka_ohatsutenjin.webp
-lat: 34.699478
-lng: 135.501170
 address: 〒530-0057 2-5-4 Sonezaki, Kita-ku, Osaka
-excerpt: In the heart of Osaka's bustling Umeda district lies Tsuyunoten Shrine, with 1,300 years of history. The setting of the tragic love story 'Sonezaki Shinju' and a sacred place for lovers to promise eternal love, come and receive the special energy of connection.
+categories:
+- Love
+- History
+- Academics
+date: 2025-12-17
+excerpt: In the heart of Osaka's bustling Umeda district lies Tsuyunoten Shrine, with
+  1,300 years of history. The setting of the tragic love story 'Sonezaki Shinju' and
+  a sacred place for lovers to promise eternal love, come and receive the special
+  energy of connection.
+lat: 34.699478
+layout: post
+lng: 135.50117
+tags:
+- Osaka
+- Umeda
+- Ohatsu Tenjin
+- Tsuyunoten Shrine
+- Matchmaking
+- Love Fortune
+- Sonezaki Shinju
+- Power Spot
+- Night View Spot
+- Umeda Gourmet
+thumbnail: /content/images/osaka_ohatsutenjin.webp
+title: 'A Sacred Place for Love Hidden in Osaka''s Concrete Jungle: Forging a Thousand-Year
+  Bond at Tsuyunoten Shrine (Ohatsu Tenjin)'
 ---
 
 Hello, this is the editor of 'JinjaMap,' introducing you to the hidden gems of the city.
@@ -139,3 +144,9 @@ This is a special place where 1,300 years of history and a 300-year-old tragic l
 If you need a brief pause during your glamorous Osaka trip, or if there's a relationship you're earnestly hoping for, I encourage you to visit. Ohatsu and Tokubei will surely be cheering for your love.
 
 **JinjaMap** will be back with another story of a special sacred place in Japan that will resonate with your heart. May your love come true! 💕⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa World (スパワールド)
+
+Spa World is a fantastic **day-trip onsen** option easily accessible from **nearby A Sacred Place for Love Hidden in Osaka's Concrete Jungle: Forging a Thousand-Year Bond at Tsuyunoten Shrine (Ohatsu Tenjin)**. Offering a world tour of onsen experiences, from ancient Roman baths to Finnish saunas and Japanese rotenburo, you're sure to find a **relaxing** atmosphere to unwind. The diverse selection of themed baths provides a unique and memorable experience, making it a perfect escape after visiting the shrine.

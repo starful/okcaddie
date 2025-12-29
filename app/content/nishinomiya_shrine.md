@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Nishinomiya Shrine, the Head Shrine of Japan's God of Fortune: The Miracle of Abundance and Good Luck from 'Ebisu-sama'"
-date: 2025-12-17
-categories: [Wealth, Success, History]
-tags:
-  [
-    Hyogo,
-    Nishinomiya,
-    Nishinomiya Shrine,
-    Ebisu,
-    Toka Ebisu,
-    Fukuotoko,
-    Power Spot,
-    Business Prosperity,
-    Kansai Travel,
-    Koshien,
-  ]
-thumbnail: /content/images/nishinomiya_shrine.webp
-lat: 34.733568
-lng: 135.336154
 address: 1-17 Shakecho, Nishinomiya, Hyogo 662-0974
-excerpt: The head shrine of 3,500 Ebisu shrines nationwide. Discover the moving myth of an abandoned deity who became the god of fortune, and experience the powerful aura of financial luck at this site, famous for its annual 'Lucky Man' race.
+categories:
+- Wealth
+- Success
+- History
+date: 2025-12-17
+excerpt: The head shrine of 3,500 Ebisu shrines nationwide. Discover the moving myth
+  of an abandoned deity who became the god of fortune, and experience the powerful
+  aura of financial luck at this site, famous for its annual 'Lucky Man' race.
+lat: 34.733568
+layout: post
+lng: 135.336154
+tags:
+- Hyogo
+- Nishinomiya
+- Nishinomiya Shrine
+- Ebisu
+- Toka Ebisu
+- Fukuotoko
+- Power Spot
+- Business Prosperity
+- Kansai Travel
+- Koshien
+thumbnail: /content/images/nishinomiya_shrine.webp
+title: 'Nishinomiya Shrine, the Head Shrine of Japan''s God of Fortune: The Miracle
+  of Abundance and Good Luck from ''Ebisu-sama'''
 ---
 
 Hello, dear readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -129,3 +133,9 @@ The story of Ebisu-sama, who overcame his disability to become a god, offers war
 Are you planning a new business? Or do you simply wish to become rich in spirit? If so, come to Nishinomiya Shrine. The vibrant laughter of Ebisu-sama is sure to bring great fortune to your path ahead.
 
 **JinjaMap** will return with more stories of Japan's special sacred places that will enrich your life. May you all become prosperous! 🐟💰
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Arima Onsen (有馬温泉)
+
+Arima Onsen, one of Japan's oldest hot spring resorts, is an excellent choice for a day-trip onsen experience nearby Nishinomiya Shrine, the Head Shrine of Japan's God of Fortune: The Miracle of Abundance and Good Luck from 'Ebisu-sama'. Known for its distinctive kinsen (gold spring) and ginsen (silver spring) waters, Arima Onsen offers a profoundly relaxing experience. The kinsen, rich in iron and sodium chloride, gives the water a reddish-brown hue, while the ginsen is a clear, radium-infused spring. This convenient day-trip onsen provides a chance to soak in therapeutic waters and enjoy the traditional atmosphere of a historic onsen town.

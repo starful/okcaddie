@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Usa Jingu, Head Shrine of Japan's Hachiman Shrines: Meet the God of Victory at the Pinnacle of 44,000 Shrines"
-date: 2025-12-18
-categories: [Success, History, Safety]
-tags:
-  [
-    Oita,
-    Usa Jingu,
-    Hachimangu,
-    Head Shrine,
-    Luck in Competitions,
-    Power Spot,
-    Kyushu Travel,
-    National Treasure,
-    Japanese History,
-    Oracle,
-  ]
-thumbnail: /content/images/usa_jingu.webp
-lat: 33.526512
-lng: 131.374243
 address: 〒872-0102 大分県宇佐市南宇佐2859
-excerpt: The head shrine of 44,000 Hachiman shrines nationwide and one of the three great Hachimangu. Discover the legend of the powerful oracle that changed Japanese history and the majesty of the National Treasure 'Hachiman-zukuri' main hall.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-18
+excerpt: The head shrine of 44,000 Hachiman shrines nationwide and one of the three
+  great Hachimangu. Discover the legend of the powerful oracle that changed Japanese
+  history and the majesty of the National Treasure 'Hachiman-zukuri' main hall.
+lat: 33.526512
+layout: post
+lng: 131.374243
+tags:
+- Oita
+- Usa Jingu
+- Hachimangu
+- Head Shrine
+- Luck in Competitions
+- Power Spot
+- Kyushu Travel
+- National Treasure
+- Japanese History
+- Oracle
+thumbnail: /content/images/usa_jingu.webp
+title: 'Usa Jingu, Head Shrine of Japan''s Hachiman Shrines: Meet the God of Victory
+  at the Pinnacle of 44,000 Shrines'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -133,3 +137,9 @@ Here, at the pinnacle of 44,000 shrines, convey your deepest wishes to the heave
 Complete with the happiness of a crispy piece of karaage after your visit, Usa Jingu is the perfect travel destination to fulfill both body and soul.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites to bring vitality to your life. We wish you victory! 🕊️⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yunosu Onsen (湯の素温泉)
+
+Yunosu Onsen offers a relaxing day-trip onsen experience near Usa Jingu, Head Shrine of Japan's Hachiman Shrines: Meet the God of Victory at the Pinnacle of 44,000 Shrines. Known for its simple, rustic charm and naturally heated waters, this onsen provides a peaceful escape. The water is said to be beneficial for skin conditions, and the tranquil atmosphere makes it perfect for unwinding after a visit to the shrine. Enjoy a truly authentic and therapeutic experience.

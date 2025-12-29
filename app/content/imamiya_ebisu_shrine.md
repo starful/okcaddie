@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Where the Spirit of Osaka Merchants Lives: Experience the Heat of 'Toka Ebisu' at Imamiya Ebisu Shrine"
-date: 2025-12-17
-categories: [Success, Wealth, History]
-tags:
-  [
-    Osaka,
-    Imamiya Ebisu Shrine,
-    Toka Ebisu,
-    Power Spot,
-    Business Prosperity,
-    Ebessan,
-    Fuku Musume,
-    Shinsekai,
-    Osaka Travel,
-    Wealth Luck,
-  ]
-thumbnail: /content/images/imamiya_ebisu_shrine.webp
-lat: 34.655212
-lng: 135.501512
 address: 〒556-0003 1-6-10 Ebisunishi, Naniwa-ku, Osaka
-excerpt: Imamiya Ebisu Shrine, home to 'Ebessan,' the guardian deity of Osaka's commerce. Experience the 'Toka Ebisu' festival, which draws over a million people annually, and the power of making a wish by striking the gong behind the main hall.
+categories:
+- Success
+- Wealth
+- History
+date: 2025-12-17
+excerpt: Imamiya Ebisu Shrine, home to 'Ebessan,' the guardian deity of Osaka's commerce.
+  Experience the 'Toka Ebisu' festival, which draws over a million people annually,
+  and the power of making a wish by striking the gong behind the main hall.
+lat: 34.655212
+layout: post
+lng: 135.501512
+tags:
+- Osaka
+- Imamiya Ebisu Shrine
+- Toka Ebisu
+- Power Spot
+- Business Prosperity
+- Ebessan
+- Fuku Musume
+- Shinsekai
+- Osaka Travel
+- Wealth Luck
+thumbnail: /content/images/imamiya_ebisu_shrine.webp
+title: 'Where the Spirit of Osaka Merchants Lives: Experience the Heat of ''Toka Ebisu''
+  at Imamiya Ebisu Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' introducing vibrant sacred sites from around the world.
@@ -129,3 +133,9 @@ Imamiya Ebisu Shrine is not a place for formalities. It's a place where frank an
 Strike the gong behind the main hall 'clang, clang' and shout your wishes out loud. Its resonance will clear your mind, and the generous smile of Ebisu-sama will surely bring abundance to your life.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to cheer on your success. Wishing you all great fortune! 🐟💰
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa World (スパワールド 世界の大温泉)
+
+Spa World is an excellent choice for a relaxing day-trip onsen experience nearby Where the Spirit of Osaka Merchants Lives: Experience the Heat of 'Toka Ebisu' at Imamiya Ebisu Shrine. Just a short subway ride away, this unique onsen facility offers a wide variety of themed baths from around the world, providing a truly global bathing experience. It's perfect for unwinding after exploring the shrine and immersing yourself in a different culture, all while enjoying the therapeutic benefits of hot springs.

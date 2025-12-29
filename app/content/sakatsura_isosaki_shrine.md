@@ -1,24 +1,29 @@
 ---
-layout: post
-title: "A Place Imbued with the Aura of a First-Prize Lottery Win? Discover Ibaraki's Sakatsura Isosaki Shrine After Passing Through a 300-Year-Old Tree Tunnel"
-date: 2025-11-30
-categories: [Wealth, Health, History]
-tags:
-  [
-    Ibaraki Prefecture,
-    Hitachinaka,
-    Sakatsura Isosaki Shrine,
-    Financial Luck,
-    Lottery Winnings,
-    Power Spot,
-    Turtle Rock,
-    Shrine Pilgrimage,
-  ]
-thumbnail: /content/images/sakatsura_isosaki_shrine.webp
-lat: 36.386576
-lng: 140.609144
 address: 4607-2 Isozakicho, Hitachinaka, Ibaraki Prefecture (〒311-1202)
-excerpt: A mystical forest of healing, guided by a 300-year-old camellia tree tunnel. We invite you to Sakatsura Isosaki Shrine, a sacred ground where gods from Japan's creation myths descended, and home to the 'Lucky Turtle Rock' said to bring lottery winnings to those who touch it.
+categories:
+- Wealth
+- Health
+- History
+date: 2025-11-30
+excerpt: A mystical forest of healing, guided by a 300-year-old camellia tree tunnel.
+  We invite you to Sakatsura Isosaki Shrine, a sacred ground where gods from Japan's
+  creation myths descended, and home to the 'Lucky Turtle Rock' said to bring lottery
+  winnings to those who touch it.
+lat: 36.386576
+layout: post
+lng: 140.609144
+tags:
+- Ibaraki Prefecture
+- Hitachinaka
+- Sakatsura Isosaki Shrine
+- Financial Luck
+- Lottery Winnings
+- Power Spot
+- Turtle Rock
+- Shrine Pilgrimage
+thumbnail: /content/images/sakatsura_isosaki_shrine.webp
+title: A Place Imbued with the Aura of a First-Prize Lottery Win? Discover Ibaraki's
+  Sakatsura Isosaki Shrine After Passing Through a 300-Year-Old Tree Tunnel
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -174,3 +179,9 @@ The pilgrimage to Sakatsura Isosaki Shrine was more than just a trip. It was a t
 This is a space filled with the benevolence of gods who have unchangingly protected people's health, happiness, and prosperity for over 1,200 years. When you are weary from life and in need of healing, or when you want to dream a new dream of turning your life around, Sakatsura Isosaki Shrine will always be there, silently waiting for you.
 
 I sincerely hope that the sacred energy of the shrine and a stroke of great luck will be with you, the reader of this article.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Ajigaura Onsen Notosato (阿字ヶ浦温泉 のとや)
+
+Ajigaura Onsen Notosato is a fantastic choice for a relaxing day-trip onsen experience nearby A Place Imbued with the Aura of a First-Prize Lottery Win? Discover Ibaraki's Sakatsura Isosaki Shrine After Passing Through a 300-Year-Old Tree Tunnel. The onsen boasts naturally brown-tinted waters rich in minerals, known for their soothing effect on the skin. Enjoy the calming atmosphere and unwind after visiting the shrine, making it the perfect end to your Ibaraki adventure.

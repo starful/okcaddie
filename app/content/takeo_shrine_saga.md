@@ -1,14 +1,22 @@
 ---
-layout: post
-title: "Takeo Shrine: Whispers of Ancient Gods and a 3,000-Year-Old Tree"
+address: 다케오 신사 (武雄神社)
+categories:
+- Health
 date: 2025-12-26
-categories: ['Health']
-tags: ['Japan', 'Shrine', 'Travel', 'Health', 'Saga']
-thumbnail: /content/images/takeo_shrine_saga.webp
+excerpt: Deep in the heart of Saga Prefecture, nestled within a hushed, primeval forest,
+  lies Takeo Shrine (武雄神社, *Takeo Jinja*). This is not merely a place of worship;
+  ...
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "다케오 신사 (武雄神社)"
-excerpt: "Deep in the heart of Saga Prefecture, nestled within a hushed, primeval forest, lies Takeo Shrine (武雄神社, *Takeo Jinja*). This is not merely a place of worship; ..."
+tags:
+- Japan
+- Shrine
+- Travel
+- Health
+- Saga
+thumbnail: /content/images/takeo_shrine_saga.webp
+title: 'Takeo Shrine: Whispers of Ancient Gods and a 3,000-Year-Old Tree'
 ---
 
 ### 1. 🙏 Introduction: Deities & History
@@ -88,3 +96,9 @@ Takeo is a charming town that serves as a fantastic base for exploring Saga. A v
 Takeo Shrine is more than a historical site; it is a profound spiritual experience. It offers a rare opportunity to stand in the presence of something truly ancient—a tree that has witnessed millennia of human history unfold. Here, the stories of legendary heroes, the prayers of emperors, and the silent wisdom of the forest converge. It is a place to feel small in the grand scheme of time, yet deeply connected to the enduring spirit of Japan. A visit to Takeo Shrine is a journey not just through a forest, but through time itself, leaving you with a sense of peace, awe, and a renewed appreciation for the sacred bonds between nature, myth, and humanity.
 
 ---
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Takeo Onsen Motoyu ([武雄温泉 元湯])
+
+Takeo Onsen Motoyu is a fantastic day-trip onsen option located conveniently nearby Takeo Shrine: Whispers of Ancient Gods and a 3,000-Year-Old Tree. Its historical bathhouse exudes a relaxing and traditional atmosphere, offering simple yet effective mineral-rich waters. Enjoy the therapeutic benefits of the onsen after exploring the shrine, making it a perfect way to unwind and rejuvenate on your day trip. With its proximity, it's ideal for travelers seeking a quick and accessible relaxing experience.

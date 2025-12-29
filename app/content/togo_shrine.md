@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Where the Flag of Victory Flies: Finding Indomitable Will and Prayers for Certain Victory at Harajuku's Togo Shrine"
-date: 2025-12-18
-categories: [Success, History, Academics]
-tags:
-  [
-    Tokyo,
-    Harajuku,
-    Togo Shrine,
-    Luck in Competitions,
-    Power Spot,
-    Z Flag,
-    Heihachiro Togo,
-    Japanese History,
-    Tokyo Travel,
-    Meiji Jingu,
-  ]
-thumbnail: /content/images/togo_shrine.webp
-lat: 35.670612
-lng: 139.704243
 address: 〒150-0001 1-5-3 Jingumae, Shibuya-ku, Tokyo
-excerpt: A hidden sacred place in Harajuku, Tokyo. Experience the victorious energy of the 'Z Flag' and the charm of a tranquil Japanese garden at the shrine dedicated to Heihachiro Togo, the 'Nelson of the East.'
+categories:
+- Success
+- History
+- Academics
+date: 2025-12-18
+excerpt: A hidden sacred place in Harajuku, Tokyo. Experience the victorious energy
+  of the 'Z Flag' and the charm of a tranquil Japanese garden at the shrine dedicated
+  to Heihachiro Togo, the 'Nelson of the East.'
+lat: 35.670612
+layout: post
+lng: 139.704243
+tags:
+- Tokyo
+- Harajuku
+- Togo Shrine
+- Luck in Competitions
+- Power Spot
+- Z Flag
+- Heihachiro Togo
+- Japanese History
+- Tokyo Travel
+- Meiji Jingu
+thumbnail: /content/images/togo_shrine.webp
+title: 'Where the Flag of Victory Flies: Finding Indomitable Will and Prayers for
+  Certain Victory at Harajuku''s Togo Shrine'
 ---
 
 Hello, this is the editor from 'JinjaMap,' on a journey to find the hidden gems of the city.
@@ -129,3 +133,9 @@ Togo Shrine is more than just a memorial space. It is a place filled with a powe
 Are you facing an important exam, an interview, or a major challenge in your life? If so, come to Togo Shrine, in the forest of Harajuku. The fluttering of the Z Flag will instill in you courage and the conviction of victory.
 
 **JinjaMap** will return with more stories of special sacred places in Japan that support your dreams. We wish you victory! 🚩🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Thermae-Yu (テルマー湯)
+
+Thermae-Yu is a great day-trip onsen option, offering a luxurious and relaxing experience within easy reach of Harajuku's Togo Shrine. While not a natural hot spring, it transports high-quality hot spring water directly from the Nakaizu hot spring source, offering therapeutic benefits. Its convenient location in Shinjuku makes it an ideal place to unwind and rejuvenate after visiting the shrine, truly creating a relaxing escape. Perfect for a day-trip onsen experience nearby Where the Flag of Victory Flies: Finding Indomitable Will and Prayers for Certain Victory at Harajuku's Togo Shrine.

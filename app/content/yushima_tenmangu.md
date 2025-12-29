@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "The Scent of Plum Blossoms Opening the Gates to Success: Meet the Gods of Learning and Strength at Tokyo's Yushima Tenmangu Shrine"
-date: 2025-12-18
-categories: [Academics, History, Success]
-tags:
-  [
-    Tokyo,
-    Yushima Tenmangu Shrine,
-    God of Learning,
-    Tenjin,
-    Sugawara no Michizane,
-    Ameno-tajikarao,
-    Prayers for Success,
-    Plum Blossom Festival,
-    Ueno Park,
-    Tokyo Travel,
-  ]
-thumbnail: /content/images/yushima_tenmangu.webp
-lat: 35.707712
-lng: 139.768412
 address: 〒113-0034 東京都文京区湯島3-30-1
-excerpt: Yushima Tenmangu Shrine, Tokyo's premier sacred site for academics. Experience the earnest prayers of students hoping to pass exams, the fragrance of 300 plum trees, and the powerful energy of Ameno-tajikarao, the god of strength.
+categories:
+- Academics
+- History
+- Success
+date: 2025-12-18
+excerpt: Yushima Tenmangu Shrine, Tokyo's premier sacred site for academics. Experience
+  the earnest prayers of students hoping to pass exams, the fragrance of 300 plum
+  trees, and the powerful energy of Ameno-tajikarao, the god of strength.
+lat: 35.707712
+layout: post
+lng: 139.768412
+tags:
+- Tokyo
+- Yushima Tenmangu Shrine
+- God of Learning
+- Tenjin
+- Sugawara no Michizane
+- Ameno-tajikarao
+- Prayers for Success
+- Plum Blossom Festival
+- Ueno Park
+- Tokyo Travel
+thumbnail: /content/images/yushima_tenmangu.webp
+title: 'The Scent of Plum Blossoms Opening the Gates to Success: Meet the Gods of
+  Learning and Strength at Tokyo''s Yushima Tenmangu Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.
@@ -127,3 +131,9 @@ As you look at the densely packed ema, cheer on someone's earnest wish, and as y
 The wisdom granted by the god of learning and the courage given by the god of strength. I hope you begin your powerful journey towards your dreams at Yushima Tenmangu Shrine, where you can obtain both.
 
 **JinjaMap** will return with another story of a special sacred site in Japan to support your dreams. Best of luck on your exams! 🌸🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa LaQua (スパ ラクーア)
+
+After exploring the venerable grounds of The Scent of Plum Blossoms Opening the Gates to Success: Meet the Gods of Learning and Strength at Tokyo's Yushima Tenmangu Shrine, unwind at Spa LaQua, a fantastic day-trip onsen located conveniently nearby in Tokyo Dome City. This modern urban oasis boasts natural hot spring water sourced from 1,700 meters underground, offering a truly authentic and relaxing onsen experience in the heart of Tokyo. With a variety of indoor and outdoor baths, saunas, and tranquil relaxation lounges, it’s the perfect place to soothe tired muscles and rejuvenate your mind after a day of sightseeing.

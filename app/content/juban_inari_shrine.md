@@ -1,24 +1,29 @@
 ---
-layout: post
-title: "The Legend of the Toad that Extinguishes Fires in the City? A Complete Guide to Azabu-Juban's Hidden Power Spot, 'Juban Inari Shrine'"
-date: 2024-11-30
-categories: [Wealth, Safety, History]
-tags:
-  [
-    Tokyo,
-    Azabu-Juban,
-    JubanInariShrine,
-    PowerSpot,
-    FinancialLuck,
-    FirePrevention,
-    ShrinePilgrimage,
-    SevenLuckyGods,
-  ]
-thumbnail: /content/images/juban_inari_shrine.webp
-lat: 35.655845
-lng: 139.736025
 address: 1-4-6 Azabu-Juban, Minato-ku, Tokyo (〒106-0045)
-excerpt: In the glamorous streets of Azabu-Juban lies a sacred place imbued with the legend of a mystical toad that stopped a fire and the Treasure Ship of the Seven Lucky Gods. Embark on a healing journey to 'Juban Inari Shrine' to reclaim lost luck and attract wealth.
+categories:
+- Wealth
+- Safety
+- History
+date: 2024-11-30
+excerpt: In the glamorous streets of Azabu-Juban lies a sacred place imbued with the
+  legend of a mystical toad that stopped a fire and the Treasure Ship of the Seven
+  Lucky Gods. Embark on a healing journey to 'Juban Inari Shrine' to reclaim lost
+  luck and attract wealth.
+lat: 35.655845
+layout: post
+lng: 139.736025
+tags:
+- Tokyo
+- Azabu-Juban
+- JubanInariShrine
+- PowerSpot
+- FinancialLuck
+- FirePrevention
+- ShrinePilgrimage
+- SevenLuckyGods
+thumbnail: /content/images/juban_inari_shrine.webp
+title: The Legend of the Toad that Extinguishes Fires in the City? A Complete Guide
+  to Azabu-Juban's Hidden Power Spot, 'Juban Inari Shrine'
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -167,3 +172,9 @@ Here is some practical information for those visiting Juban Inari Shrine.
 Juban Inari Shrine is more than just a place to make a wish; it is a living museum that vividly shows how myth and history coexist with the present in the heart of Tokyo. The spirit of prosperity left by a legendary hero and the protective energy of a mystical toad that stopped the flames of disaster. A visit to this place, where these two powerful stories intertwine, will surely leave a deep impression on your heart and bestow upon you a positive force.
 
 When strolling through the stylish streets of Azabu-Juban, I encourage you to pause for a moment and step into this quiet sanctuary. I hope you will rediscover the tranquility you may have forgotten amidst the city's noise and receive the special blessings that its legends have to offer, making for an unforgettable pilgrimage experience.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Thermae-Yu (テルマー湯)
+
+Thermae-Yu is a great choice for a relaxing day-trip onsen nearby The Legend of the Toad that Extinguishes Fires in the City? A Complete Guide to Azabu-Juban's Hidden Power Spot, 'Juban Inari Shrine'. While not a natural hot spring, it imports its high-quality hot spring water directly from Nakaizu, boasting skin-smoothing properties and offering a variety of baths and relaxation facilities. The sophisticated, urban atmosphere provides a welcome escape from the city bustle, making it ideal for unwinding after visiting the shrine.

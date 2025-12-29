@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "Guardian of Osaka Castle, Tamatsukuri Inari Shrine: The Legend of the Fox that Binds Love and Fulfills Toyotomi Hideyoshi's Wish"
-date: 2025-12-17
-categories: [History, Love, Success]
-tags:
-  [
-    Osaka,
-    Tamatsukuri Inari Shrine,
-    Osaka Castle,
-    Power Spot,
-    Matchmaking,
-    Toyotomi Hideyoshi,
-    Magatama,
-    Prayer for Safe Childbirth,
-    Japan History Travel,
-    Kansai Travel,
-  ]
-thumbnail: /content/images/tamatsukuri_inari_shrine.webp
-lat: 34.678256
-lng: 135.530263
 address: 〒540-0004 大阪府大阪市中央区玉造２丁目３−８
-excerpt: Southeast of Osaka Castle lies Tamatsukuri Inari Shrine, imbued with the spirit of ancient bead makers and the deep faith of the Toyotomi clan. We introduce the 'love fox' that forges relationships and a powerful spot where Hideyori's umbilical cord is buried.
+categories:
+- History
+- Love
+- Success
+date: 2025-12-17
+excerpt: Southeast of Osaka Castle lies Tamatsukuri Inari Shrine, imbued with the
+  spirit of ancient bead makers and the deep faith of the Toyotomi clan. We introduce
+  the 'love fox' that forges relationships and a powerful spot where Hideyori's umbilical
+  cord is buried.
+lat: 34.678256
+layout: post
+lng: 135.530263
+tags:
+- Osaka
+- Tamatsukuri Inari Shrine
+- Osaka Castle
+- Power Spot
+- Matchmaking
+- Toyotomi Hideyoshi
+- Magatama
+- Prayer for Safe Childbirth
+- Japan History Travel
+- Kansai Travel
+thumbnail: /content/images/tamatsukuri_inari_shrine.webp
+title: 'Guardian of Osaka Castle, Tamatsukuri Inari Shrine: The Legend of the Fox
+  that Binds Love and Fulfills Toyotomi Hideyoshi''s Wish'
 ---
 
 Hello, this is the editor from **'JinjaMap'**, where we introduce hidden sacred sites from around the world.
@@ -130,3 +135,9 @@ Tamatsukuri Inari Shrine is a guardian of history that has silently stood its gr
 When you need a moment of pause during your Osaka trip, or when there's a relationship you earnestly wish to connect, come to this forest where the couple foxes await. The energy from the earth where Hideyori's umbilical cord is buried will surely bind your precious connection tightly.
 
 **JinjaMap** will be back with more stories of special sacred sites in Japan that will deeply resonate with your heart. May the blessings of the gods be with you on your journey! 🦊💎
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Spa World World Onsen (スパワールド 世界の大温泉)
+
+Spa World World Onsen is a fantastic day-trip onsen option, offering a diverse and globally themed bathing experience near Guardian of Osaka Castle, Tamatsukuri Inari Shrine: The Legend of the Fox that Binds Love and Fulfills Toyotomi Hideyoshi's Wish. Its unique concept features replicas of famous onsen from around the world, allowing you to enjoy the relaxing benefits of various bathing cultures. This makes it an ideal choice for visitors seeking a unique and easily accessible onsen experience close by after visiting the shrine. Enjoy a truly relaxing break!

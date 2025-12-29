@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "Kitano Tenmangu, Kyoto's Sacred Ground of Learning: The Legend of Tenjin-sama for Exam Success and a Feast of Plum Blossoms"
-date: 2025-12-18
-categories: [Academics, History, Success]
-tags:
-  [
-    Kyoto,
-    Kitano Tenmangu,
-    God of Learning,
-    Sugawara no Michizane,
-    Tenjin,
-    Power Spot,
-    Plum Blossom Spot,
-    Praying for Success,
-    Nade-ushi,
-    Kyoto Travel,
-  ]
-thumbnail: /content/images/kitano_tenmangu.webp
-lat: 35.031512
-lng: 135.735212
 address: 〒602-8386 京都府京都市上京区馬喰町
-excerpt: The head shrine of 12,000 Tenmangu shrines nationwide. Enjoy the aura of success and the beauty of 1,500 plum trees at Kitano Tenmangu, which enshrines the god of learning, Sugawara no Michizane.
+categories:
+- Academics
+- History
+- Success
+date: 2025-12-18
+excerpt: The head shrine of 12,000 Tenmangu shrines nationwide. Enjoy the aura of
+  success and the beauty of 1,500 plum trees at Kitano Tenmangu, which enshrines the
+  god of learning, Sugawara no Michizane.
+lat: 35.031512
+layout: post
+lng: 135.735212
+tags:
+- Kyoto
+- Kitano Tenmangu
+- God of Learning
+- Sugawara no Michizane
+- Tenjin
+- Power Spot
+- Plum Blossom Spot
+- Praying for Success
+- Nade-ushi
+- Kyoto Travel
+thumbnail: /content/images/kitano_tenmangu.webp
+title: 'Kitano Tenmangu, Kyoto''s Sacred Ground of Learning: The Legend of Tenjin-sama
+  for Exam Success and a Feast of Plum Blossoms'
 ---
 
 Hello, this is the editor of 'JinjaMap,' your guide to special sacred sites around the world.
@@ -134,3 +138,9 @@ It is a place where you can encounter the noble spirit of a man who loved learni
 As you look at the countless ema (votive plaques) hung by students full of earnest wishes, take a moment to strengthen your own resolve toward your dreams. The warm gaze of Tenjin-sama and the scent of plum blossoms will surely cheer on your efforts.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that support your dreams. We wish you success and good fortune! 🌸🙏
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Kurama Onsen (鞍馬温泉)
+
+Just a short journey from Kitano Tenmangu, Kyoto's Sacred Ground of Learning: The Legend of Tenjin-sama for Exam Success and a Feast of Plum Blossoms, Kurama Onsen offers a truly unique and relaxing experience. This day-trip onsen is nestled in the mountains, surrounded by lush forests. Known for its open-air rotenburo bath, you can unwind while enjoying breathtaking views of nature. It's a perfect escape for those seeking a tranquil and rejuvenating experience nearby Kitano Tenmangu, Kyoto.

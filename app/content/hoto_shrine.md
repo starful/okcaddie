@@ -1,14 +1,28 @@
 ---
-layout: post
-title: "The Mecca of First-Prize Lottery Winners? A Pilgrim's Guide to Hoto Shrine in Saga, the Treasure Island You Reach by Boat"
-date: 2025-11-30
-categories: [Wealth, Success, History]
-tags: [Saga Prefecture, Karatsu, Hoto Shrine, Financial Luck, Lottery Winnings, Power Spot, Takashima, Japanese Shrine]
-thumbnail: /content/images/hoto_shrine.webp
-lat: 33.480020
-lng: 129.987150
 address: 523 Takashima, Karatsu, Saga 847-0027
-excerpt: Hoto Shrine, whose name itself means 'treasures are certain to be won.' Located on the small island of Takashima, this is Japan's premier power spot for financial luck, bustling with worshippers praying for the miracle of a lottery win.
+categories:
+- Wealth
+- Success
+- History
+date: 2025-11-30
+excerpt: Hoto Shrine, whose name itself means 'treasures are certain to be won.' Located
+  on the small island of Takashima, this is Japan's premier power spot for financial
+  luck, bustling with worshippers praying for the miracle of a lottery win.
+lat: 33.48002
+layout: post
+lng: 129.98715
+tags:
+- Saga Prefecture
+- Karatsu
+- Hoto Shrine
+- Financial Luck
+- Lottery Winnings
+- Power Spot
+- Takashima
+- Japanese Shrine
+thumbnail: /content/images/hoto_shrine.webp
+title: The Mecca of First-Prize Lottery Winners? A Pilgrim's Guide to Hoto Shrine
+  in Saga, the Treasure Island You Reach by Boat
 ---
 
 Hello, this is the **JinjaMap** editor.
@@ -147,3 +161,9 @@ The pilgrimage to Hoto Shrine was more than just a trip to pray for good luck. I
 A small island reached by crossing the blue sea, a simple yet powerful shrine steeped in faith, and the people who visit, each with their own earnest wishes. Hoto Shrine teaches us that 'treasure' does not only mean financial wealth. The courage to face new challenges, the hope to overcome difficult times, and a heart grateful for the small joys of everyday life—these are the true treasures we should seek in our lives.
 
 May the blessings of Hoto Shrine be with you, the reader of this article, and may you certainly obtain the precious 'treasures' you hold in your heart.
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Yumoto Onsen Uta no Yu (湯元温泉 歌の湯)
+
+Yumoto Onsen Uta no Yu is a great option for a relaxing day-trip onsen nearby The Mecca of First-Prize Lottery Winners? A Pilgrim's Guide to Hoto Shrine in Saga, the Treasure Island You Reach by Boat. Known for its high-quality, skin-beautifying waters and tranquil atmosphere, it provides a soothing experience after visiting the shrine. The onsen features both indoor and outdoor baths, allowing you to unwind and rejuvenate amidst the serene surroundings. This makes it a perfect place to complete your pilgrimage with a therapeutic soak.

@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "Where the 33,000-Square-Meter Forbidden Forest Breathes: Forging a Thousand-Year Bond at Noto Peninsula's Keta Taisha"
-date: 2025-12-17
-categories: [Love, History, Success]
-tags:
-  [
-    Ishikawa,
-    Hakui,
-    Keta Taisha,
-    Irazunomori,
-    Matchmaking,
-    Enmusubi,
-    Powerspot,
-    Noto Peninsula,
-    Japanese Mythology,
-    National Treasure,
-  ]
-thumbnail: /content/images/keta_taisha.webp
-lat: 36.924874
-lng: 136.763523
 address: 〒925-0003 石川県羽咋市寺家町ク1-1
-excerpt: At the gateway to Japan's Noto Peninsula lies Keta Taisha, home to a vast 33,000-square-meter primeval forest, the 'Forest You Cannot Enter.' We invite you to this mystical sanctuary, imbued with the legend of Okuninushi-no-Okami from Japan's founding myths and a powerful aura for forging connections.
+categories:
+- Love
+- History
+- Success
+date: 2025-12-17
+excerpt: At the gateway to Japan's Noto Peninsula lies Keta Taisha, home to a vast
+  33,000-square-meter primeval forest, the 'Forest You Cannot Enter.' We invite you
+  to this mystical sanctuary, imbued with the legend of Okuninushi-no-Okami from Japan's
+  founding myths and a powerful aura for forging connections.
+lat: 36.924874
+layout: post
+lng: 136.763523
+tags:
+- Ishikawa
+- Hakui
+- Keta Taisha
+- Irazunomori
+- Matchmaking
+- Enmusubi
+- Powerspot
+- Noto Peninsula
+- Japanese Mythology
+- National Treasure
+thumbnail: /content/images/keta_taisha.webp
+title: 'Where the 33,000-Square-Meter Forbidden Forest Breathes: Forging a Thousand-Year
+  Bond at Noto Peninsula''s Keta Taisha'
 ---
 
 Hello, fellow travel lovers! This is the editor of 'JinjaMap,' where we introduce hidden gem shrines from all over Japan.
@@ -146,3 +151,9 @@ The mythical land where a serpent was defeated 2,000 years ago, and the mysterio
 Is there a connection you earnestly desire right now? Or do you wish to face a new turning point in your life? If so, set off for the forests of the Noto Peninsula, to Keta Taisha, where 'much energy' gathers. Okuninushi-no-Okami might just be waiting there with the best thread of fate prepared for you.
 
 **JinjaMap** will return with more stories of Japan's special sacred sites that will stir your soul. May the clear energy of the forest be with you on your journey ahead! 🌲⛩️
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Wakura Onsen (和倉温泉)
+
+Wakura Onsen is a fantastic choice for a "day-trip onsen" experience after visiting Where the 33,000-Square-Meter Forbidden Forest Breathes: Forging a Thousand-Year Bond at Noto Peninsula's Keta Taisha. Located just a short drive away, this onsen boasts incredibly high-quality sodium chloride spring waters known for their skin-beautifying properties and warming effect. Its scenic location on Nanao Bay offers breathtaking ocean views, providing a truly "relaxing" and rejuvenating experience. You can easily spend a few hours unwinding in the hot springs before heading back.

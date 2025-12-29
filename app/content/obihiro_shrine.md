@@ -1,26 +1,30 @@
 ---
-layout: post
-title: "A Forest with the Spirit of Hokkaido's Pioneers: Meet Squirrels and Make Wishes Come True at Obihiro Shrine"
-date: 2025-12-22
-categories: [Success, History, Love]
-tags:
-  [
-    Hokkaido,
-    Obihiro,
-    Obihiro Shrine,
-    Ezo Risu,
-    Squirrel,
-    Pioneer Shrine,
-    Power Spot,
-    Butadon,
-    Rokkatei,
-    Tokachi Travel,
-  ]
-thumbnail: /content/images/obihiro_shrine.webp
-lat: 42.923112
-lng: 143.208745
 address: 〒080-0847 北海道帯広市東3条南2丁目1
-excerpt: A place where the history of Hokkaido's Tokachi pioneers lives and breathes. Receive the energy of the three pioneering gods at Obihiro Shrine, welcomed by adorable Ezo Risu (squirrels), and enjoy special seasonal goshuin and butadon.
+categories:
+- Success
+- History
+- Love
+date: 2025-12-22
+excerpt: A place where the history of Hokkaido's Tokachi pioneers lives and breathes.
+  Receive the energy of the three pioneering gods at Obihiro Shrine, welcomed by adorable
+  Ezo Risu (squirrels), and enjoy special seasonal goshuin and butadon.
+lat: 42.923112
+layout: post
+lng: 143.208745
+tags:
+- Hokkaido
+- Obihiro
+- Obihiro Shrine
+- Ezo Risu
+- Squirrel
+- Pioneer Shrine
+- Power Spot
+- Butadon
+- Rokkatei
+- Tokachi Travel
+thumbnail: /content/images/obihiro_shrine.webp
+title: 'A Forest with the Spirit of Hokkaido''s Pioneers: Meet Squirrels and Make
+  Wishes Come True at Obihiro Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' traveling to find hidden gem-like sacred sites around the world.
@@ -123,3 +127,9 @@ Obihiro Shrine is a place where the steadfast spirit of the pioneers who overcam
 If you are going through a difficult time or are on the verge of a new beginning, come to the forest of Obihiro. The trees that have stood for 100 years and the spirits of the forest will inspire you with the courage to believe 'you can do it'.
 
 **JinjaMap** will return with more stories of special sacred sites in Japan that bring positive energy to your life. May your future be filled with happiness! 🐿️🌲
+
+***
+
+### ♨️ Relax at a Nearby Onsen: Mori no Spa Resort Hokkaido Hotel (森のスパリゾート 北海道ホテル)
+
+The Mori no Spa Resort Hokkaido Hotel offers a fantastic day-trip onsen experience, conveniently located near A Forest with the Spirit of Hokkaido's Pioneers: Meet Squirrels and Make Wishes Come True at Obihiro Shrine. It is known for its unique "Moor Onsen," a rare type of hot spring with plant-derived organic matter, leaving your skin feeling incredibly smooth. This relaxing onsen boasts beautiful garden views, perfect for unwinding after visiting the shrine.
