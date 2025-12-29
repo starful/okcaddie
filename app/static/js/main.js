@@ -9,7 +9,7 @@ let isMapLoaded = false;
 document.addEventListener('DOMContentLoaded', () => {
     fetchShrines();
     initThemeFilters();
-    // initSearch(); // 검색 기능이 UI에 없으므로 주석 처리 또는 삭제 가능
+    initSearch();
     initOmikuji();
 });
 
@@ -37,7 +37,7 @@ async function fetchShrines() {
         updateCategoryCounts();
         renderCards(shrinesData);
 
-        // 지도 로드 후 데이터가 오면 마커 표시 및 뷰 조정
+        // 지도 로드 후 데이터가 오면 마커 표시
         if (isMapLoaded) {
             updateMapMarkers(shrinesData);
         }
@@ -59,16 +59,14 @@ window.initMap = async function() {
         map = new Map(mapEl, {
             zoom: 5,
             center: center,
-            // mapId: "DEMO_MAP_ID", // 실제 Map ID로 교체하시는 것을 권장합니다.
+            mapId: "DEMO_MAP_ID",
             disableDefaultUI: false,
             zoomControl: true,
-            streetViewControl: false,
-            mapTypeControl: false, // 지도/위성 버튼 비활성화
+            streetViewControl: false
         });
 
         isMapLoaded = true;
 
-        // 데이터가 이미 로드되었다면 마커 업데이트
         if (shrinesData.length > 0) {
             updateMapMarkers(shrinesData);
         }
@@ -85,33 +83,21 @@ async function updateMapMarkers(data) {
     // 기존 마커 삭제
     markers.forEach(m => m.map = null);
     markers = [];
-    
-    // [수정] 데이터가 없으면 함수 종료
-    if (data.length === 0) {
-        return;
-    }
-
-    // [추가] 모든 마커를 포함할 경계(bounds) 객체 생성
-    const bounds = new google.maps.LatLngBounds();
 
     try {
         const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-        const { InfoWindow } = await google.maps.importLibrary("maps");
 
         data.forEach(shrine => {
-            const position = { lat: parseFloat(shrine.lat), lng: parseFloat(shrine.lng) };
-
             const markerIcon = document.createElement('div');
             markerIcon.className = 'marker-icon';
-            // 썸네일 이미지를 마커 배경으로 사용하지 않도록 수정 (기본 아이콘 사용)
-            // if (shrine.thumbnail) {
-            //     markerIcon.style.backgroundImage = `url(${shrine.thumbnail})`;
-            //     markerIcon.style.backgroundSize = 'cover';
-            // }
+            if (shrine.thumbnail) {
+                markerIcon.style.backgroundImage = `url(${shrine.thumbnail})`;
+                markerIcon.style.backgroundSize = 'cover';
+            }
 
             const marker = new AdvancedMarkerElement({
                 map: map,
-                position: position,
+                position: { lat: parseFloat(shrine.lat), lng: parseFloat(shrine.lng) },
                 title: shrine.title,
                 content: markerIcon
             });
@@ -119,6 +105,7 @@ async function updateMapMarkers(data) {
             marker.addListener('click', () => {
                 if (currentInfoWindow) currentInfoWindow.close();
 
+                // [지도 정보창] 온천 뱃지 표시
                 const onsenTag = shrine.has_onsen 
                     ? '<span class="info-onsen-tag">♨️ Onsen Nearby</span>' 
                     : '';
@@ -138,19 +125,12 @@ async function updateMapMarkers(data) {
                     </div>
                 `;
                 
-                const infoWindow = new InfoWindow({ content: infoContent, maxWidth: 250 });
+                const infoWindow = new google.maps.InfoWindow({ content: infoContent });
                 infoWindow.open(map, marker);
                 currentInfoWindow = infoWindow;
             });
             markers.push(marker);
-
-            // [추가] 생성된 마커의 위치를 bounds에 포함
-            bounds.extend(position);
         });
-
-        // [추가] 모든 마커가 보이도록 지도의 중심과 줌 레벨을 자동으로 조절
-        map.fitBounds(bounds);
-
     } catch (e) {
         console.error("Marker Error:", e);
     }
@@ -162,12 +142,9 @@ function updateCategoryCounts() {
     
     shrinesData.forEach(shrine => {
         if(shrine.categories) {
-            // 카테고리 이름의 대소문자 통일 (예: "Success"와 "success"를 동일하게 처리)
             shrine.categories.forEach(cat => {
-                const key = cat.toLowerCase().trim();
-                if (counts.hasOwnProperty(key)) {
-                    counts[key]++;
-                }
+                const key = cat.toLowerCase();
+                if (counts.hasOwnProperty(key)) counts[key]++;
             });
         }
     });
@@ -191,11 +168,13 @@ function renderCards(data) {
     }
 
     data.forEach(shrine => {
+        // NEW 뱃지 계산
         const pubDate = new Date(shrine.published);
         const now = new Date();
         const diffDays = Math.ceil((now - pubDate) / (1000 * 60 * 60 * 24));
-        const isNew = diffDays <= 14; // NEW 뱃지 표시 기간을 14일로 늘림
+        const isNew = diffDays <= 7;
 
+        // [카드 리스트] 온천 뱃지 표시
         const onsenBadge = shrine.has_onsen 
             ? '<span class="onsen-badge">♨️ Onsen</span>' 
             : '';
@@ -210,7 +189,7 @@ function renderCards(data) {
             </a>
             <div class="card-content">
                 <div class="card-meta">
-                    <span>${shrine.categories.join(', ')}</span> • <span>${shrine.published.replace(/-/g, '.')}</span>
+                    <span>${shrine.categories.join(', ')}</span> • <span>${shrine.published}</span>
                 </div>
                 <h3 class="card-title"><a href="${shrine.link}">${shrine.title}</a></h3>
                 <p class="card-summary">${shrine.summary}</p>
@@ -222,32 +201,52 @@ function renderCards(data) {
     });
 }
 
-// [6] Filter Logic
-// 검색 기능이 없으므로 initSearch()는 제거하고 필터 기능만 남깁니다.
+// [6] Search & Filter Logic
+function initSearch() {
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            filterData(e.target.value.toLowerCase(), getCurrentTheme());
+        });
+    }
+}
+
 function initThemeFilters() {
     const buttons = document.querySelectorAll('.theme-button');
     buttons.forEach(btn => {
         btn.addEventListener('click', () => {
             buttons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            filterByTheme(btn.dataset.theme);
+            filterData('', btn.dataset.theme);
         });
     });
 }
 
-function filterByTheme(theme) {
+function getCurrentTheme() {
+    const activeBtn = document.querySelector('.theme-button.active');
+    return activeBtn ? activeBtn.dataset.theme : 'all';
+}
+
+function filterData(keyword, theme) {
     let filtered = shrinesData;
 
     if (theme !== 'all') {
         filtered = filtered.filter(item => 
-            item.categories.some(cat => cat.toLowerCase().trim() === theme.toLowerCase())
+            item.categories.some(cat => cat.toLowerCase() === theme.toLowerCase())
         );
     }
-    
+
+    if (keyword) {
+        filtered = filtered.filter(item => 
+            item.title.toLowerCase().includes(keyword) || 
+            item.address.toLowerCase().includes(keyword) || 
+            (item.tags && item.tags.some(tag => tag.toLowerCase().includes(keyword)))
+        );
+    }
+
     renderCards(filtered);
     updateMapMarkers(filtered);
 }
-
 
 // [7] Omikuji (Fortune) Logic
 function initOmikuji() {
@@ -258,7 +257,7 @@ function initOmikuji() {
     const step1 = document.getElementById('omikuji-step1');
     const step2 = document.getElementById('omikuji-step2');
     
-    if(!btn || !modal || !close || !drawBtn || !step1 || !step2) return;
+    if(!btn) return;
 
     btn.addEventListener('click', () => { 
         modal.style.display = 'flex'; 
@@ -293,7 +292,7 @@ function initOmikuji() {
         document.getElementById('result-desc').innerText = `Your lucky spot is:\n${randomShrine.title}`;
         
         const goBtn = document.getElementById('go-map-btn');
-        goBtn.innerText = `Explore ${randomShrine.categories[0] || 'Shrine'}`;
+        goBtn.innerText = "Go to Shrine";
         goBtn.onclick = () => { window.location.href = randomShrine.link; };
 
         if (typeof confetti === 'function') {
@@ -302,7 +301,6 @@ function initOmikuji() {
     }
 }
 
-// 쉐이킹 애니메이션을 위한 스타일 동적 추가
 const style = document.createElement('style');
 style.innerHTML = `@keyframes shake { 0% { transform: translate(1px, 1px) rotate(0deg); } 10% { transform: translate(-1px, -2px) rotate(-1deg); } 20% { transform: translate(-3px, 0px) rotate(1deg); } 30% { transform: translate(3px, 2px) rotate(0deg); } 40% { transform: translate(1px, -1px) rotate(1deg); } 50% { transform: translate(-1px, 2px) rotate(-1deg); } 60% { transform: translate(-3px, 1px) rotate(0deg); } 70% { transform: translate(3px, 1px) rotate(-1deg); } 80% { transform: translate(-1px, -1px) rotate(1deg); } 90% { transform: translate(1px, 2px) rotate(0deg); } 100% { transform: translate(1px, -2px) rotate(-1deg); } }`;
 document.head.appendChild(style);
