@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact - JinjaMap</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        /* About 페이지 전용 스타일 */
+        .about-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            line-height: 1.8;
+        }
+        .about-container h1 {
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+        .about-container h2 {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        .about-container p {
+            color: var(--text-gray);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        /* [수정] 문의 섹션을 간단하게 변경 */
+        .contact-section {
+            margin-top: 50px;
+            padding: 30px;
+            border-top: 1px solid #eee;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact-link {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white !important; /* 링크 색상 강제 지정 */
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        .contact-link:hover {
+            background-color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <header style="padding: 20px; text-align: center; border-bottom: 1px solid #eaeaea;">
+        <a href="/"><img src="/static/images/JinjaMapLogo_Horizontal.png" alt="JinjaMap Logo" style="height: 40px;"></a>
+    </header>
+
+    <div class="about-container">
+        <h1>About JinjaMap</h1>
+        
+        <h2>⛩️ Our Mission</h2>
+        <p>
+            JinjaMap is a passion project born from a deep appreciation for Japanese culture and its sacred places. Our mission is to help travelers, both new and experienced, discover the hidden spiritual gems scattered across Japan. Beyond the famous tourist spots, there are countless local shrines (jinja) rich with history, mythology, and a unique sense of peace. We aim to be the bridge that connects you to these powerful and serene "power spots."
+        </p>
+
+        <h2>🌟 What We Do</h2>
+        <p>
+            We explore shrines all over Japan, from the grandest national treasures to the quietest neighborhood sanctuaries. For each location, we provide in-depth stories, practical information, and unique insights to make your visit more meaningful.
+        </p>
+
+        <!-- [수정] 문의 섹션 -->
+        <div class="contact-section">
+            <h2>💌 Get In Touch</h2>
+            <p>
+                Have a question, a suggestion, or just want to share your experience? We'd love to hear from you!
+            </p>
+            <a href="https://script.google.com/macros/s/AKfycbw5CuKoLLM-NV37_83PvhnQIjTtDzXDN-Au21ThJd4wmjNEXlmYIB_O-Zh_GyJt2lkShw/exec" class="contact-link" target="_blank" rel="noopener noreferrer">
+                Open Contact Form
+            </a>
+        </div>
+    </div>
+    
+    {% include 'footer.html' %}
+</body>
+</html>

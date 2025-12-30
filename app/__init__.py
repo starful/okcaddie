@@ -80,6 +80,13 @@ def sitemap_xml():
     return Response('\n'.join(xml), mimetype='application/xml')
 
 # ==========================================
+# [추가] About & Contact 페이지 라우트
+# ==========================================
+@app.route('/about.html')
+def about():
+    return render_template('about.html')
+
+# ==========================================
 # [추가] 개인정보처리방침 라우트
 # ==========================================
 @app.route('/privacy.html')
