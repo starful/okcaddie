@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finding Serenity at Higashi Kasai Katori Shrine: A Guardian of Edogawa"
-date: "2024-05-22"
+date: "2025-12-31"
 categories: [History, Safety, Culture]
 tags: [Tokyo, Personal Experience, Edogawa]
 thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou/2_1.jpg"
