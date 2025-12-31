@@ -1,6 +1,98 @@
 {
-  "last_updated": "2025.12.29",
+  "last_updated": "2025.12.31",
   "shrines": [
+    {
+      "id": "shinozaki_sengen_shrine",
+      "title": "My Visit to Shinozaki Sengen Shrine: A Local Gem in Edogawa, Tokyo",
+      "lat": 35.7065,
+      "lng": 139.9025,
+      "categories": [
+        "Health",
+        "Safety",
+        "History"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dbwazrzbc/image/upload/v1541551591/starful.net/edogawa/1_1.jpg",
+      "address": "1 Chome-17-21 Shinozakimachi, Edogawa City, Tokyo",
+      "published": "2025-12-30",
+      "summary": "1. 🙏 Deities and Origins: A Goddess of Mt. Fuji in Urban Tokyo\nDeep in the heart of Tokyo's Edogawa ward lies a tranquil...",
+      "link": "/shrine/shinozaki_sengen_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "samukawa",
+      "title": "Samukawa Shrine: A Journey Through Time and Fortune in Kanagawa",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Safety"
+      ],
+      "thumbnail": "/content/images/samukawa.webp",
+      "address": "사무카와 신사 (寒川神社)",
+      "published": "2025-12-29",
+      "summary": "1. 🙏 Introduction: Deities & History\nSamukawa Shrine, nestled in the heart of Kanagawa Prefecture, isn't just another be...",
+      "link": "/shrine/samukawa",
+      "has_onsen": true
+    },
+    {
+      "id": "kehi_jingu_shrine",
+      "title": "Kehi Jingu Shrine: An Ancient Portal to the Soul of Japan (Fukui)",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "History"
+      ],
+      "thumbnail": "/content/images/kehi_jingu_shrine.webp",
+      "address": "게히 신궁 (氣比神宮)",
+      "published": "2025-12-29",
+      "summary": "1. 🙏 Introduction: Deities & History\nKehi Jingu Shrine, nestled in the coastal city of Tsuruga in Fukui Prefecture, isn'...",
+      "link": "/shrine/kehi_jingu_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "namba",
+      "title": "Namba Yasaka Shrine: Home to the Roaring Lion Head in Osaka",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Success"
+      ],
+      "thumbnail": "/content/images/namba.webp",
+      "address": "난바 야사카 신사 (難波八坂神社)",
+      "published": "2025-12-29",
+      "summary": "1. 🙏 Introduction: Deities & History\nNamba Yasaka Shrine, tucked away in the bustling Namba district of Osaka, is a vibr...",
+      "link": "/shrine/namba",
+      "has_onsen": true
+    },
+    {
+      "id": "kibitsuhiko",
+      "title": "Kibitsuhiko Shrine: A Journey Through Myth and History in Okayama",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Success"
+      ],
+      "thumbnail": "/content/images/kibitsuhiko.webp",
+      "address": "기비쓰히코 신사 (吉備津彦神社)",
+      "published": "2025-12-29",
+      "summary": "1. 🙏 Introduction: Deities & History\nKibitsuhiko Shrine (吉備津彦神社) in Okayama is more than just a beautiful place of worsh...",
+      "link": "/shrine/kibitsuhiko",
+      "has_onsen": true
+    },
+    {
+      "id": "minatogawa",
+      "title": "Minatogawa Shrine: A Journey into Loyalty and History in Kobe",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "categories": [
+        "Success"
+      ],
+      "thumbnail": "/content/images/minatogawa.webp",
+      "address": "미나토가와 신사 (湊川神社)",
+      "published": "2025-12-29",
+      "summary": "1. 🙏 Introduction: Deities & History\nMinatogawa Shrine, nestled in the heart of Kobe, Hyogo Prefecture, is more than jus...",
+      "link": "/shrine/minatogawa",
+      "has_onsen": true
+    },
     {
       "id": "suwa_taisha_kamisha_honmiya",
       "title": "Suwa Taisha Kamisha Honmiya: Gateway to Japan's Oldest Gods",
@@ -57,7 +149,7 @@
       "thumbnail": "/content/images/oarai_isosaki_shrine.webp",
       "address": "오아라이 이소사키 신사 (大洗磯前神社)",
       "published": "2025-12-26",
-      "summary": "1. 🙏 Introduction: Deities & History\nIn the annals of Japanese mythology, the creation of the nation was not a singular ...",
+      "summary": "1. 📜 The Story Begins: Gods and History\nIn the annals of Japanese mythology, the creation of the nation was not a singul...",
       "link": "/shrine/oarai_isosaki_shrine",
       "has_onsen": true
     },
@@ -1994,6 +2086,23 @@
       "published": "2024-11-30",
       "summary": "Hello, this is the JinjaMap editor.\nIn Yamanashi Prefecture, the sacred spirit of Mount Fuji permeates the air. At the f...",
       "link": "/shrine/araya_yama_shrine",
+      "has_onsen": true
+    },
+    {
+      "id": "higashi_kasai_katori_shrine",
+      "title": "Finding Serenity at Higashi Kasai Katori Shrine: A Guardian of Edogawa",
+      "lat": 35.668368,
+      "lng": 139.880894,
+      "categories": [
+        "History",
+        "Safety",
+        "Culture"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou/2_1.jpg",
+      "address": "2-34-20 Higashikasai, Edogawa City, Tokyo 134-0084",
+      "published": "2024-05-22",
+      "summary": "1. 🙏 Deities and Origins: The Sword of Protection in East Kasai\nHigashi Kasai Katori Shrine (東葛西 香取神社) is a historic san...",
+      "link": "/shrine/higashi_kasai_katori_shrine",
       "has_onsen": true
     },
     {
