@@ -39,7 +39,7 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # 모델을 'gemini-2.0-flash'로 고정
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = "gemini-flash-latest"
 model = genai.GenerativeModel(MODEL_NAME)
 logging.info(f"✅ Using fixed model: {MODEL_NAME}")
 
