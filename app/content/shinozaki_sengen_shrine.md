@@ -20,6 +20,7 @@ excerpt: "Uncover the thousand-year history of Shinozaki Sengen Shrine. Dedicate
 The shrine enshrines **Konohanasakuya-hime (木花開耶姫命)**, perhaps the most beautiful and legendary goddess in Japanese mythology. Often associated with the delicate cherry blossom, she is also the deity of **Mount Fuji**. Her myth is one of immense strength and purity—legend says she proved her fidelity by giving birth in a burning room, remaining unharmed by the flames. 
 
 Because of this story, she is worshipped here as a powerful protector for:
+
 *   **Safe Childbirth (Anzan):** Expectant mothers travel from across Tokyo to pray for her protection.
 *   **Children's Growth:** Ensuring the healthy development of infants and toddlers.
 *   **Fire Prevention:** A crucial blessing for the wooden neighborhoods of old Edo.
@@ -75,6 +76,7 @@ One cannot talk about this shrine without mentioning the famous **Shinozaki Nobo
 Receiving a **Goshuin** at Shinozaki Sengen is a meditative process. The stamp features the elegant character for "Sengen" (浅間), which literally means "shallow/clear spring"—a reference to the volcanic springs found on Mount Fuji. The priest’s calligraphy is often described as fluid and graceful, mirroring the feminine energy of the goddess Konohanasakuya-hime.
 
 **Special Amulets (Omamori)**
+
 *   **The Anzan-mamori (Safe Childbirth):** This is the shrine's most famous item. It often features images of cherry blossoms or a small drum, symbolizing the joy of a new life.
 *   **Fuji-viewing Charms:** Unique to Sengen shrines, these amulets are said to bring the "perspective" and "clarity" of the great mountain into your daily life.
 *   **Ema (Votive Tablets):** Many families hang Ema here with drawings of healthy infants, thanking the goddess for her protection.
@@ -111,7 +113,7 @@ Shinozaki Sengen Shrine is a place that rewards the patient traveler. While the 
 
 ***
 
-### ♨️ Relax at a Nearby Onsen: Akebono-yu Sento (あけぼ의 탕)
+### ♨️ Relax at a Nearby Onsen: Akebono-yu Sento (あけぼの湯)
 
 To truly immerse yourself in the local culture of Edogawa, a visit to **Akebono-yu (あけぼの湯)** is essential. Edogawa has one of the highest concentrations of traditional bathhouses (*sento*) in Tokyo, and Akebono-yu is a crown jewel.
 
