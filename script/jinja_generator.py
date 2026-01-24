@@ -190,7 +190,7 @@ if __name__ == "__main__":
     # ==========================================
     # [수정] 생성 개수를 5개로 고정합니다.
     # ==========================================
-    TARGET_COUNT = 5
+    TARGET_COUNT = 15
 
     logging.info(f"🚀 Generator Started (Target: {TARGET_COUNT})")
 
