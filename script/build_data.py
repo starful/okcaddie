@@ -5,17 +5,16 @@ import markdown
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# 스크립트 위치 기준 경로 설정
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 
 CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
 STATIC_DIR = os.path.join(BASE_DIR, 'app', 'static')
 
-JSON_OUTPUT = os.path.join(STATIC_DIR, 'json', 'shrines_data.json')
+JSON_OUTPUT = os.path.join(STATIC_DIR, 'json', 'onsen_data.json')
 SITEMAP_OUTPUT = os.path.join(STATIC_DIR, 'sitemap.xml')
 
-BASE_URL = 'https://okjinja.com'
+BASE_URL = 'https://okonsen.net'
 
 def strip_markdown(text):
     try:
@@ -25,8 +24,8 @@ def strip_markdown(text):
     except Exception as e:
         return text
 
-def generate_sitemap(shrines):
-    xml = ['<?xml version="1.0" encoding="UTF-8"?>']
+def generate_sitemap(onsens):
+    xml =['<?xml version="1.0" encoding="UTF-8"?>']
     xml.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
     
     last_updated = datetime.now().strftime("%Y-%m-%d")
@@ -38,9 +37,9 @@ def generate_sitemap(shrines):
     xml.append('    <priority>1.0</priority>')
     xml.append('  </url>')
 
-    for shrine in shrines:
-        link = shrine['link']
-        date_str = shrine.get('published', last_updated)
+    for onsen in onsens:
+        link = onsen['link']
+        date_str = onsen.get('published', last_updated)
         xml.append('  <url>')
         xml.append(f'    <loc>{BASE_URL}{link}</loc>')
         xml.append(f'    <lastmod>{date_str}</lastmod>')
@@ -54,7 +53,7 @@ def generate_sitemap(shrines):
 def main():
     print(f"🔨 빌드 스크립트 시작 (Root: {BASE_DIR})")
     
-    shrines = []
+    onsens =[]
     
     os.makedirs(os.path.dirname(JSON_OUTPUT), exist_ok=True)
     if not os.path.exists(CONTENT_DIR):
@@ -81,39 +80,44 @@ def main():
                 if not summary:
                     summary = strip_markdown(post.content)[:120] + '...'
 
-                # [수정] 온천(has_onsen) 검사 로직 완전히 삭제됨
+                # 💡 [핵심 해결] AI가 카테고리를 텍스트로 써도 무조건 배열(리스트)로 강제 변환!
+                raw_categories = post.get('categories',[])
+                if isinstance(raw_categories, str):
+                    categories = [c.strip() for c in raw_categories.split(',')]
+                else:
+                    categories = raw_categories
 
-                shrine = {
+                onsen = {
                     "id": filename.replace('.md', ''),
                     "lang": lang,
                     "title": post.get('title', 'No Title'),
                     "lat": post.get('lat'),
                     "lng": post.get('lng'),
-                    "categories": post.get('categories', []),
+                    "categories": categories,  # 수정된 카테고리 적용
                     "thumbnail": post.get('thumbnail', '/static/images/default.png'),
                     "address": post.get('address', ''),
                     "published": published_date,
                     "summary": summary,
-                    "link": f"/shrine/{filename.replace('.md', '')}"
+                    "link": f"/onsen/{filename.replace('.md', '')}"
                 }
-                shrines.append(shrine)
+                onsens.append(onsen)
         except Exception as e:
             print(f"❌ Error processing {filename}: {e}")
 
-    shrines.sort(key=lambda x: x['published'], reverse=True)
+    onsens.sort(key=lambda x: x['published'], reverse=True)
 
     final_data = {
         "last_updated": datetime.now().strftime("%Y.%m.%d"),
-        "shrines": shrines
+        "onsens": onsens
     }
     with open(JSON_OUTPUT, 'w', encoding='utf-8') as f:
         json.dump(final_data, f, ensure_ascii=False, indent=2)
     
-    sitemap_content = generate_sitemap(shrines)
+    sitemap_content = generate_sitemap(onsens)
     with open(SITEMAP_OUTPUT, 'w', encoding='utf-8') as f:
         f.write(sitemap_content)
 
-    print(f"\n🎉 빌드 완료! 총 {len(shrines)}개 신사 데이터 처리됨. (온천 정보 제거됨)")
+    print(f"\n🎉 빌드 완료! 총 {len(onsens)}개 온천 데이터 처리됨.")
 
 if __name__ == "__main__":
     main()

@@ -12,31 +12,28 @@ Compress(app)
 # [설정] 경로 설정
 BASE_DIR = app.root_path
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
-DATA_FILE = os.path.join(STATIC_DIR, 'json', 'shrines_data.json')
+DATA_FILE = os.path.join(STATIC_DIR, 'json', 'onsen_data.json') # 변경됨
 CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 
 # [최적화] 서버 시작 시 데이터를 메모리에 로드 (Cache)
-# 매 요청마다 파일을 읽지 않으므로 성능이 향상됩니다.
 CACHED_DATA = {}
 if os.path.exists(DATA_FILE):
     try:
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             CACHED_DATA = json.load(f)
-            print(f"✅ Data loaded: {len(CACHED_DATA.get('shrines', []))} items")
+            print(f"✅ Data loaded: {len(CACHED_DATA.get('onsens',[]))} items")
     except Exception as e:
         print(f"❌ Data load error: {e}")
-        CACHED_DATA = {"shrines": [], "error": "Load failed"}
+        CACHED_DATA = {"onsens":[], "error": "Load failed"}
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# [최적화] 정적 파일 서빙 (Ads.txt)
 @app.route('/ads.txt')
 def ads_txt():
     return send_from_directory(STATIC_DIR, 'ads.txt')
 
-# [최적화] 정적 파일 서빙 (Sitemap)
 @app.route('/sitemap.xml')
 def sitemap_xml():
     return send_from_directory(STATIC_DIR, 'sitemap.xml')
@@ -49,18 +46,24 @@ def about():
 def privacy():
     return render_template('privacy.html')
 
-@app.route('/api/shrines')
-def api_shrines():
-    # 메모리에 있는 데이터를 즉시 반환
+# [변경] API 엔드포인트 이름 변경
+@app.route('/api/onsens')
+def api_onsens():
     return jsonify(CACHED_DATA)
 
-@app.route('/shrine/<shrine_id>')
-def shrine_detail(shrine_id):
-    md_path = os.path.join(CONTENT_DIR, f"{shrine_id}.md")
+# [이 부분을 찾아서]
+@app.route('/onsen/<onsen_id>')
+def onsen_detail(onsen_id):
+    md_path = os.path.join(CONTENT_DIR, f"{onsen_id}.md")
     if not os.path.exists(md_path):
         abort(404)
     with open(md_path, 'r', encoding='utf-8') as f:
         post = frontmatter.load(f)
+
+    # 💡 [여기서부터 아래 내용을 추가/덮어쓰기 해주세요!]
+    # 카테고리가 문자열로 들어오면 알파벳이 쪼개지지 않도록 리스트로 강제 변환
+    if isinstance(post.get('categories'), str):
+        post['categories'] =[c.strip() for c in post['categories'].split(',')]
 
     fixed_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', post.content)
     fixed_content = re.sub(r'([^\n])\n-\s', r'\1\n\n- ', fixed_content)
