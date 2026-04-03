@@ -208,4 +208,4 @@ if __name__ == "__main__":
     else:
         # 한 번 실행 시 온천 5곳(10개 파일)을 동시에 처리
         # 만약 한 번에 더 많이 만들고 싶다면 limit=10 등으로 수정하시면 됩니다!
-        process_csv_auto(csv_filename="onsens.csv", limit=2)
+        process_csv_auto(csv_filename="onsens.csv", limit=10)
