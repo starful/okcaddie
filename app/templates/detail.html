@@ -1,50 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ post.lang if post.lang else 'en' }}">
+<html lang="{{ post.lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ post.title }} - OKOnsen</title>
-    <meta name="description" content="{{ post.summary }}">
-    <link rel="canonical" href="https://okonsen.net/onsen/{{ post.id }}" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P8FM8Z36D7"></script>
-    <script>
-      window.dataLayer = window.dataLayer ||[];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-P8FM8Z36D7');
-    </script>
-
-    <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">
-    (function () {
-        var script = document.createElement("script");
-        script.async = 1;
-        script.src = 'https://emrldtp.cc/NTA5ODA2.js?t=509806';
-        document.head.appendChild(script);
-    })();
-    </script>
-
+    <title>{{ post.title }} - OKCaddie</title>
     <link rel="stylesheet" href="/static/css/style.css">
-    <style>
-        .detail-container { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; }
-        .detail-header { text-align: center; margin-bottom: 40px; }
-        .detail-title { font-size: 2rem; margin-bottom: 10px; color: #333; }
-        .detail-meta { color: #666; font-size: 0.9rem; }
-        .detail-img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 30px; }
-        .detail-content { font-size: 1.1rem; line-height: 1.8; color: #444; }
-        .detail-content h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; color: #3498db; }
-        .detail-content img { max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 5px; }
-        .back-btn { display: inline-block; margin-top: 40px; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 20px; }
-    </style>
 </head>
 <body>
     <div class="container">
-        <header style="padding: 20px;">
-            <a href="/">
-                <img src="/static/images/logo.png" alt="OKOnsen" style="height: 60px; display: block; margin: 0 auto;">
-            </a>
+        <header style="padding: 40px 20px; text-align: center;">
+            <a href="/"><img src="/static/images/logo.png" alt="OKCaddie" style="height: 60px; display: block; margin: 0 auto;"></a>
         </header>
 
         <article class="detail-container">
@@ -61,11 +26,11 @@
                 {{ content | safe }}
             </div>
 
-            {% if post.agoda %}
-            <div style="text-align: center; margin: 20px 0;">
-                <a href="{{ post.agoda }}" target="_blank" rel="nofollow" 
-                style="display: inline-block; background-color: #3498db; color: white; padding: 15px 30px; font-size: 1.2rem; font-weight: bold; border-radius: 30px; text-decoration: none; box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3); transition: transform 0.2s;">
-                ✨ Check Availability & Prices on Agoda
+            {% if post.booking %}
+            <div style="text-align: center; margin: 40px 0;">
+                <a href="{{ post.booking }}" target="_blank" rel="nofollow" 
+                   style="display: inline-block; background-color: #27ae60; color: white; padding: 18px 35px; font-size: 1.2rem; font-weight: bold; border-radius: 35px; text-decoration: none; box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);">
+                    ⛳ Book This Course / Check Tee Times
                 </a>
             </div>
             {% endif %}
