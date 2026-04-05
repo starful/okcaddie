@@ -69,15 +69,21 @@ if [ "$SKIP_IMAGES" = true ]; then
     print_warn "건너뜀"
 else
     IMAGES_DIR="app/static/images"
-    while IFS=',' read -r name lat lng rest; do
-        [ "$name" = "Name" ] && continue
-        safe=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g' | tr -d "',")
-        if [ ! -f "${IMAGES_DIR}/${safe}.jpg" ] && \
-           [ ! -f "${IMAGES_DIR}/${safe}.jpeg" ] && \
-           [ ! -f "${IMAGES_DIR}/${safe}.png" ]; then
-            MISSING=$((MISSING + 1))
-        fi
-    done < "$CSV_PATH"
+    # CSV 전체가 아닌 MD 파일 기준으로 이미지 없는 항목만 카운트
+    if [ -d "$CONTENT_DIR" ]; then
+        for md_file in "$CONTENT_DIR"/*.md; do
+            [ -f "$md_file" ] || continue
+            base=$(basename "$md_file" .md)
+            safe=${base%_ko}; safe=${safe%_en}
+            if [ ! -f "${IMAGES_DIR}/${safe}.jpg" ] && \
+               [ ! -f "${IMAGES_DIR}/${safe}.jpeg" ] && \
+               [ ! -f "${IMAGES_DIR}/${safe}.png" ]; then
+                MISSING=$((MISSING + 1))
+            fi
+        done
+        # ko/en 2개 파일이 같은 이미지를 가리키므로 2로 나눔
+        MISSING=$(( MISSING / 2 ))
+    fi
 
     if [ "$MISSING" -eq 0 ]; then
         print_ok "모든 이미지 존재 → 스킵"

@@ -4,43 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ post.title }} - OKCaddie</title>
+    <meta name="description" content="{{ post.summary }}">
     <link rel="stylesheet" href="/static/css/style.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HBWT4CY75"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5HBWT4CY75');
+    </script>
 </head>
 <body>
-    <div class="container">
-        <header style="padding: 40px 20px; text-align: center;">
-            <a href="/"><img src="/static/images/logo.png" alt="OKCaddie" style="height: 60px; display: block; margin: 0 auto;"></a>
-        </header>
+    <header style="padding: 30px 0; background: #fff; text-align: center; border-bottom: 1px solid #eee;">
+        <a href="/"><img src="/static/images/logo.png" alt="OKCaddie" style="height: 90px;"></a>
+    </header>
 
-        <article class="detail-container">
-            <div class="detail-header">
-                <h1 class="detail-title">{{ post.title }}</h1>
-                <div class="detail-meta">
-                    📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }}
-                </div>
-            </div>
+    <article class="detail-container">
+        <div class="detail-header">
+            <h1 class="detail-title">{{ post.title }}</h1>
+            <div class="detail-meta">📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }}</div>
+        </div>
 
-            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
 
-            <div class="detail-content">
-                {{ content | safe }}
-            </div>
+        <!-- [추가] 회원제/프라이빗 골프장 안내 배너 -->
+        {% if 'Private Club' in post.categories or '회원제/명문' in post.categories %}
+        <div style="background: #fff5f5; border: 1px solid #feb2b2; padding: 25px; border-radius: 12px; margin-bottom: 40px; color: #c53030; line-height: 1.6;">
+            <h3 style="margin-top: 0;">🔒 Private Member-Only Club</h3>
+            <p style="margin-bottom: 0;">
+                This course is an exclusive private club. Booking is generally restricted to members or guests accompanied by a member. Please check with specialized golf travel services for potential tee-time availability for foreigners.
+            </p>
+        </div>
+        {% endif %}
 
-            {% if post.booking %}
-            <div style="text-align: center; margin: 40px 0;">
-                <a href="{{ post.booking }}" target="_blank" rel="nofollow" 
-                   style="display: inline-block; background-color: #27ae60; color: white; padding: 18px 35px; font-size: 1.2rem; font-weight: bold; border-radius: 35px; text-decoration: none; box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);">
-                    ⛳ Book This Course / Check Tee Times
-                </a>
-            </div>
-            {% endif %}
+        <div class="detail-content">
+            {{ content | safe }}
+        </div>
 
-            <div style="text-align: center;">
-                <a href="/" class="back-btn">🗺️ Back to Map</a>
-            </div>
-        </article>
-        
-        {% include 'footer.html' %}
-    </div>
+        <!-- 예약 버튼 (Booking 링크가 있을 때만) -->
+        {% if post.booking %}
+        <div style="text-align: center; margin: 60px 0;">
+            <a href="{{ post.booking }}" target="_blank" rel="nofollow" 
+               style="display: inline-block; background: #27ae60; color: #fff; padding: 20px 50px; font-size: 1.3rem; font-weight: 800; border-radius: 50px; text-decoration: none; box-shadow: 0 5px 20px rgba(39,174,96,0.3); transition: transform 0.2s;">
+                ⛳ Check Availability & Book Now
+            </a>
+        </div>
+        {% endif %}
+
+        <div style="text-align: center; margin-bottom: 40px;">
+            <a href="/" class="back-btn">🗺️ Back to Course Map</a>
+        </div>
+    </article>
+    
+    {% include 'footer.html' %}
 </body>
 </html>

@@ -23,41 +23,70 @@ PROTECTED = {'logo.png', 'logo.svg', 'favicon.ico', 'default.png', 'og_image.png
 # 🔍 Places API — 골프장 검색
 # ==========================================
 def search_place(name, lat, lng):
-    url = "https://places.googleapis.com/v1/places:searchNearby"
-    headers = {
+    """1차: Nearby Search / 2차: Text Search 폴백"""
+
+    headers_base = {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": API_KEY,
         "X-Goog-FieldMask": "places.id,places.displayName,places.photos"
     }
-    body = {
-        "includedTypes": ["golf_course"],
-        "locationRestriction": {
-            "circle": {
-                "center": {"latitude": float(lat), "longitude": float(lng)},
-                "radius": 1000.0  # 골프장은 넓으므로 1km 반경
-            }
-        },
-        "maxResultCount": 5,
-        "languageCode": "ja"
-    }
+    name_lower = name.lower().replace(" ", "")
 
+    # ── 1차 시도: Nearby Search (반경 3km, 골프장 타입) ──
     try:
-        res = requests.post(url, headers=headers, json=body, timeout=10)
-        data = res.json()
-        places = data.get("places", [])
-        if not places:
-            return None
+        body = {
+            "includedTypes": ["golf_course", "tourist_attraction", "establishment"],
+            "locationRestriction": {
+                "circle": {
+                    "center": {"latitude": float(lat), "longitude": float(lng)},
+                    "radius": 3000.0  # 3km로 확대 (골프장은 클럽하우스 위치가 다를 수 있음)
+                }
+            },
+            "maxResultCount": 10,
+            "languageCode": "ja"
+        }
+        res = requests.post(
+            "https://places.googleapis.com/v1/places:searchNearby",
+            headers=headers_base, json=body, timeout=10
+        )
+        places = res.json().get("places", [])
 
-        name_lower = name.lower().replace(" ", "")
+        # 이름 매칭
         for place in places:
             display = place.get("displayName", {}).get("text", "").lower().replace(" ", "")
             if name_lower in display or display in name_lower:
                 return place
-        return places[0]
-
+        if places:
+            return places[0]
     except Exception as e:
-        print(f"  ⚠️ 검색 오류 ({name}): {e}")
-        return None
+        print(f"  ⚠️ Nearby 검색 오류: {e}")
+
+    # ── 2차 폴백: Text Search (이름으로 직접 검색) ──
+    try:
+        body = {
+            "textQuery": f"{name} golf course Japan",
+            "locationBias": {
+                "circle": {
+                    "center": {"latitude": float(lat), "longitude": float(lng)},
+                    "radius": 5000.0
+                }
+            },
+            "maxResultCount": 5,
+            "languageCode": "ja"
+        }
+        res = requests.post(
+            "https://places.googleapis.com/v1/places:searchText",
+            headers={**headers_base, "X-Goog-FieldMask": "places.id,places.displayName,places.photos"},
+            json=body, timeout=10
+        )
+        places = res.json().get("places", [])
+        if places:
+            print(f"  🔄 Text Search 폴백 성공")
+            return places[0]
+    except Exception as e:
+        print(f"  ⚠️ Text Search 오류: {e}")
+
+    return None
 
 
 # ==========================================
