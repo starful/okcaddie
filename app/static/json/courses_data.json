@@ -1,77 +1,77 @@
 {
-  "last_updated": "2026.04.04",
+  "last_updated": "2026.04.05",
   "courses": [
     {
-      "id": "hirono_golf_club_ko",
+      "id": "phoenix_country_club_ko",
       "lang": "ko",
-      "title": "히로노 골프 클럽: 일본 골프의 성지, 최상위 프라이빗 챔피언십 코스 완전 정복 가이드",
-      "lat": 34.7967,
-      "lng": 135.0111,
+      "title": "미야자키 피닉스 컨트리클럽: 일본 최고 명문 코스에서의 꿈같은 라운딩",
+      "lat": 31.9567,
+      "lng": 131.4692,
       "categories": [
-        "프라이빗 클럽",
-        "챔피언십",
-        "절경"
+        "프리미엄",
+        "대회 코스",
+        "숙박/리조트"
       ],
-      "thumbnail": "/static/images/hirono_golf_club.jpg",
-      "address": "Miki, Hyogo",
-      "published": "2026-04-04",
-      "summary": "히로노 골프 클럽은 일본 효고현 미키에 자리한, 세계적인 명성을 자랑하는 최상위 프라이빗 챔피언십 코스입니다. C.H. 앨리슨의 마스터피스 설계와 시간이 빚어낸 아름다운 자연경관이 어우러져 모든 골퍼의 버킷 리스트에 오를 만한 특별한 경험을 선사합니다. 엄격한 회원 전용 시스템과 타의 추종을 불허하는 코스 관리로 전설적인 플레이를 만끽하고 싶은 이들에게 잊을 수 없는 추억을 선사할 것입니다.",
-      "booking": "",
-      "link": "/course/hirono_golf_club_ko"
+      "thumbnail": "/static/images/phoenix_country_club.jpg",
+      "address": "미야자키현 미야자키시",
+      "published": "2026-04-05",
+      "summary": "미야자키 피닉스 컨트리클럽은 일본 프로골프 토너먼트의 역사를 써내려가는 전설적인 코스입니다. 태평양의 시원한 바람과 장엄한 소나무 숲이 어우러진 이곳에서 세계적인 챔피언들의 발자취를 따라 최고의 골프 경험을 만끽하세요. 럭셔리 스테이 앤 플레이 패키지로 완벽한 휴식과 도전을 동시에 선사합니다.",
+      "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=8086",
+      "link": "/course/phoenix_country_club_ko"
     },
     {
       "id": "kawana_hotel_golf_course_fuji_course_ko",
       "lang": "ko",
-      "title": "가와나 호텔 골프코스 후지 코스: 태평양 절경 위 챔피언십의 도전, 일본 골프의 성지",
+      "title": "일본 최고의 바다 전망! 카와나 호텔 골프 코스 후지 코스 완벽 가이드 | 프리미엄 해변 링크스 정복",
       "lat": 34.9038,
       "lng": 139.1389,
       "categories": [
-        "절경",
-        "챔피언십",
-        "리조트"
+        "프리미엄",
+        "대회 코스",
+        "숙박/리조트"
       ],
       "thumbnail": "/static/images/kawana_hotel_golf_course_fuji_course.jpg",
       "address": "Ito, Shizuoka",
-      "published": "2026-04-04",
-      "summary": "이토 시즈오카에 위치한 가와나 호텔 골프코스 후지 코스는 태평양을 품은 절경과 전략적인 챔피언십 레이아웃으로 세계적인 명성을 자랑합니다. 해안 절벽을 따라 펼쳐지는 드라마틱한 라운딩은 골퍼들에게 잊을 수 없는 도전과 감동을 선사하며, 일본 골프 여행의 정수를 경험하게 합니다. 럭셔리 리조트에서의 숙박과 함께 최상의 골프 휴가를 만끽하세요.",
-      "booking": "",
+      "published": "2026-04-05",
+      "summary": "이토 시즈오카에 위치한 카와나 호텔 골프 코스 후지 코스는 일본을 넘어 세계적인 명성을 자랑하는 프리미엄 해변 링크스입니다. 찰스 앨리슨의 걸작인 이곳은 태평양의 장엄한 풍경과 마주하며 골퍼들에게 잊을 수 없는 도전과 감동을 선사합니다. 역대 프로 대회 코스의 명성과 최고급 리조트의 편의를 동시에 누릴 수 있는 꿈의 골프 경험을 지금 바로 만나보세요.",
+      "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=11384",
       "link": "/course/kawana_hotel_golf_course_fuji_course_ko"
     },
     {
       "id": "kawana_hotel_golf_course_fuji_course_en",
       "lang": "en",
-      "title": "Kawana Hotel Golf Course Fuji Course: Japan's Pinnacle of Coastal Championship Golf and Iconic Oceanfront Beauty",
+      "title": "Kawana Hotel Golf Course Fuji: Japan's Premier Seaside Links, Tournament Icon & Luxury Stay | Ito, Shizuoka",
       "lat": 34.9038,
       "lng": 139.1389,
       "categories": [
-        "Scenic View",
-        "Championship",
-        "Resort"
+        "Public Tournament",
+        "Premium / Luxury",
+        "Stay & Play"
       ],
       "thumbnail": "/static/images/kawana_hotel_golf_course_fuji_course.jpg",
       "address": "Ito, Shizuoka",
-      "published": "2026-04-04",
-      "summary": "Immerse yourself in the legendary challenge and breathtaking beauty of Kawana Hotel Golf Course's Fuji Course, a masterpiece sculpted by C.H. Alison on Japan's Izu Peninsula. Renowned worldwide for its dramatic clifftop fairways and panoramic Pacific Ocean vistas, this championship gem promises an unforgettable golf experience. Prepare for a strategic test of skill amidst unparalleled natural splendor that defines Japanese golf excellence.",
-      "booking": "",
+      "published": "2026-04-05",
+      "summary": "Experience the unparalleled prestige of Kawana Hotel Golf Course Fuji, an iconic public tournament venue renowned for its breathtaking seaside links and challenging layout. This premier destination offers an exquisite luxury golf escape amidst the stunning landscapes of Ito, Shizuoka, where every hole presents a picture-postcard view and a formidable test of skill. Indulge in world-class amenities and immerse yourself in an unforgettable golfing journey at this celebrated Japanese masterpiece.",
+      "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=11384",
       "link": "/course/kawana_hotel_golf_course_fuji_course_en"
     },
     {
-      "id": "hirono_golf_club_en",
+      "id": "phoenix_country_club_en",
       "lang": "en",
-      "title": "Hirono Golf Club: Japan's Most Exclusive and Exquisite Championship Golfing Sanctuary",
-      "lat": 34.7967,
-      "lng": 135.0111,
+      "title": "Phoenix Country Club Miyazaki: Japan's Premier Tournament Course & Luxury Golf Escape",
+      "lat": 31.9567,
+      "lng": 131.4692,
       "categories": [
-        "Championship",
-        "Private Club",
-        "Scenic View"
+        "Public Tournament",
+        "Premium / Luxury",
+        "Stay & Play"
       ],
-      "thumbnail": "/static/images/hirono_golf_club.jpg",
-      "address": "Miki, Hyogo",
-      "published": "2026-04-04",
-      "summary": "Hirono Golf Club, nestled in Miki, Hyogo, stands as a testament to golfing perfection, offering an unparalleled championship experience on a course consistently ranked among the world's elite. As Japan's most private and prestigious golf institution, Hirono promises an exquisite journey through strategic design, immaculate conditions, and breathtaking natural beauty. This is more than a round of golf; it's an immersion into the sport's timeless heritage and an exclusive privilege for the discerning enthusiast.",
-      "booking": "",
-      "link": "/course/hirono_golf_club_en"
+      "thumbnail": "/static/images/phoenix_country_club.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-04-05",
+      "summary": "Discover Phoenix Country Club, Miyazaki's legendary golf sanctuary, where championship pedigree meets unparalleled luxury. Host of the prestigious Dunlop Phoenix Tournament, this iconic course offers a public gateway to world-class golf amid stunning coastal pines. Experience a truly premium Japanese stay-and-play experience that captivates amateur and professional alike.",
+      "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=8086",
+      "link": "/course/phoenix_country_club_en"
     }
   ]
 }
