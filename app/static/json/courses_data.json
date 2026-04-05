@@ -2,6 +2,23 @@
   "last_updated": "2026.04.05",
   "courses": [
     {
+      "id": "taiheiyo_club_gotemba_course_en",
+      "lang": "en",
+      "title": "Taiheiyo Club Gotemba Course: A Masterpiece with Mount Fuji Views",
+      "lat": 35.3131,
+      "lng": 138.9056,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/taiheiyo_club_gotemba_course.jpg",
+      "address": "1275 Aza-Higashiyama, Gotemba, Shizuoka 412-0023, Japan",
+      "published": "2026-04-05",
+      "summary": "Taiheiyo Club Gotemba Course is a legendary golfing destination that offers an unparalleled experience. The course is meticulously designed, with stunning views of Mount Fuji serving as a constant backdrop. This is a bucket-list course for any serious golfer visiting Japan.",
+      "booking": "Through partner hotels or membership referrals. Highly recommended to book well in advance.",
+      "link": "/course/taiheiyo_club_gotemba_course_en"
+    },
+    {
       "id": "phoenix_country_club_ko",
       "lang": "ko",
       "title": "미야자키 피닉스 컨트리클럽: 일본 최고 명문 코스에서의 꿈같은 라운딩",
@@ -18,6 +35,76 @@
       "summary": "미야자키 피닉스 컨트리클럽은 일본 프로골프 토너먼트의 역사를 써내려가는 전설적인 코스입니다. 태평양의 시원한 바람과 장엄한 소나무 숲이 어우러진 이곳에서 세계적인 챔피언들의 발자취를 따라 최고의 골프 경험을 만끽하세요. 럭셔리 스테이 앤 플레이 패키지로 완벽한 휴식과 도전을 동시에 선사합니다.",
       "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=8086",
       "link": "/course/phoenix_country_club_ko"
+    },
+    {
+      "id": "naruo_golf_club_ko",
+      "lang": "ko",
+      "title": "나루오 골프 클럽 완벽 가이드: 간사이 최고의 숨겨진 보석을 만나다",
+      "lat": 34.8194,
+      "lng": 135.3444,
+      "categories": [
+        "Private Club",
+        "Premium / Luxury"
+      ],
+      "thumbnail": "/static/images/naruo_golf_club.jpg",
+      "address": "효고현 가와니시시",
+      "published": "2026-04-05",
+      "summary": "나루오 골프 클럽은 일본 간사이 지역에 위치한 최고급 프라이빗 골프 클럽입니다. 전략적인 코스 레이아웃, 아름다운 자연 경관, 그리고 최상의 서비스를 제공하며, 골퍼들에게 잊을 수 없는 경험을 선사합니다. 회원 초대가 있어야만 라운딩이 가능하며, 그만큼 특별하고 희소성 있는 곳입니다.",
+      "booking": "회원제 골프장으로, 회원 초대를 통해서만 예약 가능합니다.",
+      "link": "/course/naruo_golf_club_ko"
+    },
+    {
+      "id": "hirono_golf_club_ko",
+      "lang": "ko",
+      "title": "히로노 골프 클럽: 일본 골프의 정수를 경험하다 - 예약, 가격, 코스 정보 완벽 가이드",
+      "lat": 34.7967,
+      "lng": 135.0111,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/hirono_golf_club.jpg",
+      "address": "효고현 미키시",
+      "published": "2026-04-05",
+      "summary": "히로노 골프 클럽은 일본 최고의 명문 골프 클럽 중 하나로, 전략적인 코스 레이아웃과 아름다운 자연 경관을 자랑합니다. 회원제로 운영되며, 멤버십을 통해서만 예약이 가능하며, 최고급 시설과 서비스를 경험할 수 있습니다. 골프 애호가라면 평생에 한번은 꼭 방문해야 할 꿈의 골프장입니다.",
+      "booking": "회원제 골프장으로 회원 또는 회원 동반 시 예약 가능",
+      "link": "/course/hirono_golf_club_ko"
+    },
+    {
+      "id": "tokyo_golf_club_en",
+      "lang": "en",
+      "title": "Tokyo Golf Club: A Sacred Ground for Golfing Elites",
+      "lat": 35.8367,
+      "lng": 139.3956,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/tokyo_golf_club.jpg",
+      "address": "Sayama, Saitama",
+      "published": "2026-04-05",
+      "summary": "Tokyo Golf Club, a bastion of golfing tradition in Sayama, Saitama, offers an unparalleled experience steeped in history and exclusivity. Designed by the legendary Komyo Otani, this meticulously maintained course presents a challenging yet rewarding game for discerning golfers. Its serene atmosphere and impeccable service create an unforgettable journey into the heart of Japanese golfing excellence.",
+      "booking": "Strictly Member Referral Only",
+      "link": "/course/tokyo_golf_club_en"
+    },
+    {
+      "id": "the_north_country_golf_club_en",
+      "lang": "en",
+      "title": "The North Country Golf Club: Hokkaido's Undiscovered Gem - A Japanese Golfer's Guide",
+      "lat": 42.8456,
+      "lng": 141.6744,
+      "categories": [
+        "Value for Money",
+        "Public Tournament",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/the_north_country_golf_club.jpg",
+      "address": "Chitose, Hokkaido",
+      "published": "2026-04-05",
+      "summary": "Nestled in the heart of Hokkaido's picturesque landscape, The North Country Golf Club offers a challenging yet rewarding experience for golfers of all skill levels. With immaculately maintained fairways, strategic bunkering, and stunning views, this course is a must-play for anyone visiting the region. Combine the fantastic golf with luxurious on-site accommodations for the ultimate Hokkaido golf escape.",
+      "booking": "Various online booking platforms and direct phone reservations accepted.",
+      "link": "/course/the_north_country_golf_club_en"
     },
     {
       "id": "kawana_hotel_golf_course_fuji_course_ko",
@@ -38,6 +125,40 @@
       "link": "/course/kawana_hotel_golf_course_fuji_course_ko"
     },
     {
+      "id": "kasumigaseki_country_club_ko",
+      "lang": "ko",
+      "title": "가스미가세키 컨트리 클럽 완벽 가이드: 올림픽 골프 코스의 숨겨진 매력",
+      "lat": 35.8569,
+      "lng": 139.3814,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/kasumigaseki_country_club.jpg",
+      "address": "사이타마현 가와고에시",
+      "published": "2026-04-05",
+      "summary": "가스미가세키 컨트리 클럽은 일본 골프의 역사와 전통을 담고 있는 명문 클럽입니다. 2020 도쿄 올림픽 골프 경기장으로 선정되어 세계적인 명성을 얻었으며, 전략적인 코스 레이아웃과 아름다운 자연 경관을 자랑합니다. 회원제 클럽으로, 초청을 통해서만 라운딩이 가능하며, 특별한 경험을 선사합니다.",
+      "booking": "회원제, 초청 필수",
+      "link": "/course/kasumigaseki_country_club_ko"
+    },
+    {
+      "id": "pgm_ishioka_golf_club_ko",
+      "lang": "ko",
+      "title": "PGM 이시오카 골프 클럽: 일본 엘리트 골퍼를 위한 궁극의 가이드",
+      "lat": 36.2144,
+      "lng": 140.2656,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "스테이 & 플레이"
+      ],
+      "thumbnail": "/static/images/pgm_ishioka_golf_club.jpg",
+      "address": "이바라키현 이시오카시",
+      "published": "2026-04-05",
+      "summary": "PGM 이시오카 골프 클럽은 일본 이바라키현에 위치한 챔피언십 골프 코스로, 전략적인 레이아웃과 아름다운 자연 경관을 자랑합니다. 고급스러운 시설과 완벽한 서비스는 골퍼들에게 잊을 수 없는 경험을 선사합니다. 일본 골프 여행을 계획하고 있다면 반드시 방문해야 할 곳입니다.",
+      "booking": "PGM 웹사이트 또는 일본 주요 골프 예약 사이트",
+      "link": "/course/pgm_ishioka_golf_club_ko"
+    },
+    {
       "id": "kawana_hotel_golf_course_fuji_course_en",
       "lang": "en",
       "title": "Kawana Hotel Golf Course Fuji: Japan's Premier Seaside Links, Tournament Icon & Luxury Stay | Ito, Shizuoka",
@@ -56,6 +177,40 @@
       "link": "/course/kawana_hotel_golf_course_fuji_course_en"
     },
     {
+      "id": "pgm_ishioka_golf_club_en",
+      "lang": "en",
+      "title": "PGM Ishioka Golf Club: A Masterpiece in Ibaraki - Full Course Guide",
+      "lat": 36.2144,
+      "lng": 140.2656,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/pgm_ishioka_golf_club.jpg",
+      "address": "2135-1 Oharacho, Ishioka, Ibaraki 315-0135, Japan",
+      "published": "2026-04-05",
+      "summary": "PGM Ishioka Golf Club stands as a testament to meticulous design and unparalleled golfing experience. Nestled in the serene landscapes of Ibaraki Prefecture, this championship course offers a challenging yet rewarding layout for golfers of all skill levels. From its immaculately maintained fairways to its luxurious amenities, Ishioka promises an unforgettable golf journey.",
+      "booking": "Official PGM Website, Golf Reservations Japan",
+      "link": "/course/pgm_ishioka_golf_club_en"
+    },
+    {
+      "id": "kasumigaseki_country_club_en",
+      "lang": "en",
+      "title": "Kasumigaseki Country Club: Experience a Japanese Golfing Legend",
+      "lat": 35.8569,
+      "lng": 139.3814,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/kasumigaseki_country_club.jpg",
+      "address": "2526 Kasahata, Kawagoe, Saitama 350-1175, Japan",
+      "published": "2026-04-05",
+      "summary": "Kasumigaseki Country Club, a venerable institution steeped in history and tradition, offers an unparalleled golfing experience. This private club, host to the 2020 Tokyo Olympics golf competition, presents two meticulously maintained courses that demand both precision and strategic thinking. Prepare for an unforgettable round where world-class golf meets Japanese hospitality.",
+      "booking": "Strictly member-introduced guests only. Contact a member for access.",
+      "link": "/course/kasumigaseki_country_club_en"
+    },
+    {
       "id": "phoenix_country_club_en",
       "lang": "en",
       "title": "Phoenix Country Club Miyazaki: Japan's Premier Tournament Course & Luxury Golf Escape",
@@ -72,6 +227,128 @@
       "summary": "Discover Phoenix Country Club, Miyazaki's legendary golf sanctuary, where championship pedigree meets unparalleled luxury. Host of the prestigious Dunlop Phoenix Tournament, this iconic course offers a public gateway to world-class golf amid stunning coastal pines. Experience a truly premium Japanese stay-and-play experience that captivates amateur and professional alike.",
       "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=8086",
       "link": "/course/phoenix_country_club_en"
+    },
+    {
+      "id": "taiheiyo_club_gotemba_course_ko",
+      "lang": "ko",
+      "title": "태평양 클럽 고텐바 코스: 후지산의 절경과 전략적인 골프의 조화",
+      "lat": 35.3131,
+      "lng": 138.9056,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Public Tournament"
+      ],
+      "thumbnail": "/static/images/taiheiyo_club_gotemba_course.jpg",
+      "address": "Gotemba, Shizuoka",
+      "published": "2026-04-05",
+      "summary": "태평양 클럽 고텐바 코스는 후지산의 웅장한 경치를 배경으로 펼쳐지는 일본 최고의 명문 골프 코스 중 하나입니다. 전략적인 코스 설계와 최고급 시설, 훌륭한 서비스는 잊지 못할 골프 경험을 선사합니다. 수준 높은 골퍼들에게 도전과 감동을 동시에 안겨주는 곳입니다.",
+      "booking": "태평양 클럽 공식 웹사이트 또는 지정 예약 대행사를 통해 예약 가능합니다.",
+      "link": "/course/taiheiyo_club_gotemba_course_ko"
+    },
+    {
+      "id": "the_north_country_golf_club_ko",
+      "lang": "ko",
+      "title": "홋카이도 치토세: 노스 컨트리 골프 클럽 심층 가이드 - 숨겨진 보석",
+      "lat": 42.8456,
+      "lng": 141.6744,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/the_north_country_golf_club.jpg",
+      "address": "홋카이도 치토세시",
+      "published": "2026-04-05",
+      "summary": "노스 컨트리 골프 클럽은 홋카이도 치토세에 위치한 숨겨진 보석입니다. 전략적인 레이아웃, 아름다운 자연 경관, 훌륭한 시설은 골퍼들에게 잊을 수 없는 경험을 선사합니다. 고급스러운 숙박 시설과 온천은 라운딩 후 휴식을 취하기에 완벽합니다.",
+      "booking": "온라인 또는 전화 예약 가능",
+      "link": "/course/the_north_country_golf_club_ko"
+    },
+    {
+      "id": "accordia_golf_narita_airport_ko",
+      "lang": "ko",
+      "title": "나리타 공항 근처 최고의 골프장: 어코디아 골프 나리타 공항 완벽 가이드",
+      "lat": 35.7844,
+      "lng": 140.4056,
+      "categories": [
+        "Value for Money",
+        "Public Tournament",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/accordia_golf_narita_airport.jpg",
+      "address": "지바현 나리타시",
+      "published": "2026-04-05",
+      "summary": "나리타 공항에서 가까운 어코디아 골프 나리타 공항은 편리한 접근성과 전략적인 코스 레이아웃으로 유명합니다. 합리적인 가격으로 훌륭한 골프 경험을 제공하며, 특히 국제선 이용객들에게 인기가 높습니다. 나리타의 숨겨진 보석 같은 골프 코스를 지금 바로 만나보세요!",
+      "booking": "어코디아 넥스트 예약 사이트 (Accordia Next booking website)",
+      "link": "/course/accordia_golf_narita_airport_ko"
+    },
+    {
+      "id": "tokyo_golf_club_ko",
+      "lang": "ko",
+      "title": "도쿄 골프 클럽: 일본 골프 여행의 정수를 경험하세요",
+      "lat": 35.8367,
+      "lng": 139.3956,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "프라이빗 클럽"
+      ],
+      "thumbnail": "/static/images/tokyo_golf_club.jpg",
+      "address": "사이타마현 사야마시",
+      "published": "2026-04-05",
+      "summary": "도쿄 골프 클럽은 일본 골프의 역사와 전통을 고스란히 간직한 프라이빗 클럽입니다. 전략적인 코스 레이아웃과 아름다운 자연경관은 골퍼들에게 잊을 수 없는 경험을 선사합니다. 엄격한 회원제로 운영되어 예약이 매우 어려운 곳이지만, 평생 잊지 못할 라운딩을 보장합니다.",
+      "booking": "회원 전용",
+      "link": "/course/tokyo_golf_club_ko"
+    },
+    {
+      "id": "hirono_golf_club_en",
+      "lang": "en",
+      "title": "Hirono Golf Club: Japan's Crown Jewel - A Comprehensive Guide",
+      "lat": 34.7967,
+      "lng": 135.0111,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/hirono_golf_club.jpg",
+      "address": "Miki, Hyogo Prefecture, Japan",
+      "published": "2026-04-05",
+      "summary": "Hirono Golf Club stands as the undisputed king of Japanese golf, a meticulously crafted masterpiece of strategic design and natural beauty. This exclusive, member-only haven offers an unparalleled golfing experience, demanding precision and rewarding thoughtful play. Prepare to be captivated by its challenging layout and the serene atmosphere, a true testament to the art of golf course architecture.",
+      "booking": "Strictly Member Invitation Only",
+      "link": "/course/hirono_golf_club_en"
+    },
+    {
+      "id": "naruo_golf_club_en",
+      "lang": "en",
+      "title": "Naruo Golf Club: A Hyogo Hidden Gem for Discerning Golfers",
+      "lat": 34.8194,
+      "lng": 135.3444,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/naruo_golf_club.jpg",
+      "address": "Kawanishi, Hyogo, Japan",
+      "published": "2026-04-05",
+      "summary": "Naruo Golf Club, nestled in the hills of Hyogo Prefecture, offers an exclusive and challenging golfing experience steeped in tradition. Known for its meticulously maintained course and breathtaking views, it's a haven for serious golfers seeking respite from the ordinary. Securing a tee time requires membership or a personal introduction, adding to its allure and prestige.",
+      "booking": "Strictly member-accompanied or invitation only.",
+      "link": "/course/naruo_golf_club_en"
+    },
+    {
+      "id": "accordia_golf_narita_airport_en",
+      "lang": "en",
+      "title": "Accordia Golf Narita Airport: Your Gateway to Golfing Bliss Near Tokyo",
+      "lat": 35.7844,
+      "lng": 140.4056,
+      "categories": [
+        "Value for Money",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/accordia_golf_narita_airport.jpg",
+      "address": "1489-1 Iizumi, Narita, Chiba 286-0125, Japan",
+      "published": "2024-10-27",
+      "summary": "Accordia Golf Narita Airport offers a surprisingly tranquil golfing experience just a stone's throw from Narita International Airport. With well-maintained fairways, strategic bunkering, and accessible pricing, it's a perfect option for golfers arriving in or departing from Japan. Enjoy a relaxing round before or after your flight at this conveniently located course.",
+      "booking": "https://www.accordiagolf.com/",
+      "link": "/course/accordia_golf_narita_airport_en"
     }
   ]
 }
