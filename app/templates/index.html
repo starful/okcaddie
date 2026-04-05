@@ -2,98 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKCaddie - Discover Japan's Best Golf Courses</title>
-    <meta name="description" content="Find the perfect golf course in Japan. Filter by price, championship layout, and resort stays on our interactive map.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
+    <!-- SEO 및 메타 태그 -->
+    <title>OKCaddie - Japan Golf Discovery Map</title>
+    <meta name="description" content="Find the perfect golf course in Japan. Filter by budget, championship, and resorts on our interactive map.">
     <link rel="icon" href="/static/images/favicons.ico" type="image/x-icon">
+    
+    <!-- CSS 연결 -->
     <link rel="stylesheet" href="/static/css/style.css">
 
-    <!-- Google tag (gtag.js) -->
+    <!-- 구글 애널리틱스 (GA4: G-5HBWT4CY75) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HBWT4CY75"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-5HBWT4CY75');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5HBWT4CY75');
     </script>
 </head>
 <body>
 
     <header>
         <div class="container">
-            <h1>
-                <a href="/">
-                    <img src="/static/images/logo.png" alt="OKCaddie" class="logo-img">
-                </a>
-            </h1>
-
-            <div class="status-bar">
-                <div class="status-badge">⛳ <span id="total-courses">0</span> Courses Listed</div>
-                <div class="status-badge">📅 Updated: <span id="last-updated-date">-</span></div>
-                <div class="status-badge highlight">🔄 Updating Weekly</div>
+            <!-- [이미지 반영] 상단 1행: 로고(좌) + 언어버튼(우) -->
+            <div class="header-main-row">
+                <h1>
+                    <a href="/">
+                        <img src="/static/images/logo.png" alt="OKCaddie" class="logo-img">
+                    </a>
+                </h1>
+                <div class="lang-selector">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ko">KO</button>
+                </div>
             </div>
 
-            <div class="lang-selector">
-                <button class="lang-btn active" data-lang="en">English</button>
-                <button class="lang-btn" data-lang="ko">한국어</button>
-            </div>
-
-            <div class="theme-filter-buttons">
-                <!-- id="count-OOO" 형태의 스팬을 추가합니다 -->
-                <button class="theme-button active" data-theme="all" data-en="All" data-ko="전체">
-                    All <span class="count-badge" id="count-all">0</span>
-                </button>
-                <button class="theme-button" data-theme="Value for Money" data-en="💰 Budget" data-ko="💰 가성비">
-                    💰 가성비 <span class="count-badge" id="count-value">0</span>
-                </button>
-                <button class="theme-button" data-theme="Premium / Luxury" data-en="💎 Premium" data-ko="💎 프리미엄">
-                    💎 프리미엄 <span class="count-badge" id="count-premium">0</span>
-                </button>
-                <button class="theme-button" data-theme="Public Tournament" data-en="🏆 Tour Course" data-ko="🏆 대회코스">
-                    🏆 대회코스 <span class="count-badge" id="count-tour">0</span>
-                </button>
-                <button class="theme-button" data-theme="Stay & Play" data-en="🏨 Resort" data-ko="🏨 숙박/리조트">
-                    🏨 숙박/리조트 <span class="count-badge" id="count-resort">0</span>
-                </button>
-                <button class="theme-button" data-theme="Easy Booking" data-en="📅 Easy Book" data-ko="📅 예약편리">
-                    📅 예약편리 <span class="count-badge" id="count-easy">0</span>
-                </button>
-                <button class="theme-button" data-theme="Private Club" data-en="🔒 Private" data-ko="🔒 회원제">
-                    🔒 회원제 <span class="count-badge" id="count-private">0</span>
-                </button>
+            <!-- [이미지 반영] 하단 2행: 필터 버튼 섹션 -->
+            <div class="theme-filter-container">
+                <div class="theme-filter-buttons">
+                    <!-- 아이콘을 data-en, data-ko에 포함시켜 JS가 교체할 때 유지되게 함 -->
+                    <button class="theme-button active" data-theme="all" data-en="All" data-ko="전체">
+                        전체 <span class="count-badge" id="count-all">0</span>
+                    </button>
+                    <button class="theme-button" data-theme="Value for Money" data-en="💰 Budget" data-ko="💰 가성비">
+                        💰 가성비 <span class="count-badge" id="count-value">0</span>
+                    </button>
+                    <button class="theme-button" data-theme="Premium / Luxury" data-en="💎 Premium" data-ko="💎 프리미엄">
+                        💎 프리미엄 <span class="count-badge" id="count-premium">0</span>
+                    </button>
+                    <button class="theme-button" data-theme="Public Tournament" data-en="🏆 Tour" data-ko="🏆 대회코스">
+                        🏆 대회코스 <span class="count-badge" id="count-tour">0</span>
+                    </button>
+                    <button class="theme-button" data-theme="Stay & Play" data-en="🏨 Resort" data-ko="🏨 숙박/리조트">
+                        🏨 숙박/리조트 <span class="count-badge" id="count-resort">0</span>
+                    </button>
+                    <button class="theme-button" data-theme="Easy Booking" data-en="📅 Easy" data-ko="📅 예약편리">
+                        📅 예약편리 <span class="count-badge" id="count-easy">0</span>
+                    </button>
+                    <button class="theme-button" data-theme="Private Club" data-en="🔒 Private" data-ko="🔒 회원제">
+                        🔒 회원제 <span class="count-badge" id="count-private">0</span>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
     
     <main>
-        <section class="map-section"><div id="map"></div></section>
+        <!-- 지도 섹션: 헤더가 슬림해진 만큼 더 넓게 보입니다 -->
+        <section class="map-section">
+            <div id="map"></div>
+        </section>
 
         <div class="content-wrapper">
+            <!-- 소개글: 모바일에서는 CSS에 의해 슬림해지거나 숨겨집니다 -->
             <article class="intro-box">
                 <h2>⛳ Find Your Dream Golf Round in Japan</h2>
-                <p>Discover 200+ curated golf courses across Japan. Filter by price and accessibility to plan your perfect golf trip.</p>
+                <p>Explore 200+ curated golf courses. Plan your trip with our interactive map.</p>
             </article>
 
+            <!-- 리스트 섹션 -->
             <section id="list-section">
                 <h2 class="list-title">⛳ Featured Golf Courses</h2>
                 <div id="course-list" class="course-grid"></div>
-                <div id="scroll-sentinel" style="height: 20px; width: 100%;"></div>
+                <div id="scroll-sentinel" style="height: 20px;"></div>
             </section>
         </div>
     </main>
 
+    <!-- 푸터 (메타데이터 정보 포함) -->
     {% include 'footer.html' %}
 
-    <!-- Google Maps API Loader (Fixed Version) -->
+    <!-- 구글 맵 API 로더 (제공해주신 키 적용) -->
     <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
-        key: "AIzaSyCPw703sTZuXYzd0o7WP8x5lkPaoEjiaQs", // 제공해주신 API 키 적용
+        key: "AIzaSyCPw703sTZuXYzd0o7WP8x5lkPaoEjiaQs",
         v: "beta"
     });
     </script>
     
-    <!-- 비즈니스 로직 호출 -->
+    <!-- 비즈니스 로직 자바스크립트 -->
     <script type="module" src="/static/js/main.js"></script>
+</body>
 </html>

@@ -1,59 +1,68 @@
 /**
- * OKCaddie - Japan Golf Course Discovery
- * Full Logic for Map, Multi-Language UI, and Dynamic Category Counting
+ * OKCaddie - Japan Golf Course Discovery Map
+ * Features: Multi-language(EN/KO), Category Filtering with Icons, Google Maps Integration
  */
 
 let allCourses = [];
 let markers = [];
 let map;
-let currentLang = 'en'; 
-let currentTheme = 'all';
+let currentLang = 'en'; // 기본 언어
+let currentTheme = 'all'; // 기본 필터
 
-// [매퍼] 데이터가 한국어로 들어와도 영어 필터와 연동되게 함
+// [데이터 매퍼] AI가 한국어 파일에 한국어 태그를 넣었을 경우를 대비한 표준 매핑 테이블
 const CATEGORY_MAP = {
-    "가성비 골프": "Value for Money",
+    "가성비": "Value for Money",
     "프리미엄": "Premium / Luxury",
-    "대회 코스": "Public Tournament",
+    "대회코스": "Public Tournament",
     "숙박/리조트": "Stay & Play",
-    "예약 편리": "Easy Booking",
-    "회원제/명문": "Private Club"
+    "예약편리": "Easy Booking",
+    "회원제": "Private Club"
 };
 
+/**
+ * 1. 초기 데이터 로드 및 실행
+ */
 async function init() {
     try {
         const response = await fetch('/api/courses');
         const data = await response.json();
         allCourses = data.courses || [];
         
+        // 푸터의 업데이트 날짜 갱신 (ID가 존재할 경우)
         const dateEl = document.getElementById('last-updated-date');
         if (dateEl) dateEl.textContent = data.last_updated || '-';
         
-        // 버튼 텍스트 초기화 및 첫 렌더링
+        // 초기 UI 설정 및 렌더링
         updateFilterButtonUI(); 
         renderApp();
         initMap();
     } catch (e) {
-        console.error("Data load failed:", e);
+        console.error("Failed to load course data:", e);
     }
 }
 
-// 1. 버튼 텍스트 언어 전환 (배지 보존)
+/**
+ * 2. 필터 버튼 UI 업데이트 (언어 전환 시 텍스트 및 아이콘 교체)
+ */
 function updateFilterButtonUI() {
     document.querySelectorAll('.theme-button').forEach(btn => {
+        // HTML의 data-en/ko에 저장된 아이콘 포함 텍스트를 가져옴
         const text = currentLang === 'en' ? btn.dataset.en : btn.dataset.ko;
         const badge = btn.querySelector('.count-badge');
         
-        // 텍스트 노드만 안전하게 교체
+        // 버튼 내부 초기화 후 텍스트와 숫자 배지를 다시 조립 (아이콘 보존 핵심)
         btn.innerHTML = ''; 
         btn.appendChild(document.createTextNode(text + " "));
         if (badge) btn.appendChild(badge);
     });
 }
 
-// 2. 카테고리별 개수 실시간 계산 (다국어 대응)
-function updateCategoryCounts(langData) {
+/**
+ * 3. 카테고리별 데이터 개수 계산 (다국어 매핑 적용)
+ */
+function updateCategoryCounts(langFilteredData) {
     const counts = {
-        "all": langData.length,
+        "all": langFilteredData.length,
         "Value for Money": 0,
         "Premium / Luxury": 0,
         "Public Tournament": 0,
@@ -62,10 +71,10 @@ function updateCategoryCounts(langData) {
         "Private Club": 0
     };
 
-    langData.forEach(course => {
+    langFilteredData.forEach(course => {
         if (course.categories && Array.isArray(course.categories)) {
             course.categories.forEach(cat => {
-                // 한글 태그면 영어 키로 변환, 영어면 그대로 사용
+                // 태그가 한국어라면 영어 표준 키로 변환, 아니면 그대로 사용
                 const key = CATEGORY_MAP[cat] || cat;
                 if (counts.hasOwnProperty(key)) {
                     counts[key]++;
@@ -74,8 +83,8 @@ function updateCategoryCounts(langData) {
         }
     });
 
-    // 화면에 숫자 대입
-    const countIds = {
+    // HTML 내의 각 카운트 스팬에 숫자 삽입
+    const idMap = {
         "count-all": counts["all"],
         "count-value": counts["Value for Money"],
         "count-premium": counts["Premium / Luxury"],
@@ -85,21 +94,23 @@ function updateCategoryCounts(langData) {
         "count-private": counts["Private Club"]
     };
 
-    for (const [id, val] of Object.entries(countIds)) {
+    for (const [id, val] of Object.entries(idMap)) {
         const el = document.getElementById(id);
         if (el) el.textContent = val;
     }
 }
 
-// 3. 메인 렌더링 로직
+/**
+ * 4. 메인 앱 렌더링 (리스트 및 카운트 업데이트)
+ */
 function renderApp() {
     // (1) 현재 언어셋 필터링
     const langFiltered = allCourses.filter(c => c.lang === currentLang);
 
-    // (2) 카테고리 개수 계산 (UI 업데이트)
+    // (2) 카운트 계산 실행
     updateCategoryCounts(langFiltered);
 
-    // (3) 선택한 테마 필터링 (영어/한국어 태그 동시 대응)
+    // (3) 선택된 테마 필터링 (영어/한국어 태그 동시 대응)
     const finalFiltered = langFiltered.filter(c => {
         if (currentTheme === 'all') return true;
         const themes = c.categories || [];
@@ -107,7 +118,7 @@ function renderApp() {
         return themes.includes(currentTheme) || themes.includes(korTheme);
     });
 
-    // (4) 총 개수 텍스트
+    // (4) 총 개수 텍스트 업데이트 (푸터 또는 상태바)
     const totalEl = document.getElementById('total-courses');
     if (totalEl) totalEl.textContent = finalFiltered.length;
 
@@ -124,7 +135,6 @@ function renderApp() {
                 <img src="${course.thumbnail}" class="card-thumb" alt="${course.title}" loading="lazy">
             </a>
             <div class="card-content">
-                <div class="card-meta">📍 ${course.address.split(',')[0]}</div>
                 <h3 class="card-title"><a href="${course.link}">${course.title}</a></h3>
                 <p class="card-summary">${course.summary}</p>
                 <div class="card-footer">
@@ -135,39 +145,33 @@ function renderApp() {
         listContainer.appendChild(card);
     });
 
-    // (6) 지도 마커 갱신
+    // (6) 지도 마커 업데이트
     updateMarkers(finalFiltered);
 }
 
-// 4. 지도 초기화
-// main.js 내부의 initMap 함수 부분
+/**
+ * 5. 구글 맵 초기화
+ */
 async function initMap() {
-    try {
-        // google 객체가 있는지 확인 후 라이브러리 로드
-        const { Map } = await google.maps.importLibrary("maps");
-        const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
-        
-        map = new Map(document.getElementById("map"), {
-            center: { lat: 36.5, lng: 138.0 },
-            zoom: 6,
-            mapId: "OKCADDIE_MAP_ID",
-            mapTypeControl: false,
-            streetViewControl: false,
-            fullscreenControl: false
-        });
-
-        // 지도가 로드된 후에 마커를 그릴 수 있도록 renderApp 호출 시점 조절 가능
-        renderApp(); 
-    } catch (error) {
-        console.error("Google Maps load error:", error);
-    }
+    const { Map } = await google.maps.importLibrary("maps");
+    map = new Map(document.getElementById("map"), {
+        center: { lat: 36.5, lng: 138.0 },
+        zoom: 6,
+        mapId: "OKCADDIE_MAP_ID", // 구글 클라우드에서 발급받은 Map ID (선택사항)
+        mapTypeControl: false,
+        streetViewControl: false,
+        fullscreenControl: false
+    });
 }
 
-// 5. 마커 갱신 및 정보창 설정
+/**
+ * 6. 마커 생성 및 정보창(InfoWindow) 설정
+ */
 async function updateMarkers(courses) {
     if (!map) return;
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
+    // 기존 마커 제거
     markers.forEach(m => m.setMap(null));
     markers = [];
 
@@ -176,20 +180,22 @@ async function updateMarkers(courses) {
     courses.forEach(course => {
         if (!course.lat || !course.lng) return;
 
+        // 커스텀 ⛳ 핀 디자인
         const pin = new PinElement({
             background: "#27ae60",
             borderColor: "#ffffff",
             glyph: "⛳",
-            glyphColor: "#ffffff"
+            glyphColor: "#ffffff",
         });
 
         const marker = new AdvancedMarkerElement({
             map: map,
             position: { lat: parseFloat(course.lat), lng: parseFloat(course.lng) },
             title: course.title,
-            content: pin.element
+            content: pin.element,
         });
 
+        // 마커 클릭 시 팝업 정보창
         marker.addListener("click", () => {
             const infoBox = `
                 <div class="infowindow-content" style="padding:5px; max-width:200px;">
@@ -208,28 +214,40 @@ async function updateMarkers(courses) {
     });
 }
 
-// 6. 이벤트 핸들러
+/**
+ * 7. 이벤트 리스너 설정
+ */
+// (1) 언어 전환 버튼
 document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
         const target = e.target;
         if (currentLang === target.dataset.lang) return;
+
+        // 버튼 활성화 상태 교체
         document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
         target.classList.add('active');
+
+        // 상태 변경 및 전체 UI 갱신
         currentLang = target.dataset.lang;
         updateFilterButtonUI(); 
         renderApp();
     });
 });
 
+// (2) 테마 필터 버튼
 document.querySelectorAll('.theme-button').forEach(btn => {
     btn.addEventListener('click', (e) => {
-        const themeBtn = e.currentTarget;
+        const themeBtn = e.currentTarget; // span 클릭 시에도 버튼 개체 인식
+
+        // 버튼 활성화 상태 교체
         document.querySelectorAll('.theme-button').forEach(b => b.classList.remove('active'));
         themeBtn.classList.add('active');
+
+        // 필터 적용 및 렌더링
         currentTheme = themeBtn.dataset.theme;
         renderApp();
     });
 });
 
-// 실행
+// 실행 시작
 init();

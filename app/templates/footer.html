@@ -1,25 +1,30 @@
-<footer style="margin-top: 60px; text-align: center; padding: 50px 20px; border-top: 1px solid #e0e6e0; background-color: #fff; color: #777;">
+<footer style="margin-top: 60px; text-align: center; padding: 60px 20px; border-top: 1px solid #eee; background-color: #fff; color: #888; font-size: 0.95rem;">
     <div class="container">
+        
+        <!-- 헤더에서 이동해온 메타데이터 영역 -->
+        <div class="footer-status-box" style="margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+            <div style="background: #f8f9fa; border: 1px solid #eee; padding: 8px 20px; border-radius: 30px; font-weight: 600; font-size: 0.85rem;">
+                ⛳ <span id="total-courses">0</span> Courses Listed
+            </div>
+            <div style="background: #f8f9fa; border: 1px solid #eee; padding: 8px 20px; border-radius: 30px; font-weight: 600; font-size: 0.85rem;">
+                📅 Updated: <span id="last-updated-date">-</span>
+            </div>
+            <div style="background: #e9f7ef; border: 1px solid #d4efdf; color: #27ae60; padding: 8px 20px; border-radius: 30px; font-weight: 600; font-size: 0.85rem;">
+                🔄 Updating Weekly
+            </div>
+        </div>
+
         <div style="margin-bottom: 25px;">
-            <img src="/static/images/logo.png" alt="OKCaddie" style="height: 40px; opacity: 0.8; filter: grayscale(0.5);">
-            <p style="margin-top: 15px; font-size: 0.95rem; max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.6;">
-                <strong>OKCaddie Project</strong><br>
-                Your ultimate map-based guide to exploring the finest golf courses and resorts in Japan.
-            </p>
+            <p><strong>OKCaddie Project</strong><br>Discovering the finest golf experiences in Japan.</p>
         </div>
         
-        <nav style="margin-bottom: 25px; font-size: 0.85rem; font-weight: 600;">
-            <a href="/" style="color: #444; text-decoration: none; margin: 0 15px; transition: color 0.2s;">Home Map</a>
-            <a href="/about.html" style="color: #444; text-decoration: none; margin: 0 15px; transition: color 0.2s;">About & Contact</a>
-            <a href="/privacy.html" style="color: #444; text-decoration: none; margin: 0 15px; transition: color 0.2s;">Privacy Policy</a>
+        <nav style="margin-bottom: 25px; font-weight: 600;">
+            <a href="/about.html" style="color: #444; text-decoration: none; margin: 0 15px;">About</a>
+            <a href="/privacy.html" style="color: #444; text-decoration: none; margin: 0 15px;">Privacy Policy</a>
         </nav>
         
-        <p style="font-size: 0.8rem; color: #aaa; margin-top: 20px;">
-            &copy; 2024-2026 <strong>OKCaddie</strong>. All rights reserved.
+        <p style="font-size: 0.85rem; opacity: 0.6;">
+            &copy; 2024-2026 OKCaddie. All rights reserved.
         </p>
     </div>
 </footer>
-
-<style>
-    footer a:hover { color: var(--accent-color) !important; }
-</style>
