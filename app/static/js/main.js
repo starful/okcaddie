@@ -140,14 +140,27 @@ function renderApp() {
 }
 
 // 4. 지도 초기화
+// main.js 내부의 initMap 함수 부분
 async function initMap() {
-    const { Map } = await google.maps.importLibrary("maps");
-    map = new Map(document.getElementById("map"), {
-        center: { lat: 36.5, lng: 138.0 },
-        zoom: 6,
-        mapId: "OKCADDIE_MAP_ID",
-        mapTypeControl: false, streetViewControl: false, fullscreenControl: false
-    });
+    try {
+        // google 객체가 있는지 확인 후 라이브러리 로드
+        const { Map } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
+        
+        map = new Map(document.getElementById("map"), {
+            center: { lat: 36.5, lng: 138.0 },
+            zoom: 6,
+            mapId: "OKCADDIE_MAP_ID",
+            mapTypeControl: false,
+            streetViewControl: false,
+            fullscreenControl: false
+        });
+
+        // 지도가 로드된 후에 마커를 그릴 수 있도록 renderApp 호출 시점 조절 가능
+        renderApp(); 
+    } catch (error) {
+        console.error("Google Maps load error:", error);
+    }
 }
 
 // 5. 마커 갱신 및 정보창 설정
