@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://okcaddie.net/</loc><lastmod>2026-04-05</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://okcaddie.net/</loc><lastmod>2026-04-12</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://okcaddie.net/course/hokkaido_classic_golf_club_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/kanucha_golf_course_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/pgm_golf_resort_okinawa_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/nikko_country_club_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/oarai_golf_club_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/sapporo_golf_club_wattsu_course_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/karuizawa_72_golf_east_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/pgm_golf_resort_okinawa_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/karuizawa_72_golf_east_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/sapporo_golf_club_wattsu_course_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/oarai_golf_club_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/nikko_country_club_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/fujizakura_country_club_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/otaru_golf_club_ko</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/hokkaido_classic_golf_club_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/katsura_golf_club_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/kanucha_golf_course_en</loc><lastmod>2026-04-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://okcaddie.net/course/taiheiyo_club_gotemba_course_en</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://okcaddie.net/course/phoenix_country_club_ko</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://okcaddie.net/course/naruo_golf_club_ko</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -20,5 +37,8 @@
   <url><loc>https://okcaddie.net/course/tokyo_golf_club_ko</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://okcaddie.net/course/hirono_golf_club_en</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://okcaddie.net/course/naruo_golf_club_en</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/otaru_golf_club_en</loc><lastmod>2024-10-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/katsura_golf_club_ko</loc><lastmod>2024-10-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://okcaddie.net/course/accordia_golf_narita_airport_en</loc><lastmod>2024-10-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://okcaddie.net/course/fujizakura_country_club_en</loc><lastmod>2024-07-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
