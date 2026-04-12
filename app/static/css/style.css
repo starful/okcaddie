@@ -101,14 +101,22 @@ header .container {
 .map-section { width: 100%; height: 50vh; min-height: 400px; background: #e5e3df; }
 #map { width: 100%; height: 100%; }
 
-/* 고급 사진 마커 */
+/* 고급 사진 마커 (크기 대폭 축소: 65px -> 45px) */
 .caddie-marker {
-    width: 65px; height: 65px; background: white; border-radius: 50%;
-    border: 3px solid white; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    overflow: hidden; cursor: pointer; transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 45px; height: 45px; 
+    background: white; border-radius: 50%;
+    border: 2px solid white; box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    overflow: hidden; cursor: pointer; 
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .caddie-marker img { width: 100%; height: 100%; object-fit: cover; }
-.caddie-marker:hover { transform: scale(1.15); border-color: var(--accent-color); z-index: 999; }
+
+/* 마우스 올렸을 때 더 많이 커지도록 배율 조정 (scale 1.15 -> 1.4) */
+.caddie-marker:hover { 
+    transform: scale(1.4) translateY(-5px); 
+    border-color: var(--accent-color); 
+    z-index: 999; 
+}
 
 /* InfoWindow 스타일 */
 .info-card { padding: 10px; max-width: 220px; font-family: inherit; }
@@ -211,4 +219,7 @@ footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; bac
     .course-grid { grid-template-columns: 1fr; }
     .detail-title { font-size: 1.8rem; }
     .booking-btn { width: 100%; padding: 18px; font-size: 1.15rem; }
+    
+    /* 모바일에서는 마커를 조금 더 작게 (38px) */
+    .caddie-marker { width: 38px; height: 38px; border-width: 2px; }
 }
