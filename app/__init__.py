@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort, send_from_directory
+from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect # redirect 추가
 from flask_compress import Compress
 import json
 import os
@@ -26,6 +26,12 @@ if os.path.exists(DATA_FILE):
         print(f"❌ Data load error: {e}")
         CACHED_DATA = {"courses":[], "error": "Load failed"}
 
+@app.route('/static/images/<path:filename>')
+def serve_images(filename):
+    import time
+    # ok-project-assets/okcaddie 폴더를 바라보게 설정
+    return redirect(f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}?v={int(time.time())}")
+    
 @app.route('/')
 def index():
     return render_template('index.html')
