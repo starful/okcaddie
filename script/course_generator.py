@@ -129,4 +129,4 @@ def process_csv(limit=25):
         executor.map(lambda p: generate_course_md(*p), tasks)
 
 if __name__ == "__main__":
-    process_csv(limit=5)
+    process_csv(limit=20)

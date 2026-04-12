@@ -1,6 +1,302 @@
 {
-  "last_updated": "2026.04.05",
+  "last_updated": "2026.04.12",
   "courses": [
+    {
+      "id": "hokkaido_classic_golf_club_ko",
+      "lang": "ko",
+      "title": "홋카이도 클래식 골프 클럽: 일본 최고의 숨겨진 골프 보석을 탐험하다",
+      "lat": 42.7944,
+      "lng": 141.8156,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "스테이 & 플레이"
+      ],
+      "thumbnail": "/static/images/hokkaido_classic_golf_club.jpg",
+      "address": "홋카이도 아비라",
+      "published": "2026-04-12",
+      "summary": "홋카이도 클래식 골프 클럽은 일본 홋카이도의 숨막히는 자연 속에 자리 잡은 최고의 골프 경험입니다. 이 고급 클럽은 전략적으로 디자인된 코스, 완벽한 시설, 비교할 수 없는 수준의 서비스를 제공합니다. 모든 골퍼가 꿈꾸는 라운딩을 경험할 수 있는 곳입니다.",
+      "booking": "공식 웹사이트 또는 고급 여행사를 통해 예약.",
+      "link": "/course/hokkaido_classic_golf_club_ko"
+    },
+    {
+      "id": "kanucha_golf_course_ko",
+      "lang": "ko",
+      "title": "카누차 골프 코스: 오키나와 럭셔리 골프의 정수 (예약 정보 포함)",
+      "lat": 26.5444,
+      "lng": 128.0156,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/kanucha_golf_course.jpg",
+      "address": "오키나와현 나고시 아부 156-2",
+      "published": "2026-04-12",
+      "summary": "카누차 골프 코스는 오키나와의 아름다운 자연 속에서 잊을 수 없는 골프 경험을 선사합니다. 챔피언십 코스와 럭셔리한 시설, 최고급 서비스를 통해 진정한 휴식을 만끽할 수 있으며, 다양한 난이도의 홀 구성으로 모든 수준의 골퍼에게 즐거움을 제공합니다. 완벽한 골프 여행을 위한 최적의 선택입니다.",
+      "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=11504",
+      "link": "/course/kanucha_golf_course_ko"
+    },
+    {
+      "id": "pgm_golf_resort_okinawa_en",
+      "lang": "en",
+      "title": "PGM Golf Resort Okinawa: A Detailed Guide to Paradise on the Greens",
+      "lat": 26.4344,
+      "lng": 127.8356,
+      "categories": [
+        "Value for Money",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
+      "address": "Onna, Okinawa",
+      "published": "2026-04-12",
+      "summary": "PGM Golf Resort Okinawa offers a compelling blend of challenging play and stunning Okinawan scenery. Its strategic layout caters to various skill levels, making it a must-play for visiting golfers. With comfortable stay-and-play options and convenient booking, it's the perfect base for a memorable golfing getaway.",
+      "booking": "PGM Official Website, Rakuten GORA, Japan Golf Network",
+      "link": "/course/pgm_golf_resort_okinawa_en"
+    },
+    {
+      "id": "nikko_country_club_ko",
+      "lang": "ko",
+      "title": "닛코 컨트리 클럽: 숨막히는 자연 속에서 즐기는 최고의 골프 경험 (닛코, 도치기)",
+      "lat": 36.7244,
+      "lng": 139.6356,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "스테이 & 플레이"
+      ],
+      "thumbnail": "/static/images/nikko_country_club.jpg",
+      "address": "닛코, 도치기현",
+      "published": "2026-04-12",
+      "summary": "닛코 컨트리 클럽은 울창한 자연 속에 자리 잡은 명문 골프 클럽입니다. 전략적인 코스 레이아웃과 아름다운 경관은 골퍼들에게 잊을 수 없는 경험을 선사하며, 고급스러운 시설과 최상의 서비스는 만족도를 높입니다. 닛코의 절경 속에서 최고의 라운딩을 경험해보세요.",
+      "booking": "클럽 웹사이트 또는 제휴 호텔을 통해 예약 가능",
+      "link": "/course/nikko_country_club_ko"
+    },
+    {
+      "id": "oarai_golf_club_ko",
+      "lang": "ko",
+      "title": "오아라이 골프 클럽 완벽 가이드: 숨막히는 바다 전망과 전략적인 코스",
+      "lat": 36.3244,
+      "lng": 140.5756,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/oarai_golf_club.jpg",
+      "address": "오아라이, 이바라키",
+      "published": "2026-04-12",
+      "summary": "오아라이 골프 클럽은 이바라키현 오아라이 해안에 위치한 명문 프라이빗 골프 클럽입니다. 태평양을 굽어보는 아름다운 코스 레이아웃과 최고급 시설, 수준 높은 서비스로 잊지 못할 골프 경험을 선사합니다. 멤버십 가입을 통해 특별한 라운딩을 즐겨보세요.",
+      "booking": "회원제 골프장으로, 회원 혹은 회원 동반으로 예약 가능합니다. 자세한 내용은 골프장 웹사이트 또는 회원권을 통해 확인해주세요.",
+      "link": "/course/oarai_golf_club_ko"
+    },
+    {
+      "id": "sapporo_golf_club_wattsu_course_ko",
+      "lang": "ko",
+      "title": "삿포로 골프 클럽 와츠 코스: 진정한 북해도 골프 경험 (예약, 가격 정보 완벽 가이드)",
+      "lat": 42.8744,
+      "lng": 141.4856,
+      "categories": [
+        "Value for Money",
+        "Public Tournament"
+      ],
+      "thumbnail": "/static/images/sapporo_golf_club_wattsu_course.jpg",
+      "address": "Kitahiroshima, Hokkaido",
+      "published": "2026-04-12",
+      "summary": "삿포로 근교의 키타히로시마에 위치한 삿포로 골프 클럽 와츠 코스는 아름다운 자연 경관과 전략적인 코스 디자인으로 골퍼들에게 잊지 못할 경험을 선사합니다. 합리적인 가격으로 수준 높은 골프를 즐길 수 있어, 가성비를 중시하는 골퍼들에게 특히 인기가 높습니다. 삿포로 여행 중 특별한 골프 라운딩을 원한다면 와츠 코스를 강력 추천합니다.",
+      "booking": "온라인 예약, 전화 예약 가능 (일본어)",
+      "link": "/course/sapporo_golf_club_wattsu_course_ko"
+    },
+    {
+      "id": "karuizawa_72_golf_east_ko",
+      "lang": "ko",
+      "title": "가루이자와 72 골프 이스트: 일본 엘리트 골퍼를 위한 완벽 가이드",
+      "lat": 36.3344,
+      "lng": 138.6256,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/karuizawa_72_golf_east.jpg",
+      "address": "Karuizawa, Nagano",
+      "published": "2026-04-12",
+      "summary": "가루이자와 72 골프 이스트는 일본 최고의 골프 코스 중 하나로, 웅장한 자연 경관과 전략적인 코스 레이아웃이 돋보입니다. 고급스러운 시설과 완벽한 서비스는 잊을 수 없는 골프 경험을 선사하며, 숙박 시설을 이용한 여유로운 골프 여행을 즐길 수 있습니다.",
+      "booking": "가루이자와 72 골프 공식 웹사이트, 예약 대행사",
+      "link": "/course/karuizawa_72_golf_east_ko"
+    },
+    {
+      "id": "pgm_golf_resort_okinawa_ko",
+      "lang": "ko",
+      "title": "오키나와 PGM 골프 리조트: 럭셔리 골프 경험 완벽 가이드",
+      "lat": 26.4344,
+      "lng": 127.8356,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
+      "address": "오키나와현 온나손",
+      "published": "2026-04-12",
+      "summary": "오키나와 PGM 골프 리조트는 류큐의 아름다움을 만끽하며 수준 높은 골프를 즐길 수 있는 곳입니다. 탁 트인 바다 전망과 전략적인 코스 레이아웃은 골퍼들에게 잊지 못할 경험을 선사하며, 럭셔리한 시설과 서비스는 편안한 휴식을 보장합니다. 오키나와 골프 여행을 계획 중이라면 PGM 골프 리조트를 놓치지 마세요.",
+      "booking": "PGM 공식 웹사이트, 예약 대행 사이트",
+      "link": "/course/pgm_golf_resort_okinawa_ko"
+    },
+    {
+      "id": "karuizawa_72_golf_east_en",
+      "lang": "en",
+      "title": "Karuizawa 72 Golf East: A Nagano Golfing Paradise Detailed Guide",
+      "lat": 36.3344,
+      "lng": 138.6256,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/karuizawa_72_golf_east.jpg",
+      "address": "Karuizawa, Nagano",
+      "published": "2026-04-12",
+      "summary": "Karuizawa 72 Golf East stands as a testament to Japanese golfing excellence, offering a luxurious and unforgettable experience amidst the stunning natural beauty of Nagano. With meticulously manicured courses, world-class facilities, and unparalleled service, it’s a premier destination for discerning golfers seeking the ultimate escape. Prepare for challenging layouts, breathtaking scenery, and an immersion in Japanese hospitality.",
+      "booking": "Through official Karuizawa 72 website or luxury travel concierge services",
+      "link": "/course/karuizawa_72_golf_east_en"
+    },
+    {
+      "id": "sapporo_golf_club_wattsu_course_en",
+      "lang": "en",
+      "title": "Sapporo Golf Club Wattsu Course: A Hokkaido Golfing Gem Unveiled",
+      "lat": 42.8744,
+      "lng": 141.4856,
+      "categories": [
+        "Value for Money",
+        "Public Tournament",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/sapporo_golf_club_wattsu_course.jpg",
+      "address": "Kitahiroshima, Hokkaido",
+      "published": "2026-04-12",
+      "summary": "Sapporo Golf Club Wattsu Course, nestled in the scenic landscapes of Kitahiroshima, Hokkaido, offers a delightful golfing experience for players of all skill levels. Known for its well-maintained fairways, strategic bunkering, and stunning views, Wattsu Course provides exceptional value. Combine the course with a stay at a local onsen for the ultimate Hokkaido golf escape.",
+      "booking": "Direct via website or through golf booking services like Rakuten GORA.",
+      "link": "/course/sapporo_golf_club_wattsu_course_en"
+    },
+    {
+      "id": "oarai_golf_club_en",
+      "lang": "en",
+      "title": "Oarai Golf Club: A Coastal Gem Where the Pacific Meets Championship Golf",
+      "lat": 36.3244,
+      "lng": 140.5756,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/oarai_golf_club.jpg",
+      "address": "Oarai, Ibaraki",
+      "published": "2026-04-12",
+      "summary": "Oarai Golf Club, perched dramatically on the Ibaraki coastline, offers an unparalleled golfing experience steeped in tradition and exclusivity. This private sanctuary boasts a challenging links-style course where strategic play is rewarded, and breathtaking Pacific Ocean views accompany every swing. A visit here is more than just a round of golf; it's an immersion into Japanese golfing culture at its finest.",
+      "booking": "Booking strictly through members or affiliated reciprocal clubs.",
+      "link": "/course/oarai_golf_club_en"
+    },
+    {
+      "id": "nikko_country_club_en",
+      "lang": "en",
+      "title": "Nikko Country Club: A Mountain Golfing Paradise in Tochigi",
+      "lat": 36.7244,
+      "lng": 139.6356,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/nikko_country_club.jpg",
+      "address": "Nikko, Tochigi Prefecture, Japan",
+      "published": "2026-04-12",
+      "summary": "Nestled amidst the stunning mountains of Nikko National Park, Nikko Country Club offers a golfing experience that blends challenging play with breathtaking natural beauty. This meticulously maintained course provides a serene escape and a test for golfers of all skill levels, complemented by exceptional Japanese hospitality. With luxurious amenities and a tranquil atmosphere, Nikko Country Club is a premier destination for discerning golfers seeking an unforgettable getaway.",
+      "booking": "Via official website or through partnering hotels/travel agencies.",
+      "link": "/course/nikko_country_club_en"
+    },
+    {
+      "id": "fujizakura_country_club_ko",
+      "lang": "ko",
+      "title": "후지자쿠라 컨트리 클럽: 숨막히는 후지산 전망과 챔피언십 코스의 완벽한 조화",
+      "lat": 35.4544,
+      "lng": 138.7456,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/fujizakura_country_club.jpg",
+      "address": "야마나시현 미나미쓰루군 후지카와구치코마치",
+      "published": "2026-04-12",
+      "summary": "후지자쿠라 컨트리 클럽은 일본 최고의 골프 코스 중 하나로, 웅장한 후지산을 배경으로 펼쳐지는 챔피언십 코스와 최고급 시설, 그리고 잊을 수 없는 경험을 선사합니다. 전략적인 코스 레이아웃은 모든 수준의 골퍼들에게 도전과 즐거움을 제공하며, 라운딩 후에는 온천에서 피로를 풀 수 있습니다. 진정한 럭셔리 골프 여행을 원하신다면 후지자쿠라 컨트리 클럽을 놓치지 마세요.",
+      "booking": "클럽 공식 홈페이지 또는 고급 호텔 컨시어지 서비스를 통해 예약 가능합니다.",
+      "link": "/course/fujizakura_country_club_ko"
+    },
+    {
+      "id": "otaru_golf_club_ko",
+      "lang": "ko",
+      "title": "오타루 골프 클럽 완벽 가이드: 숨겨진 홋카이도 골프 보석을 만나다",
+      "lat": 43.2044,
+      "lng": 141.1656,
+      "categories": [
+        "프리미엄 / 럭셔리"
+      ],
+      "thumbnail": "/static/images/otaru_golf_club.jpg",
+      "address": "홋카이도 오타루시",
+      "published": "2026-04-12",
+      "summary": "오타루 골프 클럽은 홋카이도의 아름다운 자연 속에서 최고의 골프 경험을 제공합니다. 전략적인 코스 레이아웃과 훌륭한 시설, 그리고 숨막히는 풍경은 골퍼들에게 잊지 못할 추억을 선사할 것입니다. 고급스러운 골프 여행을 계획하고 있다면 반드시 방문해야 할 곳입니다.",
+      "booking": "클럽 공식 웹사이트 또는 제휴 여행사를 통해 예약 가능",
+      "link": "/course/otaru_golf_club_ko"
+    },
+    {
+      "id": "hokkaido_classic_golf_club_en",
+      "lang": "en",
+      "title": "Hokkaido Classic Golf Club: A Deep Dive into Hokkaido's Masterpiece",
+      "lat": 42.7944,
+      "lng": 141.8156,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/hokkaido_classic_golf_club.jpg",
+      "address": "318 Higashihattari, Abira-cho, Yufutsu-gun, Hokkaido 059-1522, Japan",
+      "published": "2026-04-12",
+      "summary": "Hokkaido Classic Golf Club isn't just a golf course; it's an immersive experience in Hokkaido's pristine wilderness. Designed by Jack Nicklaus, this championship layout offers a challenging yet rewarding round amidst stunning natural beauty. Expect unparalleled service and luxurious amenities, making it a must-play for discerning golfers seeking an unforgettable Hokkaido golf adventure.",
+      "booking": "Through official website, preferred hotel concierge, or reputable golf travel agencies specializing in Hokkaido.",
+      "link": "/course/hokkaido_classic_golf_club_en"
+    },
+    {
+      "id": "katsura_golf_club_en",
+      "lang": "en",
+      "title": "Katsura Golf Club: Hokkaido's Jewel - A Detailed Course Guide for Discerning Golfers",
+      "lat": 42.8144,
+      "lng": 141.7456,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/katsura_golf_club.jpg",
+      "address": "Tomakomai, Hokkaido",
+      "published": "2026-04-12",
+      "summary": "Katsura Golf Club is an exclusive sanctuary offering an unparalleled golfing experience in Hokkaido. Renowned for its impeccable course conditions, challenging layout, and serene atmosphere, it attracts discerning golfers seeking the ultimate in privacy and prestige. Access requires member introduction, adding to its allure and exclusivity.",
+      "booking": "Strictly member-introduced. Contact luxury concierge services for potential access.",
+      "link": "/course/katsura_golf_club_en"
+    },
+    {
+      "id": "kanucha_golf_course_en",
+      "lang": "en",
+      "title": "Kanucha Golf Course: Okinawa's Tropical Golfing Paradise - A Comprehensive Guide",
+      "lat": 26.5444,
+      "lng": 128.0156,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/kanucha_golf_course.jpg",
+      "address": "156-2 Abu, Nago, Okinawa 905-0026, Japan",
+      "published": "2026-04-12",
+      "summary": "Kanucha Golf Course, nestled on the beautiful island of Okinawa, offers a luxurious golfing experience amidst stunning tropical scenery. With its meticulously manicured fairways, challenging layout, and world-class facilities, it's a must-play for discerning golfers. Combine exceptional play with upscale accommodations for the ultimate Okinawan golf getaway.",
+      "booking": "https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=11504",
+      "link": "/course/kanucha_golf_course_en"
+    },
     {
       "id": "taiheiyo_club_gotemba_course_en",
       "lang": "en",
@@ -334,6 +630,40 @@
       "link": "/course/naruo_golf_club_en"
     },
     {
+      "id": "otaru_golf_club_en",
+      "lang": "en",
+      "title": "Otaru Golf Club: A Hokkaido Gem for Discerning Golfers",
+      "lat": 43.2044,
+      "lng": 141.1656,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/otaru_golf_club.jpg",
+      "address": "Otaru, Hokkaido, Japan",
+      "published": "2024-10-27",
+      "summary": "Otaru Golf Club offers a sophisticated golfing experience amidst the stunning natural beauty of Hokkaido. Renowned for its meticulously maintained course and exceptional service, it's a must-play for serious golfers seeking a tranquil and challenging round. The on-site accommodation and world-class facilities enhance the overall experience, making it a premier destination for a Hokkaido golf getaway.",
+      "booking": "Through official website or partnered hotels.",
+      "link": "/course/otaru_golf_club_en"
+    },
+    {
+      "id": "katsura_golf_club_ko",
+      "lang": "ko",
+      "title": "계수 골프 클럽: 홋카이도 프리미엄 골프 경험의 정수",
+      "lat": 42.8144,
+      "lng": 141.7456,
+      "categories": [
+        "Premium / Luxury",
+        "Private Club"
+      ],
+      "thumbnail": "/static/images/katsura_golf_club.jpg",
+      "address": "홋카이도 도마코마이",
+      "published": "2024-10-27",
+      "summary": "계수 골프 클럽은 홋카이도 도마코마이에 위치한 최고급 회원제 골프장입니다. 세계적인 수준의 코스 디자인과 완벽한 관리, 그리고 빼어난 자연경관이 어우러져 잊을 수 없는 골프 경험을 선사합니다. 엄격한 회원제로 운영되어 희소성이 높으며, 진정한 골프 애호가들을 위한 공간입니다.",
+      "booking": "회원제 클럽으로 회원 초청 또는 제휴 골프장의 소개를 통해 예약 가능",
+      "link": "/course/katsura_golf_club_ko"
+    },
+    {
       "id": "accordia_golf_narita_airport_en",
       "lang": "en",
       "title": "Accordia Golf Narita Airport: Your Gateway to Golfing Bliss Near Tokyo",
@@ -349,6 +679,23 @@
       "summary": "Accordia Golf Narita Airport offers a surprisingly tranquil golfing experience just a stone's throw from Narita International Airport. With well-maintained fairways, strategic bunkering, and accessible pricing, it's a perfect option for golfers arriving in or departing from Japan. Enjoy a relaxing round before or after your flight at this conveniently located course.",
       "booking": "https://www.accordiagolf.com/",
       "link": "/course/accordia_golf_narita_airport_en"
+    },
+    {
+      "id": "fujizakura_country_club_en",
+      "lang": "en",
+      "title": "Fujizakura Country Club: Golfing Majesty with Mt. Fuji Views",
+      "lat": 35.4605,
+      "lng": 138.7398,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play"
+      ],
+      "thumbnail": "/static/images/fujizakura_country_club.jpg",
+      "address": "559-1 Funatsu, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0301, Japan",
+      "published": "2024-07-26",
+      "summary": "Fujizakura Country Club offers an unparalleled golfing experience against the breathtaking backdrop of Mount Fuji. This meticulously maintained course challenges players of all skill levels with its strategic layout and stunning scenery. Combining world-class facilities with Japanese hospitality, Fujizakura promises an unforgettable golfing getaway.",
+      "booking": "Through hotel concierge or participating travel agencies. Advance booking essential.",
+      "link": "/course/fujizakura_country_club_en"
     }
   ]
 }
