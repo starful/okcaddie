@@ -1,253 +1,217 @@
 /**
- * OKCaddie - Japan Golf Course Discovery Map
- * Features: Multi-language(EN/KO), Category Filtering with Icons, Google Maps Integration
+ * OKCaddie - Main Business Logic
+ * (Full Version: Advanced Markers, Filters, i18n, Bug Fixed)
  */
 
-let allCourses = [];
-let markers = [];
-let map;
-let currentLang = 'en'; // 기본 언어
-let currentTheme = 'all'; // 기본 필터
-
-// [데이터 매퍼] AI가 한국어 파일에 한국어 태그를 넣었을 경우를 대비한 표준 매핑 테이블
-const CATEGORY_MAP = {
-    "가성비": "Value for Money",
-    "프리미엄": "Premium / Luxury",
-    "대회코스": "Public Tournament",
-    "숙박/리조트": "Stay & Play",
-    "예약편리": "Easy Booking",
-    "회원제": "Private Club"
+let state = {
+    allCourses: [],
+    currentLang: 'en', // 기본 언어: 영어
+    activeTheme: 'all',
+    map: null,
+    markers: [],
+    infoWindow: null
 };
 
+// 언어별 공통 텍스트
+const i18n = {
+    en: { viewDetails: "View Details", address: "Address" },
+    ko: { viewDetails: "상세 보기", address: "주소" }
+};
+
+async function initApp() {
+    setupEventListeners();
+    updateLanguageUI(); // 🔥 핵심 수정: 초기 로딩 시 기본 언어(en)에 맞춰 필터 텍스트 즉시 변경
+    await initMap();
+    await fetchCourses();
+}
+
 /**
- * 1. 초기 데이터 로드 및 실행
+ * [신규 추가] 테마 필터 버튼의 텍스트를 현재 언어에 맞게 동기화하는 함수
  */
-async function init() {
+function updateLanguageUI() {
+    document.querySelectorAll('.theme-button').forEach(tBtn => {
+        const text = state.currentLang === 'ko' ? tBtn.dataset.ko : tBtn.dataset.en;
+        const badgeHtml = tBtn.querySelector('.count-badge').outerHTML;
+        tBtn.innerHTML = `${text} ${badgeHtml}`;
+    });
+}
+
+/**
+ * 1. Google Maps 초기화 (Advanced Markers 적용)
+ */
+async function initMap() {
+    const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+    
+    state.map = new Map(document.getElementById("map"), {
+        center: { lat: 36.5, lng: 138.0 },
+        zoom: 6,
+        mapId: "OKCADDIE_MAP_ID", // 필수: Google Cloud에서 발급받은 Map ID 입력
+        disableDefaultUI: false,
+        zoomControl: true,
+    });
+
+    // 둥근 모서리와 여백을 위한 InfoWindow 설정
+    state.infoWindow = new InfoWindow({
+        pixelOffset: new google.maps.Size(0, -10)
+    });
+}
+
+/**
+ * 2. 골프장 데이터 불러오기
+ */
+async function fetchCourses() {
     try {
         const response = await fetch('/api/courses');
         const data = await response.json();
-        allCourses = data.courses || [];
+        state.allCourses = data.courses;
         
-        // 푸터의 업데이트 날짜 갱신 (ID가 존재할 경우)
-        const dateEl = document.getElementById('last-updated-date');
-        if (dateEl) dateEl.textContent = data.last_updated || '-';
+        // 푸터 메타 데이터 갱신
+        const totalCoursesEl = document.getElementById('total-courses');
+        const lastUpdatedEl = document.getElementById('last-updated-date');
         
-        // 초기 UI 설정 및 렌더링
-        updateFilterButtonUI(); 
+        if (totalCoursesEl) totalCoursesEl.textContent = state.allCourses.length;
+        if (lastUpdatedEl) lastUpdatedEl.textContent = data.last_updated;
+
         renderApp();
-        initMap();
-    } catch (e) {
-        console.error("Failed to load course data:", e);
+    } catch (error) {
+        console.error("Data load error:", error);
     }
 }
 
 /**
- * 2. 필터 버튼 UI 업데이트 (언어 전환 시 텍스트 및 아이콘 교체)
- */
-function updateFilterButtonUI() {
-    document.querySelectorAll('.theme-button').forEach(btn => {
-        // HTML의 data-en/ko에 저장된 아이콘 포함 텍스트를 가져옴
-        const text = currentLang === 'en' ? btn.dataset.en : btn.dataset.ko;
-        const badge = btn.querySelector('.count-badge');
-        
-        // 버튼 내부 초기화 후 텍스트와 숫자 배지를 다시 조립 (아이콘 보존 핵심)
-        btn.innerHTML = ''; 
-        btn.appendChild(document.createTextNode(text + " "));
-        if (badge) btn.appendChild(badge);
-    });
-}
-
-/**
- * 3. 카테고리별 데이터 개수 계산 (다국어 매핑 적용)
- */
-function updateCategoryCounts(langFilteredData) {
-    const counts = {
-        "all": langFilteredData.length,
-        "Value for Money": 0,
-        "Premium / Luxury": 0,
-        "Public Tournament": 0,
-        "Stay & Play": 0,
-        "Easy Booking": 0,
-        "Private Club": 0
-    };
-
-    langFilteredData.forEach(course => {
-        if (course.categories && Array.isArray(course.categories)) {
-            course.categories.forEach(cat => {
-                // 태그가 한국어라면 영어 표준 키로 변환, 아니면 그대로 사용
-                const key = CATEGORY_MAP[cat] || cat;
-                if (counts.hasOwnProperty(key)) {
-                    counts[key]++;
-                }
-            });
-        }
-    });
-
-    // HTML 내의 각 카운트 스팬에 숫자 삽입
-    const idMap = {
-        "count-all": counts["all"],
-        "count-value": counts["Value for Money"],
-        "count-premium": counts["Premium / Luxury"],
-        "count-tour": counts["Public Tournament"],
-        "count-resort": counts["Stay & Play"],
-        "count-easy": counts["Easy Booking"],
-        "count-private": counts["Private Club"]
-    };
-
-    for (const [id, val] of Object.entries(idMap)) {
-        const el = document.getElementById(id);
-        if (el) el.textContent = val;
-    }
-}
-
-/**
- * 4. 메인 앱 렌더링 (리스트 및 카운트 업데이트)
+ * 3. 메인 화면 렌더링 (지도 + 리스트)
  */
 function renderApp() {
-    // (1) 현재 언어셋 필터링
-    const langFiltered = allCourses.filter(c => c.lang === currentLang);
-
-    // (2) 카운트 계산 실행
-    updateCategoryCounts(langFiltered);
-
-    // (3) 선택된 테마 필터링 (영어/한국어 태그 동시 대응)
-    const finalFiltered = langFiltered.filter(c => {
-        if (currentTheme === 'all') return true;
-        const themes = c.categories || [];
-        const korTheme = Object.keys(CATEGORY_MAP).find(key => CATEGORY_MAP[key] === currentTheme);
-        return themes.includes(currentTheme) || themes.includes(korTheme);
+    // 선택된 언어와 카테고리에 맞는 데이터 필터링
+    const filtered = state.allCourses.filter(c => {
+        const langMatch = c.lang === state.currentLang;
+        const themeMatch = state.activeTheme === 'all' || c.categories.includes(state.activeTheme);
+        return langMatch && themeMatch;
     });
 
-    // (4) 총 개수 텍스트 업데이트 (푸터 또는 상태바)
-    const totalEl = document.getElementById('total-courses');
-    if (totalEl) totalEl.textContent = finalFiltered.length;
-
-    // (5) 코스 리스트 그리드 생성
-    const listContainer = document.getElementById('course-list');
-    if (!listContainer) return;
-    listContainer.innerHTML = '';
-
-    finalFiltered.forEach(course => {
-        const card = document.createElement('div');
-        card.className = 'course-card';
-        card.innerHTML = `
-            <a href="${course.link}" class="card-thumb-link">
-                <img src="${course.thumbnail}" class="card-thumb" alt="${course.title}" loading="lazy">
-            </a>
-            <div class="card-content">
-                <h3 class="card-title"><a href="${course.link}">${course.title}</a></h3>
-                <p class="card-summary">${course.summary}</p>
-                <div class="card-footer">
-                    <span class="view-link">${currentLang === 'en' ? 'View Details →' : '상세보기 →'}</span>
-                </div>
-            </div>
-        `;
-        listContainer.appendChild(card);
-    });
-
-    // (6) 지도 마커 업데이트
-    updateMarkers(finalFiltered);
+    updateMarkers(filtered);
+    updateList(filtered);
+    updateCategoryCounts();
 }
 
 /**
- * 5. 구글 맵 초기화
- */
-async function initMap() {
-    const { Map } = await google.maps.importLibrary("maps");
-    map = new Map(document.getElementById("map"), {
-        center: { lat: 36.5, lng: 138.0 },
-        zoom: 6,
-        mapId: "OKCADDIE_MAP_ID", // 구글 클라우드에서 발급받은 Map ID (선택사항)
-        mapTypeControl: false,
-        streetViewControl: false,
-        fullscreenControl: false
-    });
-}
-
-/**
- * 6. 마커 생성 및 정보창(InfoWindow) 설정
+ * 4. 지도에 고급 사진 마커 그리기
  */
 async function updateMarkers(courses) {
-    if (!map) return;
-    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
-
-    // 기존 마커 제거
-    markers.forEach(m => m.setMap(null));
-    markers = [];
-
-    const infoWindow = new google.maps.InfoWindow();
+    const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+    
+    // 이전 마커 초기화
+    state.markers.forEach(m => m.map = null);
+    state.markers = [];
 
     courses.forEach(course => {
-        if (!course.lat || !course.lng) return;
+        // 커스텀 마커 HTML 요소 생성
+        const markerTag = document.createElement('div');
+        markerTag.className = 'caddie-marker';
+        markerTag.innerHTML = `<img src="${course.thumbnail}" alt="${course.title}">`;
 
-        // 커스텀 ⛳ 핀 디자인
-        const pin = new PinElement({
-            background: "#27ae60",
-            borderColor: "#ffffff",
-            glyph: "⛳",
-            glyphColor: "#ffffff",
-        });
-
+        // AdvancedMarkerElement 생성
         const marker = new AdvancedMarkerElement({
-            map: map,
-            position: { lat: parseFloat(course.lat), lng: parseFloat(course.lng) },
+            map: state.map,
+            position: { lat: course.lat, lng: course.lng },
             title: course.title,
-            content: pin.element,
+            content: markerTag,
         });
 
-        // 마커 클릭 시 팝업 정보창
-        marker.addListener("click", () => {
-            const infoBox = `
-                <div class="infowindow-content" style="padding:5px; max-width:200px;">
-                    <img src="${course.thumbnail}" style="width:100%; border-radius:4px; margin-bottom:8px;">
-                    <h4 style="margin:0 0 5px; font-size:14px;">${course.title}</h4>
-                    <p style="margin:0 0 10px; font-size:12px; color:#666;">${course.address}</p>
-                    <a href="${course.link}" style="display:block; background:#27ae60; color:#fff; text-align:center; padding:6px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:bold;">
-                        ${currentLang === 'en' ? 'View Details' : '상세보기'}
-                    </a>
-                </div>`;
-            infoWindow.setContent(infoBox);
-            infoWindow.open(map, marker);
+        // 마커 클릭 시 정보창(InfoWindow) 표시
+        marker.addListener('click', () => {
+            const contentString = `
+                <div class="info-card">
+                    <div class="info-title">${course.title}</div>
+                    <div class="info-address"><b>${i18n[state.currentLang].address}:</b> ${course.address}</div>
+                    <a href="${course.link}" class="info-btn">${i18n[state.currentLang].viewDetails}</a>
+                </div>
+            `;
+            state.infoWindow.setContent(contentString);
+            state.infoWindow.open(state.map, marker);
         });
 
-        markers.push(marker);
+        state.markers.push(marker);
     });
 }
 
 /**
- * 7. 이벤트 리스너 설정
+ * 5. 썸네일 카드 리스트 업데이트
  */
-// (1) 언어 전환 버튼
-document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-        const target = e.target;
-        if (currentLang === target.dataset.lang) return;
+function updateList(courses) {
+    const listContainer = document.getElementById('course-list');
+    if (!listContainer) return;
 
-        // 버튼 활성화 상태 교체
-        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-        target.classList.add('active');
+    listContainer.innerHTML = courses.map(c => `
+        <article class="course-card">
+            <a href="${c.link}">
+                <img src="${c.thumbnail}" class="card-thumb" alt="${c.title}" loading="lazy">
+                <div class="card-content">
+                    <div class="card-title">${c.title}</div>
+                    <p style="font-size:0.9rem; color:#666;">${c.summary.substring(0, 100)}...</p>
+                </div>
+            </a>
+        </article>
+    `).join('');
+}
 
-        // 상태 변경 및 전체 UI 갱신
-        currentLang = target.dataset.lang;
-        updateFilterButtonUI(); 
-        renderApp();
+/**
+ * 6. 상단 필터 버튼의 아이템 개수(Badge) 동기화
+ */
+function updateCategoryCounts() {
+    const currentLangCourses = state.allCourses.filter(c => c.lang === state.currentLang);
+    
+    const countAllEl = document.getElementById('count-all');
+    if (countAllEl) countAllEl.textContent = currentLangCourses.length;
+    
+    const mapping = {
+        'count-value': "Value for Money",
+        'count-premium': "Premium / Luxury",
+        'count-tour': "Public Tournament",
+        'count-resort': "Stay & Play",
+        'count-easy': "Easy Booking",
+        'count-private': "Private Club"
+    };
+
+    Object.keys(mapping).forEach(id => {
+        const count = currentLangCourses.filter(c => c.categories.includes(mapping[id])).length;
+        const el = document.getElementById(id);
+        if (el) el.textContent = count;
     });
-});
+}
 
-// (2) 테마 필터 버튼
-document.querySelectorAll('.theme-button').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-        const themeBtn = e.currentTarget; // span 클릭 시에도 버튼 개체 인식
-
-        // 버튼 활성화 상태 교체
-        document.querySelectorAll('.theme-button').forEach(b => b.classList.remove('active'));
-        themeBtn.classList.add('active');
-
-        // 필터 적용 및 렌더링
-        currentTheme = themeBtn.dataset.theme;
-        renderApp();
+/**
+ * 7. 사용자의 클릭 이벤트 설정
+ */
+function setupEventListeners() {
+    // 언어 전환
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            state.currentLang = btn.dataset.lang;
+            
+            // 버튼 활성화 클래스 토글
+            document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            // UI 업데이트 함수 호출 (중복 제거)
+            updateLanguageUI();
+            renderApp();
+        });
     });
-});
 
-// 실행 시작
-init();
+    // 테마 필터링
+    document.querySelectorAll('.theme-button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            state.activeTheme = btn.dataset.theme;
+            
+            // 버튼 활성화 클래스 토글
+            document.querySelectorAll('.theme-button').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            renderApp();
+        });
+    });
+}
+
+// 스크립트 로드 완료 후 실행
+window.onload = initApp;

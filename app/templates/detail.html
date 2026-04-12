@@ -6,59 +6,59 @@
     <title>{{ post.title }} - OKCaddie</title>
     <meta name="description" content="{{ post.summary }}">
     <link rel="stylesheet" href="/static/css/style.css">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HBWT4CY75"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-5HBWT4CY75');
-    </script>
 </head>
 <body>
-    <header style="padding: 30px 0; background: #fff; text-align: center; border-bottom: 1px solid #eee;">
-        <a href="/"><img src="/static/images/logo.png" alt="OKCaddie" style="height: 90px;"></a>
+    <!-- 헤더 영역 -->
+    <header style="padding: 20px 0; background: #fff; text-align: center; border-bottom: 1px solid #eee;">
+        <a href="/"><img src="/static/images/logo.png" alt="OKCaddie" style="height: 55px;"></a>
     </header>
 
     <article class="detail-container">
-        <div class="detail-header">
+        <!-- 제목 및 메타 정보 -->
+        <header class="detail-header">
             <h1 class="detail-title">{{ post.title }}</h1>
-            <div class="detail-meta">📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }}</div>
-        </div>
+            <div class="detail-meta">
+                <span>📍 {{ post.address }}</span> | 
+                <span>🏷️ {{ post.categories|join(', ') }}</span>
+            </div>
+        </header>
 
+        <!-- 메인 이미지 -->
         <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
 
-        <!-- [추가] 회원제/프라이빗 골프장 안내 배너 -->
-        {% if 'Private Club' in post.categories or '회원제/명문' in post.categories %}
-        <div style="background: #fff5f5; border: 1px solid #feb2b2; padding: 25px; border-radius: 12px; margin-bottom: 40px; color: #c53030; line-height: 1.6;">
-            <h3 style="margin-top: 0;">🔒 Private Member-Only Club</h3>
-            <p style="margin-bottom: 0;">
-                This course is an exclusive private club. Booking is generally restricted to members or guests accompanied by a member. Please check with specialized golf travel services for potential tee-time availability for foreigners.
+        <!-- [배너] 회원제/프라이빗 골프장 전용 안내 -->
+        {% if 'Private Club' in post.categories or '회원제' in post.categories %}
+        <div class="private-alert">
+            <h3>🔒 Private Member-Only Club</h3>
+            <p>
+                This course is an exclusive private club. Booking is generally restricted to members or guests accompanied by a member. 
+                Please check with specialized golf travel services for potential tee-time availability for foreigners.
             </p>
         </div>
         {% endif %}
 
+        <!-- 본문 내용 (Markdown) -->
         <div class="detail-content">
             {{ content | safe }}
         </div>
 
-        <!-- 예약 버튼 (Booking 링크가 있을 때만) -->
-        {% if post.booking %}
-        <div style="text-align: center; margin: 60px 0;">
-            <a href="{{ post.booking }}" target="_blank" rel="nofollow" 
-               style="display: inline-block; background: #27ae60; color: #fff; padding: 20px 50px; font-size: 1.3rem; font-weight: 800; border-radius: 50px; text-decoration: none; box-shadow: 0 5px 20px rgba(39,174,96,0.3); transition: transform 0.2s;">
-                ⛳ Check Availability & Book Now
-            </a>
-        </div>
-        {% endif %}
-
-        <div style="text-align: center; margin-bottom: 40px;">
-            <a href="/" class="back-btn">🗺️ Back to Course Map</a>
+        <!-- detail.html 하단 부분 -->
+        <div class="detail-actions">
+            {% if post.booking %}
+            <div class="booking-btn-container">
+                <a href="{{ post.booking }}" target="_blank" rel="nofollow" class="booking-btn">
+                    ⛳ Check Availability & Book Now
+                </a>
+            </div>
+            {% endif %}
+            
+            <div class="back-btn-container">
+                <a href="/" class="back-btn">🗺️ Back to Course Map</a>
+            </div>
         </div>
     </article>
     
+    <!-- 공통 푸터 -->
     {% include 'footer.html' %}
 </body>
 </html>
