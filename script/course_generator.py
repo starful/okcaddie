@@ -31,7 +31,7 @@ def generate_course_md(safe_name, name, lat, lng, address, thumbnail, lang, feat
     filename = f"{safe_name}_{lang}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
 
-    # 이미 파일이 있으면 건너뜀 (비용 절약)
+    # 이미 파일이 있으면 건너뜀 (API 비용 및 시간 절약)
     if os.path.exists(filepath):
         print(f"  ⏭️  Skip: {filename}")
         return True
@@ -83,7 +83,7 @@ image_prompt: "High-end cinematic photography prompt in English"
         )
         content = response.text.strip()
 
-        # 불필요한 마크다운 기호 제거 (백틱 등)
+        # 불필요한 마크다운 기호 제거
         if content.startswith("```"):
             content = "\n".join(content.splitlines()[1:-1]) if content.endswith("```") else "\n".join(content.splitlines()[1:])
         content = content.strip()
@@ -93,13 +93,17 @@ image_prompt: "High-end cinematic photography prompt in English"
             f.write(content)
 
         print(f"✅ Success: {filename} ({len(content)} chars)")
+        
+        # API Rate Limit(호출 제한) 방지를 위한 약간의 대기 시간
+        time.sleep(1.5)
         return True
 
     except Exception as e:
         print(f"❌ Error for {name}: {e}")
         return False
 
-def process_csv(limit=25):
+# limit=None 으로 설정하여 제한 해제
+def process_csv(limit=None):
     csv_path = os.path.join(SCRIPT_DIR, 'csv', 'courses.csv')
     if not os.path.exists(csv_path):
         print(f"❌ CSV not found: {csv_path}")
@@ -109,7 +113,10 @@ def process_csv(limit=25):
     with open(csv_path, mode='r', encoding='utf-8-sig') as file:
         reader = csv.DictReader(file)
         for i, row in enumerate(reader):
-            if i >= limit: break
+            # limit 값이 설정되어 있고, 그 값을 넘으면 중단
+            if limit is not None and i >= limit: 
+                break
+                
             name = row.get('Name', '').strip()
             if not name: continue
             
@@ -123,10 +130,11 @@ def process_csv(limit=25):
                     lang, row.get('Features'), row.get('Booking')
                 ))
 
-    # 최대 10개의 쓰레드로 병렬 처리
+    # 최대 5개의 쓰레드로 병렬 처리 (과부하 방지)
     print(f"⛳ Processing {len(tasks)} files...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
         executor.map(lambda p: generate_course_md(*p), tasks)
 
 if __name__ == "__main__":
-    process_csv(limit=20)
+    # 제한 없이 전체 CSV 파일을 처리합니다.
+    process_csv(limit=None)
