@@ -132,7 +132,7 @@ def process_csv(limit=None):
 
     # 최대 5개의 쓰레드로 병렬 처리 (과부하 방지)
     print(f"⛳ Processing {len(tasks)} files...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         executor.map(lambda p: generate_course_md(*p), tasks)
 
 if __name__ == "__main__":

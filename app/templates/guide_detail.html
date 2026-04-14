@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ post.lang or 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }} - OKCaddie Guide</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <article class="detail-container">
+        <!-- 상단 헤더 -->
+        <header class="detail-header" style="text-align: center; margin-bottom: 40px;">
+            <div style="color: var(--accent-red); font-weight: 800; margin-bottom: 15px; font-size: 1rem; letter-spacing: 1px;">
+                ⛳ OKCADDIE GOLF GUIDE
+            </div>
+            <!-- 제목 표시 -->
+            <h1 class="detail-title" style="margin-bottom: 20px; line-height: 1.2; word-break: keep-all;">
+                {{ post.title }}
+            </h1>
+            <!-- 날짜 표시 -->
+            <div class="detail-meta" style="color: #888; font-size: 0.9rem;">
+                📅 Published: {{ post.date }}
+            </div>
+        </header>
+
+        <!-- 대표 이미지 -->
+        <div class="detail-img-box" style="margin-bottom: 50px;">
+            <img src="{{ image }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+        </div>
+
+        <!-- 본문 내용 -->
+        <div class="detail-content">
+            {{ content | safe }}
+        </div>
+
+        <!-- 하단 액션 버튼 -->
+        <div class="detail-actions" style="margin-top: 80px; border-top: 1px solid #eee; padding-top: 50px; text-align: center;">
+            <a href="/guide?lang={{ post.lang or 'en' }}" class="back-btn" style="margin-bottom: 15px;">
+                📖 Back to Guide List
+            </a>
+            <br>
+            <a href="/?lang={{ post.lang or 'en' }}" class="back-btn" style="background: #2c3e50; color: white !important;">
+                🗺️ Back to Map
+            </a>
+        </div>
+    </article>
+
+    {% include 'footer.html' %}
+</body>
+</html>
