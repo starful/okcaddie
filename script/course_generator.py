@@ -1,140 +1,115 @@
-import os
-import csv
-import time
-from datetime import datetime
+import os, csv, time, sys
+import concurrent.futures
 from google import genai
 from dotenv import load_dotenv
-import concurrent.futures
 
-# ==========================================
-# ⚙️ 설정 로드 및 경로 지정
-# ==========================================
+# 설정 로드
 load_dotenv()
-API_KEY = os.environ.get("GEMINI_API_KEY")
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
-SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR    = os.path.dirname(SCRIPT_DIR)
-CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
+CSV_PATH = 'script/csv/courses.csv'
+CONTENT_DIR = "app/content"
+os.makedirs(CONTENT_DIR, exist_ok=True)
 
-TARGET_LANGS = ['en', 'ko']
+def generate_course_task(data):
+    safe_name = data['safe_name']
+    lang = data['lang']
+    filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
 
-# [중요] 필터 매칭을 위한 표준 영어 카테고리
-ENG_CATEGORIES = ["Value for Money", "Premium / Luxury", "Public Tournament", "Stay & Play", "Easy Booking", "Private Club"]
-
-def generate_course_md(safe_name, name, lat, lng, address, thumbnail, lang, features, booking_link):
-    if not API_KEY:
-        print("❌ GEMINI_API_KEY missing.")
-        return False
-
-    client = genai.Client(api_key=API_KEY)
-    current_date = datetime.now().strftime('%Y-%m-%d')
-    filename = f"{safe_name}_{lang}.md"
-    filepath = os.path.join(CONTENT_DIR, filename)
-
-    # 이미 파일이 있으면 건너뜀 (API 비용 및 시간 절약)
     if os.path.exists(filepath):
-        print(f"  ⏭️  Skip: {filename}")
-        return True
+        return None
 
-    print(f"🚀 [{lang.upper()}] '{name}' Generating Content...")
-
-    # [상세 프롬프트] 8,000자 이상의 고품질 컨텐츠 유도
+    # [핵심] 초장문 생성을 위한 정교한 프롬프트
     prompt = f"""
-You are an elite Japanese golf travel journalist and SEO expert. 
-Write an EXTREMELY comprehensive, deeply detailed, and highly engaging golf course guide for "{name}".
-The total length MUST be 7,000 to 8,000 characters.
+    You are an elite Japanese golf travel journalist and a technical course rater. 
+    Write an EXTREMELY COMPREHENSIVE, deeply technical, and engaging golf course review for "{data['name']}".
+    
+    [GOAL]
+    The total length MUST be between 8,000 and 9,000 characters (including spaces). 
+    Do not summarize. Provide deep, granular details for every section.
+    Language: {lang} (ko=Korean, en=English).
 
-[Instructions]
-1. Output RAW Markdown with YAML frontmatter. NO code blocks (```).
-2. Use ONLY these English terms for 'categories' field in frontmatter: {", ".join(ENG_CATEGORIES)}
-3. Body Language: {lang} (ko=Korean, en=English).
+    [Structure & Specific Requirements]
+    1. **Introduction (1,000+ chars):** The history of the club, its prestige in Japan, the natural landscape, and the first impression upon arrival.
+    2. **Architect & Design Philosophy (1,500+ chars):** Deep dive into the architect (e.g., Seiichi Inoue, Robert Trent Jones Jr., etc.), the strategic use of bunkers, water hazards, and terrain elevation. Explain the 'risk and reward' elements.
+    3. **Signature Holes Analysis (2,000+ chars):** Pick at least 4 specific holes. Describe the yardage, the view from the tee, the landing zone, the green's undulation, and the exact strategy needed to save par.
+    4. **Clubhouse & Luxury Facilities (1,500+ chars):** Detailed review of the clubhouse architecture, the locker rooms, and especially the Onsen (natural hot spring) facilities. Mention the dining experience and signature dishes.
+    5. **Seasonal Guide & Logistics (1,000+ chars):** Best months to visit, turf condition (Bent vs Korai grass), wind patterns, and detailed access from major cities.
+    6. **Expert Verdict (1,000+ chars):** Final rating, who this course is for, and a concluding professional recommendation.
 
-[YAML Frontmatter Format]
----
-lang: {lang}
-title: "Catchy SEO Title in {lang}"
-lat: {lat}
-lng: {lng}
-categories: ["Category from list"]
-thumbnail: "{thumbnail}"
-address: "{address}"
-date: "{current_date}"
-booking: "{booking_link}"
-summary: "3-sentence engaging summary in {lang}"
-image_prompt: "High-end cinematic photography prompt in English"
----
-
-[Body Content Sections - Write in {lang}]
-- **Introduction:** The prestige and unique charm of this course.
-- **Price & Booking:** Estimated weekday/weekend fees (JPY), seasonal tips.
-- **Course Accessibility:** Explain if it's Public, Semi-Private, or Private (Member-only).
-- **Course Highlights:** Strategic layout, architect, signature holes description.
-- **Facilities:** Clubhouse, restaurant, pro-shop, and especially the Onsen/Bath quality.
-- **Scenic Beauty:** Best season to visit, nature, and surrounding views.
-- **Access:** Detailed directions from the nearest major city or station.
-- **Final Verdict:** Expert recommendation for travelers.
-"""
+    [YAML Frontmatter]
+    ---
+    lang: "{lang}"
+    title: "The Ultimate Guide to {data['name']}: Strategy, Luxury, and Vibe ({lang})"
+    lat: {data['lat']}
+    lng: {data['lng']}
+    categories: [{data['features']}]
+    thumbnail: "/static/images/{safe_name}.jpg"
+    address: "{data['address']}"
+    date: "2026-04-15"
+    booking: "{data['booking']}"
+    summary: "A massive, expert-level 8,000-character guide to {data['name']}."
+    ---
+    
+    (Start writing the long-form content now in {lang}. Ensure professional formatting with H2 and H3 tags.)
+    """
 
     try:
-        # Gemini 2.0 Flash 모델 사용
+        # 초장문 생성을 위해 gemini-2.0-flash 사용 (유료 API 권장)
         response = client.models.generate_content(
-            model='gemini-2.0-flash',
-            contents=prompt,
+            model='gemini-2.0-flash', 
+            contents=prompt
         )
-        content = response.text.strip()
-
-        # 불필요한 마크다운 기호 제거
-        if content.startswith("```"):
-            content = "\n".join(content.splitlines()[1:-1]) if content.endswith("```") else "\n".join(content.splitlines()[1:])
-        content = content.strip()
-
-        os.makedirs(CONTENT_DIR, exist_ok=True)
+        content = response.text.replace("```markdown", "").replace("```", "").replace("## yaml", "").strip()
+        
+        # 실제 생성된 길이 체크 (로그용)
+        actual_length = len(content)
+        
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
-
-        print(f"✅ Success: {filename} ({len(content)} chars)")
-        
-        # API Rate Limit(호출 제한) 방지를 위한 약간의 대기 시간
-        time.sleep(1.5)
-        return True
-
+        return f"✅ Success: {safe_name}_{lang} ({actual_length} chars)"
     except Exception as e:
-        print(f"❌ Error for {name}: {e}")
-        return False
+        return f"❌ Error: {safe_name}_{lang} -> {e}"
 
-# limit=None 으로 설정하여 제한 해제
-def process_csv(limit=None):
-    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'courses.csv')
-    if not os.path.exists(csv_path):
-        print(f"❌ CSV not found: {csv_path}")
+def process_courses(limit=5):
+    if not os.path.exists(CSV_PATH):
+        print(f"❌ CSV 없음: {CSV_PATH}")
         return
 
     tasks = []
-    with open(csv_path, mode='r', encoding='utf-8-sig') as file:
-        reader = csv.DictReader(file)
-        for i, row in enumerate(reader):
-            # limit 값이 설정되어 있고, 그 값을 넘으면 중단
-            if limit is not None and i >= limit: 
-                break
-                
-            name = row.get('Name', '').strip()
-            if not name: continue
+    with open(CSV_PATH, mode='r', encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        new_topic_count = 0
+        
+        for row in reader:
+            if new_topic_count >= limit: break
             
-            # 파일명 안전하게 변환
+            name = row['Name'].strip()
             safe_name = name.lower().replace(" ", "_").replace("'", "").replace(",", "").replace("&", "and").replace(".", "")
             
-            for lang in TARGET_LANGS:
-                tasks.append((
-                    safe_name, name, row.get('Lat'), row.get('Lng'), 
-                    row.get('Address'), f"/static/images/{safe_name}.jpg", 
-                    lang, row.get('Features'), row.get('Booking')
-                ))
+            if not (os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and 
+                    os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_ko.md"))):
+                for lang in ['en', 'ko']:
+                    tasks.append({
+                        'safe_name': safe_name, 'name': name, 'lat': row['Lat'], 'lng': row['Lng'],
+                        'address': row['Address'], 'features': row['Features'], 
+                        'booking': row['Booking'], 'lang': lang
+                    })
+                new_topic_count += 1
 
-    # 최대 5개의 쓰레드로 병렬 처리 (과부하 방지)
-    print(f"⛳ Processing {len(tasks)} files...")
+    print(f"🔥 초장문 컨텐츠 생성 시작 (목표: {new_topic_count}개 코스, 쓰레드 5개)")
+
+    # 초장문 생성 시에는 쓰레드 수를 너무 높이면 API 응답이 끊길 수 있으므로 5~10개 권장
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        executor.map(lambda p: generate_course_md(*p), tasks)
+        futures = [executor.submit(generate_course_task, t) for t in tasks]
+        for future in concurrent.futures.as_completed(futures):
+            res = future.result()
+            if res: print(res)
 
 if __name__ == "__main__":
-    # 제한 없이 전체 CSV 파일을 처리합니다.
-    process_csv(limit=None)
+    if len(sys.argv) > 1:
+        run_limit = int(sys.argv[1])
+    else:
+        run_limit = 5 # 초장문이므로 한 번에 2개 주제(4개 파일)씩 생성 권장
+        
+    process_courses(limit=run_limit)
