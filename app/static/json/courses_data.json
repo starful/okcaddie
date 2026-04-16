@@ -2,6 +2,132 @@
   "last_updated": "2026.04.16",
   "courses": [
     {
+      "id": "shima_country_club_en",
+      "lang": "en",
+      "title": "The Ultimate Guide to Shima Country Club: Strategy, Luxury, and Vibe (en)",
+      "lat": 34.3344,
+      "lng": 136.8156,
+      "categories": [
+        "Value for Money",
+        "Ocean View",
+        "Scenic View"
+      ],
+      "thumbnail": "/static/images/shima_country_club.jpg",
+      "address": "Shima, Mie",
+      "published": "2026-04-15",
+      "summary": "A massive, expert-level 8,000-character guide to Shima Country Club.",
+      "booking": "",
+      "link": "/course/shima_country_club_en"
+    },
+    {
+      "id": "gifu_north_golf_club_ko",
+      "lang": "ko",
+      "title": "기후 북부 골프 클럽의 궁극적인 가이드: 전략, 럭셔리, 분위기 (ko)",
+      "lat": 35.5144,
+      "lng": 136.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/gifu_north_golf_club.jpg",
+      "address": "Yamagata, Gifu",
+      "published": "2026-04-15",
+      "summary": "기후 북부 골프 클럽에 대한 방대한 전문가 수준의 8,000자 가이드입니다.",
+      "booking": "",
+      "link": "/course/gifu_north_golf_club_ko"
+    },
+    {
+      "id": "inuyama_country_club_en",
+      "lang": "en",
+      "title": "The Ultimate Guide to Inuyama Country Club: Strategy, Luxury, and Vibe (en)",
+      "lat": 35.3544,
+      "lng": 136.9856,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/inuyama_country_club.jpg",
+      "address": "Inuyama, Aichi",
+      "published": "2026-04-15",
+      "summary": "A massive, expert-level 8,000-character guide to Inuyama Country Club.",
+      "booking": "",
+      "link": "/course/inuyama_country_club_en"
+    },
+    {
+      "id": "nagoya_green_country_club_ko",
+      "lang": "ko",
+      "title": "나고야 그린 컨트리 클럽 완벽 가이드: 전략, 럭셔리, 그리고 분위기 (ko)",
+      "lat": 35.2144,
+      "lng": 137.2156,
+      "categories": [
+        "Value for Money",
+        "Public Tournament",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/nagoya_green_country_club.jpg",
+      "address": "Toyota, Aichi",
+      "published": "2026-04-15",
+      "summary": "나고야 그린 컨트리 클럽에 대한 방대한 전문가 수준의 8,000자 가이드입니다.",
+      "booking": "",
+      "link": "/course/nagoya_green_country_club_ko"
+    },
+    {
+      "id": "nagoya_green_country_club_en",
+      "lang": "en",
+      "title": "The Ultimate Guide to Nagoya Green Country Club: Strategy, Luxury, and Vibe (en)",
+      "lat": 35.2144,
+      "lng": 137.2156,
+      "categories": [
+        "Value for Money",
+        "Public Tournament",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/nagoya_green_country_club.jpg",
+      "address": "Toyota, Aichi",
+      "published": "2026-04-15",
+      "summary": "A massive, expert-level 8,000-character guide to Nagoya Green Country Club.",
+      "booking": "",
+      "link": "/course/nagoya_green_country_club_en"
+    },
+    {
+      "id": "gifu_north_golf_club_en",
+      "lang": "en",
+      "title": "The Ultimate Guide to Gifu North Golf Club: Strategy, Luxury, and Vibe (en)",
+      "lat": 35.5144,
+      "lng": 136.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/gifu_north_golf_club.jpg",
+      "address": "Yamagata, Gifu",
+      "published": "2026-04-15",
+      "summary": "A massive, expert-level 8,000-character guide to Gifu North Golf Club.",
+      "booking": "",
+      "link": "/course/gifu_north_golf_club_en"
+    },
+    {
+      "id": "mie_kokusai_golf_club_ko",
+      "lang": "ko",
+      "title": "미에 국제 골프 클럽 궁극의 가이드: 전략, 럭셔리, 그리고 분위기 (ko)",
+      "lat": 35.0344,
+      "lng": 136.5156,
+      "categories": [
+        "가성비",
+        "숲 코스",
+        "접근성 용이"
+      ],
+      "thumbnail": "/static/images/mie_kokusai_golf_club.jpg",
+      "address": "가메야마, 미에",
+      "published": "2026-04-15",
+      "summary": "미에 국제 골프 클럽에 대한 전문가 수준의 8,000자 가이드.",
+      "booking": "",
+      "link": "/course/mie_kokusai_golf_club_ko"
+    },
+    {
       "id": "hokkaido_classic_golf_club_ko",
       "lang": "ko",
       "title": "홋카이도 클래식 골프 클럽: 일본 최고의 숨겨진 골프 보석을 탐험하다",
