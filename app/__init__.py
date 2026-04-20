@@ -158,9 +158,23 @@ def course_detail(course_id):
         post = frontmatter.load(f)
     return render_template('detail.html', post=post, content=markdown.markdown(post.content))
 
+# 기존 serve_images 함수 위에 아래 라우트를 추가하세요.
+@app.route('/favicon.ico')
+@app.route('/favicon-32x32.png')
+@app.route('/favicon-48x48.png')
+@app.route('/apple-touch-icon.png')
+def serve_favicons():
+    # 리다이렉트 하지 않고 로컬 static/images 폴더에서 직접 서빙
+    return send_from_directory(os.path.join(app.root_path, 'static', 'images'), request.path[1:])
+
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
-    return redirect(f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}")
+    import time
+    # 파비콘류 파일이 아닐 때만 GCS로 리다이렉트
+    if filename in ['favicon.ico', 'favicon-32x32.png', 'favicon-48x48.png', 'apple-touch-icon.png']:
+        return send_from_directory(os.path.join(app.root_path, 'static', 'images'), filename)
+        
+    return redirect(f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}?v={int(time.time())}")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
