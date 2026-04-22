@@ -190,14 +190,34 @@ def course_detail(course_id):
 
 # app/__init__.py 에 아래 함수를 추가하세요.
 
+# app/__init__.py 에 추가/수정
+
 @app.route('/booking/<course_id>')
 def booking_redirect(course_id):
-    # 사용자님의 클룩 파트너 최종 링크
-    klook_partner_url = "https://klook.tpo.mx/dOzmfkTF"
+    """라쿠텐 고라: 실시간 티타임 예약 전용 (영문 페이지)"""
+    # 제공해주신 라쿠텐 고라 파트너 링크
+    RAKUTEN_GORA_URL = "https://a.r10.to/hF8a6l"
+    return redirect(RAKUTEN_GORA_URL)
+
+@app.route('/travel/<item_type>/<course_id>')
+def travel_redirect(item_type, course_id):
+    """클룩: 아이템 타입별 리다이렉트 관리"""
     
-    # [선택사항] 나중에 특정 골프장 상품 페이지가 생기면 여기서 조건문으로 분기 처리 가능합니다.
-    # 현재는 모든 요청을 승인된 클룩 메인/골프 페이지로 보냅니다.
-    return redirect(klook_partner_url)
+    # 1. 언어 판별
+    is_ko = course_id.endswith('_ko')
+    
+    # 2. 아이템별 파트너 링크 설정 (생성하신 링크로 교체하세요)
+    # 아래는 예시 코드입니다.
+    links = {
+        "rental": "https://klook.tpo.mx/ay7rwBk6" if is_ko else "https://klook.tpo.mx/XD9YKSl3",
+        "pickup": "https://klook.tpo.mx/ZsgqPaTQ" if is_ko else "https://klook.tpo.mx/LrVOwYHu",
+        "esim":   "https://klook.tpo.mx/of4QelX3" if is_ko else "https://klook.tpo.mx/bBQ8iRn2"
+    }
+    
+    # 기본값은 이전에 만드신 일반 골프 검색 링크
+    default_link = "https://klook.tpo.mx/dOzmfkTF" if is_ko else "https://klook.tpo.mx/VRJHMdHu"
+    
+    return redirect(links.get(item_type, default_link))
 
 # 기존 serve_images 함수 위에 아래 라우트를 추가하세요.
 @app.route('/favicon.ico')
