@@ -209,13 +209,13 @@ def travel_redirect(item_type, course_id):
     # 2. 아이템별 파트너 링크 설정 (생성하신 링크로 교체하세요)
     # 아래는 예시 코드입니다.
     links = {
-        "rental": "https://klook.tpo.mx/ay7rwBk6" if is_ko else "https://klook.tpo.mx/XD9YKSl3",
-        "pickup": "https://klook.tpo.mx/ZsgqPaTQ" if is_ko else "https://klook.tpo.mx/LrVOwYHu",
-        "esim":   "https://klook.tpo.mx/of4QelX3" if is_ko else "https://klook.tpo.mx/bBQ8iRn2"
+        "rental": "https://klook.tpo.mx/llRQoxrb" if is_ko else "https://klook.tpo.mx/skGztuAJ",
+        "pickup": "https://klook.tpo.mx/8qLZKsBY" if is_ko else "https://klook.tpo.mx/zPN5kiip",
+        "esim":   "https://klook.tpo.mx/OBHJbySq" if is_ko else "https://klook.tpo.mx/696NKlPT"
     }
     
     # 기본값은 이전에 만드신 일반 골프 검색 링크
-    default_link = "https://klook.tpo.mx/dOzmfkTF" if is_ko else "https://klook.tpo.mx/VRJHMdHu"
+    default_link = "https://klook.tpo.mx/470RSray" if is_ko else "https://klook.tpo.mx/DCpjgKP6"
     
     return redirect(links.get(item_type, default_link))
 
