@@ -6,54 +6,71 @@
     <title>{{ post.title }} - OKCaddie</title>
     <meta name="description" content="{{ post.summary }}">
     <link rel="stylesheet" href="/static/css/style.css">
+    
+    <!-- 파비콘 설정 -->
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/static/images/favicon-48x48.png" sizes="48x48" type="image/png">
+    
+    <!-- SEO용 Canonical Tag 및 Alternate Tag -->
+    <link rel="canonical" href="https://okcaddie.net/course/{{ post.id }}">
+    {% set base_id = post.id | replace('_ko', '') | replace('_en', '') %}
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}_ko" />
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}_en" />
 </head>
 <body>
-    <!-- 헤더 영역 -->
-    <header style="padding: 20px 0; background: #fff; text-align: center; border-bottom: 1px solid #eee;">
-        <a href="/"><img src="/static/images/logo.png" alt="OKCaddie" style="height: 55px;"></a>
-    </header>
+    <!-- [수정] 직접 작성된 헤더를 지우고 공용 헤더를 포함하여 언어 버튼을 노출합니다 -->
+    {% include 'header.html' %}
 
     <article class="detail-container">
         <!-- 제목 및 메타 정보 -->
         <header class="detail-header">
-            <h1 class="detail-title">{{ post.title }}</h1>
+            <!-- post.title이 정상적으로 출력됩니다 -->
+            <h1 class="detail-title">{{ post.title or 'Japan Golf Course' }}</h1>
             <div class="detail-meta">
+                <!-- post.address와 post.categories가 정상적으로 출력됩니다 -->
                 <span>📍 {{ post.address }}</span> | 
-                <span>🏷️ {{ post.categories|join(', ') }}</span>
+                <span>🏷️ {{ post.categories|join(', ') if post.categories is iterable else post.categories }}</span>
             </div>
         </header>
 
-        <!-- 메인 이미지 -->
+        <!-- 메인 대표 이미지 -->
         <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
 
-        <!-- [배너] 회원제/프라이빗 골프장 전용 안내 -->
+        <!-- [배너] 회원제/프라이빗 골프장 전용 안내 (카테고리에 포함된 경우) -->
         {% if 'Private Club' in post.categories or '회원제' in post.categories %}
         <div class="private-alert">
             <h3>🔒 Private Member-Only Club</h3>
             <p>
                 This course is an exclusive private club. Booking is generally restricted to members or guests accompanied by a member. 
-                Please check with specialized golf travel services for potential tee-time availability for foreigners.
+                Please check with specialized golf travel services for potential tee-time availability.
             </p>
         </div>
         {% endif %}
 
-        <!-- 본문 내용 (Markdown) -->
+        <!-- 본문 내용 (AI가 생성한 마크다운 본문) -->
         <div class="detail-content">
             {{ content | safe }}
         </div>
 
-        <!-- detail.html 하단 부분 -->
+        <!-- 하단 액션 버튼 영역 -->
+        <!-- detail.html 내 예약 버튼 부분 수정 -->
         <div class="detail-actions">
-            {% if post.booking %}
+            <!-- 
+            기존의 post.booking 체크를 제거하거나 유지할 수 있습니다. 
+            모든 코스에 예약 버튼을 띄우려면 if post.booking 을 제거하세요.
+            -->
             <div class="booking-btn-container">
-                <a href="{{ post.booking }}" target="_blank" rel="nofollow" class="booking-btn">
-                    ⛳ Check Availability & Book Now
+                <!-- 주소를 /booking/ID 로 설정하여 백엔드 로직을 타게 합니다 -->
+                <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn">
+                    ⛳ {{ '실시간 예약 가능 여부 및 가격 확인' if active_lang == 'ko' else 'Check Availability & Best Price' }}
                 </a>
             </div>
-            {% endif %}
             
             <div class="back-btn-container">
-                <a href="/" class="back-btn">🗺️ Back to Course Map</a>
+                <a href="/?lang={{ active_lang or 'en' }}" class="back-btn">
+                    🗺️ {{ '코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
+                </a>
             </div>
         </div>
     </article>
