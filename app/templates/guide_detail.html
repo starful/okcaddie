@@ -3,50 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ post.title }} - OKCaddie Guide</title>
+    
+    <!-- SEO 메타 태그 -->
+    <title>{{ post.title }} | OKCaddie Guide</title>
+    <meta name="description" content="{{ post.summary }}">
+    
+    <!-- 파비콘 및 아이콘 -->
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/static/images/favicon-48x48.png" sizes="48x48" type="image/png">
+    
+    <!-- CSS 연결 -->
     <link rel="stylesheet" href="/static/css/style.css">
+
+    <!-- [SEO] Canonical 및 다국어 연결 (Hreflang) -->
+    <link rel="canonical" href="https://okcaddie.net/guide/{{ post.id }}">
+    {% set base_id = post.id | replace('_ko', '') | replace('_en', '') %}
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}_ko" />
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}_en" />
+
+    <!-- [SEO] JSON-LD 구조화 데이터 (Article 스키마) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ post.title }}",
+      "description": "{{ post.summary }}",
+      "image": "{{ image }}",
+      "datePublished": "{{ post.date }}",
+      "author": {
+        "@type": "Organization",
+        "name": "OKCaddie"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "OKCaddie",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://okcaddie.net/static/images/logo.png"
+        }
+      }
+    }
+    </script>
 </head>
 <body>
+    <!-- 공용 헤더 포함 (언어 토글 버튼 포함됨) -->
     {% include 'header.html' %}
 
     <article class="detail-container">
-        <!-- 상단 헤더 -->
+        <!-- 상단 헤더 섹션 -->
         <header class="detail-header" style="text-align: center; margin-bottom: 40px;">
-            <div style="color: var(--accent-red); font-weight: 800; margin-bottom: 15px; font-size: 1rem; letter-spacing: 1px;">
-                ⛳ OKCADDIE GOLF GUIDE
+            <div style="color: var(--accent-red); font-weight: 800; margin-bottom: 12px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                ⛳ Japan Golf Expert Guide
             </div>
-            <!-- 제목 표시 -->
-            <h1 class="detail-title" style="margin-bottom: 20px; line-height: 1.2; word-break: keep-all;">
+            <h1 class="detail-title" style="margin-bottom: 20px; line-height: 1.3; word-break: keep-all;">
                 {{ post.title }}
             </h1>
-            <!-- 날짜 표시 -->
-            <div class="detail-meta" style="color: #888; font-size: 0.9rem;">
-                📅 Published: {{ post.date }}
+            <div class="detail-meta" style="color: #999; font-size: 0.9rem;">
+                📅 Published on: {{ post.date }}
             </div>
         </header>
 
-        <!-- 대표 이미지 -->
+        <!-- 가이드 대표 이미지 -->
         <div class="detail-img-box" style="margin-bottom: 50px;">
-            <img src="{{ image }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+            <img src="{{ image }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
         </div>
 
-        <!-- 본문 내용 -->
+        <!-- 가이드 본문 (마크다운) -->
         <div class="detail-content">
             {{ content | safe }}
         </div>
 
-        <!-- 하단 액션 버튼 -->
-        <div class="detail-actions" style="margin-top: 80px; border-top: 1px solid #eee; padding-top: 50px; text-align: center;">
-            <a href="/guide?lang={{ post.lang or 'en' }}" class="back-btn" style="margin-bottom: 15px;">
-                📖 Back to Guide List
+        <!-- [수익화] 클룩(Klook) 예약 유도 배너 -->
+        <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">
+            <h3 style="color: var(--accent-red); margin-bottom: 15px; font-size: 1.4rem; font-weight: 900;">
+                {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
+            </h3>
+            <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
+                {{ '클룩(Klook)에서 일본 전역의 골프 패키지와 여행 필수품을 최저가에 예약할 수 있습니다.' if active_lang == 'ko' else 'Book Japan golf packages and travel essentials at the best prices on Klook.' }}
+            </p>
+            <!-- /booking/ID 경로를 통해 클룩 파트너 링크로 리다이렉트 -->
+            <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn" style="padding: 18px 40px; font-size: 1.2rem;">
+                🚀 {{ '실시간 최저가 확인 및 예약하기' if active_lang == 'ko' else 'Check Real-time Prices & Book' }}
             </a>
-            <br>
-            <a href="/?lang={{ post.lang or 'en' }}" class="back-btn" style="background: #2c3e50; color: white !important;">
-                🗺️ Back to Map
+            <p style="margin-top: 15px; font-size: 0.8rem; color: #aaa;">
+                * {{ '이 링크를 통해 예약 시 사이트 운영에 큰 도움이 됩니다.' if active_lang == 'ko' else 'Booking through this link helps support our site.' }}
+            </p>
+        </section>
+
+        <!-- 하단 네비게이션 버튼 -->
+        <div class="detail-actions" style="margin-top: 60px; border-top: 1px solid #eee; padding-top: 40px; text-align: center; display: flex; flex-direction: column; gap: 15px; align-items: center;">
+            <a href="/guide?lang={{ active_lang or 'en' }}" class="back-btn">
+                📖 {{ '다른 가이드 더 보기' if active_lang == 'ko' else 'Read More Guides' }}
+            </a>
+            <a href="/?lang={{ active_lang or 'en' }}" class="back-btn" style="background: #2c3e50; color: white !important;">
+                🗺️ {{ '코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
             </a>
         </div>
     </article>
 
+    <!-- 공통 푸터 포함 -->
     {% include 'footer.html' %}
 </body>
 </html>

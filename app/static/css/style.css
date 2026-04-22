@@ -12,69 +12,75 @@
     --header-bg: rgba(255, 255, 255, 0.98);
     --max-width-index: 1200px;
     --max-width-detail: 900px;
+    --border-radius: 15px;
 }
 
-* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin: 0; padding: 0; }
+* { 
+    box-sizing: border-box; 
+    -webkit-tap-highlight-color: transparent; 
+    margin: 0; 
+    padding: 0; 
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6; color: var(--primary-color); background-color: var(--bg-color);
-    -webkit-font-smoothing: antialiased; overflow-x: hidden;
+    line-height: 1.6; 
+    color: var(--primary-color); 
+    background-color: var(--bg-color);
+    -webkit-font-smoothing: antialiased; 
+    overflow-x: hidden;
 }
 
-.container { max-width: var(--max-width-index); margin: 0 auto; padding: 0 15px; }
-a { text-decoration: none; color: inherit; transition: 0.2s ease; }
+.container { 
+    max-width: var(--max-width-index); 
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+    transition: 0.2s ease; 
+}
 
 /* =========================================
-   2. Header & Navigation (좌-중-우 3단 정렬 정교화)
+   2. Header & Navigation (3단 레이아웃)
    ========================================= */
 header {
     background: var(--header-bg);
     backdrop-filter: blur(10px);
     padding: 15px 0;
-    position: sticky; top: 0; z-index: 1000;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
     border-bottom: 1px solid #eee;
 }
 
 header .container {
     display: flex;
-    flex-direction: column; /* 1층(로고라인)과 2층(필터라인)을 위아래로 배치 */
+    flex-direction: column;
     gap: 15px;
 }
 
-/* [핵심] 상단 라인을 3단 그리드로 분할 */
 .header-layout {
     display: grid;
-    grid-template-columns: 1fr auto 1fr; /* 좌:중:우 비율 1:자동:1 */
+    grid-template-columns: 1fr auto 1fr; /* 좌:중:우 비율 */
     align-items: center;
     width: 100%;
 }
 
-/* 좌측 영역: 가이드 버튼을 왼쪽 끝으로 */
-.header-left {
-    display: flex;
-    justify-content: flex-start;
-}
+.header-left { display: flex; justify-content: flex-start; }
+.header-center { display: flex; justify-content: center; }
+.header-right { display: flex; justify-content: flex-end; gap: 8px; }
 
-/* 중앙 영역: 로고를 정중앙으로 */
-.header-center {
-    display: flex;
-    justify-content: center;
-}
+/* 로고 이미지 */
 .header-center .logo-img { 
-    height: 60px; /* 로고 사이즈 최적화 */
-    width: auto;
+    height: 60px; 
+    width: auto; 
     display: block;
 }
 
-/* 우측 영역: 언어 버튼을 오른쪽 끝으로 */
-.header-right {
-    display: flex;
-    justify-content: flex-end;
-    gap: 8px;
-}
-
-/* 가이드 버튼 스타일 */
+/* 네비게이션 링크 (가이드 버튼) */
 .nav-link {
     display: inline-flex;
     align-items: center;
@@ -90,7 +96,7 @@ header .container {
 }
 .nav-link:hover { background: #e2e8f0; }
 
-/* 언어 버튼 스타일 (알약 모양) */
+/* 언어 선택 버튼 */
 .lang-btn {
     padding: 7px 15px;
     border-radius: 25px;
@@ -112,9 +118,7 @@ header .container {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* -----------------------------------------
-   하단 테마 필터 버튼 (중앙 정렬)
-   ----------------------------------------- */
+/* 테마 필터 버튼 */
 .theme-filter-container { width: 100%; }
 .theme-filter-buttons {
     display: flex; 
@@ -123,17 +127,31 @@ header .container {
     gap: 10px;
 }
 .theme-button {
-    padding: 10px 20px; font-size: 0.9rem; font-weight: 700;
-    border: 1px solid #eee; background: #fff; border-radius: 30px;
-    cursor: pointer; display: flex; align-items: center; transition: 0.3s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05); white-space: nowrap;
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+    font-weight: 700;
+    border: 1px solid #eee; 
+    background: #fff; 
+    border-radius: 30px;
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+    white-space: nowrap;
 }
 .theme-button.active { 
-    background: var(--accent-color); color: white; border-color: var(--accent-color);
+    background: var(--accent-color); 
+    color: white; 
+    border-color: var(--accent-color);
 }
 .count-badge {
-    background: rgba(0, 0, 0, 0.05); padding: 2px 8px; border-radius: 10px;
-    font-size: 0.75rem; margin-left: 8px; font-weight: 800;
+    background: rgba(0, 0, 0, 0.05); 
+    padding: 2px 8px; 
+    border-radius: 10px;
+    font-size: 0.75rem; 
+    margin-left: 8px; 
+    font-weight: 800;
 }
 .theme-button.active .count-badge { background: rgba(255, 255, 255, 0.3); color: #fff; }
 
@@ -143,61 +161,115 @@ header .container {
 .highlight-container {
     margin-bottom: 30px;
     padding: 25px;
-    border: 4px solid var(--accent-red); /* Bold Red Border */
-    border-radius: 15px;
+    border: 4px solid var(--accent-red); 
+    border-radius: var(--border-radius);
     background: #fff;
     box-shadow: 0 10px 30px rgba(231, 76, 60, 0.1);
 }
 
-.highlight-container .section-title { font-size: 1.6rem; font-weight: 900; margin-bottom: 20px; color: #1a202c; }
+.highlight-container .section-title { 
+    font-size: 1.6rem; 
+    font-weight: 900; 
+    margin-bottom: 20px; 
+    color: #1a202c; 
+}
 
 .guide-highlight-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px;
 }
 
 .guide-highlight-card {
-    position: relative; border-radius: 10px; overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06); transition: 0.3s; display: block; background: var(--bg-color);
+    position: relative; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06); 
+    transition: 0.3s; 
+    display: block; 
+    background: var(--bg-color);
 }
-.guide-highlight-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.guide-highlight-card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1); 
+}
 
 .guide-highlight-card .badge {
-    position: absolute; top: 10px; left: 10px; background: var(--accent-red); color: white;
-    padding: 5px 12px; font-size: 0.75rem; font-weight: 900; border-radius: 6px; z-index: 2;
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    background: var(--accent-red); 
+    color: white;
+    padding: 5px 12px; 
+    font-size: 0.75rem; 
+    font-weight: 900; 
+    border-radius: 6px; 
+    z-index: 2;
 }
 
 .guide-img-wrapper { width: 100%; height: 160px; overflow: hidden; }
-.guide-img-wrapper img { width: 100%; height: 100%; object-fit: cover; transition: 0.3s; }
-.guide-highlight-card:hover .guide-img-wrapper img { transform: scale(1.05); }
+.guide-img-wrapper img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: 0.3s; 
+}
 
 .guide-highlight-card .card-body { padding: 15px; }
-.guide-highlight-card .card-body h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 8px; color: #222; line-height: 1.3; }
-.guide-highlight-card .card-body p { font-size: 0.9rem; color: #666; line-height: 1.5; }
+.guide-highlight-card .card-body h3 { 
+    font-size: 1.1rem; 
+    font-weight: 800; 
+    margin-bottom: 8px; 
+    color: #222; 
+    line-height: 1.3; 
+}
+.guide-highlight-card .card-body p { 
+    font-size: 0.9rem; 
+    color: #666; 
+    line-height: 1.5; 
+}
 
 .view-all-box { text-align: center; margin-top: 25px; }
 .view-all-btn {
-    display: inline-block; padding: 10px 25px; background: #2c3e50; color: #fff !important;
-    border-radius: 30px; font-weight: 700; font-size: 0.95rem; transition: 0.2s;
+    display: inline-block; 
+    padding: 10px 25px; 
+    background: #2c3e50; 
+    color: #fff !important;
+    border-radius: 30px; 
+    font-weight: 700; 
+    font-size: 0.95rem;
 }
-.view-all-btn:hover { background: #1a252f; }
-
 
 /* =========================================
-   4. Map Section & Photo Markers (기존 100% 유지)
+   4. Map Section & Photo Markers (사이즈 축소)
    ========================================= */
-.map-section { width: 100%; height: 50vh; min-height: 400px; background: #e5e3df; margin-bottom: 30px; }
+.map-section { 
+    width: 100%; 
+    height: 50vh; 
+    min-height: 400px; 
+    background: #e5e3df; 
+    margin-bottom: 30px; 
+}
 #map { width: 100%; height: 100%; }
 
+/* 사진 마커 (32px로 축소) */
 .caddie-marker {
-    width: 45px; height: 45px; 
+    width: 32px; height: 32px; 
     background: white; border-radius: 50%;
-    border: 2px solid white; box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    border: 1.5px solid white; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     overflow: hidden; cursor: pointer; 
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .caddie-marker img { width: 100%; height: 100%; object-fit: cover; }
-.caddie-marker:hover { transform: scale(1.4) translateY(-5px); border-color: var(--accent-color); z-index: 999; }
 
+.caddie-marker:hover { 
+    transform: scale(1.6) translateY(-5px); 
+    border-color: var(--accent-color); 
+    z-index: 999; 
+}
+
+/* InfoWindow 스타일 */
 .info-card { padding: 10px; max-width: 220px; font-family: inherit; }
 .info-title { font-weight: 800; font-size: 1rem; margin-bottom: 6px; color: #2c3e50; line-height: 1.3; }
 .info-address { font-size: 0.8rem; color: #666; margin-bottom: 12px; }
@@ -207,9 +279,15 @@ header .container {
 }
 
 /* =========================================
-   5. Index Page Content (기존 100% 유지)
+   5. Index Page Content
    ========================================= */
-.content-wrapper { max-width: 1100px; margin: -30px auto 60px; padding: 0 15px; position: relative; z-index: 10; }
+.content-wrapper { 
+    max-width: 1100px; 
+    margin: -30px auto 60px; 
+    padding: 0 15px; 
+    position: relative; 
+    z-index: 10; 
+}
 
 .intro-box {
     background: #fff; padding: 40px 20px; border-radius: 20px;
@@ -220,23 +298,57 @@ header .container {
 
 .list-title { text-align: center; margin-bottom: 30px; font-size: 1.8rem; font-weight: 800; }
 
-.course-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
-.course-card { background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s; display: flex; flex-direction: column; }
+.course-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+    gap: 30px; 
+}
+.course-card { 
+    background: #fff; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    transition: 0.3s; 
+    display: flex; 
+    flex-direction: column; 
+}
 .course-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
 .card-thumb { width: 100%; height: 210px; object-fit: cover; }
 .card-content { padding: 25px; flex-grow: 1; }
 .card-title { font-size: 1.25rem; font-weight: 800; margin-bottom: 10px; color: #222; }
 
 /* =========================================
-   6. Detail Page (기존 100% 유지)
+   6. Detail Page Settings
    ========================================= */
-.detail-container { max-width: var(--max-width-detail); margin: 30px auto 100px; padding: 0 20px; line-height: 1.8; }
+.detail-container { 
+    max-width: var(--max-width-detail); 
+    margin: 30px auto 100px; 
+    padding: 0 20px; 
+    line-height: 1.8; 
+}
 .detail-header { margin-bottom: 25px; }
-.detail-title { font-size: 2.5rem; line-height: 1.2; font-weight: 900; margin-bottom: 15px; word-break: keep-all; }
+.detail-title { 
+    font-size: 2.5rem; 
+    line-height: 1.2; 
+    font-weight: 900; 
+    margin-bottom: 15px; 
+    word-break: keep-all; 
+}
 .detail-meta { color: #7f8c8d; font-size: 0.95rem; margin-bottom: 25px; }
-.detail-img { width: 100%; max-height: 550px; object-fit: cover; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); margin-bottom: 40px; }
+.detail-img { 
+    width: 100%; 
+    max-height: 550px; 
+    object-fit: cover; 
+    border-radius: 20px; 
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1); 
+    margin-bottom: 40px; 
+}
 
-.private-alert { background: #fff5f5; border: 1px solid #feb2b2; padding: 25px; border-radius: 12px; margin-bottom: 40px; color: #c53030; line-height: 1.6; }
+.private-alert { 
+    background: #fff5f5; border: 1px solid #feb2b2; 
+    padding: 25px; border-radius: 12px; margin-bottom: 40px; 
+    color: #c53030; line-height: 1.6; 
+}
 .private-alert h3 { margin-top: 0; font-size: 1.1rem; margin-bottom: 8px; }
 .private-alert p { margin-bottom: 0; font-size: 0.95rem; }
 
@@ -262,10 +374,24 @@ header .container {
 .back-btn:hover { background: #e2e8f0; color: #1e293b !important; }
 
 /* =========================================
-   7. Footer Styles (기존 100% 유지)
+   7. Footer Styles
    ========================================= */
-footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; background: #fff; margin-top: 60px; font-size: 0.9rem; color: #999; }
-.footer-status-box { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 30px; }
+footer { 
+    text-align: center; 
+    padding: 60px 20px; 
+    border-top: 1px solid #eee; 
+    background: #fff; 
+    margin-top: 60px; 
+    font-size: 0.9rem; 
+    color: #999; 
+}
+.footer-status-box { 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+    margin-bottom: 30px; 
+}
 .footer-status-box div {
     background: #f8f9fa; border: 1px solid #eee; padding: 8px 20px;
     border-radius: 30px; font-weight: 600; font-size: 0.85rem; color: #555;
@@ -275,7 +401,6 @@ footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; bac
    8. Mobile Optimizations (미디어 쿼리)
    ========================================= */
 @media (max-width: 768px) {
-    /* 1. 헤더 레이아웃 조정 */
     header { padding: 10px 0; }
     
     .header-layout { 
@@ -284,16 +409,14 @@ footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; bac
         margin-bottom: 12px; 
     }
     
-    .header-center .logo-img { height: 48px; } /* 로고 축소 */
+    .header-center .logo-img { height: 48px; } 
     
-    /* 2. 좌측 네비게이션 & 우측 언어 버튼 축소 */
     .header-left .nav-link { padding: 6px 12px; font-size: 0.85rem; }
-    .header-left .nav-link .hide-mobile { display: none; } /* 모바일에서 텍스트 숨기기 */
+    .header-left .nav-link .hide-mobile { display: none; } 
     
     .header-right { gap: 4px; }
     .lang-btn { padding: 5px 10px; font-size: 0.75rem; } 
 
-    /* 3. 하단 테마 필터 가로 스크롤 허용 (줄바꿈 방지) */
     .theme-filter-buttons {
         justify-content: flex-start; 
         flex-wrap: nowrap; 
@@ -305,31 +428,23 @@ footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; bac
     .theme-filter-buttons::-webkit-scrollbar { display: none; }
     .theme-button { padding: 7px 15px; font-size: 0.82rem; flex-shrink: 0; }
 
-    /* 4. 가이드 하이라이트 섹션 여백 및 폰트 조정 */
     .highlight-container { padding: 15px; border-width: 3px; margin-bottom: 20px; }
     .highlight-container .section-title { font-size: 1.3rem; margin-bottom: 15px; }
     .guide-highlight-grid { grid-template-columns: 1fr; gap: 15px; }
     .guide-img-wrapper { height: 140px; }
     
-    /* 5. 메인 지도 및 소개글 크기 조정 */
     .map-section { height: 45vh; min-height: 320px; margin-bottom: 20px; }
     
     .content-wrapper { margin-top: -10px; padding: 0 10px; }
     .intro-box { padding: 20px 15px; margin-bottom: 25px; }
     .intro-box h2 { font-size: 1.5rem; margin-bottom: 10px; }
-    .intro-box p { font-size: 0.95rem; }
-
-    /* 6. 코스 리스트 및 상세 페이지 폰트 조정 */
-    .list-title { font-size: 1.4rem; margin-bottom: 20px; }
+    
     .course-grid { grid-template-columns: 1fr; gap: 20px; }
     
     .detail-container { margin: 20px auto 60px; padding: 0 15px; }
     .detail-title { font-size: 1.7rem; }
-    .detail-meta { font-size: 0.85rem; margin-bottom: 15px; }
-    
-    /* 예약 버튼 모바일 풀 사이즈 */
     .booking-btn { width: 100%; padding: 16px; font-size: 1.15rem; }
     
-    /* 7. 지도 마커 크기 축소 (화면 가림 방지) */
-    .caddie-marker { width: 38px; height: 38px; border-width: 2px; }
+    /* 모바일 마커: 26px */
+    .caddie-marker { width: 26px; height: 26px; border-width: 1px; }
 }

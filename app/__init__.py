@@ -126,37 +126,78 @@ def guide_list():
 def guide_detail(guide_id):
     path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
     if not os.path.exists(path): abort(404)
-
+    
     with open(path, 'r', encoding='utf-8') as f:
         raw_text = f.read()
-        if '---' in raw_text:
-            raw_text = '---' + raw_text.split('---', 1)[1]
-        post = frontmatter.loads(raw_text)
-    
-    # 본문에서 메타데이터 찌꺼기 제거
-    body = post.content
-    body = re.sub(r'^(lang|title|summary|date):.*', '', body, flags=re.MULTILINE)
-    clean_body = body.replace('```markdown', '').replace('```', '').strip()
-    
-    # 정규식 fallback으로 제목/날짜 재확인
-    title = post.metadata.get('title') or get_meta_fallback(raw_text, 'title') or guide_id
-    date = post.metadata.get('date') or get_meta_fallback(raw_text, 'date') or "2026-04-12"
+        if '---' in raw_text: raw_text = '---' + raw_text.split('---', 1)[1]
+        post_obj = frontmatter.loads(raw_text)
 
-    base_id = guide_id.rsplit('_', 1)[0]
-    img_idx = abs(hash(base_id) * 97) % len(GUIDE_IMAGES)
+    # 헤더 버튼 활성화를 위해 데이터 강제 주입
+    post_data = dict(post_obj.metadata)
+    post_data['id'] = guide_id
+    post_data['lang'] = post_data.get('lang', 'en').strip().lower()
+
+    clean_body = re.sub(r'^(lang|title|summary|date):.*', '', post_obj.content, flags=re.MULTILINE).strip()
     
     return render_template('guide_detail.html', 
-                           post={'title': title, 'date': date, 'lang': post.metadata.get('lang', 'en'), 'id': guide_id}, 
-                           content=markdown.markdown(clean_body, extensions=['tables', 'fenced_code']), 
-                           image=GUIDE_IMAGES[img_idx])
+                           post=post_data, 
+                           content=markdown.markdown(clean_body, extensions=['tables']), 
+                           image=GUIDE_IMAGES[abs(hash(guide_id.rsplit('_', 1)[0]) * 97) % len(GUIDE_IMAGES)],
+                           active_lang=post_data['lang'])
 
 @app.route('/course/<course_id>')
 def course_detail(course_id):
     md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
     if not os.path.exists(md_path): abort(404)
+    
     with open(md_path, 'r', encoding='utf-8') as f:
-        post = frontmatter.load(f)
-    return render_template('detail.html', post=post, content=markdown.markdown(post.content))
+        raw_text = f.read().strip()
+
+    # [핵심] 설정값(YAML)과 본문을 강제로 분리하는 로직
+    if '---' in raw_text:
+        # 첫 번째 --- 이전의 쓰레기 값을 지우고 --- 부터 시작하게 만듦
+        raw_text = '---' + raw_text.split('---', 1)[1]
+    
+    try:
+        post_obj = frontmatter.loads(raw_text)
+        post_data = dict(post_obj.metadata)
+        post_content = post_obj.content
+    except Exception as e:
+        print(f"Error parsing course {course_id}: {e}")
+        abort(500)
+
+    # 본문에 메타데이터(lang:, title: 등)가 텍스트로 남아있는 경우 강제 제거 (정규식)
+    post_content = re.sub(r'^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary):.*$', '', post_content, flags=re.MULTILINE | re.IGNORECASE).strip()
+
+    # 템플릿에 필요한 데이터 정리
+    post_data['id'] = course_id
+    post_data['lang'] = 'ko' if course_id.endswith('_ko') else 'en'
+    
+    # 카테고리 리스트화
+    if isinstance(post_data.get('categories'), str):
+        post_data['categories'] = [c.strip() for c in post_data['categories'].split(',')]
+
+    # 가독성을 위한 줄바꿈 보정
+    fixed_content = re.sub(r'([\.!?:])\s+(\*\s)', r'\1\n\n\2', post_content)
+    fixed_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', fixed_content)
+
+    content_html = markdown.markdown(fixed_content, extensions=['tables', 'fenced_code'])
+    
+    return render_template('detail.html', 
+                           post=post_data, 
+                           content=content_html, 
+                           active_lang=post_data['lang'])
+
+# app/__init__.py 에 아래 함수를 추가하세요.
+
+@app.route('/booking/<course_id>')
+def booking_redirect(course_id):
+    # 사용자님의 클룩 파트너 최종 링크
+    klook_partner_url = "https://klook.tpo.mx/dOzmfkTF"
+    
+    # [선택사항] 나중에 특정 골프장 상품 페이지가 생기면 여기서 조건문으로 분기 처리 가능합니다.
+    # 현재는 모든 요청을 승인된 클룩 메인/골프 페이지로 보냅니다.
+    return redirect(klook_partner_url)
 
 # 기존 serve_images 함수 위에 아래 라우트를 추가하세요.
 @app.route('/favicon.ico')
