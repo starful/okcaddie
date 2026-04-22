@@ -7,91 +7,120 @@
     <meta name="description" content="{{ post.summary }}">
     <link rel="stylesheet" href="/static/css/style.css">
     
-    <!-- 파비콘 -->
+    <!-- 파비콘 및 브라우저 아이콘 설정 -->
     <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/static/images/favicon-48x48.png" sizes="48x48" type="image/png">
     
-    <!-- SEO용 Canonical 및 Alternate -->
+    <!-- [SEO] 중복 콘텐츠 방지 및 언어 연결 -->
     <link rel="canonical" href="https://okcaddie.net/course/{{ post.id }}">
     {% set base_id = post.id | replace('_ko', '') | replace('_en', '') %}
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}_ko" />
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}_en" />
 </head>
 <body>
+    <!-- 공용 헤더 포함 (언어 전환 버튼 포함) -->
     {% include 'header.html' %}
 
     <article class="detail-container">
-        <!-- 제목 및 메타 정보 -->
+        <!-- 상단 헤더: 제목 및 메타 정보 -->
         <header class="detail-header" style="text-align: center; margin-bottom: 40px;">
-            <h1 class="detail-title" style="margin-bottom: 15px;">{{ post.title }}</h1>
-            <div class="detail-meta">
+            <h1 class="detail-title" style="margin-bottom: 15px; line-height: 1.2; word-break: keep-all;">{{ post.title }}</h1>
+            <div class="detail-meta" style="color: #666; font-size: 0.95rem;">
                 <span>📍 {{ post.address }}</span> | 
                 <span>🏷️ {{ post.categories|join(', ') if post.categories is iterable else post.categories }}</span>
             </div>
         </header>
 
-        <!-- 메인 이미지 -->
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
+        <!-- 메인 코스 이미지 -->
+        <div class="detail-img-box" style="margin-bottom: 40px;">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+        </div>
 
-        <!-- 프라이빗 클럽 안내 배너 -->
+        <!-- 프라이빗 클럽 전용 안내 배너 -->
         {% if 'Private Club' in post.categories or '회원제' in post.categories %}
-        <div class="private-alert">
-            <h3>🔒 Private Member-Only Club</h3>
-            <p>This is an exclusive private club. Booking is usually restricted to members or their guests. Please check for international visitor tee-times through authorized agencies.</p>
+        <div class="private-alert" style="background: #fff5f5; border: 1px solid #feb2b2; padding: 25px; border-radius: 15px; margin-bottom: 40px; color: #c53030;">
+            <h3 style="margin-top: 0; font-size: 1.1rem; margin-bottom: 10px;">🔒 Private Member-Only Club</h3>
+            <p style="margin-bottom: 0; font-size: 0.95rem; line-height: 1.6;">
+                이 코스는 회원제 전용 클럽입니다. 일반 예약이 제한될 수 있으니, 전문 대행사나 공식 채널을 통해 라운딩 가능 여부를 먼저 확인하시기 바랍니다.
+            </p>
         </div>
         {% endif %}
 
-        <!-- 본문 내용 -->
-        <div class="detail-content">
+        <!-- 본문 내용 (AI 생성 마크다운) -->
+        <div class="detail-content" style="font-size: 1.05rem; line-height: 1.8; color: #334155;">
             {{ content | safe }}
         </div>
 
-        <!-- [수익화 섹션] 예약 및 여행 필수품 -->
-        <div class="monetization-box" style="margin-top: 60px; border-top: 2px solid #eee; padding-top: 40px;">
+        <!-- [수익화 섹션] 예약 및 여행 준비물 -->
+        <div class="monetization-box" style="margin-top: 60px; border-top: 2px solid #eee; padding-top: 50px;">
             
             <!-- 1. 라쿠텐 고라: 티타임 예약 -->
             <div style="text-align: center; margin-bottom: 50px;">
-                <h3 style="margin-bottom: 20px; font-weight: 800;">⛳ {{ '실시간 티타임 및 예약' if active_lang == 'ko' else 'Live Tee Times & Booking' }}</h3>
-                <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn" style="background: #bf0000; padding: 20px 60px; width: 100%; max-width: 500px;">
+                <h3 style="margin-bottom: 25px; font-weight: 800; font-size: 1.4rem;">
+                    ⛳ {{ '실시간 티타임 및 예약 가능 여부' if active_lang == 'ko' else 'Live Tee Times & Booking' }}
+                </h3>
+                <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn" 
+                   style="background: #bf0000; padding: 22px 60px; width: 100%; max-width: 500px; display: inline-block; border-radius: 50px; text-decoration: none; color: white; font-weight: 800; font-size: 1.2rem; box-shadow: 0 10px 20px rgba(191, 0, 0, 0.2);">
                     {{ '라쿠텐 고라에서 확인하기' if active_lang == 'ko' else 'Check on Rakuten GORA' }}
                 </a>
-                <p style="margin-top: 10px; font-size: 0.85rem; color: #888;">* {{ '일본 최대 골프 예약 사이트로 연결됩니다.' if active_lang == 'ko' else 'Redirects to Japan\'s No.1 golf booking site.' }}</p>
+                <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {{ '일본 1위 골프 예약 서비스로 연결됩니다.' if active_lang == 'ko' else 'Redirects to Japan\'s leading golf booking site.' }}</p>
             </div>
 
             <!-- 2. 클룩: 여행 필수품 그리드 -->
-            <div style="background: #f8f9fa; padding: 30px 20px; border-radius: 20px;">
-                <h4 style="text-align: center; margin-bottom: 25px; font-weight: 900; color: #334155;">🚗 {{ '골프 여행 준비물 최저가 예약' if active_lang == 'ko' else 'Golf Trip Essentials' }}</h4>
+            <div style="background: #f1f5f9; padding: 35px 25px; border-radius: 25px; border: 1px solid #e2e8f0;">
+                <h4 style="text-align: center; margin-bottom: 25px; font-weight: 900; color: #1e293b; font-size: 1.2rem;">
+                    🚗 {{ '골프 여행 필수품 최저가 준비' if active_lang == 'ko' else 'Golf Trip Essentials' }}
+                </h4>
                 
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 15px;">
                     <!-- 렌터카 -->
-                    <a href="/travel/rental/{{ post.id }}" target="_blank" rel="nofollow" style="background: #fff; padding: 20px; border-radius: 15px; text-align: center; border: 1px solid #e2e8f0; text-decoration: none;">
-                        <div style="font-size: 1.8rem; margin-bottom: 8px;">🚗</div>
-                        <div style="font-weight: 700; color: #27ae60;">{{ '일본 렌터카' if active_lang == 'ko' else 'Car Rental' }}</div>
+                    <a href="/travel/rental/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">🚗</div>
+                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '일본 렌터카' if active_lang == 'ko' else 'Car Rental' }}</div>
                     </a>
                     <!-- 공항 픽업 -->
-                    <a href="/travel/pickup/{{ post.id }}" target="_blank" rel="nofollow" style="background: #fff; padding: 20px; border-radius: 15px; text-align: center; border: 1px solid #e2e8f0; text-decoration: none;">
-                        <div style="font-size: 1.8rem; margin-bottom: 8px;">🚐</div>
-                        <div style="font-weight: 700; color: #27ae60;">{{ '공항 픽업' if active_lang == 'ko' else 'Airport Van' }}</div>
+                    <a href="/travel/pickup/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">🚐</div>
+                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '공항 픽업' if active_lang == 'ko' else 'Airport Van' }}</div>
                     </a>
                     <!-- eSIM -->
-                    <a href="/travel/esim/{{ post.id }}" target="_blank" rel="nofollow" style="background: #fff; padding: 20px; border-radius: 15px; text-align: center; border: 1px solid #e2e8f0; text-decoration: none;">
-                        <div style="font-size: 1.8rem; margin-bottom: 8px;">📱</div>
-                        <div style="font-weight: 700; color: #27ae60;">{{ '일본 eSIM' if active_lang == 'ko' else 'Japan eSIM' }}</div>
+                    <a href="/travel/esim/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">📱</div>
+                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '일본 eSIM' if active_lang == 'ko' else 'Japan eSIM' }}</div>
                     </a>
                 </div>
-                <p style="text-align: center; margin-top: 20px; font-size: 0.8rem; color: #94a3b8; font-weight: 600;">{{ '클룩(Klook)에서 제공하는 회원 단독 특가입니다.' if active_lang == 'ko' else 'Exclusive member deals powered by Klook.' }}</p>
+                <p style="text-align: center; margin-top: 25px; font-size: 0.8rem; color: #64748b; font-weight: 600;">
+                    {{ '클룩(Klook)에서 제공하는 독점 특가입니다.' if active_lang == 'ko' else 'Exclusive member deals powered by Klook.' }}
+                </p>
             </div>
         </div>
 
         <!-- 하단 네비게이션 -->
-        <div class="detail-actions" style="margin-top: 50px;">
+        <div class="detail-actions" style="margin-top: 60px; text-align: center;">
             <div class="back-btn-container">
-                <a href="/?lang={{ active_lang or 'en' }}" class="back-btn">
-                    🗺️ {{ '코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
+                <a href="/?lang={{ active_lang or 'en' }}" class="back-btn" style="display: inline-block; padding: 12px 35px; background: #f8fafc; color: #475569 !important; border-radius: 50px; font-weight: 700; text-decoration: none; border: 1px solid #e2e8f0;">
+                    🗺️ {{ '전체 코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
                 </a>
             </div>
         </div>
     </article>
     
     {% include 'footer.html' %}
+
+    <style>
+        /* 트래블 카드 호버 효과 */
+        .travel-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-color: var(--accent-color) !important;
+        }
+        /* 예약 버튼 애니메이션 */
+        .booking-btn:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+            transition: 0.3s;
+        }
+    </style>
 </body>
 </html>
