@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Where to Enjoy Night Golf Near Tokyo"
-summary: "Escape the Tokyo heat and extend your golfing day with a round under the stars. This guide unveils the best night golf courses near Tokyo, offering unique experiences and convenient access. Discover illuminated fairways, special night golf packages, and insider tips for a memorable nocturnal golfing adventure."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Escape the Tokyo heat and extend your golfing day with a round under the
+  stars. This guide unveils the best night golf courses near Tokyo, offering unique
+  experiences and convenient access. Discover illuminated fairways, special night
+  golf packages, and insider tips for a memorable nocturnal golfing adventure.
+title: Where to Enjoy Night Golf Near Tokyo
 ---
 
 # Where to Enjoy Night Golf Near Tokyo: A Comprehensive Guide
@@ -25,7 +28,7 @@ Night golf, or "nighta gofu" (ナイターゴルフ) as it's often called in Jap
 
 Finding the perfect night golf course near Tokyo requires careful consideration of various factors. Here's a curated list of top contenders, along with in-depth reviews and recommendations:
 
-**1. Sagamihara Golf Club (Kanagawa Prefecture):**
+**1. [Sagamihara Golf Club](/course/sagamihara_golf_club_en) (Kanagawa Prefecture):**
 
 *   **Highlights:** Sagamihara Golf Club is renowned for its meticulously maintained 18-hole course, featuring challenging layouts and stunning views. The night golf setup is particularly impressive, with bright and even lighting across the fairways and greens. The club also boasts excellent facilities, including a spacious clubhouse, pro shop, and restaurant.
 *   **Accessibility:** Easily accessible from Tokyo via the Odakyu Line to Sagami-Ono Station, followed by a short taxi ride.
@@ -41,7 +44,7 @@ Finding the perfect night golf course near Tokyo requires careful consideration 
 *   **Key Considerations:** A more formal dress code may apply. Consider booking a lesson with one of the club's professional instructors to improve your game.
 *   **SEO Keywords:** Atsugi Kokusai Country Club, luxury golf, night golf Kanagawa, premium golf experience, illuminated golf course
 
-**3. Kasumigaseki Country Club (Saitama Prefecture) (Limited Availability/Events):**
+**3. [Kasumigaseki Country Club](/course/kasumigaseki_country_club_en) (Saitama Prefecture) (Limited Availability/Events):**
 
 *   **Highlights:** While not a regular night golf venue, Kasumigaseki Country Club, host of the 2020 Tokyo Olympics golf competition, occasionally hosts special night golf events. Playing on this iconic course under the lights is a truly unique and unforgettable experience.
 *   **Accessibility:** Accessible by train to Kasumigaseki Station, followed by a short taxi ride.

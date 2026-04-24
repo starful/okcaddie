@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Best Day-Trip Golf Courses from Tokyo"
-summary: "Escape the Tokyo hustle for a day on the green! This guide reveals the top golf courses accessible for a day trip from Tokyo, considering travel time, course quality, and overall experience. Discover your next golfing adventure just outside the city limits."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Escape the Tokyo hustle for a day on the green! This guide reveals the top
+  golf courses accessible for a day trip from Tokyo, considering travel time, course
+  quality, and overall experience. Discover your next golfing adventure just outside
+  the city limits.
+title: Best Day-Trip Golf Courses from Tokyo
 ---
 
 # Best Day-Trip Golf Courses from Tokyo: A Comprehensive Guide
@@ -33,7 +36,7 @@ Here's a detailed breakdown of some of the best golf courses within a reasonable
 *   **Suitability:** Experienced golfers seeking a premium golfing experience.
 *   **Keywords:** kawana hotel, fuji course, shizuoka golf, premium golf, iconic golf course
 
-**2. Hirono Golf Club: Hyogo Prefecture**
+**2. [Hirono Golf Club](/course/hirono_golf_club_en): Hyogo Prefecture**
 
 *   **Distance from Tokyo:** While technically accessible for a VERY long day trip via Shinkansen (bullet train) to Osaka and then local transport, this is more realistically a weekend trip. Including it here to acknowledge its legendary status.
 *   **Course Overview:** Consistently ranked as Japan's #1 course, Hirono is a true gem. Known for its strategic design, challenging layout, and impeccable maintenance, it offers a demanding test for even the most skilled golfers. Designed by Charles H. Alison.
@@ -51,7 +54,7 @@ Here's a detailed breakdown of some of the best golf courses within a reasonable
 *   **Suitability:** Intermediate to advanced golfers seeking a good value option.
 *   **Keywords:** sagami-ohyama, kanagawa golf, convenient golf, value golf, scenic golf course
 
-**4. Narita Golf Club: Chiba Prefecture**
+**4. [Narita Golf Club](/course/narita_golf_club_en): Chiba Prefecture**
 
 *   **Distance from Tokyo:** Approximately 1 hour by car, very close to Narita International Airport. Easily accessible by train.
 *   **Course Overview:** Narita Golf Club is a popular choice due to its proximity to Narita Airport and relatively affordable green fees. The course offers a good mix of challenging and forgiving holes, making it suitable for a range of skill levels.

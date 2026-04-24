@@ -1,4 +1,8 @@
 ---
+{}
+---
+
+---
 lang: "en"
 title: "Golf Courses with Breathtaking Mt. Fuji Views"
 summary: "Experience unparalleled golfing amidst the stunning backdrop of Japan's iconic Mt. Fuji. This guide unveils the best golf courses offering magnificent views of Fuji-san, combining challenging play with unforgettable scenery. Discover meticulously curated courses that provide both a premium golfing experience and breathtaking panoramic vistas of the majestic mountain."
@@ -44,7 +48,7 @@ Here are some of the top golf courses in Japan that offer stunning views of Mt. 
 **Shizuoka Prefecture (Slightly Further, but Wider Panoramic Views):**
 
 *   **Gotemba Golf Club (East Course & West Course):** (Strategic layout, challenging, exceptional views). Offers some of the most expansive and breathtaking views of Mt. Fuji. The courses are known for their strategic layouts and challenging play. The altitude contributes to longer drives.
-*   **Taiheiyo Club Gotemba Course:** (Prestigious, challenging, hosted tournaments) A world-class course that has hosted numerous professional tournaments. It offers stunning views of Mt. Fuji and a challenging layout that will test even the most skilled golfers.
+*   **[Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course_en):** (Prestigious, challenging, hosted tournaments) A world-class course that has hosted numerous professional tournaments. It offers stunning views of Mt. Fuji and a challenging layout that will test even the most skilled golfers.
 *   **Fujioka Country Club:** (Scenic, affordable, good value) Offers beautiful views of Mt. Fuji and a more affordable golfing experience compared to the other options in Gotemba.
 
 **Tips for Planning Your Trip:**

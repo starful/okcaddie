@@ -1,4 +1,8 @@
 ---
+{}
+---
+
+---
 lang: "ko"
 title: "오키나와 바다 전망 해변 링크스 골프장 TOP 5"
 summary: "오키나와는 아름다운 바다와 온화한 기후 덕분에 골프 여행지로 각광받고 있습니다. 특히 해변을 따라 조성된 링크스 스타일 골프장은 잊지 못할 경험을 선사합니다. 이 글에서는 오키나와에서 최고의 바다 전망과 해변 링크스 경험을 제공하는 골프장 TOP 5를 소개합니다."
@@ -16,7 +20,7 @@ date: "2026-04-15"
 
 자, 이제 오키나와 최고의 바다 전망 해변 링크스 골프장 TOP 5를 자세히 살펴보겠습니다. 각 골프장의 특징, 코스 개요, 난이도, 부대시설, 예약 정보, 그리고 주변 관광 정보까지 꼼꼼하게 정리했습니다.
 
-### 1. 더 테라스 클럽 앳 부세나 테라스 (The Terrace Club at Busena Terrace)
+### 1. 더 테라스 클럽 앳 부세나 테라스 ([[[[[[The](/course/the_southern_links_resort_ko)](/course/the_masters_amakusa_course_ko)](/course/the_country_club_japan_ko)](/course/the_royal_golf_club_ko)](/course/the_windsor_golf_course_ko)](/course/the_north_country_golf_club_ko) Terrace Club at Busena Terrace)
 
 *   **특징:** 부세나 해중공원 내에 위치한 럭셔리 리조트 골프장으로, 모든 홀에서 아름다운 바다를 감상할 수 있습니다. 코스 관리가 뛰어나고 고급스러운 클럽하우스 시설을 자랑합니다.
 
@@ -32,7 +36,7 @@ date: "2026-04-15"
 
 *   **SEO 키워드 최적화:** 더 테라스 클럽 앳 부세나 테라스, 부세나 테라스 골프, 오키나와 럭셔리 골프, 오키나와 바다 전망 골프, 오키나와 고급 골프 리조트.
 
-### 2. 카누차 베이 리조트 & 빌라스 (Kanucha Bay Resort & Villas)
+### 2. [카누차](/course/kanucha_golf_course_ko) 베이 리조트 & 빌라스 (Kanucha Bay Resort & Villas)
 
 *   **특징:** 광대한 부지에 조성된 리조트 골프장으로, 다양한 코스 레이아웃과 아름다운 자연 경관을 자랑합니다. 숙박 시설과 연계하여 편안한 골프 여행을 즐길 수 있습니다.
 
@@ -64,7 +68,7 @@ date: "2026-04-15"
 
 *   **SEO 키워드 최적화:** 벨 비치 골프 클럽, 오키나와 가성비 골프, 오키나와 남부 골프, 오키나와 해변 골프, 벨 비치.
 
-### 4. 아타 테라스 골프 리조트 (The Atta Terrace Golf Resort)
+### 4. 아타 테라스 골프 리조트 (The [Atta Terrace Golf Resort](/course/atta_terrace_golf_resort_ko))
 
 *   **특징:** 얀바루 국립공원 내에 위치하여 울창한 숲과 바다를 동시에 감상할 수 있는 골프장입니다. 자연 친화적인 코스 레이아웃이 특징이며, 조용하고 한적한 분위기에서 라운딩을 즐길 수 있습니다.
 
@@ -80,7 +84,7 @@ date: "2026-04-15"
 
 *   **SEO 키워드 최적화:** 아타 테라스 골프 리조트, 얀바루 국립공원 골프, 오키나와 북부 골프, 오키나와 숲 속 골프, 오키나와 프리미엄 골프.
 
-### 5. 류큐 골프 클럽 (Ryukyu Golf Club)
+### 5. 류큐 골프 클럽 ([Ryukyu Golf Club](/course/ryukyu_golf_club_ko))
 
 *   **특징:** 오키나와 남부에 위치한 골프장으로, 넓은 페어웨이와 아름다운 바다 전망을 자랑합니다. 합리적인 가격으로 수준 높은 코스를 즐길 수 있어 인기가 높습니다.
 

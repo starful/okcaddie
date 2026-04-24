@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Top Seaside Golf Links in Okinawa"
-summary: "Discover the best seaside golf courses Okinawa has to offer, blending stunning ocean views with challenging play. This guide provides in-depth reviews, tips, and essential information for planning your perfect Okinawan golf getaway. Experience the unique beauty of golfing in Japan's subtropical paradise."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Discover the best seaside golf courses Okinawa has to offer, blending stunning
+  ocean views with challenging play. This guide provides in-depth reviews, tips, and
+  essential information for planning your perfect Okinawan golf getaway. Experience
+  the unique beauty of golfing in Japan's subtropical paradise.
+title: Top Seaside Golf Links in Okinawa
 ---
 
 # Top Seaside Golf Links in Okinawa: A Golfer's Paradise Found
@@ -27,7 +30,7 @@ Before diving into specific courses, let's explore what makes Okinawa such a des
 
 Now, let's explore some of the most exceptional seaside golf courses Okinawa has to offer:
 
-**1. The Atta Terrace Golf Resort:** (Highly Recommended)
+**1. The [Atta Terrace Golf Resort](/course/atta_terrace_golf_resort_en):** (Highly Recommended)
 
 *   **Overview:** This resort boasts an 18-hole championship course designed by legendary golfer Arnold Palmer. It is renowned for its immaculate conditions, challenging layout, and stunning panoramic views of the East China Sea. The Atta Terrace Golf Resort consistently ranks among the top courses in Japan.
 
@@ -83,7 +86,7 @@ Now, let's explore some of the most exceptional seaside golf courses Okinawa has
 
 *   **Why it Stands Out:** Emerald Coast Golf Links provides a dramatic and challenging golfing experience with unparalleled ocean views. Its clifftop setting makes it a truly unique and memorable course.
 
-**5. PGM Golf Resort Okinawa:**
+**5. [PGM Golf Resort Okinawa](/course/pgm_golf_resort_okinawa_en):**
 
 *   **Overview:** PGM Golf Resort Okinawa offers a more affordable option with decent seaside views. While not as luxurious as the Atta Terrace, it provides a solid golfing experience.
 

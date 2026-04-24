@@ -1,9 +1,11 @@
-import os, csv, time, sys
+import os, csv, time, sys, re
 import concurrent.futures
 from google import genai
 from dotenv import load_dotenv
 
-# 설정 로드
+# ==========================================
+# ⚙️ 설정 (Configuration)
+# ==========================================
 load_dotenv()
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
@@ -11,67 +13,82 @@ CSV_PATH = 'script/csv/courses.csv'
 CONTENT_DIR = "app/content"
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
+# 생성할 코스 주제(Topic)의 개수 제한 (명령행 인자가 없을 경우 기본값)
+DEFAULT_LIMIT = 30
+
 def generate_course_task(data):
+    """실제 Gemini API를 호출하여 초장문 리뷰를 생성하는 워커 함수"""
     safe_name = data['safe_name']
     lang = data['lang']
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
 
-    if os.path.exists(filepath):
-        return None
+    # 이미 파일이 존재하면 건너뜀 (이미 있는 파일을 다시 쓰고 싶다면 이 부분을 주석 처리하세요)
+    # if os.path.exists(filepath):
+    #     return f"  ⏭️  Skip: {safe_name}_{lang}"
 
-    # [핵심] 초장문 생성을 위한 정교한 프롬프트
+    # [핵심] 구글 색인을 위한 고도화된 프롬프트
     prompt = f"""
-    You are an elite Japanese golf travel journalist and a technical course rater. 
-    Write an EXTREMELY COMPREHENSIVE, deeply technical, and engaging golf course review for "{data['name']}".
-    
+    You are an elite Japanese golf course rater and a professional senior caddy with 20 years of experience.
+    Your mission is to write a MASTERPIECE review for "{data['name']}".
+    This content is for a premium golf travel media 'OKCaddie' and must be SEO-optimized to rank #1 on Google.
+
     [GOAL]
-    The total length MUST be between 8,000 and 9,000 characters (including spaces). 
-    Do not summarize. Provide deep, granular details for every section.
-    Language: {lang} (ko=Korean, en=English).
+    - Total length: 8,000 to 9,000 characters (including spaces).
+    - Tone: Highly professional, technical, yet engaging.
+    - Language: {lang} (ko=Korean, en=English).
 
-    [Structure & Specific Requirements]
-    1. **Introduction (1,000+ chars):** The history of the club, its prestige in Japan, the natural landscape, and the first impression upon arrival.
-    2. **Architect & Design Philosophy (1,500+ chars):** Deep dive into the architect (e.g., Seiichi Inoue, Robert Trent Jones Jr., etc.), the strategic use of bunkers, water hazards, and terrain elevation. Explain the 'risk and reward' elements.
-    3. **Signature Holes Analysis (2,000+ chars):** Pick at least 4 specific holes. Describe the yardage, the view from the tee, the landing zone, the green's undulation, and the exact strategy needed to save par.
-    4. **Clubhouse & Luxury Facilities (1,500+ chars):** Detailed review of the clubhouse architecture, the locker rooms, and especially the Onsen (natural hot spring) facilities. Mention the dining experience and signature dishes.
-    5. **Seasonal Guide & Logistics (1,000+ chars):** Best months to visit, turf condition (Bent vs Korai grass), wind patterns, and detailed access from major cities.
-    6. **Expert Verdict (1,000+ chars):** Final rating, who this course is for, and a concluding professional recommendation.
+    [Required Sections & Depth]
+    1. **Historical Prestige (1,000+ chars):** Deep dive into the club's history, founding story, and its status in the Japanese golf hierarchy.
+    2. **Strategic Architectural Analysis (2,000+ chars):** Detail the design philosophy of the architect. Analyze the fairway grass (Bent vs Korai), bunker placement logic, and the challenge of the greens. Explain the 'Risk and Reward' for high/low handicappers.
+    3. **Hole-by-Hole Masterclass (2,500+ chars):** Pick 4 specific, crucial holes. For each, describe the tee-shot view, hidden hazards, yardage strategy, and the exact putting line. Use technical terms like 'undulation', 'stimpmeter', 'gradient'.
+    4. **Clubhouse & The Onsen Experience (1,500+ chars):** Describe the clubhouse vibe. Critically review the locker rooms and the 'Daikokujo' (Grand Bath/Onsen). Mention the mineral quality of the water and the relaxation it provides after 18 holes.
+    5. **Gourmet Dining (1,000+ chars):** Specific menu recommendations. Don't just say 'good food'. Mention specific dishes like 'Kurobuta Tonkatsu', 'Local Soba', or 'Premium Unagi' and their taste profiles.
+    6. **Seasonal Tips & Final Verdict (1,000+ chars):** Best months for the best turf. Detailed access guide from major cities (Tokyo/Osaka/Fukuoka). Conclude with a 'Caddy's Secret Tip'.
 
-    [YAML Frontmatter]
+    [Formatting Instructions]
+    - Output raw Markdown.
+    - Use H2 (##) and H3 (###) for structure.
+    - Start IMMEDIATELY with YAML frontmatter. Wrap ALL values in double quotes.
+    
+    [YAML Frontmatter Format]
     ---
     lang: "{lang}"
-    title: "The Ultimate Guide to {data['name']}: Strategy, Luxury, and Vibe ({lang})"
-    lat: {data['lat']}
-    lng: {data['lng']}
-    categories: [{data['features']}]
+    title: "The Definitive Guide to {data['name']}: An Expert Review ({lang})"
+    lat: "{data['lat']}"
+    lng: "{data['lng']}"
+    categories: "{data['features']}"
     thumbnail: "/static/images/{safe_name}.jpg"
     address: "{data['address']}"
     date: "2026-04-15"
-    booking: "{data['booking']}"
-    summary: "A massive, expert-level 8,000-character guide to {data['name']}."
+    booking: "/booking/{safe_name}_{lang}"
+    summary: "A comprehensive 9,000-character master guide to {data['name']}, covering strategy, history, and luxury facilities."
     ---
-    
-    (Start writing the long-form content now in {lang}. Ensure professional formatting with H2 and H3 tags.)
     """
 
     try:
-        # 초장문 생성을 위해 gemini-2.0-flash 사용 (유료 API 권장)
+        # gemini-2.0-flash 모델 사용 (장문 생성에 최적화)
         response = client.models.generate_content(
-            model='gemini-2.0-flash', 
+            model='gemini-2.5-flash', 
             contents=prompt
         )
-        content = response.text.replace("```markdown", "").replace("```", "").replace("## yaml", "").strip()
-        
-        # 실제 생성된 길이 체크 (로그용)
-        actual_length = len(content)
-        
+        content = response.text.strip()
+
+        # AI가 넣은 코드 블록 찌꺼기 제거
+        content = re.sub(r'^```markdown\s*', '', content)
+        content = re.sub(r'^```yaml\s*', '', content)
+        content = re.sub(r'\s*```$', '', content)
+        content = content.replace('## yaml', '').strip()
+
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
-        return f"✅ Success: {safe_name}_{lang} ({actual_length} chars)"
+        
+        return f"✅ Success: {safe_name}_{lang} ({len(content)} characters)"
+
     except Exception as e:
         return f"❌ Error: {safe_name}_{lang} -> {e}"
 
-def process_courses(limit=5):
+def process_courses(limit):
+    """CSV를 읽어 생성 대상을 수집하고 병렬 처리를 실행"""
     if not os.path.exists(CSV_PATH):
         print(f"❌ CSV 없음: {CSV_PATH}")
         return
@@ -82,11 +99,14 @@ def process_courses(limit=5):
         new_topic_count = 0
         
         for row in reader:
-            if new_topic_count >= limit: break
+            if new_topic_count >= limit: 
+                break
             
             name = row['Name'].strip()
+            # 파일명 안전하게 변환
             safe_name = name.lower().replace(" ", "_").replace("'", "").replace(",", "").replace("&", "and").replace(".", "")
             
+            # 영문/국문 세트 중 하나라도 없으면 생성 시도
             if not (os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and 
                     os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_ko.md"))):
                 for lang in ['en', 'ko']:
@@ -97,19 +117,30 @@ def process_courses(limit=5):
                     })
                 new_topic_count += 1
 
-    print(f"🔥 초장문 컨텐츠 생성 시작 (목표: {new_topic_count}개 코스, 쓰레드 5개)")
+    if not tasks:
+        print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.")
+        return
 
-    # 초장문 생성 시에는 쓰레드 수를 너무 높이면 API 응답이 끊길 수 있으므로 5~10개 권장
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    print(f"🔥 초장문 전문가 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개)")
+    print(f"🚀 동시 실행 쓰레드: 5 (장문 생성을 위해 속도 조절 중...)")
+
+    # 장문 생성 시에는 쓰레드를 너무 많이 쓰면 API 타임아웃 확률이 높으므로 5개로 제한
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(generate_course_task, t) for t in tasks]
         for future in concurrent.futures.as_completed(futures):
             res = future.result()
             if res: print(res)
 
 if __name__ == "__main__":
+    # 사용법: python script/course_generator.py [숫자]
     if len(sys.argv) > 1:
-        run_limit = int(sys.argv[1])
+        try:
+            run_limit = int(sys.argv[1])
+        except ValueError:
+            run_limit = DEFAULT_LIMIT
     else:
-        run_limit = 5 # 초장문이므로 한 번에 2개 주제(4개 파일)씩 생성 권장
+        run_limit = DEFAULT_LIMIT
         
+    start_time = time.time()
     process_courses(limit=run_limit)
+    print(f"\n✨ 모든 작업 완료! (소요 시간: {time.time() - start_time:.1f}초)")

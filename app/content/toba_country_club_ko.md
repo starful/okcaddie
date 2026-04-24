@@ -1,20 +1,25 @@
 ---
+address: 도바시, 미에현
+booking: 온라인 예약 가능, 전화 문의 (일본어)
+categories:
+- Value for Money
+- Stay & Play
+date: '2026-04-12'
+image_prompt: Wide-angle cinematic photograph of Toba Country Club's signature hole,
+  showcasing lush green fairways, challenging bunkers, and the surrounding ocean view,
+  bathed in the warm light of a late afternoon sun.
 lang: ko
-title: "도바 컨트리 클럽: 숨겨진 보석 같은 골프 코스 탐험 (미에현)"
 lat: 34.4244
 lng: 136.8856
-categories: ["Value for Money", "Stay & Play"]
-thumbnail: "/static/images/toba_country_club.jpg"
-address: "도바시, 미에현"
-date: "2026-04-12"
-booking: "온라인 예약 가능, 전화 문의 (일본어)"
-summary: "미에현 도바시에 위치한 도바 컨트리 클럽은 그림 같은 풍경과 전략적인 코스 레이아웃으로 골퍼들에게 잊을 수 없는 경험을 선사합니다. 아름다운 자연 속에서 라운딩을 즐기고, 온천욕으로 피로를 풀 수 있는 매력적인 골프 여행지입니다. 합리적인 가격으로 훌륭한 가성비를 자랑합니다."
-image_prompt: "Wide-angle cinematic photograph of Toba Country Club's signature hole, showcasing lush green fairways, challenging bunkers, and the surrounding ocean view, bathed in the warm light of a late afternoon sun."
+summary: 미에현 도바시에 위치한 도바 컨트리 클럽은 그림 같은 풍경과 전략적인 코스 레이아웃으로 골퍼들에게 잊을 수 없는 경험을 선사합니다.
+  아름다운 자연 속에서 라운딩을 즐기고, 온천욕으로 피로를 풀 수 있는 매력적인 골프 여행지입니다. 합리적인 가격으로 훌륭한 가성비를 자랑합니다.
+thumbnail: /static/images/toba_country_club.jpg
+title: '도바 컨트리 클럽: 숨겨진 보석 같은 골프 코스 탐험 (미에현)'
 ---
 
 **소개:**
 
-도바 컨트리 클럽은 일본 미에현 도바시에 자리 잡은, 숨겨진 보석 같은 골프 코스입니다. 단지 골프를 즐기는 공간을 넘어, 자연과 완벽하게 조화를 이루는 예술 작품과 같습니다. 이곳은 숙련된 골퍼에게는 전략적인 도전 과제를 제시하며, 초보자에게는 자연의 아름다움을 만끽하며 골프의 즐거움을 알아갈 수 있는 기회를 제공합니다. 18홀 코스는 세심하게 설계되어 있으며, 각 홀마다 독특한 개성을 자랑합니다. 도바 컨트리 클럽은 단순히 골프를 치는 곳이 아니라, 기억에 남는 경험을 선사하는 곳입니다. 편안한 클럽하우스, 훌륭한 레스토랑, 그리고 일본 문화를 체험할 수 있는 온천 시설까지 완벽하게 갖추고 있어, 골프 여행의 만족도를 높여줍니다. 복잡한 도시 생활에서 벗어나 자연 속에서 휴식을 취하고 싶은 골퍼들에게 도바 컨트리 클럽은 최고의 선택이 될 것입니다.
+도바 컨트리 클럽은 일본 [[[미에](/course/mie_tsu_country_club_ko)](/course/mie_kokusai_golf_club_ko)](/course/mie_country_club_ko)현 도바시에 자리 잡은, 숨겨진 보석 같은 골프 코스입니다. 단지 골프를 즐기는 공간을 넘어, 자연과 완벽하게 조화를 이루는 예술 작품과 같습니다. 이곳은 숙련된 골퍼에게는 전략적인 도전 과제를 제시하며, 초보자에게는 자연의 아름다움을 만끽하며 골프의 즐거움을 알아갈 수 있는 기회를 제공합니다. 18홀 코스는 세심하게 설계되어 있으며, 각 홀마다 독특한 개성을 자랑합니다. 도바 컨트리 클럽은 단순히 골프를 치는 곳이 아니라, 기억에 남는 경험을 선사하는 곳입니다. 편안한 클럽하우스, 훌륭한 레스토랑, 그리고 일본 문화를 체험할 수 있는 온천 시설까지 완벽하게 갖추고 있어, 골프 여행의 만족도를 높여줍니다. 복잡한 도시 생활에서 벗어나 자연 속에서 휴식을 취하고 싶은 골퍼들에게 도바 컨트리 클럽은 최고의 선택이 될 것입니다.
 
 **가격 & 예약:**
 
