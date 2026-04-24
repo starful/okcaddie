@@ -1,8 +1,12 @@
 ---
-lang: "en"
-title: "Visit the Venues of PGA Tour in Japan"
-summary: "Embark on a golfing pilgrimage to Japan and experience the courses that have hosted the prestigious PGA Tour. This guide delves into the history, features, and accessibility of these world-class venues, offering essential information for planning your unforgettable Japanese golfing adventure. From iconic holes to local customs, discover how to immerse yourself in the world of PGA-caliber golf in Japan."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Embark on a golfing pilgrimage to Japan and experience the courses that have
+  hosted the prestigious PGA Tour. This guide delves into the history, features, and
+  accessibility of these world-class venues, offering essential information for planning
+  your unforgettable Japanese golfing adventure. From iconic holes to local customs,
+  discover how to immerse yourself in the world of PGA-caliber golf in Japan.
+title: Visit the Venues of PGA Tour in Japan
 ---
 
 # Visiting the Venues of the PGA Tour in Japan: A Golfer's Guide
@@ -31,7 +35,7 @@ Perhaps the most recognizable name in recent years, Accordia Golf Narashino Coun
 
 *   **Surrounding Attractions:** Chiba Prefecture offers a diverse range of attractions, including the Naritasan Shinshoji Temple (a historic Buddhist temple), scenic coastal areas, and vibrant shopping districts in nearby cities like Chiba City.
 
-**B. Taiheiyo Club Gotemba Course (Shizuoka Prefecture): Former Home of the Mitsui Sumitomo VISA Taiheiyo Masters**
+**B. [Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course_en) (Shizuoka Prefecture): Former Home of the Mitsui Sumitomo VISA Taiheiyo Masters**
 
 While not directly a PGA Tour event, the Taiheiyo Club Gotemba Course has a rich history of hosting high-profile professional golf tournaments, including the prestigious Mitsui Sumitomo VISA Taiheiyo Masters on the Japan Golf Tour. Given the JGTO's strong relationship with the PGA Tour, and the quality of the course, it's a relevant venue for those seeking PGA-caliber experiences.
 
@@ -49,8 +53,8 @@ While not directly a PGA Tour event, the Taiheiyo Club Gotemba Course has a rich
 
 Keep an eye out for other top Japanese courses that might host future PGA Tour events. These may include:
 
-*   **Phoenix Country Club (Miyazaki Prefecture):** Known for hosting the Dunlop Phoenix Tournament on the JGTO, this course is a classic Japanese design with tree-lined fairways and challenging greens.
-*   **Kochi Kuroshio Country Club (Kochi Prefecture):** Another challenging JGTO venue.
+*   **[Phoenix Country Club](/course/phoenix_country_club_en) (Miyazaki Prefecture):** Known for hosting the Dunlop Phoenix Tournament on the JGTO, this course is a classic Japanese design with tree-lined fairways and challenging greens.
+*   **[Kochi Kuroshio Country Club](/course/kochi_kuroshio_country_club_en) (Kochi Prefecture):** Another challenging JGTO venue.
 
 ## III. Planning Your Golfing Trip to Japan: Practical Considerations
 

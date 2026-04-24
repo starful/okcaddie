@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Best Golf Courses with Natural Onsen"
-summary: "Combine the thrill of Japanese golf with the relaxation of a natural onsen. This guide explores some of the best golf courses in Japan that offer access to authentic onsen experiences, allowing you to unwind after a challenging round. Discover the perfect blend of sport and serenity on your next golf trip to Japan."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Combine the thrill of Japanese golf with the relaxation of a natural onsen.
+  This guide explores some of the best golf courses in Japan that offer access to
+  authentic onsen experiences, allowing you to unwind after a challenging round. Discover
+  the perfect blend of sport and serenity on your next golf trip to Japan.
+title: Best Golf Courses with Natural Onsen
 ---
 
 # Best Golf Courses with Natural Onsen: A Golfer's Guide to Relaxation in Japan
@@ -40,24 +43,24 @@ Here's a curated list of some of the best golf courses in Japan that offer acces
 
 **Hokkaido:**
 
-*   **The North Country Golf Club:** Located in Hokkaido, this course boasts stunning views and challenging play. The onsen features mineral-rich waters known for their therapeutic benefits, perfect for soothing tired muscles after a round. The surrounding natural beauty enhances the overall experience. Known for its challenging layout and pristine conditions. The onsen here is particularly good for skin conditions.
-*   **Katsura Golf Club:** Offers a more exclusive and luxurious experience. The onsen facilities are top-notch, with a variety of baths and relaxation areas. The golf course itself is meticulously maintained and presents a challenging yet rewarding experience.
+*   **[The North Country Golf Club](/course/the_north_country_golf_club_en):** Located in Hokkaido, this course boasts stunning views and challenging play. The onsen features mineral-rich waters known for their therapeutic benefits, perfect for soothing tired muscles after a round. The surrounding natural beauty enhances the overall experience. Known for its challenging layout and pristine conditions. The onsen here is particularly good for skin conditions.
+*   **[Katsura Golf Club](/course/katsura_golf_club_en):** Offers a more exclusive and luxurious experience. The onsen facilities are top-notch, with a variety of baths and relaxation areas. The golf course itself is meticulously maintained and presents a challenging yet rewarding experience.
 *   **RUSUTSU Resort Golf 72:** Home to four different 18-hole courses, catering to a variety of skill levels. The resort boasts extensive onsen facilities, including indoor and outdoor baths with panoramic views of the surrounding mountains.
 
 **Kanto (Greater Tokyo Area):**
 
 *   **Kawana Hotel Golf Course (Fuji Course):** A classic course with breathtaking views of Mount Fuji and the Pacific Ocean. The hotel features several onsen baths, offering a variety of mineral waters and therapeutic benefits. One of the most iconic golfing destinations in Japan. The onsen here is particularly renowned for its skin-beautifying properties.
-*   **Taiheiyo Club Gotemba Course:** Another course with stunning views of Mount Fuji. The Taiheiyo Club offers a luxurious golfing experience, with impeccable service and world-class facilities. The onsen provides a relaxing and rejuvenating experience. Hosts professional tournaments.
+*   **[Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course_en):** Another course with stunning views of Mount Fuji. The Taiheiyo Club offers a luxurious golfing experience, with impeccable service and world-class facilities. The onsen provides a relaxing and rejuvenating experience. Hosts professional tournaments.
 *   **Izu Marriott Hotel Shuzenji:** Offers a beautiful golf course nestled in the Izu Peninsula, known for its stunning coastal scenery. The hotel features a luxurious onsen with both indoor and outdoor baths, offering breathtaking views of the surrounding landscape.
 
 **Chubu (Central Japan):**
 
-*   **Hirono Golf Club:** Often ranked as one of the best courses in Japan, this exclusive club offers a challenging and rewarding golfing experience. While membership is required to play at Hirono Golf Club, the included onsen facilities are legendary, offering a tranquil and rejuvenating experience after a demanding round.
+*   **[Hirono Golf Club](/course/hirono_golf_club_en):** Often ranked as one of the best courses in Japan, this exclusive club offers a challenging and rewarding golfing experience. While membership is required to play at Hirono Golf Club, the included onsen facilities are legendary, offering a tranquil and rejuvenating experience after a demanding round.
 *   **PGM Ishikawa Golf Club:** Located near Kanazawa, this golf club offers a challenging course in a picturesque setting. The onsen facilities are well-maintained and provide a relaxing way to unwind after a round. Kanazawa also offers a rich cultural experience to combine with your golf and onsen trip.
 
 **Kansai (Osaka/Kyoto Area):**
 
-*   **Phoenix Country Club:** (Although not in the Kansai Area, often frequented with flights from that region) Home to the Dunlop Phoenix Tournament. Known for its excellent course conditions and beautiful scenery. The onsen facilities are luxurious and offer a variety of treatments.
+*   **[Phoenix Country Club](/course/phoenix_country_club_en):** (Although not in the Kansai Area, often frequented with flights from that region) Home to the Dunlop Phoenix Tournament. Known for its excellent course conditions and beautiful scenery. The onsen facilities are luxurious and offer a variety of treatments.
 *   **Awaji Country Club:** Situated on Awaji Island, offering stunning views of the Seto Inland Sea. This course is known for its challenging layout and beautiful scenery. After a round of golf, guests can relax and rejuvenate in the onsen, which features natural hot spring waters.
 
 **Kyushu:**

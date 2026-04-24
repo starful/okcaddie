@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Golfing Under Cherry Blossoms in Japan"
-summary: "Experience the unparalleled beauty of golfing under cherry blossoms in Japan. This guide explores the best courses, optimal timing, and essential etiquette for a truly unforgettable spring golfing adventure. Discover how to combine your love for golf with Japan's iconic sakura season for an experience of a lifetime."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Experience the unparalleled beauty of golfing under cherry blossoms in Japan.
+  This guide explores the best courses, optimal timing, and essential etiquette for
+  a truly unforgettable spring golfing adventure. Discover how to combine your love
+  for golf with Japan's iconic sakura season for an experience of a lifetime.
+title: Golfing Under Cherry Blossoms in Japan
 ---
 
 # Golfing Under Cherry Blossoms in Japan: A Springtime Paradise
@@ -70,10 +73,10 @@ Japanese golf culture places a high value on etiquette, respect, and considerati
 While sakura season varies by region, these are some highly rated courses known for their beautiful cherry blossoms:
 
 *   **Kawaguchiko Country Club (near Mount Fuji):** Offers stunning views of Mount Fuji framed by cherry blossoms.
-*   **Hirono Golf Club (Hyogo Prefecture):** A prestigious and challenging course with meticulously manicured grounds and beautiful sakura plantings.
-*   **Narita Golf Club (Chiba Prefecture, near Narita Airport):** Conveniently located for international travelers and features a picturesque layout with numerous cherry trees.
-*   **Keya Golf Club (Fukuoka Prefecture):** A championship course with a reputation for its beautiful scenery, particularly during sakura season.
-*   **Taiheiyo Club Gotemba Course (Shizuoka Prefecture):** Boasts incredible views of Mount Fuji and a stunning display of cherry blossoms in the spring.
+*   **[Hirono Golf Club](/course/hirono_golf_club_en) (Hyogo Prefecture):** A prestigious and challenging course with meticulously manicured grounds and beautiful sakura plantings.
+*   **[Narita Golf Club](/course/narita_golf_club_en) (Chiba Prefecture, near Narita Airport):** Conveniently located for international travelers and features a picturesque layout with numerous cherry trees.
+*   **[Keya Golf Club](/course/keya_golf_club_en) (Fukuoka Prefecture):** A championship course with a reputation for its beautiful scenery, particularly during sakura season.
+*   **[Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course_en) (Shizuoka Prefecture):** Boasts incredible views of Mount Fuji and a stunning display of cherry blossoms in the spring.
 *   **Koganei Country Club (Tokyo):** If staying in Tokyo, this club offers a good option for seeing Sakura.
 
 ## Beyond Golf: Embracing Japanese Culture

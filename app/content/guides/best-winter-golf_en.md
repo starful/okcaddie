@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Top 5 Kyushu Winter Golf Destinations: Beat the Cold and Perfect Your Swing"
-summary: "Escape the winter chill and tee off in Kyushu, Japan's southern paradise. This guide unveils the top 5 winter golf destinations in Kyushu, offering mild climates, stunning scenery, and exceptional golfing experiences. Discover the best courses, accommodation options, and local attractions to make your winter golf trip unforgettable."
-date: "2026-04-12"
+date: '2026-04-12'
+lang: en
+summary: Escape the winter chill and tee off in Kyushu, Japan's southern paradise.
+  This guide unveils the top 5 winter golf destinations in Kyushu, offering mild climates,
+  stunning scenery, and exceptional golfing experiences. Discover the best courses,
+  accommodation options, and local attractions to make your winter golf trip unforgettable.
+title: 'Top 5 Kyushu Winter Golf Destinations: Beat the Cold and Perfect Your Swing'
 ---
 
 # Top 5 Kyushu Winter Golf Destinations: Beat the Cold and Perfect Your Swing
@@ -34,10 +37,10 @@ Miyazaki Prefecture, located on the southeastern coast of Kyushu, is often refer
     *   Beautiful coastal scenery and pristine beaches.
 
 *   **Recommended Golf Courses:**
-    *   **Phoenix Country Club:** Host of the annual Dunlop Phoenix Tournament, this championship course is renowned for its challenging layout and stunning views of the Pacific Ocean. It's a must-play for serious golfers seeking a test of their skills.
-    *   **Tom Watson Golf Course:** Designed by the legendary Tom Watson, this course offers a blend of Scottish links-style golf and Japanese aesthetics. It's known for its strategic bunkering and undulating greens.
+    *   **[Phoenix Country Club](/course/phoenix_country_club_en):** Host of the annual Dunlop Phoenix Tournament, this championship course is renowned for its challenging layout and stunning views of the Pacific Ocean. It's a must-play for serious golfers seeking a test of their skills.
+    *   **[Tom Watson Golf Course](/course/tom_watson_golf_course_en):** Designed by the legendary Tom Watson, this course offers a blend of Scottish links-style golf and Japanese aesthetics. It's known for its strategic bunkering and undulating greens.
     *   **Umehara Golf Club:** Offers stunning ocean views and a challenging layout suitable for experienced golfers.
-    *   **Miyazaki Country Club:** A more relaxed and accessible course for golfers of all skill levels.
+    *   **[Miyazaki Country Club](/course/miyazaki_country_club_en):** A more relaxed and accessible course for golfers of all skill levels.
 
 *   **Accommodation Options:**
     *   **Sheraton Grande Ocean Resort:** A luxurious resort with stunning ocean views, multiple restaurants, and a spa.
@@ -61,8 +64,8 @@ Kagoshima Prefecture, located on the southwestern tip of Kyushu, is known for it
     *   A variety of golf courses ranging from challenging to relaxed.
 
 *   **Recommended Golf Courses:**
-    *   **Ibusuki Golf Club:** Features stunning views of the Kinko Bay and Sakurajima volcano. The course is well-maintained and offers a challenging but fair test of golf.
-    *   **Kagoshima Kokusai Golf Club:** A popular course with a classic layout and challenging greens.
+    *   **[Ibusuki Golf Club](/course/ibusuki_golf_club_en):** Features stunning views of the Kinko Bay and Sakurajima volcano. The course is well-maintained and offers a challenging but fair test of golf.
+    *   **[Kagoshima Kokusai Golf](/course/kagoshima_kokusai_golf_en) Club:** A popular course with a classic layout and challenging greens.
     *   **Kirishima Kogen National Park Golf Club:** Located in the Kirishima mountains, this course offers breathtaking views and a unique golfing experience.
 
 *   **Accommodation Options:**
@@ -94,7 +97,7 @@ Kumamoto Prefecture, located in the center of Kyushu, is known for its active vo
 
 *   **Accommodation Options:**
     *   **Hotel Nikko Kumamoto:** A luxurious hotel with a convenient location in Kumamoto city.
-    *   **Aso Resort Grandvrio Hotel:** Offers stunning views of Mount Aso and a range of activities and amenities.
+    *   **[Aso Resort Grandvrio](/course/aso_resort_grandvrio_en) Hotel:** Offers stunning views of Mount Aso and a range of activities and amenities.
     *   **Dormy Inn Kumamoto Natural Hot Spring:** A comfortable and affordable hotel with a natural hot spring.
 
 *   **Things to Do Beyond Golf:**
@@ -116,7 +119,7 @@ Oita Prefecture, located on the northeastern coast of Kyushu, is renowned for it
 
 *   **Recommended Golf Courses:**
     *   **Oita Golf Club:** A classic course with a challenging layout and beautiful scenery.
-    *   **Beppu Golf Club:** Offers stunning views of the Beppu Bay and a challenging golfing experience.
+    *   **[Beppu Golf Club](/course/beppu_golf_club_en):** Offers stunning views of the Beppu Bay and a challenging golfing experience.
     *   **Hiji Golf Club:** A well-maintained course with a relaxed atmosphere and a variety of challenges.
 
 *   **Accommodation Options:**

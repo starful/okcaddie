@@ -1,8 +1,14 @@
 ---
-lang: "en"
-title: "Play Where the Pros Play in Miyazaki"
-summary: "Experience world-class golf in Miyazaki, Japan, a region renowned for its stunning scenery, warm climate, and championship courses that host professional tournaments. Discover the exceptional golfing destinations where top pros like Hideki Matsuyama have competed and hone your skills on courses designed to challenge and inspire. This guide unveils the best golf courses in Miyazaki, offering insights into their unique features, historical significance, and accessibility for international golfers."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Experience world-class golf in Miyazaki, Japan, a region renowned for its
+  stunning scenery, warm climate, and championship courses that host professional
+  tournaments. Discover the exceptional golfing destinations where top pros like Hideki
+  Matsuyama have competed and hone your skills on courses designed to challenge and
+  inspire. This guide unveils the best golf courses in Miyazaki, offering insights
+  into their unique features, historical significance, and accessibility for international
+  golfers.
+title: Play Where the Pros Play in Miyazaki
 ---
 
 ## Tee Off in Paradise: Your Guide to Miyazaki's Pro-Level Golf Courses
@@ -24,16 +30,16 @@ Before diving into specific courses, let's understand what makes Miyazaki such a
 
 Let's explore some of the top golf courses in Miyazaki, focusing on those that have hosted professional tournaments:
 
-**1. Phoenix Country Club:**
+**1. [Phoenix Country Club](/course/phoenix_country_club_en):**
 
-*   **Signature Course:** The flagship course of the Phoenix Seagaia Resort, Phoenix Country Club is arguably Miyazaki's most famous and prestigious golfing destination.
+*   **Signature Course:** The flagship course of the [Phoenix Seagaia Resort](/course/phoenix_seagaia_resort_en), Phoenix Country Club is arguably Miyazaki's most famous and prestigious golfing destination.
 *   **History:** This course has hosted the Dunlop Phoenix Tournament annually since 1974, attracting some of the biggest names in golf, including Tiger Woods, Ernie Els, and Hideki Matsuyama.
 *   **Design:** Designed by renowned golf course architect Gene Littler, the course features undulating fairways, strategically placed bunkers, and challenging greens. The layout winds its way through pine forests and offers stunning views of the Pacific Ocean.
 *   **Challenges:** Accuracy is paramount at Phoenix Country Club. The narrow fairways and strategically placed hazards demand precise tee shots and approach shots. The greens are known for their subtle breaks and require a deft touch.
 *   **Accessibility:** As part of the Phoenix Seagaia Resort, the course is easily accessible for resort guests. Non-resort guests can also book tee times, but advance reservations are essential.
 *   **Key Feature:** The history and pedigree of hosting the Dunlop Phoenix Tournament, along with its challenging layout and stunning scenery, make it a must-play for serious golfers.
 
-**2. Tom Watson Golf Course (Phoenix Seagaia Resort):**
+**2. [Tom Watson Golf Course](/course/tom_watson_golf_course_en) (Phoenix Seagaia Resort):**
 
 *   **Design:** Designed by the legendary Tom Watson, this course embodies a links-style design, rare in Japan. It offers a different golfing experience compared to Phoenix Country Club.
 *   **Features:** Undulating fairways, pot bunkers, and firm, fast greens are hallmarks of this course. The design encourages strategic play and creative shot-making.
@@ -41,7 +47,7 @@ Let's explore some of the top golf courses in Miyazaki, focusing on those that h
 *   **Accessibility:** Similar to Phoenix Country Club, it's part of the Phoenix Seagaia Resort and easily accessible for guests. Non-resort guests can also book tee times.
 *   **Key Feature:** Its unique links-style design and the association with Tom Watson make it a distinctive and memorable golfing experience.
 
-**3. Miyazaki Country Club:**
+**3. [Miyazaki Country Club](/course/miyazaki_country_club_en):**
 
 *   **History:** This established course has a long and rich history, hosting numerous professional tournaments over the years. While not as globally famous as Phoenix Country Club, it is highly respected within Japan.
 *   **Design:** The course is known for its classic Japanese design, with mature trees lining the fairways and strategically placed water hazards.

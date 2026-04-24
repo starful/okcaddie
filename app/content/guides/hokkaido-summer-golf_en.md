@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Cool Summer Golf Escapes in Hokkaido"
-summary: "Escape the sweltering heat of Honshu and discover the refreshing golf havens of Hokkaido. This guide highlights the best Hokkaido golf courses and resorts that offer challenging play, stunning scenery, and a cool respite from the summer heat. Plan your perfect summer golf getaway to Japan's northern island."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Escape the sweltering heat of Honshu and discover the refreshing golf havens
+  of Hokkaido. This guide highlights the best Hokkaido golf courses and resorts that
+  offer challenging play, stunning scenery, and a cool respite from the summer heat.
+  Plan your perfect summer golf getaway to Japan's northern island.
+title: Cool Summer Golf Escapes in Hokkaido
 ---
 
 # Cool Summer Golf Escapes in Hokkaido: Your Guide to Japan's Northern Golf Paradise
@@ -27,9 +30,9 @@ Here's a selection of some of the best golf courses and resorts in Hokkaido, cat
 
 ### **Sapporo and Central Hokkaido:**
 
-*   **Sapporo Golf Club Wattsu Course:** A classic championship course with a rich history, hosting numerous professional tournaments. Known for its challenging layout and well-maintained greens. Expect meticulously manicured fairways and challenging bunkering. The course offers stunning views of the surrounding mountains. It's consistently ranked among the top courses in Japan.
+*   **[Sapporo Golf Club Wattsu Course](/course/sapporo_golf_club_wattsu_course_en):** A classic championship course with a rich history, hosting numerous professional tournaments. Known for its challenging layout and well-maintained greens. Expect meticulously manicured fairways and challenging bunkering. The course offers stunning views of the surrounding mountains. It's consistently ranked among the top courses in Japan.
 
-*   **The North Country Golf Club:** A picturesque course set amidst rolling hills and forests. Designed to blend seamlessly with the natural landscape, offering a challenging but fair test of golf. Features strategic bunkering and undulating greens.
+*   **[The North Country Golf Club](/course/the_north_country_golf_club_en):** A picturesque course set amidst rolling hills and forests. Designed to blend seamlessly with the natural landscape, offering a challenging but fair test of golf. Features strategic bunkering and undulating greens.
 
 *   **Hokkaido Brooks Country Club:** Designed by Jack Nicklaus, this course features wide fairways and strategically placed hazards. A great option for golfers of all skill levels. Offers panoramic views of the surrounding countryside.
 

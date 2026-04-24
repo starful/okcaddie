@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Budget-Friendly Golf Courses Near Osaka"
-summary: "Discover affordable golfing options near Osaka, Japan, without sacrificing quality or enjoyment. This guide unveils hidden gems and provides practical tips for playing golf on a budget. Learn about green fees, access, and nearby attractions to plan your perfect, cost-effective golfing getaway."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Discover affordable golfing options near Osaka, Japan, without sacrificing
+  quality or enjoyment. This guide unveils hidden gems and provides practical tips
+  for playing golf on a budget. Learn about green fees, access, and nearby attractions
+  to plan your perfect, cost-effective golfing getaway.
+title: Budget-Friendly Golf Courses Near Osaka
 ---
 
 # Budget-Friendly Golf Courses Near Osaka: Teeing Off Without Breaking the Bank
@@ -33,7 +36,7 @@ Here's a curated list of golf courses near Osaka that offer excellent value for 
 *   **Access:** Best accessed by car. Public transportation is possible but involves multiple transfers and a significant walk.
 *   **Tips:** Check their website for seasonal discounts and weekday specials. Consider bringing your own lunch to save money.
 
-**2. Takarazuka Golf Club Old Course (宝塚ゴルフ倶楽部（旧コース）):**
+**2. [Takarazuka Golf Club](/course/takarazuka_golf_club_en) Old Course (宝塚ゴルフ倶楽部（旧コース）):**
 
 *   **Location:** Hyogo Prefecture (approximately 45 minutes from Osaka by car).
 *   **Why it's budget-friendly:** While the "New Course" at Takarazuka Golf Club is more premium, the "Old Course" offers more affordable rates.
@@ -65,7 +68,7 @@ Here's a curated list of golf courses near Osaka that offer excellent value for 
 *   **Access:** Best accessed by car. Public transportation is possible but involves a bus ride from Hirakata-shi Station.
 *   **Tips:** Monitor online booking sites for deals. Consider playing on a weekday to avoid higher weekend rates.
 
-**6. Minami Osaka Golf Club (南大阪ゴルフクラブ):**
+**6. Minami [Osaka Golf Club](/course/osaka_golf_club_en) (南大阪ゴルフクラブ):**
 
 *   **Location:** Osaka Prefecture, Izumi City (approximately 1 hour from central Osaka by car).
 *   **Why it's budget-friendly:** Known for its affordable green fees and relaxed atmosphere.

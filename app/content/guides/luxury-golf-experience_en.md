@@ -1,8 +1,11 @@
 ---
-lang: "en"
-title: "Top 3 Most Expensive Golf Clubs in Japan"
-summary: "Delve into the world of ultra-luxury golf in Japan, exploring the three most expensive and exclusive golf clubs. Uncover the exorbitant membership fees, world-class facilities, and the prestige associated with these coveted havens. This guide is for the discerning golfer seeking the pinnacle of golfing experiences in Japan."
-date: "2026-04-15"
+date: '2026-04-15'
+lang: en
+summary: Delve into the world of ultra-luxury golf in Japan, exploring the three most
+  expensive and exclusive golf clubs. Uncover the exorbitant membership fees, world-class
+  facilities, and the prestige associated with these coveted havens. This guide is
+  for the discerning golfer seeking the pinnacle of golfing experiences in Japan.
+title: Top 3 Most Expensive Golf Clubs in Japan
 ---
 
 # Top 3 Most Expensive Golf Clubs in Japan: A Luxury Golfer's Guide
@@ -50,7 +53,7 @@ Before diving into the specific clubs, it's crucial to understand the cultural a
     *   **Beyond Golf:** While the course is the centerpiece, Koganei also offers exceptional dining facilities, meticulously maintained gardens, and a serene atmosphere that promotes relaxation and contemplation.
 *   **The Luxury Experience:** Membership at Koganei Country Club is more than just access to a golf course; it's an entry into an exclusive community and a symbol of belonging to the upper echelons of Japanese society.
 
-### 2. Naruo Golf Club (鳴尾ゴルフ倶楽部)
+### 2. [Naruo Golf Club](/course/naruo_golf_club_en) (鳴尾ゴルフ倶楽部)
 
 *   **Location:** Hyogo Prefecture, Kawanishi City
 *   **Estimated Transferable Membership Value:** JPY 250,000,000 - JPY 350,000,000 (approximately USD $1.67 million - $2.3 million, based on current exchange rates)
@@ -73,7 +76,7 @@ Before diving into the specific clubs, it's crucial to understand the cultural a
     *   **Location:** While not in Tokyo, its location in Hyogo Prefecture places it close to the major economic hub of Osaka, making it accessible to a significant number of high-net-worth individuals.
 *   **The Luxury Experience:** Membership at Naruo Golf Club provides access to a challenging and rewarding golfing experience in a setting steeped in history and tradition. It's a haven for serious golfers who appreciate the nuances of the game and the camaraderie of fellow enthusiasts.
 
-### 3. Hirono Golf Club (廣野ゴルフ倶楽部)
+### 3. [Hirono Golf Club](/course/hirono_golf_club_en) (廣野ゴルフ倶楽部)
 
 *   **Location:** Hyogo Prefecture, Miki City
 *   **Estimated Transferable Membership Value:** JPY 200,000,000 - JPY 300,000,000 (approximately USD $1.33 million - $2 million, based on current exchange rates)
