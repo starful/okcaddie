@@ -9,8 +9,7 @@ lng: '129.8356'
 summary: A comprehensive 9,000-character master guide to Passage Kinkai Island, covering
   strategy, history, and luxury facilities.
 thumbnail: /static/images/passage_kinkai_island.jpg
-title: '[The Definitive Guide to Passage Kinkai](/course/passage_kinkai_en) Island:
-  An Expert Review (en)'
+title: 'The Definitive Guide to Passage Kinkai Island: An Expert Review (en)'
 ---
 
 ## [Passage Kinkai](/course/passage_kinkai_en) Island: A Masterpiece Unveiled by an Expert Caddy and Course Rater

@@ -8,8 +8,7 @@ lat: '32.8944'
 lng: '129.8356'
 summary: 패시지 킨카이 아일랜드의 역사, 건축, 홀 공략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드입니다.
 thumbnail: /static/images/passage_kinkai_island.jpg
-title: '패시지 킨카이 아일랜드 심층 리뷰: 전문가의 시선 ([Passage Kinkai](/course/passage_kinkai_ko) Island:
-  An Expert Review)'
+title: '패시지 킨카이 아일랜드 심층 리뷰: 전문가의 시선 (Passage Kinkai Island: An Expert Review)'
 ---
 
 ## 패시지 킨카이 아일랜드: 일본 최고급 골프의 정수, 심해를 품은 녹색 신전
