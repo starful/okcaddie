@@ -2,16 +2,37 @@
 <html lang="{{ active_lang or 'en' }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover curated golf courses and practical golf travel guides across Japan in English and Korean.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="OKCaddie - Japan Golf Discovery Map">
+    <meta property="og:description" content="Explore 200+ Japan golf courses and bilingual expert guides.">
+    <meta property="og:url" content="https://okcaddie.net/">
+    <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://okcaddie.net/">
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/?lang=en">
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/?lang=ko">
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/">
     <meta name="agd-partner-manual-verification" />
-    <!-- [추가] 파비콘 및 웹 아이콘 설정 (구글 검색 노출용) -->
-    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/static/images/favicon-48x48.png" sizes="48x48" type="image/png"> <!-- 구글 검색결과 권장 사이즈 -->
-    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     
     <title>OKCaddie - Japan Golf Discovery Map</title>
     <link rel="stylesheet" href="/static/css/style.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "OKCaddie",
+          "url": "https://okcaddie.net/",
+          "inLanguage": ["en", "ko"]
+        }
+    </script>
 
     <!-- [FINAL SYNC SCRIPT] main.js 실행 전에 언어를 강제 동기화합니다 -->
     <script>
@@ -70,7 +91,7 @@
                 <h2 class="section-title">✨ {{ '최신 골프 가이드' if active_lang == 'ko' else 'Latest Golf Guides' }}</h2>
                 <div class="guide-highlight-grid">
                     {% for guide in featured_guides %}
-                    <a href="/guide/{{ guide.id }}" class="guide-highlight-card">
+                    <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ guide.lang }}" class="guide-highlight-card">
                         <div class="badge">NEW</div>
                         <div class="guide-img-wrapper">
                             <img src="{{ guide.image }}" alt="{{ guide.title }}" loading="lazy">
@@ -103,7 +124,7 @@
     <!-- 구글 맵 API 로더 -->
     <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
-        key: "AIzaSyCPw703sTZuXYzd0o7WP8x5lkPaoEjiaQs",
+        key: "{{ google_maps_js_api_key }}",
         v: "beta"
     });
     </script>

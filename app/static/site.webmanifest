@@ -1,0 +1,27 @@
+{
+  "name": "OKCaddie",
+  "short_name": "OKCaddie",
+  "description": "Japan golf course discovery map and expert guides.",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#2c3e50",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

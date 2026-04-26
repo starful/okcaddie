@@ -1,29 +1,28 @@
-<footer style="margin-top: 60px; text-align: center; padding: 60px 20px; border-top: 1px solid #eee; background-color: #fff; color: #888; font-size: 0.95rem;">
+<footer class="site-footer">
     <div class="container">
-        
-        <!-- 헤더에서 이동해온 메타데이터 영역 -->
-        <div class="footer-status-box" style="margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-            <div style="background: #f8f9fa; border: 1px solid #eee; padding: 8px 20px; border-radius: 30px; font-weight: 600; font-size: 0.85rem;">
+        <div class="footer-status-box">
+            <div class="footer-pill">
                 ⛳ <span id="total-courses">0</span> Courses Listed
             </div>
-            <div style="background: #f8f9fa; border: 1px solid #eee; padding: 8px 20px; border-radius: 30px; font-weight: 600; font-size: 0.85rem;">
+            <div class="footer-pill">
                 📅 Updated: <span id="last-updated-date">-</span>
             </div>
-            <div style="background: #e9f7ef; border: 1px solid #d4efdf; color: #27ae60; padding: 8px 20px; border-radius: 30px; font-weight: 600; font-size: 0.85rem;">
+            <div class="footer-pill footer-pill-accent">
                 🔄 Updating Weekly
             </div>
         </div>
 
-        <div style="margin-bottom: 25px;">
+        <div class="footer-brand">
             <p><strong>OKCaddie Project</strong><br>Discovering the finest golf experiences in Japan.</p>
         </div>
         
-        <nav style="margin-bottom: 25px; font-weight: 600;">
-            <a href="/about.html" style="color: #444; text-decoration: none; margin: 0 15px;">About</a>
-            <a href="/privacy.html" style="color: #444; text-decoration: none; margin: 0 15px;">Privacy Policy</a>
+        <nav class="footer-nav" aria-label="Footer links">
+            <a href="/courses?lang={{ active_lang or 'en' }}">Courses</a>
+            <a href="/about">About</a>
+            <a href="/privacy">Privacy Policy</a>
         </nav>
         
-        <p style="font-size: 0.85rem; opacity: 0.6;">
+        <p class="footer-copy">
             &copy; 2024-2026 OKCaddie. All rights reserved.
         </p>
     </div>

@@ -20,6 +20,9 @@ An interactive, multi-language web platform designed for global golfers to disco
 *   **AI-Powered Deep Content**: Automated high-quality content generation using **Google Gemini 2.5 Flash**, producing 7,000+ character SEO-optimized articles with technical course details.
 *   **Booking Integration**: Deep link integration for major booking platforms to maximize conversion.
 *   **High Performance**: No traditional databases. Markdown files are compiled into a lightweight JSON file and cached in memory using Flask for ultra-fast loading.
+*   **SEO-Ready Rendering**: Canonical, hreflang, robots directives, structured data (JSON-LD), and sitemap generation are built in.
+*   **Mobile-First UX**: Responsive card/grid/detail layouts optimized for small screens and touch targets.
+*   **Favicon Compatibility**: Root-level favicon endpoints (`/favicon.ico`, `/favicon-32x32.png`, `/favicon-48x48.png`, `/apple-touch-icon.png`) plus `site.webmanifest` support.
 
 ---
 
@@ -67,8 +70,12 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add your API keys:
 ```env
 GEMINI_API_KEY=your_google_gemini_api_key_here
-GOOGLE_PLACES_API_KEY=your_google_maps_api_key_here
+GOOGLE_PLACES_API_KEY=your_google_places_api_key_here
+GOOGLE_MAPS_JS_API_KEY=your_google_maps_javascript_api_key_here
+ASSET_VERSION=2026-04-26
 ```
+
+`GOOGLE_PLACES_API_KEY` is only for image collection scripts (Places API), while `GOOGLE_MAPS_JS_API_KEY` is only for rendering the web map in runtime (Maps JavaScript API via Cloud Build substitution `_GOOGLE_MAPS_JS_API_KEY`).
 
 ### 3. Generate & Build Data
 ```bash
@@ -81,6 +88,7 @@ python script/fetch_images.py
 # 3. Build JSON data and Sitemap
 python script/build_data.py
 ```
+`ASSET_VERSION` is optional, but recommended for cache-safe static image URL versioning.
 
 ### 4. Run the Server
 ```bash
@@ -99,6 +107,9 @@ okcaddie/
 ├── app/
 │   ├── content/                 # Generated Markdown files (SEO Content)
 │   ├── static/                  # CSS, JS, Images, JSON Data
+│   │   ├── robots.txt           # Crawl policy
+│   │   ├── sitemap.xml          # SEO sitemap (auto-generated)
+│   │   └── site.webmanifest     # Favicon/PWA metadata
 │   ├── templates/               # HTML Templates (Jinja2)
 │   └── __init__.py              # Flask App Entry & Routing
 ├── script/

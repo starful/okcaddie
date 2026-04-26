@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ post.title }} - OKCaddie</title>
     <meta name="description" content="{{ post.summary }}">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ post.title }} - OKCaddie">
+    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:url" content="https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}">
+    <meta property="og:image" content="https://okcaddie.net{{ post.thumbnail }}">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/static/css/style.css">
     
     <!-- 파비콘 및 브라우저 아이콘 설정 -->
-    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/static/images/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     
     <!-- [SEO] 중복 콘텐츠 방지 및 언어 연결 -->
-    <link rel="canonical" href="https://okcaddie.net/course/{{ post.id }}">
-    {% set base_id = post.id | replace('_ko', '') | replace('_en', '') %}
-    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}_ko" />
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}_en" />
+    <link rel="canonical" href="https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}">
+    {% set base_id = post.base_id %}
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}?lang=en" />
 </head>
 <body>
     <!-- 공용 헤더 포함 (언어 전환 버튼 포함) -->
@@ -95,6 +105,47 @@
                 </p>
             </div>
         </div>
+
+        {% if related_courses %}
+        <section style="margin-top: 55px;">
+            <h3 style="margin-bottom: 18px;">
+                {{ '관련 코스' if active_lang == 'ko' else 'Related Courses' }}
+            </h3>
+            <div class="course-grid">
+                {% for c in related_courses %}
+                <article class="course-card">
+                    <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ c.lang }}">
+                        <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
+                        <div class="card-content">
+                            <div class="card-title">{{ c.title }}</div>
+                        </div>
+                    </a>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if related_guides %}
+        <section style="margin-top: 45px;">
+            <h3 style="margin-bottom: 18px;">
+                {{ '함께 읽으면 좋은 가이드' if active_lang == 'ko' else 'Related Guides' }}
+            </h3>
+            <div class="guide-highlight-grid">
+                {% for g in related_guides %}
+                <a href="/guide/{{ g.id }}" class="guide-highlight-card">
+                    <div class="guide-img-wrapper">
+                        <img src="{{ g.image }}" alt="{{ g.title }}" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h4 style="margin:0 0 6px;">{{ g.title }}</h4>
+                        <p>{{ g.summary[:90] }}...</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
 
         <!-- 하단 네비게이션 -->
         <div class="detail-actions" style="margin-top: 60px; text-align: center;">
