@@ -100,6 +100,30 @@ Visit `http://localhost:8080` in your browser.
 
 ---
 
+## 🔎 Indexing Operations Checklist
+
+Run this routine after each production deployment to improve indexing speed and quality:
+
+1. Submit `https://okcaddie.net/sitemap.xml` in Google Search Console.
+2. Request indexing for key URLs:
+   - `/courses?lang=en&page=1`
+   - `/courses?lang=ko&page=1`
+   - 5-10 newly updated `/course/<slug>?lang=...` or `/guide/<slug>?lang=...` pages
+3. Review Search Console Coverage report weekly:
+   - Excluded pages (duplicate/canonical issues)
+   - Crawled but not indexed
+   - Soft 404 or server errors
+4. Confirm the latest deployment passes smoke checks:
+   - `/`, `/courses`, `/guide`, `/sitemap.xml`, `/robots.txt`
+
+### Technical SEO Monitoring (Weekly)
+
+- Check redirect behavior for legacy URLs (`/_ko`, `/_en`) remains 301.
+- Track 404s and slow endpoints in Cloud Run logs.
+- Prioritize fixes for frequent crawler failures on `/course/*` and `/guide/*`.
+
+---
+
 ## 📂 Project Structure
 
 ```text

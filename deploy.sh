@@ -134,8 +134,14 @@ gcloud builds submit \
     --substitutions="_GOOGLE_MAPS_JS_API_KEY=${GOOGLE_MAPS_JS_API_KEY}"
 print_ok "Cloud Run 배포 완료"
 
-# ── STEP 6: 완료 요약 ──────────────────────
-print_step "STEP 6 / 7  |  완료 요약"
+# ── STEP 6: 배포 스모크 테스트 ──────────────
+print_step "STEP 6 / 7  |  배포 스모크 테스트"
+print_info "핵심 엔드포인트 상태 확인 중..."
+python3 script/smoke_test.py "https://okcaddie.net"
+print_ok "스모크 테스트 통과"
+
+# ── STEP 7: 완료 요약 ──────────────────────
+print_step "STEP 7 / 7  |  완료 요약"
 
 ELAPSED=$(( SECONDS - START_TIME ))
 echo ""

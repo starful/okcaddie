@@ -14,6 +14,7 @@
     <meta property="og:url" content="https://okcaddie.net/guide/{{ post.base_id }}?lang={{ post.lang }}">
     <meta property="og:image" content="{{ image }}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="author" content="OKCaddie Editorial Team">
     
     <!-- 파비콘 및 아이콘 -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -41,9 +42,10 @@
       "description": "{{ post.summary }}",
       "image": "{{ image }}",
       "datePublished": "{{ post.date }}",
+      "dateModified": "{{ post.date }}",
       "author": {
         "@type": "Organization",
-        "name": "OKCaddie"
+        "name": "OKCaddie Editorial Team"
       },
       "publisher": {
         "@type": "Organization",
@@ -72,6 +74,9 @@
             <div class="detail-meta" style="color: #999; font-size: 0.9rem;">
                 📅 Published on: {{ post.date }}
             </div>
+            <p style="margin-top:10px; color:#94a3b8; font-size:0.85rem;">
+                {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else 'OKCaddie 편집팀 검수' }}
+            </p>
         </header>
 
         <!-- 가이드 대표 이미지 -->
