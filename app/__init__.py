@@ -41,6 +41,7 @@ AREA_MAP = {
     '徳島': 36, '香川': 37, '愛媛': 38, '高知': 39, '福岡': 40, '佐賀': 41, '長崎': 42,
     '熊本': 43, '大分': 44, '宮崎': 45, '鹿児島': 46, '沖縄': 47
 }
+PREFECTURE_KEYWORDS = tuple(AREA_MAP.keys())
 
 CACHED_DATA = {"courses": []}
 CACHED_GUIDES = []
@@ -63,6 +64,14 @@ def split_localized_id(item_id):
     if item_id.endswith("_en"):
         return item_id[:-3], "en"
     return item_id, None
+
+def extract_prefecture(text):
+    if not text:
+        return ""
+    for pref in PREFECTURE_KEYWORDS:
+        if pref in text:
+            return pref
+    return ""
 
 def resolve_course_id(base_id, lang):
     course_id = f"{base_id}_{lang}"
@@ -239,18 +248,24 @@ def course_detail(course_ref):
     content_html = markdown.markdown(post_content, extensions=['tables', 'fenced_code'])
 
     current_categories = set(post_data.get('categories', []))
-    related_courses = []
+    current_pref = extract_prefecture(post_data.get("address", ""))
+    related_candidates = []
     for course in CACHED_DATA.get('courses', []):
         if course.get('id') == course_id:
             continue
         if course.get('lang') != post_data['lang']:
             continue
         candidate_categories = set(course.get('categories', []))
-        if current_categories and not (current_categories & candidate_categories):
+        shared_categories = len(current_categories & candidate_categories) if current_categories else 0
+        candidate_pref = extract_prefecture(course.get("address", ""))
+        same_pref = 1 if current_pref and current_pref == candidate_pref else 0
+        if shared_categories == 0 and same_pref == 0:
             continue
-        related_courses.append(course)
-        if len(related_courses) >= 6:
-            break
+        score = (same_pref, shared_categories)
+        related_candidates.append((score, course))
+
+    related_candidates.sort(key=lambda x: x[0], reverse=True)
+    related_courses = [course for _, course in related_candidates[:6]]
 
     related_guides = [g for g in CACHED_GUIDES if g.get('lang') == post_data['lang']][:3]
 
@@ -288,7 +303,9 @@ def courses_index():
         active_lang=lang,
         page=page,
         total_pages=total_pages,
-        total_courses=total
+        total_courses=total,
+        has_prev=(page > 1),
+        has_next=(page < total_pages)
     )
 
 @app.route('/guide')

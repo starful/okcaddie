@@ -12,7 +12,10 @@
     <meta property="og:url" content="https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}">
     <meta property="og:image" content="https://okcaddie.net{{ post.thumbnail }}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="author" content="OKCaddie Editorial Team">
+    <meta name="article:modified_time" content="{{ post.date }}">
     <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preload" as="image" href="{{ post.thumbnail }}">
     
     <!-- 파비콘 및 브라우저 아이콘 설정 -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -27,6 +30,23 @@
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}?lang=en" />
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}?lang=en" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "{{ post.title }}",
+      "description": "{{ post.summary }}",
+      "url": "https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}",
+      "image": "https://okcaddie.net{{ post.thumbnail }}",
+      "address": "{{ post.address }}",
+      "sport": "Golf",
+      "dateModified": "{{ post.date }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "OKCaddie"
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- 공용 헤더 포함 (언어 전환 버튼 포함) -->
@@ -40,11 +60,14 @@
                 <span>📍 {{ post.address }}</span> | 
                 <span>🏷️ {{ post.categories|join(', ') if post.categories is iterable else post.categories }}</span>
             </div>
+            <p style="margin-top:10px; color:#94a3b8; font-size:0.85rem;">
+                {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else 'OKCaddie 편집팀 검수' }} · {{ post.date }}
+            </p>
         </header>
 
         <!-- 메인 코스 이미지 -->
         <div class="detail-img-box" style="margin-bottom: 40px;">
-            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" loading="eager" fetchpriority="high" decoding="async" width="1200" height="675">
         </div>
 
         <!-- 프라이빗 클럽 전용 안내 배너 -->
