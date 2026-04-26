@@ -412,6 +412,8 @@ def travel_redirect(item_type, course_id):
 @app.route('/favicon-32x32.png')
 @app.route('/favicon-48x48.png')
 @app.route('/apple-touch-icon.png')
+@app.route('/android-chrome-192x192.png')
+@app.route('/android-chrome-512x512.png')
 def serve_favicons():
     """구글 검색 아이콘 노출을 위해 루트 경로에서 직접 파일 서빙"""
     image_dir = os.path.join(app.root_path, 'static', 'images')
