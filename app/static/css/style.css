@@ -31,6 +31,11 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container { 
     max-width: var(--max-width-index); 
     margin: 0 auto; 
@@ -464,6 +469,47 @@ footer {
     background: #f8f9fa; border: 1px solid #eee; padding: 8px 20px;
     border-radius: 30px; font-weight: 600; font-size: 0.85rem; color: #555;
 }
+.site-footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 60px 20px;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+    color: #888;
+    font-size: 0.95rem;
+}
+.footer-pill {
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+.footer-pill-accent {
+    background: #e9f7ef;
+    border-color: #d4efdf;
+    color: #27ae60;
+}
+.footer-brand {
+    margin-bottom: 25px;
+}
+.footer-nav {
+    margin-bottom: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.footer-nav a {
+    color: #444;
+    text-decoration: none;
+}
+.footer-copy {
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
 
 
 /* =========================================
@@ -512,7 +558,29 @@ footer {
     
     .detail-container { margin: 20px auto 60px; padding: 0 15px; }
     .detail-title { font-size: 1.7rem; }
+    .detail-meta { line-height: 1.5; }
     .booking-btn { width: 100%; padding: 16px; font-size: 1.15rem; }
+    .back-btn { width: 100%; justify-content: center; }
+    .detail-actions {
+        gap: 10px;
+    }
+    .detail-actions a {
+        width: min(100%, 320px);
+        justify-content: center;
+    }
+    .footer-status-box {
+        gap: 8px;
+    }
+    .footer-pill {
+        width: 100%;
+    }
+    .site-footer {
+        padding: 45px 14px;
+    }
+    .footer-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
     
     /* 모바일 마커: 26px */
     .caddie-marker { width: 26px; height: 26px; border-width: 1px; }

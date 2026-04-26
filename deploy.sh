@@ -32,6 +32,11 @@ cd "$PROJECT_ROOT"
 [ ! -f ".env" ] && { print_err ".env 없음"; exit 1; }
 print_ok ".env 확인"
 
+# .env 로드 (배포용 키 주입에 사용)
+set -a
+source ".env"
+set +a
+
 # gsutil 설치 확인
 command -v gsutil &>/dev/null || { print_err "gsutil 없음"; exit 1; }
 
@@ -119,7 +124,14 @@ fi
 # ── STEP 5: Cloud Build & Cloud Run ───────
 print_step "STEP 5 / 7  |  Cloud Build & Cloud Run 배포"
 print_info "Google Cloud 배포 시작..."
-gcloud builds submit --project starful-258005
+if [ -z "${GOOGLE_MAPS_JS_API_KEY:-}" ]; then
+    print_err "GOOGLE_MAPS_JS_API_KEY 없음 → Cloud Build substitution(_GOOGLE_MAPS_JS_API_KEY) 불가"
+    exit 1
+fi
+
+gcloud builds submit \
+    --project starful-258005 \
+    --substitutions="_GOOGLE_MAPS_JS_API_KEY=${GOOGLE_MAPS_JS_API_KEY}"
 print_ok "Cloud Run 배포 완료"
 
 # ── STEP 6: 완료 요약 ──────────────────────

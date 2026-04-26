@@ -4,7 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golf Guides - OKCaddie</title>
+    <meta name="description" content="Browse bilingual golf travel guides for Japan: booking tips, etiquette, resort picks, and seasonal recommendations.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Japan Golf Expert Guides - OKCaddie">
+    <meta property="og:description" content="Expert EN/KO guides for planning golf trips in Japan.">
+    <meta property="og:url" content="https://okcaddie.net/guide?lang={{ lang }}">
+    <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://okcaddie.net/guide?lang={{ lang }}">
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide?lang=en">
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide?lang=ko">
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="/static/css/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "OKCaddie Japan Golf Guides",
+      "url": "https://okcaddie.net/guide?lang={{ lang }}"
+    }
+    </script>
 </head>
 <body>
     {% include 'header.html' %}
@@ -17,7 +42,7 @@
         <!-- 가이드 전체 리스트 -->
         <div class="guide-highlight-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
             {% for guide in guides %}
-            <a href="/guide/{{ guide.id }}" class="guide-highlight-card">
+            <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ guide.lang }}" class="guide-highlight-card">
                 <div class="guide-img-wrapper" style="height: 200px;"><img src="{{ guide.image }}" alt=""></div>
                 <div class="card-body">
                     <div style="font-size: 0.8rem; color: #999; margin-bottom: 5px;">{{ guide.date }}</div>

@@ -19,10 +19,10 @@
             <!-- 우측 언어 버튼 -->
             <div class="header-right lang-selector">
                 {% if post and post.id %}
-                    {% set base_id = post.id | replace('_ko', '') | replace('_en', '') %}
+                    {% set base_id = post.base_id or (post.id | replace('_ko', '') | replace('_en', '')) %}
                     {% set path_prefix = '/guide/' if request.path.startswith('/guide') else '/course/' %}
-                    <a href="{{ path_prefix }}{{ base_id }}_ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}">KO</a>
-                    <a href="{{ path_prefix }}{{ base_id }}_en" class="lang-btn {{ 'active' if active_lang == 'en' }}">EN</a>
+                    <a href="{{ path_prefix }}{{ base_id }}?lang=ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}">KO</a>
+                    <a href="{{ path_prefix }}{{ base_id }}?lang=en" class="lang-btn {{ 'active' if active_lang == 'en' }}">EN</a>
                 {% else %}
                     <a href="?lang=ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}" data-lang="ko">KO</a>
                     <a href="?lang=en" class="lang-btn {{ 'active' if active_lang == 'en' }}" data-lang="en">EN</a>

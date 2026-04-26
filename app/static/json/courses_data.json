@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026.04.24",
+  "last_updated": "2026.04.26",
   "courses": [
     {
       "id": "hokkaido_classic_golf_club_ko",
+      "base_id": "hokkaido_classic_golf_club",
       "lang": "ko",
       "title": "홋카이도 클래식 골프 클럽 마스터피스 리뷰: 20년 경력 베테랑 캐디의 심층 분석",
       "lat": 42.7944,
@@ -17,10 +18,11 @@
       "published": "2026-04-15",
       "summary": "홋카이도 클래식 골프 클럽의 역사, 전략, 시설 등 모든 것을 아우르는 9,000자 분량의 전문가 마스터 가이드입니다.",
       "booking": "/booking/hokkaido_classic_golf_club_ko",
-      "link": "/course/hokkaido_classic_golf_club_ko"
+      "link": "/course/hokkaido_classic_golf_club?lang=ko"
     },
     {
       "id": "mie_kokusai_golf_club_en",
+      "base_id": "mie_kokusai_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Mie Kokusai Golf Club: An Expert Review (en)",
       "lat": 35.0344,
@@ -35,10 +37,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Mie Kokusai Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/mie_kokusai_golf_club_en",
-      "link": "/course/mie_kokusai_golf_club_en"
+      "link": "/course/mie_kokusai_golf_club?lang=en"
     },
     {
       "id": "appi_kogen_golf_club_ko",
+      "base_id": "appi_kogen_golf_club",
       "lang": "ko",
       "title": "안비 고원 골프 클럽 마스터 가이드: 명예로운 전통과 전략적 코스의 정수 (OKCaddie 단독 심층 리뷰)",
       "lat": 40.0144,
@@ -55,10 +58,11 @@
       "published": "2026-04-15",
       "summary": "아피 고원 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 역사, 전략, 럭셔리 시설, 미식 경험까지 모든 것을 심층 분석합니다.",
       "booking": "/booking/appi_kogen_golf_club_ko",
-      "link": "/course/appi_kogen_golf_club_ko"
+      "link": "/course/appi_kogen_golf_club?lang=ko"
     },
     {
       "id": "shima_country_club_en",
+      "base_id": "shima_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Shima Country Club: An Expert Review (en)",
       "lat": 34.3344,
@@ -73,10 +77,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Shima Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/shima_country_club_en",
-      "link": "/course/shima_country_club_en"
+      "link": "/course/shima_country_club?lang=en"
     },
     {
       "id": "ena_kogen_golf_club_ko",
+      "base_id": "ena_kogen_golf_club",
       "lang": "ko",
       "title": "에나 고원 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 분석",
       "lat": 35.4944,
@@ -91,10 +96,11 @@
       "published": "2026-04-15",
       "summary": "에나 고원 골프 클럽에 대한 8,000자 이상 전문가 심층 가이드: 전략, 역사, 고급 시설까지 완벽 분석.",
       "booking": "/booking/ena_kogen_golf_club_ko",
-      "link": "/course/ena_kogen_golf_club_ko"
+      "link": "/course/ena_kogen_golf_club?lang=ko"
     },
     {
       "id": "miyazaki_country_club_en",
+      "base_id": "miyazaki_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Miyazaki Country Club: An Expert Review (en)",
       "lat": 31.8644,
@@ -109,10 +115,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Miyazaki Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/miyazaki_country_club_en",
-      "link": "/course/miyazaki_country_club_en"
+      "link": "/course/miyazaki_country_club?lang=en"
     },
     {
       "id": "kochi_kuroshio_country_club_ko",
+      "base_id": "kochi_kuroshio_country_club",
       "lang": "ko",
       "title": "고치 쿠로시오 컨트리 클럽 완벽 가이드: 20년 경력 캐디의 심층 리뷰",
       "lat": 33.5444,
@@ -127,10 +134,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 고치 쿠로시오 컨트리 클럽의 역사, 코스 전략, 시설, 미식, 그리고 숨겨진 팁까지 9,000자 분량으로 완벽 해부한 마스터 가이드입니다.",
       "booking": "/booking/kochi_kuroshio_country_club_ko",
-      "link": "/course/kochi_kuroshio_country_club_ko"
+      "link": "/course/kochi_kuroshio_country_club?lang=ko"
     },
     {
       "id": "jun_classic_country_club_ko",
+      "base_id": "jun_classic_country_club",
       "lang": "ko",
       "title": "The Definitive Guide to Jun Classic Country Club: An Expert Review (ko)",
       "lat": 36.7544,
@@ -145,10 +153,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Jun Classic Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/jun_classic_country_club_ko",
-      "link": "/course/jun_classic_country_club_ko"
+      "link": "/course/jun_classic_country_club?lang=ko"
     },
     {
       "id": "gifu_north_golf_club_ko",
+      "base_id": "gifu_north_golf_club",
       "lang": "ko",
       "title": "기후 노스 골프 클럽 완벽 가이드: 전문가 리뷰",
       "lat": 35.5144,
@@ -163,10 +172,11 @@
       "published": "2026-04-15",
       "summary": "기후 노스 골프 클럽의 전략, 역사, 럭셔리 시설을 다루는 종합적인 9,000자 마스터 가이드입니다.",
       "booking": "/booking/gifu_north_golf_club_ko",
-      "link": "/course/gifu_north_golf_club_ko"
+      "link": "/course/gifu_north_golf_club?lang=ko"
     },
     {
       "id": "nagano_country_club_ko",
+      "base_id": "nagano_country_club",
       "lang": "ko",
       "title": "나가노 컨트리 클럽 심층 분석: 20년 경력 캐디의 마스터피스 리뷰",
       "lat": 36.6944,
@@ -183,10 +193,11 @@
       "published": "2026-04-15",
       "summary": "나가노 컨트리 클럽에 대한 포괄적인 9,000자 전문가 가이드로, 전략, 역사, 럭셔리 시설을 망라합니다.",
       "booking": "/booking/nagano_country_club_ko",
-      "link": "/course/nagano_country_club_ko"
+      "link": "/course/nagano_country_club?lang=ko"
     },
     {
       "id": "pacific_golf_club_ko",
+      "base_id": "pacific_golf_club",
       "lang": "ko",
       "title": "태평양 골프 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰 (Pacific Golf Club)",
       "lat": 33.5644,
@@ -202,10 +213,11 @@
       "published": "2026-04-15",
       "summary": "태평양 골프 클럽에 대한 9,000자 분량의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 망라한 전문가 리뷰.",
       "booking": "/booking/pacific_golf_club_ko",
-      "link": "/course/pacific_golf_club_ko"
+      "link": "/course/pacific_golf_club?lang=ko"
     },
     {
       "id": "beppu_golf_club_en",
+      "base_id": "beppu_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Beppu Golf Club: An Expert Review by OKCaddie's Elite Rater",
       "lat": 33.3244,
@@ -221,10 +233,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Beppu Golf Club, offering an expert's deep dive into its historical prestige, strategic architecture, hole-by-hole masterclass, luxurious onsen experience, gourmet dining, and essential caddy tips for an unforgettable Japanese golf journey.",
       "booking": "/booking/beppu_golf_club_en",
-      "link": "/course/beppu_golf_club_en"
+      "link": "/course/beppu_golf_club?lang=en"
     },
     {
       "id": "koganei_golf_club_en",
+      "base_id": "koganei_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Koganei Golf Club: An Expert Review (en)",
       "lat": 35.7144,
@@ -239,10 +252,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Koganei Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/koganei_golf_club_en",
-      "link": "/course/koganei_golf_club_en"
+      "link": "/course/koganei_golf_club?lang=en"
     },
     {
       "id": "kotohira_golf_club_ko",
+      "base_id": "kotohira_golf_club",
       "lang": "ko",
       "title": "고토히라 골프 클럽 마스터 가이드: 명예로운 전통과 전략적 코스의 정수 (전문가 리뷰)",
       "lat": 34.2044,
@@ -257,10 +271,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 전문 캐디가 고토히라 골프 클럽의 역사, 전략적 코스 분석, 럭셔리 시설, 미식 경험을 9,000자 분량으로 심도 있게 파헤친 종합 마스터 가이드입니다. 일본 골프의 진수를 경험하고 싶은 분들을 위한 필독서.",
       "booking": "/booking/kotohira_golf_club_ko",
-      "link": "/course/kotohira_golf_club_ko"
+      "link": "/course/kotohira_golf_club?lang=ko"
     },
     {
       "id": "fukuoka_international_en",
+      "base_id": "fukuoka_international",
       "lang": "en",
       "title": "The Definitive Guide to Fukuoka International: An Expert Review by an Elite Caddy (en)",
       "lat": 33.7544,
@@ -277,10 +292,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Fukuoka International Golf Club, crafted by an elite Japanese golf course rater and senior caddy. This review delves into the club's illustrious history, strategic architectural genius, detailed hole-by-hole insights, opulent clubhouse and onsen facilities, exquisite gourmet dining, and essential seasonal playing tips, ensuring an unforgettable golf journey in Fukuoka.",
       "booking": "/booking/fukuoka_international_en",
-      "link": "/course/fukuoka_international_en"
+      "link": "/course/fukuoka_international?lang=en"
     },
     {
       "id": "the_masters_amakusa_course_ko",
+      "base_id": "the_masters_amakusa_course",
       "lang": "ko",
       "title": "더 마스터즈 아마쿠사 코스 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 32.4844,
@@ -295,10 +311,11 @@
       "published": "2026-04-15",
       "summary": "더 마스터즈 아마쿠사 코스의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/the_masters_amakusa_course_ko",
-      "link": "/course/the_masters_amakusa_course_ko"
+      "link": "/course/the_masters_amakusa_course?lang=ko"
     },
     {
       "id": "ashinoko_country_club_ko",
+      "base_id": "ashinoko_country_club",
       "lang": "ko",
       "title": "아시노코 컨트리 클럽 마스터 가이드: 일본 최고 권위자의 정밀 분석",
       "lat": 35.1544,
@@ -313,10 +330,11 @@
       "published": "2026-04-15",
       "summary": "아시노코 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드입니다. 역사, 건축, 전략, 시설을 아우르는 전문가 리뷰를 만나보세요.",
       "booking": "/booking/ashinoko_country_club_ko",
-      "link": "/course/ashinoko_country_club_ko"
+      "link": "/course/ashinoko_country_club?lang=ko"
     },
     {
       "id": "taiheiyo_club_gotemba_course_en",
+      "base_id": "taiheiyo_club_gotemba_course",
       "lang": "en",
       "title": "The Definitive Guide to Taiheiyo Club Gotemba Course: An Expert Review (en)",
       "lat": 35.3131,
@@ -331,10 +349,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Taiheiyo Club Gotemba Course, covering strategy, history, and luxury facilities, meticulously crafted by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/taiheiyo_club_gotemba_course_en",
-      "link": "/course/taiheiyo_club_gotemba_course_en"
+      "link": "/course/taiheiyo_club_gotemba_course?lang=en"
     },
     {
       "id": "ehime_golf_club_en",
+      "base_id": "ehime_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Ehime Golf Club: An Expert Review (en)",
       "lat": 33.7144,
@@ -349,10 +368,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ehime Golf Club, meticulously reviewed by a Japanese elite course rater and senior caddy, covering strategy, history, and luxury facilities for the discerning golfer.",
       "booking": "/booking/ehime_golf_club_en",
-      "link": "/course/ehime_golf_club_en"
+      "link": "/course/ehime_golf_club?lang=en"
     },
     {
       "id": "eagle_point_golf_club_ko",
+      "base_id": "eagle_point_golf_club",
       "lang": "ko",
       "title": "일본 최고 명문, 이글 포인트 골프 클럽: 베테랑 캐디의 마스터피스 심층 분석",
       "lat": 35.9844,
@@ -367,10 +387,11 @@
       "published": "2026-04-15",
       "summary": "전설적인 일본 골프 코스, 이글 포인트 골프 클럽에 대한 9,000자 분량의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라합니다.",
       "booking": "/booking/eagle_point_golf_club_ko",
-      "link": "/course/eagle_point_golf_club_ko"
+      "link": "/course/eagle_point_golf_club?lang=ko"
     },
     {
       "id": "nasu_golf_club_ko",
+      "base_id": "nasu_golf_club",
       "lang": "ko",
       "title": "나스 골프 클럽 완벽 가이드: 20년 베테랑 캐디가 전하는 명품 코스 리뷰 (ko)",
       "lat": 37.0944,
@@ -385,10 +406,11 @@
       "published": "2026-04-15",
       "summary": "나스 골프 클럽의 전략, 역사, 그리고 럭셔리 시설을 아우르는 9,000자 분량의 포괄적인 마스터 가이드입니다. 최고급 골프 경험을 위한 심층 분석.",
       "booking": "/booking/nasu_golf_club_ko",
-      "link": "/course/nasu_golf_club_ko"
+      "link": "/course/nasu_golf_club?lang=ko"
     },
     {
       "id": "southern_links_en",
+      "base_id": "southern_links",
       "lang": "en",
       "title": "The Definitive Guide to Southern Links: An Expert Review by OKCaddie (en)",
       "lat": 26.1144,
@@ -404,10 +426,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Southern Links, Okinawa's crown jewel, covering its illustrious history, strategic architectural analysis, a hole-by-hole masterclass, luxurious clubhouse amenities, gourmet dining, and essential seasonal tips for an unparalleled golfing pilgrimage.",
       "booking": "/booking/southern_links_en",
-      "link": "/course/southern_links_en"
+      "link": "/course/southern_links?lang=en"
     },
     {
       "id": "gifu_seki_country_club_ko",
+      "base_id": "gifu_seki_country_club",
       "lang": "ko",
       "title": "기후 세키 컨트리 클럽 마스터 가이드: 명예로운 전통과 전략의 미학 (전문 캐디 리뷰)",
       "lat": 35.4844,
@@ -422,10 +445,11 @@
       "published": "2026-04-15",
       "summary": "기후 세키 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 상세히 다룹니다.",
       "booking": "/booking/gifu_seki_country_club_ko",
-      "link": "/course/gifu_seki_country_club_ko"
+      "link": "/course/gifu_seki_country_club?lang=ko"
     },
     {
       "id": "phoenix_country_club_ko",
+      "base_id": "phoenix_country_club",
       "lang": "ko",
       "title": "피닉스 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 31.9567,
@@ -440,10 +464,11 @@
       "published": "2026-04-15",
       "summary": "피닉스 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다.",
       "booking": "/booking/phoenix_country_club_ko",
-      "link": "/course/phoenix_country_club_ko"
+      "link": "/course/phoenix_country_club?lang=ko"
     },
     {
       "id": "kumamoto_airport_country_club_en",
+      "base_id": "kumamoto_airport_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Kumamoto Airport Country Club: An Expert Review (en)",
       "lat": 32.8444,
@@ -458,10 +483,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kumamoto Airport Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kumamoto_airport_country_club_en",
-      "link": "/course/kumamoto_airport_country_club_en"
+      "link": "/course/kumamoto_airport_country_club?lang=en"
     },
     {
       "id": "takachiho_country_club_ko",
+      "base_id": "takachiho_country_club",
       "lang": "ko",
       "title": "타카치호 컨트리 클럽 완벽 분석: 전문가의 시선 (ko)",
       "lat": 31.8844,
@@ -476,10 +502,11 @@
       "published": "2026-04-15",
       "summary": "타카치호 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/takachiho_country_club_ko",
-      "link": "/course/takachiho_country_club_ko"
+      "link": "/course/takachiho_country_club?lang=ko"
     },
     {
       "id": "chukyo_golf_club_ko",
+      "base_id": "chukyo_golf_club",
       "lang": "ko",
       "title": "중교 골프 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰 (OKCaddie 독점)",
       "lat": 35.1444,
@@ -494,10 +521,11 @@
       "published": "2026-04-15",
       "summary": "일본 중교 골프 클럽에 대한 9,000자 분량의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설까지 심도 있게 분석합니다.",
       "booking": "/booking/chukyo_golf_club_ko",
-      "link": "/course/chukyo_golf_club_ko"
+      "link": "/course/chukyo_golf_club?lang=ko"
     },
     {
       "id": "fujizakura_country_club_en",
+      "base_id": "fujizakura_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Fujizakura Country Club: An Expert Review (en)",
       "lat": 35.4544,
@@ -512,10 +540,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Fujizakura Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/fujizakura_country_club_en",
-      "link": "/course/fujizakura_country_club_en"
+      "link": "/course/fujizakura_country_club?lang=en"
     },
     {
       "id": "rope_club_ko",
+      "base_id": "rope_club",
       "lang": "ko",
       "title": "로프 클럽 완전 분석: 일본 최고 명문 코스 심층 리뷰 (OKCaddie 전문가 가이드)",
       "lat": 36.7144,
@@ -530,10 +559,11 @@
       "published": "2026-04-15",
       "summary": "로프 클럽에 대한 8,000자 이상의 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다. 일본 골프의 정수를 경험하세요.",
       "booking": "/booking/rope_club_ko",
-      "link": "/course/rope_club_ko"
+      "link": "/course/rope_club?lang=ko"
     },
     {
       "id": "kansai_golf_club_en",
+      "base_id": "kansai_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Kansai Golf Club: An Expert Review (en)",
       "lat": 34.8244,
@@ -548,10 +578,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kansai Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kansai_golf_club_en",
-      "link": "/course/kansai_golf_club_en"
+      "link": "/course/kansai_golf_club?lang=en"
     },
     {
       "id": "eniwa_country_club_ko",
+      "base_id": "eniwa_country_club",
       "lang": "ko",
       "title": "에니와 컨트리클럽 완벽 해설: 일본 명문 골프장의 진수를 파헤치다 (ko)",
       "lat": 42.8844,
@@ -566,10 +597,11 @@
       "published": "2026-04-15",
       "summary": "홋카이도 에니와 컨트리클럽에 대한 9,000자 분량의 포괄적인 전문가 리뷰입니다. 역사, 전략, 건축 분석, 홀별 마스터클래스, 럭셔리 시설, 미식 경험 및 캐디의 비밀 팁까지, 이 가이드는 당신의 에니와 라운딩을 완벽하게 만들 것입니다.",
       "booking": "/booking/eniwa_country_club_ko",
-      "link": "/course/eniwa_country_club_ko"
+      "link": "/course/eniwa_country_club?lang=ko"
     },
     {
       "id": "spa_resort_hawaiians_golf_en",
+      "base_id": "spa_resort_hawaiians_golf",
       "lang": "en",
       "title": "The Definitive Guide to Spa Resort Hawaiians Golf: An Expert Review by an Elite Rater & Caddy",
       "lat": 36.9644,
@@ -585,10 +617,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Spa Resort Hawaiians Golf, crafted by an elite Japanese golf course rater and senior caddy. Discover its strategic brilliance, luxurious onsen, and gourmet dining for an unparalleled 'stay and play' experience.",
       "booking": "/booking/spa_resort_hawaiians_golf_en",
-      "link": "/course/spa_resort_hawaiians_golf_en"
+      "link": "/course/spa_resort_hawaiians_golf?lang=en"
     },
     {
       "id": "aso_sky_blue_golf_club_en",
+      "base_id": "aso_sky_blue_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Aso Sky Blue Golf Club: An Expert Review (en)",
       "lat": 32.9844,
@@ -603,10 +636,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Aso Sky Blue Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/aso_sky_blue_golf_club_en",
-      "link": "/course/aso_sky_blue_golf_club_en"
+      "link": "/course/aso_sky_blue_golf_club?lang=en"
     },
     {
       "id": "kanucha_golf_course_ko",
+      "base_id": "kanucha_golf_course",
       "lang": "ko",
       "title": "카누차 골프 코스 완전 분석: 전문가의 마스터피스 리뷰",
       "lat": 26.5444,
@@ -621,10 +655,11 @@
       "published": "2026-04-15",
       "summary": "카누차 골프 코스의 전략, 역사, 럭셔리 시설을 총망라한 9,000자 전문가 마스터 가이드입니다.",
       "booking": "/booking/kanucha_golf_course_ko",
-      "link": "/course/kanucha_golf_course_ko"
+      "link": "/course/kanucha_golf_course?lang=ko"
     },
     {
       "id": "nasu_ogawa_golf_club_en",
+      "base_id": "nasu_ogawa_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Nasu Ogawa Golf Club: An Expert Review (en)",
       "lat": 36.7844,
@@ -640,10 +675,11 @@
       "published": "2026-04-15",
       "summary": "An 8,500-character master guide to Nasu Ogawa Golf Club, meticulously reviewed by an elite Japanese rater and senior caddy, covering its strategic design, rich history, luxurious amenities, and unparalleled gourmet experiences.",
       "booking": "/booking/nasu_ogawa_golf_club_en",
-      "link": "/course/nasu_ogawa_golf_club_en"
+      "link": "/course/nasu_ogawa_golf_club?lang=en"
     },
     {
       "id": "naruo_golf_club_ko",
+      "base_id": "naruo_golf_club",
       "lang": "ko",
       "title": "나루오 골프 클럽 마스터 가이드: 명문 코스 심층 분석 (ko)",
       "lat": 34.8194,
@@ -658,10 +694,11 @@
       "published": "2026-04-15",
       "summary": "나루오 골프 클럽의 전략, 역사, 럭셔리 시설을 망라한 9,000자 심층 마스터 가이드.",
       "booking": "/booking/naruo_golf_club_ko",
-      "link": "/course/naruo_golf_club_ko"
+      "link": "/course/naruo_golf_club?lang=ko"
     },
     {
       "id": "katsura_golf_club_ko",
+      "base_id": "katsura_golf_club",
       "lang": "ko",
       "title": "가쓰라 골프 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰",
       "lat": 42.8144,
@@ -676,10 +713,11 @@
       "published": "2026-04-15",
       "summary": "홋카이도의 숨겨진 보석, 가쓰라 골프 클럽에 대한 20년 경력 베테랑 캐디이자 코스 평가사의 심층 가이드입니다. 역사, 코스 전략, 최고급 시설, 미식 경험까지 8,000자 이상의 풍부한 정보로 최적의 라운딩을 위한 모든 것을 제공합니다.",
       "booking": "/booking/katsura_golf_club_ko",
-      "link": "/course/katsura_golf_club_ko"
+      "link": "/course/katsura_golf_club?lang=ko"
     },
     {
       "id": "ryukyu_golf_club_ko",
+      "base_id": "ryukyu_golf_club",
       "lang": "ko",
       "title": "류큐 골프 클럽 마스터 가이드: 전문가의 심층 리뷰",
       "lat": 26.1544,
@@ -694,10 +732,11 @@
       "published": "2026-04-15",
       "summary": "류큐 골프 클럽의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드입니다.",
       "booking": "/booking/ryukyu_golf_club_ko",
-      "link": "/course/ryukyu_golf_club_ko"
+      "link": "/course/ryukyu_golf_club?lang=ko"
     },
     {
       "id": "kishu_golf_club_en",
+      "base_id": "kishu_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Kishu Golf Club: An Expert Review by an Elite Japanese Caddy",
       "lat": 33.7544,
@@ -714,10 +753,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Kishu Golf Club from an elite Japanese caddy, covering its prestigious history, strategic architecture, hole-by-hole insights, opulent clubhouse, gourmet dining, and essential travel tips for an unforgettable championship experience in Wakayama.",
       "booking": "/booking/kishu_golf_club_en",
-      "link": "/course/kishu_golf_club_en"
+      "link": "/course/kishu_golf_club?lang=en"
     },
     {
       "id": "hirono_golf_club_ko",
+      "base_id": "hirono_golf_club",
       "lang": "ko",
       "title": "히로노 골프 클럽 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 34.7967,
@@ -732,10 +772,11 @@
       "published": "2026-04-15",
       "summary": "히로노 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 전략, 역사, 럭셔리 시설을 총망라한 전문가 리뷰입니다.",
       "booking": "/booking/hirono_golf_club_ko",
-      "link": "/course/hirono_golf_club_ko"
+      "link": "/course/hirono_golf_club?lang=ko"
     },
     {
       "id": "caledonian_golf_club_en",
+      "base_id": "caledonian_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Caledonian Golf Club: An Expert Review (en)",
       "lat": 35.7444,
@@ -750,10 +791,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Caledonian Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/caledonian_golf_club_en",
-      "link": "/course/caledonian_golf_club_en"
+      "link": "/course/caledonian_golf_club?lang=en"
     },
     {
       "id": "sodegaura_country_club_ko",
+      "base_id": "sodegaura_country_club",
       "lang": "ko",
       "title": "소데가우라 컨트리 클럽 완벽 가이드: 20년 캐디의 시선으로 파헤친 일본 명문 코스 (전문가 리뷰)",
       "lat": 35.6344,
@@ -768,10 +810,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 파헤친 소데가우라 컨트리 클럽의 역사, 전략, 시설, 미식 가이드. 일본 골프의 정수를 경험하세요.",
       "booking": "/booking/sodegaura_country_club_ko",
-      "link": "/course/sodegaura_country_club_ko"
+      "link": "/course/sodegaura_country_club?lang=ko"
     },
     {
       "id": "shizukuishi_golf_course_en",
+      "base_id": "shizukuishi_golf_course",
       "lang": "en",
       "title": "The Definitive Guide to Shizukuishi Golf Course: An Expert Review (en)",
       "lat": 39.6544,
@@ -786,10 +829,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Shizukuishi Golf Course, covering strategy, history, and luxury facilities.",
       "booking": "/booking/shizukuishi_golf_course_en",
-      "link": "/course/shizukuishi_golf_course_en"
+      "link": "/course/shizukuishi_golf_course?lang=en"
     },
     {
       "id": "takamatsu_gold_country_club_ko",
+      "base_id": "takamatsu_gold_country_club",
       "lang": "ko",
       "title": "다카마쓰 골드 컨트리 클럽 완벽 분석: 전문가의 시선 (Takamatsu Gold Country Club Definitive Review)",
       "lat": 34.2244,
@@ -807,10 +851,11 @@
       "published": "2026-04-15",
       "summary": "가가와현에 위치한 다카마쓰 골드 컨트리 클럽에 대한 9,000자 이상의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설까지 전문가의 깊이 있는 분석을 담았습니다. 일본 골프의 진수를 경험하세요.",
       "booking": "/booking/takamatsu_gold_country_club_ko",
-      "link": "/course/takamatsu_gold_country_club_ko"
+      "link": "/course/takamatsu_gold_country_club?lang=ko"
     },
     {
       "id": "cherry_hills_golf_club_en",
+      "base_id": "cherry_hills_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Cherry Hills Golf Club: An Expert Review (en)",
       "lat": 34.7844,
@@ -825,10 +870,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Cherry Hills Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/cherry_hills_golf_club_en",
-      "link": "/course/cherry_hills_golf_club_en"
+      "link": "/course/cherry_hills_golf_club?lang=en"
     },
     {
       "id": "accordia_golf_narita_airport_en",
+      "base_id": "accordia_golf_narita_airport",
       "lang": "en",
       "title": "The Definitive Guide to Accordia Golf Narita Airport: An Expert Review (en)",
       "lat": 35.7844,
@@ -843,10 +889,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Accordia Golf Narita Airport, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/accordia_golf_narita_airport_en",
-      "link": "/course/accordia_golf_narita_airport_en"
+      "link": "/course/accordia_golf_narita_airport?lang=en"
     },
     {
       "id": "lake_wood_golf_club_ko",
+      "base_id": "lake_wood_golf_club",
       "lang": "ko",
       "title": "레이크우드 골프 클럽 완벽 가이드: 명품 코스 레이아웃과 전략적 분석 (OKCaddie 독점 리뷰)",
       "lat": 35.3244,
@@ -862,10 +909,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 전하는 레이크우드 골프 클럽에 대한 9,000자 심층 분석. 코스 공략, 역사, 최고급 시설, 미식 경험까지 완벽하게 담아낸 프리미엄 리뷰입니다.",
       "booking": "/booking/lake_wood_golf_club_ko",
-      "link": "/course/lake_wood_golf_club_ko"
+      "link": "/course/lake_wood_golf_club?lang=ko"
     },
     {
       "id": "ueda_sugadaira_kogen_golf_ko",
+      "base_id": "ueda_sugadaira_kogen_golf",
       "lang": "ko",
       "title": "우에다 스가다이라 고원 골프: 전문가 마스터 리뷰 (Ueda Sugadaira Kogen Golf: Expert Master Review)",
       "lat": 36.5244,
@@ -880,10 +928,11 @@
       "published": "2026-04-15",
       "summary": "우에다 스가다이라 고원 골프의 역사, 전략, 럭셔리 시설을 다루는 9,000자 분량의 종합 마스터 가이드입니다. 최고 수준의 분석으로 코스 공략법, 온천 경험, 미식 가이드까지 완벽하게 제시합니다.",
       "booking": "/booking/ueda_sugadaira_kogen_golf_ko",
-      "link": "/course/ueda_sugadaira_kogen_golf_ko"
+      "link": "/course/ueda_sugadaira_kogen_golf?lang=ko"
     },
     {
       "id": "seta_golf_course_north_ko",
+      "base_id": "seta_golf_course_north",
       "lang": "ko",
       "title": "세타 골프 코스 북 코스 완벽 가이드: 20년 경력 캐디가 전하는 마스터피스 리뷰 (ko)",
       "lat": 34.9644,
@@ -898,10 +947,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 일본 엘리트 골프 코스 평가가이자 시니어 캐디가 세타 골프 코스 북 코스를 8,000자 이상으로 심층 분석합니다. 역사, 전략, 시설, 미식까지 아우르는 궁극의 가이드로, 당신의 라운드를 위한 필독서입니다.",
       "booking": "/booking/seta_golf_course_north_ko",
-      "link": "/course/seta_golf_course_north_ko"
+      "link": "/course/seta_golf_course_north?lang=ko"
     },
     {
       "id": "karuizawa_asama_golf_course_en",
+      "base_id": "karuizawa_asama_golf_course",
       "lang": "en",
       "title": "The Definitive Guide to Karuizawa Asama Golf Course: An Expert Review (en)",
       "lat": 36.3144,
@@ -916,10 +966,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Karuizawa Asama Golf Course, covering strategy, history, and luxury facilities.",
       "booking": "/booking/karuizawa_asama_golf_course_en",
-      "link": "/course/karuizawa_asama_golf_course_en"
+      "link": "/course/karuizawa_asama_golf_course?lang=en"
     },
     {
       "id": "aso_resort_grandvrio_en",
+      "base_id": "aso_resort_grandvrio",
       "lang": "en",
       "title": "The Definitive Guide to Aso Resort Grandvrio: An Expert Review (en)",
       "lat": 32.9644,
@@ -934,10 +985,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Aso Resort Grandvrio, covering strategy, history, and luxury facilities.",
       "booking": "/booking/aso_resort_grandvrio_en",
-      "link": "/course/aso_resort_grandvrio_en"
+      "link": "/course/aso_resort_grandvrio?lang=en"
     },
     {
       "id": "chiba_country_club_umesato_ko",
+      "base_id": "chiba_country_club_umesato",
       "lang": "ko",
       "title": "치바 컨트리 클럽 우메사토: 일본 명문 골프의 정수를 경험하다 – 전문가 리뷰 (ko)",
       "lat": 35.9344,
@@ -953,10 +1005,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 일본인 베테랑 캐디가 치바 컨트리 클럽 우메사토 코스를 심층 분석합니다. 역사, 전략, 홀별 공략, 최고급 시설 및 미식 경험까지, 이 9,000자 전문가 가이드를 통해 일본 최고의 골프를 만나보세요.",
       "booking": "/booking/chiba_country_club_umesato_ko",
-      "link": "/course/chiba_country_club_umesato_ko"
+      "link": "/course/chiba_country_club_umesato?lang=ko"
     },
     {
       "id": "golden_valley_golf_club_ko",
+      "base_id": "golden_valley_golf_club",
       "lang": "ko",
       "title": "골든밸리 골프 클럽 심층 분석: 전문가 리뷰 (ko)",
       "lat": 34.8844,
@@ -971,10 +1024,11 @@
       "published": "2026-04-15",
       "summary": "골든밸리 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 심층 가이드입니다.",
       "booking": "/booking/golden_valley_golf_club_ko",
-      "link": "/course/golden_valley_golf_club_ko"
+      "link": "/course/golden_valley_golf_club?lang=ko"
     },
     {
       "id": "abiko_golf_club_ko",
+      "base_id": "abiko_golf_club",
       "lang": "ko",
       "title": "아비코 골프 클럽 완전 분석: 일본 최고 명문 코스 전문가 리뷰 (OKCaddie 독점)",
       "lat": 35.8544,
@@ -989,10 +1043,11 @@
       "published": "2026-04-15",
       "summary": "아비코 골프 클럽에 대한 8,000자 이상의 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심층적으로 다룹니다.",
       "booking": "/booking/abiko_golf_club_ko",
-      "link": "/course/abiko_golf_club_ko"
+      "link": "/course/abiko_golf_club?lang=ko"
     },
     {
       "id": "enoshima_golf_club_en",
+      "base_id": "enoshima_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Enoshima Golf Club: An Expert Review (en)",
       "lat": 35.3144,
@@ -1007,10 +1062,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Enoshima Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/enoshima_golf_club_en",
-      "link": "/course/enoshima_golf_club_en"
+      "link": "/course/enoshima_golf_club?lang=en"
     },
     {
       "id": "ibaraki_golf_club_ko",
+      "base_id": "ibaraki_golf_club",
       "lang": "ko",
       "title": "이바라키 골프 클럽 마스터 가이드: 명예와 전략이 숨 쉬는 코스 (전문가 리뷰)",
       "lat": 35.9744,
@@ -1025,10 +1081,11 @@
       "published": "2026-04-15",
       "summary": "이바라키 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 클럽의 역사, 코스 전략, 최고급 시설, 미식 경험을 심층 분석합니다.",
       "booking": "/booking/ibaraki_golf_club_ko",
-      "link": "/course/ibaraki_golf_club_ko"
+      "link": "/course/ibaraki_golf_club?lang=ko"
     },
     {
       "id": "narita_golf_club_en",
+      "base_id": "narita_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Narita Golf Club: An Expert Review by a Japanese Elite Golf Rater (en)",
       "lat": 35.8344,
@@ -1043,10 +1100,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Narita Golf Club, covering strategic architecture, historical prestige, luxurious facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/narita_golf_club_en",
-      "link": "/course/narita_golf_club_en"
+      "link": "/course/narita_golf_club?lang=en"
     },
     {
       "id": "saga_classic_golf_club_ko",
+      "base_id": "saga_classic_golf_club",
       "lang": "ko",
       "title": "사가 클래식 골프 클럽 마스터 가이드: 20년 경력 캐디의 심층 분석 (SEO 최적화)",
       "lat": 33.3144,
@@ -1064,10 +1122,11 @@
       "published": "2026-04-15",
       "summary": "사가 클래식 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 코스 전략, 역사, 럭셔리 시설, 미식 경험까지, 현직 캐디의 시선으로 분석한 최고 수준의 리뷰입니다.",
       "booking": "/booking/saga_classic_golf_club_ko",
-      "link": "/course/saga_classic_golf_club_ko"
+      "link": "/course/saga_classic_golf_club?lang=ko"
     },
     {
       "id": "the_north_country_golf_club_en",
+      "base_id": "the_north_country_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to The North Country Golf Club: An Expert Review (en)",
       "lat": 42.8456,
@@ -1082,10 +1141,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to The North Country Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/the_north_country_golf_club_en",
-      "link": "/course/the_north_country_golf_club_en"
+      "link": "/course/the_north_country_golf_club?lang=en"
     },
     {
       "id": "tom_watson_golf_course_ko",
+      "base_id": "tom_watson_golf_course",
       "lang": "ko",
       "title": "톰 왓슨 골프 코스 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 31.9644,
@@ -1100,10 +1160,11 @@
       "published": "2026-04-15",
       "summary": "톰 왓슨 골프 코스의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다.",
       "booking": "/booking/tom_watson_golf_course_ko",
-      "link": "/course/tom_watson_golf_course_ko"
+      "link": "/course/tom_watson_golf_course?lang=ko"
     },
     {
       "id": "musashi_country_club_sasai_ko",
+      "base_id": "musashi_country_club_sasai",
       "lang": "ko",
       "title": "무사시 컨트리 클럽 사사이 완벽 공략: 전문가의 마스터 리뷰 (Musashi Country Club Sasai)",
       "lat": 35.8444,
@@ -1119,10 +1180,11 @@
       "published": "2026-04-15",
       "summary": "무사시 컨트리 클럽 사사이의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드. 최고의 일본 골프 경험을 위한 필수 정보.",
       "booking": "/booking/musashi_country_club_sasai_ko",
-      "link": "/course/musashi_country_club_sasai_ko"
+      "link": "/course/musashi_country_club_sasai?lang=ko"
     },
     {
       "id": "sayama_golf_club_ko",
+      "base_id": "sayama_golf_club",
       "lang": "ko",
       "title": "사야마 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디가 전하는 심층 분석",
       "lat": 35.8144,
@@ -1137,10 +1199,11 @@
       "published": "2026-04-15",
       "summary": "사야마 골프 클럽의 역사, 코스 전략, 최고급 시설, 미식 경험 및 캐디의 비밀 팁까지, 약 9,000자에 이르는 종합 마스터 가이드.",
       "booking": "/booking/sayama_golf_club_ko",
-      "link": "/course/sayama_golf_club_ko"
+      "link": "/course/sayama_golf_club?lang=ko"
     },
     {
       "id": "fukushima_golf_club_en",
+      "base_id": "fukushima_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Fukushima Golf Club: An Expert Review (en)",
       "lat": 37.7844,
@@ -1156,10 +1219,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Fukushima Golf Club, covering strategic architectural analysis, historical prestige, luxury facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/fukushima_golf_club_en",
-      "link": "/course/fukushima_golf_club_en"
+      "link": "/course/fukushima_golf_club?lang=en"
     },
     {
       "id": "aichi_country_club_en",
+      "base_id": "aichi_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Aichi Country Club: An Expert Review by a Japanese Golf Rater & Senior Caddy",
       "lat": 35.1544,
@@ -1175,10 +1239,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Aichi Country Club, Japan's revered championship course. This expert review by a seasoned caddy unveils strategic insights, historical prestige, luxurious amenities, and dining perfection for the discerning global golfer. Optimized for SEO to be your ultimate resource.",
       "booking": "/booking/aichi_country_club_en",
-      "link": "/course/aichi_country_club_en"
+      "link": "/course/aichi_country_club?lang=en"
     },
     {
       "id": "passage_kinkai_island_en",
+      "base_id": "passage_kinkai_island",
       "lang": "en",
       "title": "The Definitive Guide to Passage Kinkai Island: An Expert Review (en)",
       "lat": 32.8944,
@@ -1193,10 +1258,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Passage Kinkai Island, covering strategy, history, and luxury facilities.",
       "booking": "/booking/passage_kinkai_island_en",
-      "link": "/course/passage_kinkai_island_en"
+      "link": "/course/passage_kinkai_island?lang=en"
     },
     {
       "id": "camellia_hills_country_club_ko",
+      "base_id": "camellia_hills_country_club",
       "lang": "ko",
       "title": "카멜리아 힐스 컨트리 클럽 완벽 분석: 20년 경력 캐디의 마스터피스 리뷰 (ko)",
       "lat": 35.4144,
@@ -1211,10 +1277,11 @@
       "published": "2026-04-15",
       "summary": "카멜리아 힐스 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다.",
       "booking": "/booking/camellia_hills_country_club_ko",
-      "link": "/course/camellia_hills_country_club_ko"
+      "link": "/course/camellia_hills_country_club?lang=ko"
     },
     {
       "id": "chiran_country_club_en",
+      "base_id": "chiran_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Chiran Country Club: An Expert Review by an Elite Rater (en)",
       "lat": 31.4144,
@@ -1230,10 +1297,11 @@
       "published": "2026-04-15",
       "summary": "An 8,000+ character master guide to Chiran Country Club, penned by an elite Japanese golf rater and senior caddy. Discover its profound history, strategic architectural brilliance, hole-by-hole masterclass, luxurious clubhouse, exquisite dining, and essential playing tips for an unparalleled Kagoshima golf experience.",
       "booking": "/booking/chiran_country_club_en",
-      "link": "/course/chiran_country_club_en"
+      "link": "/course/chiran_country_club?lang=en"
     },
     {
       "id": "katsuragi_golf_club_en",
+      "base_id": "katsuragi_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Katsuragi Golf Club: An Expert Review by a Japanese Elite Rater and Senior Caddy",
       "lat": 34.7944,
@@ -1248,10 +1316,11 @@
       "published": "2026-04-15",
       "summary": "An exhaustive 9,000-character master guide to Katsuragi Golf Club, meticulously detailing its strategic architecture, historical prestige, luxurious amenities, and unique golfing challenge. Penned by an elite Japanese golf course rater and senior caddy, this review offers unparalleled insights for the discerning golfer seeking the pinnacle of Japanese golf experiences, ensuring top SEO ranking for 'Katsuragi Golf Club'.",
       "booking": "/booking/katsuragi_golf_club_en",
-      "link": "/course/katsuragi_golf_club_en"
+      "link": "/course/katsuragi_golf_club?lang=en"
     },
     {
       "id": "shimonoseki_golf_club_en",
+      "base_id": "shimonoseki_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Shimonoseki Golf Club: An Expert Review (en)",
       "lat": 34.0944,
@@ -1266,10 +1335,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Shimonoseki Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/shimonoseki_golf_club_en",
-      "link": "/course/shimonoseki_golf_club_en"
+      "link": "/course/shimonoseki_golf_club?lang=en"
     },
     {
       "id": "ryugasaki_country_club_ko",
+      "base_id": "ryugasaki_country_club",
       "lang": "ko",
       "title": "류가사키 컨트리 클럽 완벽 해부: 명문 코스 전문가 리뷰 (ko)",
       "lat": 35.9144,
@@ -1284,10 +1354,11 @@
       "published": "2026-04-15",
       "summary": "류가사키 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 전략, 역사, 럭셔리 시설을 심도 있게 다룹니다. 일본 명문 골프장의 정수를 경험하세요.",
       "booking": "/booking/ryugasaki_country_club_ko",
-      "link": "/course/ryugasaki_country_club_ko"
+      "link": "/course/ryugasaki_country_club?lang=ko"
     },
     {
       "id": "kinojo_golf_club_en",
+      "base_id": "kinojo_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Kinojo Golf Club: An Expert Review (en)",
       "lat": 34.7244,
@@ -1302,10 +1373,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kinojo Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kinojo_golf_club_en",
-      "link": "/course/kinojo_golf_club_en"
+      "link": "/course/kinojo_golf_club?lang=en"
     },
     {
       "id": "izu_ohito_country_club_ko",
+      "base_id": "izu_ohito_country_club",
       "lang": "ko",
       "title": "이즈 오히토 컨트리 클럽 완벽 가이드: 명품 코스 레이터의 심층 분석",
       "lat": 35.0144,
@@ -1320,10 +1392,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 선사하는 이즈 오히토 컨트리 클럽의 역사, 전략, 미식, 온천 등 9,000자 분량의 심도 깊은 마스터 가이드입니다.",
       "booking": "/booking/izu_ohito_country_club_ko",
-      "link": "/course/izu_ohito_country_club_ko"
+      "link": "/course/izu_ohito_country_club?lang=ko"
     },
     {
       "id": "ube_72_country_club_ko",
+      "base_id": "ube_72_country_club",
       "lang": "ko",
       "title": "우베 72 컨트리 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰",
       "lat": 33.9944,
@@ -1338,10 +1411,11 @@
       "published": "2026-04-15",
       "summary": "우베 72 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 코스 전략, 역사, 럭셔리 시설을 다룬 최고 전문가의 심층 리뷰.",
       "booking": "/booking/ube_72_country_club_ko",
-      "link": "/course/ube_72_country_club_ko"
+      "link": "/course/ube_72_country_club?lang=ko"
     },
     {
       "id": "pgm_golf_resort_okinawa_en",
+      "base_id": "pgm_golf_resort_okinawa",
       "lang": "en",
       "title": "The Definitive Guide to PGM Golf Resort Okinawa: An Expert Review (en)",
       "lat": 26.4344,
@@ -1356,10 +1430,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to PGM Golf Resort Okinawa, covering strategy, history, and luxury facilities.",
       "booking": "/booking/pgm_golf_resort_okinawa_en",
-      "link": "/course/pgm_golf_resort_okinawa_en"
+      "link": "/course/pgm_golf_resort_okinawa?lang=en"
     },
     {
       "id": "fukuoka_country_club_ko",
+      "base_id": "fukuoka_country_club",
       "lang": "ko",
       "title": "후쿠오카 컨트리 클럽 완벽 분석: 엘리트 코스 레이터의 마스터 리뷰 (ko)",
       "lat": 33.6944,
@@ -1374,10 +1449,11 @@
       "published": "2026-04-15",
       "summary": "후쿠오카 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라한 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/fukuoka_country_club_ko",
-      "link": "/course/fukuoka_country_club_ko"
+      "link": "/course/fukuoka_country_club?lang=ko"
     },
     {
       "id": "atta_terrace_golf_resort_en",
+      "base_id": "atta_terrace_golf_resort",
       "lang": "en",
       "title": "The Definitive Guide to Atta Terrace Golf Resort: An Expert Review (en)",
       "lat": 26.5144,
@@ -1392,10 +1468,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Atta Terrace Golf Resort, covering strategic design, historical prestige, luxurious amenities, and culinary excellence for the discerning golfer seeking the ultimate Okinawa experience.",
       "booking": "/booking/atta_terrace_golf_resort_en",
-      "link": "/course/atta_terrace_golf_resort_en"
+      "link": "/course/atta_terrace_golf_resort?lang=en"
     },
     {
       "id": "oita_country_club_ko",
+      "base_id": "oita_country_club",
       "lang": "ko",
       "title": "오이타 컨트리클럽 심층 분석: 전문가의 마스터 리뷰",
       "lat": 33.1544,
@@ -1410,10 +1487,11 @@
       "published": "2026-04-15",
       "summary": "오이타 컨트리클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드. 숙련된 캐디의 시선으로 코스 설계부터 미식, 온천까지 완벽 해부합니다.",
       "booking": "/booking/oita_country_club_ko",
-      "link": "/course/oita_country_club_ko"
+      "link": "/course/oita_country_club?lang=ko"
     },
     {
       "id": "miyoshi_country_club_en",
+      "base_id": "miyoshi_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Miyoshi Country Club: An Expert Review",
       "lat": 35.0944,
@@ -1428,10 +1506,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Miyoshi Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/miyoshi_country_club_en",
-      "link": "/course/miyoshi_country_club_en"
+      "link": "/course/miyoshi_country_club?lang=en"
     },
     {
       "id": "wakagi_golf_club_ko",
+      "base_id": "wakagi_golf_club",
       "lang": "ko",
       "title": "와카기 골프 클럽 완전 분석: 일본 명문 코스 정복을 위한 마스터 가이드 (OKCaddie 독점 리뷰)",
       "lat": 33.2544,
@@ -1446,10 +1525,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 와카기 골프 클럽의 역사, 전략, 시설, 미식까지 심층 분석한 9,000자 프리미엄 가이드입니다. 일본 골프 여행을 위한 최고의 선택.",
       "booking": "/booking/wakagi_golf_club_ko",
-      "link": "/course/wakagi_golf_club_ko"
+      "link": "/course/wakagi_golf_club?lang=ko"
     },
     {
       "id": "nasu_kogen_golf_club_ko",
+      "base_id": "nasu_kogen_golf_club",
       "lang": "ko",
       "title": "나스 고원 골프 클럽 마스터 가이드: 명문 코스 전문가 리뷰",
       "lat": 37.0544,
@@ -1464,10 +1544,11 @@
       "published": "2026-04-15",
       "summary": "나스 고원 골프 클럽의 전략, 역사, 럭셔리 시설을 9,000자에 걸쳐 심층 분석한 마스터 가이드.",
       "booking": "/booking/nasu_kogen_golf_club_ko",
-      "link": "/course/nasu_kogen_golf_club_ko"
+      "link": "/course/nasu_kogen_golf_club?lang=ko"
     },
     {
       "id": "kawana_hotel_golf_course_fuji_course_ko",
+      "base_id": "kawana_hotel_golf_course_fuji_course",
       "lang": "ko",
       "title": "가와나 호텔 골프 코스 후지 코스 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 34.9038,
@@ -1482,10 +1563,11 @@
       "published": "2026-04-15",
       "summary": "가와나 호텔 골프 코스 후지 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/kawana_hotel_golf_course_fuji_course_ko",
-      "link": "/course/kawana_hotel_golf_course_fuji_course_ko"
+      "link": "/course/kawana_hotel_golf_course_fuji_course?lang=ko"
     },
     {
       "id": "nemun_sato_golf_club_en",
+      "base_id": "nemun_sato_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Nemun Sato Golf Club: An Expert Review (en)",
       "lat": 34.3144,
@@ -1500,10 +1582,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nemun Sato Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/nemun_sato_golf_club_en",
-      "link": "/course/nemun_sato_golf_club_en"
+      "link": "/course/nemun_sato_golf_club?lang=en"
     },
     {
       "id": "keya_golf_club_ko",
+      "base_id": "keya_golf_club",
       "lang": "ko",
       "title": "케야 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 분석 (ko)",
       "lat": 33.6044,
@@ -1518,10 +1601,11 @@
       "published": "2026-04-15",
       "summary": "케야 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/keya_golf_club_ko",
-      "link": "/course/keya_golf_club_ko"
+      "link": "/course/keya_golf_club?lang=ko"
     },
     {
       "id": "fuchu_country_club_ko",
+      "base_id": "fuchu_country_club",
       "lang": "ko",
       "title": "The Definitive Guide to Fuchu Country Club: An Expert Review (ko)",
       "lat": 35.6344,
@@ -1536,10 +1620,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Fuchu Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/fuchu_country_club_ko",
-      "link": "/course/fuchu_country_club_ko"
+      "link": "/course/fuchu_country_club?lang=ko"
     },
     {
       "id": "the_royal_golf_club_en",
+      "base_id": "the_royal_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to The Royal Golf Club: An Expert Review by an Elite Japanese Golf Rater (en)",
       "lat": 36.1444,
@@ -1555,10 +1640,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to The Royal Golf Club in Ibaraki, Japan. This expert review offers deep insights into its historical prestige, strategic architectural analysis, a hole-by-hole masterclass, an immersive clubhouse and onsen experience, gourmet dining, and essential seasonal tips for discerning golfers seeking the ultimate Japanese championship challenge.",
       "booking": "/booking/the_royal_golf_club_en",
-      "link": "/course/the_royal_golf_club_en"
+      "link": "/course/the_royal_golf_club?lang=en"
     },
     {
       "id": "hiratsuka_fuji_golf_course_ko",
+      "base_id": "hiratsuka_fuji_golf_course",
       "lang": "ko",
       "title": "The Definitive Guide to Hiratsuka Fuji Golf Course: An Expert Review (ko)",
       "lat": 35.3544,
@@ -1573,10 +1659,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 일본인 마스터 캐디가 히라츠카 후지 골프 코스의 역사, 전략, 시설, 미식, 그리고 숨겨진 팁까지 8,000자 이상의 심층 분석으로 완벽하게 해부합니다. OKCaddie에서 #1 랭크를 목표로 작성된 최고의 가이드.",
       "booking": "/booking/hiratsuka_fuji_golf_course_ko",
-      "link": "/course/hiratsuka_fuji_golf_course_ko"
+      "link": "/course/hiratsuka_fuji_golf_course?lang=ko"
     },
     {
       "id": "shishido_hills_country_club_en",
+      "base_id": "shishido_hills_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Shishido Hills Country Club: An Expert Review",
       "lat": 36.3244,
@@ -1591,10 +1678,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Shishido Hills Country Club, covering strategy, history, and luxury facilities, essential for ranking #1 on Google for premium Japanese golf travel.",
       "booking": "/booking/shishido_hills_country_club_en",
-      "link": "/course/shishido_hills_country_club_en"
+      "link": "/course/shishido_hills_country_club?lang=en"
     },
     {
       "id": "southern_links_golf_club_ko",
+      "base_id": "southern_links_golf_club",
       "lang": "ko",
       "title": "서던 링크스 골프 클럽 마스터 가이드: 명예로운 캐디가 전하는 최고의 라운딩 경험",
       "lat": 26.1144,
@@ -1610,10 +1698,11 @@
       "published": "2026-04-15",
       "summary": "오키나와의 보석, 서던 링크스 골프 클럽에 대한 9,000자에 달하는 심도 깊은 전문가 리뷰입니다. 코스 전략, 유구한 역사, 최고급 시설을 아우르는 완벽한 가이드를 제공합니다.",
       "booking": "/booking/southern_links_golf_club_ko",
-      "link": "/course/southern_links_golf_club_ko"
+      "link": "/course/southern_links_golf_club?lang=ko"
     },
     {
       "id": "satsuma_resort_golf_club_ko",
+      "base_id": "satsuma_resort_golf_club",
       "lang": "ko",
       "title": "사츠마 리조트 골프 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰 (ko)",
       "lat": 31.8944,
@@ -1628,10 +1717,11 @@
       "published": "2026-04-15",
       "summary": "사츠마 리조트 골프 클럽의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/satsuma_resort_golf_club_ko",
-      "link": "/course/satsuma_resort_golf_club_ko"
+      "link": "/course/satsuma_resort_golf_club?lang=ko"
     },
     {
       "id": "the_windsor_golf_course_ko",
+      "base_id": "the_windsor_golf_course",
       "lang": "ko",
       "title": "더 윈저 골프 코스 완벽 가이드: 한일 명문 골프장 평가 전문가의 마스터 리뷰",
       "lat": 42.5944,
@@ -1646,10 +1736,11 @@
       "published": "2026-04-15",
       "summary": "홋카이도의 보석, 더 윈저 골프 코스에 대한 9,000자에 달하는 심층 마스터 가이드입니다. 역사, 건축 전략, 홀별 공략, 럭셔리 시설, 미식 경험까지, 이 한 편으로 윈저를 완벽하게 정복하세요.",
       "booking": "/booking/the_windsor_golf_course_ko",
-      "link": "/course/the_windsor_golf_course_ko"
+      "link": "/course/the_windsor_golf_course?lang=ko"
     },
     {
       "id": "towada_highland_golf_club_en",
+      "base_id": "towada_highland_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Towada Highland Golf Club: An Expert Review (en)",
       "lat": 40.5544,
@@ -1664,10 +1755,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Towada Highland Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/towada_highland_golf_club_en",
-      "link": "/course/towada_highland_golf_club_en"
+      "link": "/course/towada_highland_golf_club?lang=en"
     },
     {
       "id": "zao_country_club_ko",
+      "base_id": "zao_country_club",
       "lang": "ko",
       "title": "자오 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 38.1944,
@@ -1682,10 +1774,11 @@
       "published": "2026-04-15",
       "summary": "자오 컨트리 클럽의 전략, 역사, 럭셔리 시설을 다루는 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/zao_country_club_ko",
-      "link": "/course/zao_country_club_ko"
+      "link": "/course/zao_country_club?lang=ko"
     },
     {
       "id": "kochi_golf_club_ko",
+      "base_id": "kochi_golf_club",
       "lang": "ko",
       "title": "고치 골프 클럽 마스터 가이드: 20년 경력의 캐디가 전하는 심층 분석",
       "lat": 33.5944,
@@ -1701,10 +1794,11 @@
       "published": "2026-04-15",
       "summary": "고치 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 고급 편의 시설, 그리고 20년 경력 캐디의 심층 분석을 다룹니다.",
       "booking": "/booking/kochi_golf_club_ko",
-      "link": "/course/kochi_golf_club_ko"
+      "link": "/course/kochi_golf_club?lang=ko"
     },
     {
       "id": "kasumigaseki_country_club_ko",
+      "base_id": "kasumigaseki_country_club",
       "lang": "ko",
       "title": "가스미가세키 컨트리 클럽 완벽 가이드: 전문가 리뷰",
       "lat": 35.8569,
@@ -1719,10 +1813,11 @@
       "published": "2026-04-15",
       "summary": "가스미가세키 컨트리 클럽의 전략, 역사, 럭셔리 시설을 다루는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/kasumigaseki_country_club_ko",
-      "link": "/course/kasumigaseki_country_club_ko"
+      "link": "/course/kasumigaseki_country_club?lang=ko"
     },
     {
       "id": "nishinasuno_country_club_ko",
+      "base_id": "nishinasuno_country_club",
       "lang": "ko",
       "title": "서나스노 컨트리 클럽 완벽 가이드: 명예로운 전문가 리뷰",
       "lat": 36.8944,
@@ -1737,10 +1832,11 @@
       "published": "2026-04-15",
       "summary": "서나스노 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 코스 전략, 최고급 시설, 미식 경험을 담은 전문가 리뷰입니다.",
       "booking": "/booking/nishinasuno_country_club_ko",
-      "link": "/course/nishinasuno_country_club_ko"
+      "link": "/course/nishinasuno_country_club?lang=ko"
     },
     {
       "id": "natsudomari_golf_links_ko",
+      "base_id": "natsudomari_golf_links",
       "lang": "ko",
       "title": "나츠도마리 골프 링크스 완벽 분석: 일본 최고 수준의 경험, 전문 캐디의 시선으로",
       "lat": 41.0144,
@@ -1756,10 +1852,11 @@
       "published": "2026-04-15",
       "summary": "나츠도마리 골프 링크스에 대한 9,000자 전문가 마스터 가이드. 역사, 전략, 최고급 시설, 미식 경험을 심층 분석합니다. 일본 북동부 아오모리의 숨겨진 보석, 진정한 링크스 골프의 정수를 경험하세요.",
       "booking": "/booking/natsudomari_golf_links_ko",
-      "link": "/course/natsudomari_golf_links_ko"
+      "link": "/course/natsudomari_golf_links?lang=ko"
     },
     {
       "id": "fuji_country_club_ko",
+      "base_id": "fuji_country_club",
       "lang": "ko",
       "title": "후지 컨트리 클럽 완벽 해설: 베테랑 캐디의 심층 분석 (ko)",
       "lat": 35.3344,
@@ -1774,10 +1871,11 @@
       "published": "2026-04-15",
       "summary": "후지 컨트리 클럽의 역사, 전략, 럭셔리 시설을 9,000자 분량으로 다룬 종합 마스터 가이드입니다.",
       "booking": "/booking/fuji_country_club_ko",
-      "link": "/course/fuji_country_club_ko"
+      "link": "/course/fuji_country_club?lang=ko"
     },
     {
       "id": "tateshina_highland_golf_club_en",
+      "base_id": "tateshina_highland_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Tateshina Highland Golf Club: An Expert Review (en)",
       "lat": 36.0544,
@@ -1792,10 +1890,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Tateshina Highland Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/tateshina_highland_golf_club_en",
-      "link": "/course/tateshina_highland_golf_club_en"
+      "link": "/course/tateshina_highland_golf_club?lang=en"
     },
     {
       "id": "ibusuki_golf_club_ko",
+      "base_id": "ibusuki_golf_club",
       "lang": "ko",
       "title": "이부스키 골프 클럽 마스터 가이드: 20년 경력의 캐디가 전하는 심층 분석 (ko)",
       "lat": 31.2144,
@@ -1810,10 +1909,11 @@
       "published": "2026-04-15",
       "summary": "이부스키 골프 클럽의 전략, 역사, 그리고 럭셔리 시설을 9,000자에 걸쳐 상세히 분석한 종합 마스터 가이드.",
       "booking": "/booking/ibusuki_golf_club_ko",
-      "link": "/course/ibusuki_golf_club_ko"
+      "link": "/course/ibusuki_golf_club?lang=ko"
     },
     {
       "id": "nikko_country_club_ko",
+      "base_id": "nikko_country_club",
       "lang": "ko",
       "title": "닛코 컨트리클럽 완벽 해부: 베테랑 캐디가 전하는 마스터 리뷰 (Nikko Country Club Expert Review)",
       "lat": 36.7244,
@@ -1828,10 +1928,11 @@
       "published": "2026-04-15",
       "summary": "닛코 컨트리클럽의 역사, 전략적 코스 분석, 홀별 마스터 가이드, 클럽하우스, 온천, 미식 경험, 그리고 캐디의 비밀 팁까지 9,000자 분량으로 심층 분석한 마스터 리뷰입니다.",
       "booking": "/booking/nikko_country_club_ko",
-      "link": "/course/nikko_country_club_ko"
+      "link": "/course/nikko_country_club?lang=ko"
     },
     {
       "id": "kagoshima_airport_36_cc_en",
+      "base_id": "kagoshima_airport_36_cc",
       "lang": "en",
       "title": "The Definitive Guide to Kagoshima Airport 36 CC: An Expert Review (en)",
       "lat": 31.8544,
@@ -1846,10 +1947,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kagoshima Airport 36 CC, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kagoshima_airport_36_cc_en",
-      "link": "/course/kagoshima_airport_36_cc_en"
+      "link": "/course/kagoshima_airport_36_cc?lang=en"
     },
     {
       "id": "suwa_lake_view_golf_club_ko",
+      "base_id": "suwa_lake_view_golf_club",
       "lang": "ko",
       "title": "스와 레이크 뷰 골프 클럽 완벽 분석: 전문가 리뷰 (ko)",
       "lat": 36.0144,
@@ -1864,10 +1966,11 @@
       "published": "2026-04-15",
       "summary": "스와 레이크 뷰 골프 클럽의 전략, 역사, 럭셔리 시설을 총망라한 9,000자 완벽 가이드.",
       "booking": "/booking/suwa_lake_view_golf_club_ko",
-      "link": "/course/suwa_lake_view_golf_club_ko"
+      "link": "/course/suwa_lake_view_golf_club?lang=ko"
     },
     {
       "id": "oarai_golf_club_ko",
+      "base_id": "oarai_golf_club",
       "lang": "ko",
       "title": "오아라이 골프 클럽 마스터 가이드: 명품 코스를 탐하다 (ko)",
       "lat": 36.3244,
@@ -1882,10 +1985,11 @@
       "published": "2026-04-15",
       "summary": "오아라이 골프 클럽의 역사, 건축, 홀별 전략, 최고급 시설 및 미식 경험을 담은 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/oarai_golf_club_ko",
-      "link": "/course/oarai_golf_club_ko"
+      "link": "/course/oarai_golf_club?lang=ko"
     },
     {
       "id": "yokohama_country_club_en",
+      "base_id": "yokohama_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Yokohama Country Club: An Expert Review (en)",
       "lat": 35.4344,
@@ -1900,10 +2004,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Yokohama Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and caddy.",
       "booking": "/booking/yokohama_country_club_en",
-      "link": "/course/yokohama_country_club_en"
+      "link": "/course/yokohama_country_club?lang=en"
     },
     {
       "id": "the_country_club_japan_en",
+      "base_id": "the_country_club_japan",
       "lang": "en",
       "title": "The Definitive Guide to The Country Club Japan: An Expert Review (en)",
       "lat": 34.8544,
@@ -1918,10 +2023,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to The Country Club Japan, covering strategy, history, and luxury facilities.",
       "booking": "/booking/the_country_club_japan_en",
-      "link": "/course/the_country_club_japan_en"
+      "link": "/course/the_country_club_japan?lang=en"
     },
     {
       "id": "matsuyama_golf_club_ko",
+      "base_id": "matsuyama_golf_club",
       "lang": "ko",
       "title": "마쓰야마 골프 클럽 마스터 가이드: 20년 경력 캐디의 전문가 심층 리뷰 (OKCaddie)",
       "lat": 33.7544,
@@ -1936,10 +2042,11 @@
       "published": "2026-04-15",
       "summary": "총 9,000자에 달하는 마쓰야마 골프 클럽의 종합 마스터 가이드. 전략, 역사, 럭셔리 시설을 망라한 심도 깊은 분석을 제공합니다.",
       "booking": "/booking/matsuyama_golf_club_ko",
-      "link": "/course/matsuyama_golf_club_ko"
+      "link": "/course/matsuyama_golf_club?lang=ko"
     },
     {
       "id": "okayama_goshuin_golf_club_ko",
+      "base_id": "okayama_goshuin_golf_club",
       "lang": "ko",
       "title": "오카야마 고슈인 골프 클럽 마스터 가이드: 20년 경력 캐디의 심층 분석",
       "lat": 34.8544,
@@ -1955,10 +2062,11 @@
       "published": "2026-04-15",
       "summary": "오카야마 고슈인 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 전략, 역사, 럭셔리 시설을 망라합니다.",
       "booking": "/booking/okayama_goshuin_golf_club_ko",
-      "link": "/course/okayama_goshuin_golf_club_ko"
+      "link": "/course/okayama_goshuin_golf_club?lang=ko"
     },
     {
       "id": "nishinippon_country_club_ko",
+      "base_id": "nishinippon_country_club",
       "lang": "ko",
       "title": "니시닛폰 컨트리 클럽: 일본 엘리트 골프 코스 평가자의 마스터피스 리뷰",
       "lat": 33.6444,
@@ -1973,10 +2081,11 @@
       "published": "2026-04-15",
       "summary": "니시닛폰 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/nishinippon_country_club_ko",
-      "link": "/course/nishinippon_country_club_ko"
+      "link": "/course/nishinippon_country_club?lang=ko"
     },
     {
       "id": "mie_country_club_ko",
+      "base_id": "mie_country_club",
       "lang": "ko",
       "title": "미에 컨트리 클럽 완벽 가이드: 전문가의 심층 리뷰",
       "lat": 35.0144,
@@ -1991,10 +2100,11 @@
       "published": "2026-04-15",
       "summary": "미에 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/mie_country_club_ko",
-      "link": "/course/mie_country_club_ko"
+      "link": "/course/mie_country_club?lang=ko"
     },
     {
       "id": "sapporo_golf_club_wattsu_course_ko",
+      "base_id": "sapporo_golf_club_wattsu_course",
       "lang": "ko",
       "title": "삿포로 골프 클럽 왓츠 코스 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 42.8744,
@@ -2009,10 +2119,11 @@
       "published": "2026-04-15",
       "summary": "삿포로 골프 클럽 왓츠 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심층적으로 다룹니다.",
       "booking": "/booking/sapporo_golf_club_wattsu_course_ko",
-      "link": "/course/sapporo_golf_club_wattsu_course_ko"
+      "link": "/course/sapporo_golf_club_wattsu_course?lang=ko"
     },
     {
       "id": "passage_kinkai_en",
+      "base_id": "passage_kinkai",
       "lang": "en",
       "title": "The Definitive Guide to Passage Kinkai: An Expert Review (en)",
       "lat": 32.8944,
@@ -2027,10 +2138,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Passage Kinkai, covering strategy, history, and luxury facilities.",
       "booking": "/booking/passage_kinkai_en",
-      "link": "/course/passage_kinkai_en"
+      "link": "/course/passage_kinkai?lang=en"
     },
     {
       "id": "oak_village_golf_club_ko",
+      "base_id": "oak_village_golf_club",
       "lang": "ko",
       "title": "오크 빌리지 골프 클럽 완벽 분석: 일본 최고 수준의 전문 리뷰",
       "lat": 35.4244,
@@ -2045,10 +2157,11 @@
       "published": "2026-04-15",
       "summary": "오크 빌리지 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 역사, 건축, 전략, 시설, 미식 경험까지 깊이 있게 다룹니다.",
       "booking": "/booking/oak_village_golf_club_ko",
-      "link": "/course/oak_village_golf_club_ko"
+      "link": "/course/oak_village_golf_club?lang=ko"
     },
     {
       "id": "takanodai_country_club_ko",
+      "base_id": "takanodai_country_club",
       "lang": "ko",
       "title": "타카노다이 컨트리클럽 심층 분석: 일본 최고 수준의 골프 경험을 위한 전문가 리뷰",
       "lat": 35.6844,
@@ -2064,10 +2177,11 @@
       "published": "2026-04-15",
       "summary": "타카노다이 컨트리클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 코스 전략, 유구한 역사, 그리고 최고급 시설까지 모든 것을 담았습니다.",
       "booking": "/booking/takanodai_country_club_ko",
-      "link": "/course/takanodai_country_club_ko"
+      "link": "/course/takanodai_country_club?lang=ko"
     },
     {
       "id": "karuizawa_72_golf_east_ko",
+      "base_id": "karuizawa_72_golf_east",
       "lang": "ko",
       "title": "가루이자와 72 골프 동 코스 심층 분석: 최고 전문가의 마스터피스 리뷰",
       "lat": 36.3344,
@@ -2082,10 +2196,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 파헤치는 가루이자와 72 골프 동 코스. 역사, 건축, 홀별 전략, 미식, 온천까지 8천 자가 넘는 심도 깊은 가이드.",
       "booking": "/booking/karuizawa_72_golf_east_ko",
-      "link": "/course/karuizawa_72_golf_east_ko"
+      "link": "/course/karuizawa_72_golf_east?lang=ko"
     },
     {
       "id": "rokko_kokusai_golf_club_en",
+      "base_id": "rokko_kokusai_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (en)",
       "lat": 34.7744,
@@ -2100,10 +2215,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Rokko Kokusai Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/rokko_kokusai_golf_club_en",
-      "link": "/course/rokko_kokusai_golf_club_en"
+      "link": "/course/rokko_kokusai_golf_club?lang=en"
     },
     {
       "id": "abc_golf_club_ko",
+      "base_id": "abc_golf_club",
       "lang": "ko",
       "title": "ABC 골프 클럽 마스터 가이드: 일본 골프의 정수를 경험하다 (OKCaddie 심층 분석)",
       "lat": 34.8344,
@@ -2118,10 +2234,11 @@
       "published": "2026-04-15",
       "summary": "ABC 골프 클럽에 대한 OKCaddie의 9,000자 심층 마스터 가이드입니다. 역사, 건축 전략, 코스 공략법, 럭셔리 시설, 미식 경험까지, 이 명문 클럽의 모든 것을 상세히 파헤칩니다.",
       "booking": "/booking/abc_golf_club_ko",
-      "link": "/course/abc_golf_club_ko"
+      "link": "/course/abc_golf_club?lang=ko"
     },
     {
       "id": "sagamihara_golf_club_ko",
+      "base_id": "sagamihara_golf_club",
       "lang": "ko",
       "title": "사가미하라 골프 클럽: 일본 명문 코스를 완벽 해부하다 - 최고 평점 캐디의 마스터 리뷰",
       "lat": 35.5444,
@@ -2136,10 +2253,11 @@
       "published": "2026-04-15",
       "summary": "사가미하라 골프 클럽의 역사, 전략적 코스 분석, 홀별 마스터 가이드, 럭셔리 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자 이상의 깊이 있는 탐험으로 일본 최고 골프 클럽의 진수를 경험하세요.",
       "booking": "/booking/sagamihara_golf_club_ko",
-      "link": "/course/sagamihara_golf_club_ko"
+      "link": "/course/sagamihara_golf_club?lang=ko"
     },
     {
       "id": "hakone_country_club_ko",
+      "base_id": "hakone_country_club",
       "lang": "ko",
       "title": "하코네 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 35.2544,
@@ -2154,10 +2272,11 @@
       "published": "2026-04-15",
       "summary": "하코네 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다. 20년 경력의 일본인 수석 캐디이자 코스 평가 전문가가 전하는 독점적인 인사이트로, 코스의 숨겨진 비밀과 최상의 경험을 위한 모든 정보를 얻어가세요.",
       "booking": "/booking/hakone_country_club_ko",
-      "link": "/course/hakone_country_club_ko"
+      "link": "/course/hakone_country_club?lang=ko"
     },
     {
       "id": "jfe_setonaikai_golf_club_en",
+      "base_id": "jfe_setonaikai_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to JFE Setonaikai Golf Club: An Expert Review (en)",
       "lat": 34.4244,
@@ -2172,10 +2291,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to JFE Setonaikai Golf Club, covering strategy, history, and luxury facilities, crafted by an elite Japanese golf rater and veteran caddy.",
       "booking": "/booking/jfe_setonaikai_golf_club_en",
-      "link": "/course/jfe_setonaikai_golf_club_en"
+      "link": "/course/jfe_setonaikai_golf_club?lang=en"
     },
     {
       "id": "pgm_ishioka_golf_club_ko",
+      "base_id": "pgm_ishioka_golf_club",
       "lang": "ko",
       "title": "PGM 이시오카 골프 클럽 마스터 가이드: 명예와 전략, 그리고 최고의 경험 (전문가 리뷰)",
       "lat": 36.2144,
@@ -2190,10 +2310,11 @@
       "published": "2026-04-15",
       "summary": "PGM 이시오카 골프 클럽의 역사, 건축 철학, 홀별 전략, 최고급 시설, 미식 경험까지, 9,000자에 달하는 심층 분석을 통해 일본 최고의 골프 경험을 선사합니다.",
       "booking": "/booking/pgm_ishioka_golf_club_ko",
-      "link": "/course/pgm_ishioka_golf_club_ko"
+      "link": "/course/pgm_ishioka_golf_club?lang=ko"
     },
     {
       "id": "hiratsuka_fuji_golf_course_en",
+      "base_id": "hiratsuka_fuji_golf_course",
       "lang": "en",
       "title": "The Definitive Guide to Hiratsuka Fuji Golf Course: An Expert Review by a Japanese Master Caddy (en)",
       "lat": 35.3544,
@@ -2210,10 +2331,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Hiratsuka Fuji Golf Course, meticulously crafted by a senior Japanese caddy, covering its strategic brilliance, profound history, opulent facilities, and unparalleled gourmet experiences, all designed for top-tier SEO performance.",
       "booking": "/booking/hiratsuka_fuji_golf_course_en",
-      "link": "/course/hiratsuka_fuji_golf_course_en"
+      "link": "/course/hiratsuka_fuji_golf_course?lang=en"
     },
     {
       "id": "the_royal_golf_club_ko",
+      "base_id": "the_royal_golf_club",
       "lang": "ko",
       "title": "The Definitive Guide to The Royal Golf Club: An Expert Review (ko)",
       "lat": 36.1444,
@@ -2228,10 +2350,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to The Royal Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/the_royal_golf_club_ko",
-      "link": "/course/the_royal_golf_club_ko"
+      "link": "/course/the_royal_golf_club?lang=ko"
     },
     {
       "id": "fuchu_country_club_en",
+      "base_id": "fuchu_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Fuchu Country Club: An Expert Review (en)",
       "lat": 35.6344,
@@ -2246,10 +2369,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Fuchu Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/fuchu_country_club_en",
-      "link": "/course/fuchu_country_club_en"
+      "link": "/course/fuchu_country_club?lang=en"
     },
     {
       "id": "keya_golf_club_en",
+      "base_id": "keya_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Keya Golf Club: An Expert Review (en)",
       "lat": 33.6044,
@@ -2264,10 +2388,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Keya Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/keya_golf_club_en",
-      "link": "/course/keya_golf_club_en"
+      "link": "/course/keya_golf_club?lang=en"
     },
     {
       "id": "nemun_sato_golf_club_ko",
+      "base_id": "nemun_sato_golf_club",
       "lang": "ko",
       "title": "네무노사토 골프 클럽 완벽 공략: 최고 등급 레이터와 20년 경력 캐디의 마스터피스 리뷰",
       "lat": 34.3144,
@@ -2282,10 +2407,11 @@
       "published": "2026-04-15",
       "summary": "네무노사토 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드. 전략, 역사, 럭셔리 시설을 다룹니다. OKCaddie만을 위한 전문적인 분석.",
       "booking": "/booking/nemun_sato_golf_club_ko",
-      "link": "/course/nemun_sato_golf_club_ko"
+      "link": "/course/nemun_sato_golf_club?lang=ko"
     },
     {
       "id": "kawana_hotel_golf_course_fuji_course_en",
+      "base_id": "kawana_hotel_golf_course_fuji_course",
       "lang": "en",
       "title": "The Definitive Guide to Kawana Hotel Golf Course Fuji Course: An Expert Review (en)",
       "lat": 34.9038,
@@ -2300,10 +2426,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kawana Hotel Golf Course Fuji Course, covering strategy, history, and luxury facilities, from an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/kawana_hotel_golf_course_fuji_course_en",
-      "link": "/course/kawana_hotel_golf_course_fuji_course_en"
+      "link": "/course/kawana_hotel_golf_course_fuji_course?lang=en"
     },
     {
       "id": "nasu_kogen_golf_club_en",
+      "base_id": "nasu_kogen_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Nasu Kogen Golf Club: An Expert Review (en)",
       "lat": 37.0544,
@@ -2318,10 +2445,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nasu Kogen Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/nasu_kogen_golf_club_en",
-      "link": "/course/nasu_kogen_golf_club_en"
+      "link": "/course/nasu_kogen_golf_club?lang=en"
     },
     {
       "id": "wakagi_golf_club_en",
+      "base_id": "wakagi_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Wakagi Golf Club: An Expert Review (en)",
       "lat": 33.2544,
@@ -2336,10 +2464,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Wakagi Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/wakagi_golf_club_en",
-      "link": "/course/wakagi_golf_club_en"
+      "link": "/course/wakagi_golf_club?lang=en"
     },
     {
       "id": "miyoshi_country_club_ko",
+      "base_id": "miyoshi_country_club",
       "lang": "ko",
       "title": "미요시 컨트리 클럽 완벽 가이드: 명인의 시선으로 분석한 최고급 리뷰 (ko)",
       "lat": 35.0944,
@@ -2354,10 +2483,11 @@
       "published": "2026-04-15",
       "summary": "미요시 컨트리 클럽의 역사, 전략, 럭셔리 시설을 9,000자에 걸쳐 심층 분석한 마스터 가이드입니다.",
       "booking": "/booking/miyoshi_country_club_ko",
-      "link": "/course/miyoshi_country_club_ko"
+      "link": "/course/miyoshi_country_club?lang=ko"
     },
     {
       "id": "oita_country_club_en",
+      "base_id": "oita_country_club",
       "lang": "en",
       "title": "Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater & Senior Caddy",
       "lat": 33.1544,
@@ -2374,10 +2504,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Oita Country Club, meticulously detailing its strategic design, rich history, luxurious onsen, and exquisite dining, offering unparalleled insights for the discerning golfer seeking Japan's finest.",
       "booking": "/booking/oita_country_club_en",
-      "link": "/course/oita_country_club_en"
+      "link": "/course/oita_country_club?lang=en"
     },
     {
       "id": "atta_terrace_golf_resort_ko",
+      "base_id": "atta_terrace_golf_resort",
       "lang": "ko",
       "title": "아타 테라스 골프 리조트 완벽 가이드: 전문가 리뷰",
       "lat": 26.5144,
@@ -2392,10 +2523,11 @@
       "published": "2026-04-15",
       "summary": "아타 테라스 골프 리조트에 대한 9,000자에 달하는 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 총망라합니다.",
       "booking": "/booking/atta_terrace_golf_resort_ko",
-      "link": "/course/atta_terrace_golf_resort_ko"
+      "link": "/course/atta_terrace_golf_resort?lang=ko"
     },
     {
       "id": "fukuoka_country_club_en",
+      "base_id": "fukuoka_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Fukuoka Country Club: An Expert Review (en)",
       "lat": 33.6944,
@@ -2410,10 +2542,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Fukuoka Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/fukuoka_country_club_en",
-      "link": "/course/fukuoka_country_club_en"
+      "link": "/course/fukuoka_country_club?lang=en"
     },
     {
       "id": "pgm_golf_resort_okinawa_ko",
+      "base_id": "pgm_golf_resort_okinawa",
       "lang": "ko",
       "title": "PGM 골프 리조트 오키나와 완전 분석: 일본 최고 전문가의 심층 리뷰",
       "lat": 26.4344,
@@ -2428,10 +2561,11 @@
       "published": "2026-04-15",
       "summary": "PGM 골프 리조트 오키나와에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 아우르는 일본 최고 전문가의 심층 리뷰입니다. 오키나와 골프 여행의 정점을 경험하세요.",
       "booking": "/booking/pgm_golf_resort_okinawa_ko",
-      "link": "/course/pgm_golf_resort_okinawa_ko"
+      "link": "/course/pgm_golf_resort_okinawa?lang=ko"
     },
     {
       "id": "ube_72_country_club_en",
+      "base_id": "ube_72_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Ube 72 Country Club: An Expert Review (en)",
       "lat": 33.9944,
@@ -2446,10 +2580,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ube 72 Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/ube_72_country_club_en",
-      "link": "/course/ube_72_country_club_en"
+      "link": "/course/ube_72_country_club?lang=en"
     },
     {
       "id": "izu_ohito_country_club_en",
+      "base_id": "izu_ohito_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Izu Ohito Country Club: An Expert Review (en)",
       "lat": 35.0144,
@@ -2464,10 +2599,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Izu Ohito Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/izu_ohito_country_club_en",
-      "link": "/course/izu_ohito_country_club_en"
+      "link": "/course/izu_ohito_country_club?lang=en"
     },
     {
       "id": "ryugasaki_country_club_en",
+      "base_id": "ryugasaki_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Ryugasaki Country Club: An Expert Review",
       "lat": 35.9144,
@@ -2482,10 +2618,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ryugasaki Country Club, covering strategy, history, and luxury facilities for the discerning golfer.",
       "booking": "/booking/ryugasaki_country_club_en",
-      "link": "/course/ryugasaki_country_club_en"
+      "link": "/course/ryugasaki_country_club?lang=en"
     },
     {
       "id": "kinojo_golf_club_ko",
+      "base_id": "kinojo_golf_club",
       "lang": "ko",
       "title": "기노조 골프 클럽 마스터 가이드: 명예로운 전통과 전략의 정수를 만나다 (OKCaddie 독점 리뷰)",
       "lat": 34.7244,
@@ -2500,10 +2637,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 선사하는 기노조 골프 클럽 심층 분석. 역사, 전략, 시설, 미식까지 9,000자 분량의 완벽 가이드.",
       "booking": "/booking/kinojo_golf_club_ko",
-      "link": "/course/kinojo_golf_club_ko"
+      "link": "/course/kinojo_golf_club?lang=ko"
     },
     {
       "id": "chiran_country_club_ko",
+      "base_id": "chiran_country_club",
       "lang": "ko",
       "title": "치란 컨트리 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰",
       "lat": 31.4144,
@@ -2518,10 +2656,11 @@
       "published": "2026-04-15",
       "summary": "치란 컨트리 클럽에 대한 9,000자에 달하는 종합 마스터 가이드로, 코스 전략, 역사, 럭셔리 시설을 모두 다룹니다.",
       "booking": "/booking/chiran_country_club_ko",
-      "link": "/course/chiran_country_club_ko"
+      "link": "/course/chiran_country_club?lang=ko"
     },
     {
       "id": "camellia_hills_country_club_en",
+      "base_id": "camellia_hills_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Camellia Hills Country Club: An Expert Review by a Senior Caddy (en)",
       "lat": 35.4144,
@@ -2536,10 +2675,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Camellia Hills Country Club, covering strategy, history, and luxury facilities from an elite Japanese caddy's perspective.",
       "booking": "/booking/camellia_hills_country_club_en",
-      "link": "/course/camellia_hills_country_club_en"
+      "link": "/course/camellia_hills_country_club?lang=en"
     },
     {
       "id": "pgm_ishioka_golf_club_en",
+      "base_id": "pgm_ishioka_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to PGM Ishioka Golf Club: An Expert Review by an Elite Japanese Caddy and Rater",
       "lat": 36.2144,
@@ -2556,10 +2696,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to PGM Ishioka Golf Club, meticulously reviewed by an elite Japanese caddy and course rater. This expert analysis covers the club's prestigious history, strategic architectural genius by Robert Trent Jones Jr., a detailed hole-by-hole masterclass, luxurious clubhouse amenities including the authentic Daikokujo onsen, and exquisite gourmet dining. Discover caddy secrets and seasonal tips for an unforgettable golfing pilgrimage in Ibaraki, designed to elevate your game and rank #1 on Google for discerning golf travelers.",
       "booking": "/booking/pgm_ishioka_golf_club_en",
-      "link": "/course/pgm_ishioka_golf_club_en"
+      "link": "/course/pgm_ishioka_golf_club?lang=en"
     },
     {
       "id": "jfe_setonaikai_golf_club_ko",
+      "base_id": "jfe_setonaikai_golf_club",
       "lang": "ko",
       "title": "JFE 세토나이카이 골프 클럽 마스터 가이드: 전문가 리뷰",
       "lat": 34.4244,
@@ -2574,10 +2715,11 @@
       "published": "2026-04-15",
       "summary": "JFE 세토나이카이 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드.",
       "booking": "/booking/jfe_setonaikai_golf_club_ko",
-      "link": "/course/jfe_setonaikai_golf_club_ko"
+      "link": "/course/jfe_setonaikai_golf_club?lang=ko"
     },
     {
       "id": "hakone_country_club_en",
+      "base_id": "hakone_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Hakone Country Club: An Expert Review by an Elite Japanese Golf Rater & Senior Caddy",
       "lat": 35.2544,
@@ -2593,10 +2735,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Hakone Country Club, offering an elite Japanese perspective on its history, strategic design, hole-by-hole insights, luxury facilities, gourmet dining, and essential travel tips for discerning golfers seeking the ultimate Japanese golf experience.",
       "booking": "/booking/hakone_country_club_en",
-      "link": "/course/hakone_country_club_en"
+      "link": "/course/hakone_country_club?lang=en"
     },
     {
       "id": "abc_golf_club_en",
+      "base_id": "abc_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to ABC Golf Club: An Expert Review (en)",
       "lat": 34.8344,
@@ -2611,10 +2754,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to ABC Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/abc_golf_club_en",
-      "link": "/course/abc_golf_club_en"
+      "link": "/course/abc_golf_club?lang=en"
     },
     {
       "id": "rokko_kokusai_golf_club_ko",
+      "base_id": "rokko_kokusai_golf_club",
       "lang": "ko",
       "title": "The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (ko)",
       "lat": 34.7744,
@@ -2629,10 +2773,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Rokko Kokusai Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/rokko_kokusai_golf_club_ko",
-      "link": "/course/rokko_kokusai_golf_club_ko"
+      "link": "/course/rokko_kokusai_golf_club?lang=ko"
     },
     {
       "id": "karuizawa_72_golf_east_en",
+      "base_id": "karuizawa_72_golf_east",
       "lang": "en",
       "title": "The Definitive Guide to Karuizawa 72 Golf East: An Expert Review by an Elite Japanese Caddy and Rater",
       "lat": 36.3344,
@@ -2649,10 +2794,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Karuizawa 72 Golf East, meticulously detailing its history, strategic architectural genius, hole-by-hole challenges, unparalleled clubhouse amenities, and exquisite gourmet dining. Crafted by an elite Japanese golf course rater and senior caddy, this review offers invaluable insights for the discerning golfer seeking the ultimate Japanese luxury golf experience in Karuizawa, Nagano.",
       "booking": "/booking/karuizawa_72_golf_east_en",
-      "link": "/course/karuizawa_72_golf_east_en"
+      "link": "/course/karuizawa_72_golf_east?lang=en"
     },
     {
       "id": "takanodai_country_club_en",
+      "base_id": "takanodai_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Takanodai Country Club: An Expert Review by OKCaddie",
       "lat": 35.6844,
@@ -2667,10 +2813,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Takanodai Country Club, meticulously covering its strategic design, rich history, luxurious amenities, and culinary excellence for the discerning golfer.",
       "booking": "/booking/takanodai_country_club_en",
-      "link": "/course/takanodai_country_club_en"
+      "link": "/course/takanodai_country_club?lang=en"
     },
     {
       "id": "oak_village_golf_club_en",
+      "base_id": "oak_village_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Oak Village Golf Club: An Expert Review (en)",
       "lat": 35.4244,
@@ -2685,10 +2832,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Oak Village Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/oak_village_golf_club_en",
-      "link": "/course/oak_village_golf_club_en"
+      "link": "/course/oak_village_golf_club?lang=en"
     },
     {
       "id": "passage_kinkai_ko",
+      "base_id": "passage_kinkai",
       "lang": "ko",
       "title": "더 패시지 긴카이 심층 분석: 전문가 리뷰 (ko)",
       "lat": 32.8944,
@@ -2703,10 +2851,11 @@
       "published": "2026-04-15",
       "summary": "더 패시지 긴카이의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/passage_kinkai_ko",
-      "link": "/course/passage_kinkai_ko"
+      "link": "/course/passage_kinkai?lang=ko"
     },
     {
       "id": "sapporo_golf_club_wattsu_course_en",
+      "base_id": "sapporo_golf_club_wattsu_course",
       "lang": "en",
       "title": "The Definitive Guide to Sapporo Golf Club Wattsu Course: An Expert Review (en)",
       "lat": 42.8744,
@@ -2721,10 +2870,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Sapporo Golf Club Wattsu Course, covering strategy, history, and luxury facilities.",
       "booking": "/booking/sapporo_golf_club_wattsu_course_en",
-      "link": "/course/sapporo_golf_club_wattsu_course_en"
+      "link": "/course/sapporo_golf_club_wattsu_course?lang=en"
     },
     {
       "id": "katayamazu_golf_club_en",
+      "base_id": "katayamazu_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Katayamazu Golf Club: An Expert Review (en)",
       "lat": 36.2644,
@@ -2739,10 +2889,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Katayamazu Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/katayamazu_golf_club_en",
-      "link": "/course/katayamazu_golf_club_en"
+      "link": "/course/katayamazu_golf_club?lang=en"
     },
     {
       "id": "mie_country_club_en",
+      "base_id": "mie_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Mie Country Club: An Expert Review (en)",
       "lat": 35.0144,
@@ -2759,10 +2910,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Mie Country Club, covering strategic architecture, historical prestige, luxurious facilities, and gourmet dining for the discerning golfer.",
       "booking": "/booking/mie_country_club_en",
-      "link": "/course/mie_country_club_en"
+      "link": "/course/mie_country_club?lang=en"
     },
     {
       "id": "nishinippon_country_club_en",
+      "base_id": "nishinippon_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Nishinippon Country Club: An Expert Review (en)",
       "lat": 33.6444,
@@ -2777,10 +2929,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nishinippon Country Club, covering strategic architecture, rich history, luxurious facilities, and gourmet dining for the discerning golf traveler.",
       "booking": "/booking/nishinippon_country_club_en",
-      "link": "/course/nishinippon_country_club_en"
+      "link": "/course/nishinippon_country_club?lang=en"
     },
     {
       "id": "okayama_goshuin_golf_club_en",
+      "base_id": "okayama_goshuin_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Okayama Goshuin Golf Club: An Expert Review by an Elite Japanese Rater",
       "lat": 34.8544,
@@ -2796,10 +2949,11 @@
       "published": "2026-04-15",
       "summary": "A master guide to Okayama Goshuin Golf Club, meticulously reviewed by an elite Japanese rater and senior caddy. Discover its profound history, strategic architectural brilliance, hole-by-hole mastery, luxurious clubhouse, therapeutic onsen, and exquisite dining. Optimized for premium golf travelers seeking the ultimate Japanese golf experience.",
       "booking": "/booking/okayama_goshuin_golf_club_en",
-      "link": "/course/okayama_goshuin_golf_club_en"
+      "link": "/course/okayama_goshuin_golf_club?lang=en"
     },
     {
       "id": "matsuyama_golf_club_en",
+      "base_id": "matsuyama_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Matsuyama Golf Club: An Expert Review by an Elite Japanese Caddy",
       "lat": 33.7544,
@@ -2815,10 +2969,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Matsuyama Golf Club, meticulously reviewed by a senior Japanese caddy. Delve into its storied history, strategic architectural genius, hole-by-hole insights, world-class amenities including a revered Onsen, and exquisite local dining. This guide is your ultimate preparation for a pilgrimage to one of Japan's most prestigious golf destinations.",
       "booking": "/booking/matsuyama_golf_club_en",
-      "link": "/course/matsuyama_golf_club_en"
+      "link": "/course/matsuyama_golf_club?lang=en"
     },
     {
       "id": "the_country_club_japan_ko",
+      "base_id": "the_country_club_japan",
       "lang": "ko",
       "title": "더 컨트리 클럽 재팬 완벽 가이드: 명예로운 전통과 전략의 정수를 만나다 - OKCaddie 전문가 리뷰 (ko)",
       "lat": 34.8544,
@@ -2833,10 +2988,11 @@
       "published": "2026-04-15",
       "summary": "더 컨트리 클럽 재팬에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설까지 전문가의 시선으로 파헤칩니다.",
       "booking": "/booking/the_country_club_japan_ko",
-      "link": "/course/the_country_club_japan_ko"
+      "link": "/course/the_country_club_japan?lang=ko"
     },
     {
       "id": "yokohama_country_club_ko",
+      "base_id": "yokohama_country_club",
       "lang": "ko",
       "title": "요코하마 컨트리 클럽 심층 리뷰: 전문가가 전하는 마스터 가이드",
       "lat": 35.4344,
@@ -2851,10 +3007,11 @@
       "published": "2026-04-15",
       "summary": "요코하마 컨트리 클럽의 역사, 전략적 코스 분석, 최고급 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자 이상의 압도적인 깊이로 담아낸 마스터 가이드입니다. 일본 최고 수준의 명문 코스를 경험하세요.",
       "booking": "/booking/yokohama_country_club_ko",
-      "link": "/course/yokohama_country_club_ko"
+      "link": "/course/yokohama_country_club?lang=ko"
     },
     {
       "id": "suwa_lake_view_golf_club_en",
+      "base_id": "suwa_lake_view_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Suwa Lake View Golf Club: An Expert Review (en)",
       "lat": 36.0144,
@@ -2869,10 +3026,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Suwa Lake View Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/suwa_lake_view_golf_club_en",
-      "link": "/course/suwa_lake_view_golf_club_en"
+      "link": "/course/suwa_lake_view_golf_club?lang=en"
     },
     {
       "id": "kagoshima_airport_36_cc_ko",
+      "base_id": "kagoshima_airport_36_cc",
       "lang": "ko",
       "title": "가고시마 공항 36 컨트리클럽 심층 분석: 20년 경력 베테랑 캐디의 마스터피스 리뷰",
       "lat": 31.8544,
@@ -2887,10 +3045,11 @@
       "published": "2026-04-15",
       "summary": "가고시마 공항 36 컨트리클럽에 대한 전략, 역사, 럭셔리 시설을 아우르는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/kagoshima_airport_36_cc_ko",
-      "link": "/course/kagoshima_airport_36_cc_ko"
+      "link": "/course/kagoshima_airport_36_cc?lang=ko"
     },
     {
       "id": "nikko_country_club_en",
+      "base_id": "nikko_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Nikko Country Club: An Expert Review (en)",
       "lat": 36.7244,
@@ -2905,10 +3064,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nikko Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/nikko_country_club_en",
-      "link": "/course/nikko_country_club_en"
+      "link": "/course/nikko_country_club?lang=en"
     },
     {
       "id": "ibusuki_golf_club_en",
+      "base_id": "ibusuki_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Ibusuki Golf Club: An Expert Review by an Elite Caddy (en)",
       "lat": 31.2144,
@@ -2924,10 +3084,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ibusuki Golf Club, covering strategic architecture, historical prestige, hole-by-hole masterclass, luxury facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy for OKCaddie.",
       "booking": "/booking/ibusuki_golf_club_en",
-      "link": "/course/ibusuki_golf_club_en"
+      "link": "/course/ibusuki_golf_club?lang=en"
     },
     {
       "id": "tateshina_highland_golf_club_ko",
+      "base_id": "tateshina_highland_golf_club",
       "lang": "ko",
       "title": "타테시나 하이랜드 골프 클럽 완벽 가이드: 전문가의 심층 리뷰",
       "lat": 36.0544,
@@ -2942,10 +3103,11 @@
       "published": "2026-04-15",
       "summary": "타테시나 하이랜드 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 역사, 전략, 럭셔리 시설, 미식 경험을 담은 전문가 리뷰입니다. 나가노의 고품격 골프를 경험하세요.",
       "booking": "/booking/tateshina_highland_golf_club_ko",
-      "link": "/course/tateshina_highland_golf_club_ko"
+      "link": "/course/tateshina_highland_golf_club?lang=ko"
     },
     {
       "id": "fuji_country_club_en",
+      "base_id": "fuji_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Fuji Country Club: An Expert Review by an Elite Japanese Golf Course Rater and Senior Caddy",
       "lat": 35.3344,
@@ -2962,10 +3124,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Fuji Country Club, Japan's iconic golfing sanctuary. This expert review by a seasoned golf course rater and senior caddy delves into its historical prestige, strategic architectural brilliance, hole-by-hole masterclass, luxurious amenities, gourmet dining, and essential seasonal tips for an unforgettable Mt. Fuji golf experience. Discover why Fuji Country Club is consistently ranked among the best golf courses in Japan.",
       "booking": "/booking/fuji_country_club_en",
-      "link": "/course/fuji_country_club_en"
+      "link": "/course/fuji_country_club?lang=en"
     },
     {
       "id": "natsudomari_golf_links_en",
+      "base_id": "natsudomari_golf_links",
       "lang": "en",
       "title": "The Definitive Guide to Natsudomari Golf Links: An Expert Review by an Elite Rater & Senior Caddy (en)",
       "lat": 41.0144,
@@ -2983,10 +3146,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Natsudomari Golf Links, meticulously crafted by an elite Japanese rater and senior caddy. Discover its historical prestige, strategic architecture, hole-by-hole secrets, luxurious clubhouse, exquisite dining, and essential seasonal tips for an unforgettable golf journey.",
       "booking": "/booking/natsudomari_golf_links_en",
-      "link": "/course/natsudomari_golf_links_en"
+      "link": "/course/natsudomari_golf_links?lang=en"
     },
     {
       "id": "nishinasuno_country_club_en",
+      "base_id": "nishinasuno_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Nishinasuno Country Club: An Expert Review",
       "lat": 36.8944,
@@ -3001,10 +3165,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nishinasuno Country Club, covering strategy, history, and luxury facilities for the discerning golfer.",
       "booking": "/booking/nishinasuno_country_club_en",
-      "link": "/course/nishinasuno_country_club_en"
+      "link": "/course/nishinasuno_country_club?lang=en"
     },
     {
       "id": "kasumigaseki_country_club_en",
+      "base_id": "kasumigaseki_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Kasumigaseki Country Club: An Expert Review (en)",
       "lat": 35.8569,
@@ -3019,10 +3184,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kasumigaseki Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kasumigaseki_country_club_en",
-      "link": "/course/kasumigaseki_country_club_en"
+      "link": "/course/kasumigaseki_country_club?lang=en"
     },
     {
       "id": "kochi_golf_club_en",
+      "base_id": "kochi_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Kochi Golf Club: An Expert Review (en)",
       "lat": 33.5944,
@@ -3038,10 +3204,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kochi Golf Club, covering strategy, history, and luxury facilities for the discerning golfer.",
       "booking": "/booking/kochi_golf_club_en",
-      "link": "/course/kochi_golf_club_en"
+      "link": "/course/kochi_golf_club?lang=en"
     },
     {
       "id": "zao_country_club_en",
+      "base_id": "zao_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Zao Country Club: An Expert Review by an Elite Japanese Golf Rater & Senior Caddy",
       "lat": 38.1944,
@@ -3058,10 +3225,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Zao Country Club, meticulously reviewed by an elite Japanese golf course rater and senior caddy. Discover its strategic architecture, historical prestige, exquisite dining, and unparalleled onsen experience. SEO-optimized for the discerning global golfer seeking the pinnacle of Japanese mountain golf.",
       "booking": "/booking/zao_country_club_en",
-      "link": "/course/zao_country_club_en"
+      "link": "/course/zao_country_club?lang=en"
     },
     {
       "id": "towada_highland_golf_club_ko",
+      "base_id": "towada_highland_golf_club",
       "lang": "ko",
       "title": "토와다 하이랜드 골프 클럽 완전 분석: 20년 경력 마스터 캐디의 심층 리뷰",
       "lat": 40.5544,
@@ -3076,10 +3244,11 @@
       "published": "2026-04-15",
       "summary": "토와다 하이랜드 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 코스 전략, 최고급 시설까지 모든 것을 담았습니다.",
       "booking": "/booking/towada_highland_golf_club_ko",
-      "link": "/course/towada_highland_golf_club_ko"
+      "link": "/course/towada_highland_golf_club?lang=ko"
     },
     {
       "id": "the_windsor_golf_course_en",
+      "base_id": "the_windsor_golf_course",
       "lang": "en",
       "title": "The Definitive Guide to The Windsor Golf Course: An Expert Review by an Elite Caddy (en)",
       "lat": 42.5944,
@@ -3094,10 +3263,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to The Windsor Golf Course, covering strategic architectural analysis, historical prestige, hole-by-hole masterclass, luxury facilities, and gourmet dining, crafted by an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/the_windsor_golf_course_en",
-      "link": "/course/the_windsor_golf_course_en"
+      "link": "/course/the_windsor_golf_course?lang=en"
     },
     {
       "id": "satsuma_resort_golf_club_en",
+      "base_id": "satsuma_resort_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Satsuma Resort Golf Club: An Expert Review (en)",
       "lat": 31.8944,
@@ -3112,10 +3282,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Satsuma Resort Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/satsuma_resort_golf_club_en",
-      "link": "/course/satsuma_resort_golf_club_en"
+      "link": "/course/satsuma_resort_golf_club?lang=en"
     },
     {
       "id": "southern_links_golf_club_en",
+      "base_id": "southern_links_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Southern Links Golf Club: An Expert Review by an Elite Rater & Senior Caddy",
       "lat": 26.1144,
@@ -3131,10 +3302,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Southern Links Golf Club in Okinawa, Japan, offering strategic insights, historical context, luxury amenities, and expert caddy tips for an unparalleled golfing experience. Optimized for SEO to be the #1 resource.",
       "booking": "/booking/southern_links_golf_club_en",
-      "link": "/course/southern_links_golf_club_en"
+      "link": "/course/southern_links_golf_club?lang=en"
     },
     {
       "id": "eniwa_country_club_en",
+      "base_id": "eniwa_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Eniwa Country Club: An Expert Review by OKCaddie (en)",
       "lat": 42.8844,
@@ -3150,10 +3322,11 @@
       "published": "2026-04-15",
       "summary": "An 8,000+ character master guide to Eniwa Country Club, offering deep strategic insights, historical context, and luxury amenity reviews for the discerning golfer.",
       "booking": "/booking/eniwa_country_club_en",
-      "link": "/course/eniwa_country_club_en"
+      "link": "/course/eniwa_country_club?lang=en"
     },
     {
       "id": "kansai_golf_club_ko",
+      "base_id": "kansai_golf_club",
       "lang": "ko",
       "title": "간사이 골프 클럽 심층 분석: 최고 전문가가 전하는 마스터피스 리뷰",
       "lat": 34.8244,
@@ -3168,10 +3341,11 @@
       "published": "2026-04-15",
       "summary": "간사이 골프 클럽의 역사, 전략적 코스 분석, 최고급 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자 분량의 포괄적인 마스터 가이드를 만나보세요.",
       "booking": "/booking/kansai_golf_club_ko",
-      "link": "/course/kansai_golf_club_ko"
+      "link": "/course/kansai_golf_club?lang=ko"
     },
     {
       "id": "rope_club_en",
+      "base_id": "rope_club",
       "lang": "en",
       "title": "The Definitive Guide to Rope Club: An Expert Review by OKCaddie (en)",
       "lat": 36.7144,
@@ -3186,10 +3360,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Rope Club, covering strategic architecture, historical prestige, luxury facilities, and gourmet dining for the discerning golfer.",
       "booking": "/booking/rope_club_en",
-      "link": "/course/rope_club_en"
+      "link": "/course/rope_club?lang=en"
     },
     {
       "id": "fujizakura_country_club_ko",
+      "base_id": "fujizakura_country_club",
       "lang": "ko",
       "title": "후지자쿠라 컨트리 클럽 완벽 공략 가이드: 전문가 리뷰",
       "lat": 35.4544,
@@ -3204,10 +3379,11 @@
       "published": "2026-04-15",
       "summary": "후지자쿠라 컨트리 클럽에 대한 9,000자에 달하는 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 총망라합니다.",
       "booking": "/booking/fujizakura_country_club_ko",
-      "link": "/course/fujizakura_country_club_ko"
+      "link": "/course/fujizakura_country_club?lang=ko"
     },
     {
       "id": "chukyo_golf_club_en",
+      "base_id": "chukyo_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Chukyo Golf Club: An Expert Review (en)",
       "lat": 35.1444,
@@ -3222,10 +3398,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Chukyo Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/chukyo_golf_club_en",
-      "link": "/course/chukyo_golf_club_en"
+      "link": "/course/chukyo_golf_club?lang=en"
     },
     {
       "id": "takachiho_country_club_en",
+      "base_id": "takachiho_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Takachiho Country Club: An Expert Review (en)",
       "lat": 31.8844,
@@ -3240,10 +3417,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Takachiho Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/takachiho_country_club_en",
-      "link": "/course/takachiho_country_club_en"
+      "link": "/course/takachiho_country_club?lang=en"
     },
     {
       "id": "gifu_seki_country_club_en",
+      "base_id": "gifu_seki_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Gifu Seki Country Club: An Expert Review by OKCaddie (en)",
       "lat": 35.4844,
@@ -3259,10 +3437,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Gifu Seki Country Club, offering an elite caddy's perspective on its strategic architecture, storied history, luxurious onsen, and gourmet dining, optimized for the discerning golfer.",
       "booking": "/booking/gifu_seki_country_club_en",
-      "link": "/course/gifu_seki_country_club_en"
+      "link": "/course/gifu_seki_country_club?lang=en"
     },
     {
       "id": "kumamoto_airport_country_club_ko",
+      "base_id": "kumamoto_airport_country_club",
       "lang": "ko",
       "title": "구마모토 공항 컨트리 클럽 완벽 가이드: 전문가의 심층 리뷰 (ko)",
       "lat": 32.8444,
@@ -3277,10 +3456,11 @@
       "published": "2026-04-15",
       "summary": "구마모토 공항 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/kumamoto_airport_country_club_ko",
-      "link": "/course/kumamoto_airport_country_club_ko"
+      "link": "/course/kumamoto_airport_country_club?lang=ko"
     },
     {
       "id": "phoenix_country_club_en",
+      "base_id": "phoenix_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Phoenix Country Club: An Expert Review (en)",
       "lat": 31.9567,
@@ -3295,10 +3475,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Phoenix Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/phoenix_country_club_en",
-      "link": "/course/phoenix_country_club_en"
+      "link": "/course/phoenix_country_club?lang=en"
     },
     {
       "id": "southern_links_ko",
+      "base_id": "southern_links",
       "lang": "ko",
       "title": "사잔 링크스 마스터 가이드: 명예로운 전문가 리뷰 (ko)",
       "lat": 26.1144,
@@ -3313,10 +3494,11 @@
       "published": "2026-04-15",
       "summary": "사잔 링크스에 대한 포괄적인 9,000자 전문가 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/southern_links_ko",
-      "link": "/course/southern_links_ko"
+      "link": "/course/southern_links?lang=ko"
     },
     {
       "id": "nasu_golf_club_en",
+      "base_id": "nasu_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Nasu Golf Club: An Expert Review (en)",
       "lat": 37.0944,
@@ -3331,10 +3513,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nasu Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/nasu_golf_club_en",
-      "link": "/course/nasu_golf_club_en"
+      "link": "/course/nasu_golf_club?lang=en"
     },
     {
       "id": "eagle_point_golf_club_en",
+      "base_id": "eagle_point_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Eagle Point Golf Club: An Expert Review by an Elite Japanese Rater & Senior Caddy",
       "lat": 35.9844,
@@ -3349,10 +3532,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Eagle Point Golf Club, covering strategy, history, and luxury facilities from an elite Japanese golf course rater and senior caddy's perspective. Discover detailed architectural analysis, hole-by-hole strategies, the exquisite onsen, and gourmet dining for an unparalleled golfing journey in Japan.",
       "booking": "/booking/eagle_point_golf_club_en",
-      "link": "/course/eagle_point_golf_club_en"
+      "link": "/course/eagle_point_golf_club?lang=en"
     },
     {
       "id": "ehime_golf_club_ko",
+      "base_id": "ehime_golf_club",
       "lang": "ko",
       "title": "에히메 골프 클럽 완벽 가이드: 엘리트 코스 평가인의 마스터피스 리뷰",
       "lat": 33.7144,
@@ -3368,10 +3552,11 @@
       "published": "2026-04-15",
       "summary": "에히메 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/ehime_golf_club_ko",
-      "link": "/course/ehime_golf_club_ko"
+      "link": "/course/ehime_golf_club?lang=ko"
     },
     {
       "id": "taiheiyo_club_gotemba_course_ko",
+      "base_id": "taiheiyo_club_gotemba_course",
       "lang": "ko",
       "title": "태평양 클럽 고텐바 코스 심층 분석: 전문가 리뷰 (ko)",
       "lat": 35.3131,
@@ -3386,10 +3571,11 @@
       "published": "2026-04-15",
       "summary": "태평양 클럽 고텐바 코스의 역사, 전략, 시설 및 미식을 아우르는 9,000자 전문가 마스터 가이드입니다.",
       "booking": "/booking/taiheiyo_club_gotemba_course_ko",
-      "link": "/course/taiheiyo_club_gotemba_course_ko"
+      "link": "/course/taiheiyo_club_gotemba_course?lang=ko"
     },
     {
       "id": "otaru_golf_club_ko",
+      "base_id": "otaru_golf_club",
       "lang": "ko",
       "title": "오타루 골프 클럽 마스터 가이드: 홋카이도 명문 코스 심층 분석 (OKCaddie 독점 리뷰)",
       "lat": 43.2044,
@@ -3404,10 +3590,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 시니어 캐디가 분석한 오타루 골프 클럽. 역사, 전략, 미식, 온천까지 8,000자 이상의 프리미엄 골프 여행 가이드.",
       "booking": "/booking/otaru_golf_club_ko",
-      "link": "/course/otaru_golf_club_ko"
+      "link": "/course/otaru_golf_club?lang=ko"
     },
     {
       "id": "ashinoko_country_club_en",
+      "base_id": "ashinoko_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Ashinoko Country Club: An Expert Review (en)",
       "lat": 35.1544,
@@ -3423,10 +3610,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ashinoko Country Club, covering strategic architecture, historical prestige, luxury facilities, and gourmet dining, crafted by an elite golf course rater and senior caddy.",
       "booking": "/booking/ashinoko_country_club_en",
-      "link": "/course/ashinoko_country_club_en"
+      "link": "/course/ashinoko_country_club?lang=en"
     },
     {
       "id": "the_masters_amakusa_course_en",
+      "base_id": "the_masters_amakusa_course",
       "lang": "en",
       "title": "The Definitive Guide to The Masters Amakusa Course: An Expert Review by a Japanese Elite Caddy",
       "lat": 32.4844,
@@ -3443,10 +3631,11 @@
       "published": "2026-04-15",
       "summary": "An exhaustive 9,000-character master guide to The Masters Amakusa Course, meticulously reviewed by an elite Japanese golf course rater and senior caddy. Discover its historical prestige, strategic architecture, hole-by-hole insights, luxurious facilities, and gourmet dining, optimized for the discerning golf traveler.",
       "booking": "/booking/the_masters_amakusa_course_en",
-      "link": "/course/the_masters_amakusa_course_en"
+      "link": "/course/the_masters_amakusa_course?lang=en"
     },
     {
       "id": "fukuoka_international_ko",
+      "base_id": "fukuoka_international",
       "lang": "ko",
       "title": "후쿠오카 국제 골프 클럽: 20년 베테랑 캐디가 전하는 최고의 마스터 가이드",
       "lat": 33.7544,
@@ -3462,10 +3651,11 @@
       "published": "2026-04-15",
       "summary": "후쿠오카 국제 골프 클럽의 역사, 전략, 시설, 미식 등 모든 것을 담은 9,000자 전문가 리뷰. #후쿠오카국제 #일본골프 #명문코스 #온천골프",
       "booking": "/booking/fukuoka_international_ko",
-      "link": "/course/fukuoka_international_ko"
+      "link": "/course/fukuoka_international?lang=ko"
     },
     {
       "id": "koganei_golf_club_ko",
+      "base_id": "koganei_golf_club",
       "lang": "ko",
       "title": "고가네이 골프 클럽 마스터 가이드: 명문 중의 명문을 해부하다 (OKCaddie 독점 리뷰)",
       "lat": 35.7144,
@@ -3480,10 +3670,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 일본 베테랑 캐디가 파헤치는 고가네이 골프 클럽의 심층 분석. 역사, 전략, 미식, 그리고 온천까지, 명문 코스를 완벽히 경험하기 위한 9,000자 마스터 가이드.",
       "booking": "/booking/koganei_golf_club_ko",
-      "link": "/course/koganei_golf_club_ko"
+      "link": "/course/koganei_golf_club?lang=ko"
     },
     {
       "id": "beppu_golf_club_ko",
+      "base_id": "beppu_golf_club",
       "lang": "ko",
       "title": "벳푸 골프 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰 (OKCaddie)",
       "lat": 33.3244,
@@ -3498,10 +3689,11 @@
       "published": "2026-04-15",
       "summary": "일본 규슈 최고의 명문 벳푸 골프 클럽에 대한 9,000자 심층 분석. 역사, 전략, 온천, 미식까지 완벽한 골프 경험을 위한 마스터 가이드.",
       "booking": "/booking/beppu_golf_club_ko",
-      "link": "/course/beppu_golf_club_ko"
+      "link": "/course/beppu_golf_club?lang=ko"
     },
     {
       "id": "pacific_golf_club_en",
+      "base_id": "pacific_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Pacific Golf Club: An Expert Review (en)",
       "lat": 33.5644,
@@ -3518,10 +3710,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Pacific Golf Club, covering strategy, history, and luxury facilities for the discerning golfer. Ranked among Japan's elite.",
       "booking": "/booking/pacific_golf_club_en",
-      "link": "/course/pacific_golf_club_en"
+      "link": "/course/pacific_golf_club?lang=en"
     },
     {
       "id": "nagano_country_club_en",
+      "base_id": "nagano_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Nagano Country Club: An Expert Review (en)",
       "lat": 36.6944,
@@ -3538,10 +3731,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Nagano Country Club, covering strategic architecture, historical prestige, luxury facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/nagano_country_club_en",
-      "link": "/course/nagano_country_club_en"
+      "link": "/course/nagano_country_club?lang=en"
     },
     {
       "id": "gifu_north_golf_club_en",
+      "base_id": "gifu_north_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Gifu North Golf Club: An Expert Review (en)",
       "lat": 35.5144,
@@ -3556,10 +3750,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Gifu North Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/gifu_north_golf_club_en",
-      "link": "/course/gifu_north_golf_club_en"
+      "link": "/course/gifu_north_golf_club?lang=en"
     },
     {
       "id": "jun_classic_country_club_en",
+      "base_id": "jun_classic_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Jun Classic Country Club: An Expert Review (en)",
       "lat": 36.7544,
@@ -3574,10 +3769,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Jun Classic Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/jun_classic_country_club_en",
-      "link": "/course/jun_classic_country_club_en"
+      "link": "/course/jun_classic_country_club?lang=en"
     },
     {
       "id": "kochi_kuroshio_country_club_en",
+      "base_id": "kochi_kuroshio_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Kochi Kuroshio Country Club: An Expert Review (en)",
       "lat": 33.5444,
@@ -3592,10 +3788,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kochi Kuroshio Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kochi_kuroshio_country_club_en",
-      "link": "/course/kochi_kuroshio_country_club_en"
+      "link": "/course/kochi_kuroshio_country_club?lang=en"
     },
     {
       "id": "miyazaki_country_club_ko",
+      "base_id": "miyazaki_country_club",
       "lang": "ko",
       "title": "미야자키 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)",
       "lat": 31.8644,
@@ -3610,10 +3807,11 @@
       "published": "2026-04-15",
       "summary": "미야자키 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
       "booking": "/booking/miyazaki_country_club_ko",
-      "link": "/course/miyazaki_country_club_ko"
+      "link": "/course/miyazaki_country_club?lang=ko"
     },
     {
       "id": "ena_kogen_golf_club_en",
+      "base_id": "ena_kogen_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Ena Kogen Golf Club: An Expert Review (en)",
       "lat": 35.4944,
@@ -3629,10 +3827,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ena Kogen Golf Club, covering strategic analysis, historical prestige, luxury facilities, and expert caddy tips for an unparalleled Japanese golf experience.",
       "booking": "/booking/ena_kogen_golf_club_en",
-      "link": "/course/ena_kogen_golf_club_en"
+      "link": "/course/ena_kogen_golf_club?lang=en"
     },
     {
       "id": "shima_country_club_ko",
+      "base_id": "shima_country_club",
       "lang": "ko",
       "title": "시마 컨트리 클럽 완벽 공략: 20년 경력 베테랑 캐디의 전문가 리뷰 (ko)",
       "lat": 34.3344,
@@ -3648,10 +3847,11 @@
       "published": "2026-04-15",
       "summary": "이세시마 국립공원의 절경 속에 자리한 시마 컨트리 클럽에 대한 20년 경력 베테랑 캐디의 심층 분석. 코스 전략, 건축 미학, 미식, 그리고 온천 경험까지 8,000자 이상의 마스터 가이드.",
       "booking": "/booking/shima_country_club_ko",
-      "link": "/course/shima_country_club_ko"
+      "link": "/course/shima_country_club?lang=ko"
     },
     {
       "id": "appi_kogen_golf_club_en",
+      "base_id": "appi_kogen_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Appi Kogen Golf Club: An Expert Review",
       "lat": 40.0144,
@@ -3667,10 +3867,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Appi Kogen Golf Club in Iwate, Japan. This expert review by a senior caddy and golf course rater covers the club's prestigious history, intricate architectural design, hole-by-hole strategy, luxurious clubhouse and onsen, exquisite dining, and essential seasonal tips for a truly unforgettable golfing experience. Optimized for premium golf travel, learn why Appi Kogen is a must-play destination for discerning golfers seeking a blend of challenge, natural beauty, and Japanese hospitality.",
       "booking": "/booking/appi_kogen_golf_club_en",
-      "link": "/course/appi_kogen_golf_club_en"
+      "link": "/course/appi_kogen_golf_club?lang=en"
     },
     {
       "id": "mie_kokusai_golf_club_ko",
+      "base_id": "mie_kokusai_golf_club",
       "lang": "ko",
       "title": "미에 고쿠사이 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 분석",
       "lat": 35.0344,
@@ -3685,10 +3886,11 @@
       "published": "2026-04-15",
       "summary": "미에 고쿠사이 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드입니다. 역사, 전략, 시설, 미식 경험까지 모든 것을 다룹니다.",
       "booking": "/booking/mie_kokusai_golf_club_ko",
-      "link": "/course/mie_kokusai_golf_club_ko"
+      "link": "/course/mie_kokusai_golf_club?lang=ko"
     },
     {
       "id": "hokkaido_classic_golf_club_en",
+      "base_id": "hokkaido_classic_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Hokkaido Classic Golf Club: An Expert Review (en)",
       "lat": 42.7944,
@@ -3704,10 +3906,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Hokkaido Classic Golf Club, covering strategy, history, and luxury facilities for the discerning golfer.",
       "booking": "/booking/hokkaido_classic_golf_club_en",
-      "link": "/course/hokkaido_classic_golf_club_en"
+      "link": "/course/hokkaido_classic_golf_club?lang=en"
     },
     {
       "id": "passage_kinkai_island_ko",
+      "base_id": "passage_kinkai_island",
       "lang": "ko",
       "title": "패시지 킨카이 아일랜드 심층 리뷰: 전문가의 시선 (Passage Kinkai Island: An Expert Review)",
       "lat": 32.8944,
@@ -3722,10 +3925,11 @@
       "published": "2026-04-15",
       "summary": "패시지 킨카이 아일랜드의 역사, 건축, 홀 공략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드입니다.",
       "booking": "/booking/passage_kinkai_island_ko",
-      "link": "/course/passage_kinkai_island_ko"
+      "link": "/course/passage_kinkai_island?lang=ko"
     },
     {
       "id": "aichi_country_club_ko",
+      "base_id": "aichi_country_club",
       "lang": "ko",
       "title": "아이치 컨트리 클럽 심층 분석: 일본 명문의 전략적 정수를 꿰뚫다",
       "lat": 35.1544,
@@ -3740,10 +3944,11 @@
       "published": "2026-04-15",
       "summary": "아이치 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다루며 일본 최고의 골프 경험을 선사합니다.",
       "booking": "/booking/aichi_country_club_ko",
-      "link": "/course/aichi_country_club_ko"
+      "link": "/course/aichi_country_club?lang=ko"
     },
     {
       "id": "fukushima_golf_club_ko",
+      "base_id": "fukushima_golf_club",
       "lang": "ko",
       "title": "후쿠시마 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 리뷰 (OKCaddie 독점)",
       "lat": 37.7844,
@@ -3758,10 +3963,11 @@
       "published": "2026-04-15",
       "summary": "후쿠시마 골프 클럽에 대한 8,000자 이상의 종합적인 마스터 가이드입니다. 역사, 전략, 럭셔리 시설을 포함한 최고 수준의 골프 경험을 OKCaddie가 분석합니다.",
       "booking": "/booking/fukushima_golf_club_ko",
-      "link": "/course/fukushima_golf_club_ko"
+      "link": "/course/fukushima_golf_club?lang=ko"
     },
     {
       "id": "banyan_tree_golf_club_en",
+      "base_id": "banyan_tree_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Banyan Tree Golf Club: An Expert Review by OKCaddie",
       "lat": 35.7144,
@@ -3776,10 +3982,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Banyan Tree Golf Club, covering strategy, history, and luxury facilities for an unparalleled Japanese golf experience.",
       "booking": "/booking/banyan_tree_golf_club_en",
-      "link": "/course/banyan_tree_golf_club_en"
+      "link": "/course/banyan_tree_golf_club?lang=en"
     },
     {
       "id": "sayama_golf_club_en",
+      "base_id": "sayama_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Sayama Golf Club: An Expert Review by an Elite Japanese Golf Rater (en)",
       "lat": 35.8144,
@@ -3794,10 +4001,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Sayama Golf Club, meticulously reviewed by an elite Japanese golf course rater and senior caddy. Delve into its historical prestige, strategic architecture by Osamu Ueda, a hole-by-hole masterclass, luxurious clubhouse amenities, and exquisite gourmet dining. Essential reading for discerning golfers planning a premium Japanese golf experience, optimized to be the #1 resource for Sayama Golf Club.",
       "booking": "/booking/sayama_golf_club_en",
-      "link": "/course/sayama_golf_club_en"
+      "link": "/course/sayama_golf_club?lang=en"
     },
     {
       "id": "tom_watson_golf_course_en",
+      "base_id": "tom_watson_golf_course",
       "lang": "en",
       "title": "The Definitive Guide to Tom Watson Golf Course: An Expert Review (en)",
       "lat": 31.9644,
@@ -3812,10 +4020,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Tom Watson Golf Course, covering strategy, history, and luxury facilities.",
       "booking": "/booking/tom_watson_golf_course_en",
-      "link": "/course/tom_watson_golf_course_en"
+      "link": "/course/tom_watson_golf_course?lang=en"
     },
     {
       "id": "the_north_country_golf_club_ko",
+      "base_id": "the_north_country_golf_club",
       "lang": "ko",
       "title": "북해도 노스 컨트리 골프 클럽 마스터 가이드: 명예의 전당 전문가 리뷰",
       "lat": 42.8456,
@@ -3830,10 +4039,11 @@
       "published": "2026-04-15",
       "summary": "북해도 노스 컨트리 골프 클럽의 역사, 전략, 시설, 미식 경험을 심층 분석한 9,000자 전문가 리뷰입니다. 모든 골퍼를 위한 필수 가이드.",
       "booking": "/booking/the_north_country_golf_club_ko",
-      "link": "/course/the_north_country_golf_club_ko"
+      "link": "/course/the_north_country_golf_club?lang=ko"
     },
     {
       "id": "musashi_country_club_sasai_en",
+      "base_id": "musashi_country_club_sasai",
       "lang": "en",
       "title": "The Definitive Guide to Musashi Country Club Sasai: An Expert Review (en)",
       "lat": 35.8444,
@@ -3848,10 +4058,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Musashi Country Club Sasai, covering strategy, history, and luxury facilities.",
       "booking": "/booking/musashi_country_club_sasai_en",
-      "link": "/course/musashi_country_club_sasai_en"
+      "link": "/course/musashi_country_club_sasai?lang=en"
     },
     {
       "id": "saga_classic_golf_club_en",
+      "base_id": "saga_classic_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Saga Classic Golf Club: An Expert Review (en)",
       "lat": 33.3144,
@@ -3866,10 +4077,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Saga Classic Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/saga_classic_golf_club_en",
-      "link": "/course/saga_classic_golf_club_en"
+      "link": "/course/saga_classic_golf_club?lang=en"
     },
     {
       "id": "narita_golf_club_ko",
+      "base_id": "narita_golf_club",
       "lang": "ko",
       "title": "나리타 골프 클럽 완벽 가이드: 전문가의 심층 리뷰",
       "lat": 35.8344,
@@ -3884,10 +4096,11 @@
       "published": "2026-04-15",
       "summary": "나리타 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/narita_golf_club_ko",
-      "link": "/course/narita_golf_club_ko"
+      "link": "/course/narita_golf_club?lang=ko"
     },
     {
       "id": "ibaraki_golf_club_en",
+      "base_id": "ibaraki_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Ibaraki Golf Club: An Expert Review (en)",
       "lat": 35.9744,
@@ -3902,10 +4115,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ibaraki Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/ibaraki_golf_club_en",
-      "link": "/course/ibaraki_golf_club_en"
+      "link": "/course/ibaraki_golf_club?lang=en"
     },
     {
       "id": "enoshima_golf_club_ko",
+      "base_id": "enoshima_golf_club",
       "lang": "ko",
       "title": "에노시마 골프 클럽 마스터 가이드: 전문가의 심층 리뷰 (Enoshima Golf Club)",
       "lat": 35.3144,
@@ -3920,10 +4134,11 @@
       "published": "2026-04-15",
       "summary": "에노시마 골프 클럽의 전략, 역사, 럭셔리 시설을 망라한 9,000자 분량의 포괄적인 마스터 가이드.",
       "booking": "/booking/enoshima_golf_club_ko",
-      "link": "/course/enoshima_golf_club_ko"
+      "link": "/course/enoshima_golf_club?lang=ko"
     },
     {
       "id": "chiba_country_club_umesato_en",
+      "base_id": "chiba_country_club_umesato",
       "lang": "en",
       "title": "The Definitive Guide to Chiba Country Club Umesato: An Expert Review (en)",
       "lat": 35.9344,
@@ -3938,10 +4153,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Chiba Country Club Umesato, covering strategy, history, and luxury facilities.",
       "booking": "/booking/chiba_country_club_umesato_en",
-      "link": "/course/chiba_country_club_umesato_en"
+      "link": "/course/chiba_country_club_umesato?lang=en"
     },
     {
       "id": "aso_resort_grandvrio_ko",
+      "base_id": "aso_resort_grandvrio",
       "lang": "ko",
       "title": "아소 리조트 그랑비리오 완전 분석: 전문가의 시선 (Aso Resort Grandvrio Expert Review)",
       "lat": 32.9644,
@@ -3956,10 +4172,11 @@
       "published": "2026-04-15",
       "summary": "아소 리조트 그랑비리오의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/aso_resort_grandvrio_ko",
-      "link": "/course/aso_resort_grandvrio_ko"
+      "link": "/course/aso_resort_grandvrio?lang=ko"
     },
     {
       "id": "karuizawa_asama_golf_course_ko",
+      "base_id": "karuizawa_asama_golf_course",
       "lang": "ko",
       "title": "가루이자와 아사마 골프 코스 완전 정복: 전문가 심층 리뷰 (ko)",
       "lat": 36.3144,
@@ -3974,10 +4191,11 @@
       "published": "2026-04-15",
       "summary": "가루이자와 아사마 골프 코스의 전략, 역사, 럭셔리 시설을 아우르는 9,000자 분량의 종합 마스터 가이드입니다.",
       "booking": "/booking/karuizawa_asama_golf_course_ko",
-      "link": "/course/karuizawa_asama_golf_course_ko"
+      "link": "/course/karuizawa_asama_golf_course?lang=ko"
     },
     {
       "id": "seta_golf_course_north_en",
+      "base_id": "seta_golf_course_north",
       "lang": "en",
       "title": "The Definitive Guide to Seta Golf Course North: An Expert Review",
       "lat": 34.9644,
@@ -3992,10 +4210,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Seta Golf Course North, covering strategic design, historical prestige, luxurious amenities, and culinary excellence for the discerning golfer.",
       "booking": "/booking/seta_golf_course_north_en",
-      "link": "/course/seta_golf_course_north_en"
+      "link": "/course/seta_golf_course_north?lang=en"
     },
     {
       "id": "ueda_sugadaira_kogen_golf_en",
+      "base_id": "ueda_sugadaira_kogen_golf",
       "lang": "en",
       "title": "The Definitive Guide to Ueda Sugadaira Kogen Golf: An Expert Review by an Elite Japanese Caddy",
       "lat": 36.5244,
@@ -4012,10 +4231,11 @@
       "published": "2026-04-15",
       "summary": "An unparalleled 9,000-character master guide to Ueda Sugadaira Kogen Golf, meticulously crafted by an elite Japanese course rater and senior caddy. Delve into its storied history, strategic architectural brilliance, specific hole-by-hole challenges, luxurious onsen facilities, and exquisite dining, all optimized to be the definitive resource for premium golf travel.",
       "booking": "/booking/ueda_sugadaira_kogen_golf_en",
-      "link": "/course/ueda_sugadaira_kogen_golf_en"
+      "link": "/course/ueda_sugadaira_kogen_golf?lang=en"
     },
     {
       "id": "lake_wood_golf_club_en",
+      "base_id": "lake_wood_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Lake Wood Golf Club: An Expert Review (en)",
       "lat": 35.3244,
@@ -4030,10 +4250,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Lake Wood Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/lake_wood_golf_club_en",
-      "link": "/course/lake_wood_golf_club_en"
+      "link": "/course/lake_wood_golf_club?lang=en"
     },
     {
       "id": "accordia_golf_narita_airport_ko",
+      "base_id": "accordia_golf_narita_airport",
       "lang": "ko",
       "title": "아코디아 골프 나리타 에어포트 최종 분석: 전문가 리뷰",
       "lat": 35.7844,
@@ -4048,10 +4269,11 @@
       "published": "2026-04-15",
       "summary": "아코디아 골프 나리타 에어포트에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사 및 럭셔리 시설을 다룹니다.",
       "booking": "/booking/accordia_golf_narita_airport_ko",
-      "link": "/course/accordia_golf_narita_airport_ko"
+      "link": "/course/accordia_golf_narita_airport?lang=ko"
     },
     {
       "id": "takamatsu_gold_country_club_en",
+      "base_id": "takamatsu_gold_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Takamatsu Gold Country Club: An Expert Review (en)",
       "lat": 34.2244,
@@ -4066,10 +4288,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Takamatsu Gold Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and seasoned caddy.",
       "booking": "/booking/takamatsu_gold_country_club_en",
-      "link": "/course/takamatsu_gold_country_club_en"
+      "link": "/course/takamatsu_gold_country_club?lang=en"
     },
     {
       "id": "shizukuishi_golf_course_ko",
+      "base_id": "shizukuishi_golf_course",
       "lang": "ko",
       "title": "시즈쿠이시 골프 코스 완벽 가이드: 전문가 리뷰",
       "lat": 39.6544,
@@ -4084,10 +4307,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 시즈쿠이시 골프 코스의 역사, 전략, 시설, 미식, 계절별 팁까지 아우르는 9,000자 전문가 리뷰를 제공합니다.",
       "booking": "/booking/shizukuishi_golf_course_ko",
-      "link": "/course/shizukuishi_golf_course_ko"
+      "link": "/course/shizukuishi_golf_course?lang=ko"
     },
     {
       "id": "cherry_hills_golf_club_ko",
+      "base_id": "cherry_hills_golf_club",
       "lang": "ko",
       "title": "체리힐스 골프 클럽 완전 분석: 일본 최고 명문 코스를 위한 전문가 가이드",
       "lat": 34.7844,
@@ -4102,10 +4326,11 @@
       "published": "2026-04-15",
       "summary": "20년 경력의 베테랑 캐디가 파헤치는 체리힐스 골프 클럽의 전략, 역사, 럭셔리 시설 완벽 가이드. 일본 골프 여행의 정수를 경험하세요.",
       "booking": "/booking/cherry_hills_golf_club_ko",
-      "link": "/course/cherry_hills_golf_club_ko"
+      "link": "/course/cherry_hills_golf_club?lang=ko"
     },
     {
       "id": "tokyo_golf_club_ko",
+      "base_id": "tokyo_golf_club",
       "lang": "ko",
       "title": "도쿄골프클럽 완벽 마스터 가이드: 명문 캐디가 전하는 필드 전략과 품격 경험",
       "lat": 35.8367,
@@ -4120,10 +4345,11 @@
       "published": "2026-04-15",
       "summary": "도쿄골프클럽에 대한 포괄적인 8,000~9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 총망라하며 품격 있는 일본 골프 경험을 선사합니다. #도쿄골프클럽 #일본골프 #프리미엄골프 #골프여행 #명문골프장 #캐디전략 #일본온천골프",
       "booking": "/booking/tokyo_golf_club_ko",
-      "link": "/course/tokyo_golf_club_ko"
+      "link": "/course/tokyo_golf_club?lang=ko"
     },
     {
       "id": "sodegaura_country_club_en",
+      "base_id": "sodegaura_country_club",
       "lang": "en",
       "title": "The Definitive Guide to Sodegaura Country Club: An Expert Review (en)",
       "lat": 35.4578,
@@ -4139,10 +4365,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Sodegaura Country Club, covering strategy, history, luxury facilities, and expert caddy insights for an unparalleled Japanese golf experience.",
       "booking": "/booking/sodegaura_country_club_en",
-      "link": "/course/sodegaura_country_club_en"
+      "link": "/course/sodegaura_country_club?lang=en"
     },
     {
       "id": "caledonian_golf_club_ko",
+      "base_id": "caledonian_golf_club",
       "lang": "ko",
       "title": "캘러웨이언 골프 클럽: 일본 최고 명문 코스 심층 분석 - 현직 캐디의 마스터피스 리뷰",
       "lat": 35.7444,
@@ -4157,10 +4384,11 @@
       "published": "2026-04-15",
       "summary": "전설적인 캘러웨이언 골프 클럽의 역사, 전략적 코스 설계, 고급 편의 시설까지 8,000-9,000자 분량으로 담아낸 종합 마스터 가이드입니다. 일본 최고의 골프 경험을 찾는 골퍼들을 위한 필수 정보.",
       "booking": "/booking/caledonian_golf_club_ko",
-      "link": "/course/caledonian_golf_club_ko"
+      "link": "/course/caledonian_golf_club?lang=ko"
     },
     {
       "id": "hirono_golf_club_en",
+      "base_id": "hirono_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Hirono Golf Club: An Expert Review by an Elite Japanese Caddy",
       "lat": 34.7967,
@@ -4175,10 +4403,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Hirono Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/hirono_golf_club_en",
-      "link": "/course/hirono_golf_club_en"
+      "link": "/course/hirono_golf_club?lang=en"
     },
     {
       "id": "kishu_golf_club_ko",
+      "base_id": "kishu_golf_club",
       "lang": "ko",
       "title": "키슈 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 리뷰",
       "lat": 33.7544,
@@ -4193,10 +4422,11 @@
       "published": "2026-04-15",
       "summary": "일본 와카야마의 명문 키슈 골프 클럽에 대한 9,000자 분량의 심층 가이드. 역사, 코스 전략, 최고급 시설, 미식 경험까지 전문가의 시선으로 파헤칩니다.",
       "booking": "/booking/kishu_golf_club_ko",
-      "link": "/course/kishu_golf_club_ko"
+      "link": "/course/kishu_golf_club?lang=ko"
     },
     {
       "id": "ryukyu_golf_club_en",
+      "base_id": "ryukyu_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Ryukyu Golf Club: An Expert Review by an Elite Caddy & Rater",
       "lat": 26.1544,
@@ -4211,10 +4441,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Ryukyu Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and senior caddy.",
       "booking": "/booking/ryukyu_golf_club_en",
-      "link": "/course/ryukyu_golf_club_en"
+      "link": "/course/ryukyu_golf_club?lang=en"
     },
     {
       "id": "katsura_golf_club_en",
+      "base_id": "katsura_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Katsura Golf Club: An Expert Review (en)",
       "lat": 42.8144,
@@ -4229,10 +4460,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Katsura Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/katsura_golf_club_en",
-      "link": "/course/katsura_golf_club_en"
+      "link": "/course/katsura_golf_club?lang=en"
     },
     {
       "id": "naruo_golf_club_en",
+      "base_id": "naruo_golf_club",
       "lang": "en",
       "title": "The Definitive Guide to Naruo Golf Club: An Expert Review",
       "lat": 34.8194,
@@ -4247,10 +4479,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Naruo Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/naruo_golf_club_en",
-      "link": "/course/naruo_golf_club_en"
+      "link": "/course/naruo_golf_club?lang=en"
     },
     {
       "id": "nasu_ogawa_golf_club_ko",
+      "base_id": "nasu_ogawa_golf_club",
       "lang": "ko",
       "title": "나스 오가와 골프 클럽 마스터 가이드: 전문가 리뷰",
       "lat": 36.7844,
@@ -4265,10 +4498,11 @@
       "published": "2026-04-15",
       "summary": "나스 오가와 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 망라합니다.",
       "booking": "/booking/nasu_ogawa_golf_club_ko",
-      "link": "/course/nasu_ogawa_golf_club_ko"
+      "link": "/course/nasu_ogawa_golf_club?lang=ko"
     },
     {
       "id": "kanucha_golf_course_en",
+      "base_id": "kanucha_golf_course",
       "lang": "en",
       "title": "The Definitive Guide to Kanucha Golf Course: An Expert Review (en)",
       "lat": 26.5444,
@@ -4283,10 +4517,11 @@
       "published": "2026-04-15",
       "summary": "A comprehensive 9,000-character master guide to Kanucha Golf Course, covering strategy, history, and luxury facilities.",
       "booking": "/booking/kanucha_golf_course_en",
-      "link": "/course/kanucha_golf_course_en"
+      "link": "/course/kanucha_golf_course?lang=en"
     },
     {
       "id": "aso_sky_blue_golf_club_ko",
+      "base_id": "aso_sky_blue_golf_club",
       "lang": "ko",
       "title": "아소 스카이 블루 골프 클럽 완벽 분석: 전문가 리뷰 (ko)",
       "lat": 32.9844,
@@ -4301,10 +4536,11 @@
       "published": "2026-04-15",
       "summary": "아소 스카이 블루 골프 클럽의 전략, 역사, 럭셔리 시설을 총망라한 9,000자 전문가 마스터 가이드입니다.",
       "booking": "/booking/aso_sky_blue_golf_club_ko",
-      "link": "/course/aso_sky_blue_golf_club_ko"
+      "link": "/course/aso_sky_blue_golf_club?lang=ko"
     },
     {
       "id": "spa_resort_hawaiians_golf_ko",
+      "base_id": "spa_resort_hawaiians_golf",
       "lang": "ko",
       "title": "스파리조트 하와이언즈 골프 마스터 가이드: 전문가 리뷰 (ko)",
       "lat": 36.9644,
@@ -4319,10 +4555,11 @@
       "published": "2026-04-15",
       "summary": "스파리조트 하와이언즈 골프의 역사, 코스 전략, 최고급 시설을 아우르는 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/spa_resort_hawaiians_golf_ko",
-      "link": "/course/spa_resort_hawaiians_golf_ko"
+      "link": "/course/spa_resort_hawaiians_golf?lang=ko"
     },
     {
       "id": "wakayama_golf_club_ko",
+      "base_id": "wakayama_golf_club",
       "lang": "ko",
       "title": "와카야마 골프 클럽: 숨겨진 보석 같은 일본 골프 코스 완벽 가이드",
       "lat": 34.1844,
@@ -4337,10 +4574,11 @@
       "published": "2026-04-12",
       "summary": "와카야마 골프 클럽은 그림 같은 와카야마현에 자리 잡고 있으며, 아름다운 자연과 전략적인 코스 디자인이 조화롭게 어우러진 곳입니다. 합리적인 가격으로 수준 높은 골프 경험을 제공하며, 모든 골퍼에게 잊지 못할 라운딩을 선사합니다. 접근성 또한 뛰어나 쉽게 방문할 수 있어 더욱 매력적입니다.",
       "booking": "온라인 예약 가능, 전화 예약 가능",
-      "link": "/course/wakayama_golf_club_ko"
+      "link": "/course/wakayama_golf_club?lang=ko"
     },
     {
       "id": "totsuka_country_club_ko",
+      "base_id": "totsuka_country_club",
       "lang": "ko",
       "title": "도츠카 컨트리 클럽: 요코하마의 숨겨진 골프 보석, 완벽 가이드",
       "lat": 35.4244,
@@ -4354,10 +4592,11 @@
       "published": "2026-04-12",
       "summary": "도츠카 컨트리 클럽은 요코하마의 심장부에 자리한 명문 프라이빗 골프 클럽입니다.  역사와 전통이 살아 숨쉬는 이곳은 전략적인 코스 레이아웃과 아름다운 자연 경관으로 유명합니다.  최고 수준의 시설과 서비스를 경험하며 잊지 못할 라운딩을 즐겨보세요.",
       "booking": "회원제, 회원 동반 필수",
-      "link": "/course/totsuka_country_club_ko"
+      "link": "/course/totsuka_country_club?lang=ko"
     },
     {
       "id": "totsuka_country_club_en",
+      "base_id": "totsuka_country_club",
       "lang": "en",
       "title": "Totsuka Country Club: A Yokohama Golfing Jewel - Course Guide & Review",
       "lat": 35.4244,
@@ -4371,10 +4610,11 @@
       "published": "2026-04-12",
       "summary": "Totsuka Country Club, nestled in the hills of Yokohama, offers an unparalleled golfing experience steeped in tradition and exclusivity. Known for its meticulously maintained fairways, challenging layout, and luxurious amenities, Totsuka is a true sanctuary for discerning golfers. Access is strictly limited, adding to its allure and prestige.",
       "booking": "Exclusive to members and their invited guests. Contact a member for arrangements.",
-      "link": "/course/totsuka_country_club_en"
+      "link": "/course/totsuka_country_club?lang=en"
     },
     {
       "id": "toba_country_club_ko",
+      "base_id": "toba_country_club",
       "lang": "ko",
       "title": "도바 컨트리 클럽: 숨겨진 보석 같은 골프 코스 탐험 (미에현)",
       "lat": 34.4244,
@@ -4388,10 +4628,11 @@
       "published": "2026-04-12",
       "summary": "미에현 도바시에 위치한 도바 컨트리 클럽은 그림 같은 풍경과 전략적인 코스 레이아웃으로 골퍼들에게 잊을 수 없는 경험을 선사합니다. 아름다운 자연 속에서 라운딩을 즐기고, 온천욕으로 피로를 풀 수 있는 매력적인 골프 여행지입니다. 합리적인 가격으로 훌륭한 가성비를 자랑합니다.",
       "booking": "온라인 예약 가능, 전화 문의 (일본어)",
-      "link": "/course/toba_country_club_ko"
+      "link": "/course/toba_country_club?lang=ko"
     },
     {
       "id": "wakayama_golf_club_en",
+      "base_id": "wakayama_golf_club",
       "lang": "en",
       "title": "Wakayama Golf Club: A Hidden Gem on the Kii Peninsula",
       "lat": 34.1844,
@@ -4405,10 +4646,11 @@
       "published": "2026-04-12",
       "summary": "Wakayama Golf Club offers a surprisingly challenging and rewarding golfing experience amidst the natural beauty of Wakayama Prefecture. Its well-maintained course, coupled with reasonable green fees, makes it an excellent choice for golfers seeking both value and enjoyment. While not a luxury resort, its genuine charm and excellent course design provide a memorable round.",
       "booking": "Through official website or reputable online booking platforms.",
-      "link": "/course/wakayama_golf_club_en"
+      "link": "/course/wakayama_golf_club?lang=en"
     },
     {
       "id": "toba_country_club_en",
+      "base_id": "toba_country_club",
       "lang": "en",
       "title": "Toba Country Club: A Coastal Golfing Masterpiece in Mie Prefecture",
       "lat": 34.4244,
@@ -4422,7 +4664,7 @@
       "published": "2024-10-27",
       "summary": "Toba Country Club offers a breathtaking golfing experience amidst the stunning coastal scenery of Mie Prefecture. Renowned for its meticulously manicured fairways, challenging layout, and luxurious amenities, it is a destination for discerning golfers seeking a memorable Japanese golf retreat. The panoramic ocean views and world-class service create an unparalleled experience.",
       "booking": "Reservations can be made online through the Toba Country Club official website or via affiliated travel agencies specializing in golf packages.",
-      "link": "/course/toba_country_club_en"
+      "link": "/course/toba_country_club?lang=en"
     }
   ]
 }

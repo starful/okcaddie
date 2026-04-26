@@ -44,6 +44,8 @@ AREA_MAP = {
 
 CACHED_DATA = {"courses": []}
 CACHED_GUIDES = []
+GOOGLE_MAPS_JS_API_KEY = os.environ.get("GOOGLE_MAPS_JS_API_KEY", "").strip()
+SUPPORTED_LANGS = {"en", "ko"}
 
 # ==========================================
 # 🛠️ 유틸리티 및 데이터 로드 함수
@@ -54,6 +56,31 @@ def get_meta_fallback(text, key):
     pattern = rf'{key}:\s*["\']?(.*?)["\']?\n'
     match = re.search(pattern, text, re.IGNORECASE)
     return match.group(1).strip() if match else ""
+
+def split_localized_id(item_id):
+    if item_id.endswith("_ko"):
+        return item_id[:-3], "ko"
+    if item_id.endswith("_en"):
+        return item_id[:-3], "en"
+    return item_id, None
+
+def resolve_course_id(base_id, lang):
+    course_id = f"{base_id}_{lang}"
+    if os.path.exists(os.path.join(CONTENT_DIR, f"{course_id}.md")):
+        return course_id
+    fallback_id = f"{base_id}_en"
+    if os.path.exists(os.path.join(CONTENT_DIR, f"{fallback_id}.md")):
+        return fallback_id
+    return None
+
+def resolve_guide_id(base_id, lang):
+    guide_id = f"{base_id}_{lang}"
+    if os.path.exists(os.path.join(GUIDE_DIR, f"{guide_id}.md")):
+        return guide_id
+    fallback_id = f"{base_id}_en"
+    if os.path.exists(os.path.join(GUIDE_DIR, f"{fallback_id}.md")):
+        return fallback_id
+    return None
 
 def load_all_data():
     """서버 시작 시 메모리에 모든 마크다운 및 JSON 데이터를 로드"""
@@ -131,7 +158,26 @@ def index():
     # 가이드가 없으면 전체에서 상위 3개 노출 (안전장치)
     if not featured:
         featured = CACHED_GUIDES[:3]
-    return render_template('index.html', featured_guides=featured, active_lang=lang)
+    return render_template(
+        'index.html',
+        featured_guides=featured,
+        active_lang=lang,
+        google_maps_js_api_key=GOOGLE_MAPS_JS_API_KEY
+    )
+
+@app.route('/about')
+@app.route('/about.html')
+def about():
+    """소개 페이지"""
+    lang = request.args.get('lang', 'en')
+    return render_template('about.html', active_lang=lang)
+
+@app.route('/privacy')
+@app.route('/privacy.html')
+def privacy():
+    """개인정보 처리방침 페이지"""
+    lang = request.args.get('lang', 'en')
+    return render_template('privacy.html', active_lang=lang)
 
 @app.route('/api/courses')
 def api_courses():
@@ -148,9 +194,21 @@ def api_courses():
         filtered = CACHED_DATA.get('courses', [])
     return jsonify({"last_updated": CACHED_DATA.get('last_updated'), "courses": filtered})
 
-@app.route('/course/<course_id>')
-def course_detail(course_id):
+@app.route('/course/<course_ref>')
+def course_detail(course_ref):
     """골프장 상세 페이지: 마크다운 파싱 및 본문 찌꺼기 제거"""
+    base_id, legacy_lang = split_localized_id(course_ref)
+    if legacy_lang:
+        return redirect(f"/course/{base_id}?lang={legacy_lang}", code=301)
+
+    lang = request.args.get('lang', 'en').strip().lower()
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
+
+    course_id = resolve_course_id(base_id, lang)
+    if not course_id:
+        abort(404)
+
     md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
     if not os.path.exists(md_path):
         abort(404)
@@ -168,6 +226,7 @@ def course_detail(course_id):
     post_content = re.sub(r'^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary):.*$', '', post_obj.content, flags=re.MULTILINE | re.IGNORECASE).strip()
     
     post_data['id'] = course_id
+    post_data['base_id'] = base_id
     post_data['lang'] = 'ko' if course_id.endswith('_ko') else 'en'
     
     if isinstance(post_data.get('categories'), str):
@@ -178,7 +237,59 @@ def course_detail(course_id):
     post_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', post_content)
     
     content_html = markdown.markdown(post_content, extensions=['tables', 'fenced_code'])
-    return render_template('detail.html', post=post_data, content=content_html, active_lang=post_data['lang'])
+
+    current_categories = set(post_data.get('categories', []))
+    related_courses = []
+    for course in CACHED_DATA.get('courses', []):
+        if course.get('id') == course_id:
+            continue
+        if course.get('lang') != post_data['lang']:
+            continue
+        candidate_categories = set(course.get('categories', []))
+        if current_categories and not (current_categories & candidate_categories):
+            continue
+        related_courses.append(course)
+        if len(related_courses) >= 6:
+            break
+
+    related_guides = [g for g in CACHED_GUIDES if g.get('lang') == post_data['lang']][:3]
+
+    return render_template(
+        'detail.html',
+        post=post_data,
+        content=content_html,
+        active_lang=post_data['lang'],
+        related_courses=related_courses,
+        related_guides=related_guides
+    )
+
+@app.route('/courses')
+def courses_index():
+    """크롤러/사용자용 서버 렌더 코스 인덱스 페이지"""
+    lang = request.args.get('lang', 'en')
+    page = max(1, request.args.get('page', default=1, type=int))
+    per_page = 24
+
+    filtered = [c for c in CACHED_DATA.get('courses', []) if c.get('lang') == lang]
+    if not filtered:
+        filtered = CACHED_DATA.get('courses', [])
+
+    total = len(filtered)
+    total_pages = max(1, (total + per_page - 1) // per_page)
+    page = min(page, total_pages)
+
+    start = (page - 1) * per_page
+    end = start + per_page
+    page_courses = filtered[start:end]
+
+    return render_template(
+        'courses.html',
+        courses=page_courses,
+        active_lang=lang,
+        page=page,
+        total_pages=total_pages,
+        total_courses=total
+    )
 
 @app.route('/guide')
 def guide_list():
@@ -187,9 +298,21 @@ def guide_list():
     guides = [g for g in CACHED_GUIDES if g['lang'] == lang]
     return render_template('guide_list.html', guides=guides, lang=lang, active_lang=lang)
 
-@app.route('/guide/<guide_id>')
-def guide_detail(guide_id):
+@app.route('/guide/<guide_ref>')
+def guide_detail(guide_ref):
     """가이드 상세 페이지: 본문 청소 및 맞춤 이미지 매핑"""
+    base_id, legacy_lang = split_localized_id(guide_ref)
+    if legacy_lang:
+        return redirect(f"/guide/{base_id}?lang={legacy_lang}", code=301)
+
+    lang = request.args.get('lang', 'en').strip().lower()
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
+
+    guide_id = resolve_guide_id(base_id, lang)
+    if not guide_id:
+        abort(404)
+
     path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
     if not os.path.exists(path):
         abort(404)
@@ -202,6 +325,7 @@ def guide_detail(guide_id):
 
     post_data = dict(post_obj.metadata)
     post_data['id'] = guide_id
+    post_data['base_id'] = base_id
     post_data['lang'] = post_data.get('lang', 'en').strip().lower()
     
     # 본문 청소 (데이터 태그 제거)
@@ -273,17 +397,33 @@ def travel_redirect(item_type, course_id):
 @app.route('/apple-touch-icon.png')
 def serve_favicons():
     """구글 검색 아이콘 노출을 위해 루트 경로에서 직접 파일 서빙"""
-    return send_from_directory(os.path.join(app.root_path, 'static', 'images'), 
-                               request.path[1:], 
-                               mimetype='image/png' if '.png' in request.path else 'image/vnd.microsoft.icon')
+    image_dir = os.path.join(app.root_path, 'static', 'images')
+    filename = request.path[1:]
+    # Legacy asset fallback: some builds have favicons.ico instead of favicon.ico
+    if filename == 'favicon.ico' and not os.path.exists(os.path.join(image_dir, filename)):
+        filename = 'favicons.ico'
+    return send_from_directory(
+        image_dir,
+        filename,
+        mimetype='image/png' if filename.endswith('.png') else 'image/vnd.microsoft.icon'
+    )
+
+@app.route('/site.webmanifest')
+def webmanifest():
+    """PWA/검색엔진 아이콘 인식을 위한 manifest 파일 서빙"""
+    return send_from_directory(STATIC_DIR, 'site.webmanifest', mimetype='application/manifest+json')
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
     """일반 이미지는 GCS로 리다이렉트하여 서버 부하 감소"""
-    import time
     if any(x in filename for x in ['favicon', 'apple-touch']):
         return send_from_directory(os.path.join(app.root_path, 'static', 'images'), filename)
-    return redirect(f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}?v={int(time.time())}")
+    # Avoid per-request timestamp query strings for better cache/index consistency.
+    version = os.environ.get('ASSET_VERSION', '').strip()
+    url = f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}"
+    if version:
+        url = f"{url}?v={urllib.parse.quote(version)}"
+    return redirect(url, code=302)
 
 @app.route('/sitemap.xml')
 def sitemap_xml(): return send_from_directory(STATIC_DIR, 'sitemap.xml')

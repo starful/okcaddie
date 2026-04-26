@@ -7,20 +7,30 @@
     <!-- SEO 메타 태그 -->
     <title>{{ post.title }} | OKCaddie Guide</title>
     <meta name="description" content="{{ post.summary }}">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ post.title }} | OKCaddie Guide">
+    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:url" content="https://okcaddie.net/guide/{{ post.base_id }}?lang={{ post.lang }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta name="twitter:card" content="summary_large_image">
     
     <!-- 파비콘 및 아이콘 -->
-    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/static/images/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     
     <!-- CSS 연결 -->
     <link rel="stylesheet" href="/static/css/style.css">
 
     <!-- [SEO] Canonical 및 다국어 연결 (Hreflang) -->
-    <link rel="canonical" href="https://okcaddie.net/guide/{{ post.id }}">
-    {% set base_id = post.id | replace('_ko', '') | replace('_en', '') %}
-    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}_ko" />
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}_en" />
+    <link rel="canonical" href="https://okcaddie.net/guide/{{ post.base_id }}?lang={{ post.lang }}">
+    {% set base_id = post.base_id %}
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}?lang=ko" />
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/{{ base_id }}?lang=en" />
 
     <!-- [SEO] JSON-LD 구조화 데이터 (Article 스키마) -->
     <script type="application/ld+json">

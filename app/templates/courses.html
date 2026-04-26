@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ active_lang or 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ '일본 골프장 전체 목록' if active_lang == 'ko' else 'All Japan Golf Courses' }} - OKCaddie</title>
+    <meta name="description" content="{{ '일본 골프장 전체 목록을 언어별로 탐색하세요.' if active_lang == 'ko' else 'Browse the full list of Japan golf courses by language.' }}">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://okcaddie.net/courses?lang={{ active_lang or 'en' }}">
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/courses?lang=en">
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/courses?lang=ko">
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/courses?lang=en">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <main class="container" style="margin-top: 40px; margin-bottom: 100px;">
+        <h1 class="list-title" style="text-align: left; margin-bottom: 12px;">
+            ⛳ {{ '일본 골프장 전체 목록' if active_lang == 'ko' else 'All Japan Golf Courses' }}
+        </h1>
+        <p style="color:#64748b; margin-bottom: 30px;">
+            {{ total_courses }} {{ '개 코스' if active_lang == 'ko' else 'courses indexed' }}
+        </p>
+
+        <section class="course-grid">
+            {% for c in courses %}
+            <article class="course-card">
+                <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ c.lang }}">
+                    <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
+                    <div class="card-content">
+                        <div class="card-title">{{ c.title }}</div>
+                        <p style="font-size:0.9rem; color:#666;">{{ c.summary[:110] }}...</p>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </section>
+
+        <nav aria-label="Pagination" style="display:flex; justify-content:center; gap:10px; margin-top:40px; flex-wrap:wrap;">
+            {% if page > 1 %}
+            <a class="back-btn" href="/courses?lang={{ active_lang }}&page={{ page - 1 }}">← Prev</a>
+            {% endif %}
+            <span style="padding:10px 16px; border:1px solid #e2e8f0; border-radius:999px; color:#475569;">
+                {{ page }} / {{ total_pages }}
+            </span>
+            {% if page < total_pages %}
+            <a class="back-btn" href="/courses?lang={{ active_lang }}&page={{ page + 1 }}">Next →</a>
+            {% endif %}
+        </nav>
+    </main>
+
+    {% include 'footer.html' %}
+</body>
+</html>
