@@ -124,14 +124,7 @@ fi
 # ── STEP 5: Cloud Build & Cloud Run ───────
 print_step "STEP 5 / 7  |  Cloud Build & Cloud Run 배포"
 print_info "Google Cloud 배포 시작..."
-if [ -z "${GOOGLE_MAPS_JS_API_KEY:-}" ]; then
-    print_err "GOOGLE_MAPS_JS_API_KEY 없음 → Cloud Build substitution(_GOOGLE_MAPS_JS_API_KEY) 불가"
-    exit 1
-fi
-
-gcloud builds submit \
-    --project starful-258005 \
-    --substitutions="_GOOGLE_MAPS_JS_API_KEY=${GOOGLE_MAPS_JS_API_KEY}"
+gcloud builds submit --project starful-258005
 print_ok "Cloud Run 배포 완료"
 
 # ── STEP 6: 배포 스모크 테스트 ──────────────
