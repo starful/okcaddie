@@ -213,6 +213,6 @@ echo -e "  📄 신규 코스     : +${NEW_COURSE}개"
 echo -e "  📖 신규 가이드   : +${NEW_GUIDE}개"
 echo ""
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
+if [[ "$OSTYPE" == "darwin"* ]] && [[ "${AUTO_REGISTER_RUN:-0}" != "1" ]]; then
     osascript -e 'display notification "OKCaddie 배포 완료!" with title "Deploy"' 2>/dev/null || true
 fi
