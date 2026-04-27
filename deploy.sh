@@ -17,6 +17,8 @@ COMMIT_MSG="update: auto-generated courses, guides & UI $(date '+%Y-%m-%d %H:%M'
 MODE="full"
 DO_GIT=false
 DO_CLOUD_DEPLOY=false
+CONTENT_LIMIT="${CONTENT_LIMIT:-10}"
+GUIDE_LIMIT="${GUIDE_LIMIT:-3}"
 NEW_COURSE=0
 NEW_GUIDE=0
 MISSING=0
@@ -40,6 +42,10 @@ Options
   --with-git       Commit and push generated changes
   --with-deploy    Trigger deploy after selected mode
   --help           Show this help
+
+Environment overrides
+  CONTENT_LIMIT    Default: 10
+  GUIDE_LIMIT      Default: 3
 EOF
 }
 
@@ -71,8 +77,8 @@ generate_content() {
     local before_guide
     before_guide=$(find "$GUIDE_DIR" -name "*.md" | wc -l | tr -d ' ')
 
-    python3 script/course_generator.py
-    python3 script/guide_generator.py 5
+    python3 script/course_generator.py "$CONTENT_LIMIT"
+    python3 script/guide_generator.py "$GUIDE_LIMIT"
 
     local after_course
     after_course=$(find "$CONTENT_DIR" -maxdepth 1 -name "*.md" | wc -l | tr -d ' ')
@@ -166,6 +172,7 @@ START_TIME=$SECONDS
 clear
 
 print_info "Mode: $MODE"
+print_info "Limits: content=${CONTENT_LIMIT}, guide=${GUIDE_LIMIT}"
 check_env
 require_cmd python3
 require_cmd gcloud
