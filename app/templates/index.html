@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover curated golf courses and practical golf travel guides across Japan in English and Korean.">
+    <meta name="description" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 200곳 이상을 지도에서 검색하세요. 그린피·예약·하코네·히라노 등 가이드까지 한국어/영어로 정리했습니다.{% else %}Search 200+ Japan golf courses on a live map—green fees, booking paths, Hirono–Hakone-style guides in English & Korean. Plan a round in minutes.{% endif %}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="OKCaddie - Japan Golf Discovery Map">
-    <meta property="og:description" content="Explore 200+ Japan golf courses and bilingual expert guides.">
+    <meta property="og:title" content="{% if (active_lang or 'en') == 'ko' %}OKCaddie | 일본 골프 지도—코스 요금·예약·가이드{% else %}OKCaddie | Japan Golf Map—200+ Courses, Fees & Bilingual Guides{% endif %}">
+    <meta property="og:description" content="{% if (active_lang or 'en') == 'ko' %}지도에서 코스·요금·예약 링크를 확인하고 한국어 가이드로 일본 라운딩을 준비하세요.{% else %}Map every major region: fees, Rakuten/Klook booking hooks, and expert course pages—built for international golfers.{% endif %}">
     <meta property="og:url" content="https://okcaddie.net/">
     <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <title>OKCaddie - Japan Golf Discovery Map</title>
+    <title>{% if (active_lang or 'en') == 'ko' %}OKCaddie | 일본 골프 지도—코스 요금·예약·가이드{% else %}OKCaddie | Japan Golf Map—200+ Courses, Fees & Bilingual Guides{% endif %}</title>
     <link rel="stylesheet" href="/static/css/style.css">
     <script type="application/ld+json">
         {

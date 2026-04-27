@@ -1,6 +1,6 @@
 ---
 lang: "en"
-title: "The Definitive Guide to Natsudomari Golf Links: An Expert Review by an Elite Rater & Senior Caddy (en)"
+title: "Natsudomari Golf Links (Aomori) | Mutsu Bay Links—Wind, Greens & Booking"
 lat: "41.0144"
 lng: "140.8956"
 categories: "Seaside Links, Scenic View, Strategic Design, Luxury Experience, Japanese Golf, Tohoku Gem"
@@ -8,7 +8,7 @@ thumbnail: "/static/images/natsudomari_golf_links.jpg"
 address: "Hiranai, Higashitsugaru District, Aomori Prefecture, Japan"
 date: "2026-04-15"
 booking: "/booking/natsudomari_golf_links_en"
-summary: "An unparalleled 9,000-character master guide to Natsudomari Golf Links, meticulously crafted by an elite Japanese rater and senior caddy. Discover its historical prestige, strategic architecture, hole-by-hole secrets, luxurious clubhouse, exquisite dining, and essential seasonal tips for an unforgettable golf journey."
+summary: "Top northern Japan links on Mutsu Bay—Izumi’s firm fairways, coastal wind chess, deep bunkers, clubhouse dining, and when to book if you want a bucket-list Aomori round."
 ---
 
 ## Natsudomari Golf Links: A Masterpiece Forged by Nature and Vision

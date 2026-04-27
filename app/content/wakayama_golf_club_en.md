@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Wakayama Golf Club: A Hidden Gem on the Kii Peninsula"
+title: "Wakayama Golf Club | Affordable Kii Peninsula Public-Slot Guide"
 lat: 34.1844
 lng: 135.1556
 categories: ["Value for Money", "Public Tournament"]
@@ -8,7 +8,7 @@ thumbnail: "/static/images/wakayama_golf_club.jpg"
 address: "Wakayama, Wakayama"
 date: "2026-04-12"
 booking: "Through official website or reputable online booking platforms."
-summary: "Wakayama Golf Club offers a surprisingly challenging and rewarding golfing experience amidst the natural beauty of Wakayama Prefecture. Its well-maintained course, coupled with reasonable green fees, makes it an excellent choice for golfers seeking both value and enjoyment. While not a luxury resort, its genuine charm and excellent course design provide a memorable round."
+summary: "Semi-public Wakayama value—¥8k–¥18k-style green fees, booking windows, par-4 12th & par-3 17th highlights, carts/caddies, and the smartest seasons to reserve a tee time."
 image_prompt: "A wide-angle, sun-drenched shot of Wakayama Golf Club's 18th green, showcasing the manicured fairway, strategically placed bunkers, and the serene, rolling hills of Wakayama in the background. The image should evoke a sense of peaceful challenge and understated elegance."
 ---
 

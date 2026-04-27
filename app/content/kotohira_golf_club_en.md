@@ -1,5 +1,6 @@
+---
 lang: "en"
-title: "The Definitive Guide to Kotohira Golf Club: An Expert Review (en)"
+title: "Kotohira Golf Club (Kagawa) | Shikoku Value Course—Fees & Booking Steps"
 lat: "34.2044"
 lng: "133.8556"
 categories: "Value for Money, Stay & Play, Easy Booking"
@@ -7,7 +8,7 @@ thumbnail: "/static/images/kotohira_golf_club.jpg"
 address: "Manno, Kagawa"
 date: "2026-04-15"
 booking: "/booking/kotohira_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Kotohira Golf Club, covering strategy, history, and luxury facilities."
+summary: "Manno hills near Kotohira-gū—Masashi Sato risk/reward layout, Korai fairways, bent greens, visitor-friendly booking, and the best seasons for tee times in Shikoku."
 ---
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service on some of Japan's most revered fairways, it is my distinct honor to present an exhaustive review of **Kotohira Golf Club**. Nestled amidst the scenic grandeur of Kagawa Prefecture, this club is not merely a collection of eighteen holes; it is a meticulously crafted experience, a harmonious blend of natural beauty, strategic design, and unparalleled Japanese hospitality. For the discerning golfer seeking to understand the true essence of golf in Japan, Kotohira Golf Club represents a quintessential embodiment of tradition, challenge, and serene luxury. This master review, tailored for 'OKCaddie', aims to provide an unparalleled insight, meticulously detailing every facet from its historical lineage to the subtle breaks on its immaculate greens, ensuring its rightful place at the pinnacle of golf travel resources.
 

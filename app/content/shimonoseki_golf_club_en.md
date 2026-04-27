@@ -1,6 +1,6 @@
 ---
 lang: "en"
-title: "The Definitive Guide to Shimonoseki Golf Club: An Expert Review (en)"
+title: "Shimonoseki Golf Club (Yamaguchi) | Seaside Private Course—Play & Fees"
 lat: "34.0944"
 lng: "130.9356"
 categories: "Private Club, Seaside Links, Championship"
@@ -8,7 +8,7 @@ thumbnail: "/static/images/shimonoseki_golf_club.jpg"
 address: "Shimonoseki, Yamaguchi"
 date: "2026-04-15"
 booking: "/booking/shimonoseki_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Shimonoseki Golf Club, covering strategy, history, and luxury facilities."
+summary: "Kanmon coast member club—Dr. Sato layout, Korai fairways, fast bent greens, sea breeze strategy, and what you need for a guest or sponsor invitation round."
 ---
 
 As a seasoned golf course rater for OKCaddie and a professional senior caddy with two decades navigating Japan's most revered fairways, I approach each club with a blend of reverence, technical scrutiny, and an unwavering commitment to the purest golf experience. Shimonoseki Golf Club, nestled on the scenic coast of Yamaguchi Prefecture, is not merely a golf course; it is a pilgrimage. It represents a quintessential embodiment of Japanese golf philosophy, demanding respect for tradition while presenting a thoroughly modern challenge. This review will delve into every facet of this esteemed club, from its storied past to the nuanced architectural brilliance, the strategic demands of its hallowed holes, the restorative power of its amenities, and the culinary artistry that awaits. Prepare for a definitive journey into the soul of Shimonoseki Golf Club.

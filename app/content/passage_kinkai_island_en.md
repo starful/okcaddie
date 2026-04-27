@@ -6,10 +6,9 @@ date: '2026-04-15'
 lang: en
 lat: '32.8944'
 lng: '129.8356'
-summary: A comprehensive 9,000-character master guide to Passage Kinkai Island, covering
-  strategy, history, and luxury facilities.
+summary: "Nagasaki private island golf—Kuroki coastal design, Korai vs bent greens, invite-only access, stay-and-play angles, and wind/bunker strategy before you plan Kinkai."
 thumbnail: /static/images/passage_kinkai_island.jpg
-title: 'The Definitive Guide to Passage Kinkai Island: An Expert Review (en)'
+title: 'Passage Kinkai Island Golf, Nagasaki | Private Island—Access & Resort Stay'
 ---
 
 ## [Passage Kinkai](/course/passage_kinkai_en) Island: A Masterpiece Unveiled by an Expert Caddy and Course Rater

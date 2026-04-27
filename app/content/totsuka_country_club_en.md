@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Totsuka Country Club: A Yokohama Golfing Jewel - Course Guide & Review"
+title: "Totsuka Country Club, Yokohama | Members-Only Luxury—What Guests Pay"
 lat: 35.4244
 lng: 139.5156
 categories: ["Premium / Luxury", "Private Club"]
@@ -8,7 +8,7 @@ thumbnail: "/static/images/totsuka_country_club.jpg"
 address: "2710 Totsukacho, Totsuka Ward, Yokohama, Kanagawa 244-0813, Japan"
 date: "2026-04-12"
 booking: "Exclusive to members and their invited guests. Contact a member for arrangements."
-summary: "Totsuka Country Club, nestled in the hills of Yokohama, offers an unparalleled golfing experience steeped in tradition and exclusivity. Known for its meticulously maintained fairways, challenging layout, and luxurious amenities, Totsuka is a true sanctuary for discerning golfers. Access is strictly limited, adding to its allure and prestige."
+summary: "Invite-only Yokohama hills club—what guests pay (often ¥30k–¥50k+), fast bent greens, onsen after golf, and why tee times exist only through members—read before you ask."
 image_prompt: "Ultra-high resolution cinematic photography of the 18th green at Totsuka Country Club at sunset, showcasing the perfectly manicured turf, surrounding trees silhouetted against the vibrant sky, and a solitary golfer putting for birdie. Golden hour lighting, shallow depth of field."
 ---
 

@@ -1,6 +1,6 @@
 ---
 lang: "en"
-title: "The Definitive Guide to ABC Golf Club: An Expert Review (en)"
+title: "ABC Golf Club, Hyogo | Kato Premium Parkland—Fees, Access & Strategy"
 lat: "34.8344"
 lng: "135.0356"
 categories: "Public Tournament, Premium / Luxury, Luxury"
@@ -8,7 +8,7 @@ thumbnail: "/static/images/abc_golf_club.jpg"
 address: "Kato, Hyogo"
 date: "2026-04-15"
 booking: "/booking/abc_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to ABC Golf Club, covering strategy, history, and luxury facilities."
+summary: "Hyogo tournament-caliber parkland—Koga design, Korai/bent surfaces, public tournament access vs member days, fee context, and hole strategy for your Kato round."
 ---
 
 As a seasoned golf course rater and a caddy with two decades of guiding discerning players across Japan's finest fairways, it is my distinct honor to present an unparalleled assessment of ABC Golf Club. Often whispered about in reverent tones among the cognoscenti, ABC Golf Club is not merely a course; it is a profound journey into the heart of Japanese golf excellence, a meticulously crafted experience that fuses strategic genius with sublime hospitality. This comprehensive review aims to dissect every facet of this legendary club, providing an invaluable guide for the elite traveler seeking the zenith of golf in Japan. Prepare to dive deep into its storied past, unravel its architectural mysteries, conquer its most challenging holes, luxuriate in its exquisite amenities, and savor its culinary masterpieces.

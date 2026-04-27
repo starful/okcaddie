@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Toba Country Club: A Coastal Golfing Masterpiece in Mie Prefecture"
+title: "Toba Country Club, Mie | Ocean-View Premium Golf—Prices & Tee Times"
 lat: 34.4244
 lng: 136.8856
 categories: ["Premium / Luxury", "Stay & Play"]
@@ -8,7 +8,7 @@ thumbnail: "/static/images/toba_country_club.jpg"
 address: "Toba, Mie, Japan"
 date: "2024-10-27"
 booking: "Reservations can be made online through the Toba Country Club official website or via affiliated travel agencies specializing in golf packages."
-summary: "Toba Country Club offers a breathtaking golfing experience amidst the stunning coastal scenery of Mie Prefecture. Renowned for its meticulously manicured fairways, challenging layout, and luxurious amenities, it is a destination for discerning golfers seeking a memorable Japanese golf retreat. The panoramic ocean views and world-class service create an unparalleled experience."
+summary: "Ise Bay premium golf—¥25k–¥55k-style green fees, semi-private access rules, ocean-wind signature holes, cart/caddie notes, and how to book official or agency tee times."
 image_prompt: "Wide-angle cinematic shot of the 18th green at Toba Country Club at sunset, capturing the golden light reflecting off the ocean and the lush green of the course, with subtle details of the clubhouse in the background."
 ---
 

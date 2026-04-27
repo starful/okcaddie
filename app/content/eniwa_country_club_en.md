@@ -1,6 +1,6 @@
 ---
 lang: "en"
-title: "The Definitive Guide to Eniwa Country Club: An Expert Review by OKCaddie (en)"
+title: "Eniwa Country Club, Hokkaido | Gold Course Host—Fees, Tours & Booking"
 lat: "42.8844"
 lng: "141.5656"
 categories: "Public Tournament, Stay & Play, Scenic View, Luxury Golf"
@@ -8,7 +8,7 @@ thumbnail: "/static/images/eniwa_country_club.jpg"
 address: "Eniwa, Hokkaido"
 date: "2026-04-15"
 booking: "/booking/eniwa_country_club_en"
-summary: "An 8,000+ character master guide to Eniwa Country Club, offering deep strategic insights, historical context, and luxury amenity reviews for the discerning golfer."
+summary: "Hokkaido Bentgrass championship hub—Gold/Silver/Bronze picks, ANA Open–level pedigree, lodge/onsen, birch-belt wind, and how visitors book Gold vs resort courses."
 ---
 
 ## The Undisputed Crown Jewel of Hokkaido Golf: Eniwa Country Club – A Master Review
