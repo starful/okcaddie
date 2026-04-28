@@ -129,6 +129,19 @@ async function updateMarkers(courses) {
             `;
             state.infoWindow.setContent(contentString);
             state.infoWindow.open(state.map, marker);
+            google.maps.event.addListenerOnce(state.infoWindow, 'domready', () => {
+                const btn = document.querySelector('.info-btn');
+                if (btn) {
+                    btn.addEventListener('click', () => {
+                        if (typeof gtag === 'function') {
+                            gtag('event', 'map_infowindow_detail_click', {
+                                event_category: 'map_home',
+                                event_label: (btn.getAttribute('href') || '').split('?')[0]
+                            });
+                        }
+                    }, { once: true });
+                }
+            });
         });
 
         state.markers.push(marker);
@@ -211,6 +224,22 @@ function setupEventListeners() {
             renderApp();
         });
     });
+
+    // 코스 카드 클릭 → GA4 (광고 전환·퍼널 분석)
+    const listContainer = document.getElementById('course-list');
+    if (listContainer && !listContainer.dataset.gaBound) {
+        listContainer.dataset.gaBound = '1';
+        listContainer.addEventListener('click', (e) => {
+            const a = e.target.closest('a');
+            if (!a || !a.getAttribute('href')) return;
+            if (typeof gtag === 'function') {
+                gtag('event', 'course_card_click', {
+                    event_category: 'map_home',
+                    event_label: (a.getAttribute('href') || '').split('#')[0]
+                });
+            }
+        });
+    }
 }
 
 // 스크립트 로드 완료 후 실행

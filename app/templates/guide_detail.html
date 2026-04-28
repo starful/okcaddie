@@ -57,6 +57,7 @@
       }
     }
     </script>
+    {% include 'partials/ga4.html' %}
 </head>
 <body>
     <!-- 공용 헤더 포함 (언어 토글 버튼 포함됨) -->
@@ -119,5 +120,19 @@
 
     <!-- 공통 푸터 포함 -->
     {% include 'footer.html' %}
+    <script>
+    (function () {
+      document.querySelectorAll('.booking-banner a[href^="/booking/"]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          if (typeof gtag === 'function') {
+            gtag('event', 'partner_outbound_click', {
+              event_category: 'guide_booking',
+              event_label: (a.getAttribute('href') || '').split('?')[0]
+            });
+          }
+        });
+      });
+    })();
+    </script>
 </body>
 </html>

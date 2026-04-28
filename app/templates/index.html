@@ -60,14 +60,7 @@
         })();
     </script>
 
-    <!-- 구글 애널리틱스 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HBWT4CY75"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-5HBWT4CY75');
-    </script>
+    {% include 'partials/ga4.html' %}
 </head>
 <body>
 
@@ -130,6 +123,6 @@
     </script>
     
     <!-- 메인 비즈니스 로직 자바스크립트 -->
-    <script type="module" src="/static/js/main.js"></script>
+    <script type="module" src="/static/js/main.js?v=2"></script>
 </body>
 </html>

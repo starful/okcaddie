@@ -47,6 +47,7 @@
       }
     }
     </script>
+    {% include 'partials/ga4.html' %}
 </head>
 <body>
     <!-- 공용 헤더 포함 (언어 전환 버튼 포함) -->
@@ -196,5 +197,19 @@
             transition: 0.3s;
         }
     </style>
+    <script>
+    (function () {
+      document.querySelectorAll('.monetization-box a[href^="/booking/"], .monetization-box a[href^="/travel/"]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          if (typeof gtag === 'function') {
+            gtag('event', 'partner_outbound_click', {
+              event_category: 'monetization',
+              event_label: (a.getAttribute('href') || '').split('?')[0]
+            });
+          }
+        });
+      });
+    })();
+    </script>
 </body>
 </html>
