@@ -15,21 +15,53 @@
         <div class="footer-brand">
             <p><strong>OKCaddie Project</strong><br>Discovering the finest golf experiences in Japan.</p>
         </div>
-        
+    </div>
+
+    <div class="family-sites-strip" aria-label="{{ '일본 여행 더 알아보기' if active_lang == 'ko' else 'Explore more of Japan' }}">
+        <div class="container family-sites-inner">
+            <p class="family-sites-title">
+                {{ '일본 여행 더 알아보기' if active_lang == 'ko' else 'Explore More of Japan' }}
+            </p>
+            <div class="family-sites-row">
+                <a href="https://okramen.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
+                    <span class="family-site-card-emoji" aria-hidden="true">🍜</span>
+                    <div class="family-site-card-text">
+                        <div class="family-site-card-name">OK Ramen</div>
+                        <div class="family-site-card-desc">{{ '일본 라멘 맛집 가이드' if active_lang == 'ko' else 'Japan Ramen Guide' }}</div>
+                    </div>
+                </a>
+                <a href="https://okonsen.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
+                    <span class="family-site-card-emoji" aria-hidden="true">♨️</span>
+                    <div class="family-site-card-text">
+                        <div class="family-site-card-name">OK Onsen</div>
+                        <div class="family-site-card-desc">{{ '온천 & 료칸 완벽 가이드' if active_lang == 'ko' else 'Onsen & Ryokan Guide' }}</div>
+                    </div>
+                </a>
+                <a href="https://oksushi.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
+                    <span class="family-site-card-emoji" aria-hidden="true">🍣</span>
+                    <div class="family-site-card-text">
+                        <div class="family-site-card-name">OKSushi</div>
+                        <div class="family-site-card-desc">{{ '일본 스시 & 초밥 가이드' if active_lang == 'ko' else 'Japan Sushi Guide' }}</div>
+                    </div>
+                </a>
+                <a href="https://jpcampus.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
+                    <span class="family-site-card-emoji" aria-hidden="true">🏫</span>
+                    <div class="family-site-card-text">
+                        <div class="family-site-card-name">JP Campus</div>
+                        <div class="family-site-card-desc">{{ '일본 유학·학교 찾기' if active_lang == 'ko' else 'Japan Study & School Map' }}</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <nav class="footer-nav" aria-label="Footer links">
             <a href="/courses?lang={{ active_lang or 'en' }}">Courses</a>
             <a href="/about">About</a>
             <a href="/privacy">Privacy Policy</a>
         </nav>
-        <nav class="footer-family" aria-label="OK series">
-            <span class="footer-family-label">OK series</span>
-            <a href="https://okonsen.net" target="_blank" rel="noopener noreferrer">OKOnsen</a>
-            <span class="footer-family-sep">·</span>
-            <a href="https://okramen.net" target="_blank" rel="noopener noreferrer">OKRamen</a>
-            <span class="footer-family-sep">·</span>
-            <a href="https://oksushi.net" target="_blank" rel="noopener noreferrer">OKSushi</a>
-        </nav>
-        
+
         <p class="footer-copy">
             &copy; 2024-2026 OKCaddie. All rights reserved.
         </p>
