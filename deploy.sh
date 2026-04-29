@@ -169,7 +169,7 @@ done
 
 cd "$PROJECT_ROOT"
 START_TIME=$SECONDS
-clear
+if [ -t 1 ]; then clear; fi
 
 print_info "Mode: $MODE"
 print_info "Limits: content=${CONTENT_LIMIT}, guide=${GUIDE_LIMIT}"
