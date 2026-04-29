@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.04.26",
+  "last_updated": "2026.04.29",
   "courses": [
     {
       "id": "hokkaido_classic_golf_club_ko",
@@ -173,6 +173,25 @@
       "summary": "기후 노스 골프 클럽의 전략, 역사, 럭셔리 시설을 다루는 종합적인 9,000자 마스터 가이드입니다.",
       "booking": "/booking/gifu_north_golf_club_ko",
       "link": "/course/gifu_north_golf_club?lang=ko"
+    },
+    {
+      "id": "arima_royal_golf_club_en",
+      "base_id": "arima_royal_golf_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Arima Royal Golf Club: An Expert Review (en)",
+      "lat": 34.8344,
+      "lng": 135.2156,
+      "categories": [
+        "Premium / Luxury",
+        "Championship",
+        "Luxury"
+      ],
+      "thumbnail": "/static/images/arima_royal_golf_club.jpg",
+      "address": "Kobe, Hyogo",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Arima Royal Golf Club, covering strategy, history, and luxury facilities.",
+      "booking": "/booking/arima_royal_golf_club_en",
+      "link": "/course/arima_royal_golf_club?lang=en"
     },
     {
       "id": "nagano_country_club_ko",
@@ -620,6 +639,25 @@
       "link": "/course/spa_resort_hawaiians_golf?lang=en"
     },
     {
+      "id": "nishinomiya_country_club_ko",
+      "base_id": "nishinomiya_country_club",
+      "lang": "ko",
+      "title": "니시노미야 컨트리 클럽 완벽 가이드: 명예로운 전통과 정교한 전략의 조화 (OKCaddie 전문가 리뷰)",
+      "lat": 34.7844,
+      "lng": 135.3156,
+      "categories": [
+        "Private Club",
+        "Historic",
+        "Mountain Style"
+      ],
+      "thumbnail": "/static/images/nishinomiya_country_club.jpg",
+      "address": "Nishinomiya, Hyogo",
+      "published": "2026-04-15",
+      "summary": "니시노미야 컨트리 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 망라한 전문가 리뷰.",
+      "booking": "/booking/nishinomiya_country_club_ko",
+      "link": "/course/nishinomiya_country_club?lang=ko"
+    },
+    {
       "id": "aso_sky_blue_golf_club_en",
       "base_id": "aso_sky_blue_golf_club",
       "lang": "en",
@@ -733,6 +771,25 @@
       "summary": "류큐 골프 클럽의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드입니다.",
       "booking": "/booking/ryukyu_golf_club_ko",
       "link": "/course/ryukyu_golf_club?lang=ko"
+    },
+    {
+      "id": "kyoto_golf_club_kamigamo_en",
+      "base_id": "kyoto_golf_club_kamigamo",
+      "lang": "en",
+      "title": "The Definitive Guide to Kyoto Golf Club Kamigamo: An Expert Review by an Elite Rater & Senior Caddy",
+      "lat": 35.0644,
+      "lng": 135.7556,
+      "categories": [
+        "Private Club",
+        "Historic",
+        "Premium / Luxury"
+      ],
+      "thumbnail": "/static/images/kyoto_golf_club_kamigamo.jpg",
+      "address": "Kyoto, Kyoto",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Kyoto Golf Club Kamigamo, covering strategic architectural analysis, historical prestige, luxury facilities, and expert caddy tips for an unparalleled golfing experience in Japan's ancient capital.",
+      "booking": "/booking/kyoto_golf_club_kamigamo_en",
+      "link": "/course/kyoto_golf_club_kamigamo?lang=en"
     },
     {
       "id": "kishu_golf_club_en",
@@ -972,7 +1029,7 @@
       "id": "aso_resort_grandvrio_en",
       "base_id": "aso_resort_grandvrio",
       "lang": "en",
-      "title": "The Definitive Guide to Aso Resort Grandvrio: An Expert Review (en)",
+      "title": "Aso Resort Grandvrio Golf | Caldera Stay-and-Play, Rates & Course Tips",
       "lat": 32.9644,
       "lng": 131.0256,
       "categories": [
@@ -983,7 +1040,7 @@
       "thumbnail": "/static/images/aso_resort_grandvrio.jpg",
       "address": "Aso, Kumamoto",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Aso Resort Grandvrio, covering strategy, history, and luxury facilities.",
+      "summary": "Play inside Mount Aso’s caldera—resort stay, onsen, Korai/bent turf, risk/reward bunkering, typical packages, and wind/elevation notes before you book Kyūshū golf.",
       "booking": "/booking/aso_resort_grandvrio_en",
       "link": "/course/aso_resort_grandvrio?lang=en"
     },
@@ -1202,6 +1259,25 @@
       "link": "/course/sayama_golf_club?lang=ko"
     },
     {
+      "id": "inuyama_country_club_en",
+      "base_id": "inuyama_country_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Inuyama Country Club: An Expert Review (en)",
+      "lat": 35.3544,
+      "lng": 136.9856,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/inuyama_country_club.jpg",
+      "address": "Inuyama, Aichi",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Inuyama Country Club, covering strategy, history, and luxury facilities.",
+      "booking": "/booking/inuyama_country_club_en",
+      "link": "/course/inuyama_country_club?lang=en"
+    },
+    {
       "id": "fukushima_golf_club_en",
       "base_id": "fukushima_golf_club",
       "lang": "en",
@@ -1245,7 +1321,7 @@
       "id": "passage_kinkai_island_en",
       "base_id": "passage_kinkai_island",
       "lang": "en",
-      "title": "The Definitive Guide to Passage Kinkai Island: An Expert Review (en)",
+      "title": "Passage Kinkai Island Golf, Nagasaki | Private Island—Access & Resort Stay",
       "lat": 32.8944,
       "lng": 129.8356,
       "categories": [
@@ -1256,7 +1332,7 @@
       "thumbnail": "/static/images/passage_kinkai_island.jpg",
       "address": "Nagasaki, Nagasaki",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Passage Kinkai Island, covering strategy, history, and luxury facilities.",
+      "summary": "Nagasaki private island golf—Kuroki coastal design, Korai vs bent greens, invite-only access, stay-and-play angles, and wind/bunker strategy before you plan Kinkai.",
       "booking": "/booking/passage_kinkai_island_en",
       "link": "/course/passage_kinkai_island?lang=en"
     },
@@ -1278,6 +1354,25 @@
       "summary": "카멜리아 힐스 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다.",
       "booking": "/booking/camellia_hills_country_club_ko",
       "link": "/course/camellia_hills_country_club?lang=ko"
+    },
+    {
+      "id": "nagoya_green_country_club_ko",
+      "base_id": "nagoya_green_country_club",
+      "lang": "ko",
+      "title": "나고야 그린 컨트리 클럽의 결정판 리뷰: 전문가의 시선 (ko)",
+      "lat": 35.2144,
+      "lng": 137.2156,
+      "categories": [
+        "Value for Money",
+        "Public Tournament",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/nagoya_green_country_club.jpg",
+      "address": "Toyota, Aichi",
+      "published": "2026-04-15",
+      "summary": "나고야 그린 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라한 9,000자 전문가 마스터 가이드입니다.",
+      "booking": "/booking/nagoya_green_country_club_ko",
+      "link": "/course/nagoya_green_country_club?lang=ko"
     },
     {
       "id": "chiran_country_club_en",
@@ -1322,7 +1417,7 @@
       "id": "shimonoseki_golf_club_en",
       "base_id": "shimonoseki_golf_club",
       "lang": "en",
-      "title": "The Definitive Guide to Shimonoseki Golf Club: An Expert Review (en)",
+      "title": "Shimonoseki Golf Club (Yamaguchi) | Seaside Private Course—Play & Fees",
       "lat": 34.0944,
       "lng": 130.9356,
       "categories": [
@@ -1333,7 +1428,7 @@
       "thumbnail": "/static/images/shimonoseki_golf_club.jpg",
       "address": "Shimonoseki, Yamaguchi",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Shimonoseki Golf Club, covering strategy, history, and luxury facilities.",
+      "summary": "Kanmon coast member club—Dr. Sato layout, Korai fairways, fast bent greens, sea breeze strategy, and what you need for a guest or sponsor invitation round.",
       "booking": "/booking/shimonoseki_golf_club_en",
       "link": "/course/shimonoseki_golf_club?lang=en"
     },
@@ -1393,6 +1488,25 @@
       "summary": "20년 경력의 베테랑 캐디가 선사하는 이즈 오히토 컨트리 클럽의 역사, 전략, 미식, 온천 등 9,000자 분량의 심도 깊은 마스터 가이드입니다.",
       "booking": "/booking/izu_ohito_country_club_ko",
       "link": "/course/izu_ohito_country_club?lang=ko"
+    },
+    {
+      "id": "miki_golf_club_ko",
+      "base_id": "miki_golf_club",
+      "lang": "ko",
+      "title": "미키 골프 클럽 마스터 가이드: 명문 코스 전략과 숨겨진 매력, 캐디의 비책 (OKCaddie 독점 리뷰)",
+      "lat": 34.8144,
+      "lng": 135.0156,
+      "categories": [
+        "명문 토너먼트 코스",
+        "숲속 코스",
+        "역사적인 골프장"
+      ],
+      "thumbnail": "/static/images/miki_golf_club.jpg",
+      "address": "효고현 미키시",
+      "published": "2026-04-15",
+      "summary": "미키 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 코스 전략, 유구한 역사, 럭셔리 시설, 캐디의 비책까지 모든 것을 담았습니다.",
+      "booking": "/booking/miki_golf_club_ko",
+      "link": "/course/miki_golf_club?lang=ko"
     },
     {
       "id": "ube_72_country_club_ko",
@@ -1469,6 +1583,26 @@
       "summary": "A comprehensive 9,000-character master guide to Atta Terrace Golf Resort, covering strategic design, historical prestige, luxurious amenities, and culinary excellence for the discerning golfer seeking the ultimate Okinawa experience.",
       "booking": "/booking/atta_terrace_golf_resort_en",
       "link": "/course/atta_terrace_golf_resort?lang=en"
+    },
+    {
+      "id": "osaka_golf_club_en",
+      "base_id": "osaka_golf_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Osaka Golf Club: An Expert Review by an Elite Rater & Senior Caddy",
+      "lat": 34.3144,
+      "lng": 135.1556,
+      "categories": [
+        "Private Club",
+        "Seaside Links",
+        "Historic",
+        "Championship Course"
+      ],
+      "thumbnail": "/static/images/osaka_golf_club.jpg",
+      "address": "Misaki, Osaka Prefecture, Japan",
+      "published": "2026-04-15",
+      "summary": "An unparalleled 9,000-character master guide to Osaka Golf Club, meticulously detailing its strategic architecture, historical prestige, hole-by-hole insights, luxury amenities, and gourmet dining for the discerning golf traveler. This expert review by a seasoned Japanese golf rater and senior caddy offers unique insights for all handicappers.",
+      "booking": "/booking/osaka_golf_club_en",
+      "link": "/course/osaka_golf_club?lang=en"
     },
     {
       "id": "oita_country_club_ko",
@@ -1660,6 +1794,25 @@
       "summary": "20년 경력의 일본인 마스터 캐디가 히라츠카 후지 골프 코스의 역사, 전략, 시설, 미식, 그리고 숨겨진 팁까지 8,000자 이상의 심층 분석으로 완벽하게 해부합니다. OKCaddie에서 #1 랭크를 목표로 작성된 최고의 가이드.",
       "booking": "/booking/hiratsuka_fuji_golf_course_ko",
       "link": "/course/hiratsuka_fuji_golf_course?lang=ko"
+    },
+    {
+      "id": "kyoto_ohara_public_en",
+      "base_id": "kyoto_ohara_public",
+      "lang": "en",
+      "title": "The Definitive Guide to Kyoto Ohara Public: An Expert Review (en)",
+      "lat": 35.1144,
+      "lng": 135.8156,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kyoto_ohara_public.jpg",
+      "address": "Kyoto, Kyoto",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Kyoto Ohara Public, covering strategy, history, and luxury facilities.",
+      "booking": "/booking/kyoto_ohara_public_en",
+      "link": "/course/kyoto_ohara_public?lang=en"
     },
     {
       "id": "shishido_hills_country_club_en",
@@ -2084,6 +2237,25 @@
       "link": "/course/nishinippon_country_club?lang=ko"
     },
     {
+      "id": "kansai_classic_golf_club_ko",
+      "base_id": "kansai_classic_golf_club",
+      "lang": "ko",
+      "title": "간사이 클래식 골프 클럽 완전 분석: 전문가의 마스터 리뷰 (ko)",
+      "lat": 34.8544,
+      "lng": 135.0556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/kansai_classic_golf_club.jpg",
+      "address": "효고현 미키시",
+      "published": "2026-04-15",
+      "summary": "간사이 클래식 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심도 있게 다룹니다.",
+      "booking": "/booking/kansai_classic_golf_club_ko",
+      "link": "/course/kansai_classic_golf_club?lang=ko"
+    },
+    {
       "id": "mie_country_club_ko",
       "base_id": "mie_country_club",
       "lang": "ko",
@@ -2467,6 +2639,25 @@
       "link": "/course/wakagi_golf_club?lang=en"
     },
     {
+      "id": "cherry_hills_robert_trent_jones_en",
+      "base_id": "cherry_hills_robert_trent_jones",
+      "lang": "en",
+      "title": "The Definitive Guide to Cherry Hills Robert Trent Jones: An Expert Review (en)",
+      "lat": 34.7844,
+      "lng": 135.0756,
+      "categories": [
+        "Premium / Luxury",
+        "Championship",
+        "Strategic"
+      ],
+      "thumbnail": "/static/images/cherry_hills_robert_trent_jones.jpg",
+      "address": "Miki, Hyogo",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Cherry Hills Robert Trent Jones, covering strategy, history, and luxury facilities, designed for the discerning golfer seeking the ultimate Japanese golfing experience.",
+      "booking": "/booking/cherry_hills_robert_trent_jones_en",
+      "link": "/course/cherry_hills_robert_trent_jones?lang=en"
+    },
+    {
       "id": "miyoshi_country_club_ko",
       "base_id": "miyoshi_country_club",
       "lang": "ko",
@@ -2505,6 +2696,25 @@
       "summary": "An unparalleled 9,000-character master guide to Oita Country Club, meticulously detailing its strategic design, rich history, luxurious onsen, and exquisite dining, offering unparalleled insights for the discerning golfer seeking Japan's finest.",
       "booking": "/booking/oita_country_club_en",
       "link": "/course/oita_country_club?lang=en"
+    },
+    {
+      "id": "osaka_golf_club_ko",
+      "base_id": "osaka_golf_club",
+      "lang": "ko",
+      "title": "오사카 골프 클럽 마스터 가이드: 전문가 리뷰",
+      "lat": 34.3144,
+      "lng": 135.1556,
+      "categories": [
+        "프라이빗 클럽",
+        "해변 링크스",
+        "역사적 명문"
+      ],
+      "thumbnail": "/static/images/osaka_golf_club.jpg",
+      "address": "미사키, 오사카",
+      "published": "2026-04-15",
+      "summary": "오사카 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다. 최고급 골프 경험을 위한 당신의 필독서입니다.",
+      "booking": "/booking/osaka_golf_club_ko",
+      "link": "/course/osaka_golf_club?lang=ko"
     },
     {
       "id": "atta_terrace_golf_resort_ko",
@@ -2581,6 +2791,25 @@
       "summary": "A comprehensive 9,000-character master guide to Ube 72 Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/ube_72_country_club_en",
       "link": "/course/ube_72_country_club?lang=en"
+    },
+    {
+      "id": "miki_golf_club_en",
+      "base_id": "miki_golf_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Miki Golf Club: An Expert Review (en)",
+      "lat": 34.8144,
+      "lng": 135.0156,
+      "categories": [
+        "Public Tournament",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/miki_golf_club.jpg",
+      "address": "Miki, Hyogo",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Miki Golf Club, covering strategy, history, and luxury facilities.",
+      "booking": "/booking/miki_golf_club_en",
+      "link": "/course/miki_golf_club?lang=en"
     },
     {
       "id": "izu_ohito_country_club_en",
@@ -2678,6 +2907,26 @@
       "link": "/course/camellia_hills_country_club?lang=en"
     },
     {
+      "id": "nagoya_green_country_club_en",
+      "base_id": "nagoya_green_country_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Nagoya Green Country Club: An Expert Review by an Elite Caddy",
+      "lat": 35.2144,
+      "lng": 137.2156,
+      "categories": [
+        "Luxury Golf",
+        "Championship Course",
+        "Forest",
+        "Nagoya Meshi"
+      ],
+      "thumbnail": "/static/images/nagoya_green_country_club.jpg",
+      "address": "Toyota, Aichi",
+      "published": "2026-04-15",
+      "summary": "An unparalleled 9,000-character master guide to Nagoya Green Country Club, meticulously crafted by an elite Japanese rater and senior caddy. Discover its rich history, strategic architecture, hole-by-hole mastery, luxurious Onsen, gourmet dining, and essential travel tips for an unforgettable golfing pilgrimage to Aichi.",
+      "booking": "/booking/nagoya_green_country_club_en",
+      "link": "/course/nagoya_green_country_club?lang=en"
+    },
+    {
       "id": "pgm_ishioka_golf_club_en",
       "base_id": "pgm_ishioka_golf_club",
       "lang": "en",
@@ -2721,7 +2970,7 @@
       "id": "hakone_country_club_en",
       "base_id": "hakone_country_club",
       "lang": "en",
-      "title": "The Definitive Guide to Hakone Country Club: An Expert Review by an Elite Japanese Golf Rater & Senior Caddy",
+      "title": "Hakone Country Club | Fuji Views, Akabori Design & Guest-Round Access",
       "lat": 35.2544,
       "lng": 139.0056,
       "categories": [
@@ -2733,7 +2982,7 @@
       "thumbnail": "/static/images/hakone_country_club.jpg",
       "address": "Hakone, Kanagawa, Japan",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Hakone Country Club, offering an elite Japanese perspective on its history, strategic design, hole-by-hole insights, luxury facilities, gourmet dining, and essential travel tips for discerning golfers seeking the ultimate Japanese golf experience.",
+      "summary": "Private Hakone CC by Lake Ashi—borrowed Fuji scenery, Korai fairways, bent greens to ~12 stimp, onsen-worthy clubhouse, and how visitors actually secure a tee time.",
       "booking": "/booking/hakone_country_club_en",
       "link": "/course/hakone_country_club?lang=en"
     },
@@ -2741,7 +2990,7 @@
       "id": "abc_golf_club_en",
       "base_id": "abc_golf_club",
       "lang": "en",
-      "title": "The Definitive Guide to ABC Golf Club: An Expert Review (en)",
+      "title": "ABC Golf Club, Hyogo | Kato Premium Parkland—Fees, Access & Strategy",
       "lat": 34.8344,
       "lng": 135.0356,
       "categories": [
@@ -2752,7 +3001,7 @@
       "thumbnail": "/static/images/abc_golf_club.jpg",
       "address": "Kato, Hyogo",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to ABC Golf Club, covering strategy, history, and luxury facilities.",
+      "summary": "Hyogo tournament-caliber parkland—Koga design, Korai/bent surfaces, public tournament access vs member days, fee context, and hole strategy for your Kato round.",
       "booking": "/booking/abc_golf_club_en",
       "link": "/course/abc_golf_club?lang=en"
     },
@@ -2911,6 +3160,25 @@
       "summary": "A comprehensive 9,000-character master guide to Mie Country Club, covering strategic architecture, historical prestige, luxurious facilities, and gourmet dining for the discerning golfer.",
       "booking": "/booking/mie_country_club_en",
       "link": "/course/mie_country_club?lang=en"
+    },
+    {
+      "id": "kansai_classic_golf_club_en",
+      "base_id": "kansai_classic_golf_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Kansai Classic Golf Club: An Expert Review (en)",
+      "lat": 34.8544,
+      "lng": 135.0556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/kansai_classic_golf_club.jpg",
+      "address": "Miki, Hyogo",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Kansai Classic Golf Club, covering strategy, history, and luxury facilities.",
+      "booking": "/booking/kansai_classic_golf_club_en",
+      "link": "/course/kansai_classic_golf_club?lang=en"
     },
     {
       "id": "nishinippon_country_club_en",
@@ -3130,7 +3398,7 @@
       "id": "natsudomari_golf_links_en",
       "base_id": "natsudomari_golf_links",
       "lang": "en",
-      "title": "The Definitive Guide to Natsudomari Golf Links: An Expert Review by an Elite Rater & Senior Caddy (en)",
+      "title": "Natsudomari Golf Links (Aomori) | Mutsu Bay Links—Wind, Greens & Booking",
       "lat": 41.0144,
       "lng": 140.8956,
       "categories": [
@@ -3144,7 +3412,7 @@
       "thumbnail": "/static/images/natsudomari_golf_links.jpg",
       "address": "Hiranai, Higashitsugaru District, Aomori Prefecture, Japan",
       "published": "2026-04-15",
-      "summary": "An unparalleled 9,000-character master guide to Natsudomari Golf Links, meticulously crafted by an elite Japanese rater and senior caddy. Discover its historical prestige, strategic architecture, hole-by-hole secrets, luxurious clubhouse, exquisite dining, and essential seasonal tips for an unforgettable golf journey.",
+      "summary": "Top northern Japan links on Mutsu Bay—Izumi’s firm fairways, coastal wind chess, deep bunkers, clubhouse dining, and when to book if you want a bucket-list Aomori round.",
       "booking": "/booking/natsudomari_golf_links_en",
       "link": "/course/natsudomari_golf_links?lang=en"
     },
@@ -3308,7 +3576,7 @@
       "id": "eniwa_country_club_en",
       "base_id": "eniwa_country_club",
       "lang": "en",
-      "title": "The Definitive Guide to Eniwa Country Club: An Expert Review by OKCaddie (en)",
+      "title": "Eniwa Country Club, Hokkaido | Gold Course Host—Fees, Tours & Booking",
       "lat": 42.8844,
       "lng": 141.5656,
       "categories": [
@@ -3320,7 +3588,7 @@
       "thumbnail": "/static/images/eniwa_country_club.jpg",
       "address": "Eniwa, Hokkaido",
       "published": "2026-04-15",
-      "summary": "An 8,000+ character master guide to Eniwa Country Club, offering deep strategic insights, historical context, and luxury amenity reviews for the discerning golfer.",
+      "summary": "Hokkaido Bentgrass championship hub—Gold/Silver/Bronze picks, ANA Open–level pedigree, lodge/onsen, birch-belt wind, and how visitors book Gold vs resort courses.",
       "booking": "/booking/eniwa_country_club_en",
       "link": "/course/eniwa_country_club?lang=en"
     },
@@ -3654,6 +3922,25 @@
       "link": "/course/fukuoka_international?lang=ko"
     },
     {
+      "id": "kotohira_golf_club_en",
+      "base_id": "kotohira_golf_club",
+      "lang": "en",
+      "title": "Kotohira Golf Club (Kagawa) | Shikoku Value Course—Fees & Booking Steps",
+      "lat": 34.2044,
+      "lng": 133.8556,
+      "categories": [
+        "Value for Money",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/kotohira_golf_club.jpg",
+      "address": "Manno, Kagawa",
+      "published": "2026-04-15",
+      "summary": "Manno hills near Kotohira-gū—Masashi Sato risk/reward layout, Korai fairways, bent greens, visitor-friendly booking, and the best seasons for tee times in Shikoku.",
+      "booking": "/booking/kotohira_golf_club_en",
+      "link": "/course/kotohira_golf_club?lang=en"
+    },
+    {
       "id": "koganei_golf_club_ko",
       "base_id": "koganei_golf_club",
       "lang": "ko",
@@ -3732,6 +4019,25 @@
       "summary": "A comprehensive 9,000-character master guide to Nagano Country Club, covering strategic architecture, historical prestige, luxury facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy.",
       "booking": "/booking/nagano_country_club_en",
       "link": "/course/nagano_country_club?lang=en"
+    },
+    {
+      "id": "arima_royal_golf_club_ko",
+      "base_id": "arima_royal_golf_club",
+      "lang": "ko",
+      "title": "아리마 로얄 골프 클럽 완벽 가이드: 전문가 리뷰",
+      "lat": 34.8344,
+      "lng": 135.2156,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "챔피언십",
+        "럭셔리"
+      ],
+      "thumbnail": "/static/images/arima_royal_golf_club.jpg",
+      "address": "효고현 고베시",
+      "published": "2026-04-15",
+      "summary": "아리마 로얄 골프 클럽의 역사, 코스 전략, 럭셔리 시설을 총망라한 9,000자 전문가 마스터 가이드입니다.",
+      "booking": "/booking/arima_royal_golf_club_ko",
+      "link": "/course/arima_royal_golf_club?lang=ko"
     },
     {
       "id": "gifu_north_golf_club_en",
@@ -3985,6 +4291,25 @@
       "link": "/course/banyan_tree_golf_club?lang=en"
     },
     {
+      "id": "inuyama_country_club_ko",
+      "base_id": "inuyama_country_club",
+      "lang": "ko",
+      "title": "The Definitive Guide to Inuyama Country Club: An Expert Review (ko)",
+      "lat": 35.3544,
+      "lng": 136.9856,
+      "categories": [
+        "가성비",
+        "산악 스타일",
+        "역사적인"
+      ],
+      "thumbnail": "/static/images/inuyama_country_club.jpg",
+      "address": "아이치현 이누야마시",
+      "published": "2026-04-15",
+      "summary": "이누야마 컨트리클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다. 일본의 명문 골프 코스를 깊이 이해하고 싶다면 반드시 읽어야 할 전문가의 심층 리뷰입니다.",
+      "booking": "/booking/inuyama_country_club_ko",
+      "link": "/course/inuyama_country_club?lang=ko"
+    },
+    {
       "id": "sayama_golf_club_en",
       "base_id": "sayama_golf_club",
       "lang": "en",
@@ -4007,7 +4332,7 @@
       "id": "tom_watson_golf_course_en",
       "base_id": "tom_watson_golf_course",
       "lang": "en",
-      "title": "The Definitive Guide to Tom Watson Golf Course: An Expert Review (en)",
+      "title": "Tom Watson Course, Miyazaki | Seagaia Resort Golf—Night Play & Fees",
       "lat": 31.9644,
       "lng": 131.4656,
       "categories": [
@@ -4018,7 +4343,7 @@
       "thumbnail": "/static/images/tom_watson_golf_course.jpg",
       "address": "Miyazaki, Miyazaki",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Tom Watson Golf Course, covering strategy, history, and luxury facilities.",
+      "summary": "Phoenix Seagaia’s Watson course—Korai fairways, fast bent greens, tour-grade bunkering, night-golf slots, and the fastest way to book a Miyazaki resort tee time.",
       "booking": "/booking/tom_watson_golf_course_en",
       "link": "/course/tom_watson_golf_course?lang=en"
     },
@@ -4390,7 +4715,7 @@
       "id": "hirono_golf_club_en",
       "base_id": "hirono_golf_club",
       "lang": "en",
-      "title": "The Definitive Guide to Hirono Golf Club: An Expert Review by an Elite Japanese Caddy",
+      "title": "Hirono Golf Club, Hyogo | Alison Course—Access, Fees & Strategy",
       "lat": 34.7967,
       "lng": 135.0111,
       "categories": [
@@ -4401,7 +4726,7 @@
       "thumbnail": "/static/images/hirono_golf_club.jpg",
       "address": "Miki, Hyogo",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Hirono Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
+      "summary": "Hirono in Miki: Charles Alison’s bunkers, Korai fairways vs bent greens, private-club access, realistic fees context, and booking paths—so you know before you fly.",
       "booking": "/booking/hirono_golf_club_en",
       "link": "/course/hirono_golf_club?lang=en"
     },
@@ -4423,6 +4748,25 @@
       "summary": "일본 와카야마의 명문 키슈 골프 클럽에 대한 9,000자 분량의 심층 가이드. 역사, 코스 전략, 최고급 시설, 미식 경험까지 전문가의 시선으로 파헤칩니다.",
       "booking": "/booking/kishu_golf_club_ko",
       "link": "/course/kishu_golf_club?lang=ko"
+    },
+    {
+      "id": "kyoto_golf_club_kamigamo_ko",
+      "base_id": "kyoto_golf_club_kamigamo",
+      "lang": "ko",
+      "title": "교토 골프 클럽 카미가모: 전문가가 전하는 마스터 가이드 (OKCaddie 독점 리뷰)",
+      "lat": 35.0644,
+      "lng": 135.7556,
+      "categories": [
+        "프라이빗 클럽",
+        "역사적",
+        "프리미엄 / 럭셔리"
+      ],
+      "thumbnail": "/static/images/kyoto_golf_club_kamigamo.jpg",
+      "address": "일본 교토부 교토시 기타구 가미가모 혼야마 671",
+      "published": "2026-04-15",
+      "summary": "교토 골프 클럽 카미가모에 대한 8,000자 이상의 종합 마스터 가이드. 전략, 역사, 최고급 시설을 아우르는 깊이 있는 전문가 리뷰입니다. 일본 프리미엄 골프 여행의 정수를 경험하세요.",
+      "booking": "/booking/kyoto_golf_club_kamigamo_ko",
+      "link": "/course/kyoto_golf_club_kamigamo?lang=ko"
     },
     {
       "id": "ryukyu_golf_club_en",
@@ -4539,6 +4883,25 @@
       "link": "/course/aso_sky_blue_golf_club?lang=ko"
     },
     {
+      "id": "nishinomiya_country_club_en",
+      "base_id": "nishinomiya_country_club",
+      "lang": "en",
+      "title": "The Definitive Guide to Nishinomiya Country Club: An Expert Review (en)",
+      "lat": 34.7844,
+      "lng": 135.3156,
+      "categories": [
+        "Private Club",
+        "Historic",
+        "Mountain Style"
+      ],
+      "thumbnail": "/static/images/nishinomiya_country_club.jpg",
+      "address": "Nishinomiya, Hyogo",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Nishinomiya Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
+      "booking": "/booking/nishinomiya_country_club_en",
+      "link": "/course/nishinomiya_country_club?lang=en"
+    },
+    {
       "id": "spa_resort_hawaiians_golf_ko",
       "base_id": "spa_resort_hawaiians_golf",
       "lang": "ko",
@@ -4598,7 +4961,7 @@
       "id": "totsuka_country_club_en",
       "base_id": "totsuka_country_club",
       "lang": "en",
-      "title": "Totsuka Country Club: A Yokohama Golfing Jewel - Course Guide & Review",
+      "title": "Totsuka Country Club, Yokohama | Members-Only Luxury—What Guests Pay",
       "lat": 35.4244,
       "lng": 139.5156,
       "categories": [
@@ -4608,7 +4971,7 @@
       "thumbnail": "/static/images/totsuka_country_club.jpg",
       "address": "2710 Totsukacho, Totsuka Ward, Yokohama, Kanagawa 244-0813, Japan",
       "published": "2026-04-12",
-      "summary": "Totsuka Country Club, nestled in the hills of Yokohama, offers an unparalleled golfing experience steeped in tradition and exclusivity. Known for its meticulously maintained fairways, challenging layout, and luxurious amenities, Totsuka is a true sanctuary for discerning golfers. Access is strictly limited, adding to its allure and prestige.",
+      "summary": "Invite-only Yokohama hills club—what guests pay (often ¥30k–¥50k+), fast bent greens, onsen after golf, and why tee times exist only through members—read before you ask.",
       "booking": "Exclusive to members and their invited guests. Contact a member for arrangements.",
       "link": "/course/totsuka_country_club?lang=en"
     },
@@ -4634,7 +4997,7 @@
       "id": "wakayama_golf_club_en",
       "base_id": "wakayama_golf_club",
       "lang": "en",
-      "title": "Wakayama Golf Club: A Hidden Gem on the Kii Peninsula",
+      "title": "Wakayama Golf Club | Affordable Kii Peninsula Public-Slot Guide",
       "lat": 34.1844,
       "lng": 135.1556,
       "categories": [
@@ -4644,7 +5007,7 @@
       "thumbnail": "/static/images/wakayama_golf_club.jpg",
       "address": "Wakayama, Wakayama",
       "published": "2026-04-12",
-      "summary": "Wakayama Golf Club offers a surprisingly challenging and rewarding golfing experience amidst the natural beauty of Wakayama Prefecture. Its well-maintained course, coupled with reasonable green fees, makes it an excellent choice for golfers seeking both value and enjoyment. While not a luxury resort, its genuine charm and excellent course design provide a memorable round.",
+      "summary": "Semi-public Wakayama value—¥8k–¥18k-style green fees, booking windows, par-4 12th & par-3 17th highlights, carts/caddies, and the smartest seasons to reserve a tee time.",
       "booking": "Through official website or reputable online booking platforms.",
       "link": "/course/wakayama_golf_club?lang=en"
     },
@@ -4652,7 +5015,7 @@
       "id": "toba_country_club_en",
       "base_id": "toba_country_club",
       "lang": "en",
-      "title": "Toba Country Club: A Coastal Golfing Masterpiece in Mie Prefecture",
+      "title": "Toba Country Club, Mie | Ocean-View Premium Golf—Prices & Tee Times",
       "lat": 34.4244,
       "lng": 136.8856,
       "categories": [
@@ -4662,7 +5025,7 @@
       "thumbnail": "/static/images/toba_country_club.jpg",
       "address": "Toba, Mie, Japan",
       "published": "2024-10-27",
-      "summary": "Toba Country Club offers a breathtaking golfing experience amidst the stunning coastal scenery of Mie Prefecture. Renowned for its meticulously manicured fairways, challenging layout, and luxurious amenities, it is a destination for discerning golfers seeking a memorable Japanese golf retreat. The panoramic ocean views and world-class service create an unparalleled experience.",
+      "summary": "Ise Bay premium golf—¥25k–¥55k-style green fees, semi-private access rules, ocean-wind signature holes, cart/caddie notes, and how to book official or agency tee times.",
       "booking": "Reservations can be made online through the Toba Country Club official website or via affiliated travel agencies specializing in golf packages.",
       "link": "/course/toba_country_club?lang=en"
     }
