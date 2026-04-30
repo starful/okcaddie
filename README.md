@@ -32,7 +32,7 @@ An interactive, multi-language web platform designed for global golfers to disco
 *   **Frontend**: Vanilla JavaScript (ESM), HTML5, CSS3, Google Maps API (Advanced Markers)
 *   **Data & Content**: Markdown with YAML Frontmatter compiled to JSON
 *   **AI Integration**: `google-genai` (Gemini 2.5 Flash API)
-*   **Image Processing**: Google Places API for automated image fetching
+*   **Image Processing**: Google **Places API (New)** for automated image fetching (`places.googleapis.com/v1`)
 *   **Infrastructure**: Docker, Google Cloud Run, Cloud Build
 
 ---
@@ -47,7 +47,7 @@ Reads `script/csv/courses.csv` and automatically generates bilingual (EN/KO) Mar
 *   Handles API rate limits safely.
 
 ### 2. `script/fetch_images.py`
-Uses **Google Places API** to find actual photos of the golf courses based on their coordinates (Lat/Lng).
+Uses **Places API (New)** (`places.googleapis.com/v1`) to fetch course photos from coordinates. API key is read from **Secret Manager first** (see env vars below), with an optional plain `GOOGLE_PLACES_API_KEY` fallback for local dev.
 *   Automatically downloads and saves images to `app/static/images/`.
 
 ### 3. `script/build_data.py`
@@ -67,22 +67,33 @@ pip install -r requirements.txt
 ```
 
 ### 2. Set Up Environment Variables
-Create a `.env` file in the root directory and add your API keys:
+Create a `.env` file in the root directory and add your API keys.
+
+GCP에서 **Places API (New)** 를 사용 설정한 뒤, API 키 문자열은 **Secret Manager**에 저장하고 이름만 `.env`에 둡니다 (권장).
+
 ```env
 GEMINI_API_KEY=your_google_gemini_api_key_here
-GOOGLE_PLACES_API_KEY=your_google_places_api_key_here
 GOOGLE_MAPS_JS_API_KEY=your_google_maps_javascript_api_key_here
 ASSET_VERSION=2026-04-26
+
+# Places API (New) — 이미지 수집: Secret Manager 우선
+GOOGLE_CLOUD_PROJECT=your-gcp-project-id
+GOOGLE_PLACES_API_KEY_SECRET_ID=OKCADDIE_GOOGLE_PLACES_API_KEY
+
+# (선택) 로컬만: 시크릿 없이 직접 키
+# GOOGLE_PLACES_API_KEY=...
 ```
 
-`GOOGLE_PLACES_API_KEY` is only for image collection scripts (Places API), while `GOOGLE_MAPS_JS_API_KEY` is only for rendering the web map in runtime (Maps JavaScript API via Cloud Build substitution `_GOOGLE_MAPS_JS_API_KEY`).
+로컬에서 SM을 쓰려면 `gcloud auth application-default login` 후 `pip install -r requirements.txt` ( `google-cloud-secret-manager` 포함).
+
+`GOOGLE_MAPS_JS_API_KEY` → 브라우저 지도 (Cloud Build에서 `OKCADDIE_GOOGLE_MAPS_JS_API_KEY` 시크릿 주입).
 
 ### 3. Generate & Build Data
 ```bash
 # 1. Generate Markdown files via AI (Reads courses.csv)
 python script/course_generator.py
 
-# 2. Fetch real course images via Google Places API
+# 2. Fetch real course images via Places API (New)
 python script/fetch_images.py
 
 # 3. Build JSON data and Sitemap
@@ -141,7 +152,7 @@ okcaddie/
 │   │   └── courses.csv          # Master list of Golf Courses & Metadata
 │   ├── build_data.py            # MD to JSON/XML compiler
 │   ├── course_generator.py      # Gemini AI Content Bot
-│   └── fetch_images.py          # Google Places Image Scraper
+│   └── fetch_images.py          # Places API (New) + Secret Manager
 ├── .env                         # API Keys (Git Ignored)
 ├── Dockerfile                   # Container Configuration
 ├── cloudbuild.yaml              # CI/CD for Google Cloud

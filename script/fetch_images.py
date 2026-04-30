@@ -5,10 +5,15 @@ import requests
 from dotenv import load_dotenv
 
 # ==========================================
-# ⚙️ 설정
+# ⚙️ 설정 — Google Places API (New) 전용
+#   - 엔드포인트: https://places.googleapis.com/v1/...
+#   - 키 우선순위:
+#       1) Secret Manager — GOOGLE_CLOUD_PROJECT(또는 GCP_PROJECT_ID) +
+#          GOOGLE_PLACES_API_KEY_SECRET_ID (시크릿 *이름*만, 예: OKCADDIE_GOOGLE_PLACES_API_KEY)
+#          ADC: gcloud auth application-default login (로컬) / CI SA에 secretAccessor
+#       2) 평문 폴백 — GOOGLE_PLACES_API_KEY (.env, 로컬 편의용)
 # ==========================================
 load_dotenv()
-API_KEY = os.environ.get("GOOGLE_PLACES_API_KEY")
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR    = os.path.dirname(SCRIPT_DIR)
@@ -19,39 +24,89 @@ CSV_PATH    = os.path.join(SCRIPT_DIR, 'csv', 'courses.csv')
 MAX_WIDTH = 1200  # 골프장은 넓은 사진이 잘 나오므로 더 크게
 PROTECTED = {'logo.png', 'logo.svg', 'favicon.ico', 'default.png', 'og_image.png'}
 
+
+def _gcp_project_id() -> str:
+    return (
+        os.environ.get("GOOGLE_CLOUD_PROJECT", "").strip()
+        or os.environ.get("GCP_PROJECT_ID", "").strip()
+    )
+
+
+def _access_secret_latest(project_id: str, secret_id: str) -> str:
+    from google.cloud import secretmanager
+
+    client = secretmanager.SecretManagerServiceClient()
+    name = f"projects/{project_id}/secrets/{secret_id}/versions/latest"
+    response = client.access_secret_version(request={"name": name})
+    return response.payload.data.decode("UTF-8").strip()
+
+
+def resolve_places_api_key() -> str:
+    """Places API (New) 키: Secret Manager 우선, 없으면 환경변수 평문."""
+    project_id = _gcp_project_id()
+    secret_id = os.environ.get("GOOGLE_PLACES_API_KEY_SECRET_ID", "").strip()
+
+    if project_id and secret_id:
+        try:
+            return _access_secret_latest(project_id, secret_id)
+        except Exception as e:
+            print(f"❌ Secret Manager 접근 실패 ({secret_id}): {e}")
+            print(
+                "   프로젝트/시크릿 이름, ADC(gcloud auth application-default login), "
+                "IAM secretAccessor 를 확인하세요."
+            )
+
+    direct = os.environ.get("GOOGLE_PLACES_API_KEY", "").strip()
+    if direct:
+        return direct
+
+    return ""
+
+
+def _places_error_message(res: requests.Response) -> str:
+    try:
+        err = res.json().get("error", {})
+        return err.get("message", res.text[:200])
+    except Exception:
+        return res.text[:200] if res.text else str(res.status_code)
+
+
 # ==========================================
-# 🔍 Places API — 골프장 검색
+# 🔍 Places API (New) — 골프장 검색
 # ==========================================
-def search_place(name, lat, lng):
-    """1차: Nearby Search / 2차: Text Search 폴백"""
+def search_place(name, lat, lng, api_key: str):
+    """1차: searchNearby / 2차: searchText 폴백"""
 
     headers_base = {
         "Content-Type": "application/json",
-        "X-Goog-Api-Key": API_KEY,
-        "X-Goog-FieldMask": "places.id,places.displayName,places.photos"
+        "X-Goog-Api-Key": api_key,
+        "X-Goog-FieldMask": "places.id,places.displayName,places.photos",
     }
     name_lower = name.lower().replace(" ", "")
 
-    # ── 1차 시도: Nearby Search (반경 3km, 골프장 타입) ──
+    # ── 1차: Nearby Search ──
     try:
         body = {
             "includedTypes": ["golf_course", "tourist_attraction", "establishment"],
             "locationRestriction": {
                 "circle": {
                     "center": {"latitude": float(lat), "longitude": float(lng)},
-                    "radius": 3000.0  # 3km로 확대 (골프장은 클럽하우스 위치가 다를 수 있음)
+                    "radius": 3000.0,
                 }
             },
             "maxResultCount": 10,
-            "languageCode": "ja"
+            "languageCode": "ja",
         }
         res = requests.post(
             "https://places.googleapis.com/v1/places:searchNearby",
-            headers=headers_base, json=body, timeout=10
+            headers=headers_base,
+            json=body,
+            timeout=10,
         )
+        if res.status_code != 200:
+            print(f"  ⚠️ searchNearby HTTP {res.status_code}: {_places_error_message(res)}")
         places = res.json().get("places", [])
 
-        # 이름 매칭
         for place in places:
             display = place.get("displayName", {}).get("text", "").lower().replace(" ", "")
             if name_lower in display or display in name_lower:
@@ -61,27 +116,33 @@ def search_place(name, lat, lng):
     except Exception as e:
         print(f"  ⚠️ Nearby 검색 오류: {e}")
 
-    # ── 2차 폴백: Text Search (이름으로 직접 검색) ──
+    # ── 2차: Text Search ──
     try:
         body = {
             "textQuery": f"{name} golf course Japan",
             "locationBias": {
                 "circle": {
                     "center": {"latitude": float(lat), "longitude": float(lng)},
-                    "radius": 5000.0
+                    "radius": 5000.0,
                 }
             },
             "maxResultCount": 5,
-            "languageCode": "ja"
+            "languageCode": "ja",
         }
         res = requests.post(
             "https://places.googleapis.com/v1/places:searchText",
-            headers={**headers_base, "X-Goog-FieldMask": "places.id,places.displayName,places.photos"},
-            json=body, timeout=10
+            headers={
+                **headers_base,
+                "X-Goog-FieldMask": "places.id,places.displayName,places.photos",
+            },
+            json=body,
+            timeout=10,
         )
+        if res.status_code != 200:
+            print(f"  ⚠️ searchText HTTP {res.status_code}: {_places_error_message(res)}")
         places = res.json().get("places", [])
         if places:
-            print(f"  🔄 Text Search 폴백 성공")
+            print("  🔄 Text Search 폴백 성공")
             return places[0]
     except Exception as e:
         print(f"  ⚠️ Text Search 오류: {e}")
@@ -90,14 +151,14 @@ def search_place(name, lat, lng):
 
 
 # ==========================================
-# 📸 사진 다운로드
+# 📸 Place Photo (New)
 # ==========================================
-def download_photo(photo_name, save_path):
+def download_photo(photo_name, save_path, api_key: str):
     url = f"https://places.googleapis.com/v1/{photo_name}/media"
     params = {
         "maxWidthPx": MAX_WIDTH,
-        "key": API_KEY,
-        "skipHttpRedirect": "false"
+        "key": api_key,
+        "skipHttpRedirect": "false",
     }
 
     try:
@@ -107,9 +168,8 @@ def download_photo(photo_name, save_path):
                 f.write(res.content)
             print(f"  📥 다운로드 완료 ({len(res.content)/1024:.0f}KB)")
             return True
-        else:
-            print(f"  ⚠️ 응답 오류: HTTP {res.status_code}")
-            return False
+        print(f"  ⚠️ 응답 오류: HTTP {res.status_code} {_places_error_message(res)}")
+        return False
     except Exception as e:
         print(f"  ⚠️ 다운로드 오류: {e}")
         return False
@@ -119,30 +179,33 @@ def download_photo(photo_name, save_path):
 # 🚀 메인 실행 (MD 파일 기준)
 # ==========================================
 def fetch_all_images():
-    if not API_KEY:
-        print("❌ GOOGLE_PLACES_API_KEY가 없습니다.")
+    api_key = resolve_places_api_key()
+    if not api_key:
+        print("❌ Places API (New) 키가 없습니다.")
+        print(
+            "   Secret Manager: GOOGLE_CLOUD_PROJECT + GOOGLE_PLACES_API_KEY_SECRET_ID"
+        )
+        print("   또는 폴백: GOOGLE_PLACES_API_KEY")
         return
 
     os.makedirs(IMAGES_DIR, exist_ok=True)
 
-    # MD 파일 기준 safe_name 추출
     md_safe_names = set()
     if os.path.exists(CONTENT_DIR):
         for fname in os.listdir(CONTENT_DIR):
-            if fname.endswith('.md'):
-                base = fname.replace('.md', '')
-                for lang in ['_ko', '_en']:
+            if fname.endswith(".md"):
+                base = fname.replace(".md", "")
+                for lang in ["_ko", "_en"]:
                     if base.endswith(lang):
-                        md_safe_names.add(base[:-len(lang)])
+                        md_safe_names.add(base[: -len(lang)])
                         break
 
-    # CSV에서 MD가 있는 골프장만 필터링
-    with open(CSV_PATH, mode='r', encoding='utf-8-sig') as f:
+    with open(CSV_PATH, mode="r", encoding="utf-8-sig") as f:
         all_rows = list(csv.DictReader(f))
 
     rows = []
     for row in all_rows:
-        name = (row.get('Name') or '').strip()
+        name = (row.get("Name") or "").strip()
         if not name:
             continue
         safe = name.lower().replace(" ", "_").replace("'", "").replace(",", "").replace("&", "and")
@@ -156,9 +219,9 @@ def fetch_all_images():
     success = skipped = failed = 0
 
     for i, row in enumerate(rows, 1):
-        name = (row.get('Name') or '').strip()
-        lat  = (row.get('Lat') or '').strip()
-        lng  = (row.get('Lng') or '').strip()
+        name = (row.get("Name") or "").strip()
+        lat = (row.get("Lat") or "").strip()
+        lng = (row.get("Lng") or "").strip()
         if not name or not lat or not lng:
             continue
 
@@ -168,13 +231,13 @@ def fetch_all_images():
         print(f"[{i:03d}/{total}] {name}")
 
         if os.path.exists(save_path) and os.path.basename(save_path) not in PROTECTED:
-            print(f"  ⏭️  이미 존재 → 스킵")
+            print("  ⏭️  이미 존재 → 스킵")
             skipped += 1
             continue
 
-        place = search_place(name, lat, lng)
+        place = search_place(name, lat, lng, api_key)
         if not place:
-            print(f"  ❌ 장소를 찾을 수 없음")
+            print("  ❌ 장소를 찾을 수 없음")
             failed += 1
             time.sleep(0.3)
             continue
@@ -188,14 +251,16 @@ def fetch_all_images():
             continue
 
         print(f"  🔍 장소: {place_name}")
-        ok = download_photo(photos[0].get("name", ""), save_path)
-        if ok: success += 1
-        else:  failed  += 1
+        ok = download_photo(photos[0].get("name", ""), save_path, api_key)
+        if ok:
+            success += 1
+        else:
+            failed += 1
 
         time.sleep(0.3)
 
     print("\n" + "─" * 50)
-    print(f"🎉 이미지 수집 완료!")
+    print("🎉 이미지 수집 완료!")
     print(f"   ✅ 성공: {success}개  ⏭️  스킵: {skipped}개  ❌ 실패: {failed}개")
     print("─" * 50)
 
