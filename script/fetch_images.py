@@ -99,7 +99,8 @@ def search_place(name, lat, lng, api_key: str):
     # ── 1차: Nearby Search ──
     try:
         body = {
-            "includedTypes": ["golf_course", "tourist_attraction", "establishment"],
+            # Places API (New): establishment 등 일부 타입은 searchNearby 미지원
+            "includedTypes": ["golf_course", "tourist_attraction"],
             "locationRestriction": {
                 "circle": {
                     "center": {"latitude": float(lat), "longitude": float(lng)},
