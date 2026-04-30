@@ -22,9 +22,11 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="/static/css/style.css">
+    {% include 'partials/gtm_head.html' %}
     {% include 'partials/ga4.html' %}
 </head>
 <body>
+    {% include 'partials/gtm_body.html' %}
     {% include 'header.html' %}
 
     <main class="container" style="margin-top: 40px; margin-bottom: 100px;">
