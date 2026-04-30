@@ -69,24 +69,28 @@ pip install -r requirements.txt
 ### 2. Set Up Environment Variables
 Create a `.env` file in the root directory and add your API keys.
 
-GCP에서 **Places API (New)** 를 사용 설정한 뒤, API 키 문자열은 **Secret Manager**에 저장하고 이름만 `.env`에 둡니다 (권장).
+GCP에서 **Places API (New)** 를 사용 설정한 뒤, API 키는 **Secret Manager** 시크릿 **`GOOGLE_PLACES_API_KEY`**(또는 `GOOGLE_PLACES_API_KEY_SECRET_ID`로 다른 이름 지정)에만 둡니다. **`script/fetch_images.py`는 `.env`를 읽지 않으며**, 키 평문 환경변수도 사용하지 않습니다.
 
-```env
-GEMINI_API_KEY=your_google_gemini_api_key_here
-GOOGLE_MAPS_JS_API_KEY=your_google_maps_javascript_api_key_here
-ASSET_VERSION=2026-04-26
+로컬에서 이미지 수집 시:
 
-# Places API (New) — 이미지 수집: Secret Manager 우선
-# 시크릿 이름이 GOOGLE_PLACES_API_KEY 이면 프로젝트만 넣어도 됨 (기본 조회)
-GOOGLE_CLOUD_PROJECT=your-gcp-project-id
-# 다른 이름을 쓰는 경우에만 지정:
-# GOOGLE_PLACES_API_KEY_SECRET_ID=my_custom_secret_id
-
-# (선택) 로컬만: 시크릿 없이 직접 키 (SM 시도 후 실패 시에도 폴백)
-# GOOGLE_PLACES_API_KEY=...
+```bash
+export GOOGLE_CLOUD_PROJECT=your-gcp-project-id   # 또는 GCP_PROJECT_ID
+# 선택: 시크릿 이름이 GOOGLE_PLACES_API_KEY 가 아니면
+# export GOOGLE_PLACES_API_KEY_SECRET_ID=my_secret_id
+gcloud auth application-default login
+pip install -r requirements.txt   # google-cloud-secret-manager
+python script/fetch_images.py
 ```
 
-로컬에서 SM을 쓰려면 `gcloud auth application-default login` 후 `pip install -r requirements.txt` ( `google-cloud-secret-manager` 포함).
+`deploy.sh`의 `GCP_PROJECT_ID` 기본값으로 프로젝트가 잡히면, ADC만 있으면 동일하게 Secret Manager에서 키를 읽습니다.
+
+그 외 로컬 변수 예시 (코스/가이드 생성용 `.env`는 그대로 사용 가능):
+
+```env
+GEMINI_API_KEY=...
+GOOGLE_MAPS_JS_API_KEY=...
+ASSET_VERSION=2026-04-26
+```
 
 `GOOGLE_MAPS_JS_API_KEY` → 브라우저 지도 (Cloud Build에서 `OKCADDIE_GOOGLE_MAPS_JS_API_KEY` 시크릿 주입).
 

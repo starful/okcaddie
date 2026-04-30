@@ -58,6 +58,10 @@ require_cmd() {
 
 check_env() {
     print_step "STEP 0  |  환경 체크"
+    if [ "$MODE" = "deploy-only" ]; then
+        print_ok "deploy-only — .env 필수 아님 (Places 키는 Secret Manager + ADC)"
+        return
+    fi
     [ ! -f ".env" ] && { print_err ".env 없음"; exit 1; }
     print_ok ".env 확인"
 }
@@ -92,12 +96,9 @@ generate_content() {
 process_images() {
     print_step "STEP C  |  이미지 수집/최적화"
     MISSING=0
+    # Places 키는 Secret Manager만 사용; 프로젝트는 셸 환경 또는 스크립트 기본값(GCP_PROJECT_ID)
     _places=0
-    if grep -qE '^[[:space:]]*GOOGLE_PLACES_API_KEY=' .env 2>/dev/null; then
-        _places=1
-    elif grep -qE '^[[:space:]]*GOOGLE_CLOUD_PROJECT=' .env 2>/dev/null \
-        || grep -qE '^[[:space:]]*GCP_PROJECT_ID=' .env 2>/dev/null; then
-        # fetch_images: 프로젝트만 있어도 시크릿 GOOGLE_PLACES_API_KEY 기본 조회
+    if [ -n "${GOOGLE_CLOUD_PROJECT:-}" ] || [ -n "${GCP_PROJECT_ID:-}" ]; then
         _places=1
     fi
 
@@ -117,7 +118,7 @@ process_images() {
             print_ok "모든 코스 이미지 존재"
         fi
     else
-        print_warn "Places 키 없음(Secret Manager 또는 GOOGLE_PLACES_API_KEY) → 이미지 수집 건너뜀"
+        print_warn "GOOGLE_CLOUD_PROJECT 또는 GCP_PROJECT_ID 없음 → Places 이미지 수집 건너뜀 (SM 조회 불가)"
     fi
 
     python3 script/optimize_images.py
