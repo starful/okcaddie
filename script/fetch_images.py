@@ -8,8 +8,9 @@ from dotenv import load_dotenv
 # ⚙️ 설정 — Google Places API (New) 전용
 #   - 엔드포인트: https://places.googleapis.com/v1/...
 #   - 키 우선순위:
-#       1) Secret Manager — GOOGLE_CLOUD_PROJECT(또는 GCP_PROJECT_ID) +
-#          GOOGLE_PLACES_API_KEY_SECRET_ID (시크릿 *이름*만, 예: OKCADDIE_GOOGLE_PLACES_API_KEY)
+#       1) Secret Manager — GOOGLE_CLOUD_PROJECT(또는 GCP_PROJECT_ID) + 시크릿 이름
+#          · GOOGLE_PLACES_API_KEY_SECRET_ID 가 있으면 그 이름 사용
+#          · 없으면 기본 시크릿 이름 GOOGLE_PLACES_API_KEY (콘솔 기본과 동일)
 #          ADC: gcloud auth application-default login (로컬) / CI SA에 secretAccessor
 #       2) 평문 폴백 — GOOGLE_PLACES_API_KEY (.env, 로컬 편의용)
 # ==========================================
@@ -23,6 +24,9 @@ CSV_PATH    = os.path.join(SCRIPT_DIR, 'csv', 'courses.csv')
 
 MAX_WIDTH = 1200  # 골프장은 넓은 사진이 잘 나오므로 더 크게
 PROTECTED = {'logo.png', 'logo.svg', 'favicon.ico', 'default.png', 'og_image.png'}
+
+# Secret Manager 기본 시크릿 ID (프로젝트에 GOOGLE_PLACES_API_KEY 로 저장된 경우)
+DEFAULT_PLACES_SECRET_ID = "GOOGLE_PLACES_API_KEY"
 
 
 def _gcp_project_id() -> str:
@@ -45,6 +49,8 @@ def resolve_places_api_key() -> str:
     """Places API (New) 키: Secret Manager 우선, 없으면 환경변수 평문."""
     project_id = _gcp_project_id()
     secret_id = os.environ.get("GOOGLE_PLACES_API_KEY_SECRET_ID", "").strip()
+    if project_id and not secret_id:
+        secret_id = DEFAULT_PLACES_SECRET_ID
 
     if project_id and secret_id:
         try:

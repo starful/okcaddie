@@ -77,10 +77,12 @@ GOOGLE_MAPS_JS_API_KEY=your_google_maps_javascript_api_key_here
 ASSET_VERSION=2026-04-26
 
 # Places API (New) — 이미지 수집: Secret Manager 우선
+# 시크릿 이름이 GOOGLE_PLACES_API_KEY 이면 프로젝트만 넣어도 됨 (기본 조회)
 GOOGLE_CLOUD_PROJECT=your-gcp-project-id
-GOOGLE_PLACES_API_KEY_SECRET_ID=OKCADDIE_GOOGLE_PLACES_API_KEY
+# 다른 이름을 쓰는 경우에만 지정:
+# GOOGLE_PLACES_API_KEY_SECRET_ID=my_custom_secret_id
 
-# (선택) 로컬만: 시크릿 없이 직접 키
+# (선택) 로컬만: 시크릿 없이 직접 키 (SM 시도 후 실패 시에도 폴백)
 # GOOGLE_PLACES_API_KEY=...
 ```
 

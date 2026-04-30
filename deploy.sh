@@ -93,10 +93,11 @@ process_images() {
     print_step "STEP C  |  이미지 수집/최적화"
     MISSING=0
     _places=0
-    if grep -qE '^[[:space:]]*GOOGLE_PLACES_API_KEY_SECRET_ID=' .env 2>/dev/null \
-        && { grep -qE '^[[:space:]]*GOOGLE_CLOUD_PROJECT=' .env 2>/dev/null || grep -qE '^[[:space:]]*GCP_PROJECT_ID=' .env 2>/dev/null; }; then
+    if grep -qE '^[[:space:]]*GOOGLE_PLACES_API_KEY=' .env 2>/dev/null; then
         _places=1
-    elif grep -qE '^[[:space:]]*GOOGLE_PLACES_API_KEY=' .env 2>/dev/null; then
+    elif grep -qE '^[[:space:]]*GOOGLE_CLOUD_PROJECT=' .env 2>/dev/null \
+        || grep -qE '^[[:space:]]*GCP_PROJECT_ID=' .env 2>/dev/null; then
+        # fetch_images: 프로젝트만 있어도 시크릿 GOOGLE_PLACES_API_KEY 기본 조회
         _places=1
     fi
 
