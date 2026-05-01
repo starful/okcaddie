@@ -156,6 +156,56 @@ def load_all_data():
 load_all_data()
 
 # ==========================================
+# 🔗 SEO: HTTPS / 영어 URL 정규화 (?lang=en 제거)
+# ==========================================
+
+@app.before_request
+def seo_url_normalization():
+    if request.method != 'GET':
+        return None
+    p = request.path
+    if (
+        p.startswith('/static/')
+        or p.startswith('/api/')
+        or p.startswith('/booking/')
+        or p.startswith('/travel/')
+    ):
+        return None
+
+    if request.headers.get('X-Forwarded-Proto', '').lower() == 'http':
+        return redirect(request.url.replace('http://', 'https://', 1), code=301)
+
+    args = request.args
+    keys = set(args.keys())
+
+    if p == '/' and keys == {'lang'} and args.get('lang') == 'en':
+        return redirect('/', code=301)
+    if p == '/guide' and keys == {'lang'} and args.get('lang') == 'en':
+        return redirect('/guide', code=301)
+    if p == '/about' and keys == {'lang'} and args.get('lang') == 'en':
+        return redirect('/about', code=301)
+    if p == '/privacy' and keys == {'lang'} and args.get('lang') == 'en':
+        return redirect('/privacy', code=301)
+
+    if p == '/courses':
+        if keys == {'lang'} and args.get('lang') == 'en':
+            return redirect('/courses', code=301)
+        if keys == {'lang', 'page'} and args.get('lang') == 'en':
+            pg = args.get('page') or '1'
+            if pg == '1':
+                return redirect('/courses', code=301)
+            return redirect(f'/courses?page={pg}', code=301)
+
+    if p.startswith('/course/') and len(p) > len('/course/'):
+        if keys == {'lang'} and args.get('lang') == 'en':
+            return redirect(p, code=301)
+    if p.startswith('/guide/') and p != '/guide' and len(p) > len('/guide/'):
+        if keys == {'lang'} and args.get('lang') == 'en':
+            return redirect(p, code=301)
+
+    return None
+
+# ==========================================
 # 🌐 라우팅 (Routing) - 사용자 페이지
 # ==========================================
 

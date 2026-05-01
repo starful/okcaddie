@@ -9,11 +9,12 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Japan Golf Expert Guides - OKCaddie">
     <meta property="og:description" content="Expert EN/KO guides for planning golf trips in Japan.">
-    <meta property="og:url" content="https://okcaddie.net/guide?lang={{ lang }}">
+    {% set guide_list_canon = 'https://okcaddie.net/guide?lang=ko' if lang == 'ko' else 'https://okcaddie.net/guide' %}
+    <meta property="og:url" content="{{ guide_list_canon }}">
     <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://okcaddie.net/guide?lang={{ lang }}">
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide?lang=en">
+    <link rel="canonical" href="{{ guide_list_canon }}">
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide">
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide?lang=ko">
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -29,7 +30,7 @@
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "OKCaddie Japan Golf Guides",
-      "url": "https://okcaddie.net/guide?lang={{ lang }}"
+      "url": "{{ guide_list_canon }}"
     }
     </script>
 </head>
@@ -45,7 +46,7 @@
         <!-- 가이드 전체 리스트 -->
         <div class="guide-highlight-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
             {% for guide in guides %}
-            <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ guide.lang }}" class="guide-highlight-card">
+            <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card">
                 <div class="guide-img-wrapper" style="height: 200px;"><img src="{{ guide.image }}" alt=""></div>
                 <div class="card-body">
                     <div style="font-size: 0.8rem; color: #999; margin-bottom: 5px;">{{ guide.date }}</div>
@@ -57,7 +58,7 @@
         </div>
 
         <div class="back-btn-container" style="text-align: center; margin-top: 60px;">
-            <a href="/?lang={{ lang }}" class="back-btn">🗺️ {{ '지도로 돌아가기' if lang == 'ko' else 'Back to Map' }}</a>
+            <a href="{{ '/?lang=ko' if lang == 'ko' else '/' }}" class="back-btn">🗺️ {{ '지도로 돌아가기' if lang == 'ko' else 'Back to Map' }}</a>
         </div>
     </main>
 

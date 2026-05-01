@@ -51,7 +51,8 @@ a {
 /* =========================================
    2. Header & Navigation (3단 레이아웃)
    ========================================= */
-header {
+/* 상단 사이트 네비만 고정 — detail-header 등 article 내 header는 스티키 제외 */
+.main-header {
     background: var(--header-bg);
     backdrop-filter: blur(10px);
     padding: 15px 0;
@@ -61,7 +62,7 @@ header {
     border-bottom: 1px solid #eee;
 }
 
-header .container {
+.main-header .container {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -585,7 +586,7 @@ footer {
    8. Mobile Optimizations (미디어 쿼리)
    ========================================= */
 @media (max-width: 768px) {
-    header { padding: 10px 0; }
+    .main-header { padding: 10px 0; }
     
     .header-layout { 
         grid-template-columns: auto 1fr auto; 

@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ active_lang or 'en' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About & Contact - OKCaddie</title>
     <meta name="description" content="About OKCaddie, our mission, and contact information for Japan golf travel content partnerships.">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://okcaddie.net/about">
+    {% set about_canon = 'https://okcaddie.net/about?lang=ko' if (active_lang or 'en') == 'ko' else 'https://okcaddie.net/about' %}
+    <link rel="canonical" href="{{ about_canon }}">
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/about">
+    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/about?lang=ko">
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/about">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">

@@ -6,15 +6,33 @@
     <title>{{ '일본 골프장 전체 목록' if active_lang == 'ko' else 'All Japan Golf Courses' }} - OKCaddie</title>
     <meta name="description" content="{{ ('일본 골프장 전체 목록 ' ~ page ~ '페이지. 지역/스타일별 코스를 탐색하세요.') if active_lang == 'ko' else ('Browse page ' ~ page ~ ' of all Japan golf courses by region and style.') }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-    <link rel="canonical" href="https://okcaddie.net/courses?lang={{ active_lang or 'en' }}&page={{ page }}">
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/courses?lang=en">
-    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/courses?lang=ko">
-    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/courses?lang=en">
+    {% set is_ko = (active_lang or 'en') == 'ko' %}
+    {% if is_ko %}
+      {% set canon = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
+      {% set href_en = 'https://okcaddie.net/courses' ~ ('?page=' ~ page if page > 1 else '') %}
+      {% set href_ko = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
+    {% else %}
+      {% set canon = 'https://okcaddie.net/courses' ~ ('?page=' ~ page if page > 1 else '') %}
+      {% set href_en = canon %}
+      {% set href_ko = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
+    {% endif %}
+    <link rel="canonical" href="{{ canon }}">
+    <link rel="alternate" hreflang="en" href="{{ href_en }}">
+    <link rel="alternate" hreflang="ko" href="{{ href_ko }}">
+    <link rel="alternate" hreflang="x-default" href="{{ href_en }}">
     {% if has_prev %}
-    <link rel="prev" href="https://okcaddie.net/courses?lang={{ active_lang }}&page={{ page - 1 }}">
+      {% if is_ko %}
+        <link rel="prev" href="https://okcaddie.net/courses?lang=ko{{ '&page=' ~ (page - 1) if page - 1 > 1 else '' }}">
+      {% else %}
+        <link rel="prev" href="https://okcaddie.net/courses{{ '?page=' ~ (page - 1) if page - 1 > 1 else '' }}">
+      {% endif %}
     {% endif %}
     {% if has_next %}
-    <link rel="next" href="https://okcaddie.net/courses?lang={{ active_lang }}&page={{ page + 1 }}">
+      {% if is_ko %}
+        <link rel="next" href="https://okcaddie.net/courses?lang=ko&page={{ page + 1 }}">
+      {% else %}
+        <link rel="next" href="https://okcaddie.net/courses?page={{ page + 1 }}">
+      {% endif %}
     {% endif %}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -40,7 +58,7 @@
         <section class="course-grid">
             {% for c in courses %}
             <article class="course-card">
-                <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ c.lang }}">
+                <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if c.lang == 'ko' else '' }}">
                     <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
                     <div class="card-content">
                         <div class="card-title">{{ c.title }}</div>
@@ -53,13 +71,13 @@
 
         <nav aria-label="Pagination" style="display:flex; justify-content:center; gap:10px; margin-top:40px; flex-wrap:wrap;">
             {% if page > 1 %}
-            <a class="back-btn" href="/courses?lang={{ active_lang }}&page={{ page - 1 }}">← Prev</a>
+            <a class="back-btn" href="{{ '/courses?lang=ko' ~ ('&page=' ~ (page - 1) if page - 1 > 1 else '') if is_ko else ('/courses' ~ ('?page=' ~ (page - 1) if page - 1 > 1 else '')) }}">← Prev</a>
             {% endif %}
             <span style="padding:10px 16px; border:1px solid #e2e8f0; border-radius:999px; color:#475569;">
                 {{ page }} / {{ total_pages }}
             </span>
             {% if page < total_pages %}
-            <a class="back-btn" href="/courses?lang={{ active_lang }}&page={{ page + 1 }}">Next →</a>
+            <a class="back-btn" href="{{ '/courses?lang=ko&page=' ~ (page + 1) if is_ko else ('/courses?page=' ~ (page + 1)) }}">Next →</a>
             {% endif %}
         </nav>
     </main>

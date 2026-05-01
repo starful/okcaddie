@@ -8,11 +8,12 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{% if (active_lang or 'en') == 'ko' %}OKCaddie | 일본 골프 지도—코스 요금·예약·가이드{% else %}OKCaddie | Japan Golf Map—200+ Courses, Fees & Bilingual Guides{% endif %}">
     <meta property="og:description" content="{% if (active_lang or 'en') == 'ko' %}지도에서 코스·요금·예약 링크를 확인하고 한국어 가이드로 일본 라운딩을 준비하세요.{% else %}Map every major region: fees, Rakuten/Klook booking hooks, and expert course pages—built for international golfers.{% endif %}">
-    <meta property="og:url" content="https://okcaddie.net/">
+    {% set canonical_url = 'https://okcaddie.net/?lang=ko' if (active_lang or 'en') == 'ko' else 'https://okcaddie.net/' %}
+    <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://okcaddie.net/">
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/?lang=en">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/">
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/?lang=ko">
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/">
     <meta name="agd-partner-manual-verification" />
@@ -86,7 +87,7 @@
                 <h2 class="section-title">✨ {{ '최신 골프 가이드' if active_lang == 'ko' else 'Latest Golf Guides' }}</h2>
                 <div class="guide-highlight-grid">
                     {% for guide in featured_guides %}
-                    <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ guide.lang }}" class="guide-highlight-card">
+                    <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card">
                         <div class="badge">NEW</div>
                         <div class="guide-img-wrapper">
                             <img src="{{ guide.image }}" alt="{{ guide.title }}" loading="lazy">
@@ -99,7 +100,7 @@
                     {% endfor %}
                 </div>
                 <div class="view-all-box">
-                    <a href="/guide?lang={{ active_lang }}" class="view-all-btn">
+                    <a href="{{ '/guide?lang=ko' if active_lang == 'ko' else '/guide' }}" class="view-all-btn">
                         {{ '전체 가이드 보기 📖' if active_lang == 'ko' else 'View All Guides 📖' }}
                     </a>
                 </div>

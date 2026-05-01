@@ -4,14 +4,14 @@
         <div class="header-layout">
             <!-- 좌측 가이드 -->
             <div class="header-left">
-                <a href="/guide?lang={{ active_lang or 'en' }}" class="nav-link">
+                <a href="{{ '/guide?lang=ko' if (active_lang or 'en') == 'ko' else '/guide' }}" class="nav-link">
                     📖 <span class="hide-mobile">{{ '가이드' if active_lang == 'ko' else 'Guides' }}</span>
                 </a>
             </div>
             
             <!-- 중앙 로고 -->
             <div class="header-center">
-                <a href="/?lang={{ active_lang or 'en' }}">
+                <a href="{{ '/?lang=ko' if (active_lang or 'en') == 'ko' else '/' }}">
                     <img src="/static/images/logo.png" alt="OKCaddie" class="logo-img">
                 </a>
             </div>
@@ -22,10 +22,10 @@
                     {% set base_id = post.base_id or (post.id | replace('_ko', '') | replace('_en', '')) %}
                     {% set path_prefix = '/guide/' if request.path.startswith('/guide') else '/course/' %}
                     <a href="{{ path_prefix }}{{ base_id }}?lang=ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}">KO</a>
-                    <a href="{{ path_prefix }}{{ base_id }}?lang=en" class="lang-btn {{ 'active' if active_lang == 'en' }}">EN</a>
+                    <a href="{{ path_prefix }}{{ base_id }}" class="lang-btn {{ 'active' if active_lang == 'en' }}">EN</a>
                 {% else %}
-                    <a href="?lang=ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}" data-lang="ko">KO</a>
-                    <a href="?lang=en" class="lang-btn {{ 'active' if active_lang == 'en' }}" data-lang="en">EN</a>
+                    <a href="{% if request.path == '/courses' %}{{ url_for('courses_index', lang='ko', page=request.args.get('page')) if request.args.get('page') and request.args.get('page') != '1' else url_for('courses_index', lang='ko') }}{% elif request.path == '/' %}/?lang=ko{% elif request.path == '/guide' %}/guide?lang=ko{% elif request.path == '/about' or request.path == '/about.html' %}/about?lang=ko{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy?lang=ko{% else %}?lang=ko{% endif %}" class="lang-btn {{ 'active' if active_lang == 'ko' }}" data-lang="ko">KO</a>
+                    <a href="{% if request.path == '/courses' %}{{ url_for('courses_index', page=request.args.get('page')) if request.args.get('page') and request.args.get('page') != '1' else url_for('courses_index') }}{% elif request.path == '/' %}/{% elif request.path == '/guide' %}/guide{% elif request.path == '/about' or request.path == '/about.html' %}/about{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy{% else %}?lang=en{% endif %}" class="lang-btn {{ 'active' if active_lang == 'en' }}" data-lang="en">EN</a>
                 {% endif %}
             </div>
         </div>

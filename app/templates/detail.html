@@ -9,7 +9,8 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ post.title }} - OKCaddie">
     <meta property="og:description" content="{{ post.summary }}">
-    <meta property="og:url" content="https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}">
+    {% set course_canonical = 'https://okcaddie.net/course/' ~ post.base_id ~ ('?lang=ko' if post.lang == 'ko' else '') %}
+    <meta property="og:url" content="{{ course_canonical }}">
     <meta property="og:image" content="https://okcaddie.net{{ post.thumbnail }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="author" content="OKCaddie Editorial Team">
@@ -25,18 +26,18 @@
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- [SEO] 중복 콘텐츠 방지 및 언어 연결 -->
-    <link rel="canonical" href="https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}">
+    <link rel="canonical" href="{{ course_canonical }}">
     {% set base_id = post.base_id %}
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}?lang=en" />
-    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}?lang=en" />
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}" />
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}" />
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SportsActivityLocation",
       "name": "{{ post.title }}",
       "description": "{{ post.summary }}",
-      "url": "https://okcaddie.net/course/{{ post.base_id }}?lang={{ post.lang }}",
+      "url": "{{ course_canonical }}",
       "image": "https://okcaddie.net{{ post.thumbnail }}",
       "address": "{{ post.address }}",
       "sport": "Golf",
@@ -140,7 +141,7 @@
             <div class="course-grid">
                 {% for c in related_courses %}
                 <article class="course-card">
-                    <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}?lang={{ c.lang }}">
+                    <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if c.lang == 'ko' else '' }}">
                         <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
                         <div class="card-content">
                             <div class="card-title">{{ c.title }}</div>
@@ -176,7 +177,7 @@
         <!-- 하단 네비게이션 -->
         <div class="detail-actions" style="margin-top: 60px; text-align: center;">
             <div class="back-btn-container">
-                <a href="/?lang={{ active_lang or 'en' }}" class="back-btn" style="display: inline-block; padding: 12px 35px; background: #f8fafc; color: #475569 !important; border-radius: 50px; font-weight: 700; text-decoration: none; border: 1px solid #e2e8f0;">
+                <a href="{{ '/?lang=ko' if (active_lang or 'en') == 'ko' else '/' }}" class="back-btn" style="display: inline-block; padding: 12px 35px; background: #f8fafc; color: #475569 !important; border-radius: 50px; font-weight: 700; text-decoration: none; border: 1px solid #e2e8f0;">
                     🗺️ {{ '전체 코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
                 </a>
             </div>

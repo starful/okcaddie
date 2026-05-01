@@ -51,54 +51,46 @@ def generate_sitemap(urls):
         xml.append(f"    <priority>{priority}</priority>")
         xml.append("  </url>")
 
-    # 1) 고정 핵심 페이지
-    add_url("/", today, "daily", "1.0", [
-        ("en", "/?lang=en"),
+    # 1) 고정 핵심 페이지 (영어는 쿼리 없음 — 사이트 301·canonical 규칙과 일치)
+    hub_alts_home = [
+        ("en", "/"),
         ("ko", "/?lang=ko"),
-        ("x-default", "/")
-    ])
-    add_url("/?lang=en", today, "daily", "0.9", [
-        ("en", "/?lang=en"),
-        ("ko", "/?lang=ko"),
-        ("x-default", "/")
-    ])
-    add_url("/?lang=ko", today, "daily", "0.9", [
-        ("en", "/?lang=en"),
-        ("ko", "/?lang=ko"),
-        ("x-default", "/")
-    ])
-    add_url("/guide", today, "weekly", "0.9", [
-        ("en", "/guide?lang=en"),
+        ("x-default", "/"),
+    ]
+    add_url("/", today, "daily", "1.0", hub_alts_home)
+    add_url("/?lang=ko", today, "daily", "0.9", hub_alts_home)
+
+    hub_alts_guide = [
+        ("en", "/guide"),
         ("ko", "/guide?lang=ko"),
-        ("x-default", "/guide")
-    ])
-    add_url("/guide?lang=en", today, "weekly", "0.8", [
-        ("en", "/guide?lang=en"),
-        ("ko", "/guide?lang=ko"),
-        ("x-default", "/guide")
-    ])
-    add_url("/guide?lang=ko", today, "weekly", "0.8", [
-        ("en", "/guide?lang=en"),
-        ("ko", "/guide?lang=ko"),
-        ("x-default", "/guide")
-    ])
-    add_url("/courses", today, "weekly", "0.9", [
-        ("en", "/courses?lang=en"),
+        ("x-default", "/guide"),
+    ]
+    add_url("/guide", today, "weekly", "0.9", hub_alts_guide)
+    add_url("/guide?lang=ko", today, "weekly", "0.8", hub_alts_guide)
+
+    hub_alts_courses = [
+        ("en", "/courses"),
         ("ko", "/courses?lang=ko"),
-        ("x-default", "/courses")
-    ])
-    add_url("/courses?lang=en", today, "weekly", "0.8", [
-        ("en", "/courses?lang=en"),
-        ("ko", "/courses?lang=ko"),
-        ("x-default", "/courses")
-    ])
-    add_url("/courses?lang=ko", today, "weekly", "0.8", [
-        ("en", "/courses?lang=en"),
-        ("ko", "/courses?lang=ko"),
-        ("x-default", "/courses")
-    ])
-    add_url("/about", today, "monthly", "0.4")
-    add_url("/privacy", today, "monthly", "0.4")
+        ("x-default", "/courses"),
+    ]
+    add_url("/courses", today, "weekly", "0.9", hub_alts_courses)
+    add_url("/courses?lang=ko", today, "weekly", "0.8", hub_alts_courses)
+
+    hub_alts_about = [
+        ("en", "/about"),
+        ("ko", "/about?lang=ko"),
+        ("x-default", "/about"),
+    ]
+    add_url("/about", today, "monthly", "0.4", hub_alts_about)
+    add_url("/about?lang=ko", today, "monthly", "0.35", hub_alts_about)
+
+    hub_alts_privacy = [
+        ("en", "/privacy"),
+        ("ko", "/privacy?lang=ko"),
+        ("x-default", "/privacy"),
+    ]
+    add_url("/privacy", today, "monthly", "0.4", hub_alts_privacy)
+    add_url("/privacy?lang=ko", today, "monthly", "0.35", hub_alts_privacy)
 
     # 2) 언어별 짝을 가진 상세 URL 구축
     grouped = {}
@@ -111,16 +103,18 @@ def generate_sitemap(urls):
         date_val = entry.get("date", today)
         kind = entry.get("kind", "")
         base_id = entry.get("base_id", "")
-        lang = entry.get("lang", "en")
         changefreq = entry.get("changefreq", "monthly")
         priority = entry.get("priority", "0.8")
 
-        alt_lang = "ko" if lang == "en" else "en"
-        alt_key = (kind, base_id, alt_lang)
-        alternates = [(lang, path)]
-        if alt_key in grouped:
-            alternates.append((alt_lang, grouped[alt_key]["url"]))
-        alternates.append(("x-default", path if lang == "en" else grouped.get(alt_key, entry)["url"]))
+        en_key = (kind, base_id, "en")
+        ko_key = (kind, base_id, "ko")
+        alternates = []
+        if en_key in grouped:
+            alternates.append(("en", grouped[en_key]["url"]))
+        if ko_key in grouped:
+            alternates.append(("ko", grouped[ko_key]["url"]))
+        xd = grouped[en_key]["url"] if en_key in grouped else path
+        alternates.append(("x-default", xd))
 
         add_url(path, date_val, changefreq, priority, alternates)
 
@@ -186,14 +180,19 @@ def main():
                     "published": date_val,
                     "summary": summary,
                     "booking": post.get('booking', ''),
-                    "link": f"/course/{course_id.rsplit('_', 1)[0] if '_' in course_id else course_id}?lang={post.get('lang', 'en')}"
+                    "link": (
+                        f"/course/{course_id.rsplit('_', 1)[0] if '_' in course_id else course_id}"
+                        + ("" if post.get('lang', 'en') == 'en' else "?lang=ko")
+                    )
                 }
                 courses_for_json.append(course_data)
                 
                 # 사이트맵용 데이터 추가
                 base_id = course_id.rsplit('_', 1)[0] if '_' in course_id else course_id
+                _clang = post.get('lang', 'en')
+                _cpath = f"/course/{base_id}" if _clang == 'en' else f"/course/{base_id}?lang=ko"
                 urls_for_sitemap.append({
-                    "url": f"/course/{base_id}?lang={post.get('lang', 'en')}",
+                    "url": _cpath,
                     "date": date_val,
                     "lang": post.get('lang', 'en'),
                     "base_id": base_id,
@@ -221,10 +220,12 @@ def main():
                     post = frontmatter.load(f)
                     date_val = str(post.get('date', datetime.now().strftime('%Y-%m-%d')))
                     base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
+                    _glang = post.get('lang', 'en')
+                    _gpath = f"/guide/{base_id}" if _glang == 'en' else f"/guide/{base_id}?lang=ko"
                     urls_for_sitemap.append({
-                        "url": f"/guide/{base_id}?lang={post.get('lang', 'en')}",
+                        "url": _gpath,
                         "date": date_val,
-                        "lang": post.get('lang', 'en'),
+                        "lang": _glang,
                         "base_id": base_id,
                         "kind": "guide",
                         "changefreq": "monthly",
@@ -234,8 +235,9 @@ def main():
                 fallback_date = datetime.now().strftime('%Y-%m-%d')
                 base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
                 lang = 'ko' if guide_id.endswith('_ko') else 'en'
+                _gpath_fb = f"/guide/{base_id}" if lang == 'en' else f"/guide/{base_id}?lang=ko"
                 urls_for_sitemap.append({
-                    "url": f"/guide/{base_id}?lang={lang}",
+                    "url": _gpath_fb,
                     "date": fallback_date,
                     "lang": lang,
                     "base_id": base_id,

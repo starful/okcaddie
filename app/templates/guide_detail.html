@@ -11,7 +11,8 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ post.title }} | OKCaddie Guide">
     <meta property="og:description" content="{{ post.summary }}">
-    <meta property="og:url" content="https://okcaddie.net/guide/{{ post.base_id }}?lang={{ post.lang }}">
+    {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id ~ ('?lang=ko' if (post.lang or 'en') == 'ko' else '') %}
+    <meta property="og:url" content="{{ guide_canonical }}">
     <meta property="og:image" content="{{ image }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="author" content="OKCaddie Editorial Team">
@@ -27,11 +28,11 @@
     <link rel="stylesheet" href="/static/css/style.css">
 
     <!-- [SEO] Canonical 및 다국어 연결 (Hreflang) -->
-    <link rel="canonical" href="https://okcaddie.net/guide/{{ post.base_id }}?lang={{ post.lang }}">
+    <link rel="canonical" href="{{ guide_canonical }}">
     {% set base_id = post.base_id %}
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}?lang=ko" />
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}?lang=en" />
-    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/{{ base_id }}?lang=en" />
+    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}" />
+    <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/{{ base_id }}" />
 
     <!-- [SEO] JSON-LD 구조화 데이터 (Article 스키마) -->
     <script type="application/ld+json">
@@ -111,10 +112,10 @@
 
         <!-- 하단 네비게이션 버튼 -->
         <div class="detail-actions" style="margin-top: 60px; border-top: 1px solid #eee; padding-top: 40px; text-align: center; display: flex; flex-direction: column; gap: 15px; align-items: center;">
-            <a href="/guide?lang={{ active_lang or 'en' }}" class="back-btn">
+            <a href="{{ '/guide?lang=ko' if (active_lang or 'en') == 'ko' else '/guide' }}" class="back-btn">
                 📖 {{ '다른 가이드 더 보기' if active_lang == 'ko' else 'Read More Guides' }}
             </a>
-            <a href="/?lang={{ active_lang or 'en' }}" class="back-btn" style="background: #2c3e50; color: white !important;">
+            <a href="{{ '/?lang=ko' if (active_lang or 'en') == 'ko' else '/' }}" class="back-btn" style="background: #2c3e50; color: white !important;">
                 🗺️ {{ '코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
             </a>
         </div>
