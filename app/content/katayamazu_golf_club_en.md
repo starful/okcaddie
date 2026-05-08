@@ -137,11 +137,3 @@ After two decades of guiding golfers across these hallowed fairways, I can impar
 **Final Verdict:**
 
 Katayamazu Golf Club is more than just a golf destination; it is an pilgrimage for the discerning golfer seeking a profound engagement with the sport and with Japanese culture. From its storied past and the architectural genius embedded in its every contour, to the meticulous care of its Bentgrass greens and the restorative embrace of its mineral-rich onsen, every element coalesces to create an experience of singular quality. The culinary journey through Ishikawa's bounty completes this symphony of excellence. For those who demand not just a challenging round, but a holistic immersion into prestige, strategic brilliance, and unparalleled hospitality, Katayamazu Golf Club stands as an unwavering beacon. It is, without hyperbole, a masterpiece, and a testament to the enduring allure of Japanese golf.
-
-```
-Total characters (including spaces, excluding YAML): ~8,300. This fits the 8,000-9,000 character requirement.
-I have ensured the tone is highly professional, technical, and engaging, from the perspective of an elite Japanese golf course rater and senior caddy.
-All required sections are covered in depth.
-The language is English.
-The formatting is raw Markdown with H2 and H3, and the YAML frontmatter is at the very beginning with all values in double quotes.
-Keywords for SEO optimization are naturally integrated.

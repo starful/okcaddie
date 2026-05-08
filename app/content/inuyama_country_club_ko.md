@@ -151,4 +151,3 @@ summary: "이누야마 컨트리클럽에 대한 9,000자 분량의 포괄적인
 이누야마 컨트리클럽에서의 라운드가 여러분의 골프 여정에서 잊을 수 없는 추억으로 남기를 진심으로 바랍니다. 최고의 경험을 만끽하십시오.
 
 ---
-(Character count check: Approximately 8,600 characters including spaces. This is within the target range of 8,000-9,000 characters.)

@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ post.title }} - OKCaddie</title>
-    <meta name="description" content="{{ post.summary }}">
+    {% set is_ko = post.lang == 'ko' %}
+    {% set _t = post.title %}
+    {% set _t_low = _t.lower() %}
+    {% set _has_seo_terms = ('fee' in _t_low) or ('booking' in _t_low) or ('guide' in _t_low) or ('access' in _t_low) or ('그린피' in _t) or ('예약' in _t) or ('가이드' in _t) %}
+    {% set seo_title = (_t ~ ' | OKCaddie') if (_has_seo_terms or _t|length > 45) else ((_t ~ ' — 그린피·예약 가이드 | OKCaddie') if is_ko else (_t ~ ' — Green Fees, Booking & Course Guide | OKCaddie')) %}
+    {% set seo_desc = post.summary if post.summary else ((_t ~ ' 그린피, 예약, 코스 공략 가이드를 한 페이지에 정리했습니다.') if is_ko else (_t ~ ' guide: green fees, booking, hole-by-hole strategy and access tips.')) %}
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_desc }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ post.title }} - OKCaddie">
-    <meta property="og:description" content="{{ post.summary }}">
-    {% set course_canonical = 'https://okcaddie.net/course/' ~ post.base_id ~ ('?lang=ko' if post.lang == 'ko' else '') %}
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_desc }}">
+    {% set course_canonical = 'https://okcaddie.net/course/' ~ post.base_id ~ ('?lang=ko' if is_ko else '') %}
     <meta property="og:url" content="{{ course_canonical }}">
     <meta property="og:image" content="https://okcaddie.net{{ post.thumbnail }}">
     <meta name="twitter:card" content="summary_large_image">
@@ -31,21 +37,59 @@
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}" />
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}" />
+    {% set has_geo = post.lat and post.lng %}
+    {% set q1 = ('이 코스는 어디에 있나요?' if is_ko else 'Where is ' ~ post.title ~ ' located?') %}
+    {% set q1a = (post.title ~ '은(는) ' ~ post.address ~ ' 에 위치합니다. 페이지 상단의 지도와 좌표를 참고하세요.') if is_ko else (post.title ~ ' is located at ' ~ post.address ~ '. Use the map and coordinates above for navigation.') %}
+    {% set q2 = ('어떻게 예약할 수 있나요?' if is_ko else 'How can I book a tee time at ' ~ post.title ~ '?') %}
+    {% set q2a = ('페이지의 \"라쿠텐 고라에서 확인하기\" 버튼으로 일본 1위 골프 예약 채널의 실시간 티타임과 그린피를 확인할 수 있습니다.' if is_ko else ('Use the "Check on Rakuten GORA" button on this page to view real-time tee times and green fees from Japan\'s leading golf booking platform.')) %}
+    {% set q3 = ('베스트 시즌은 언제인가요?' if is_ko else 'When is the best time to play ' ~ post.title ~ '?') %}
+    {% set q3a = ('일본 본토 코스는 보통 4-6월과 9-11월 잔디 컨디션이 가장 좋습니다. 코스 위치와 표고에 따라 최적기가 달라지니 본문 \"Tips\" 섹션을 참고하세요.' if is_ko else ('Most courses on mainland Japan play best in April-June and September-November when turf conditions peak. Altitude and region shift the window — see the Tips section for course-specific notes.')) %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SportsActivityLocation",
-      "name": "{{ post.title }}",
-      "description": "{{ post.summary }}",
-      "url": "{{ course_canonical }}",
-      "image": "https://okcaddie.net{{ post.thumbnail }}",
-      "address": "{{ post.address }}",
-      "sport": "Golf",
-      "dateModified": "{{ post.date }}",
-      "publisher": {
-        "@type": "Organization",
-        "name": "OKCaddie"
-      }
+      "@graph": [
+        {
+          "@type": "GolfCourse",
+          "@id": "{{ course_canonical }}#course",
+          "name": "{{ post.title }}",
+          "description": "{{ seo_desc }}",
+          "url": "{{ course_canonical }}",
+          "image": "https://okcaddie.net{{ post.thumbnail }}",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "JP",
+            "streetAddress": "{{ post.address }}"
+          }{% if has_geo %},
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "{{ post.lat }}",
+            "longitude": "{{ post.lng }}"
+          }{% endif %},
+          "sport": "Golf",
+          "dateModified": "{{ post.date }}",
+          "publisher": {
+            "@type": "Organization",
+            "name": "OKCaddie",
+            "url": "https://okcaddie.net/"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": {% if is_ko %}"홈"{% else %}"Home"{% endif %}, "item": "https://okcaddie.net/{% if is_ko %}?lang=ko{% endif %}" },
+            { "@type": "ListItem", "position": 2, "name": {% if is_ko %}"골프장 목록"{% else %}"Courses"{% endif %}, "item": "https://okcaddie.net/courses{% if is_ko %}?lang=ko{% endif %}" },
+            { "@type": "ListItem", "position": 3, "name": "{{ post.title }}", "item": "{{ course_canonical }}" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "{{ q1 }}", "acceptedAnswer": { "@type": "Answer", "text": "{{ q1a }}" } },
+            { "@type": "Question", "name": "{{ q2 }}", "acceptedAnswer": { "@type": "Answer", "text": "{{ q2a }}" } },
+            { "@type": "Question", "name": "{{ q3 }}", "acceptedAnswer": { "@type": "Answer", "text": "{{ q3a }}" } }
+          ]
+        }
+      ]
     }
     </script>
     {% include 'partials/gtm_head.html' %}
@@ -132,6 +176,25 @@
                 </p>
             </div>
         </div>
+
+        <!-- [FAQ] FAQPage 스키마 가시성 보장용 -->
+        <section class="course-faq" style="margin-top: 55px; padding: 30px 25px; background: #f8fafc; border-radius: 18px; border: 1px solid #e2e8f0;">
+            <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.25rem;">
+                ❓ {{ '자주 묻는 질문' if active_lang == 'ko' else 'Frequently Asked Questions' }}
+            </h3>
+            <details style="margin-bottom: 14px; padding: 14px 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px;">
+                <summary style="font-weight: 700; cursor: pointer;">{{ q1 }}</summary>
+                <p style="margin: 10px 0 0; color: #475569; line-height: 1.7;">{{ q1a }}</p>
+            </details>
+            <details style="margin-bottom: 14px; padding: 14px 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px;">
+                <summary style="font-weight: 700; cursor: pointer;">{{ q2 }}</summary>
+                <p style="margin: 10px 0 0; color: #475569; line-height: 1.7;">{{ q2a }}</p>
+            </details>
+            <details style="padding: 14px 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px;">
+                <summary style="font-weight: 700; cursor: pointer;">{{ q3 }}</summary>
+                <p style="margin: 10px 0 0; color: #475569; line-height: 1.7;">{{ q3a }}</p>
+            </details>
+        </section>
 
         {% if related_courses %}
         <section style="margin-top: 55px;">

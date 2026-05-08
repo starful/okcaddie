@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ '일본 골프장 전체 목록' if active_lang == 'ko' else 'All Japan Golf Courses' }} - OKCaddie</title>
-    <meta name="description" content="{{ ('일본 골프장 전체 목록 ' ~ page ~ '페이지. 지역/스타일별 코스를 탐색하세요.') if active_lang == 'ko' else ('Browse page ' ~ page ~ ' of all Japan golf courses by region and style.') }}">
+    <title>{% if active_lang == 'ko' %}일본 골프장 전체 목록{% if page > 1 %} ({{ page }}p){% endif %} | OKCaddie{% else %}Japan Golf Courses Directory{% if page > 1 %} (Page {{ page }}){% endif %} | OKCaddie{% endif %}</title>
+    <meta name="description" content="{{ ('일본 골프장 ' ~ total_courses ~ '곳을 지역·스타일별로 탐색하세요. 그린피·예약·코스 가이드 포함.') if active_lang == 'ko' else ('Browse ' ~ total_courses ~ ' Japan golf courses by region and style. Green fees, booking links, course guides.') }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     {% set is_ko = (active_lang or 'en') == 'ko' %}
     {% if is_ko %}

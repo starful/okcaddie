@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golf Guides - OKCaddie</title>
-    <meta name="description" content="Browse bilingual golf travel guides for Japan: booking tips, etiquette, resort picks, and seasonal recommendations.">
+    <title>{% if lang == 'ko' %}일본 골프 가이드 · 예약·매너·시즌 | OKCaddie{% else %}Japan Golf Guides · Booking, Etiquette & Seasons | OKCaddie{% endif %}</title>
+    <meta name="description" content="{% if lang == 'ko' %}일본 골프 여행을 위한 한국어/영문 가이드. 예약 팁, 매너, 시즌별 코스 추천을 한곳에서.{% else %}Bilingual Japan golf travel guides: booking tips, etiquette, seasonal picks, transport.{% endif %}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Japan Golf Expert Guides - OKCaddie">
-    <meta property="og:description" content="Expert EN/KO guides for planning golf trips in Japan.">
+    <meta property="og:title" content="{% if lang == 'ko' %}일본 골프 가이드 · 예약·매너·시즌 | OKCaddie{% else %}Japan Golf Guides · Booking, Etiquette & Seasons | OKCaddie{% endif %}">
+    <meta property="og:description" content="{% if lang == 'ko' %}예약·매너·시즌별 가이드를 한국어와 영어로 정리.{% else %}Booking, etiquette and seasonal guides in EN & KO.{% endif %}">
     {% set guide_list_canon = 'https://okcaddie.net/guide?lang=ko' if lang == 'ko' else 'https://okcaddie.net/guide' %}
     <meta property="og:url" content="{{ guide_list_canon }}">
     <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">

@@ -152,5 +152,3 @@ My secret tip is this: on any green, after your initial read, take a moment to g
 For the discerning golfer seeking an authentic, high-quality Japanese golf experience, one that seamlessly blends traditional values with championship-level play, Kotohira Golf Club stands as an undeniable masterpiece. It offers a golfing pilgrimage that will not only test your skills but also enrich your understanding of golf's deeper cultural significance in Japan. This is more than a round of golf; it is an immersion into a refined world, a memory to be cherished. I wholeheartedly recommend Kotohira Golf Club as a premier destination for any golf enthusiast travelling to Japan.
 
 ***
-
-*(Total character count including spaces: ~8,800 characters)*

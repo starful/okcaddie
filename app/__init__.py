@@ -58,6 +58,105 @@ def get_meta_fallback(text, key):
     match = re.search(pattern, text, re.IGNORECASE)
     return match.group(1).strip() if match else ""
 
+# 레거시 보일러플레이트 타이틀을 SERP/모바일 친화적 형태로 정규화
+_LANG_SUFFIX_RE = re.compile(r'\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*$')
+_REVIEW_BOILERPLATE_RE = re.compile(
+    r'^\s*The\s+Definitive\s+Guide\s+to\s+(?P<name>.+?)\s*:\s*An\s+Expert\s+Review\b.*$',
+    re.IGNORECASE,
+)
+# 한·영 모두에서 흔하게 등장하는 "AI 보일러플레이트" 구문. 어디 있든 제거한 뒤 트리밍한다.
+_BOILERPLATE_PHRASES = (
+    "The Definitive Guide to ",
+    ": An Expert Review",
+    "An Expert Review",
+    " Masterpiece Review",
+    "마스터피스 리뷰",
+    "마스터 리뷰",
+    "마스터 가이드",
+    "완벽 가이드",
+    "전문가 리뷰",
+    "심층 분석",
+    "20년 경력 베테랑 캐디의",
+)
+
+def humanize_title(title):
+    """타이틀에서 라벨·보일러플레이트를 정리해 SERP에 어울리는 형태로 만든다."""
+    if not title:
+        return ""
+    s = _LANG_SUFFIX_RE.sub('', str(title).strip())
+    m = _REVIEW_BOILERPLATE_RE.match(s)
+    if m:
+        return m.group('name').strip()
+
+    cleaned = s
+    for phrase in _BOILERPLATE_PHRASES:
+        cleaned = cleaned.replace(phrase, "")
+    # 콜론 뒤가 보일러플레이트 잔재인 경우가 많으므로, prefix가 충분히 길면 잘라낸다.
+    for sep in (":", "：", " - ", " — "):
+        if sep in cleaned:
+            prefix = cleaned.split(sep, 1)[0].strip()
+            if len(prefix) >= 4:
+                cleaned = prefix
+                break
+    cleaned = cleaned.strip(" -—|·•")
+    # 여전히 너무 길고 ` | ` 구분자가 있으면 첫 segment만 취한다.
+    if len(cleaned) > 70 and " | " in cleaned:
+        first = cleaned.split(" | ")[0].strip()
+        if len(first) >= 5:
+            cleaned = first
+    return cleaned or s
+
+def short_summary(summary, limit=155):
+    """SERP description 길이 제한 (모바일 우선)."""
+    if not summary:
+        return ""
+    s = str(summary).strip()
+    if len(s) <= limit:
+        return s
+    return s[: limit - 1].rstrip() + "…"
+
+# AI 자기점검 메타텍스트(보일러플레이트)가 본문 끝에 박힌 케이스를 런타임에서 잘라낸다.
+_RUNTIME_SELFCHECK_PATTERNS = [
+    re.compile(r"^\s*\*{0,2}\s*\(?\s*Total\s+character", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\s*\*{0,2}\s*\(?\s*Character\s+count\s+check", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\s*Markdown\s+formatting\s+with", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\s*YAML\s+frontmatter\s+is\s+correctly", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\s*The\s+tone\s+is\s+professional,?\s+technical", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\s*The\s+generated\s+(?:Korean|English)\s+content\s+is\s+~?\s*\d", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\s*\d+\.\s+\*\*(?:Character\s+Count|Tone|Language|YAML\s+Frontmatter)\b", re.IGNORECASE | re.MULTILINE),
+]
+
+def strip_llm_selfcheck(body):
+    """본문에서 LLM 자기점검 푸터가 나타나는 첫 위치부터 끝까지 잘라낸다."""
+    if not body:
+        return body
+    earliest = len(body)
+    for pat in _RUNTIME_SELFCHECK_PATTERNS:
+        m = pat.search(body)
+        if m and m.start() < earliest:
+            earliest = m.start()
+    if earliest < len(body):
+        return body[:earliest].rstrip()
+    return body
+
+# AI summary 자기홍보 문구 ("9,000자에 달하는 종합 마스터 가이드", "comprehensive 9,000-character master guide" 등)
+_PROMO_SUMMARY_RE = re.compile(
+    r'\d{1,3},?\d{3}\s*(?:자|character|-?\s*character)',
+    re.IGNORECASE,
+)
+
+def clean_summary(summary, title='', lang='en'):
+    """AI 보일러플레이트 summary 를 SERP-친화적 형태로 대체한다."""
+    if not summary:
+        return summary
+    s = str(summary).strip()
+    if not _PROMO_SUMMARY_RE.search(s):
+        return s
+    name = humanize_title(title) if title else ""
+    if lang == 'ko':
+        return f"{name} 그린피, 예약 정보, 코스 공략, 접근성, 베스트 시즌까지 한 페이지에 정리한 가이드.".strip()
+    return f"{name} guide: green fees, booking paths, layout strategy, access tips, and best seasons.".strip()
+
 def split_localized_id(item_id):
     if item_id.endswith("_ko"):
         return item_id[:-3], "ko"
@@ -137,12 +236,14 @@ def load_all_data():
                         clean_body = re.sub(r'---.*?---', '', post.content, flags=re.DOTALL).strip()
                         summary = clean_body[:130].replace('\n', ' ') + '...'
 
+                    title = humanize_title(title) or "Japan Golf Guide"
+
                     temp_guides.append({
                         'id': full_id,
                         'base_id': base_id,
                         'lang': detected_lang,
-                        'title': title.strip() or "Japan Golf Guide",
-                        'summary': summary.strip(),
+                        'title': title,
+                        'summary': short_summary(clean_summary(summary, title, detected_lang), 200),
                         'date': str(item.get('date', '2026-04-12')),
                         'image': GUIDE_IMAGES[abs(hash(base_id) * 97) % len(GUIDE_IMAGES)]
                     })
@@ -247,10 +348,16 @@ def api_courses():
         if c.get('lang') == lang:
             temp = dict(c)
             temp['lang'] = 'en' # main.js가 en만 찾도록 고정되어 있어도 한국어 내용을 보여주게 함
+            temp['title'] = humanize_title(temp.get('title', ''))
+            temp['summary'] = clean_summary(temp.get('summary', ''), temp['title'], lang)
             filtered.append(temp)
     # 필터링 결과가 없으면 전체 전송
     if not filtered:
-        filtered = CACHED_DATA.get('courses', [])
+        filtered = [
+            {**c, 'title': humanize_title(c.get('title', '')),
+             'summary': clean_summary(c.get('summary', ''), humanize_title(c.get('title', '')), c.get('lang', 'en'))}
+            for c in CACHED_DATA.get('courses', [])
+        ]
     return jsonify({"last_updated": CACHED_DATA.get('last_updated'), "courses": filtered})
 
 @app.route('/course/<course_ref>')
@@ -283,10 +390,17 @@ def course_detail(course_ref):
     
     # 본문 내 불필요한 메타데이터 텍스트 강제 삭제
     post_content = re.sub(r'^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary):.*$', '', post_obj.content, flags=re.MULTILINE | re.IGNORECASE).strip()
+    # AI 자기점검 푸터(영문 보일러플레이트)가 살아있는 경우 런타임에서 제거
+    post_content = strip_llm_selfcheck(post_content)
     
     post_data['id'] = course_id
     post_data['base_id'] = base_id
     post_data['lang'] = 'ko' if course_id.endswith('_ko') else 'en'
+    post_data['title'] = humanize_title(post_data.get('title', ''))
+    post_data['summary'] = short_summary(
+        clean_summary(post_data.get('summary', ''), post_data['title'], post_data['lang']),
+        200,
+    )
     
     if isinstance(post_data.get('categories'), str):
         post_data['categories'] = [c.strip() for c in post_data['categories'].split(',')]
@@ -315,7 +429,11 @@ def course_detail(course_ref):
         related_candidates.append((score, course))
 
     related_candidates.sort(key=lambda x: x[0], reverse=True)
-    related_courses = [course for _, course in related_candidates[:6]]
+    related_courses = []
+    for _, course in related_candidates[:6]:
+        c = dict(course)
+        c['title'] = humanize_title(c.get('title', ''))
+        related_courses.append(c)
 
     related_guides = [g for g in CACHED_GUIDES if g.get('lang') == post_data['lang']][:3]
 
@@ -345,7 +463,15 @@ def courses_index():
 
     start = (page - 1) * per_page
     end = start + per_page
-    page_courses = filtered[start:end]
+    page_courses = []
+    for c in filtered[start:end]:
+        cc = dict(c)
+        cc['title'] = humanize_title(cc.get('title', ''))
+        cc['summary'] = short_summary(
+            clean_summary(cc.get('summary', ''), cc['title'], cc.get('lang', lang)),
+            200,
+        )
+        page_courses.append(cc)
 
     return render_template(
         'courses.html',
@@ -394,9 +520,15 @@ def guide_detail(guide_ref):
     post_data['id'] = guide_id
     post_data['base_id'] = base_id
     post_data['lang'] = post_data.get('lang', 'en').strip().lower()
+    post_data['title'] = humanize_title(post_data.get('title', '')) or "Japan Golf Guide"
+    post_data['summary'] = short_summary(
+        clean_summary(post_data.get('summary', ''), post_data['title'], post_data['lang']),
+        200,
+    )
     
     # 본문 청소 (데이터 태그 제거)
     clean_body = re.sub(r'^(lang|title|summary|date):.*', '', post_obj.content, flags=re.MULTILINE).strip()
+    clean_body = strip_llm_selfcheck(clean_body)
     
     html_content = markdown.markdown(clean_body, extensions=['tables', 'fenced_code'])
     base_id = guide_id.rsplit('_', 1)[0]
@@ -495,7 +627,20 @@ def serve_images(filename):
     return redirect(url, code=302)
 
 @app.route('/sitemap.xml')
-def sitemap_xml(): return send_from_directory(STATIC_DIR, 'sitemap.xml')
+def sitemap_xml():
+    return send_from_directory(STATIC_DIR, 'sitemap.xml', mimetype='application/xml')
+
+@app.route('/sitemap-courses.xml')
+def sitemap_courses_xml():
+    return send_from_directory(STATIC_DIR, 'sitemap-courses.xml', mimetype='application/xml')
+
+@app.route('/sitemap-guides.xml')
+def sitemap_guides_xml():
+    return send_from_directory(STATIC_DIR, 'sitemap-guides.xml', mimetype='application/xml')
+
+@app.route('/sitemap-hub.xml')
+def sitemap_hub_xml():
+    return send_from_directory(STATIC_DIR, 'sitemap-hub.xml', mimetype='application/xml')
 
 @app.route('/robots.txt')
 def robots_txt(): return send_from_directory(STATIC_DIR, 'robots.txt')

@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO 메타 태그 -->
-    <title>{{ post.title }} | OKCaddie Guide</title>
-    <meta name="description" content="{{ post.summary }}">
+    {% set is_ko_guide = (post.lang or 'en') == 'ko' %}
+    {% set guide_seo_title = (post.title ~ ' | OKCaddie 가이드') if is_ko_guide else (post.title ~ ' | OKCaddie Japan Golf Guide') %}
+    {% set guide_seo_desc = post.summary if post.summary else ((post.title ~ ' 한국어 가이드. 일본 골프 여행 준비에 필요한 핵심 정보를 정리했습니다.') if is_ko_guide else (post.title ~ ' — practical Japan golf travel guide for international golfers.')) %}
+    <title>{{ guide_seo_title }}</title>
+    <meta name="description" content="{{ guide_seo_desc }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ post.title }} | OKCaddie Guide">
-    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:title" content="{{ guide_seo_title }}">
+    <meta property="og:description" content="{{ guide_seo_desc }}">
     {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id ~ ('?lang=ko' if (post.lang or 'en') == 'ko' else '') %}
     <meta property="og:url" content="{{ guide_canonical }}">
     <meta property="og:image" content="{{ image }}">
@@ -34,28 +37,43 @@
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}" />
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/{{ base_id }}" />
 
-    <!-- [SEO] JSON-LD 구조화 데이터 (Article 스키마) -->
+    <!-- [SEO] JSON-LD 구조화 데이터 (Article + Breadcrumb) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "{{ post.title }}",
-      "description": "{{ post.summary }}",
-      "image": "{{ image }}",
-      "datePublished": "{{ post.date }}",
-      "dateModified": "{{ post.date }}",
-      "author": {
-        "@type": "Organization",
-        "name": "OKCaddie Editorial Team"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "OKCaddie",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://okcaddie.net/static/images/logo.png"
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "{{ guide_canonical }}#article",
+          "headline": "{{ post.title }}",
+          "description": "{{ guide_seo_desc }}",
+          "image": "{{ image }}",
+          "datePublished": "{{ post.date }}",
+          "dateModified": "{{ post.date }}",
+          "mainEntityOfPage": "{{ guide_canonical }}",
+          "author": {
+            "@type": "Organization",
+            "name": "OKCaddie Editorial Team",
+            "url": "https://okcaddie.net/about"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "OKCaddie",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://okcaddie.net/static/images/logo.png"
+            }
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": {% if is_ko_guide %}"홈"{% else %}"Home"{% endif %}, "item": "https://okcaddie.net/{% if is_ko_guide %}?lang=ko{% endif %}" },
+            { "@type": "ListItem", "position": 2, "name": {% if is_ko_guide %}"가이드"{% else %}"Guides"{% endif %}, "item": "https://okcaddie.net/guide{% if is_ko_guide %}?lang=ko{% endif %}" },
+            { "@type": "ListItem", "position": 3, "name": "{{ post.title }}", "item": "{{ guide_canonical }}" }
+          ]
         }
-      }
+      ]
     }
     </script>
     {% include 'partials/gtm_head.html' %}
