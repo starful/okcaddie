@@ -17,9 +17,34 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-and-shopping-gotemba</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-and-shopping-gotemba" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-and-shopping-gotemba" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/chipping-and-putting-practice</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/chipping-and-putting-practice" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/chipping-and-putting-practice?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/chipping-and-putting-practice" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/women-friendly-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/women-friendly-golf" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/women-friendly-golf" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/stay-and-play-karuizawa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -320,6 +345,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-and-shopping-gotemba</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-and-shopping-gotemba" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-and-shopping-gotemba" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/dress-code-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/dress-code-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/dress-code-guide" />
@@ -377,9 +410,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/stay-and-play-karuizawa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/women-friendly-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/women-friendly-golf" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/women-friendly-golf" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/chipping-and-putting-practice?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/chipping-and-putting-practice" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/chipping-and-putting-practice?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/chipping-and-putting-practice" />
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
