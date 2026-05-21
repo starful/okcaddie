@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Kotohira Golf Club — Green Fees, Booking & Shikoku Guide"
+seo_description: "Kotohira Golf Club (Kagawa): value green fees, easy visitor booking & course strategy on OKCaddie."
 title: "Kotohira Golf Club (Kagawa) | Shikoku Value Course—Fees & Booking Steps"
 lat: "34.2044"
 lng: "133.8556"

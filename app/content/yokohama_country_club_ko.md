@@ -1,4 +1,6 @@
 ---
+seo_title: "요코하마 컨트리 클럽 — 그린피·서코스·예약 가이드"
+seo_description: "요코하마 CC 서코스 그린피, 방문 라운드, 티타임·라쿠텐 고라 예약. 지도, 공략, 접근 정보 — OKCaddie."
 address: Yokohama, Kanagawa
 booking: /booking/yokohama_country_club_ko
 categories: Private Club, Public Tournament, Historic

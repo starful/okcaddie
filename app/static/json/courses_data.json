@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.05.13",
+  "last_updated": "2026.05.22",
   "courses": [
     {
       "id": "sanda_golf_club_ko",
@@ -16,7 +16,7 @@
       "thumbnail": "/static/images/sanda_golf_club.jpg",
       "address": "Sanda, Hyogo",
       "published": "2026-05-13",
-      "summary": "효고현 산다에 위치한 산다 골프 클럽은 합리적인 가격에 산악 지형의 경관을 즐길 수 있는 18홀 골프 코스입니다.",
+      "summary": "효고현 산다에 위치한 산다 골프 클럽은 합리적인 가격으로 아름다운 산악 스타일의 18홀 코스를 즐길 수 있는 곳입니다.",
       "booking": "/booking/sanda_golf_club_ko",
       "link": "/course/sanda_golf_club?lang=ko"
     },
@@ -35,7 +35,7 @@
       "thumbnail": "/static/images/okayama_country_club.jpg",
       "address": "Okayama, Okayama",
       "published": "2026-05-13",
-      "summary": "오카야마 컨트리 클럽은 1957년에 개장한 유서 깊은 사립 골프장으로, 숲이 우거진 코스에서 정교한 샷 메이킹을 요구하는 18홀, 파 72 레이아웃을 제공합니다.",
+      "summary": "岡山カントリークラブ는 1960년에 설립된 유서 깊은 회원제 골프장으로, 숲 속 코스의 전략적 난이도가 돋보입니다.",
       "booking": "/booking/okayama_country_club_ko",
       "link": "/course/okayama_country_club?lang=ko"
     },
@@ -54,7 +54,7 @@
       "thumbnail": "/static/images/takarazuka_golf_club.jpg",
       "address": "Takarazuka, Hyogo",
       "published": "2026-05-13",
-      "summary": "Takarazuka Golf Club, a historic private club in Hyogo, offers 36 holes of classic forest golf originally designed by J.E. Crane and opening in 1926.",
+      "summary": "Takarazuka Golf Club, a historic private forest course in Hyogo, offers 36 holes of traditional Japanese golf near Osaka.",
       "booking": "/booking/takarazuka_golf_club_en",
       "link": "/course/takarazuka_golf_club"
     },
@@ -73,7 +73,7 @@
       "thumbnail": "/static/images/hanshin_public_golf.jpg",
       "address": "Amagasaki, Hyogo",
       "published": "2026-05-13",
-      "summary": "Hanshin Public Golf in Amagasaki, Hyogo, offers 18 holes of accessible, value-driven golf along the river, ideal for a casual round near Osaka.",
+      "summary": "Hanshin Public Golf in Amagasaki, Hyogo, offers a flat, river-side 18-hole experience with excellent value and convenient access from Osaka and Kobe.",
       "booking": "/booking/hanshin_public_golf_en",
       "link": "/course/hanshin_public_golf"
     },
@@ -92,7 +92,7 @@
       "thumbnail": "/static/images/takamatsu_country_club.jpg",
       "address": "Sakaide, Kagawa",
       "published": "2026-05-13",
-      "summary": "가가와 사카이데에 위치한 다카마쓰 컨트리 클럽은 세토 내해의 경치를 자랑하는 18홀의 유서 깊은 해변 링크스 코스입니다.",
+      "summary": "가마가와현 사카이데에 위치한 다카마쓰 컨트리 클럽은 1957년에 개장한 유서 깊은 해변 코스로, 세토 내해의 절경을 감상하며 전략적인 18홀 라운딩을 즐길 수 있습니다.",
       "booking": "/booking/takamatsu_country_club_ko",
       "link": "/course/takamatsu_country_club?lang=ko"
     },
@@ -111,7 +111,7 @@
       "thumbnail": "/static/images/kobe_grand_hill.jpg",
       "address": "Nishinomiya, Hyogo",
       "published": "2026-05-13",
-      "summary": "효고현 니시노미야에 위치한 고베 그랜드 힐은 산악 지형을 활용한 18홀 코스로, 합리적인 가격에 전략적 라운딩과 리조트 경험을 제공합니다.",
+      "summary": "효고현 니시노미야에 위치한 고베 그랜드 힐은 가성비 좋은 산악형 리조트 코스로, 18홀의 전략적인 플레이를 제공합니다.",
       "booking": "/booking/kobe_grand_hill_ko",
       "link": "/course/kobe_grand_hill?lang=ko"
     },
@@ -130,7 +130,7 @@
       "thumbnail": "/static/images/hiroshima_kokusai_golf.jpg",
       "address": "Higashihiroshima, Hiroshima",
       "published": "2026-05-13",
-      "summary": "Hiroshima Kokusai Golf, located in Higashihiroshima, offers a scenic, mountain-style golf experience across its 18 holes, known for its value-for-money green fees.",
+      "summary": "Hiroshima Kokusai Golf offers 18 holes of scenic mountain golf in Higashihiroshima, providing excellent value for money from ¥8,000.",
       "booking": "/booking/hiroshima_kokusai_golf_en",
       "link": "/course/hiroshima_kokusai_golf"
     },
@@ -149,7 +149,7 @@
       "thumbnail": "/static/images/hiroshima_country_club.jpg",
       "address": "Higashihiroshima, Hiroshima",
       "published": "2026-05-13",
-      "summary": "1961년 개장한 히로시마 컨트리클럽은 히가시히로시마에 위치한 유서 깊은 산림 코스로, 전략적인 레이아웃과 챔피언십 난이도를 자랑합니다.",
+      "summary": "히로시마현 히가시히로시마에 위치한 27홀 챔피언십 코스로, 정교한 샷을 요구하는 전형적인 산악 코스입니다.",
       "booking": "/booking/hiroshima_country_club_ko",
       "link": "/course/hiroshima_country_club?lang=ko"
     },
@@ -157,7 +157,7 @@
       "id": "seto_inland_sea_golf_ko",
       "base_id": "seto_inland_sea_golf",
       "lang": "ko",
-      "title": "Seto Inland Sea Golf",
+      "title": "세토 내해 골프",
       "lat": 34.4544,
       "lng": 133.5156,
       "categories": [
@@ -168,7 +168,7 @@
       "thumbnail": "/static/images/seto_inland_sea_golf.jpg",
       "address": "Kasaoka, Okayama",
       "published": "2026-05-13",
-      "summary": "오카야마 카사오카에 위치한 세토 내해 골프는 1970년 개장한 18홀 파72 챔피언십 코스로, 세토 내해의 섬들이 파노라마처럼 펼쳐지는 아름다운 경관을 자랑합니다.",
+      "summary": "오카야마 가사오카에 위치한 세토 내해 골프는 18홀 챔피언십 코스로, 해안선을 따라 펼쳐진 전략적인 링크스 코스입니다.",
       "booking": "/booking/seto_inland_sea_golf_ko",
       "link": "/course/seto_inland_sea_golf?lang=ko"
     },
@@ -187,7 +187,7 @@
       "thumbnail": "/static/images/okayama_royal_golf.jpg",
       "address": "Kibi, Okayama",
       "published": "2026-05-13",
-      "summary": "오카야마현에 위치한 오카야마 로얄 골프는 18홀, 파72의 산악 스타일 코스로 뛰어난 경치와 합리적인 가격이 특징입니다.",
+      "summary": "오카야마 로얄 골프는 오카야마현 기비 지역에 위치하며, 전략적 산악 코스와 뛰어난 가성비로 18홀 라운딩의 만족을 선사합니다.",
       "booking": "/booking/okayama_royal_golf_ko",
       "link": "/course/okayama_royal_golf?lang=ko"
     },
@@ -206,7 +206,7 @@
       "thumbnail": "/static/images/hiroshima_country_club.jpg",
       "address": "Higashihiroshima, Hiroshima",
       "published": "2026-05-13",
-      "summary": "Hiroshima Country Club, opened in 1960, features 36 championship holes, offering a challenging forest golf experience near Higashihiroshima.",
+      "summary": "Hiroshima Country Club, established in 1963, offers a challenging championship forest course experience near Higashihiroshima.",
       "booking": "/booking/hiroshima_country_club_en",
       "link": "/course/hiroshima_country_club"
     },
@@ -225,7 +225,7 @@
       "thumbnail": "/static/images/hiroshima_kokusai_golf.jpg",
       "address": "Higashihiroshima, Hiroshima",
       "published": "2026-05-13",
-      "summary": "히로시마 고쿠사이 골프는 히가시히로시마에 위치한 18홀 산악 스타일 코스로, 합리적인 비용으로 아름다운 자연 경관 속 라운딩을 즐길 수 있습니다.",
+      "summary": "히로시마 고쿠사이 골프는 동히로시마의 산악 지형을 활용한 경치 좋은 가성비 코스로, 전략적인 플레이를 요구하는 27홀을 제공합니다.",
       "booking": "/booking/hiroshima_kokusai_golf_ko",
       "link": "/course/hiroshima_kokusai_golf?lang=ko"
     },
@@ -244,7 +244,7 @@
       "thumbnail": "/static/images/kobe_grand_hill.jpg",
       "address": "Nishinomiya, Hyogo",
       "published": "2026-05-13",
-      "summary": "Kobe Grand Hill, located in Nishinomiya, Hyogo, offers an 18-hole, par-72 mountain-style golf experience at a strong value.",
+      "summary": "Kobe Grand Hill offers a challenging mountain-style golf experience across 18 holes in Nishinomiya, Hyogo, providing excellent value for money.",
       "booking": "/booking/kobe_grand_hill_en",
       "link": "/course/kobe_grand_hill"
     },
@@ -263,7 +263,7 @@
       "thumbnail": "/static/images/okayama_royal_golf.jpg",
       "address": "Kibi, Okayama",
       "published": "2026-05-13",
-      "summary": "Okayama Royal Golf, opened in the early 1990s near Kibi, offers 18 challenging mountain-style holes with scenic vistas and excellent value.",
+      "summary": "Okayama Royal Golf provides a scenic and strategic mountain-style golf experience in Kibi, Okayama, offering excellent value for players seeking a fair challenge amidst beautiful natural terrain.",
       "booking": "/booking/okayama_royal_golf_en",
       "link": "/course/okayama_royal_golf"
     },
@@ -282,7 +282,7 @@
       "thumbnail": "/static/images/seto_inland_sea_golf.jpg",
       "address": "Kasaoka, Okayama",
       "published": "2026-05-13",
-      "summary": "Seto Inland Sea Golf, an 18-hole championship course in Okayama, offers strategic seaside links play with elevated views of the island-dotted Seto Inland Sea.",
+      "summary": "Seto Inland Sea Golf in Kasaoka, Okayama, offers 18 holes of strategic seaside links play with significant elevation changes.",
       "booking": "/booking/seto_inland_sea_golf_en",
       "link": "/course/seto_inland_sea_golf"
     },
@@ -301,7 +301,7 @@
       "thumbnail": "/static/images/okayama_country_club.jpg",
       "address": "Okayama, Okayama",
       "published": "2026-05-13",
-      "summary": "Okayama Country Club, opened in 1960 and designed by S. Fukui, offers a classic 18-hole, par 72 forest challenge near Okayama City.",
+      "summary": "Okayama Country Club is a historic 18-hole private forest course near Okayama City, offering strategic play for experienced golfers.",
       "booking": "/booking/okayama_country_club_en",
       "link": "/course/okayama_country_club"
     },
@@ -320,7 +320,7 @@
       "thumbnail": "/static/images/sanda_golf_club.jpg",
       "address": "Sanda, Hyogo",
       "published": "2026-05-13",
-      "summary": "Sanda Golf Club offers 18 holes of scenic mountain golf near Kobe, featuring Bent greens and Zoysia fairways, with green fees ranging from JPY 8,000 to 20,000.",
+      "summary": "Sanda Golf Club offers a scenic, mountain-style golf experience in Hyogo Prefecture with green fees starting around JPY 7,000.",
       "booking": "/booking/sanda_golf_club_en",
       "link": "/course/sanda_golf_club"
     },
@@ -339,7 +339,7 @@
       "thumbnail": "/static/images/takamatsu_country_club.jpg",
       "address": "Sakaide, Kagawa",
       "published": "2026-05-13",
-      "summary": "Takamatsu Country Club, opened in 1953 in Sakaide, Kagawa, offers an 18-hole, par-72 seaside layout ranging 6,600-6,900 yards with panoramic Seto Inland Sea views.",
+      "summary": "Takamatsu Country Club, established in 1961, offers 18 holes of historic seaside golf with expansive views over the Seto Inland Sea from Kagawa Prefecture.",
       "booking": "/booking/takamatsu_country_club_en",
       "link": "/course/takamatsu_country_club"
     },
@@ -358,7 +358,7 @@
       "thumbnail": "/static/images/hanshin_public_golf.jpg",
       "address": "Amagasaki, Hyogo",
       "published": "2026-05-13",
-      "summary": "효고현 아마가사키에 위치한 한신 퍼블릭 골프는 가성비 좋은 리버 사이드 코스로, 오사카에서 편리하게 당일치기 라운딩을 즐길 수 있습니다.",
+      "summary": "효고현 아마가사키에 위치한 한신 퍼블릭 골프장은 강변 코스로 접근성이 뛰어나며, 18홀 플레이에 주중 7,000엔대 그린피로 가성비가 돋보이는 곳입니다.",
       "booking": "/booking/hanshin_public_golf_ko",
       "link": "/course/hanshin_public_golf?lang=ko"
     },
@@ -377,7 +377,7 @@
       "thumbnail": "/static/images/takarazuka_golf_club.jpg",
       "address": "Takarazuka, Hyogo",
       "published": "2026-05-13",
-      "summary": "타카라즈카 골프 클럽은 1926년에 개장한 효고현 소재의 유서 깊은 사립 포레스트 코스로, 전략적인 레이아웃과 잘 관리된 그린을 자랑합니다.",
+      "summary": "효고 다카라즈카에 위치한 이 유서 깊은 사립 골프장은 1926년에 개장하여 전략적인 산림 코스를 제공합니다.",
       "booking": "/booking/takarazuka_golf_club_ko",
       "link": "/course/takarazuka_golf_club?lang=ko"
     },

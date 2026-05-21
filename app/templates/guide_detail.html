@@ -6,8 +6,8 @@
     
     <!-- SEO 메타 태그 -->
     {% set is_ko_guide = (post.lang or 'en') == 'ko' %}
-    {% set guide_seo_title = (post.title ~ ' | OKCaddie 가이드') if is_ko_guide else (post.title ~ ' | OKCaddie Japan Golf Guide') %}
-    {% set guide_seo_desc = post.summary if post.summary else ((post.title ~ ' 한국어 가이드. 일본 골프 여행 준비에 필요한 핵심 정보를 정리했습니다.') if is_ko_guide else (post.title ~ ' — practical Japan golf travel guide for international golfers.')) %}
+    {% set guide_seo_title = post.seo_title %}
+    {% set guide_seo_desc = post.seo_description %}
     <title>{{ guide_seo_title }}</title>
     <meta name="description" content="{{ guide_seo_desc }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -110,6 +110,29 @@
         <div class="detail-content">
             {{ content | safe }}
         </div>
+
+        {% if related_courses %}
+        <section class="related-courses-section" aria-labelledby="related-courses-heading">
+            <h2 id="related-courses-heading" style="margin: 2.5rem 0 1rem; font-size: 1.25rem;">
+                {{ '이 가이드와 함께 보면 좋은 코스' if active_lang == 'ko' else 'Courses linked to this guide' }}
+            </h2>
+            <div class="guide-highlight-grid">
+                {% for course in related_courses %}
+                <a href="{{ course.link }}" class="guide-highlight-card">
+                    {% if course.thumbnail %}
+                    <div class="guide-img-wrapper">
+                        <img src="{{ course.thumbnail }}" alt="{{ course.short_title }}" loading="lazy">
+                    </div>
+                    {% endif %}
+                    <div class="card-body">
+                        <h3>{{ course.short_title }}</h3>
+                        <p>{{ course.summary or course.address }}</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
 
         <!-- [수익화] 클룩(Klook) 예약 유도 배너 -->
         <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">

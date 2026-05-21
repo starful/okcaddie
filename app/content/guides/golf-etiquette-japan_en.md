@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Japan Golf Etiquette — Manners, Pace & Tips | OKCaddie"
+seo_description: "Japanese golf etiquette for visitors: dress code, pace, caddie tips, booking customs & on-course manners—plus course links on OKCaddie."
 title: "Mastering Japanese Golf Etiquette: A Comprehensive Guide for Foreign Golfers"
 summary: "Playing golf in Japan is an experience steeped in tradition and respect. This guide provides essential insights into Japanese golf etiquette, ensuring a smooth and enjoyable round for foreign golfers. Understanding and adhering to these customs will not only enhance your experience but also demonstrate your respect for Japanese culture."
 date: "2026-04-12"

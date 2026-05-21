@@ -1,4 +1,6 @@
 ---
+seo_title: "Okinawa Golf Courses — Ocean View Links & Booking | OKCaddie"
+seo_description: "Best Okinawa seaside golf: PGM Resort, ocean-view links, green fees & booking tips—plan your Okinawa golf trip on OKCaddie."
 date: '2026-04-15'
 lang: en
 summary: Discover the best seaside golf courses Okinawa has to offer, blending stunning

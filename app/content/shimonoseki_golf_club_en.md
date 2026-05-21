@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Shimonoseki Golf Club — Green Fees, Access & Course Guide"
+seo_description: "Shimonoseki Golf Club on the Kanmon coast: green fees, guest play, seaside strategy & Rakuten GORA booking on OKCaddie."
 title: "Shimonoseki Golf Club (Yamaguchi) | Seaside Private Course—Play & Fees"
 lat: "34.0944"
 lng: "130.9356"

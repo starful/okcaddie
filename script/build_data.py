@@ -22,6 +22,20 @@ SITEMAP_GUIDES_OUT   = os.path.join(STATIC_DIR, 'sitemap-guides.xml')
 SITEMAP_HUB_OUT      = os.path.join(STATIC_DIR, 'sitemap-hub.xml')
 BASE_URL     = 'https://okcaddie.net'
 
+# GSC priority — must match app/__init__.py FEATURED_COURSE_BASE_IDS
+FEATURED_COURSE_BASE_IDS = {
+    "pgm_golf_resort_okinawa",
+    "hirono_golf_club",
+    "yokohama_country_club",
+    "shimonoseki_golf_club",
+    "natsudomari_golf_links",
+    "hakone_country_club",
+    "abc_golf_club",
+    "eniwa_country_club",
+    "totsuka_country_club",
+    "kotohira_golf_club",
+}
+
 # 레거시 보일러플레이트 타이틀 정리 (런타임/sitemap/JSON 모두에 동일 적용)
 _LANG_SUFFIX_RE = re.compile(r'\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*$')
 _REVIEW_BOILERPLATE_RE = re.compile(
@@ -253,8 +267,8 @@ def main():
                     "lang": _clang,
                     "base_id": base_id,
                     "kind": "course",
-                    "changefreq": "monthly",
-                    "priority": "0.8",
+                    "changefreq": "weekly",
+                    "priority": "0.85" if base_id in FEATURED_COURSE_BASE_IDS else "0.7",
                 })
             except Exception as e:
                 print(f"  ❌ 코스 오류 ({filename}): {e}")

@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Hirono Golf Club — Green Fees, Membership & Visitor Access"
+seo_description: "Hirono Golf Club (Hyogo): green fees context, Alison Course strategy, private-club access & booking paths—plan before you travel. OKCaddie guide."
 title: "Hirono Golf Club, Hyogo | Alison Course—Access, Fees & Strategy"
 lat: "34.7967"
 lng: "135.0111"

@@ -8,42 +8,92 @@ from googleapiclient.errors import HttpError
 # ==========================================
 # ⚙️ 설정 (Configuration)
 # ==========================================
-KEY_FILE = "starful-258005-577d4eb60864.json"      # 아까 다운로드한 키 파일
-SITEMAP_PATH = "app/static/sitemap.xml"    # build_data.py로 생성된 사이트맵 경로
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(SCRIPT_DIR)
+STATIC_DIR = os.path.join(BASE_DIR, "app", "static")
+SITEMAP_INDEX = os.path.join(STATIC_DIR, "sitemap.xml")
+SITEMAP_PARTS = (
+    "sitemap-hub.xml",
+    "sitemap-courses.xml",
+    "sitemap-guides.xml",
+)
+KEY_FILE = os.path.join(BASE_DIR, "starful-258005-577d4eb60864.json")
 ENDPOINT = "https://www.googleapis.com/auth/indexing"
+SITEMAP_NS = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
-def get_urls_from_sitemap():
-    """사이트맵 파일에서 모든 URL 리스트를 추출합니다."""
+
+def _urls_from_urlset(path):
     urls = []
-    if not os.path.exists(SITEMAP_PATH):
-        print(f"❌ 사이트맵이 없습니다: {SITEMAP_PATH}")
-        print("먼저 'python script/build_data.py'를 실행하여 사이트맵을 생성하세요.")
+    if not os.path.exists(path):
         return urls
-
     try:
-        tree = ET.parse(SITEMAP_PATH)
-        root = tree.getroot()
-        # 사이트맵 네임스페이스 처리 (표준 sitemap.org 형식)
-        ns = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-        for url_tag in root.findall('ns:url', ns):
-            loc = url_tag.find('ns:loc', ns).text
-            if loc:
-                urls.append(loc)
-    except Exception as e:
-        print(f"❌ 사이트맵 분석 중 오류 발생: {e}")
-    
+        root = ET.parse(path).getroot()
+        for url_tag in root.findall("ns:url", SITEMAP_NS):
+            loc = url_tag.find("ns:loc", SITEMAP_NS)
+            if loc is not None and loc.text:
+                urls.append(loc.text.strip())
+    except ET.ParseError as exc:
+        print(f"❌ 사이트맵 파싱 오류 ({path}): {exc}")
     return urls
 
-def request_indexing():
-    # 1. URL 수집
-    urls = get_urls_from_sitemap()
+
+def _urls_from_sitemap_index(path):
+    """sitemap index → child sitemap files → all page URLs."""
+    if not os.path.exists(path):
+        return []
+    urls = []
+    try:
+        root = ET.parse(path).getroot()
+        for sm in root.findall("ns:sitemap", SITEMAP_NS):
+            loc = sm.find("ns:loc", SITEMAP_NS)
+            if loc is None or not loc.text:
+                continue
+            child_url = loc.text.strip()
+            if child_url.startswith("http"):
+                print(f"⚠️ 원격 사이트맵은 스킵: {child_url}")
+                continue
+            child_name = child_url.rsplit("/", 1)[-1]
+            child_path = os.path.join(STATIC_DIR, child_name)
+            urls.extend(_urls_from_urlset(child_path))
+    except ET.ParseError as exc:
+        print(f"❌ 사이트맵 인덱스 파싱 오류: {exc}")
+    return urls
+
+
+def get_urls_from_sitemaps():
+    """정적 사이트맵(인덱스 + 분할)에서 모든 URL을 수집합니다."""
+    all_urls = []
+    if os.path.exists(SITEMAP_INDEX):
+        all_urls.extend(_urls_from_sitemap_index(SITEMAP_INDEX))
+    for name in SITEMAP_PARTS:
+        part_path = os.path.join(STATIC_DIR, name)
+        all_urls.extend(_urls_from_urlset(part_path))
+    # preserve order, dedupe
+    seen = set()
+    ordered = []
+    for u in all_urls:
+        if u not in seen:
+            seen.add(u)
+            ordered.append(u)
+    return ordered
+
+
+def request_indexing(priority_urls=None, daily_limit=200):
+    urls = list(priority_urls or []) + [u for u in get_urls_from_sitemaps() if u not in (priority_urls or [])]
+    seen = set()
+    deduped = []
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            deduped.append(u)
+    urls = deduped[:daily_limit]
+
     if not urls:
-        print("요청할 URL이 없습니다.")
+        print("요청할 URL이 없습니다. 먼저 'python script/build_data.py'를 실행하세요.")
         return
 
-    print(f"🚀 총 {len(urls)}개의 URL에 대해 색인 요청을 시작합니다.")
+    print(f"🚀 총 {len(urls)}개 URL 색인 요청 (한도 {daily_limit})")
 
-    # 2. 구글 인증 정보 로드
     if not os.path.exists(KEY_FILE):
         print(f"❌ 인증 키 파일이 없습니다: {KEY_FILE}")
         return
@@ -51,31 +101,36 @@ def request_indexing():
     credentials = service_account.Credentials.from_service_account_file(KEY_FILE, scopes=[ENDPOINT])
     service = build("indexing", "v3", credentials=credentials)
 
-    # 3. 루프를 돌며 API 호출
     count = 0
     for url in urls:
-        body = {
-            "url": url,
-            "type": "URL_UPDATED"  # 새 주소 추가 및 기존 주소 갱신 모두 이 타입 사용
-        }
-        
+        body = {"url": url, "type": "URL_UPDATED"}
         try:
-            # 구글 서버에 알림 전송
             service.urlNotifications().publish(body=body).execute()
-            print(f"✅ [{count+1}/{len(urls)}] 요청 성공: {url}")
             count += 1
-            # 할당량 초과 방지 및 서버 부하를 위한 아주 짧은 대기
-            time.sleep(0.5) 
+            print(f"✅ [{count}/{len(urls)}] {url}")
+            time.sleep(0.5)
         except HttpError as e:
-            error_data = e.content.decode('utf-8')
             if e.resp.status == 429:
-                print(f"\n⚠️ 일일 할당량(보통 200개)을 초과했습니다.")
-                print("나머지 URL은 24시간 후에 다시 실행하세요.")
+                print("\n⚠️ 일일 할당량 초과. 24시간 후 나머지 URL을 다시 실행하세요.")
                 break
-            else:
-                print(f"❌ [{count+1}] 요청 실패: {url} -> {e.resp.status} : {error_data}")
+            print(f"❌ [{count + 1}] 실패 {url}: {e.resp.status} {e.content.decode('utf-8')}")
 
-    print(f"\n✨ 작업 완료! 총 {count}개의 URL을 구글 봇에게 전달했습니다.")
+    print(f"\n✨ 완료: {count}개 URL 전달")
+
 
 if __name__ == "__main__":
-    request_indexing()
+    featured = [
+        "https://okcaddie.net/course/pgm_golf_resort_okinawa",
+        "https://okcaddie.net/course/hirono_golf_club",
+        "https://okcaddie.net/course/yokohama_country_club",
+        "https://okcaddie.net/course/shimonoseki_golf_club",
+        "https://okcaddie.net/course/natsudomari_golf_links",
+        "https://okcaddie.net/course/hakone_country_club",
+        "https://okcaddie.net/course/abc_golf_club",
+        "https://okcaddie.net/course/eniwa_country_club",
+        "https://okcaddie.net/course/totsuka_country_club",
+        "https://okcaddie.net/course/kotohira_golf_club",
+        "https://okcaddie.net/",
+        "https://okcaddie.net/courses",
+    ]
+    request_indexing(priority_urls=featured)

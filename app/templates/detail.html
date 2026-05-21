@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% set is_ko = post.lang == 'ko' %}
-    {% set _t = post.title %}
-    {% set _t_low = _t.lower() %}
-    {% set _has_seo_terms = ('fee' in _t_low) or ('booking' in _t_low) or ('guide' in _t_low) or ('access' in _t_low) or ('그린피' in _t) or ('예약' in _t) or ('가이드' in _t) %}
-    {% set seo_title = (_t ~ ' | OKCaddie') if (_has_seo_terms or _t|length > 45) else ((_t ~ ' — 그린피·예약 가이드 | OKCaddie') if is_ko else (_t ~ ' — Green Fees, Booking & Course Guide | OKCaddie')) %}
-    {% set seo_desc = post.summary if post.summary else ((_t ~ ' 그린피, 예약, 코스 공략 가이드를 한 페이지에 정리했습니다.') if is_ko else (_t ~ ' guide: green fees, booking, hole-by-hole strategy and access tips.')) %}
+    {% set seo_title = post.seo_title %}
+    {% set seo_desc = post.seo_description %}
     <title>{{ seo_title }}</title>
     <meta name="description" content="{{ seo_desc }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -117,6 +114,9 @@
         <div class="detail-img-box" style="margin-bottom: 40px;">
             <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" loading="eager" fetchpriority="high" decoding="async" width="1200" height="675">
         </div>
+        {% if post.editorial_note %}
+        <p class="detail-trust-note" style="font-size:0.85rem; color:#64748b; margin:-20px 0 28px; line-height:1.6;">{{ post.editorial_note }}{% if post.illustration_note %} {{ post.illustration_note }}{% endif %}</p>
+        {% endif %}
 
         <!-- 프라이빗 클럽 전용 안내 배너 -->
         {% if 'Private Club' in post.categories or '회원제' in post.categories %}

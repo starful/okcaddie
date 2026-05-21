@@ -1,4 +1,6 @@
 ---
+seo_title: "히로노 골프 클럽 — 그린피·회원제·방문 라운드 가이드"
+seo_description: "히로노 GC(효고) 그린피·앨리슨 코스 공략, 회원제 방문·예약 경로. OKCaddie에서 지도와 여행 팁을 확인하세요."
 address: 효고현 미키시 히로노
 booking: /booking/hirono_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic

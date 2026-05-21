@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Yokohama Country Club — Green Fees, West Course & Booking"
+seo_description: "Yokohama Country Club (West Course): green fees, visitor access, tee times & Rakuten GORA booking. Map, strategy & trip tips on OKCaddie."
 title: "The Definitive Guide to Yokohama Country Club: An Expert Review (en)"
 lat: "35.4344"
 lng: "139.5456"

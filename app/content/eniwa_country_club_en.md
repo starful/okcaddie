@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Eniwa Country Club Hokkaido — Green Fees & Booking"
+seo_description: "Eniwa CC (Hokkaido): Gold Course green fees, ANA Open pedigree, lodge stay & Rakuten GORA booking on OKCaddie."
 title: "Eniwa Country Club, Hokkaido | Gold Course Host—Fees, Tours & Booking"
 lat: "42.8844"
 lng: "141.5656"

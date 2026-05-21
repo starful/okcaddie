@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "ABC Golf Club Hyogo — Green Fees, Booking & Course Guide"
+seo_description: "ABC Golf Club (Kato, Hyogo): green fees, public play, tournament access & booking on OKCaddie."
 title: "ABC Golf Club, Hyogo | Kato Premium Parkland—Fees, Access & Strategy"
 lat: "34.8344"
 lng: "135.0356"

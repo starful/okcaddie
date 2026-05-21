@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 200곳 지도. 그린피·예약 링크와 영문/한국어 코스 가이드를 한곳에서.{% else %}Live map of 200+ Japan golf courses—green fees, booking links, EN/KO course guides.{% endif %}">
+    <meta name="description" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 {{ total_course_count }}곳 지도. 그린피·티타임·라쿠텐 고라 예약과 EN/KO 코스 가이드를 한곳에서.{% else %}Japan golf map: {{ total_course_count }}+ courses—green fees, tee times, Rakuten GORA booking, EN/KO course guides.{% endif %}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 지도 · 200곳 · 예약 | OKCaddie{% else %}Japan Golf Map · 200+ Courses · Booking | OKCaddie{% endif %}">
@@ -23,7 +23,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <title>{% if (active_lang or 'en') == 'ko' %}일본 골프장 지도 · 200곳 · 예약 | OKCaddie{% else %}Japan Golf Map · 200+ Courses · Booking | OKCaddie{% endif %}</title>
+    <title>{% if (active_lang or 'en') == 'ko' %}일본 골프장 지도 · {{ total_course_count }}곳 · 그린피·예약 | OKCaddie{% else %}Japan Golf Map · {{ total_course_count }}+ Courses · Green Fees & Booking | OKCaddie{% endif %}</title>
     <link rel="stylesheet" href="/static/css/style.css">
     <script type="application/ld+json">
         {
@@ -79,8 +79,30 @@
             <!-- 소개 박스 -->
             <article class="intro-box">
                 <h2>⛳ {{ '나에게 맞는 일본 골프장을 찾아보세요' if active_lang == 'ko' else 'Find Your Dream Golf Round in Japan' }}</h2>
-                <p>{{ '200개 이상의 엄선된 코스를 탐색하고 여행을 계획하세요.' if active_lang == 'ko' else 'Explore 200+ curated golf courses.' }}</p>
+                <p>{{ total_course_count ~ '개 코스 지도·그린피·예약 가이드. ' if active_lang == 'ko' else (total_course_count ~ '+ courses on the map—green fees & booking. ') }}<a href="{{ '/courses?lang=ko' if active_lang == 'ko' else '/courses' }}">{{ '전체 목록 보기 →' if active_lang == 'ko' else 'Browse full directory →' }}</a></p>
             </article>
+
+            {% if featured_courses %}
+            <section class="editor-picks-section" aria-labelledby="editor-picks-heading">
+                <h2 id="editor-picks-heading" class="section-title">⭐ {{ '인기 코스 가이드' if active_lang == 'ko' else 'Popular course guides' }}</h2>
+                <p class="editor-picks-lead">{{ '그린피·예약·코스 공략 — 검색 여행자를 위해 자주 찾는 코스입니다.' if active_lang == 'ko' else 'Green fees, booking & course tips—frequently searched trip-planning pages.' }}</p>
+                <div class="guide-highlight-grid editor-picks-grid">
+                    {% for course in featured_courses %}
+                    <a href="{{ course.link }}" class="guide-highlight-card">
+                        {% if course.thumbnail %}
+                        <div class="guide-img-wrapper">
+                            <img src="{{ course.thumbnail }}" alt="{{ course.short_title }}" loading="lazy">
+                        </div>
+                        {% endif %}
+                        <div class="card-body">
+                            <h3>{{ course.short_title }}</h3>
+                            <p>{{ course.summary or course.address }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
 
             <!-- [가이드 섹션] Featured Courses 바로 위에 배치 -->
             <section class="highlight-container">
@@ -108,7 +130,18 @@
 
             <!-- 골프장 리스트 섹션 -->
             <section id="list-section">
-                <h2 class="list-title">⛳ Featured Golf Courses</h2>
+                <h2 class="list-title">⛳ {{ '지도에서 코스 탐색' if active_lang == 'ko' else 'Explore courses on the map' }}</h2>
+                {% if crawl_course_links %}
+                <nav class="course-crawl-nav" aria-label="{{ '코스 목록 (크롤러·검색)' if active_lang == 'ko' else 'Course index for search crawlers' }}">
+                    <p class="course-crawl-nav__label">{{ '지도에 등록된 코스 (' ~ crawl_course_links|length ~ '+)' if active_lang == 'ko' else ('Courses on the map (' ~ crawl_course_links|length ~ '+ listed)') }}</p>
+                    <ul class="course-crawl-nav__list">
+                        {% for item in crawl_course_links %}
+                        <li><a href="{{ item.link }}">{{ item.label }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    <p class="course-crawl-nav__more"><a href="{{ '/courses?lang=ko' if active_lang == 'ko' else '/courses' }}">{{ '전체 코스 목록 페이지 →' if active_lang == 'ko' else 'Full course directory page →' }}</a></p>
+                </nav>
+                {% endif %}
                 <div id="course-list" class="course-grid"></div>
                 <div id="scroll-sentinel" style="height: 20px;"></div>
             </section>

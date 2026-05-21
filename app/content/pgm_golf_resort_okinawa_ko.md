@@ -1,4 +1,6 @@
 ---
+seo_title: "PGM 골프 리조트 오키나와 — 그린피·티타임·예약 가이드"
+seo_description: "PGM 오키나와 그린피, 티타임, 후기·라쿠텐 고라 예약. 코스 지도, 공략, 접근 정보를 OKCaddie에서 한 페이지에 확인하세요."
 address: 오키나와현 구니가미군 온나손 요메야마 1000
 booking: /booking/pgm_golf_resort_okinawa_ko
 categories: Public Tournament, Premium / Luxury, Ocean View

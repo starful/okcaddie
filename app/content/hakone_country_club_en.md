@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Hakone Country Club — Green Fees, Guest Play & Booking"
+seo_description: "Hakone CC: Fuji views, green fees, visitor tee times, onsen clubhouse & Rakuten GORA booking—OKCaddie golf guide."
 title: "Hakone Country Club | Fuji Views, Akabori Design & Guest-Round Access"
 lat: "35.2544"
 lng: "139.0056"

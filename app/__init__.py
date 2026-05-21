@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect, request
+from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect, request, make_response
 from flask_compress import Compress
 import json
 import os
@@ -6,10 +6,12 @@ import frontmatter
 import markdown
 import re
 import urllib.parse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+from xml.sax.saxutils import escape
 
 app = Flask(__name__)
 Compress(app)
+SITE_URL = os.environ.get("SITE_URL", "https://okcaddie.net").rstrip("/")
 
 # ==========================================
 # ⚙️ 경로 및 데이터 설정
@@ -47,6 +49,97 @@ CACHED_DATA = {"courses": []}
 CACHED_GUIDES = []
 GOOGLE_MAPS_JS_API_KEY = os.environ.get("GOOGLE_MAPS_JS_API_KEY", "").strip()
 SUPPORTED_LANGS = {"en", "ko"}
+
+# GSC priority courses: homepage spotlight, crawl-nav order, sitemap priority (P1)
+FEATURED_COURSE_BASE_IDS = [
+    "pgm_golf_resort_okinawa",
+    "hirono_golf_club",
+    "yokohama_country_club",
+    "shimonoseki_golf_club",
+    "natsudomari_golf_links",
+    "hakone_country_club",
+    "abc_golf_club",
+    "eniwa_country_club",
+    "totsuka_country_club",
+    "kotohira_golf_club",
+]
+
+GUIDE_RELATED_COURSES = {
+    "okinawa-ocean-golf_en": [
+        "pgm_golf_resort_okinawa",
+        "southern_links_golf_club",
+        "phoenix_country_club",
+    ],
+    "okinawa-ocean-golf_ko": [
+        "pgm_golf_resort_okinawa",
+        "southern_links_golf_club",
+        "phoenix_country_club",
+    ],
+    "golf-etiquette-japan_en": [
+        "yokohama_country_club",
+        "tokyo_golf_club",
+        "abc_golf_club",
+    ],
+    "golf-etiquette-japan_ko": [
+        "yokohama_country_club",
+        "tokyo_golf_club",
+        "abc_golf_club",
+    ],
+    "autumn-leaves-golf_en": [
+        "karuizawa_72_golf_east",
+        "nasu_kogen_golf_club",
+        "zao_country_club",
+    ],
+    "autumn-leaves-golf_ko": [
+        "karuizawa_72_golf_east",
+        "nasu_kogen_golf_club",
+        "zao_country_club",
+    ],
+    "mt-fuji-view-golf_en": [
+        "hakone_country_club",
+        "fuji_country_club",
+        "hiratsuka_fuji_golf_course",
+    ],
+    "mt-fuji-view-golf_ko": [
+        "hakone_country_club",
+        "fuji_country_club",
+        "hiratsuka_fuji_golf_course",
+    ],
+    "onsen-after-golf_en": [
+        "hakone_country_club",
+        "beppu_golf_club",
+        "nasu_kogen_golf_club",
+    ],
+    "onsen-after-golf_ko": [
+        "hakone_country_club",
+        "beppu_golf_club",
+        "nasu_kogen_golf_club",
+    ],
+    "hokkaido-summer-golf_en": [
+        "eniwa_country_club",
+        "sapporo_golf_club_wattsu_course",
+        "nishinasuno_country_club",
+    ],
+    "hokkaido-summer-golf_ko": [
+        "eniwa_country_club",
+        "sapporo_golf_club_wattsu_course",
+        "nishinasuno_country_club",
+    ],
+    "booking-tips-japan_en": [
+        "pgm_golf_resort_okinawa",
+        "yokohama_country_club",
+        "abc_golf_club",
+    ],
+    "booking-tips-japan_ko": [
+        "pgm_golf_resort_okinawa",
+        "yokohama_country_club",
+        "abc_golf_club",
+    ],
+    "value-for-money-golf_en": ["abc_golf_club", "totsuka_country_club", "kotohira_golf_club"],
+    "value-for-money-golf_ko": ["abc_golf_club", "totsuka_country_club", "kotohira_golf_club"],
+    "women-friendly-golf_en": ["yokohama_country_club", "camellia_hills_country_club", "phoenix_country_club"],
+    "women-friendly-golf_ko": ["yokohama_country_club", "camellia_hills_country_club", "phoenix_country_club"],
+}
 
 # ==========================================
 # 🛠️ 유틸리티 및 데이터 로드 함수
@@ -190,6 +283,272 @@ def resolve_guide_id(base_id, lang):
         return fallback_id
     return None
 
+
+def _truncate_text(value, max_len):
+    text = " ".join(str(value or "").split())
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 1].rstrip() + "…"
+
+
+def _course_href(base_id, lang):
+    return f"/course/{base_id}" + ("?lang=ko" if lang == "ko" else "")
+
+
+def _courses_by_base_lang():
+    index = {}
+    for c in CACHED_DATA.get("courses", []):
+        bid = c.get("base_id") or split_localized_id(c.get("id", ""))[0]
+        lang = c.get("lang", "en")
+        index[(bid, lang)] = c
+    return index
+
+
+def _course_cards(base_ids, lang="en", limit=None):
+    """Lightweight cards for templates (featured, guide related, crawl nav)."""
+    by_bl = _courses_by_base_lang()
+    cards = []
+    for bid in base_ids:
+        c = by_bl.get((bid, lang)) or by_bl.get((bid, "en"))
+        if not c:
+            continue
+        title = humanize_title(c.get("title", "")) or bid
+        cards.append(
+            {
+                "base_id": bid,
+                "lang": lang,
+                "link": _course_href(bid, lang),
+                "title": title,
+                "short_title": _truncate_text(title, 72),
+                "address": c.get("address", ""),
+                "thumbnail": c.get("thumbnail", ""),
+                "summary": short_summary(
+                    clean_summary(c.get("summary", ""), title, lang), 110
+                ),
+            }
+        )
+        if limit and len(cards) >= limit:
+            break
+    return cards
+
+
+def _crawl_course_links(limit=60, lang="en"):
+    """SSR link list for crawlers: GSC priority courses first, then newest."""
+    by_bl = _courses_by_base_lang()
+    ordered_bases = []
+    for bid in FEATURED_COURSE_BASE_IDS:
+        if (bid, lang) in by_bl or (bid, "en") in by_bl:
+            ordered_bases.append(bid)
+    newest = sorted(
+        [c for c in CACHED_DATA.get("courses", []) if c.get("lang") == lang],
+        key=lambda x: str(x.get("published", "")),
+        reverse=True,
+    )
+    for c in newest:
+        bid = c.get("base_id") or split_localized_id(c.get("id", ""))[0]
+        if bid not in ordered_bases:
+            ordered_bases.append(bid)
+    links = []
+    for bid in ordered_bases[:limit]:
+        card = _course_cards([bid], lang=lang, limit=1)
+        if not card:
+            continue
+        links.append({"link": card[0]["link"], "label": card[0]["short_title"]})
+    return links
+
+
+def _attach_seo_fields(post, page_kind="course"):
+    """SERP-friendly title/description; honors frontmatter seo_title / seo_description."""
+    title = str(post.get("title", "")).strip()
+    summary = str(post.get("summary", "")).strip()
+    lang = str(post.get("lang", "en") or "en").lower()
+    is_course = page_kind == "course"
+
+    override_title = str(post.get("seo_title", "") or "").strip()
+    override_desc = str(post.get("seo_description", "") or "").strip()
+
+    if lang == "ko":
+        hook = "그린피·예약·코스 가이드" if is_course else "일본 골프 여행 가이드"
+        tail = (
+            " OKCaddie에서 지도, 그린피, 라쿠텐 고라 예약 링크를 확인하세요."
+            if is_course
+            else " OKCaddie에서 핵심 팁과 코스 링크를 골라 일정에 넣으세요."
+        )
+        default_title = (
+            _truncate_text(f"{title} | {hook} | OKCaddie", 60)
+            if title
+            else "일본 골프 가이드 | OKCaddie"
+        )
+    else:
+        hook = "green fees, tee times & booking" if is_course else "Japan golf travel guide"
+        tail = (
+            " Green fees, Rakuten GORA booking, map & course tips on OKCaddie."
+            if is_course
+            else " Practical tips and course links for your Japan golf trip on OKCaddie."
+        )
+        default_title = (
+            _truncate_text(f"{title} | {hook} | OKCaddie", 60)
+            if title
+            else "Japan Golf Guide | OKCaddie"
+        )
+
+    post["seo_title"] = _truncate_text(override_title, 60) if override_title else default_title
+    if override_desc:
+        post["seo_description"] = _truncate_text(override_desc, 160)
+    else:
+        core = (summary or title).strip()
+        post["seo_description"] = _truncate_text(f"{core}{tail}", 155)
+    return post
+
+
+def _detail_trust_copy(lang):
+    if str(lang or "en").lower() == "ko":
+        return (
+            "본 글은 여행 계획용 에디토리얼 콘텐츠입니다. 공식 클럽 사이트가 아니므로 그린피·영업·예약 조건은 방문 전 라쿠텐 고라 또는 클럽에 반드시 확인하세요.",
+            "상단 이미지는 이해를 돕기 위한 예시이며, 실제 코스 전경·시설과 다를 수 있습니다.",
+        )
+    return (
+        "Editorial trip-planning content—not the club's official site. Confirm green fees, access, and tee times on Rakuten GORA or with the club before you book.",
+        "Lead images are illustrative; actual course conditions and facilities may differ.",
+    )
+
+
+def _enrich_course_detail_post(post):
+    lang = str(post.get("lang") or "en")
+    if not post.get("editorial_note") or not post.get("illustration_note"):
+        ed, ill = _detail_trust_copy(lang)
+        if not post.get("editorial_note"):
+            post["editorial_note"] = ed
+        if not post.get("illustration_note"):
+            post["illustration_note"] = ill
+
+
+def _safe_iso_date(value, fallback):
+    if not value:
+        return fallback
+    text = str(value).strip()
+    for fmt in ("%Y-%m-%d", "%Y.%m.%d"):
+        try:
+            return datetime.strptime(text[:10], fmt).date().isoformat()
+        except ValueError:
+            continue
+    return fallback
+
+
+def _file_lastmod(path, fallback):
+    if not os.path.exists(path):
+        return fallback
+    ts = os.path.getmtime(path)
+    return datetime.fromtimestamp(ts, tz=timezone.utc).date().isoformat()
+
+
+def _xml_url_block(loc, lastmod, changefreq, priority, alternates=None):
+    lines = ["  <url>", f"    <loc>{escape(loc)}</loc>"]
+    if alternates:
+        for lang_code, href in alternates:
+            lines.append(
+                f'    <xhtml:link rel="alternate" hreflang="{escape(lang_code)}" href="{escape(href)}" />'
+            )
+    lines.extend(
+        [
+            f"    <lastmod>{escape(lastmod)}</lastmod>",
+            f"    <changefreq>{changefreq}</changefreq>",
+            f"    <priority>{priority}</priority>",
+            "  </url>",
+        ]
+    )
+    return lines
+
+
+def _course_sitemap_entries(now_iso):
+    grouped = {}
+    for c in CACHED_DATA.get("courses", []):
+        bid = c.get("base_id") or split_localized_id(c.get("id", ""))[0]
+        lang = c.get("lang", "en")
+        grouped[(bid, lang)] = c
+
+    entries = []
+    seen_paths = set()
+    for c in CACHED_DATA.get("courses", []):
+        bid = c.get("base_id") or split_localized_id(c.get("id", ""))[0]
+        lang = c.get("lang", "en")
+        path = _course_href(bid, lang)
+        if path in seen_paths:
+            continue
+        seen_paths.add(path)
+        course_id = c.get("id") or f"{bid}_{lang}"
+        md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
+        fallback = _safe_iso_date(c.get("published"), now_iso)
+        lastmod = _file_lastmod(md_path, fallback)
+        priority = "0.85" if bid in FEATURED_COURSE_BASE_IDS else "0.7"
+        alternates = []
+        if (bid, "en") in grouped:
+            alternates.append(("en", f"{SITE_URL}{_course_href(bid, 'en')}"))
+        if (bid, "ko") in grouped:
+            alternates.append(("ko", f"{SITE_URL}{_course_href(bid, 'ko')}"))
+        xd = f"{SITE_URL}{_course_href(bid, 'en')}"
+        alternates.append(("x-default", xd))
+        entries.append(
+            {
+                "loc": f"{SITE_URL}{path}",
+                "lastmod": lastmod,
+                "changefreq": "weekly",
+                "priority": priority,
+                "alternates": alternates,
+            }
+        )
+    return entries
+
+
+def _guide_sitemap_entries(now_iso):
+    entries = []
+    for g in CACHED_GUIDES:
+        base_id = g.get("base_id") or split_localized_id(g.get("id", ""))[0]
+        lang = g.get("lang", "en")
+        path = f"/guide/{base_id}" + ("?lang=ko" if lang == "ko" else "")
+        guide_id = g.get("id") or f"{base_id}_{lang}"
+        md_path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
+        fallback = _safe_iso_date(g.get("date"), now_iso)
+        lastmod = _file_lastmod(md_path, fallback)
+        alternates = []
+        en_path = os.path.join(GUIDE_DIR, f"{base_id}_en.md")
+        ko_path = os.path.join(GUIDE_DIR, f"{base_id}_ko.md")
+        if os.path.exists(en_path):
+            alternates.append(("en", f"{SITE_URL}/guide/{base_id}"))
+        if os.path.exists(ko_path):
+            alternates.append(("ko", f"{SITE_URL}/guide/{base_id}?lang=ko"))
+        alternates.append(("x-default", f"{SITE_URL}/guide/{base_id}"))
+        entries.append(
+            {
+                "loc": f"{SITE_URL}{path}",
+                "lastmod": lastmod,
+                "changefreq": "weekly",
+                "priority": "0.9",
+                "alternates": alternates,
+            }
+        )
+    return entries
+
+
+def _render_urlset(entries):
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+    ]
+    for e in entries:
+        lines.extend(
+            _xml_url_block(
+                e["loc"],
+                e["lastmod"],
+                e["changefreq"],
+                e["priority"],
+                e.get("alternates"),
+            )
+        )
+    lines.append("</urlset>")
+    return "\n".join(lines)
+
+
 def load_all_data():
     """서버 시작 시 메모리에 모든 마크다운 및 JSON 데이터를 로드"""
     global CACHED_DATA, CACHED_GUIDES
@@ -256,6 +615,13 @@ def load_all_data():
 # 초기 실행
 load_all_data()
 
+
+@app.context_processor
+def inject_site_url():
+    n_courses = len({c.get("base_id") or split_localized_id(c.get("id", ""))[0] for c in CACHED_DATA.get("courses", [])})
+    return {"site_url": SITE_URL, "total_course_count": n_courses or len(CACHED_DATA.get("courses", []))}
+
+
 # ==========================================
 # 🔗 SEO: HTTPS / 영어 URL 정규화 (?lang=en 제거)
 # ==========================================
@@ -314,15 +680,18 @@ def seo_url_normalization():
 def index():
     """메인 페이지: 선택 언어에 맞는 가이드 하이라이트 노출"""
     lang = request.args.get('lang', 'en')
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
     featured = [g for g in CACHED_GUIDES if g['lang'] == lang][:3]
-    # 가이드가 없으면 전체에서 상위 3개 노출 (안전장치)
     if not featured:
         featured = CACHED_GUIDES[:3]
     return render_template(
         'index.html',
         featured_guides=featured,
+        featured_courses=_course_cards(FEATURED_COURSE_BASE_IDS, lang=lang),
+        crawl_course_links=_crawl_course_links(limit=60, lang=lang),
         active_lang=lang,
-        google_maps_js_api_key=GOOGLE_MAPS_JS_API_KEY
+        google_maps_js_api_key=GOOGLE_MAPS_JS_API_KEY,
     )
 
 @app.route('/about')
@@ -358,7 +727,9 @@ def api_courses():
              'summary': clean_summary(c.get('summary', ''), humanize_title(c.get('title', '')), c.get('lang', 'en'))}
             for c in CACHED_DATA.get('courses', [])
         ]
-    return jsonify({"last_updated": CACHED_DATA.get('last_updated'), "courses": filtered})
+    response = jsonify({"last_updated": CACHED_DATA.get('last_updated'), "courses": filtered})
+    response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    return response
 
 @app.route('/course/<course_ref>')
 def course_detail(course_ref):
@@ -401,7 +772,9 @@ def course_detail(course_ref):
         clean_summary(post_data.get('summary', ''), post_data['title'], post_data['lang']),
         200,
     )
-    
+    post_data = _attach_seo_fields(post_data, page_kind="course")
+    _enrich_course_detail_post(post_data)
+
     if isinstance(post_data.get('categories'), str):
         post_data['categories'] = [c.strip() for c in post_data['categories'].split(',')]
 
@@ -525,16 +898,28 @@ def guide_detail(guide_ref):
         clean_summary(post_data.get('summary', ''), post_data['title'], post_data['lang']),
         200,
     )
-    
-    # 본문 청소 (데이터 태그 제거)
+    post_data = _attach_seo_fields(post_data, page_kind="guide")
+
     clean_body = re.sub(r'^(lang|title|summary|date):.*', '', post_obj.content, flags=re.MULTILINE).strip()
     clean_body = strip_llm_selfcheck(clean_body)
-    
+
     html_content = markdown.markdown(clean_body, extensions=['tables', 'fenced_code'])
     base_id = guide_id.rsplit('_', 1)[0]
     img_url = GUIDE_IMAGES[abs(hash(base_id) * 97) % len(GUIDE_IMAGES)]
-    
-    return render_template('guide_detail.html', post=post_data, content=html_content, image=img_url, active_lang=post_data['lang'])
+    related_courses = _course_cards(
+        GUIDE_RELATED_COURSES.get(guide_id, []),
+        lang=post_data['lang'],
+        limit=6,
+    )
+
+    return render_template(
+        'guide_detail.html',
+        post=post_data,
+        content=html_content,
+        image=img_url,
+        active_lang=post_data['lang'],
+        related_courses=related_courses,
+    )
 
 # ==========================================
 # 💰 수익화 리다이렉트 (라쿠텐 & 클룩)
@@ -616,10 +1001,15 @@ def webmanifest():
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
-    """일반 이미지는 GCS로 리다이렉트하여 서버 부하 감소"""
+    """로컬 이미지 우선 서빙; 없으면 GCS 리다이렉트 (프로덕션 CDN)."""
+    images_root = os.path.join(app.root_path, 'static', 'images')
     if any(x in filename for x in ['favicon', 'apple-touch']):
-        return send_from_directory(os.path.join(app.root_path, 'static', 'images'), filename)
-    # Avoid per-request timestamp query strings for better cache/index consistency.
+        return send_from_directory(images_root, filename)
+
+    local_path = os.path.join(images_root, filename)
+    if os.path.isfile(local_path) and os.path.getsize(local_path) > 0:
+        return send_from_directory(images_root, filename)
+
     version = os.environ.get('ASSET_VERSION', '').strip()
     url = f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}"
     if version:
@@ -628,19 +1018,169 @@ def serve_images(filename):
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
-    return send_from_directory(STATIC_DIR, 'sitemap.xml', mimetype='application/xml')
+    """Sitemap index; sub-sitemaps are generated dynamically with file mtimes."""
+    now_iso = datetime.now(timezone.utc).date().isoformat()
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for name in ("sitemap-hub.xml", "sitemap-courses.xml", "sitemap-guides.xml"):
+        lines.extend(
+            [
+                "  <sitemap>",
+                f"    <loc>{escape(f'{SITE_URL}/{name}')}</loc>",
+                f"    <lastmod>{now_iso}</lastmod>",
+                "  </sitemap>",
+            ]
+        )
+    lines.append("</sitemapindex>")
+    response = make_response("\n".join(lines))
+    response.headers["Content-Type"] = "application/xml"
+    return response
+
 
 @app.route('/sitemap-courses.xml')
 def sitemap_courses_xml():
-    return send_from_directory(STATIC_DIR, 'sitemap-courses.xml', mimetype='application/xml')
+    now_iso = datetime.now(timezone.utc).date().isoformat()
+    response = make_response(_render_urlset(_course_sitemap_entries(now_iso)))
+    response.headers["Content-Type"] = "application/xml"
+    return response
+
 
 @app.route('/sitemap-guides.xml')
 def sitemap_guides_xml():
-    return send_from_directory(STATIC_DIR, 'sitemap-guides.xml', mimetype='application/xml')
+    now_iso = datetime.now(timezone.utc).date().isoformat()
+    response = make_response(_render_urlset(_guide_sitemap_entries(now_iso)))
+    response.headers["Content-Type"] = "application/xml"
+    return response
+
 
 @app.route('/sitemap-hub.xml')
 def sitemap_hub_xml():
-    return send_from_directory(STATIC_DIR, 'sitemap-hub.xml', mimetype='application/xml')
+    now_iso = datetime.now(timezone.utc).date().isoformat()
+    about_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "about.html"), now_iso)
+    privacy_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "privacy.html"), now_iso)
+    course_entries = _course_sitemap_entries(now_iso)
+    guide_entries = _guide_sitemap_entries(now_iso)
+    latest_course = max((e["lastmod"] for e in course_entries), default=now_iso)
+    latest_guide = max((e["lastmod"] for e in guide_entries), default=now_iso)
+    home_mod = max(latest_course, latest_guide)
+
+    hub = [
+        {
+            "loc": f"{SITE_URL}/",
+            "lastmod": home_mod,
+            "changefreq": "daily",
+            "priority": "1.0",
+            "alternates": [
+                ("en", f"{SITE_URL}/"),
+                ("ko", f"{SITE_URL}/?lang=ko"),
+                ("x-default", f"{SITE_URL}/"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/?lang=ko",
+            "lastmod": home_mod,
+            "changefreq": "daily",
+            "priority": "0.9",
+            "alternates": [
+                ("en", f"{SITE_URL}/"),
+                ("ko", f"{SITE_URL}/?lang=ko"),
+                ("x-default", f"{SITE_URL}/"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/courses",
+            "lastmod": latest_course,
+            "changefreq": "weekly",
+            "priority": "0.9",
+            "alternates": [
+                ("en", f"{SITE_URL}/courses"),
+                ("ko", f"{SITE_URL}/courses?lang=ko"),
+                ("x-default", f"{SITE_URL}/courses"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/courses?lang=ko",
+            "lastmod": latest_course,
+            "changefreq": "weekly",
+            "priority": "0.8",
+            "alternates": [
+                ("en", f"{SITE_URL}/courses"),
+                ("ko", f"{SITE_URL}/courses?lang=ko"),
+                ("x-default", f"{SITE_URL}/courses"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/guide",
+            "lastmod": latest_guide,
+            "changefreq": "weekly",
+            "priority": "0.9",
+            "alternates": [
+                ("en", f"{SITE_URL}/guide"),
+                ("ko", f"{SITE_URL}/guide?lang=ko"),
+                ("x-default", f"{SITE_URL}/guide"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/guide?lang=ko",
+            "lastmod": latest_guide,
+            "changefreq": "weekly",
+            "priority": "0.8",
+            "alternates": [
+                ("en", f"{SITE_URL}/guide"),
+                ("ko", f"{SITE_URL}/guide?lang=ko"),
+                ("x-default", f"{SITE_URL}/guide"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/about",
+            "lastmod": about_lastmod,
+            "changefreq": "monthly",
+            "priority": "0.4",
+            "alternates": [
+                ("en", f"{SITE_URL}/about"),
+                ("ko", f"{SITE_URL}/about?lang=ko"),
+                ("x-default", f"{SITE_URL}/about"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/about?lang=ko",
+            "lastmod": about_lastmod,
+            "changefreq": "monthly",
+            "priority": "0.35",
+            "alternates": [
+                ("en", f"{SITE_URL}/about"),
+                ("ko", f"{SITE_URL}/about?lang=ko"),
+                ("x-default", f"{SITE_URL}/about"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/privacy",
+            "lastmod": privacy_lastmod,
+            "changefreq": "yearly",
+            "priority": "0.3",
+            "alternates": [
+                ("en", f"{SITE_URL}/privacy"),
+                ("ko", f"{SITE_URL}/privacy?lang=ko"),
+                ("x-default", f"{SITE_URL}/privacy"),
+            ],
+        },
+        {
+            "loc": f"{SITE_URL}/privacy?lang=ko",
+            "lastmod": privacy_lastmod,
+            "changefreq": "yearly",
+            "priority": "0.3",
+            "alternates": [
+                ("en", f"{SITE_URL}/privacy"),
+                ("ko", f"{SITE_URL}/privacy?lang=ko"),
+                ("x-default", f"{SITE_URL}/privacy"),
+            ],
+        },
+    ]
+    response = make_response(_render_urlset(hub))
+    response.headers["Content-Type"] = "application/xml"
+    return response
 
 @app.route('/robots.txt')
 def robots_txt(): return send_from_directory(STATIC_DIR, 'robots.txt')

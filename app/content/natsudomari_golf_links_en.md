@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "Natsudomari Golf Links — Green Fees, Tee Times & Booking"
+seo_description: "Natsudomari Golf Links (Aomori): coastal links green fees, wind strategy, tee times & booking—OKCaddie trip guide."
 title: "Natsudomari Golf Links (Aomori) | Mutsu Bay Links—Wind, Greens & Booking"
 lat: "41.0144"
 lng: "140.8956"

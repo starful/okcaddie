@@ -1,5 +1,7 @@
 ---
 lang: en
+seo_title: "Totsuka Country Club Yokohama — Guest Fees & Access Guide"
+seo_description: "Totsuka CC (Yokohama): member-guest green fees, invite-only access & course tips—plan your round on OKCaddie."
 title: "Totsuka Country Club, Yokohama | Members-Only Luxury—What Guests Pay"
 lat: 35.4244
 lng: 139.5156

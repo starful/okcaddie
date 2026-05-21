@@ -1,5 +1,7 @@
 ---
 lang: "en"
+seo_title: "PGM Golf Resort Okinawa — Green Fees, Tee Times & Booking"
+seo_description: "PGM Okinawa green fees, tee times, reviews & Rakuten GORA booking. Course map, layout tips & access for your Okinawa golf trip on OKCaddie."
 title: "The Definitive Guide to PGM Golf Resort Okinawa: An Expert Review (en)"
 lat: "26.4344"
 lng: "127.8356"

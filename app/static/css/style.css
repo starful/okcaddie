@@ -676,3 +676,33 @@ footer {
 @media (max-width: 480px) {
     .header-center .logo-img { height: 44px; max-width: 70vw; }
 }
+
+/* SEO: homepage editor picks + crawler link index (okramen pattern) */
+.editor-picks-section { margin: 2rem 0 2.5rem; }
+.editor-picks-lead { color: #64748b; font-size: 0.95rem; margin: -0.5rem 0 1rem; }
+.editor-picks-grid .card-body h3 { font-size: 0.95rem; line-height: 1.35; }
+
+.course-crawl-nav {
+    margin: 0 0 1.25rem;
+    padding: 1rem 1.1rem;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    max-height: 220px;
+    overflow-y: auto;
+}
+.course-crawl-nav__label { margin: 0 0 0.6rem; font-size: 0.85rem; color: #64748b; font-weight: 600; }
+.course-crawl-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.35rem 1rem;
+    font-size: 0.8rem;
+}
+.course-crawl-nav__list a { color: var(--accent-red, #c53030); text-decoration: underline; text-underline-offset: 2px; }
+.course-crawl-nav__more { margin: 0.75rem 0 0; font-size: 0.85rem; font-weight: 600; }
+.course-crawl-nav__more a { color: #2c3e50; }
+
+.related-courses-section .guide-highlight-grid { margin-bottom: 0; }
