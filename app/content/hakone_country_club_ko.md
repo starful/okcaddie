@@ -9,8 +9,14 @@ lng: '139.0056'
 summary: 하코네 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다. 20년 경력의 일본인 수석
   캐디이자 코스 평가 전문가가 전하는 독점적인 인사이트로, 코스의 숨겨진 비밀과 최상의 경험을 위한 모든 정보를 얻어가세요.
 thumbnail: /static/images/hakone_country_club.jpg
-title: '하코네 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)'
+title: 'Hakone Country Club: Mt. Fuji Views & Guest Booking Guide'
+description: An insider’s guide to playing Hakone Country Club, one of Japan's most
+  exclusive golf courses, featuring booking tips, green fees, and Mt. Fuji views.
+seo_title: 'How to Play Hakone Country Club: Guest Tee Times & Green Fees'
+seo_description: Want to play Hakone Country Club? Find out how to secure guest tee
+  times, check green fees, and experience this exclusive Mt. Fuji golf course.
 ---
+
 
 # 하코네 컨트리 클럽: 20년 캐디 경력의 전문가가 분석하는 마스터 가이드
 

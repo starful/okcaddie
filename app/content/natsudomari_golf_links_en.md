@@ -1,17 +1,24 @@
 ---
-lang: "en"
-seo_title: "Natsudomari Golf Links — Green Fees, Tee Times & Booking"
-seo_description: "Natsudomari Golf Links (Aomori): coastal links green fees, wind strategy, tee times & booking—OKCaddie trip guide."
-title: "Natsudomari Golf Links (Aomori) | Mutsu Bay Links—Wind, Greens & Booking"
-lat: "41.0144"
-lng: "140.8956"
-categories: "Seaside Links, Scenic View, Strategic Design, Luxury Experience, Japanese Golf, Tohoku Gem"
-thumbnail: "/static/images/natsudomari_golf_links.jpg"
-address: "Hiranai, Higashitsugaru District, Aomori Prefecture, Japan"
-date: "2026-04-15"
-booking: "/booking/natsudomari_golf_links_en"
-summary: "Top northern Japan links on Mutsu Bay—Izumi’s firm fairways, coastal wind chess, deep bunkers, clubhouse dining, and when to book if you want a bucket-list Aomori round."
+lang: en
+seo_title: 'Natsudomari Golf Links: Booking, Green Fees & Tee Times'
+seo_description: Want to play Japan's premier seaside links? Book tee times, check
+  green fees, and get expert tips for Natsudomari Golf Links on OKCaddie.
+title: Natsudomari Golf Links (Aomori)
+lat: '41.0144'
+lng: '140.8956'
+categories: Seaside Links, Scenic View, Strategic Design, Luxury Experience, Japanese
+  Golf, Tohoku Gem
+thumbnail: /static/images/natsudomari_golf_links.jpg
+address: Hiranai, Higashitsugaru District, Aomori Prefecture, Japan
+date: '2026-04-15'
+booking: /booking/natsudomari_golf_links_en
+summary: Top northern Japan links on Mutsu Bay—Izumi’s firm fairways, coastal wind
+  chess, deep bunkers, clubhouse dining, and when to book if you want a bucket-list
+  Aomori round.
+description: An essential guide to playing Natsudomari Golf Links in Aomori, Japan.
+  Discover current green fees, tee time booking options, and expert course strategies.
 ---
+
 
 ## Natsudomari Golf Links: A Masterpiece Forged by Nature and Vision
 
