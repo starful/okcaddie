@@ -6,10 +6,18 @@ date: '2026-04-15'
 lang: en
 lat: '32.8944'
 lng: '129.8356'
-summary: "Nagasaki private island golf—Kuroki coastal design, Korai vs bent greens, invite-only access, stay-and-play angles, and wind/bunker strategy before you plan Kinkai."
+summary: Nagasaki private island golf—Kuroki coastal design, Korai vs bent greens,
+  invite-only access, stay-and-play angles, and wind/bunker strategy before you plan
+  Kinkai.
 thumbnail: /static/images/passage_kinkai_island.jpg
-title: 'Passage Kinkai Island Golf, Nagasaki | Private Island—Access & Resort Stay'
+title: Passage Kinkai Island Golf Club, Nagasaki
+description: Discover Passage Kinkai Island Golf Club in Nagasaki. Get essential details
+  on green fees, tee time booking, resort stay, and course layout tips.
+seo_title: Passage Kinkai Island Golf Club, Nagasaki | Tee Times & Booking
+seo_description: Discover Passage Kinkai Island Golf Club in Nagasaki. Get essential
+  details on green fees, tee time booking, resort stay, and course layout tips.
 ---
+
 
 ## [Passage Kinkai](/course/passage_kinkai_en) Island: A Masterpiece Unveiled by an Expert Caddy and Course Rater
 

@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Miyazaki Country Club: An Expert Review (en)"
-lat: "31.8644"
-lng: "131.4456"
-categories: "Public Tournament, Ocean View, Historic"
-thumbnail: "/static/images/miyazaki_country_club.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-04-15"
-booking: "/booking/miyazaki_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Miyazaki Country Club, covering strategy, history, and luxury facilities."
+lang: en
+title: Miyazaki Country Club
+lat: '31.8644'
+lng: '131.4456'
+categories: Public Tournament, Ocean View, Historic
+thumbnail: /static/images/miyazaki_country_club.jpg
+address: Miyazaki, Miyazaki
+date: '2026-04-15'
+booking: /booking/miyazaki_country_club_en
+summary: A comprehensive 9,000-character master guide to Miyazaki Country Club, covering
+  strategy, history, and luxury facilities.
+description: An essential guide to Miyazaki Country Club, featuring green fees, English
+  booking options, JLPGA tournament course layout, and travel tips.
+seo_title: Miyazaki Country Club Japan | Green Fees & Booking Guide
+seo_description: Book tee times at Miyazaki Country Club. Explore green fees, strategic
+  course layouts, and English booking guides on okcaddie.
 ---
+
 
 ## The Definitive Guide to Miyazaki Country Club: A Masterpiece of Japanese Golfing Heritage
 

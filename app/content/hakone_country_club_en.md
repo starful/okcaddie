@@ -1,17 +1,23 @@
 ---
-lang: "en"
-seo_title: "Hakone Country Club — Green Fees, Guest Play & Booking"
-seo_description: "Hakone CC: Fuji views, green fees, visitor tee times, onsen clubhouse & Rakuten GORA booking—OKCaddie golf guide."
-title: "Hakone Country Club | Fuji Views, Akabori Design & Guest-Round Access"
-lat: "35.2544"
-lng: "139.0056"
-categories: "Private Club, Premium / Luxury, Scenic View, Championship Course"
-thumbnail: "/static/images/hakone_country_club.jpg"
-address: "Hakone, Kanagawa, Japan"
-date: "2026-04-15"
-booking: "/booking/hakone_country_club_en"
-summary: "Private Hakone CC by Lake Ashi—borrowed Fuji scenery, Korai fairways, bent greens to ~12 stimp, onsen-worthy clubhouse, and how visitors actually secure a tee time."
+lang: en
+seo_title: 'How to Play Hakone Country Club: Booking Guide & Green Fees'
+seo_description: Can visitors play Hakone Country Club? Find out how to secure tee
+  times, current green fees, and what to expect at this prestigious Fuji-view course.
+title: 'Hakone Country Club: How to Book, Green Fees & Guest Play'
+lat: '35.2544'
+lng: '139.0056'
+categories: Private Club, Premium / Luxury, Scenic View, Championship Course
+thumbnail: /static/images/hakone_country_club.jpg
+address: Hakone, Kanagawa, Japan
+date: '2026-04-15'
+booking: /booking/hakone_country_club_en
+summary: Private Hakone CC by Lake Ashi—borrowed Fuji scenery, Korai fairways, bent
+  greens to ~12 stimp, onsen-worthy clubhouse, and how visitors actually secure a
+  tee time.
+description: Can visitors play Hakone Country Club? Find out how to secure tee times,
+  current green fees, and what to expect at this prestigious Fuji-view course.
 ---
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service, I have walked the hallowed fairways of Japan's most revered golf sanctuaries. Among them, the **Hakone Country Club** stands as a testament to timeless design, strategic brilliance, and unparalleled luxury. This is not merely a golf course; it is an institution, a pilgrimage for those who seek the pinnacle of the Japanese golf experience. My mission, as always, is to provide an unvarnished, deeply analytical, yet engaging review that transcends the superficial, offering insights only a seasoned professional can provide. Prepare to embark on a journey into the heart of Hakone CC, a masterpiece meticulously crafted amidst the majestic beauty of the Fuji-Hakone-Izu National Park.
 

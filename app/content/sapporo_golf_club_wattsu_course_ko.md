@@ -8,8 +8,14 @@ lat: '42.8744'
 lng: '141.4856'
 summary: 삿포로 골프 클럽 왓츠 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심층적으로 다룹니다.
 thumbnail: /static/images/sapporo_golf_club_wattsu_course.jpg
-title: '삿포로 골프 클럽 왓츠 코스 완벽 가이드: 전문가 리뷰 (ko)'
+title: Sapporo Golf Club Wattsu Course
+description: Your ultimate guide to playing Hokkaido's legendary ANA Open venue. Discover
+  Sapporo Golf Club Wattsu Course green fees, booking options, and expert layout tips.
+seo_title: 'Sapporo Golf Club Wattsu Course: Green Fees & Booking Guide'
+seo_description: Want to play Hokkaido's legendary ANA Open host? Find Sapporo Golf
+  Club Wattsu Course green fees, booking tips, and course strategy.
 ---
+
 
 ## 홋카이도 골프의 심장, [[삿포로](/course/sapporo_taylor_made_ko)](/course/sapporo_country_club_ko) 골프 클럽 왓츠 코스: 전통과 전략의 걸작
 

@@ -1,17 +1,24 @@
 ---
-lang: "en"
-seo_title: "Yokohama Country Club — Green Fees, West Course & Booking"
-seo_description: "Yokohama Country Club (West Course): green fees, visitor access, tee times & Rakuten GORA booking. Map, strategy & trip tips on OKCaddie."
-title: "The Definitive Guide to Yokohama Country Club: An Expert Review (en)"
-lat: "35.4344"
-lng: "139.5456"
-categories: "Private Club, Public Tournament, Historic"
-thumbnail: "/static/images/yokohama_country_club.jpg"
-address: "Yokohama, Kanagawa"
-date: "2026-04-15"
-booking: "/booking/yokohama_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Yokohama Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and caddy."
+lang: en
+seo_title: 'Yokohama Country Club: Green Fees, Booking & Visitor Guide'
+seo_description: Want to play Yokohama Country Club? Find green fees, visitor booking
+  tips, West Course reviews, and how to book tee times in Japan on OKCaddie.
+title: Yokohama Country Club
+lat: '35.4344'
+lng: '139.5456'
+categories: Private Club, Public Tournament, Historic
+thumbnail: /static/images/yokohama_country_club.jpg
+address: Yokohama, Kanagawa
+date: '2026-04-15'
+booking: /booking/yokohama_country_club_en
+summary: A comprehensive 9,000-character master guide to Yokohama Country Club, covering
+  strategy, history, and luxury facilities, penned by an elite Japanese golf rater
+  and caddy.
+description: A comprehensive guide to Yokohama Country Club, featuring West Course
+  insights, green fees, visitor access policies, and booking tips.
 ---
+
+
 
 As an elite Japanese golf course rater and a seasoned professional caddy with two decades of dedicated service, I have walked the hallowed fairways of Japan's most revered golf institutions countless times. Yet, few courses encapsulate the profound essence of Japanese golf — a delicate balance of strategic challenge, natural beauty, and meticulous *omotenashi* — quite like the Yokohama Country Club (YCC). For the discerning global golfer seeking the pinnacle of the Japanese golf experience, YCC is not merely a destination; it is a pilgrimage. This masterpiece review, meticulously crafted for OKCaddie's esteemed readership, will peel back the layers of this iconic club, revealing its soul from the foundational earth to the subtle undulations of its greens. Prepare for an unparalleled insight into a true *Meimon* (名門) of Japanese golf.
 

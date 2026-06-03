@@ -208,35 +208,42 @@ def process_courses(limit):
         new_topic_count = 0
 
         for row in reader:
-            if new_topic_count >= limit:
-                break
-
             name = row['Name'].strip()
             safe_name = name.lower().replace(" ", "_").replace("'", "").replace(",", "").replace("&", "and").replace(".", "")
 
-            if not (os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and
-                    os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_ko.md"))):
-                base = {
-                    'safe_name': safe_name,
-                    'name': name,
-                    'lat': _safe(row, 'Lat'),
-                    'lng': _safe(row, 'Lng'),
-                    'address': _safe(row, 'Address'),
-                    'features': _safe(row, 'Features'),
-                    'booking': _safe(row, 'Booking'),
-                    # 선택 컬럼 — 없으면 빈 문자열, 있으면 프롬프트의 [KNOWN FACTS]에 사용됨
-                    'Holes': _safe(row, 'Holes'),
-                    'Yardage': _safe(row, 'Yardage'),
-                    'Par': _safe(row, 'Par'),
-                    'Designer': _safe(row, 'Designer'),
-                    'OpenedYear': _safe(row, 'OpenedYear', 'Opened'),
-                    'GreenFee': _safe(row, 'GreenFee', 'Fee'),
-                    'Phone': _safe(row, 'Phone'),
-                    'Website': _safe(row, 'Website', 'URL'),
-                }
-                for lang in ['en', 'ko']:
-                    tasks.append({**base, 'lang': lang})
-                new_topic_count += 1
+            if os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and os.path.exists(
+                os.path.join(CONTENT_DIR, f"{safe_name}_ko.md")
+            ):
+                continue
+
+            base = {
+                'safe_name': safe_name,
+                'name': name,
+                'lat': _safe(row, 'Lat'),
+                'lng': _safe(row, 'Lng'),
+                'address': _safe(row, 'Address'),
+                'features': _safe(row, 'Features'),
+                'booking': _safe(row, 'Booking'),
+                'Holes': _safe(row, 'Holes'),
+                'Yardage': _safe(row, 'Yardage'),
+                'Par': _safe(row, 'Par'),
+                'Designer': _safe(row, 'Designer'),
+                'OpenedYear': _safe(row, 'OpenedYear', 'Opened'),
+                'GreenFee': _safe(row, 'GreenFee', 'Fee'),
+                'Phone': _safe(row, 'Phone'),
+                'Website': _safe(row, 'Website', 'URL'),
+            }
+            row_tasks = []
+            for lang in ['en', 'ko']:
+                out_path = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
+                if not os.path.exists(out_path):
+                    row_tasks.append({**base, 'lang': lang})
+            if not row_tasks:
+                continue
+            if new_topic_count >= limit:
+                break
+            tasks.extend(row_tasks)
+            new_topic_count += 1
 
     if not tasks:
         print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.")

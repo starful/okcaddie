@@ -1,17 +1,23 @@
 ---
-lang: "en"
-seo_title: "Hirono Golf Club — Green Fees, Membership & Visitor Access"
-seo_description: "Hirono Golf Club (Hyogo): green fees context, Alison Course strategy, private-club access & booking paths—plan before you travel. OKCaddie guide."
-title: "Hirono Golf Club, Hyogo | Alison Course—Access, Fees & Strategy"
-lat: "34.7967"
-lng: "135.0111"
-categories: "Private Club, Premium / Luxury, Historic"
-thumbnail: "/static/images/hirono_golf_club.jpg"
-address: "Miki, Hyogo"
-date: "2026-04-15"
-booking: "/booking/hirono_golf_club_en"
-summary: "Hirono in Miki: Charles Alison’s bunkers, Korai fairways vs bent greens, private-club access, realistic fees context, and booking paths—so you know before you fly."
+lang: en
+seo_title: 'Hirono Golf Club: Can Visitors Play? (Fees & Access Guide)'
+seo_description: How do you get a tee time at Hirono Golf Club? Learn visitor access
+  rules, green fees, and insider booking paths for Japan's ultimate private course.
+title: 'Hirono Golf Club: How to Play Japan''s Legendary Alison Course'
+lat: '34.7967'
+lng: '135.0111'
+categories: Private Club, Premium / Luxury, Historic
+thumbnail: /static/images/hirono_golf_club.jpg
+address: Miki, Hyogo
+date: '2026-04-15'
+booking: /booking/hirono_golf_club_en
+summary: 'Hirono in Miki: Charles Alison’s bunkers, Korai fairways vs bent greens,
+  private-club access, realistic fees context, and booking paths—so you know before
+  you fly.'
+description: An insider's guide to Hirono Golf Club. Discover visitor policy, estimated
+  green fees, C.H. Alison course strategy, and how to secure a tee time.
 ---
+
 
 As a seasoned golf course rater and a caddy with two decades of experience navigating the hallowed fairways of Japan's most revered courses, few names evoke the same reverence and professional intrigue as Hirono Golf Club. Often whispered in the same breath as Kawana Hotel Golf Course (Fuji Course) and [Tokyo Golf Club](/course/tokyo_golf_club_en), Hirono stands as an architectural masterpiece, a timeless bastion of strategic golf, and an enduring symbol of prestige within the global golf community. This is not merely a golf course; it is a pilgrimage for those who truly understand and appreciate the game's finest traditions.
 

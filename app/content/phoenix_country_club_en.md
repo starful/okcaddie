@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Phoenix Country Club: An Expert Review (en)"
-lat: "31.9567"
-lng: "131.4692"
-categories: "Public Tournament, Stay & Play, Premium / Luxury"
-thumbnail: "/static/images/phoenix_country_club.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-04-15"
-booking: "/booking/phoenix_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Phoenix Country Club, covering strategy, history, and luxury facilities."
+lang: en
+title: Phoenix Country Club (Miyazaki, Japan)
+lat: '31.9567'
+lng: '131.4692'
+categories: Public Tournament, Stay & Play, Premium / Luxury
+thumbnail: /static/images/phoenix_country_club.jpg
+address: Miyazaki, Miyazaki
+date: '2026-04-15'
+booking: /booking/phoenix_country_club_en
+summary: A comprehensive 9,000-character master guide to Phoenix Country Club, covering
+  strategy, history, and luxury facilities.
+description: Plan your round at Phoenix Country Club, Miyazaki. Access green fees,
+  tee times, Rakuten GORA booking, and expert course tips on OK Caddie.
+seo_title: Phoenix Country Club (Miyazaki, Japan) | Green Fees & Booking
+seo_description: Plan your round at Phoenix Country Club, Miyazaki. Access green fees,
+  tee times, Rakuten GORA booking, and expert course tips on OK Caddie.
 ---
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of experience navigating the hallowed fairways of this nation, I present to you an unparalleled analysis of Phoenix Country Club. Nestled amidst the idyllic Miyazaki coastline, Phoenix Country Club is not merely a golf course; it is a profound testament to Japanese golf's ambition, an architectural marvel, and a crucible where legends are forged. This review, crafted for the discerning connoisseurs of 'OKCaddie,' will dissect every facet of this legendary club, ensuring you are equipped with the knowledge to truly appreciate and conquer its challenges.
 

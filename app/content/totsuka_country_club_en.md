@@ -1,18 +1,29 @@
 ---
 lang: en
-seo_title: "Totsuka Country Club Yokohama — Guest Fees & Access Guide"
-seo_description: "Totsuka CC (Yokohama): member-guest green fees, invite-only access & course tips—plan your round on OKCaddie."
-title: "Totsuka Country Club, Yokohama | Members-Only Luxury—What Guests Pay"
+seo_title: 'Totsuka Country Club: How to Play, Guest Fees & Access'
+seo_description: Can guests play Totsuka Country Club? Discover green fees, booking
+  tips, and access rules for Yokohama's premier course on OKCaddie.
+title: 'Playing Totsuka Country Club: Guest Fees, Access & Course Guide'
 lat: 35.4244
 lng: 139.5156
-categories: ["Premium / Luxury", "Private Club"]
-thumbnail: "/static/images/totsuka_country_club.jpg"
-address: "2710 Totsukacho, Totsuka Ward, Yokohama, Kanagawa 244-0813, Japan"
-date: "2026-04-12"
-booking: "Exclusive to members and their invited guests. Contact a member for arrangements."
-summary: "Invite-only Yokohama hills club—what guests pay (often ¥30k–¥50k+), fast bent greens, onsen after golf, and why tee times exist only through members—read before you ask."
-image_prompt: "Ultra-high resolution cinematic photography of the 18th green at Totsuka Country Club at sunset, showcasing the perfectly manicured turf, surrounding trees silhouetted against the vibrant sky, and a solitary golfer putting for birdie. Golden hour lighting, shallow depth of field."
+categories:
+- Premium / Luxury
+- Private Club
+thumbnail: /static/images/totsuka_country_club.jpg
+address: 2710 Totsukacho, Totsuka Ward, Yokohama, Kanagawa 244-0813, Japan
+date: '2026-04-12'
+booking: Exclusive to members and their invited guests. Contact a member for arrangements.
+summary: Invite-only Yokohama hills club—what guests pay (often ¥30k–¥50k+), fast
+  bent greens, onsen after golf, and why tee times exist only through members—read
+  before you ask.
+image_prompt: Ultra-high resolution cinematic photography of the 18th green at Totsuka
+  Country Club at sunset, showcasing the perfectly manicured turf, surrounding trees
+  silhouetted against the vibrant sky, and a solitary golfer putting for birdie. Golden
+  hour lighting, shallow depth of field.
+description: Planning to play Totsuka Country Club in Yokohama? Here is everything
+  guests need to know about green fees, course layouts, and access rules.
 ---
+
 
 **Introduction:**
 

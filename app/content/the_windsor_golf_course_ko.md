@@ -9,8 +9,14 @@ lng: '140.7756'
 summary: 홋카이도의 보석, 더 윈저 골프 코스에 대한 9,000자에 달하는 심층 마스터 가이드입니다. 역사, 건축 전략, 홀별 공략, 럭셔리
   시설, 미식 경험까지, 이 한 편으로 윈저를 완벽하게 정복하세요.
 thumbnail: /static/images/the_windsor_golf_course.jpg
-title: '더 윈저 골프 코스 완벽 가이드: 한일 명문 골프장 평가 전문가의 마스터 리뷰'
+title: 'The Windsor Golf Course: Tee Times & Booking Guide'
+description: Plan your perfect round at The Windsor Golf Course. Discover up-to-date
+  green fees, strategic course layouts, and seamless online booking options.
+seo_title: 'The Windsor Golf Course: Green Fees & Booking | okcaddie'
+seo_description: Book your tee time at The Windsor Golf Course. Get updated green
+  fees, Rakuten GORA booking tips, course layouts, and access info on okcaddie.
 ---
+
 
 ## 윈저 골프 코스: 명문 골프의 유산을 만나다
 

@@ -1,4 +1,12 @@
 ---
+title: 'Japan Golf Guide: How to Book, Play & Travel'
+description: Your ultimate companion for golfing in Japan. Learn how to book tee times,
+  master local etiquette, and plan the perfect golf trip.
+seo_title: 'Ultimate Japan Golf Guide: How to Book & Play | OKCaddie'
+seo_description: Planning a golf trip to Japan? Master tee time bookings, local etiquette,
+  and transport with our expert-led Japan golf guide.
+---
+---
 lang: "ko"
 title: "일본 골프장 복장 규정(드레스코드) 완벽 가이드"
 summary: "일본 골프장 방문 예정이신가요? 엄격한 복장 규정 때문에 걱정이신가요? 이 가이드는 일본 골프장의 드레스 코드에 대한 모든 것을 상세히 설명하여, 당황스러운 상황 없이 라운딩을 즐길 수 있도록 돕습니다."
