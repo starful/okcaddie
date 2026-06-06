@@ -1,6 +1,234 @@
 {
-  "last_updated": "2026.05.22",
+  "last_updated": "2026.06.06",
   "courses": [
+    {
+      "id": "kagawa_prefectural_golf_ko",
+      "base_id": "kagawa_prefectural_golf",
+      "lang": "ko",
+      "title": "Kagawa Prefectural Golf",
+      "lat": 34.3144,
+      "lng": 134.0556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kagawa_prefectural_golf.jpg",
+      "address": "Takamatsu, Kagawa",
+      "published": "2026-06-06",
+      "summary": "가가와현 다카마쓰에 위치한 가성비 좋은 산악형 골프 코스입니다. 총 18홀, 파 72로, 세토 내해와 산악 경관을 조망하며 전략적인 라운딩을 즐길 수 있습니다.",
+      "booking": "/booking/kagawa_prefectural_golf_ko",
+      "link": "/course/kagawa_prefectural_golf?lang=ko"
+    },
+    {
+      "id": "tokushima_golf_club_ko",
+      "base_id": "tokushima_golf_club",
+      "lang": "ko",
+      "title": "Tokushima Golf Club",
+      "lat": 34.0144,
+      "lng": 134.5556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/tokushima_golf_club.jpg",
+      "address": "Tokushima, Tokushima",
+      "published": "2026-06-06",
+      "summary": "도쿠시마 골프 클럽은 도쿠시마 시내에서 약 20분 거리에 위치하며, 수십 년의 역사를 지닌 숲 코스로 합리적인 가격에 전략적인 라운드를 즐길 수 있습니다.",
+      "booking": "/booking/tokushima_golf_club_ko",
+      "link": "/course/tokushima_golf_club?lang=ko"
+    },
+    {
+      "id": "kochi_golf_club_heights_en",
+      "base_id": "kochi_golf_club_heights",
+      "lang": "en",
+      "title": "Kochi Golf Club Heights",
+      "lat": 33.5144,
+      "lng": 133.5156,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kochi_golf_club_heights.jpg",
+      "address": "Kochi, Kochi",
+      "published": "2026-06-06",
+      "summary": "Kochi Golf Club Heights offers golfers a scenic mountain-style layout in Kochi, providing excellent value with its diverse 18-hole course.",
+      "booking": "/booking/kochi_golf_club_heights_en",
+      "link": "/course/kochi_golf_club_heights"
+    },
+    {
+      "id": "fukuoka_kokusai_golf_en",
+      "base_id": "fukuoka_kokusai_golf",
+      "lang": "en",
+      "title": "Fukuoka Kokusai Golf",
+      "lat": 33.7544,
+      "lng": 130.5556,
+      "categories": [
+        "Value for Money",
+        "Championship",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukuoka_kokusai_golf.jpg",
+      "address": "Munakata, Fukuoka",
+      "published": "2026-06-06",
+      "summary": "Fukuoka Kokusai Golf in Munakata offers 18 championship holes, threading tight fairways through dense forest, providing strategic challenges often priced at 10,000-20,000 JPY.",
+      "booking": "/booking/fukuoka_kokusai_golf_en",
+      "link": "/course/fukuoka_kokusai_golf"
+    },
+    {
+      "id": "ehime_golf_club_main_en",
+      "base_id": "ehime_golf_club_main",
+      "lang": "en",
+      "title": "Ehime Golf Club Main",
+      "lat": 33.7544,
+      "lng": 132.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/ehime_golf_club_main.jpg",
+      "address": "Uchiko, Ehime",
+      "published": "2026-06-06",
+      "summary": "Ehime Golf Club Main offers a challenging 18-hole, par-72 mountain course near Uchiko, Ehime, emphasizing strategic play and excellent value for money.",
+      "booking": "/booking/ehime_golf_club_main_en",
+      "link": "/course/ehime_golf_club_main"
+    },
+    {
+      "id": "matsuyama_seaside_golf_ko",
+      "base_id": "matsuyama_seaside_golf",
+      "lang": "ko",
+      "title": "Matsuyama Seaside Golf",
+      "lat": 33.9544,
+      "lng": 132.8156,
+      "categories": [
+        "Seaside Links",
+        "Ocean View",
+        "Value"
+      ],
+      "thumbnail": "/static/images/matsuyama_seaside_golf.jpg",
+      "address": "Matsuyama, Ehime",
+      "published": "2026-06-06",
+      "summary": "마쓰야마 해변 골프는 에히메현 마쓰야마에 위치한 18홀 해변 링크스 코스로, 합리적인 그린피로 태평양 조망 라운딩을 즐길 수 있습니다.",
+      "booking": "/booking/matsuyama_seaside_golf_ko",
+      "link": "/course/matsuyama_seaside_golf?lang=ko"
+    },
+    {
+      "id": "fukuoka_kokusai_golf_ko",
+      "base_id": "fukuoka_kokusai_golf",
+      "lang": "ko",
+      "title": "Fukuoka Kokusai Golf",
+      "lat": 33.7544,
+      "lng": 130.5556,
+      "categories": [
+        "Value for Money",
+        "Championship",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukuoka_kokusai_golf.jpg",
+      "address": "Munakata, Fukuoka",
+      "published": "2026-06-06",
+      "summary": "후쿠오카현 무나카타에 위치한 후쿠오카 국제 골프 클럽은 1957년 개장한 27홀 챔피언십 코스로, 뛰어난 가성비와 도전적인 산림 코스 레이아웃이 특징입니다.",
+      "booking": "/booking/fukuoka_kokusai_golf_ko",
+      "link": "/course/fukuoka_kokusai_golf?lang=ko"
+    },
+    {
+      "id": "matsuyama_seaside_golf_en",
+      "base_id": "matsuyama_seaside_golf",
+      "lang": "en",
+      "title": "Matsuyama Seaside Golf",
+      "lat": 33.9544,
+      "lng": 132.8156,
+      "categories": [
+        "Seaside Links",
+        "Ocean View",
+        "Value"
+      ],
+      "thumbnail": "/static/images/matsuyama_seaside_golf.jpg",
+      "address": "Matsuyama, Ehime",
+      "published": "2026-06-06",
+      "summary": "Matsuyama Seaside Golf, located in Ehime Prefecture, offers 18 holes of links-style golf with expansive views of the Seto Inland Sea, accessible within a 45-minute drive from JR Matsuyama Station.",
+      "booking": "/booking/matsuyama_seaside_golf_en",
+      "link": "/course/matsuyama_seaside_golf"
+    },
+    {
+      "id": "ehime_golf_club_main_ko",
+      "base_id": "ehime_golf_club_main",
+      "lang": "ko",
+      "title": "Ehime Golf Club Main",
+      "lat": 33.7544,
+      "lng": 132.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/ehime_golf_club_main.jpg",
+      "address": "Uchiko, Ehime",
+      "published": "2026-06-06",
+      "summary": "에히메 현 우치코에 위치한 이 코스는 가성비가 훌륭하며, 좁은 페어웨이와 고저차로 전략적인 플레이를 요구하는 산악 스타일의 18홀 골프장입니다.",
+      "booking": "/booking/ehime_golf_club_main_ko",
+      "link": "/course/ehime_golf_club_main?lang=ko"
+    },
+    {
+      "id": "tokushima_golf_club_en",
+      "base_id": "tokushima_golf_club",
+      "lang": "en",
+      "title": "Tokushima Golf Club",
+      "lat": 34.0144,
+      "lng": 134.5556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/tokushima_golf_club.jpg",
+      "address": "Tokushima, Tokushima",
+      "published": "2026-06-06",
+      "summary": "Tokushima Golf Club offers 18 holes of classic Japanese forest golf near Tokushima City, providing excellent value with its mature tree-lined fairways.",
+      "booking": "/booking/tokushima_golf_club_en",
+      "link": "/course/tokushima_golf_club"
+    },
+    {
+      "id": "kagawa_prefectural_golf_en",
+      "base_id": "kagawa_prefectural_golf",
+      "lang": "en",
+      "title": "Kagawa Prefectural Golf",
+      "lat": 34.3144,
+      "lng": 134.0556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kagawa_prefectural_golf.jpg",
+      "address": "Takamatsu, Kagawa",
+      "published": "2026-06-06",
+      "summary": "Kagawa Prefectural Golf in Takamatsu offers an 18-hole mountain-style layout, providing excellent value with scenic views over Seto Inland Sea hills.",
+      "booking": "/booking/kagawa_prefectural_golf_en",
+      "link": "/course/kagawa_prefectural_golf"
+    },
+    {
+      "id": "kochi_golf_club_heights_ko",
+      "base_id": "kochi_golf_club_heights",
+      "lang": "ko",
+      "title": "Kochi Golf Club Heights",
+      "lat": 33.5144,
+      "lng": 133.5156,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kochi_golf_club_heights.jpg",
+      "address": "Kochi, Kochi",
+      "published": "2026-06-06",
+      "summary": "고치 골프 클럽 하이츠는 고치시에 위치하며, 18홀 산악 코스로 뛰어난 가성비와 경치를 자랑합니다.",
+      "booking": "/booking/kochi_golf_club_heights_ko",
+      "link": "/course/kochi_golf_club_heights?lang=ko"
+    },
     {
       "id": "sanda_golf_club_ko",
       "base_id": "sanda_golf_club",
@@ -618,7 +846,7 @@
       "id": "beppu_golf_club_en",
       "base_id": "beppu_golf_club",
       "lang": "en",
-      "title": "Beppu Golf Club",
+      "title": "Beppu Golf Club | Green Fees, Tee Times & Booking | OKCaddie",
       "lat": 33.3244,
       "lng": 131.4156,
       "categories": [
@@ -716,7 +944,7 @@
       "id": "ashinoko_country_club_ko",
       "base_id": "ashinoko_country_club",
       "lang": "ko",
-      "title": "아시노코 컨트리 클럽",
+      "title": "아시노코 컨트리 클럽 (아시노코 CC)",
       "lat": 35.1544,
       "lng": 138.9756,
       "categories": [
@@ -983,7 +1211,7 @@
       "id": "eniwa_country_club_ko",
       "base_id": "eniwa_country_club",
       "lang": "ko",
-      "title": "에니와 컨트리클럽 완벽 해설",
+      "title": "에니와 컨트리클럽, 홋카이도 | 가이드 & 티타임 예약",
       "lat": 42.8844,
       "lng": 141.5656,
       "categories": [
@@ -1409,7 +1637,7 @@
       "id": "aso_resort_grandvrio_en",
       "base_id": "aso_resort_grandvrio",
       "lang": "en",
-      "title": "Aso Resort Grandvrio Golf | Caldera Stay-and-Play, Rates & Course Tips",
+      "title": "Aso Resort Grandvrio Golf Club | Kumamoto Stay & Play Guide",
       "lat": 32.9644,
       "lng": 131.0256,
       "categories": [
@@ -1701,7 +1929,7 @@
       "id": "passage_kinkai_island_en",
       "base_id": "passage_kinkai_island",
       "lang": "en",
-      "title": "Passage Kinkai Island Golf, Nagasaki",
+      "title": "Passage Kinkai Island Golf Club, Nagasaki",
       "lat": 32.8944,
       "lng": 129.8356,
       "categories": [
@@ -1797,7 +2025,7 @@
       "id": "shimonoseki_golf_club_en",
       "base_id": "shimonoseki_golf_club",
       "lang": "en",
-      "title": "Shimonoseki Golf Club (Yamaguchi) | Seaside Private Course—Play & Fees",
+      "title": "Shimonoseki Golf Club",
       "lat": 34.0944,
       "lng": 130.9356,
       "categories": [
@@ -1911,7 +2139,7 @@
       "id": "pgm_golf_resort_okinawa_en",
       "base_id": "pgm_golf_resort_okinawa",
       "lang": "en",
-      "title": "PGM Golf Resort Okinawa",
+      "title": "PGM 골프 리조트 오키나와 코스 가이드 & 예약",
       "lat": 26.4344,
       "lng": 127.8356,
       "categories": [
@@ -2102,7 +2330,7 @@
       "id": "keya_golf_club_ko",
       "base_id": "keya_golf_club",
       "lang": "ko",
-      "title": "케야 골프 클럽",
+      "title": "Keya Golf Club",
       "lat": 33.6044,
       "lng": 130.1356,
       "categories": [
@@ -2256,7 +2484,7 @@
       "id": "the_windsor_golf_course_ko",
       "base_id": "the_windsor_golf_course",
       "lang": "ko",
-      "title": "더 윈저 골프 코스",
+      "title": "The Windsor Golf Course",
       "lat": 42.5944,
       "lng": 140.7756,
       "categories": [
@@ -2352,7 +2580,7 @@
       "id": "nishinasuno_country_club_ko",
       "base_id": "nishinasuno_country_club",
       "lang": "ko",
-      "title": "서나스노 컨트리 클럽",
+      "title": "Nishinasuno Country Club Booking, Green Fees & Guide | OK Caddie",
       "lat": 36.8944,
       "lng": 139.9656,
       "categories": [
@@ -2658,7 +2886,7 @@
       "id": "sapporo_golf_club_wattsu_course_ko",
       "base_id": "sapporo_golf_club_wattsu_course",
       "lang": "ko",
-      "title": "삿포로 골프 클럽 왓츠 코스",
+      "title": "Sapporo Golf Club Wattsu Course",
       "lat": 42.8744,
       "lng": 141.4856,
       "categories": [
@@ -2773,7 +3001,7 @@
       "id": "abc_golf_club_ko",
       "base_id": "abc_golf_club",
       "lang": "ko",
-      "title": "ABC 골프 클럽",
+      "title": "ABC Golf Club, Hyogo",
       "lat": 34.8344,
       "lng": 135.0356,
       "categories": [
@@ -2811,7 +3039,7 @@
       "id": "hakone_country_club_ko",
       "base_id": "hakone_country_club",
       "lang": "ko",
-      "title": "하코네 컨트리 클럽",
+      "title": "Hakone Country Club",
       "lat": 35.2544,
       "lng": 139.0056,
       "categories": [
@@ -3350,7 +3578,7 @@
       "id": "hakone_country_club_en",
       "base_id": "hakone_country_club",
       "lang": "en",
-      "title": "Hakone Country Club | Fuji Views, Akabori Design & Guest-Round Access",
+      "title": "Hakone Country Club",
       "lat": 35.2544,
       "lng": 139.0056,
       "categories": [
@@ -4110,7 +4338,7 @@
       "id": "phoenix_country_club_en",
       "base_id": "phoenix_country_club",
       "lang": "en",
-      "title": "Phoenix Country Club",
+      "title": "Phoenix Country Club (Miyazaki, Japan)",
       "lat": 31.9567,
       "lng": 131.4692,
       "categories": [
@@ -4712,7 +4940,7 @@
       "id": "tom_watson_golf_course_en",
       "base_id": "tom_watson_golf_course",
       "lang": "en",
-      "title": "Tom Watson Course, Miyazaki | Seagaia Resort Golf—Night Play & Fees",
+      "title": "Tom Watson Golf Course Miyazaki | Phoenix Seagaia Resort",
       "lat": 31.9644,
       "lng": 131.4656,
       "categories": [
@@ -4788,7 +5016,7 @@
       "id": "narita_golf_club_ko",
       "base_id": "narita_golf_club",
       "lang": "ko",
-      "title": "나리타 골프 클럽",
+      "title": "나리타 골프클럽 (Narita Golf Club)",
       "lat": 35.8344,
       "lng": 140.3856,
       "categories": [
@@ -5095,7 +5323,7 @@
       "id": "hirono_golf_club_en",
       "base_id": "hirono_golf_club",
       "lang": "en",
-      "title": "Hirono Golf Club, Hyogo | Alison Course—Access, Fees & Strategy",
+      "title": "Hirono Golf Club",
       "lat": 34.7967,
       "lng": 135.0111,
       "categories": [
@@ -5341,7 +5569,7 @@
       "id": "totsuka_country_club_en",
       "base_id": "totsuka_country_club",
       "lang": "en",
-      "title": "Totsuka Country Club, Yokohama | Members-Only Luxury—What Guests Pay",
+      "title": "Playing Totsuka Country Club",
       "lat": 35.4244,
       "lng": 139.5156,
       "categories": [

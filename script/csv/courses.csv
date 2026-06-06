@@ -1,4 +1,4 @@
-Name,Lat,Lng,Address,Features,Booking
+﻿Name,Lat,Lng,Address,Features,Booking
 Hirono Golf Club,34.7967,135.0111,"Miki, Hyogo","Private Club, Premium / Luxury, Historic",
 Kawana Hotel Golf Course Fuji Course,34.9038,139.1389,"Ito, Shizuoka","Public Tournament, Premium / Luxury, Seaside Links",https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=11384
 Phoenix Country Club,31.9567,131.4692,"Miyazaki, Miyazaki","Public Tournament, Stay & Play, Premium / Luxury",https://www.agoda.com/partners/partnersearch.aspx?psjs=1&cid=1844104&hid=8086
@@ -220,4 +220,22 @@ Kumamoto Aso Yunotani,32.9144,131.0556,"Aso, Kumamoto","Historic, Mountain Style
 Oita Beppu Tokyu,33.3544,131.4556,"Beppu, Oita","Value for Money, Onsen, Resort",
 Miyazaki Tom Watson Night,31.9644,131.4656,"Miyazaki, Miyazaki","Night Golf, Premium / Luxury, Resort",
 Kagoshima Ibusuki Southern,31.2544,130.5556,"Ibusuki, Kagoshima","Public Tournament, Ocean View, Scenic",
-Okinawa PGM Resort,26.4544,127.8556,"Onna, Okinawa","Public Tournament, Ocean View, Resort"
+Okinawa PGM Resort,26.4544,127.8556,"Onna, Okinawa","Public Tournament, Ocean View, Resort",
+Sample Golf Club,35.0,135.0,Hyogo,Public,
+Yokohama Minato Mirai Cafe,35.4564,139.6340,"Kanagawa, Yokohama",Waterfront | Wi-Fi,
+Kamakura Komachi Drip,35.3192,139.5503,"Kanagawa, Kamakura",Historic street | Matcha,
+Nagoya Sakae Espresso,35.1709,136.9066,"Aichi, Nagoya",City center | House roast,
+Kanazawa Higashi Chaya Cafe,36.5713,136.6622,"Ishikawa, Kanazawa",Traditional district,
+Hiroshima Peace Park Cafe,34.3955,132.4536,Hiroshima,Tourist area | Calm,
+Sendai Ichibancho Latte,38.2606,140.8829,"Miyagi, Sendai",Shopping street,
+Naha Kokusai Street Coffee,26.2140,127.6889,"Okinawa, Naha",Island blend | AC,
+Hakodate Morning Market Cafe,41.7687,140.7290,"Hokkaido, Hakodate",Morning set,
+Asahikawa Winter Roast,43.7706,142.3650,"Hokkaido, Asahikawa",Warm interior,
+Nara Parkside Kissaten,34.6851,135.8050,Nara,Deer area nearby,
+Kobe Harborland Cafe,34.6795,135.1830,"Hyogo, Kobe",Harbor view,
+Matsuyama Dogo Onsen Cafe,33.8518,132.7860,"Ehime, Matsuyama",Onsen town,
+Takamatsu Ritsurin Garden Cafe,34.3299,134.0445,"Kagawa, Takamatsu",Garden district,
+Kumamoto Castle Town Cafe,32.8062,130.7059,Kumamoto,Castle area,
+Otaru Canal Coffee,43.1967,141.0014,"Hokkaido, Otaru",Canal view,
+Miyazaki Phoenix Cafe,31.9077,131.4202,Miyazaki,Coastal city,
+Niigata Bandai Brew,37.9161,139.0364,Niigata,Rice country roast,

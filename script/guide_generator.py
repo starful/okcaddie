@@ -38,8 +38,7 @@ def task_worker(topic_id, topic_name, lang, keywords):
     """
 
     try:
-        # Gemini 2.0 Flash는 유료 버전에서 매우 빠릅니다.
-        response = client.models.generate_content(model='gemini-2.0-flash', contents=prompt)
+        response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
         content = response.text.replace("```markdown", "").replace("```", "").replace("## yaml", "").strip()
         
         with open(filepath, 'w', encoding='utf-8') as mf:
