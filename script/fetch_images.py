@@ -1,15 +1,16 @@
 import os
 import csv
 import time
+import subprocess
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ==========================================
 # ⚙️ 설정 — Google Places API (New) 전용
 #   - 엔드포인트: https://places.googleapis.com/v1/...
-#   - API 키: Secret Manager 에서만 로드 (.env 미사용)
-#       · 프로젝트: GOOGLE_CLOUD_PROJECT 또는 GCP_PROJECT_ID (없으면 ADC 기본 프로젝트 시도)
-#       · 시크릿 이름: GOOGLE_PLACES_API_KEY_SECRET_ID 또는 기본 GOOGLE_PLACES_API_KEY
-#       · ADC: gcloud auth application-default login / CI·Cloud Run 서비스 계정 + secretAccessor
+#   - API 키: ① gcloud Secret Manager ② 환경변수 GOOGLE_PLACES_API_KEY 등
 # ==========================================
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
@@ -51,28 +52,47 @@ def _access_secret_latest(project_id: str, secret_id: str) -> str:
 
 
 def resolve_places_api_key() -> str:
-    """Places API (New) 키: Secret Manager 전용."""
-    project_id = _gcp_project_id()
-    secret_id = os.environ.get("GOOGLE_PLACES_API_KEY_SECRET_ID", "").strip()
-    if not secret_id:
-        secret_id = DEFAULT_PLACES_SECRET_ID
-
-    if not project_id:
-        print("❌ GCP 프로젝트를 알 수 없습니다.")
-        print(
-            "   GOOGLE_CLOUD_PROJECT 또는 GCP_PROJECT_ID 를 설정하거나, "
-            "gcloud config set project ... 후 ADC를 구성하세요."
-        )
-        return ""
-
+    """Places API (New) 키: gcloud Secret Manager → ADC → 환경변수."""
     try:
-        return _access_secret_latest(project_id, secret_id)
-    except Exception as e:
-        print(f"❌ Secret Manager 접근 실패 ({secret_id}): {e}")
-        print(
-            "   IAM secretAccessor, 시크릿 이름, ADC(gcloud auth application-default login)를 확인하세요."
+        result = subprocess.run(
+            [
+                "gcloud",
+                "secrets",
+                "versions",
+                "access",
+                "latest",
+                "--secret",
+                os.environ.get("GOOGLE_PLACES_API_KEY_SECRET_ID", "").strip() or DEFAULT_PLACES_SECRET_ID,
+            ],
+            capture_output=True,
+            text=True,
+            check=False,
         )
-        return ""
+        key = (result.stdout or "").strip()
+        if result.returncode == 0 and key:
+            return key
+    except Exception:
+        pass
+
+    project_id = _gcp_project_id()
+    secret_id = os.environ.get("GOOGLE_PLACES_API_KEY_SECRET_ID", "").strip() or DEFAULT_PLACES_SECRET_ID
+    if project_id:
+        try:
+            return _access_secret_latest(project_id, secret_id)
+        except Exception as e:
+            print(f"⚠️ Secret Manager ADC 실패 ({secret_id}): {e}")
+
+    env_key = (
+        os.environ.get("GOOGLE_PLACES_API_KEY")
+        or os.environ.get("GOOGLE_MAPS_API_KEY")
+        or os.environ.get("MAPS_API_KEY")
+        or ""
+    ).strip()
+    if env_key:
+        return env_key
+
+    print("❌ Places API 키 없음 — GOOGLE_PLACES_API_KEY 환경변수 또는 Secret Manager를 확인하세요.")
+    return ""
 
 
 def _places_error_message(res: requests.Response) -> str:
@@ -194,7 +214,7 @@ def download_photo(photo_name, save_path, api_key: str):
 def fetch_all_images():
     api_key = resolve_places_api_key()
     if not api_key:
-        print("❌ Places API (New) 키를 Secret Manager에서 읽지 못했습니다.")
+        print("❌ Places API (New) 키를 읽지 못했습니다.")
         return
 
     os.makedirs(IMAGES_DIR, exist_ok=True)
