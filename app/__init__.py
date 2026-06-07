@@ -1001,19 +1001,15 @@ def webmanifest():
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
-    """로컬 이미지 우선 서빙; 없으면 GCS 리다이렉트 (프로덕션 CDN)."""
+    """이미지는 GCS가 기준 — okadmin 업로드 즉시 반영."""
     images_root = os.path.join(app.root_path, 'static', 'images')
     if any(x in filename for x in ['favicon', 'apple-touch']):
-        return send_from_directory(images_root, filename)
-
-    local_path = os.path.join(images_root, filename)
-    if os.path.isfile(local_path) and os.path.getsize(local_path) > 0:
-        return send_from_directory(images_root, filename)
-
-    version = os.environ.get('ASSET_VERSION', '').strip()
+        local_path = os.path.join(images_root, filename)
+        if os.path.isfile(local_path):
+            return send_from_directory(images_root, filename)
     url = f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}"
-    if version:
-        url = f"{url}?v={urllib.parse.quote(version)}"
+    if request.query_string:
+        url = f"{url}?{request.query_string.decode()}"
     return redirect(url, code=302)
 
 @app.route('/sitemap.xml')
