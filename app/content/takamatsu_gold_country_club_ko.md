@@ -9,8 +9,14 @@ lng: '133.9156'
 summary: 가가와현에 위치한 다카마쓰 골드 컨트리 클럽에 대한 9,000자 이상의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설까지 전문가의
   깊이 있는 분석을 담았습니다. 일본 골프의 진수를 경험하세요.
 thumbnail: /static/images/takamatsu_gold_country_club.jpg
-title: '다카마쓰 골드 컨트리 클럽 완벽 분석: 전문가의 시선 (Takamatsu Gold Country Club Definitive Review)'
+title: Takamatsu Gold Country Club | okcaddie
+description: Explore Takamatsu Gold Country Club in Kagawa. Find official green fees,
+  Rakuten GORA booking paths, course layouts, and expert playing tips.
+seo_title: 'Takamatsu Gold Country Club: Green Fees & Booking Guide'
+seo_description: Plan your round at Takamatsu Gold Country Club in Kagawa. Access
+  the latest green fees, Rakuten GORA booking guides, and course layouts on okcaddie.
 ---
+
 
 ## 다카마쓰 골드 컨트리 클럽: 장인의 혼이 깃든 코스, 그 깊이를 탐하다
 

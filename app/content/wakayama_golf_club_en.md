@@ -1,16 +1,29 @@
 ---
 lang: en
-title: "Wakayama Golf Club | Affordable Kii Peninsula Public-Slot Guide"
+title: 'Wakayama Golf Club: Tee Time Booking & Course Guide'
 lat: 34.1844
 lng: 135.1556
-categories: ["Value for Money", "Public Tournament"]
-thumbnail: "/static/images/wakayama_golf_club.jpg"
-address: "Wakayama, Wakayama"
-date: "2026-04-12"
-booking: "Through official website or reputable online booking platforms."
-summary: "Semi-public Wakayama value—¥8k–¥18k-style green fees, booking windows, par-4 12th & par-3 17th highlights, carts/caddies, and the smartest seasons to reserve a tee time."
-image_prompt: "A wide-angle, sun-drenched shot of Wakayama Golf Club's 18th green, showcasing the manicured fairway, strategically placed bunkers, and the serene, rolling hills of Wakayama in the background. The image should evoke a sense of peaceful challenge and understated elegance."
+categories:
+- Value for Money
+- Public Tournament
+thumbnail: /static/images/wakayama_golf_club.jpg
+address: Wakayama, Wakayama
+date: '2026-04-12'
+booking: Through official website or reputable online booking platforms.
+summary: Semi-public Wakayama value—¥8k–¥18k-style green fees, booking windows, par-4
+  12th & par-3 17th highlights, carts/caddies, and the smartest seasons to reserve
+  a tee time.
+image_prompt: A wide-angle, sun-drenched shot of Wakayama Golf Club's 18th green,
+  showcasing the manicured fairway, strategically placed bunkers, and the serene,
+  rolling hills of Wakayama in the background. The image should evoke a sense of peaceful
+  challenge and understated elegance.
+description: A comprehensive guide to playing Wakayama Golf Club, featuring green
+  fees, booking options, course layout highlights, and travel tips.
+seo_title: Wakayama Golf Club | Book Tee Times, Green Fees & Guide
+seo_description: Plan your round at Wakayama Golf Club. Find green fees, booking tips,
+  course highlights, and cart/caddy details for this scenic Kii Peninsula course.
 ---
+
 
 **Introduction:**
 

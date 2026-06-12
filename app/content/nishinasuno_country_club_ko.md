@@ -9,13 +9,14 @@ lng: '139.9656'
 summary: 서나스노 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 코스 전략, 최고급 시설, 미식 경험을 담은 전문가
   리뷰입니다.
 thumbnail: /static/images/nishinasuno_country_club.jpg
-title: Nishinasuno Country Club Booking, Green Fees & Guide | OK Caddie
-description: Book your tee time at Nishinasuno Country Club in Tochigi. Get real-time
-  green fees, booking guides, and expert course strategic tips.
-seo_title: Nishinasuno Country Club Booking & Green Fees | OK Caddie
-seo_description: Book your tee time at Nishinasuno Country Club in Tochigi. Get real-time
-  green fees, booking guides, and expert course strategic tips.
+title: Nishinasuno Country Club
+description: Your ultimate guide to playing Nishinasuno Country Club in Tochigi, Japan.
+  Discover green fees, tee times, booking options, and course layout tips.
+seo_title: Nishinasuno Country Club | Tee Times, Booking & Green Fees
+seo_description: Plan your round at Tochigi's top-rated Nishinasuno Country Club.
+  Find green fees, English booking guides, tee times, and course tips.
 ---
+
 
 
 ## 서나스노 컨트리 클럽: 일본 골프의 심장부를 가다

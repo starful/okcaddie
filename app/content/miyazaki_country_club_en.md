@@ -10,12 +10,15 @@ date: '2026-04-15'
 booking: /booking/miyazaki_country_club_en
 summary: A comprehensive 9,000-character master guide to Miyazaki Country Club, covering
   strategy, history, and luxury facilities.
-description: An essential guide to Miyazaki Country Club, featuring green fees, English
-  booking options, JLPGA tournament course layout, and travel tips.
-seo_title: Miyazaki Country Club Japan | Green Fees & Booking Guide
-seo_description: Book tee times at Miyazaki Country Club. Explore green fees, strategic
-  course layouts, and English booking guides on okcaddie.
+description: Experience the legendary Miyazaki Country Club, the renowned host of
+  the LPGA Tour Championship. Discover essential details on green fees, strategic
+  layouts, and step-by-step English booking guides.
+seo_title: Miyazaki Country Club Golf Booking & Green Fees Guide
+seo_description: Book your tee time at Miyazaki Country Club. Get real-time green
+  fees, LPGA course layouts, and easy English booking guides on okcaddie.
 ---
+
+
 
 
 ## The Definitive Guide to Miyazaki Country Club: A Masterpiece of Japanese Golfing Heritage

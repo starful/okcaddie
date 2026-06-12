@@ -6,13 +6,14 @@ summary: Experience the breathtaking beauty of Japanese autumn while perfecting 
   vibrant autumn foliage, offering an unforgettable golfing experience amidst nature's
   masterpiece. Discover hidden gems and popular destinations, perfect for both avid
   golfers and those seeking stunning autumnal landscapes.
-title: Most Scenic Japan Golf Courses for Autumn Foliage
-description: Play golf surrounded by stunning red and gold autumn leaves in Japan.
-  Discover the top scenic courses and plan your perfect fall golf trip now.
-seo_title: Best Autumn Foliage Golf Courses in Japan | OK Caddie
-seo_description: Play golf surrounded by stunning red and gold autumn leaves in Japan.
-  Discover the top scenic courses and plan your perfect fall golf trip now.
+title: Best Japan Golf Courses for Autumn Leaves & Scenic Views
+description: Discover the best Japan autumn golf courses. Play among stunning fall
+  foliage and red maple leaves. Plan your scenic golf trip to Japan today!
+seo_title: 'Japan Autumn Golf: Best Courses for Fall Foliage | OK Caddie'
+seo_description: Discover the best Japan autumn golf courses. Play among stunning
+  fall foliage and red maple leaves. Plan your scenic golf trip to Japan today!
 ---
+
 
 
 # Most Scenic Golf Courses in Japan for Autumn Foliage

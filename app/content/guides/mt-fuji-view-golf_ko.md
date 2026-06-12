@@ -1,11 +1,13 @@
 ---
 {
-  "title": "Japan Golf Guide: Best Mt. Fuji View Golf Courses",
-  "description": "Discover the best golf courses in Japan with stunning views of Mount Fuji. Get practical booking tips and course guides on OKCaddie.",
-  "seo_title": "Mt. Fuji View Golf Courses: Japan Golf Guide | OKCaddie",
-  "seo_description": "Discover the best golf courses in Japan with stunning views of Mount Fuji. Get practical booking tips and course guides on OKCaddie."
+  "title": "후지산 뷰 일본 골프장 가이드",
+  "description": "후지산의 아름다운 자태를 감상하며 라운딩을 즐길 수 있는 일본 최고의 골프 코스 정보와 실전 예약 노하우를 소개합니다.",
+  "seo_title": "후지산 뷰 일본 골프장 추천 및 예약 가이드 | OKCaddie",
+  "seo_description": "웅장한 후지산 전망을 자랑하는 일본 명문 골프 코스 정보와 실전 예약 팁을 오케이캐디(OKCaddie)에서 확인해 보세요."
 }
 ---
+
+
 
 
 

@@ -1,6 +1,13 @@
 ---
-{}
+{
+  "title": "Katayamazu Golf Club",
+  "description": "Plan your trip to Katayamazu Golf Club, one of Ishikawa's premier championship courses. Get green fees, course layouts, and booking guides.",
+  "seo_title": "Katayamazu Golf Club Japan: Green Fees & Booking | OK Caddie",
+  "seo_description": "Book your round at Katayamazu Golf Club in Ishikawa, Japan. Find green fees, course layouts, tee times, and Rakuten GORA booking tips."
+}
 ---
+
+
 
 lang: "ko"
 title: "가타야마즈 골프 클럽 완벽 해부: 일본 명문 코스 평가 전문가의 심층 리뷰"

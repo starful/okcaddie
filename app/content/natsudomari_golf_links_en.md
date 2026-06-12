@@ -1,9 +1,9 @@
 ---
 lang: en
-seo_title: 'Play Natsudomari Golf Links: Book Tee Times & Green Fees'
-seo_description: Play Japan's premier Scottish-style links! Book Natsudomari Golf
-  Links tee times and check green fees. Easy English booking via OKCaddie.
-title: Natsudomari Golf Links (Aomori)
+seo_title: Natsudomari Golf Links Tee Times & Booking | OKCaddie
+seo_description: Experience Japan's ultimate Scottish links. Book Natsudomari Golf
+  Links tee times online with ease. Compare green fees & reserve your round today!
+title: Play Natsudomari Golf Links
 lat: '41.0144'
 lng: '140.8956'
 categories: Seaside Links, Scenic View, Strategic Design, Luxury Experience, Japanese
@@ -15,9 +15,10 @@ booking: /booking/natsudomari_golf_links_en
 summary: Top northern Japan links on Mutsu Bay—Izumi’s firm fairways, coastal wind
   chess, deep bunkers, clubhouse dining, and when to book if you want a bucket-list
   Aomori round.
-description: Plan your round at Natsudomari Golf Links, Japan's legendary seaside
-  links course. Discover updated green fees, tee times, and seamless booking options.
+description: Book your tee time at Japan's premier Scottish-style links course in
+  Aomori with easy English support.
 ---
+
 
 
 

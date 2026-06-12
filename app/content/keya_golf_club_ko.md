@@ -8,13 +8,14 @@ lat: '33.6044'
 lng: '130.1356'
 summary: 케야 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.
 thumbnail: /static/images/keya_golf_club.jpg
-title: Keya Golf Club
-description: Plan your round at Fukuoka's premier championship course. Get Keya Golf
-  Club green fees, booking channels, and expert course tips.
-seo_title: 'Keya Golf Club Fukuoka: How to Book & Green Fees | OKCaddie'
-seo_description: Want to play Keya Golf Club in Fukuoka? Discover green fees, easy
-  booking options, and pro course tips for this legendary tournament venue.
+title: Keya Golf Club (Fukuoka)
+description: Planning to play Keya Golf Club in Fukuoka? Get updated green fees, booking
+  guides (Rakuten GORA), and expert course tips on OKCaddie.
+seo_title: Keya Golf Club Fukuoka | Green Fees & Booking Guide | OKCaddie
+seo_description: Planning to play Keya Golf Club in Fukuoka? Get updated green fees,
+  booking guides (Rakuten GORA), and expert course tips on OKCaddie.
 ---
+
 
 
 ## 케야 골프 클럽: 일본 골프의 정수, 이토시마의 푸른 보석
