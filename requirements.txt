@@ -7,3 +7,4 @@ flask-compress
 python-frontmatter
 markdown
 google-cloud-secret-manager>=2.16.0
+firebase-admin

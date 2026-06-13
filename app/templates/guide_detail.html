@@ -28,6 +28,7 @@
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- CSS 연결 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/static/css/style.css">
 
     <!-- [SEO] Canonical 및 다국어 연결 (Hreflang) -->
@@ -110,6 +111,10 @@
         <div class="detail-content">
             {{ content | safe }}
         </div>
+
+        {% with reaction_slug=post.id, reaction_lang=active_lang|default('en') %}
+        {% include 'partials/reactions.html' %}
+        {% endwith %}
 
         {% if related_courses %}
         <section class="related-courses-section" aria-labelledby="related-courses-heading">

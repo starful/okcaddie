@@ -39,3 +39,19 @@ def test_dynamic_sitemap_courses(client):
     assert "<urlset" in body
     assert "pgm_golf_resort_okinawa" in body
     assert "<priority>0.85</priority>" in body
+
+
+def test_reactions_api(client):
+    r = client.get("/api/reactions/test-slug")
+    assert r.status_code == 200
+    data = r.get_json()
+    assert "likes" in data
+    assert "dislikes" in data
+
+
+def test_course_detail_has_reaction_panel(client):
+    r = client.get("/course/pgm_golf_resort_okinawa")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "reaction-panel" in html
+    assert "/api/reactions/" in html
