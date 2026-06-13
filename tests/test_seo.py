@@ -55,3 +55,5 @@ def test_course_detail_has_reaction_panel(client):
     html = r.get_data(as_text=True)
     assert "reaction-panel" in html
     assert "/api/reactions/" in html
+    assert "share-bar" in html
+    assert "share-btn-x" in html

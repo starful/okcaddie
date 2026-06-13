@@ -197,6 +197,8 @@
             </details>
         </section>
 
+        {% include 'partials/share_bar.html' %}
+
         {% with reaction_slug=post.id, reaction_lang=active_lang|default('en') %}
         {% include 'partials/reactions.html' %}
         {% endwith %}

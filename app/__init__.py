@@ -6,6 +6,7 @@ import frontmatter
 import markdown
 import re
 import urllib.parse
+from urllib.parse import quote
 from datetime import datetime, timedelta, timezone
 from xml.sax.saxutils import escape
 
@@ -20,6 +21,25 @@ except ImportError:
 app.register_blueprint(reactions_bp)
 
 SITE_URL = os.environ.get("SITE_URL", "https://okcaddie.net").rstrip("/")
+
+
+def _linkedin_inspector_url(page_url: str) -> str:
+    return f"https://www.linkedin.com/post-inspector/inspect/{quote(page_url, safe='')}"
+
+
+def _share_context(slug: str, title: str, lang: str, page_path: str) -> dict:
+    share_url = f"{SITE_URL}{page_path}"
+    if lang == "ko":
+        share_tweet = f"{title} — OKCaddie"
+    else:
+        share_tweet = f"{title} — Japan golf guide on OKCaddie"
+    return {
+        "share_id": slug,
+        "share_url": share_url,
+        "share_tweet": share_tweet,
+        "share_lang": lang,
+        "linkedin_inspector_url": _linkedin_inspector_url(share_url),
+    }
 
 # ==========================================
 # ⚙️ 경로 및 데이터 설정
@@ -818,13 +838,17 @@ def course_detail(course_ref):
 
     related_guides = [g for g in CACHED_GUIDES if g.get('lang') == post_data['lang']][:3]
 
+    course_path = f"/course/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
+    share_ctx = _share_context(course_id, post_data['title'], post_data['lang'], course_path)
+
     return render_template(
         'detail.html',
         post=post_data,
         content=content_html,
         active_lang=post_data['lang'],
         related_courses=related_courses,
-        related_guides=related_guides
+        related_guides=related_guides,
+        **share_ctx,
     )
 
 @app.route('/courses')
@@ -920,6 +944,9 @@ def guide_detail(guide_ref):
         limit=6,
     )
 
+    guide_path = f"/guide/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
+    share_ctx = _share_context(guide_id, post_data['title'], post_data['lang'], guide_path)
+
     return render_template(
         'guide_detail.html',
         post=post_data,
@@ -927,6 +954,7 @@ def guide_detail(guide_ref):
         image=img_url,
         active_lang=post_data['lang'],
         related_courses=related_courses,
+        **share_ctx,
     )
 
 # ==========================================
