@@ -687,10 +687,23 @@ def load_all_data():
 load_all_data()
 
 
+try:
+    from .family_sites import cross_links_for, inject_family_context
+except ImportError:
+    from family_sites import cross_links_for, inject_family_context
+
+FAMILY_SITE_ID = "okcaddie"
+
+
 @app.context_processor
 def inject_site_url():
     n_courses = len({c.get("base_id") or split_localized_id(c.get("id", ""))[0] for c in CACHED_DATA.get("courses", [])})
-    return {"site_url": SITE_URL, "total_course_count": n_courses or len(CACHED_DATA.get("courses", []))}
+    lang = request.args.get("lang", "en") if request else "en"
+    return {
+        "site_url": SITE_URL,
+        "total_course_count": n_courses or len(CACHED_DATA.get("courses", [])),
+        **inject_family_context(FAMILY_SITE_ID, lang),
+    }
 
 
 # ==========================================
@@ -891,6 +904,12 @@ def course_detail(course_ref):
         active_lang=post_data['lang'],
         related_courses=related_courses,
         related_guides=related_guides,
+        cross_site_links=cross_links_for(
+            FAMILY_SITE_ID,
+            post_data['lang'],
+            address=post_data.get("address"),
+        ),
+        **inject_family_context(FAMILY_SITE_ID, post_data['lang']),
         **_og_image_context(base_id),
         **share_ctx,
     )
@@ -1046,6 +1065,8 @@ def guide_detail(guide_ref):
         og_image_abs=img_url,
         og_image_width=1200,
         og_image_height=630,
+        cross_site_links=cross_links_for(FAMILY_SITE_ID, post_data['lang']),
+        **inject_family_context(FAMILY_SITE_ID, post_data['lang']),
         **share_ctx,
     )
 
