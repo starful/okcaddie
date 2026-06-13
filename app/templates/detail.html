@@ -10,10 +10,12 @@
     <meta name="description" content="{{ seo_desc }}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="article">
+    <meta property="og:site_name" content="OKCaddie">
+    <meta property="og:locale" content="{{ 'ko_KR' if is_ko else 'en_US' }}">
     <meta property="og:title" content="{{ seo_title }}">
     <meta property="og:description" content="{{ seo_desc }}">
     {% set course_canonical = 'https://okcaddie.net/course/' ~ post.base_id ~ ('?lang=ko' if is_ko else '') %}
-    <meta property="og:url" content="{{ course_canonical }}">
+    <meta property="og:url" content="{{ og_page_url }}">
     <meta property="og:image" content="{{ og_image_abs }}">
     <meta property="og:image:secure_url" content="{{ og_image_abs }}">
     <meta property="og:image:type" content="image/jpeg">
@@ -22,7 +24,9 @@
     <meta property="og:image:alt" content="{{ seo_title }}">
     <link rel="image_src" href="{{ og_image_abs }}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ og_image_abs }}">
+    <meta property="twitter:image" content="{{ og_image_abs }}">
     <meta name="twitter:image:alt" content="{{ seo_title }}">
     <meta name="twitter:title" content="{{ seo_title }}">
     <meta name="twitter:description" content="{{ seo_desc }}">
@@ -62,7 +66,7 @@
           "name": "{{ post.title }}",
           "description": "{{ seo_desc }}",
           "url": "{{ course_canonical }}",
-          "image": "https://okcaddie.net{{ post.thumbnail }}",
+          "image": "{{ og_image_abs }}",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "JP",

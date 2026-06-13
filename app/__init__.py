@@ -31,6 +31,7 @@ def _gcs_image_url(filename: str) -> str:
 
 
 def _social_image_url(slug: str) -> str:
+    """Clean absolute image URL — no query string (X crawler rejects parameterized image URLs)."""
     safe = re.sub(r"[^a-z0-9_-]", "", slug.lower())
     return f"{SITE_URL}/social/{safe}.jpg"
 
@@ -44,18 +45,21 @@ def _og_image_context(base_id: str) -> dict:
     }
 
 
-def _jpeg_bytes(img) -> bytes:
-    buf = io.BytesIO()
-    img.save(buf, format="JPEG", quality=88, optimize=True)
-    return buf.getvalue()
+def _og_page_url(page_path: str) -> str:
+    return f"{SITE_URL}{page_path}"
 
 
-def _linkedin_inspector_url(page_url: str) -> str:
-    return f"https://www.linkedin.com/post-inspector/inspect/{quote(page_url, safe='')}"
+def _card_path(base_id: str, lang: str) -> str:
+    path = f"/card/{base_id}"
+    if lang == "ko":
+        path += "?lang=ko"
+    return path
 
 
-def _share_context(slug: str, title: str, lang: str, page_path: str) -> dict:
+def _share_context(slug: str, title: str, lang: str, page_path: str, base_id: str = "") -> dict:
     share_url = f"{SITE_URL}{page_path}"
+    card_id = base_id or slug.rsplit("_", 1)[0]
+    share_url_x = f"{SITE_URL}{_card_path(card_id, lang)}"
     if lang == "ko":
         share_tweet = f"{title} — OKCaddie"
     else:
@@ -63,10 +67,22 @@ def _share_context(slug: str, title: str, lang: str, page_path: str) -> dict:
     return {
         "share_id": slug,
         "share_url": share_url,
+        "share_url_x": share_url_x,
         "share_tweet": share_tweet,
         "share_lang": lang,
+        "og_page_url": _og_page_url(page_path),
         "linkedin_inspector_url": _linkedin_inspector_url(share_url),
     }
+
+
+def _jpeg_bytes(img) -> bytes:
+    buf = io.BytesIO()
+    img.save(buf, format="JPEG", quality=78, optimize=True, progressive=True)
+    return buf.getvalue()
+
+
+def _linkedin_inspector_url(page_url: str) -> str:
+    return f"https://www.linkedin.com/post-inspector/inspect/{quote(page_url, safe='')}"
 
 # ==========================================
 # ⚙️ 경로 및 데이터 설정
@@ -866,7 +882,7 @@ def course_detail(course_ref):
     related_guides = [g for g in CACHED_GUIDES if g.get('lang') == post_data['lang']][:3]
 
     course_path = f"/course/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
-    share_ctx = _share_context(course_id, post_data['title'], post_data['lang'], course_path)
+    share_ctx = _share_context(course_id, post_data['title'], post_data['lang'], course_path, base_id=base_id)
 
     return render_template(
         'detail.html',
@@ -877,6 +893,51 @@ def course_detail(course_ref):
         related_guides=related_guides,
         **_og_image_context(base_id),
         **share_ctx,
+    )
+
+
+@app.route('/card/<course_ref>')
+def course_social_card(course_ref):
+    """Lightweight share landing page for X/OG crawlers (minimal HTML, clean image URL)."""
+    base_id, legacy_lang = split_localized_id(course_ref)
+    if legacy_lang:
+        return redirect(f"/card/{base_id}?lang={legacy_lang}", code=301)
+
+    lang = request.args.get('lang', 'en').strip().lower()
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
+
+    course_id = resolve_course_id(base_id, lang)
+    if not course_id:
+        abort(404)
+
+    md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
+    if not os.path.exists(md_path):
+        abort(404)
+
+    with open(md_path, 'r', encoding='utf-8') as f:
+        raw = f.read().strip()
+    if '---' in raw:
+        raw = '---' + raw.split('---', 1)[1]
+
+    post_obj = frontmatter.loads(raw)
+    post_data = dict(post_obj.metadata)
+    post_data['lang'] = 'ko' if course_id.endswith('_ko') else 'en'
+    post_data['title'] = humanize_title(post_data.get('title', ''))
+    post_data = _attach_seo_fields(post_data, page_kind="course")
+
+    course_path = f"/course/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
+    card_path = _card_path(base_id, post_data['lang'])
+
+    return render_template(
+        'social_card.html',
+        lang=post_data['lang'],
+        title=post_data['title'],
+        seo_title=post_data['seo_title'],
+        seo_desc=post_data['seo_description'],
+        page_url=f"{SITE_URL}{course_path}",
+        card_url=f"{SITE_URL}{card_path}",
+        **_og_image_context(base_id),
     )
 
 @app.route('/courses')

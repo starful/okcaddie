@@ -572,6 +572,14 @@ a {
 
 .share-btn-linkedin:hover { color: #0a66c2; border-color: #0a66c2; }
 
+.share-bar-hint {
+    flex: 1 1 100%;
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--text-gray);
+}
+
 @media (max-width: 768px) {
     .reaction-panel { margin-top: 36px; padding: 24px 20px 28px; }
     .reaction-panel-title { font-size: 1.15rem; }

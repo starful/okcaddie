@@ -58,7 +58,9 @@ def test_course_detail_has_reaction_panel(client):
     assert "share-bar" in html
     assert "share-btn-x" in html
     assert "/social/pgm_golf_resort_okinawa.jpg" in html
+    assert "?v=" not in html.split('name="twitter:image"')[1][:120]
     assert 'name="twitter:image"' in html
+    assert "card/pgm_golf_resort_okinawa" in html
 
 
 def test_social_image_endpoint(client):
@@ -66,3 +68,13 @@ def test_social_image_endpoint(client):
     assert r.status_code == 200
     assert r.headers.get("Content-Type", "").startswith("image/jpeg")
     assert len(r.get_data()) > 1000
+
+
+def test_social_card_page(client):
+    r = client.get("/card/pgm_golf_resort_okinawa")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert 'property="og:url" content="https://okcaddie.net/card/pgm_golf_resort_okinawa"' in html
+    assert "/social/pgm_golf_resort_okinawa.jpg" in html
+    assert "?v=" not in html.split('name="twitter:image"')[1][:120]
+    assert "View course guide" in html

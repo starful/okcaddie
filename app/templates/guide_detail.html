@@ -15,7 +15,7 @@
     <meta property="og:title" content="{{ guide_seo_title }}">
     <meta property="og:description" content="{{ guide_seo_desc }}">
     {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id ~ ('?lang=ko' if (post.lang or 'en') == 'ko' else '') %}
-    <meta property="og:url" content="{{ guide_canonical }}">
+    <meta property="og:url" content="{{ og_page_url }}">
     <meta property="og:image" content="{{ og_image_abs }}">
     <meta property="og:image:secure_url" content="{{ og_image_abs }}">
     <meta property="og:image:type" content="image/jpeg">
