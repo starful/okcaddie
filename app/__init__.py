@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect, request, make_response
+from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect, request, make_response, Response
 from flask_compress import Compress
 import json
 import os
@@ -6,6 +6,8 @@ import frontmatter
 import markdown
 import re
 import urllib.parse
+import urllib.request
+import io
 from urllib.parse import quote
 from datetime import datetime, timedelta, timezone
 from xml.sax.saxutils import escape
@@ -21,6 +23,31 @@ except ImportError:
 app.register_blueprint(reactions_bp)
 
 SITE_URL = os.environ.get("SITE_URL", "https://okcaddie.net").rstrip("/")
+GCS_ASSET_PREFIX = "okcaddie"
+
+
+def _gcs_image_url(filename: str) -> str:
+    return f"https://storage.googleapis.com/ok-project-assets/{GCS_ASSET_PREFIX}/{filename}"
+
+
+def _social_image_url(slug: str) -> str:
+    safe = re.sub(r"[^a-z0-9_-]", "", slug.lower())
+    return f"{SITE_URL}/social/{safe}.jpg"
+
+
+def _og_image_context(base_id: str) -> dict:
+    og_image_abs = _social_image_url(base_id)
+    return {
+        "og_image_abs": og_image_abs,
+        "og_image_width": 1200,
+        "og_image_height": 630,
+    }
+
+
+def _jpeg_bytes(img) -> bytes:
+    buf = io.BytesIO()
+    img.save(buf, format="JPEG", quality=88, optimize=True)
+    return buf.getvalue()
 
 
 def _linkedin_inspector_url(page_url: str) -> str:
@@ -848,6 +875,7 @@ def course_detail(course_ref):
         active_lang=post_data['lang'],
         related_courses=related_courses,
         related_guides=related_guides,
+        **_og_image_context(base_id),
         **share_ctx,
     )
 
@@ -954,6 +982,9 @@ def guide_detail(guide_ref):
         image=img_url,
         active_lang=post_data['lang'],
         related_courses=related_courses,
+        og_image_abs=img_url,
+        og_image_width=1200,
+        og_image_height=630,
         **share_ctx,
     )
 
@@ -1034,6 +1065,36 @@ def serve_favicons():
 def webmanifest():
     """PWA/검색엔진 아이콘 인식을 위한 manifest 파일 서빙"""
     return send_from_directory(STATIC_DIR, 'site.webmanifest', mimetype='application/manifest+json')
+
+@app.route('/social/<slug>.jpg')
+def social_image(slug):
+    """Serve course thumbnail on-site for OG/Twitter (1200×630 JPEG, no redirect)."""
+    safe = re.sub(r"[^a-z0-9_-]", "", slug.lower())
+    if not safe:
+        abort(404)
+    gcs_url = _gcs_image_url(f"{safe}.jpg")
+    try:
+        with urllib.request.urlopen(gcs_url, timeout=15) as resp:
+            raw = resp.read()
+            if not raw:
+                abort(404)
+    except Exception:
+        abort(404)
+
+    try:
+        from PIL import Image, ImageOps
+
+        img = Image.open(io.BytesIO(raw)).convert("RGB")
+        data = _jpeg_bytes(ImageOps.fit(img, (1200, 630), Image.Resampling.LANCZOS))
+    except Exception:
+        data = raw
+
+    return Response(
+        data,
+        mimetype="image/jpeg",
+        headers={"Cache-Control": "public, max-age=86400"},
+    )
+
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):

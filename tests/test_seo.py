@@ -57,3 +57,12 @@ def test_course_detail_has_reaction_panel(client):
     assert "/api/reactions/" in html
     assert "share-bar" in html
     assert "share-btn-x" in html
+    assert "/social/pgm_golf_resort_okinawa.jpg" in html
+    assert 'name="twitter:image"' in html
+
+
+def test_social_image_endpoint(client):
+    r = client.get("/social/pgm_golf_resort_okinawa.jpg")
+    assert r.status_code == 200
+    assert r.headers.get("Content-Type", "").startswith("image/jpeg")
+    assert len(r.get_data()) > 1000
