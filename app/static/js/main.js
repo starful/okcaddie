@@ -18,6 +18,26 @@ const i18n = {
     ko: { viewDetails: "상세 보기", address: "주소" }
 };
 
+const NEW_CONTENT_DAYS = 14;
+
+function isContentNew(published) {
+    if (!published) return false;
+    const d = new Date(String(published).slice(0, 10) + 'T00:00:00');
+    if (Number.isNaN(d.getTime())) return false;
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - NEW_CONTENT_DAYS);
+    cutoff.setHours(0, 0, 0, 0);
+    return d >= cutoff;
+}
+
+function newBadgeHtml(isNew) {
+    return isNew ? '<span class="badge-new">New</span>' : '';
+}
+
+function formatPublished(published) {
+    return published ? String(published).slice(0, 10) : '';
+}
+
 async function initApp() {
     setupEventListeners();
     updateLanguageUI(); // 🔥 핵심 수정: 초기 로딩 시 기본 언어(en)에 맞춰 필터 텍스트 즉시 변경
@@ -155,17 +175,23 @@ function updateList(courses) {
     const listContainer = document.getElementById('course-list');
     if (!listContainer) return;
 
-    listContainer.innerHTML = courses.map(c => `
-        <article class="course-card">
-            <a href="${c.link}">
-                <img src="${c.thumbnail}" class="card-thumb" alt="${c.title}" loading="lazy">
+    listContainer.innerHTML = courses.map(c => {
+        const isNew = isContentNew(c.published);
+        return `
+        <article class="course-card${isNew ? ' is-new' : ''}">
+            <a href="${c.link}" class="course-card-link">
+                <div class="card-visual">
+                    <img src="${c.thumbnail}" class="card-thumb" alt="${c.title}" loading="lazy">
+                    ${newBadgeHtml(isNew)}
+                </div>
                 <div class="card-content">
                     <div class="card-title">${c.title}</div>
                     <p style="font-size:0.9rem; color:#666;">${c.summary.substring(0, 100)}...</p>
+                    ${formatPublished(c.published) ? `<span class="published-date">📅 ${formatPublished(c.published)}</span>` : ''}
                 </div>
             </a>
-        </article>
-    `).join('');
+        </article>`;
+    }).join('');
 }
 
 /**

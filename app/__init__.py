@@ -12,6 +12,11 @@ from urllib.parse import quote
 from datetime import datetime, timedelta, timezone
 from xml.sax.saxutils import escape
 
+try:
+    from .content_new import enrich_item, enrich_items
+except ImportError:
+    from content_new import enrich_item, enrich_items
+
 app = Flask(__name__)
 Compress(app)
 
@@ -385,18 +390,21 @@ def _course_cards(base_ids, lang="en", limit=None):
             continue
         title = humanize_title(c.get("title", "")) or bid
         cards.append(
-            {
-                "base_id": bid,
-                "lang": lang,
-                "link": _course_href(bid, lang),
-                "title": title,
-                "short_title": _truncate_text(title, 72),
-                "address": c.get("address", ""),
-                "thumbnail": c.get("thumbnail", ""),
-                "summary": short_summary(
-                    clean_summary(c.get("summary", ""), title, lang), 110
-                ),
-            }
+            enrich_item(
+                {
+                    "base_id": bid,
+                    "lang": lang,
+                    "link": _course_href(bid, lang),
+                    "title": title,
+                    "short_title": _truncate_text(title, 72),
+                    "address": c.get("address", ""),
+                    "thumbnail": c.get("thumbnail", ""),
+                    "summary": short_summary(
+                        clean_summary(c.get("summary", ""), title, lang), 110
+                    ),
+                    "published": c.get("published", ""),
+                }
+            )
         )
         if limit and len(cards) >= limit:
             break
@@ -668,15 +676,15 @@ def load_all_data():
 
                     title = humanize_title(title) or "Japan Golf Guide"
 
-                    temp_guides.append({
+                    temp_guides.append(enrich_item({
                         'id': full_id,
                         'base_id': base_id,
                         'lang': detected_lang,
                         'title': title,
                         'summary': short_summary(clean_summary(summary, title, detected_lang), 200),
-                        'date': str(item.get('date', '2026-04-12')),
+                        'published': str(item.get('date', '2026-04-12')),
                         'image': GUIDE_IMAGES[abs(hash(base_id) * 97) % len(GUIDE_IMAGES)]
-                    })
+                    }))
             except Exception as e:
                 print(f"❌ Guide load error ({filename}): {e}")
     

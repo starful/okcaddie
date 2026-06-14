@@ -88,15 +88,16 @@
                 <p class="editor-picks-lead">{{ '그린피·예약·코스 공략 — 검색 여행자를 위해 자주 찾는 코스입니다.' if active_lang == 'ko' else 'Green fees, booking & course tips—frequently searched trip-planning pages.' }}</p>
                 <div class="guide-highlight-grid editor-picks-grid">
                     {% for course in featured_courses %}
-                    <a href="{{ course.link }}" class="guide-highlight-card">
+                    <a href="{{ course.link }}" class="guide-highlight-card{% if course.is_new %} is-new{% endif %}">
                         {% if course.thumbnail %}
-                        <div class="guide-img-wrapper">
+                        <div class="guide-img-wrapper card-visual">
                             <img src="{{ course.thumbnail }}" alt="{{ course.short_title }}" loading="lazy">
+                            {% if course.is_new %}<span class="badge-new">New</span>{% endif %}
                         </div>
                         {% endif %}
                         <div class="card-body">
                             <h3>{{ course.short_title }}</h3>
-                            <p>{{ course.summary or course.address }}</p>
+                            <p>{{ course.summary or course.address }}{% if course.published %} · <span class="published-date">{{ course.published }}</span>{% endif %}</p>
                         </div>
                     </a>
                     {% endfor %}
@@ -109,14 +110,14 @@
                 <h2 class="section-title">✨ {{ '최신 골프 가이드' if active_lang == 'ko' else 'Latest Golf Guides' }}</h2>
                 <div class="guide-highlight-grid">
                     {% for guide in featured_guides %}
-                    <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card">
-                        <div class="badge">NEW</div>
-                        <div class="guide-img-wrapper">
+                    <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card{% if guide.is_new %} is-new{% endif %}">
+                        {% if guide.is_new %}<span class="badge-new badge-new--float">New</span>{% endif %}
+                        <div class="guide-img-wrapper card-visual">
                             <img src="{{ guide.image }}" alt="{{ guide.title }}" loading="lazy">
                         </div>
                         <div class="card-body">
                             <h3>{{ guide.title }}</h3>
-                            <p>{{ guide.summary[:85] }}...</p>
+                            <p>{{ guide.summary[:85] }}...{% if guide.published %} · <span class="published-date">{{ guide.published }}</span>{% endif %}</p>
                         </div>
                     </a>
                     {% endfor %}
