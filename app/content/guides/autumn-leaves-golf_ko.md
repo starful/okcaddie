@@ -1,11 +1,12 @@
 ---
 {
-  "title": "Spectacular Japan Golf Courses for Autumn Foliage",
-  "description": "Discover Japan's most scenic golf courses featuring breathtaking autumn foliage. Plan your perfect fall golf holiday with our expert guide.",
-  "seo_title": "Japan's Best Autumn Foliage Golf Courses | OK Caddie",
-  "seo_description": "Play golf amidst Japan's breathtaking autumn colors! Discover the top scenic courses for stunning red and gold foliage. Plan your trip now."
+  "title": "Japan Autumn Golf: Best Courses & Scenic Views",
+  "description": "Experience the magic of playing golf amidst Japan's vibrant fall foliage. Discover the top scenic courses and plan your ultimate autumn golf trip.",
+  "seo_title": "Japan Autumn Golf: Best Courses for Breathtaking Fall Foliage",
+  "seo_description": "Play golf among Japan's stunning autumn leaves. Discover the best scenic courses for vibrant fall foliage and plan your dream golf trip today!"
 }
 ---
+
 
 
 

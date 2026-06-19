@@ -1,9 +1,9 @@
 ---
 lang: en
-seo_title: 'Yokohama Country Club: Green Fees, Booking & Visitor Guide'
-seo_description: Want to play Yokohama Country Club? Find green fees, visitor booking
-  tips, West Course reviews, and how to book tee times in Japan on OKCaddie.
-title: Yokohama Country Club
+seo_title: 'How to Play Yokohama Country Club: Visitor Booking & Fees'
+seo_description: Can visitors play Yokohama Country Club? Find the latest green fees,
+  booking requirements, and West Course tips in our ultimate Japan golf guide.
+title: 'Yokohama Country Club: Visitor & Booking Guide'
 lat: '35.4344'
 lng: '139.5456'
 categories: Private Club, Public Tournament, Historic
@@ -14,9 +14,10 @@ booking: /booking/yokohama_country_club_en
 summary: A comprehensive 9,000-character master guide to Yokohama Country Club, covering
   strategy, history, and luxury facilities, penned by an elite Japanese golf rater
   and caddy.
-description: A comprehensive guide to Yokohama Country Club, featuring West Course
-  insights, green fees, visitor access policies, and booking tips.
+description: Planning a round at Yokohama Country Club? Discover how visitors can
+  book, current green fees, and what to expect on the prestigious West Course.
 ---
+
 
 
 

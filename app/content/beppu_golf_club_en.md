@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Beppu Golf Club: Tee Times, Green Fees & English Booking Guide'
+title: 'Beppu Golf Club: English Booking Guide & Green Fees'
 lat: '33.3244'
 lng: '131.4156'
 categories: Luxury, Historical, Stay & Play, Championship
@@ -12,13 +12,13 @@ summary: An unparalleled 9,000-character master guide to Beppu Golf Club, offeri
   an expert's deep dive into its historical prestige, strategic architecture, hole-by-hole
   masterclass, luxurious onsen experience, gourmet dining, and essential caddy tips
   for an unforgettable Japanese golf journey.
-description: Planning a golf trip to Oita, Japan? Explore Beppu Golf Club, one of
-  Kyushu's historic courses. Find updated green fees, player reviews, and a step-by-step
-  English guide to booking tee times via Rakuten GORA.
-seo_title: 'Beppu Golf Club, Oita: Tee Times & Booking Guide | OKCaddie'
-seo_description: Book tee times at Beppu Golf Club, Oita. Find updated green fees,
-  course reviews, and our easy English Rakuten GORA booking guide.
+description: Planning a golf trip to Oita? Learn how to book tee times at Beppu Golf
+  Club with our step-by-step English guide, updated green fees, and course reviews.
+seo_title: 'Beppu Golf Club Booking: English Guide & Green Fees | OKCaddie'
+seo_description: Easily book Beppu Golf Club in Oita, Japan. Get updated green fees,
+  course reviews, and a step-by-step English Rakuten GORA booking guide.
 ---
+
 
 
 

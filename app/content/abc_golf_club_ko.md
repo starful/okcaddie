@@ -9,13 +9,15 @@ lng: '135.0356'
 summary: ABC 골프 클럽에 대한 OKCaddie의 9,000자 심층 마스터 가이드입니다. 역사, 건축 전략, 코스 공략법, 럭셔리 시설,
   미식 경험까지, 이 명문 클럽의 모든 것을 상세히 파헤칩니다.
 thumbnail: /static/images/abc_golf_club.jpg
-title: 'ABC Golf Club, Hyogo: How to Book, Green Fees & Course Guide'
-description: An expert guide to playing ABC Golf Club in Kato, Hyogo. Discover how
-  to book tee times, explore green fees, and master this championship course.
-seo_title: 'ABC Golf Club Hyogo: How to Book & Green Fees Guide'
-seo_description: Want to play the legendary ABC Golf Club in Hyogo? Find out how to
-  book tee times, current green fees, and expert course tips on OKCaddie.
+title: 'ABC Golf Club, Hyogo: Tee Times, Green Fees & Course Guide'
+description: Play one of Japan's prestigious championship venues. Discover ABC Golf
+  Club's latest green fees, visitor booking access, and expert course strategies on
+  OKCaddie.
+seo_title: ABC Golf Club (Hyogo) Booking & Green Fees | OKCaddie
+seo_description: Want to play the legendary ABC Golf Club in Hyogo? Find green fees,
+  visitor booking tips, and expert course strategy on OKCaddie. Plan your round!
 ---
+
 
 
 

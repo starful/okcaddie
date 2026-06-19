@@ -5,8 +5,15 @@ summary: Escape the Tokyo hustle for a day on the green! This guide reveals the 
   golf courses accessible for a day trip from Tokyo, considering travel time, course
   quality, and overall experience. Discover your next golfing adventure just outside
   the city limits.
-title: Best Day-Trip Golf Courses from Tokyo
+title: Best Day-Trip Golf Courses Near Tokyo
+description: Escape the city hustle with our curated list of the best golf courses
+  near Tokyo perfect for a quick day trip, featuring easy transport options and booking
+  guides.
+seo_title: 7 Best Golf Courses Near Tokyo for an Easy Day Trip | okcaddie
+seo_description: Planning a golf day from Tokyo? Discover the best courses near the
+  city with easy train or car access, booking tips, and English support.
 ---
+
 
 # Best Day-Trip Golf Courses from Tokyo: A Comprehensive Guide
 
