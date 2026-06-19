@@ -2,6 +2,25 @@
   "last_updated": "2026.06.19",
   "courses": [
     {
+      "id": "miyazaki_lakeside_golf_ko",
+      "base_id": "miyazaki_lakeside_golf",
+      "lang": "ko",
+      "title": "Miyazaki Lakeside Golf",
+      "lat": 31.9144,
+      "lng": 131.3556,
+      "categories": [
+        "Value for Money",
+        "Lake View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/miyazaki_lakeside_golf.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-06-19",
+      "summary": "미야자키현 미야자키시에 위치한 미야자키 레이크사이드 골프는 약 6,700-7,000야드의 18홀 파72 코스로, 아름다운 호수 경관과 합리적인 가격이 특징입니다.",
+      "booking": "/booking/miyazaki_lakeside_golf_ko",
+      "link": "/course/miyazaki_lakeside_golf?lang=ko"
+    },
+    {
       "id": "wakamatsu_golf_club_en",
       "base_id": "wakamatsu_golf_club",
       "lang": "en",
@@ -59,6 +78,25 @@
       "link": "/course/nagasaki_international"
     },
     {
+      "id": "kagoshima_takachiho_en",
+      "base_id": "kagoshima_takachiho",
+      "lang": "en",
+      "title": "Kagoshima Takachiho",
+      "lat": 31.8544,
+      "lng": 130.8556,
+      "categories": [
+        "Stay & Play",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kagoshima_takachiho.jpg",
+      "address": "Kirishima, Kagoshima",
+      "published": "2026-06-19",
+      "summary": "Kagoshima Takachiho offers 18 holes of scenic mountain golf in Kirishima, Kagoshima, featuring dramatic elevation changes and a relaxing onsen.",
+      "booking": "/booking/kagoshima_takachiho_en",
+      "link": "/course/kagoshima_takachiho"
+    },
+    {
       "id": "koga_golf_club_en",
       "base_id": "koga_golf_club",
       "lang": "en",
@@ -97,6 +135,63 @@
       "link": "/course/oita_tokyu_golf"
     },
     {
+      "id": "kumamoto_chuo_golf_ko",
+      "base_id": "kumamoto_chuo_golf",
+      "lang": "ko",
+      "title": "Kumamoto Chuo Golf",
+      "lat": 32.8544,
+      "lng": 130.8556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/kumamoto_chuo_golf.jpg",
+      "address": "Kikuyo, Kumamoto",
+      "published": "2026-06-19",
+      "summary": "구마모토 추오 골프는 구마모토현 기쿠요에 위치한 18홀 챔피언십 삼림 코스로, 전략적인 레이아웃과 뛰어난 가성비로 방문객에게 만족감을 선사합니다.",
+      "booking": "/booking/kumamoto_chuo_golf_ko",
+      "link": "/course/kumamoto_chuo_golf?lang=ko"
+    },
+    {
+      "id": "phoenix_seagaia_resort_en",
+      "base_id": "phoenix_seagaia_resort",
+      "lang": "en",
+      "title": "Phoenix Seagaia Resort",
+      "lat": 31.9544,
+      "lng": 131.4556,
+      "categories": [
+        "Stay & Play",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/phoenix_seagaia_resort.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-06-19",
+      "summary": "Phoenix Seagaia Resort in Miyazaki offers 27 holes of championship golf across its Sumiyoshi and Takachiho courses, providing a premium resort experience.",
+      "booking": "/booking/phoenix_seagaia_resort_en",
+      "link": "/course/phoenix_seagaia_resort"
+    },
+    {
+      "id": "kujyu_kogen_golf_en",
+      "base_id": "kujyu_kogen_golf",
+      "lang": "en",
+      "title": "Kujyu Kogen Golf",
+      "lat": 33.0544,
+      "lng": 131.2556,
+      "categories": [
+        "Mountain Style",
+        "Scenic View",
+        "High Altitude"
+      ],
+      "thumbnail": "/static/images/kujyu_kogen_golf.jpg",
+      "address": "Taketa, Oita",
+      "published": "2026-06-19",
+      "summary": "Kujyu Kogen Golf in Taketa, Oita, offers 18 holes of strategic mountain-style golf, often playing shorter than its 6,400-6,800 yards due to high altitude.",
+      "booking": "/booking/kujyu_kogen_golf_en",
+      "link": "/course/kujyu_kogen_golf"
+    },
+    {
       "id": "moji_golf_club_ko",
       "base_id": "moji_golf_club",
       "lang": "ko",
@@ -114,6 +209,44 @@
       "summary": "후쿠오카 키타큐슈에 위치한 모지 골프 클럽은 1929년에 개장한 유서 깊은 프라이빗 코스로, 전략적인 레이아웃과 프리미엄 경험을 제공합니다.",
       "booking": "/booking/moji_golf_club_ko",
       "link": "/course/moji_golf_club?lang=ko"
+    },
+    {
+      "id": "kumamoto_castle_golf_en",
+      "base_id": "kumamoto_castle_golf",
+      "lang": "en",
+      "title": "Kumamoto Castle Golf",
+      "lat": 32.7544,
+      "lng": 130.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kumamoto_castle_golf.jpg",
+      "address": "Kumamoto, Kumamoto",
+      "published": "2026-06-19",
+      "summary": "Kumamoto Castle Golf offers 18 holes of scenic mountain-style play for around 7,000-16,000 JPY, located near Kumamoto city.",
+      "booking": "/booking/kumamoto_castle_golf_en",
+      "link": "/course/kumamoto_castle_golf"
+    },
+    {
+      "id": "kumamoto_chuo_golf_en",
+      "base_id": "kumamoto_chuo_golf",
+      "lang": "en",
+      "title": "Kumamoto Chuo Golf",
+      "lat": 32.8544,
+      "lng": 130.8556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/kumamoto_chuo_golf.jpg",
+      "address": "Kikuyo, Kumamoto",
+      "published": "2026-06-19",
+      "summary": "Kumamoto Chuo Golf in Kikuyo offers a championship 18-hole forest course experience, typically ranging from JPY 9,000-22,000 for green fees.",
+      "booking": "/booking/kumamoto_chuo_golf_en",
+      "link": "/course/kumamoto_chuo_golf"
     },
     {
       "id": "oita_tokyu_golf_ko",
@@ -154,6 +287,44 @@
       "link": "/course/koga_golf_club?lang=ko"
     },
     {
+      "id": "kagoshima_takachiho_ko",
+      "base_id": "kagoshima_takachiho",
+      "lang": "ko",
+      "title": "Kagoshima Takachiho",
+      "lat": 31.8544,
+      "lng": 130.8556,
+      "categories": [
+        "Stay & Play",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kagoshima_takachiho.jpg",
+      "address": "Kirishima, Kagoshima",
+      "published": "2026-06-19",
+      "summary": "가고시마현 키리시마에 위치한 카고시마 다카치호 골프 클럽은 해발 고도 변화가 큰 산악 코스로, 18홀 파 72, 약 6,800-7,100야드 규모입니다.",
+      "booking": "/booking/kagoshima_takachiho_ko",
+      "link": "/course/kagoshima_takachiho?lang=ko"
+    },
+    {
+      "id": "kumamoto_castle_golf_ko",
+      "base_id": "kumamoto_castle_golf",
+      "lang": "ko",
+      "title": "Kumamoto Castle Golf",
+      "lat": 32.7544,
+      "lng": 130.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kumamoto_castle_golf.jpg",
+      "address": "Kumamoto, Kumamoto",
+      "published": "2026-06-19",
+      "summary": "구마모토 현에 자리한 구마모토 캐슬 골프는 약 6,500~6,800야드 규모의 18홀 산악 코스로, 합리적인 가격에 빼어난 경관을 선사합니다.",
+      "booking": "/booking/kumamoto_castle_golf_ko",
+      "link": "/course/kumamoto_castle_golf?lang=ko"
+    },
+    {
       "id": "moji_golf_club_en",
       "base_id": "moji_golf_club",
       "lang": "en",
@@ -171,6 +342,63 @@
       "summary": "Moji Golf Club, established in 1934 in Kitakyushu, Fukuoka, offers a challenging 18-hole C.H. Alison design with views of the Kanmon Strait.",
       "booking": "/booking/moji_golf_club_en",
       "link": "/course/moji_golf_club"
+    },
+    {
+      "id": "kujyu_kogen_golf_ko",
+      "base_id": "kujyu_kogen_golf",
+      "lang": "ko",
+      "title": "Kujyu Kogen Golf",
+      "lat": 33.0544,
+      "lng": 131.2556,
+      "categories": [
+        "Mountain Style",
+        "Scenic View",
+        "High Altitude"
+      ],
+      "thumbnail": "/static/images/kujyu_kogen_golf.jpg",
+      "address": "Taketa, Oita",
+      "published": "2026-06-19",
+      "summary": "오이타 다케타에 위치한 쿠쥬 고원 골프는 해발 약 850m 고지대에서 즐기는 18홀 산악 스타일 코스로, 주변 경관과 전략적인 레이아웃이 돋보입니다.",
+      "booking": "/booking/kujyu_kogen_golf_ko",
+      "link": "/course/kujyu_kogen_golf?lang=ko"
+    },
+    {
+      "id": "phoenix_seagaia_resort_ko",
+      "base_id": "phoenix_seagaia_resort",
+      "lang": "ko",
+      "title": "Phoenix Seagaia Resort",
+      "lat": 31.9544,
+      "lng": 131.4556,
+      "categories": [
+        "Stay & Play",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/phoenix_seagaia_resort.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-06-19",
+      "summary": "미야자키에 위치한 피닉스 컨트리클럽은 톰 파지오가 리노베이션한 27홀 챔피언십 코스로, 소나무 숲과 태평양 전망이 특징입니다.",
+      "booking": "/booking/phoenix_seagaia_resort_ko",
+      "link": "/course/phoenix_seagaia_resort?lang=ko"
+    },
+    {
+      "id": "miyazaki_lakeside_golf_en",
+      "base_id": "miyazaki_lakeside_golf",
+      "lang": "en",
+      "title": "Miyazaki Lakeside Golf",
+      "lat": 31.9144,
+      "lng": 131.3556,
+      "categories": [
+        "Value for Money",
+        "Lake View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/miyazaki_lakeside_golf.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-06-19",
+      "summary": "Miyazaki Lakeside Golf offers a scenic and value-focused 18-hole experience in Miyazaki, featuring lake views and challenging water hazards, located approximately 30 minutes from Miyazaki City.",
+      "booking": "/booking/miyazaki_lakeside_golf_en",
+      "link": "/course/miyazaki_lakeside_golf"
     },
     {
       "id": "nagasaki_international_ko",
