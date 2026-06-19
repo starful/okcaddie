@@ -9,13 +9,15 @@ lng: '131.5556'
 summary: 오이타 컨트리클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드. 숙련된 캐디의 시선으로 코스 설계부터
   미식, 온천까지 완벽 해부합니다.
 thumbnail: /static/images/oita_country_club.jpg
-title: Oita Country Club Japan | Tee Times, Green Fees & Booking | OKCaddie
-description: Book tee times at Oita Country Club, Japan. Find green fees, Rakuten
-  GORA booking guides, course layout, and tips for international players on OKCaddie.
-seo_title: Oita Country Club Japan | Tee Times, Green Fees & Booking | OKCaddie
-seo_description: Book tee times at Oita Country Club, Japan. Find green fees, Rakuten
-  GORA booking guides, course layout, and tips for international players on OKCaddie.
+title: Oita Country Club, Japan
+description: Book tee times at Oita Country Club in Japan. Get up-to-date green fees,
+  course reviews, and easy booking guides via Rakuten GORA.
+seo_title: Oita Country Club, Japan | Book Tee Times & Green Fees
+seo_description: Book tee times at Oita Country Club in Japan. Get up-to-date green
+  fees, course reviews, and easy booking guides via Rakuten GORA.
 ---
+
+
 
 
 ## [[오이타](/course/oita_beppu_tokyu_ko)](/course/oita_tokyu_golf_ko) 컨트리클럽: 20년 경력 베테랑 캐디가 전하는 필드 위의 심오한 미학

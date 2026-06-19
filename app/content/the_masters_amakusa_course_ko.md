@@ -8,8 +8,14 @@ lat: '32.4844'
 lng: '130.1556'
 summary: 더 마스터즈 아마쿠사 코스의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.
 thumbnail: /static/images/the_masters_amakusa_course.jpg
-title: '더 마스터즈 아마쿠사 코스 완벽 가이드: 전문가 리뷰 (ko)'
+title: The Masters Amakusa Course
+description: Discover The Masters Amakusa Course in Kumamoto, Japan. Get up-to-date
+  green fees, course layouts, and easy tee time booking tips.
+seo_title: 'The Masters Amakusa Course: Booking & Green Fees | OkCaddie'
+seo_description: Plan your round at The Masters Amakusa Course in Kumamoto. Find updated
+  green fees, layout guides, and book tee times via Rakuten GORA.
 ---
+
 
 # 더 마스터즈 아마쿠사 코스: 일본 골프의 숨겨진 보석, 캐디가 전하는 마스터 가이드
 

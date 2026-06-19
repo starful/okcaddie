@@ -8,13 +8,14 @@ lat: '35.8344'
 lng: '140.3856'
 summary: 나리타 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.
 thumbnail: /static/images/narita_golf_club.jpg
-title: 나리타 골프클럽 (Narita Golf Club) 예약 및 코스 가이드
-description: 도쿄 근교의 명문 나리타 골프클럽(나리타 CC)의 실시간 예약 방법, 그린피, 코스 공략 정보를 확인하고 OKCaddie와
-  함께 도쿄 골프 여행을 준비해 보세요.
-seo_title: 나리타 골프클럽(CC) 예약 & 그린피 가이드 | 도쿄 명문 골프장 - OKCaddie
-seo_description: 도쿄 명문 나리타 골프클럽(나리타 CC) 예약 방법, 그린피 가격, 코스 공략, 접근성 정보 총정리! OKCaddie에서
-  일본 도쿄 골프 여행을 준비해 보세요.
+title: 나리타 골프클럽 (Narita Golf Club) 예약 방법 및 그린피·코스 가이드
+description: 아코디아 골프의 최고 클래스에 빛나는 나리타 골프클럽(Narita Golf Club)은 뛰어난 접근성과 격조 높은 코스 레이아웃으로
+  유명한 도쿄·치바 지역의 대표적인 명문 골프장입니다.
+seo_title: 나리타 골프클럽(CC) 예약 & 그린피 총정리 | 나리타공항 근처 명문 골프장 - OKCaddie
+seo_description: 나리타공항 30분 거리의 명문 '나리타 골프클럽(CC)' 예약 방법, 실시간 그린피 가격, 코스 난이도 및 공략 팁을
+  확인해 보세요. 도쿄·치바 골프 여행의 시작, OKCaddie!
 ---
+
 
 
 

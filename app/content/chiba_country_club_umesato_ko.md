@@ -9,8 +9,14 @@ lng: '139.8756'
 summary: 20년 경력의 일본인 베테랑 캐디가 치바 컨트리 클럽 우메사토 코스를 심층 분석합니다. 역사, 전략, 홀별 공략, 최고급 시설 및
   미식 경험까지, 이 9,000자 전문가 가이드를 통해 일본 최고의 골프를 만나보세요.
 thumbnail: /static/images/chiba_country_club_umesato.jpg
-title: '치바 컨트리 클럽 우메사토: 일본 명문 골프의 정수를 경험하다 – 전문가 리뷰 (ko)'
+title: Chiba Country Club Umesato Course
+description: An expert guide to Chiba Country Club Umesato. Discover how to book tee
+  times, check green fees, and master this championship golf course in Chiba, Japan.
+seo_title: 'Chiba Country Club Umesato: Booking & Green Fees | okcaddie'
+seo_description: Book your round at Chiba Country Club Umesato. Find green fees, Rakuten
+  GORA booking tips, and details on this prestigious Japan Open host course.
 ---
+
 
 ## 치바 컨트리 클럽 우메사토: 일본 명문 골프의 정수를 경험하다 – 전문가 리뷰
 

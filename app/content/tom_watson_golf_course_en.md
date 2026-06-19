@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Tom Watson Golf Course Miyazaki | Phoenix Seagaia Resort
+title: 'Tom Watson Golf Course Miyazaki: Booking & Night Golf'
 lat: '31.9644'
 lng: '131.4656'
 categories: Stay & Play, Easy Booking, Night Golf
@@ -10,12 +10,14 @@ date: '2026-04-15'
 booking: /booking/tom_watson_golf_course_en
 summary: Phoenix Seagaia’s Watson course—Korai fairways, fast bent greens, tour-grade
   bunkering, night-golf slots, and the fastest way to book a Miyazaki resort tee time.
-description: Play the famous Tom Watson Golf Course at Phoenix Seagaia Resort in Miyazaki.
-  Enjoy night golf, premium resort facilities, and easy tee time bookings.
-seo_title: 'Tom Watson Golf Course Miyazaki: Booking, Fees & Night Play'
-seo_description: Book Tom Watson Golf Course in Miyazaki. Find green fees, night golf
-  (twilight) details, and easy tee times at Phoenix Seagaia Resort.
+description: Experience premium resort golf at Tom Watson Golf Course in Miyazaki,
+  Japan. Access our complete booking guide, green fees, and twilight night golf options
+  at Phoenix Seagaia Resort.
+seo_title: Tom Watson Golf Course Miyazaki | Book Tee Times & Fees
+seo_description: Book tee times at Tom Watson Golf Course in Miyazaki. Get current
+  green fees, twilight night golf details, and resort information at Phoenix Seagaia.
 ---
+
 
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service, I have walked the hallowed fairways of countless venerable courses across Japan and the world. Yet, few resonate with the distinct blend of strategic genius, natural beauty, and profound respect for the game quite like the Tom Watson Golf Course in Miyazaki. This is not merely a golf course; it is a meticulously crafted arena where every swing, every putt, and every decision holds consequence, a testament to enduring design principles and the timeless allure of championship golf. My mission today is to dissect this masterpiece, offering an unparalleled insight for the discerning golfer seeking the ultimate Japanese golf experience. This review, crafted for OKCaddie's premium clientele, aims to be the definitive guide, optimized to rank #1 and illuminate every facet of this golfing jewel.
