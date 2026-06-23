@@ -330,7 +330,7 @@ def main():
     # ------------------------------------------
     # 3. JSON 저장
     # ------------------------------------------
-    courses_for_json.sort(key=lambda x: x['published'], reverse=True)
+    courses_for_json.sort(key=lambda x: (x['published'], x['id']), reverse=True)
     final_json = {
         "last_updated": datetime.now().strftime("%Y.%m.%d"),
         "courses": courses_for_json,

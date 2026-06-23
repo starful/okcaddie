@@ -38,6 +38,15 @@ function formatPublished(published) {
     return published ? String(published).slice(0, 10) : '';
 }
 
+function sortByPublishedDesc(items) {
+    return items.slice().sort((a, b) => {
+        const da = String(a.published || '').slice(0, 10);
+        const db = String(b.published || '').slice(0, 10);
+        if (da !== db) return db.localeCompare(da);
+        return String(a.id || '').localeCompare(String(b.id || ''));
+    });
+}
+
 async function initApp() {
     setupEventListeners();
     updateLanguageUI(); // 🔥 핵심 수정: 초기 로딩 시 기본 언어(en)에 맞춰 필터 텍스트 즉시 변경
@@ -83,7 +92,7 @@ async function fetchCourses() {
     try {
         const response = await fetch('/api/courses');
         const data = await response.json();
-        state.allCourses = data.courses;
+        state.allCourses = sortByPublishedDesc(data.courses || []);
         
         // 푸터 메타 데이터 갱신
         const totalCoursesEl = document.getElementById('total-courses');
@@ -103,11 +112,11 @@ async function fetchCourses() {
  */
 function renderApp() {
     // 선택된 언어와 카테고리에 맞는 데이터 필터링
-    const filtered = state.allCourses.filter(c => {
+    const filtered = sortByPublishedDesc(state.allCourses.filter(c => {
         const langMatch = c.lang === state.currentLang;
         const themeMatch = state.activeTheme === 'all' || c.categories.includes(state.activeTheme);
         return langMatch && themeMatch;
-    });
+    }));
 
     updateMarkers(filtered);
     updateList(filtered);
