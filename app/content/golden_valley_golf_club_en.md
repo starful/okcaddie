@@ -1,3 +1,7 @@
+---
+date: '2026-05-08'
+---
+
 lang: "en"
 title: "The Definitive Guide to Golden Valley Golf Club: An Expert Review by an Elite Caddy (en)"
 lat: "34.8844"

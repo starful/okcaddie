@@ -1,3 +1,7 @@
+---
+date: '2026-05-08'
+---
+
 lang: "en"
 title: "The Definitive Guide to Sagamihara Golf Club: An Expert Review (en)"
 lat: "35.5444"

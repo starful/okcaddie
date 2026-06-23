@@ -1,4 +1,8 @@
 ---
+date: '2026-05-13'
+---
+
+---
 lang: "en"
 title: "Summer Golf Resorts in Karuizawa"
 summary: "Escape the summer heat and tee off in the stunning highlands of Karuizawa, Japan. This guide highlights the best golf resorts in Karuizawa, known for its cooler climate, picturesque courses, and luxurious amenities. Discover the perfect destination for your next Japanese golf getaway."

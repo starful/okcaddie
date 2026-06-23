@@ -1,10 +1,11 @@
 ---
-title: The Ultimate Japan Golf Travel & Booking Guide
+date: '2026-06-19'
 description: Your complete guide to playing golf in Japan. Learn how to book tee times,
   master local etiquette, and plan the perfect golf trip.
-seo_title: 'Japan Golf Guide: How to Book & Play | OKCaddie'
 seo_description: Your complete guide to playing golf in Japan. Learn how to book tee
   times, master local etiquette, and plan the perfect golf trip.
+seo_title: 'Japan Golf Guide: How to Book & Play | OKCaddie'
+title: The Ultimate Japan Golf Travel & Booking Guide
 ---
 
 ---

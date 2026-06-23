@@ -1,4 +1,8 @@
 ---
+date: '2026-05-08'
+---
+
+---
 lang: "en"
 title: "Choosing Between Self-Play and Caddy Service"
 summary: "Navigating the unique world of Japanese golf involves a crucial decision: opting for self-play (セルフプレー) or utilizing a caddy service (キャディ付きプレー). This guide delves into the pros and cons of each option, offering insights into cost, experience, cultural nuances, and golfing strategy to empower you to make the best choice for your Japanese golf adventure. We'll cover everything from optimizing your game with strategic course management to understanding the specific etiquette expected in both scenarios."

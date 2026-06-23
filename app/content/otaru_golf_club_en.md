@@ -1,3 +1,7 @@
+---
+date: '2026-05-08'
+---
+
 lang: "en"
 title: "The Definitive Guide to Otaru Golf Club: An Expert Review by an Elite Japanese Caddy and Rater"
 lat: "43.2044"

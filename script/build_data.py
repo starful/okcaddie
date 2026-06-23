@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import sys
 import frontmatter
 import markdown
 from bs4 import BeautifulSoup
@@ -12,6 +13,9 @@ from xml.sax.saxutils import escape
 # ==========================================
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR     = os.path.dirname(SCRIPT_DIR)
+sys.path.insert(0, SCRIPT_DIR)
+
+from md_dates import ensure_post_date, save_post  # noqa: E402
 CONTENT_DIR  = os.path.join(BASE_DIR, 'app', 'content')        # 코스 마크다운
 GUIDE_DIR    = os.path.join(CONTENT_DIR, 'guides')            # 가이드 마크다운
 STATIC_DIR   = os.path.join(BASE_DIR, 'app', 'static')
@@ -194,12 +198,13 @@ def build_sitemap_index(today):
 def main():
     print("🔨 OKCaddie 데이터 및 사이트맵 빌드 시작")
     today = datetime.now().strftime("%Y-%m-%d")
-    fixed_date = "2026-04-15"
+    fixed_date = "2026-04-15"  # 정적 허브(about/privacy) lastmod 전용
 
     courses_for_json = []
     urls_for_sitemap = []
     latest_course_date = ""
     latest_guide_date = ""
+    backfilled = 0
 
     os.makedirs(os.path.dirname(JSON_OUTPUT), exist_ok=True)
 
@@ -216,6 +221,11 @@ def main():
                 with open(filepath, 'r', encoding='utf-8') as f:
                     post = frontmatter.load(f)
 
+                date_val, changed = ensure_post_date(post, filepath)
+                if changed:
+                    save_post(filepath, post)
+                    backfilled += 1
+
                 try:
                     lat = float(post.get('lat', 0))
                     lng = float(post.get('lng', 0))
@@ -226,7 +236,6 @@ def main():
                     continue
 
                 course_id = filename.replace('.md', '')
-                date_val = str(post.get('date', fixed_date))
                 if date_val > latest_course_date:
                     latest_course_date = date_val
 
@@ -282,24 +291,28 @@ def main():
             if not filename.endswith('.md'):
                 continue
             guide_id = filename.replace('.md', '')
+            filepath = os.path.join(GUIDE_DIR, filename)
             try:
-                with open(os.path.join(GUIDE_DIR, filename), 'r', encoding='utf-8') as f:
+                with open(filepath, 'r', encoding='utf-8') as f:
                     post = frontmatter.load(f)
-                    date_val = str(post.get('date', fixed_date))
-                    if date_val > latest_guide_date:
-                        latest_guide_date = date_val
-                    base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
-                    _glang = post.get('lang', 'en')
-                    _gpath = f"/guide/{base_id}" if _glang == 'en' else f"/guide/{base_id}?lang=ko"
-                    urls_for_sitemap.append({
-                        "url": _gpath,
-                        "date": date_val,
-                        "lang": _glang,
-                        "base_id": base_id,
-                        "kind": "guide",
-                        "changefreq": "monthly",
-                        "priority": "0.7",
-                    })
+                date_val, changed = ensure_post_date(post, filepath)
+                if changed:
+                    save_post(filepath, post)
+                    backfilled += 1
+                if date_val > latest_guide_date:
+                    latest_guide_date = date_val
+                base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
+                _glang = post.get('lang', 'en')
+                _gpath = f"/guide/{base_id}" if _glang == 'en' else f"/guide/{base_id}?lang=ko"
+                urls_for_sitemap.append({
+                    "url": _gpath,
+                    "date": date_val,
+                    "lang": _glang,
+                    "base_id": base_id,
+                    "kind": "guide",
+                    "changefreq": "monthly",
+                    "priority": "0.7",
+                })
             except Exception:
                 base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
                 lang = 'ko' if guide_id.endswith('_ko') else 'en'
@@ -325,6 +338,8 @@ def main():
     with open(JSON_OUTPUT, 'w', encoding='utf-8') as f:
         json.dump(final_json, f, ensure_ascii=False, indent=2)
     print(f"✅ JSON 생성 완료: {len(courses_for_json)}개 코스")
+    if backfilled:
+        print(f"📅 date 백필: {backfilled}개 MD")
 
     # ------------------------------------------
     # 4. Sitemap 분할 저장

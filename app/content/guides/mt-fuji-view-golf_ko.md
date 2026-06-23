@@ -1,16 +1,12 @@
 ---
-{
-  "title": "Mt. Fuji View Golf Courses in Japan: Complete Guide",
-  "description": "Discover the best golf courses in Japan offering breathtaking views of Mount Fuji. Plan your perfect scenic golf trip with OKCaddie's expert recommendations.",
-  "seo_title": "Best Mt. Fuji View Golf Courses in Japan | OKCaddie",
-  "seo_description": "Play golf with stunning views of Mt. Fuji! Explore the best golf courses near Mount Fuji, practical travel tips, and booking guides on OKCaddie."
-}
+date: '2026-06-19'
+description: Discover the best golf courses in Japan offering breathtaking views of
+  Mount Fuji. Plan your perfect scenic golf trip with OKCaddie's expert recommendations.
+seo_description: Play golf with stunning views of Mt. Fuji! Explore the best golf
+  courses near Mount Fuji, practical travel tips, and booking guides on OKCaddie.
+seo_title: Best Mt. Fuji View Golf Courses in Japan | OKCaddie
+title: 'Mt. Fuji View Golf Courses in Japan: Complete Guide'
 ---
-
-
-
-
-
 
 ---
 lang: "ko"

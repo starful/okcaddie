@@ -1,15 +1,12 @@
 ---
-{
-  "title": "Katayamazu Golf Club",
-  "description": "Book your round at Ishikawa's legendary Katayamazu Golf Club. Get current green fees, Rakuten GORA booking steps, course reviews, and access guides.",
-  "seo_title": "Katayamazu Golf Club | Book Tee Times & Green Fees - OK Caddie",
-  "seo_description": "Book your round at Ishikawa's legendary Katayamazu Golf Club. Get current green fees, Rakuten GORA booking steps, course reviews, and access guides."
-}
+date: '2026-06-19'
+description: Book your round at Ishikawa's legendary Katayamazu Golf Club. Get current
+  green fees, Rakuten GORA booking steps, course reviews, and access guides.
+seo_description: Book your round at Ishikawa's legendary Katayamazu Golf Club. Get
+  current green fees, Rakuten GORA booking steps, course reviews, and access guides.
+seo_title: Katayamazu Golf Club | Book Tee Times & Green Fees - OK Caddie
+title: Katayamazu Golf Club
 ---
-
-
-
-
 
 lang: "ko"
 title: "가타야마즈 골프 클럽 완벽 해부: 일본 명문 코스 평가 전문가의 심층 리뷰"

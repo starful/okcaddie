@@ -1,3 +1,7 @@
+---
+date: '2026-05-08'
+---
+
 lang: "en"
 title: "The Definitive Guide to Abiko Golf Club: An Expert Review by an Elite Caddy (en)"
 lat: "35.8544"

@@ -1,14 +1,12 @@
 ---
-{
-  "title": "Japan Autumn Golf: Best Courses & Scenic Views",
-  "description": "Experience the magic of playing golf amidst Japan's vibrant fall foliage. Discover the top scenic courses and plan your ultimate autumn golf trip.",
-  "seo_title": "Japan Autumn Golf: Best Courses for Breathtaking Fall Foliage",
-  "seo_description": "Play golf among Japan's stunning autumn leaves. Discover the best scenic courses for vibrant fall foliage and plan your dream golf trip today!"
-}
+date: '2026-06-19'
+description: Experience the magic of playing golf amidst Japan's vibrant fall foliage.
+  Discover the top scenic courses and plan your ultimate autumn golf trip.
+seo_description: Play golf among Japan's stunning autumn leaves. Discover the best
+  scenic courses for vibrant fall foliage and plan your dream golf trip today!
+seo_title: 'Japan Autumn Golf: Best Courses for Breathtaking Fall Foliage'
+title: 'Japan Autumn Golf: Best Courses & Scenic Views'
 ---
-
-
-
 
 ---
 lang: "ko"
