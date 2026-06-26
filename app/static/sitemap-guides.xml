@@ -60,6 +60,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/chiba-golf-paradise</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/chiba-golf-paradise" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/chiba-golf-paradise?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/chiba-golf-paradise" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/stay-and-play-karuizawa</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
@@ -104,6 +113,15 @@
     <loc>https://okcaddie.net/guide/hokkaido-summer-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/hokkaido-summer-golf" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/hokkaido-summer-golf" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/kanto-vs-kansai-golf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kanto-vs-kansai-golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/kanto-vs-kansai-golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kanto-vs-kansai-golf" />
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -165,6 +183,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/self-play-vs-caddy?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/self-play-vs-caddy" />
     <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/golfing-with-kids?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golfing-with-kids" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golfing-with-kids?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golfing-with-kids" />
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -294,6 +321,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/understanding-scorecards" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/understanding-scorecards?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/understanding-scorecards" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/golfing-with-kids</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golfing-with-kids" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golfing-with-kids?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golfing-with-kids" />
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -522,6 +558,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/kanto-vs-kansai-golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kanto-vs-kansai-golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/kanto-vs-kansai-golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kanto-vs-kansai-golf" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/hokkaido-summer-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/hokkaido-summer-golf" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/hokkaido-summer-golf" />
@@ -567,6 +612,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/stay-and-play-karuizawa" />
     <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/chiba-golf-paradise?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/chiba-golf-paradise" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/chiba-golf-paradise?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/chiba-golf-paradise" />
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

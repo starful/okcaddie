@@ -1,6 +1,234 @@
 {
-  "last_updated": "2026.06.23",
+  "last_updated": "2026.06.26",
   "courses": [
+    {
+      "id": "the_southern_links_resort_ko",
+      "base_id": "the_southern_links_resort",
+      "lang": "ko",
+      "title": "The Southern Links Resort",
+      "lat": 26.1144,
+      "lng": 127.7356,
+      "categories": [
+        "Seaside Links",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/the_southern_links_resort.jpg",
+      "address": "Yaese, Okinawa",
+      "published": "2026-06-26",
+      "summary": "오키나와의 야에세에 위치한 더 서던 링크스 리조트는 1988년 개장한 18홀, 파 72의 프리미엄 해안 링크스 코스입니다.",
+      "booking": "/booking/the_southern_links_resort_ko",
+      "link": "/course/the_southern_links_resort?lang=ko"
+    },
+    {
+      "id": "the_southern_links_resort_en",
+      "base_id": "the_southern_links_resort",
+      "lang": "en",
+      "title": "The Southern Links Resort",
+      "lat": 26.1144,
+      "lng": 127.7356,
+      "categories": [
+        "Seaside Links",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/the_southern_links_resort.jpg",
+      "address": "Yaese, Okinawa",
+      "published": "2026-06-26",
+      "summary": "The Southern Links Resort in Yaese, Okinawa, features 18 holes of par 72 golf, playing around 6,700-6,900 yards along dramatic clifftops.",
+      "booking": "/booking/the_southern_links_resort_en",
+      "link": "/course/the_southern_links_resort"
+    },
+    {
+      "id": "palm_hills_golf_resort_ko",
+      "base_id": "palm_hills_golf_resort",
+      "lang": "ko",
+      "title": "Palm Hills Golf Resort",
+      "lat": 26.1544,
+      "lng": 127.7156,
+      "categories": [
+        "Premium / Luxury",
+        "Ocean View",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/palm_hills_golf_resort.jpg",
+      "address": "Itoman, Okinawa",
+      "published": "2026-06-26",
+      "summary": "오키나와 이토만에 위치한 팜 힐스 골프 리조트는 18홀, 파 72 코스로 총 6,787야드를 자랑하며, 전략적인 라운딩과 태평양 전망을 선사합니다.",
+      "booking": "/booking/palm_hills_golf_resort_ko",
+      "link": "/course/palm_hills_golf_resort?lang=ko"
+    },
+    {
+      "id": "palm_hills_golf_resort_en",
+      "base_id": "palm_hills_golf_resort",
+      "lang": "en",
+      "title": "Palm Hills Golf Resort",
+      "lat": 26.1544,
+      "lng": 127.7156,
+      "categories": [
+        "Premium / Luxury",
+        "Ocean View",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/palm_hills_golf_resort.jpg",
+      "address": "Itoman, Okinawa",
+      "published": "2026-06-26",
+      "summary": "Palm Hills offers 18 holes of ocean-view golf in Itoman, Okinawa, featuring premium conditions and strategic play across its undulating layout.",
+      "booking": "/booking/palm_hills_golf_resort_en",
+      "link": "/course/palm_hills_golf_resort"
+    },
+    {
+      "id": "okinawa_country_club_ko",
+      "base_id": "okinawa_country_club",
+      "lang": "ko",
+      "title": "Okinawa Country Club",
+      "lat": 26.2544,
+      "lng": 127.7556,
+      "categories": [
+        "Value for Money",
+        "Historic",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/okinawa_country_club.jpg",
+      "address": "Nishihara, Okinawa",
+      "published": "2026-06-26",
+      "summary": "오키나와 니시하라에 위치한 18홀, 파 72 코스로, 탁 트인 해안 풍광과 함께 합리적인 가격대의 전략적인 플레이를 경험할 수 있습니다.",
+      "booking": "/booking/okinawa_country_club_ko",
+      "link": "/course/okinawa_country_club?lang=ko"
+    },
+    {
+      "id": "okinawa_country_club_en",
+      "base_id": "okinawa_country_club",
+      "lang": "en",
+      "title": "Okinawa Country Club",
+      "lat": 26.2544,
+      "lng": 127.7556,
+      "categories": [
+        "Value for Money",
+        "Historic",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/okinawa_country_club.jpg",
+      "address": "Nishihara, Okinawa",
+      "published": "2026-06-26",
+      "summary": "Okinawa Country Club, opened in 1968, offers a strategic 18-hole golf experience near Naha with distinct ocean views and consistent value.",
+      "booking": "/booking/okinawa_country_club_en",
+      "link": "/course/okinawa_country_club"
+    },
+    {
+      "id": "ocean_castle_golf_ko",
+      "base_id": "ocean_castle_golf",
+      "lang": "ko",
+      "title": "Ocean Castle Golf",
+      "lat": 26.2844,
+      "lng": 127.7856,
+      "categories": [
+        "Ocean View",
+        "Scenic View",
+        "Value"
+      ],
+      "thumbnail": "/static/images/ocean_castle_golf.jpg",
+      "address": "Nakagusuku, Okinawa",
+      "published": "2026-06-26",
+      "summary": "오키나와 나카구스쿠에 위치한 오션 캐슬 골프는 태평양 조망과 함께 18홀 라운드를 즐길 수 있는 가성비 좋은 코스입니다.",
+      "booking": "/booking/ocean_castle_golf_ko",
+      "link": "/course/ocean_castle_golf?lang=ko"
+    },
+    {
+      "id": "ocean_castle_golf_en",
+      "base_id": "ocean_castle_golf",
+      "lang": "en",
+      "title": "Ocean Castle Golf",
+      "lat": 26.2844,
+      "lng": 127.7856,
+      "categories": [
+        "Ocean View",
+        "Scenic View",
+        "Value"
+      ],
+      "thumbnail": "/static/images/ocean_castle_golf.jpg",
+      "address": "Nakagusuku, Okinawa",
+      "published": "2026-06-26",
+      "summary": "Ocean Castle Golf, nestled in Nakagusuku, Okinawa, offers 18 holes with expansive Pacific Ocean views and solid value for golfers.",
+      "booking": "/booking/ocean_castle_golf_en",
+      "link": "/course/ocean_castle_golf"
+    },
+    {
+      "id": "nago_bay_golf_course_ko",
+      "base_id": "nago_bay_golf_course",
+      "lang": "ko",
+      "title": "Nago Bay Golf Course",
+      "lat": 26.5544,
+      "lng": 127.9556,
+      "categories": [
+        "Value for Money",
+        "Ocean View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/nago_bay_golf_course.jpg",
+      "address": "Nago, Okinawa",
+      "published": "2026-06-26",
+      "summary": "오키나와 나고시에 위치한 나고 베이 골프 코스는 합리적인 가격에 탁 트인 바다 전망을 제공하는 18홀 코스입니다.",
+      "booking": "/booking/nago_bay_golf_course_ko",
+      "link": "/course/nago_bay_golf_course?lang=ko"
+    },
+    {
+      "id": "nago_bay_golf_course_en",
+      "base_id": "nago_bay_golf_course",
+      "lang": "en",
+      "title": "Nago Bay Golf Course",
+      "lat": 26.5544,
+      "lng": 127.9556,
+      "categories": [
+        "Value for Money",
+        "Ocean View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/nago_bay_golf_course.jpg",
+      "address": "Nago, Okinawa",
+      "published": "2026-06-26",
+      "summary": "Nago Bay Golf Course, an 18-hole, par-72 layout in Nago, Okinawa, offers strategic play and consistent ocean views from its elevated fairways.",
+      "booking": "/booking/nago_bay_golf_course_en",
+      "link": "/course/nago_bay_golf_course"
+    },
+    {
+      "id": "kagoshima_kokusai_golf_ko",
+      "base_id": "kagoshima_kokusai_golf",
+      "lang": "ko",
+      "title": "Kagoshima Kokusai Golf",
+      "lat": 31.7544,
+      "lng": 130.5556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kagoshima_kokusai_golf.jpg",
+      "address": "Aira, Kagoshima",
+      "published": "2026-06-26",
+      "summary": "가고시마 아이라에 위치한 카고시마 국제 골프는 18홀, 파72의 산악 코스로, 합리적인 가격에 빼어난 경치와 전략적인 라운딩 경험을 제공합니다.",
+      "booking": "/booking/kagoshima_kokusai_golf_ko",
+      "link": "/course/kagoshima_kokusai_golf?lang=ko"
+    },
+    {
+      "id": "kagoshima_kokusai_golf_en",
+      "base_id": "kagoshima_kokusai_golf",
+      "lang": "en",
+      "title": "Kagoshima Kokusai Golf",
+      "lat": 31.7544,
+      "lng": 130.5556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/kagoshima_kokusai_golf.jpg",
+      "address": "Aira, Kagoshima",
+      "published": "2026-06-26",
+      "summary": "Kagoshima Kokusai Golf offers 27 scenic mountain-style holes in Aira, Kagoshima, known for its strategic design and good value green fees often under ¥15,000.",
+      "booking": "/booking/kagoshima_kokusai_golf_en",
+      "link": "/course/kagoshima_kokusai_golf"
+    },
     {
       "id": "wakamatsu_golf_club_ko",
       "base_id": "wakamatsu_golf_club",
