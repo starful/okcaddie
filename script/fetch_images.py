@@ -212,12 +212,14 @@ def download_photo(photo_name, save_path, api_key: str):
 # 🚀 메인 실행 (MD 파일 기준)
 # ==========================================
 def fetch_all_images():
-    api_key = resolve_places_api_key()
-    if not api_key:
-        print("❌ Places API (New) 키를 읽지 못했습니다.")
-        return
+    from ensure_item_images import ensure_item_images
 
     os.makedirs(IMAGES_DIR, exist_ok=True)
+    api_key = resolve_places_api_key()
+    if not api_key:
+        print("⚠️ Places API 키 없음 — Places 수집 생략, placeholder만 실행")
+        ensure_item_images()
+        return
 
     md_safe_names = set()
     if os.path.exists(CONTENT_DIR):
@@ -289,9 +291,11 @@ def fetch_all_images():
         time.sleep(0.3)
 
     print("\n" + "─" * 50)
-    print("🎉 이미지 수집 완료!")
+    print("🎉 Places 수집 완료!")
     print(f"   ✅ 성공: {success}개  ⏭️  스킵: {skipped}개  ❌ 실패: {failed}개")
     print("─" * 50)
+
+    ensure_item_images(slugs=md_safe_names)
 
 
 if __name__ == "__main__":

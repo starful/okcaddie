@@ -2,6 +2,7 @@ from flask import Flask, jsonify, render_template, abort, send_from_directory, r
 from flask_compress import Compress
 import json
 import os
+import copy
 import frontmatter
 import markdown
 import re
@@ -33,6 +34,25 @@ GCS_ASSET_PREFIX = "okcaddie"
 
 def _gcs_image_url(filename: str) -> str:
     return f"https://storage.googleapis.com/ok-project-assets/{GCS_ASSET_PREFIX}/{filename}"
+
+
+def _thumbnail_cache_v(published_or_date: str | None) -> str:
+    v = str(published_or_date or "").strip()[:10]
+    return v if len(v) >= 8 else ""
+
+
+def _thumbnail_with_v(url: str, cache_v: str | None = None) -> str:
+    if not url:
+        return url
+    v = _thumbnail_cache_v(cache_v)
+    base = url.split("?", 1)[0]
+    return f"{base}?v={v}" if v else base
+
+
+def _public_course(row: dict) -> dict:
+    out = copy.deepcopy(row)
+    out["thumbnail"] = _thumbnail_with_v(out.get("thumbnail", ""), out.get("published"))
+    return out
 
 
 def _social_image_url(slug: str) -> str:
@@ -123,6 +143,7 @@ PREFECTURE_KEYWORDS = tuple(AREA_MAP.keys())
 
 CACHED_DATA = {"courses": []}
 CACHED_GUIDES = []
+_CACHE_MTIME: float = 0.0
 GOOGLE_MAPS_JS_API_KEY = os.environ.get("GOOGLE_MAPS_JS_API_KEY", "").strip()
 SUPPORTED_LANGS = {"en", "ko"}
 
@@ -398,7 +419,7 @@ def _course_cards(base_ids, lang="en", limit=None):
                     "title": title,
                     "short_title": _truncate_text(title, 72),
                     "address": c.get("address", ""),
-                    "thumbnail": c.get("thumbnail", ""),
+                    "thumbnail": _thumbnail_with_v(c.get("thumbnail", ""), c.get("published")),
                     "summary": short_summary(
                         clean_summary(c.get("summary", ""), title, lang), 110
                     ),
@@ -630,13 +651,14 @@ def _render_urlset(entries):
 
 def load_all_data():
     """서버 시작 시 메모리에 모든 마크다운 및 JSON 데이터를 로드"""
-    global CACHED_DATA, CACHED_GUIDES
+    global CACHED_DATA, CACHED_GUIDES, _CACHE_MTIME
     
     # 1. 골프장 코스 JSON 데이터 로드
     if os.path.exists(DATA_FILE):
         try:
             with open(DATA_FILE, 'r', encoding='utf-8') as f:
                 CACHED_DATA = json.load(f)
+                _CACHE_MTIME = os.path.getmtime(DATA_FILE)
                 print(f"✅ Course JSON loaded: {len(CACHED_DATA.get('courses', []))} items")
         except Exception as e:
             print(f"❌ Course Data error: {e}")
@@ -693,6 +715,24 @@ def load_all_data():
 
 # 초기 실행
 load_all_data()
+
+
+def _ensure_course_cache() -> None:
+    global CACHED_DATA, _CACHE_MTIME
+    if not os.path.exists(DATA_FILE):
+        return
+    try:
+        mtime = os.path.getmtime(DATA_FILE)
+    except OSError:
+        return
+    if mtime <= _CACHE_MTIME:
+        return
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            CACHED_DATA = json.load(f)
+        _CACHE_MTIME = mtime
+    except (OSError, json.JSONDecodeError):
+        pass
 
 
 try:
@@ -803,11 +843,12 @@ def privacy():
 @app.route('/api/courses')
 def api_courses():
     """지도 및 리스트용 데이터 API: JS 호환을 위한 언어 속성 변조 포함"""
+    _ensure_course_cache()
     lang = request.args.get('lang', 'en')
     filtered = []
     for c in CACHED_DATA.get('courses', []):
         if c.get('lang') == lang:
-            temp = dict(c)
+            temp = _public_course(c)
             temp['lang'] = 'en' # main.js가 en만 찾도록 고정되어 있어도 한국어 내용을 보여주게 함
             temp['title'] = humanize_title(temp.get('title', ''))
             temp['summary'] = clean_summary(temp.get('summary', ''), temp['title'], lang)
@@ -815,7 +856,7 @@ def api_courses():
     # 필터링 결과가 없으면 전체 전송
     if not filtered:
         filtered = [
-            {**c, 'title': humanize_title(c.get('title', '')),
+            {**_public_course(c), 'title': humanize_title(c.get('title', '')),
              'summary': clean_summary(c.get('summary', ''), humanize_title(c.get('title', '')), c.get('lang', 'en'))}
             for c in CACHED_DATA.get('courses', [])
         ]
@@ -870,6 +911,11 @@ def course_detail(course_ref):
     if isinstance(post_data.get('categories'), str):
         post_data['categories'] = [c.strip() for c in post_data['categories'].split(',')]
 
+    cache_v = _thumbnail_cache_v(post_data.get("date") or post_data.get("published"))
+    base_id_for_img = post_data.get("base_id") or base_id
+    thumb = post_data.get("thumbnail") or f"/static/images/{base_id_for_img}.jpg"
+    post_data["thumbnail"] = _thumbnail_with_v(thumb, cache_v)
+
     # 가독성을 위한 줄바꿈 정규식 보정
     post_content = re.sub(r'([\.!?:])\s+(\*\s)', r'\1\n\n\2', post_content)
     post_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', post_content)
@@ -896,7 +942,7 @@ def course_detail(course_ref):
     related_candidates.sort(key=lambda x: x[0], reverse=True)
     related_courses = []
     for _, course in related_candidates[:6]:
-        c = dict(course)
+        c = _public_course(course)
         c['title'] = humanize_title(c.get('title', ''))
         related_courses.append(c)
 
