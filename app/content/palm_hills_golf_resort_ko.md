@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Palm Hills Golf Resort"
-lat: "26.1544"
-lng: "127.7156"
-categories: "Premium / Luxury, Ocean View, Resort"
-thumbnail: "/static/images/palm_hills_golf_resort.jpg"
-address: "Itoman, Okinawa"
-date: "2026-06-26"
-booking: "/booking/palm_hills_golf_resort_ko"
-summary: "오키나와 이토만에 위치한 팜 힐스 골프 리조트는 18홀, 파 72 코스로 총 6,787야드를 자랑하며, 전략적인 라운딩과 태평양 전망을 선사합니다."
+lang: ko
+title: Palm Hills Golf Resort
+lat: '26.1544'
+lng: '127.7156'
+categories: Premium / Luxury, Ocean View, Resort
+thumbnail: /static/images/palm_hills_golf_resort.jpg
+address: Itoman, Okinawa
+date: '2026-06-27'
+booking: /booking/palm_hills_golf_resort_ko
+summary: 오키나와 이토만에 위치한 팜 힐스 골프 리조트는 18홀, 파 72 코스로 총 6,787야드를 자랑하며, 전략적인 라운딩과 태평양 전망을
+  선사합니다.
 ---
+
 ## 코스 개요
 
 팜 힐스 골프 리조트는 오키나와 이토만에 자리한 18홀, 파 72의 코스입니다. 총 길이는 블루 티 기준으로 약 6,787야드이며, 설계는 피터 톰슨(Peter Thompson), 마이클 울버리지(Michael Wolveridge), 로스 퍼렛(Ross Perrett)이 맡아 1997년에 개장했습니다. 페어웨이는 버뮤다 잔디, 그린은 티프드워프(Tifdwarf) 잔디로 조성되어 연중 쾌적한 플레이가 가능합니다. 코스 곳곳에서 태평양의 시원한 풍광을 조망할 수 있으며, 전략적인 벙커링과 자연 지형을 활용한 홀들이 특징입니다.

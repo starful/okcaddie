@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Wakamatsu Golf Club"
-lat: "33.9144"
-lng: "130.7556"
-categories: "Private Club, Seaside Links, Historic"
-thumbnail: "/static/images/wakamatsu_golf_club.jpg"
-address: "Kitakyushu, Fukuoka"
-date: "2026-06-19"
-booking: "/booking/wakamatsu_golf_club_en"
-summary: "A seaside links course in Kitakyushu, Fukuoka, Wakamatsu Golf Club offers a historic private club experience with challenging coastal winds."
+lang: en
+title: Wakamatsu Golf Club
+lat: '33.9144'
+lng: '130.7556'
+categories: Private Club, Seaside Links, Historic
+thumbnail: /static/images/wakamatsu_golf_club.jpg
+address: Kitakyushu, Fukuoka
+date: '2026-06-27'
+booking: /booking/wakamatsu_golf_club_en
+summary: A seaside links course in Kitakyushu, Fukuoka, Wakamatsu Golf Club offers
+  a historic private club experience with challenging coastal winds.
 ---
+
 
 ## Course Overview
 

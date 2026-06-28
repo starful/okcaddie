@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kumamoto Chuo Golf"
-lat: "32.8544"
-lng: "130.8556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/kumamoto_chuo_golf.jpg"
-address: "Kikuyo, Kumamoto"
-date: "2026-06-19"
-booking: "/booking/kumamoto_chuo_golf_en"
-summary: "Kumamoto Chuo Golf in Kikuyo offers a championship 18-hole forest course experience, typically ranging from JPY 9,000-22,000 for green fees."
+lang: en
+title: Kumamoto Chuo Golf
+lat: '32.8544'
+lng: '130.8556'
+categories: Value for Money, Forest Course, Championship
+thumbnail: /static/images/kumamoto_chuo_golf.jpg
+address: Kikuyo, Kumamoto
+date: '2026-06-27'
+booking: /booking/kumamoto_chuo_golf_en
+summary: Kumamoto Chuo Golf in Kikuyo offers a championship 18-hole forest course
+  experience, typically ranging from JPY 9,000-22,000 for green fees.
 ---
+
 ## Course Overview
 Kumamoto Chuo Golf presents an 18-hole, par 72 championship layout nestled within the verdant forests of Kikuyo. The course typically measures between 6,800 to 7,100 yards from the back tees, offering a robust test of strategy and skill for golfers. Its fairways are commonly zoysia, providing a firm playing surface, while the bentgrass greens are known for their consistent speed.
 

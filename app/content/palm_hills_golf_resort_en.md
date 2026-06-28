@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Palm Hills Golf Resort"
-lat: "26.1544"
-lng: "127.7156"
-categories: "Premium / Luxury, Ocean View, Resort"
-thumbnail: "/static/images/palm_hills_golf_resort.jpg"
-address: "Itoman, Okinawa"
-date: "2026-06-26"
-booking: "/booking/palm_hills_golf_resort_en"
-summary: "Palm Hills offers 18 holes of ocean-view golf in Itoman, Okinawa, featuring premium conditions and strategic play across its undulating layout."
+lang: en
+title: Palm Hills Golf Resort
+lat: '26.1544'
+lng: '127.7156'
+categories: Premium / Luxury, Ocean View, Resort
+thumbnail: /static/images/palm_hills_golf_resort.jpg
+address: Itoman, Okinawa
+date: '2026-06-27'
+booking: /booking/palm_hills_golf_resort_en
+summary: Palm Hills offers 18 holes of ocean-view golf in Itoman, Okinawa, featuring
+  premium conditions and strategic play across its undulating layout.
 ---
+
 ## Course Overview
 Palm Hills Golf Resort presents a classic 18-hole, par-72 layout, typically ranging from around 6,800 to 7,100 yards from the back tees. The course is meticulously maintained, utilizing Bermuda grass for both fairways and greens, ensuring consistent playability year-round in Okinawa's subtropical climate. Its signature characteristics include pronounced elevation changes, strategic bunkering, and frequent vistas of the Pacific Ocean.
 

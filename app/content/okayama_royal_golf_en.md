@@ -1,15 +1,18 @@
 ---
-lang: "en"
-title: "Okayama Royal Golf"
-lat: "34.8544"
-lng: "133.8556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/okayama_royal_golf.jpg"
-address: "Kibi, Okayama"
-date: "2026-05-13"
-booking: "/booking/okayama_royal_golf_en"
-summary: "Okayama Royal Golf provides a scenic and strategic mountain-style golf experience in Kibi, Okayama, offering excellent value for players seeking a fair challenge amidst beautiful natural terrain."
+lang: en
+title: Okayama Royal Golf
+lat: '34.8544'
+lng: '133.8556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/okayama_royal_golf.jpg
+address: Kibi, Okayama
+date: '2026-06-27'
+booking: /booking/okayama_royal_golf_en
+summary: Okayama Royal Golf provides a scenic and strategic mountain-style golf experience
+  in Kibi, Okayama, offering excellent value for players seeking a fair challenge
+  amidst beautiful natural terrain.
 ---
+
 
 ## Course Overview
 

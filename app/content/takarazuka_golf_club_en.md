@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Takarazuka Golf Club"
-lat: "34.7944"
-lng: "135.3556"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/takarazuka_golf_club.jpg"
-address: "Takarazuka, Hyogo"
-date: "2026-05-13"
-booking: "/booking/takarazuka_golf_club_en"
-summary: "Takarazuka Golf Club, a historic private forest course in Hyogo, offers 36 holes of traditional Japanese golf near Osaka."
+lang: en
+title: Takarazuka Golf Club
+lat: '34.7944'
+lng: '135.3556'
+categories: Private Club, Historic, Forest Course
+thumbnail: /static/images/takarazuka_golf_club.jpg
+address: Takarazuka, Hyogo
+date: '2026-06-27'
+booking: /booking/takarazuka_golf_club_en
+summary: Takarazuka Golf Club, a historic private forest course in Hyogo, offers 36
+  holes of traditional Japanese golf near Osaka.
 ---
+
 
 ## Course Overview
 

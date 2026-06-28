@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Okayama Country Club"
-lat: "34.7144"
-lng: "133.9156"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/okayama_country_club.jpg"
-address: "Okayama, Okayama"
-date: "2026-05-13"
-booking: "/booking/okayama_country_club_ko"
-summary: "岡山カントリークラブ는 1960년에 설립된 유서 깊은 회원제 골프장으로, 숲 속 코스의 전략적 난이도가 돋보입니다."
+lang: ko
+title: Okayama Country Club
+lat: '34.7144'
+lng: '133.9156'
+categories: Private Club, Historic, Forest Course
+thumbnail: /static/images/okayama_country_club.jpg
+address: Okayama, Okayama
+date: '2026-06-27'
+booking: /booking/okayama_country_club_ko
+summary: 岡山カントリークラブ는 1960년에 설립된 유서 깊은 회원제 골프장으로, 숲 속 코스의 전략적 난이도가 돋보입니다.
 ---
+
 
 ## 코스 개요
 

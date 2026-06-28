@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Kochi Golf Club Heights"
-lat: "33.5144"
-lng: "133.5156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kochi_golf_club_heights.jpg"
-address: "Kochi, Kochi"
-date: "2026-06-06"
-booking: "/booking/kochi_golf_club_heights_ko"
-summary: "고치 골프 클럽 하이츠는 고치시에 위치하며, 18홀 산악 코스로 뛰어난 가성비와 경치를 자랑합니다."
+lang: ko
+title: Kochi Golf Club Heights
+lat: '33.5144'
+lng: '133.5156'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kochi_golf_club_heights.jpg
+address: Kochi, Kochi
+date: '2026-06-27'
+booking: /booking/kochi_golf_club_heights_ko
+summary: 고치 골프 클럽 하이츠는 고치시에 위치하며, 18홀 산악 코스로 뛰어난 가성비와 경치를 자랑합니다.
 ---
+
 ## 코스 개요
 
 고치 골프 클럽 하이츠는 일본 고치현에 자리한 18홀, 파 72의 산악 스타일 골프 코스입니다. 전체 야드리지 범위는 6,500에서 6,800야드 사이로, 지형적 특성상 업다운이 많아 전략적인 플레이를 요구합니다. 코스 설계자 및 개장 연도에 대한 구체적인 정보는 확인되지 않으나, 잘 관리된 페어웨이와 벤트를 사용한 그린은 안정적인 플레이 환경을 제공합니다.

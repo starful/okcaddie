@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Takarazuka Golf Club"
-lat: "34.7944"
-lng: "135.3556"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/takarazuka_golf_club.jpg"
-address: "Takarazuka, Hyogo"
-date: "2026-05-13"
-booking: "/booking/takarazuka_golf_club_ko"
-summary: "효고 다카라즈카에 위치한 이 유서 깊은 사립 골프장은 1926년에 개장하여 전략적인 산림 코스를 제공합니다."
+lang: ko
+title: Takarazuka Golf Club
+lat: '34.7944'
+lng: '135.3556'
+categories: Private Club, Historic, Forest Course
+thumbnail: /static/images/takarazuka_golf_club.jpg
+address: Takarazuka, Hyogo
+date: '2026-06-27'
+booking: /booking/takarazuka_golf_club_ko
+summary: 효고 다카라즈카에 위치한 이 유서 깊은 사립 골프장은 1926년에 개장하여 전략적인 산림 코스를 제공합니다.
 ---
+
 
 ## 코스 개요
 

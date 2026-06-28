@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Ocean Castle Golf"
-lat: "26.2844"
-lng: "127.7856"
-categories: "Ocean View, Scenic View, Value"
-thumbnail: "/static/images/ocean_castle_golf.jpg"
-address: "Nakagusuku, Okinawa"
-date: "2026-06-26"
-booking: "/booking/ocean_castle_golf_ko"
-summary: "오키나와 나카구스쿠에 위치한 오션 캐슬 골프는 태평양 조망과 함께 18홀 라운드를 즐길 수 있는 가성비 좋은 코스입니다."
+lang: ko
+title: Ocean Castle Golf
+lat: '26.2844'
+lng: '127.7856'
+categories: Ocean View, Scenic View, Value
+thumbnail: /static/images/ocean_castle_golf.jpg
+address: Nakagusuku, Okinawa
+date: '2026-06-27'
+booking: /booking/ocean_castle_golf_ko
+summary: 오키나와 나카구스쿠에 위치한 오션 캐슬 골프는 태평양 조망과 함께 18홀 라운드를 즐길 수 있는 가성비 좋은 코스입니다.
 ---
+
 
 ## 코스 개요
 

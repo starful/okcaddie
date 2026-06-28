@@ -2,7 +2,7 @@
 address: 오이타현 오이타시
 booking: /booking/oita_country_club_ko
 categories: 전략적 코스, 온천 경험, 프리미엄 식사
-date: '2026-04-15'
+date: '2026-06-27'
 lang: ko
 lat: '33.1544'
 lng: '131.5556'
@@ -16,6 +16,7 @@ seo_title: Oita Country Club, Japan | Book Tee Times & Green Fees
 seo_description: Book tee times at Oita Country Club in Japan. Get up-to-date green
   fees, course reviews, and easy booking guides via Rakuten GORA.
 ---
+
 
 
 

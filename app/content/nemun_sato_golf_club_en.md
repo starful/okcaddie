@@ -1,15 +1,18 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Nemun Sato Golf Club: An Expert Review (en)"
-lat: "34.3144"
-lng: "136.7856"
-categories: "Stay & Play, Premium / Luxury, Ocean View"
-thumbnail: "/static/images/nemun_sato_golf_club.jpg"
-address: "Shima, Mie"
-date: "2026-04-15"
-booking: "/booking/nemun_sato_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Nemun Sato Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy."
+lang: en
+title: 'The Definitive Guide to Nemun Sato Golf Club: An Expert Review (en)'
+lat: '34.3144'
+lng: '136.7856'
+categories: Stay & Play, Premium / Luxury, Ocean View
+thumbnail: /static/images/nemun_sato_golf_club.jpg
+address: Shima, Mie
+date: '2026-06-27'
+booking: /booking/nemun_sato_golf_club_en
+summary: A comprehensive 9,000-character master guide to Nemun Sato Golf Club, covering
+  strategy, history, and luxury facilities, penned by an elite Japanese golf course
+  rater and senior caddy.
 ---
+
 
 ## The Undisputed Majesty of Nemun Sato Golf Club: A Caddy's Masterpiece Review
 

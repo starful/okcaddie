@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Takamatsu Country Club"
-lat: "34.3544"
-lng: "133.9156"
-categories: "Historic, Seaside Links, Scenic View"
-thumbnail: "/static/images/takamatsu_country_club.jpg"
-address: "Sakaide, Kagawa"
-date: "2026-05-13"
-booking: "/booking/takamatsu_country_club_ko"
-summary: "가마가와현 사카이데에 위치한 다카마쓰 컨트리 클럽은 1957년에 개장한 유서 깊은 해변 코스로, 세토 내해의 절경을 감상하며 전략적인 18홀 라운딩을 즐길 수 있습니다."
+lang: ko
+title: Takamatsu Country Club
+lat: '34.3544'
+lng: '133.9156'
+categories: Historic, Seaside Links, Scenic View
+thumbnail: /static/images/takamatsu_country_club.jpg
+address: Sakaide, Kagawa
+date: '2026-06-27'
+booking: /booking/takamatsu_country_club_ko
+summary: 가마가와현 사카이데에 위치한 다카마쓰 컨트리 클럽은 1957년에 개장한 유서 깊은 해변 코스로, 세토 내해의 절경을 감상하며 전략적인
+  18홀 라운딩을 즐길 수 있습니다.
 ---
+
 
 ## Course Overview
 

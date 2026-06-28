@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Wakamatsu Golf Club"
-lat: "33.9144"
-lng: "130.7556"
-categories: "Private Club, Seaside Links, Historic"
-thumbnail: "/static/images/wakamatsu_golf_club.jpg"
-address: "Kitakyushu, Fukuoka"
-date: "2026-06-19"
-booking: "/booking/wakamatsu_golf_club_ko"
-summary: "1952년 개장한 후쿠오카 기타큐슈의 와카마쓰 골프 클럽은 해안가 링크스 스타일의 18홀 코스로, 전략적인 플레이를 요구합니다."
+lang: ko
+title: Wakamatsu Golf Club
+lat: '33.9144'
+lng: '130.7556'
+categories: Private Club, Seaside Links, Historic
+thumbnail: /static/images/wakamatsu_golf_club.jpg
+address: Kitakyushu, Fukuoka
+date: '2026-06-27'
+booking: /booking/wakamatsu_golf_club_ko
+summary: 1952년 개장한 후쿠오카 기타큐슈의 와카마쓰 골프 클럽은 해안가 링크스 스타일의 18홀 코스로, 전략적인 플레이를 요구합니다.
 ---
+
 
 ## 코스 개요
 

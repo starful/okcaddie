@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Okinawa Country Club"
-lat: "26.2544"
-lng: "127.7556"
-categories: "Value for Money, Historic, Scenic"
-thumbnail: "/static/images/okinawa_country_club.jpg"
-address: "Nishihara, Okinawa"
-date: "2026-06-26"
-booking: "/booking/okinawa_country_club_en"
-summary: "Okinawa Country Club, opened in 1968, offers a strategic 18-hole golf experience near Naha with distinct ocean views and consistent value."
+lang: en
+title: Okinawa Country Club
+lat: '26.2544'
+lng: '127.7556'
+categories: Value for Money, Historic, Scenic
+thumbnail: /static/images/okinawa_country_club.jpg
+address: Nishihara, Okinawa
+date: '2026-06-27'
+booking: /booking/okinawa_country_club_en
+summary: Okinawa Country Club, opened in 1968, offers a strategic 18-hole golf experience
+  near Naha with distinct ocean views and consistent value.
 ---
+
 
 ## Course Overview
 Okinawa Country Club, established in 1968 and designed by K. Kobayashi, presents an 18-hole, par 72 challenge with total yardage typically ranging from 6,400 to 6,800 yards from the back tees. Fairways are generally surfaced with Zoysia grass, providing a firm playing surface, while the greens feature Bentgrass for consistent putting.

@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Tokushima Golf Club"
-lat: "34.0144"
-lng: "134.5556"
-categories: "Value for Money, Forest Course, Historic"
-thumbnail: "/static/images/tokushima_golf_club.jpg"
-address: "Tokushima, Tokushima"
-date: "2026-06-06"
-booking: "/booking/tokushima_golf_club_ko"
-summary: "도쿠시마 골프 클럽은 도쿠시마 시내에서 약 20분 거리에 위치하며, 수십 년의 역사를 지닌 숲 코스로 합리적인 가격에 전략적인 라운드를 즐길 수 있습니다."
+lang: ko
+title: Tokushima Golf Club
+lat: '34.0144'
+lng: '134.5556'
+categories: Value for Money, Forest Course, Historic
+thumbnail: /static/images/tokushima_golf_club.jpg
+address: Tokushima, Tokushima
+date: '2026-06-27'
+booking: /booking/tokushima_golf_club_ko
+summary: 도쿠시마 골프 클럽은 도쿠시마 시내에서 약 20분 거리에 위치하며, 수십 년의 역사를 지닌 숲 코스로 합리적인 가격에 전략적인 라운드를
+  즐길 수 있습니다.
 ---
+
 ## 코스 개요
 
 도쿠시마 골프 클럽은 도쿠시마 현 도쿠시마시에 자리한 18홀, 파72의 산림 코스입니다. 수십 년의 역사를 지닌 이 코스는 울창한 숲을 배경으로 한 고전적인 레이아웃이 특징입니다. 챔피언 티 기준 총 전장은 약 6,700~7,000야드 범위로, 좁고 기복이 있는 페어웨이가 전략적인 티샷을 요구합니다.

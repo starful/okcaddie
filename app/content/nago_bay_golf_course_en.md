@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Nago Bay Golf Course"
-lat: "26.5544"
-lng: "127.9556"
-categories: "Value for Money, Ocean View, Scenic"
-thumbnail: "/static/images/nago_bay_golf_course.jpg"
-address: "Nago, Okinawa"
-date: "2026-06-26"
-booking: "/booking/nago_bay_golf_course_en"
-summary: "Nago Bay Golf Course, an 18-hole, par-72 layout in Nago, Okinawa, offers strategic play and consistent ocean views from its elevated fairways."
+lang: en
+title: Nago Bay Golf Course
+lat: '26.5544'
+lng: '127.9556'
+categories: Value for Money, Ocean View, Scenic
+thumbnail: /static/images/nago_bay_golf_course.jpg
+address: Nago, Okinawa
+date: '2026-06-27'
+booking: /booking/nago_bay_golf_course_en
+summary: Nago Bay Golf Course, an 18-hole, par-72 layout in Nago, Okinawa, offers
+  strategic play and consistent ocean views from its elevated fairways.
 ---
+
 ## Course Overview
 Nago Bay Golf Course offers an 18-hole, par-72 challenge overlooking the East China Sea. Opened in 1989, the course was designed by Hisayuki Sasaki and supervised by Isao Aoki. Measuring approximately 6,300 to 6,700 yards from its main tees, the layout features Bermuda grass fairways and bent grass greens. Constant ocean vistas and significant elevation changes are signature characteristics here.
 

@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Nagasaki International"
-lat: "32.8544"
-lng: "129.9556"
-categories: "Premium / Luxury, Mountain Style, Scenic"
-thumbnail: "/static/images/nagasaki_international.jpg"
-address: "Isahaya, Nagasaki"
-date: "2026-06-19"
-booking: "/booking/nagasaki_international_ko"
-summary: "Nagasaki International은 1960년 개장한 나가사키현 이사하야시의 산악형 프리미엄 코스로, 전략적인 레이아웃과 수려한 경관이 돋보입니다."
+lang: ko
+title: Nagasaki International
+lat: '32.8544'
+lng: '129.9556'
+categories: Premium / Luxury, Mountain Style, Scenic
+thumbnail: /static/images/nagasaki_international.jpg
+address: Isahaya, Nagasaki
+date: '2026-06-27'
+booking: /booking/nagasaki_international_ko
+summary: Nagasaki International은 1960년 개장한 나가사키현 이사하야시의 산악형 프리미엄 코스로, 전략적인 레이아웃과 수려한
+  경관이 돋보입니다.
 ---
+
 
 ## 코스 개요
 

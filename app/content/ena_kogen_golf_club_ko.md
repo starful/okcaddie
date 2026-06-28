@@ -2,7 +2,7 @@
 address: Ena, Gifu
 booking: /booking/ena_kogen_golf_club_ko
 categories: 가치, 산악형, 절경
-date: '2026-04-15'
+date: '2026-06-27'
 lang: ko
 lat: '35.4944'
 lng: '137.4156'
@@ -10,6 +10,7 @@ summary: '에나 고원 골프 클럽에 대한 8,000자 이상 전문가 심층
 thumbnail: /static/images/ena_kogen_golf_club.jpg
 title: '에나 고원 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 분석'
 ---
+
 
 ## 에나 고원 골프 클럽: 일본 골프의 정수를 만나다
 

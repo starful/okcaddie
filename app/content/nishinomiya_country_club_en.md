@@ -1,15 +1,18 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Nishinomiya Country Club: An Expert Review (en)"
-lat: "34.7844"
-lng: "135.3156"
-categories: "Private Club, Historic, Mountain Style"
-thumbnail: "/static/images/nishinomiya_country_club.jpg"
-address: "Nishinomiya, Hyogo"
-date: "2026-04-15"
-booking: "/booking/nishinomiya_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Nishinomiya Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy."
+lang: en
+title: 'The Definitive Guide to Nishinomiya Country Club: An Expert Review (en)'
+lat: '34.7844'
+lng: '135.3156'
+categories: Private Club, Historic, Mountain Style
+thumbnail: /static/images/nishinomiya_country_club.jpg
+address: Nishinomiya, Hyogo
+date: '2026-06-27'
+booking: /booking/nishinomiya_country_club_en
+summary: A comprehensive 9,000-character master guide to Nishinomiya Country Club,
+  covering strategy, history, and luxury facilities, penned by an elite Japanese golf
+  course rater and senior caddy.
 ---
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service, I have walked the hallowed fairways of countless prestigious clubs across the archipelago. Yet, few resonate with the profound historical gravitas and strategic brilliance of Nishinomiya Country Club. Nestled amidst the verdant embrace of the Rokko Mountains in Hyogo Prefecture, Nishinomiya is not merely a golf course; it is an institution, a living testament to the evolution of Japanese golf, and a masterpiece of design that demands respect, intellect, and precision from every player. This comprehensive review, meticulously crafted for the discerning patrons of OKCaddie, aims to provide an unparalleled insight into a club that truly defines the pinnacle of the Japanese golfing experience.
 

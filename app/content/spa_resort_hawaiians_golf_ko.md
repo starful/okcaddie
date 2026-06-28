@@ -2,7 +2,7 @@
 address: 일본 후쿠시마현 이와키시
 booking: /booking/spa_resort_hawaiians_golf_ko
 categories: Stay & Play, Easy Booking, Family Friendly
-date: '2026-04-15'
+date: '2026-06-27'
 lang: ko
 lat: '36.9644'
 lng: '140.8156'
@@ -10,6 +10,7 @@ summary: 스파리조트 하와이언즈 골프의 역사, 코스 전략, 최고
 thumbnail: /static/images/spa_resort_hawaiians_golf.jpg
 title: '스파리조트 하와이언즈 골프 마스터 가이드: 전문가 리뷰 (ko)'
 ---
+
 
 ## 스파리조트 하와이언즈 골프: 품격과 전략이 숨 쉬는 명문 코스 (Spa Resort Hawaiians Golf)
 

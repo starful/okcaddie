@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Ehime Golf Club Main"
-lat: "33.7544"
-lng: "132.7556"
-categories: "Value for Money, Mountain Style, Forest"
-thumbnail: "/static/images/ehime_golf_club_main.jpg"
-address: "Uchiko, Ehime"
-date: "2026-06-06"
-booking: "/booking/ehime_golf_club_main_en"
-summary: "Ehime Golf Club Main offers a challenging 18-hole, par-72 mountain course near Uchiko, Ehime, emphasizing strategic play and excellent value for money."
+lang: en
+title: Ehime Golf Club Main
+lat: '33.7544'
+lng: '132.7556'
+categories: Value for Money, Mountain Style, Forest
+thumbnail: /static/images/ehime_golf_club_main.jpg
+address: Uchiko, Ehime
+date: '2026-06-27'
+booking: /booking/ehime_golf_club_main_en
+summary: Ehime Golf Club Main offers a challenging 18-hole, par-72 mountain course
+  near Uchiko, Ehime, emphasizing strategic play and excellent value for money.
 ---
+
 
 ## Course Overview
 Ehime Golf Club Main provides a challenging 18-hole, par-72 experience set amidst the mountainous terrain of Uchiko. While the original designer is not widely publicized, the course, likely established in the 1970s or 1980s, embodies the classic Japanese mountain-style layout, demanding precision over raw power. From the back tees, the course typically plays between 6,800 and 7,100 yards, with fairways predominantly Zoysia grass and greens generally Bentgrass, ensuring consistent playing surfaces throughout the year. Its signature characteristics include significant elevation changes, tight, tree-lined fairways that punish errant shots, and strategic bunkering that protects greens and dictates tee shot placement.

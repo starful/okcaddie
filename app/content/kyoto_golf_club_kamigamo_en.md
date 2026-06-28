@@ -1,15 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Kyoto Golf Club Kamigamo: An Expert Review by an Elite Rater & Senior Caddy"
-lat: "35.0644"
-lng: "135.7556"
-categories: "Private Club, Historic, Premium / Luxury"
-thumbnail: "/static/images/kyoto_golf_club_kamigamo.jpg"
-address: "Kyoto, Kyoto"
-date: "2026-04-15"
-booking: "/booking/kyoto_golf_club_kamigamo_en"
-summary: "A comprehensive 9,000-character master guide to Kyoto Golf Club Kamigamo, covering strategic architectural analysis, historical prestige, luxury facilities, and expert caddy tips for an unparalleled golfing experience in Japan's ancient capital."
+lang: en
+title: 'The Definitive Guide to Kyoto Golf Club Kamigamo: An Expert Review by an Elite
+  Rater & Senior Caddy'
+lat: '35.0644'
+lng: '135.7556'
+categories: Private Club, Historic, Premium / Luxury
+thumbnail: /static/images/kyoto_golf_club_kamigamo.jpg
+address: Kyoto, Kyoto
+date: '2026-06-27'
+booking: /booking/kyoto_golf_club_kamigamo_en
+summary: A comprehensive 9,000-character master guide to Kyoto Golf Club Kamigamo,
+  covering strategic architectural analysis, historical prestige, luxury facilities,
+  and expert caddy tips for an unparalleled golfing experience in Japan's ancient
+  capital.
 ---
+
 
 ## Kyoto Golf Club Kamigamo: A Masterpiece Forged in History and Precision
 

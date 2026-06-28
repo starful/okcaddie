@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Nago Bay Golf Course"
-lat: "26.5544"
-lng: "127.9556"
-categories: "Value for Money, Ocean View, Scenic"
-thumbnail: "/static/images/nago_bay_golf_course.jpg"
-address: "Nago, Okinawa"
-date: "2026-06-26"
-booking: "/booking/nago_bay_golf_course_ko"
-summary: "오키나와 나고시에 위치한 나고 베이 골프 코스는 합리적인 가격에 탁 트인 바다 전망을 제공하는 18홀 코스입니다."
+lang: ko
+title: Nago Bay Golf Course
+lat: '26.5544'
+lng: '127.9556'
+categories: Value for Money, Ocean View, Scenic
+thumbnail: /static/images/nago_bay_golf_course.jpg
+address: Nago, Okinawa
+date: '2026-06-27'
+booking: /booking/nago_bay_golf_course_ko
+summary: 오키나와 나고시에 위치한 나고 베이 골프 코스는 합리적인 가격에 탁 트인 바다 전망을 제공하는 18홀 코스입니다.
 ---
+
 
 ## Course Overview
 나고 베이 골프 코스는 오키나와 나고시 해안선을 따라 펼쳐진 18홀, 파 72의 대중 골프장입니다. 1974년에 개장했으며, 약 6,000~6,300야드 사이의 전장을 제공하여 다양한 수준의 골퍼들이 즐길 수 있도록 설계되었습니다. 페어웨이는 버뮤다 잔디, 그린은 티프드워프 버뮤다 잔디로 조성되어 있어 오키나와의 기후에 적합한 플레이 환경을 제공합니다. 이 코스는 합리적인 가격과 태평양을 조망하는 멋진 경치, 그리고 전략적인 코스 설계가 특징입니다.

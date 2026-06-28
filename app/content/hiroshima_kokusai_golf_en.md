@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Hiroshima Kokusai Golf"
-lat: "34.5544"
-lng: "132.7156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/hiroshima_kokusai_golf.jpg"
-address: "Higashihiroshima, Hiroshima"
-date: "2026-05-13"
-booking: "/booking/hiroshima_kokusai_golf_en"
-summary: "Hiroshima Kokusai Golf offers 18 holes of scenic mountain golf in Higashihiroshima, providing excellent value for money from ¥8,000."
+lang: en
+title: Hiroshima Kokusai Golf
+lat: '34.5544'
+lng: '132.7156'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/hiroshima_kokusai_golf.jpg
+address: Higashihiroshima, Hiroshima
+date: '2026-06-27'
+booking: /booking/hiroshima_kokusai_golf_en
+summary: Hiroshima Kokusai Golf offers 18 holes of scenic mountain golf in Higashihiroshima,
+  providing excellent value for money from ¥8,000.
 ---
+
 
 ## Course Overview
 

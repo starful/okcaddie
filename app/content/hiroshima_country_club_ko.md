@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "히로시마 컨트리클럽"
-lat: "34.4544"
-lng: "132.6156"
-categories: "Private Club, Championship, Forest Course"
-thumbnail: "/static/images/hiroshima_country_club.jpg"
-address: "Higashihiroshima, Hiroshima"
-date: "2026-05-13"
-booking: "/booking/hiroshima_country_club_ko"
-summary: "히로시마현 히가시히로시마에 위치한 27홀 챔피언십 코스로, 정교한 샷을 요구하는 전형적인 산악 코스입니다."
+lang: ko
+title: 히로시마 컨트리클럽
+lat: '34.4544'
+lng: '132.6156'
+categories: Private Club, Championship, Forest Course
+thumbnail: /static/images/hiroshima_country_club.jpg
+address: Higashihiroshima, Hiroshima
+date: '2026-06-27'
+booking: /booking/hiroshima_country_club_ko
+summary: 히로시마현 히가시히로시마에 위치한 27홀 챔피언십 코스로, 정교한 샷을 요구하는 전형적인 산악 코스입니다.
 ---
+
 
 ## 코스 개요
 

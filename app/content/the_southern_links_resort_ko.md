@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "The Southern Links Resort"
-lat: "26.1144"
-lng: "127.7356"
-categories: "Seaside Links, Premium / Luxury, Resort"
-thumbnail: "/static/images/the_southern_links_resort.jpg"
-address: "Yaese, Okinawa"
-date: "2026-06-26"
-booking: "/booking/the_southern_links_resort_ko"
-summary: "오키나와의 야에세에 위치한 더 서던 링크스 리조트는 1988년 개장한 18홀, 파 72의 프리미엄 해안 링크스 코스입니다."
+lang: ko
+title: The Southern Links Resort
+lat: '26.1144'
+lng: '127.7356'
+categories: Seaside Links, Premium / Luxury, Resort
+thumbnail: /static/images/the_southern_links_resort.jpg
+address: Yaese, Okinawa
+date: '2026-06-27'
+booking: /booking/the_southern_links_resort_ko
+summary: 오키나와의 야에세에 위치한 더 서던 링크스 리조트는 1988년 개장한 18홀, 파 72의 프리미엄 해안 링크스 코스입니다.
 ---
+
 
 ## 코스 개요
 

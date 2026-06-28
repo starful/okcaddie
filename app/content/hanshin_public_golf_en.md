@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Hanshin Public Golf"
-lat: "34.7544"
-lng: "135.3156"
-categories: "Value for Money, River Side, Easy Access"
-thumbnail: "/static/images/hanshin_public_golf.jpg"
-address: "Amagasaki, Hyogo"
-date: "2026-05-13"
-booking: "/booking/hanshin_public_golf_en"
-summary: "Hanshin Public Golf in Amagasaki, Hyogo, offers a flat, river-side 18-hole experience with excellent value and convenient access from Osaka and Kobe."
+lang: en
+title: Hanshin Public Golf
+lat: '34.7544'
+lng: '135.3156'
+categories: Value for Money, River Side, Easy Access
+thumbnail: /static/images/hanshin_public_golf.jpg
+address: Amagasaki, Hyogo
+date: '2026-06-27'
+booking: /booking/hanshin_public_golf_en
+summary: Hanshin Public Golf in Amagasaki, Hyogo, offers a flat, river-side 18-hole
+  experience with excellent value and convenient access from Osaka and Kobe.
 ---
+
 
 ## Course Overview
 

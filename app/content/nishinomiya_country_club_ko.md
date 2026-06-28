@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "니시노미야 컨트리 클럽 완벽 가이드: 명예로운 전통과 정교한 전략의 조화 (OKCaddie 전문가 리뷰)"
-lat: "34.7844"
-lng: "135.3156"
-categories: "Private Club, Historic, Mountain Style"
-thumbnail: "/static/images/nishinomiya_country_club.jpg"
-address: "Nishinomiya, Hyogo"
-date: "2026-04-15"
-booking: "/booking/nishinomiya_country_club_ko"
-summary: "니시노미야 컨트리 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 망라한 전문가 리뷰."
+lang: ko
+title: '니시노미야 컨트리 클럽 완벽 가이드: 명예로운 전통과 정교한 전략의 조화 (OKCaddie 전문가 리뷰)'
+lat: '34.7844'
+lng: '135.3156'
+categories: Private Club, Historic, Mountain Style
+thumbnail: /static/images/nishinomiya_country_club.jpg
+address: Nishinomiya, Hyogo
+date: '2026-06-27'
+booking: /booking/nishinomiya_country_club_ko
+summary: 니시노미야 컨트리 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 망라한 전문가 리뷰.
 ---
+
 
 골프 애호가 여러분, 그리고 일본 골프의 진수를 추구하는 분들께. 저는 20년 경력의 일본인 수석 캐디이자 일본 유수의 골프 코스 평가자로, 오늘 여러분께 간사이 지역을 대표하는 명문 중의 명문, '니시노미야 컨트리 클럽'에 대한 심층 분석을 선사하고자 합니다. 단순한 라운딩 후기가 아닌, 이 클럽이 가진 역사적 가치와 건축학적 미학, 그리고 전략적 깊이를 파헤치는 마스터피스 리뷰가 될 것임을 약속드립니다.
 

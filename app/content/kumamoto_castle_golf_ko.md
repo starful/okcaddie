@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Kumamoto Castle Golf"
-lat: "32.7544"
-lng: "130.7556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kumamoto_castle_golf.jpg"
-address: "Kumamoto, Kumamoto"
-date: "2026-06-19"
-booking: "/booking/kumamoto_castle_golf_ko"
-summary: "구마모토 현에 자리한 구마모토 캐슬 골프는 약 6,500~6,800야드 규모의 18홀 산악 코스로, 합리적인 가격에 빼어난 경관을 선사합니다."
+lang: ko
+title: Kumamoto Castle Golf
+lat: '32.7544'
+lng: '130.7556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kumamoto_castle_golf.jpg
+address: Kumamoto, Kumamoto
+date: '2026-06-27'
+booking: /booking/kumamoto_castle_golf_ko
+summary: 구마모토 현에 자리한 구마모토 캐슬 골프는 약 6,500~6,800야드 규모의 18홀 산악 코스로, 합리적인 가격에 빼어난 경관을
+  선사합니다.
 ---
+
 
 ## Course Overview
 구마모토 캐슬 골프는 구마모토현의 아름다운 자연 속에 자리한 18홀, 파 72의 산악 스타일 코스입니다. 총 길이는 약 6,500~6,800야드 사이로, 전략적인 플레이를 요구하는 다채로운 레이아웃을 자랑합니다. 정확한 설계자나 개장 연도는 알려져 있지 않지만, 코스 전체에서 구마모토의 수려한 산악 경관을 만끽할 수 있습니다.

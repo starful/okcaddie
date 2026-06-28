@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kagoshima Takachiho"
-lat: "31.8544"
-lng: "130.8556"
-categories: "Stay & Play, Mountain Style, Scenic"
-thumbnail: "/static/images/kagoshima_takachiho.jpg"
-address: "Kirishima, Kagoshima"
-date: "2026-06-19"
-booking: "/booking/kagoshima_takachiho_en"
-summary: "Kagoshima Takachiho offers 18 holes of scenic mountain golf in Kirishima, Kagoshima, featuring dramatic elevation changes and a relaxing onsen."
+lang: en
+title: Kagoshima Takachiho
+lat: '31.8544'
+lng: '130.8556'
+categories: Stay & Play, Mountain Style, Scenic
+thumbnail: /static/images/kagoshima_takachiho.jpg
+address: Kirishima, Kagoshima
+date: '2026-06-27'
+booking: /booking/kagoshima_takachiho_en
+summary: Kagoshima Takachiho offers 18 holes of scenic mountain golf in Kirishima,
+  Kagoshima, featuring dramatic elevation changes and a relaxing onsen.
 ---
+
 
 ## Course Overview
 

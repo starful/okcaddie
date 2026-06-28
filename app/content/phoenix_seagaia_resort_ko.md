@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Phoenix Seagaia Resort"
-lat: "31.9544"
-lng: "131.4556"
-categories: "Stay & Play, Premium / Luxury, Resort"
-thumbnail: "/static/images/phoenix_seagaia_resort.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-06-19"
-booking: "/booking/phoenix_seagaia_resort_ko"
-summary: "미야자키에 위치한 피닉스 컨트리클럽은 톰 파지오가 리노베이션한 27홀 챔피언십 코스로, 소나무 숲과 태평양 전망이 특징입니다."
+lang: ko
+title: Phoenix Seagaia Resort
+lat: '31.9544'
+lng: '131.4556'
+categories: Stay & Play, Premium / Luxury, Resort
+thumbnail: /static/images/phoenix_seagaia_resort.jpg
+address: Miyazaki, Miyazaki
+date: '2026-06-27'
+booking: /booking/phoenix_seagaia_resort_ko
+summary: 미야자키에 위치한 피닉스 컨트리클럽은 톰 파지오가 리노베이션한 27홀 챔피언십 코스로, 소나무 숲과 태평양 전망이 특징입니다.
 ---
+
 ## 코스 개요
 
 피닉스 컨트리클럽은 미야자키 피닉스 시가이아 리조트 내에 자리하며, 스미요시(住吉), 다카치호(高千穂), 에비노(えびの)의 세 코스로 구성된 총 27홀 파 108의 챔피언십 코스입니다. 각 18홀 조합은 레귤러 티 기준으로 약 6,500-7,000야드 범위에서 플레이되며, 스미요시 코스는 던롭 피닉스 토너먼트 개최지로 잘 알려져 있습니다.

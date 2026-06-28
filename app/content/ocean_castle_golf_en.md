@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Ocean Castle Golf"
-lat: "26.2844"
-lng: "127.7856"
-categories: "Ocean View, Scenic View, Value"
-thumbnail: "/static/images/ocean_castle_golf.jpg"
-address: "Nakagusuku, Okinawa"
-date: "2026-06-26"
-booking: "/booking/ocean_castle_golf_en"
-summary: "Ocean Castle Golf, nestled in Nakagusuku, Okinawa, offers 18 holes with expansive Pacific Ocean views and solid value for golfers."
+lang: en
+title: Ocean Castle Golf
+lat: '26.2844'
+lng: '127.7856'
+categories: Ocean View, Scenic View, Value
+thumbnail: /static/images/ocean_castle_golf.jpg
+address: Nakagusuku, Okinawa
+date: '2026-06-27'
+booking: /booking/ocean_castle_golf_en
+summary: Ocean Castle Golf, nestled in Nakagusuku, Okinawa, offers 18 holes with expansive
+  Pacific Ocean views and solid value for golfers.
 ---
+
 
 ## Course Overview
 Ocean Castle Golf is typically an 18-hole, par 72 layout. The course yardage generally spans around 6,500 to 6,800 yards from the regular tees, extending closer to 7,000 yards from the championship markers. While specific details on the original designer and opening year are not widely available, the course is recognized for its integration with Okinawa's natural landscape.

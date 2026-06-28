@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Kagawa Prefectural Golf"
-lat: "34.3144"
-lng: "134.0556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kagawa_prefectural_golf.jpg"
-address: "Takamatsu, Kagawa"
-date: "2026-06-06"
-booking: "/booking/kagawa_prefectural_golf_ko"
-summary: "가가와현 다카마쓰에 위치한 가성비 좋은 산악형 골프 코스입니다. 총 18홀, 파 72로, 세토 내해와 산악 경관을 조망하며 전략적인 라운딩을 즐길 수 있습니다."
+lang: ko
+title: Kagawa Prefectural Golf
+lat: '34.3144'
+lng: '134.0556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kagawa_prefectural_golf.jpg
+address: Takamatsu, Kagawa
+date: '2026-06-27'
+booking: /booking/kagawa_prefectural_golf_ko
+summary: 가가와현 다카마쓰에 위치한 가성비 좋은 산악형 골프 코스입니다. 총 18홀, 파 72로, 세토 내해와 산악 경관을 조망하며 전략적인
+  라운딩을 즐길 수 있습니다.
 ---
+
 ## 코스 개요
 
 가가와현 다카마쓰시에 자리한 가가와현립 골프 코스는 18홀, 파 72의 규격으로 운영됩니다. 레귤러 티 기준 약 6,600야드에서 6,900야드 사이의 전장을 제공하며, 전략적인 샷 메이킹을 요구하는 산악 지형 코스입니다. 페어웨이는 조선 잔디(Zoysia grass), 그린은 벤트 그라스(Bent grass)로 조성되어 있습니다.

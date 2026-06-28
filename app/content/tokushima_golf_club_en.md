@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Tokushima Golf Club"
-lat: "34.0144"
-lng: "134.5556"
-categories: "Value for Money, Forest Course, Historic"
-thumbnail: "/static/images/tokushima_golf_club.jpg"
-address: "Tokushima, Tokushima"
-date: "2026-06-06"
-booking: "/booking/tokushima_golf_club_en"
-summary: "Tokushima Golf Club offers 18 holes of classic Japanese forest golf near Tokushima City, providing excellent value with its mature tree-lined fairways."
+lang: en
+title: Tokushima Golf Club
+lat: '34.0144'
+lng: '134.5556'
+categories: Value for Money, Forest Course, Historic
+thumbnail: /static/images/tokushima_golf_club.jpg
+address: Tokushima, Tokushima
+date: '2026-06-27'
+booking: /booking/tokushima_golf_club_en
+summary: Tokushima Golf Club offers 18 holes of classic Japanese forest golf near
+  Tokushima City, providing excellent value with its mature tree-lined fairways.
 ---
+
 
 ## Course Overview
 

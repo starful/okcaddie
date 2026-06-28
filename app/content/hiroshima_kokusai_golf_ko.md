@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Hiroshima Kokusai Golf"
-lat: "34.5544"
-lng: "132.7156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/hiroshima_kokusai_golf.jpg"
-address: "Higashihiroshima, Hiroshima"
-date: "2026-05-13"
-booking: "/booking/hiroshima_kokusai_golf_ko"
-summary: "히로시마 고쿠사이 골프는 동히로시마의 산악 지형을 활용한 경치 좋은 가성비 코스로, 전략적인 플레이를 요구하는 27홀을 제공합니다."
+lang: ko
+title: Hiroshima Kokusai Golf
+lat: '34.5544'
+lng: '132.7156'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/hiroshima_kokusai_golf.jpg
+address: Higashihiroshima, Hiroshima
+date: '2026-06-27'
+booking: /booking/hiroshima_kokusai_golf_ko
+summary: 히로시마 고쿠사이 골프는 동히로시마의 산악 지형을 활용한 경치 좋은 가성비 코스로, 전략적인 플레이를 요구하는 27홀을 제공합니다.
 ---
+
 
 ## 코스 개요
 

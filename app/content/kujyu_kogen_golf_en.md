@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kujyu Kogen Golf"
-lat: "33.0544"
-lng: "131.2556"
-categories: "Mountain Style, Scenic View, High Altitude"
-thumbnail: "/static/images/kujyu_kogen_golf.jpg"
-address: "Taketa, Oita"
-date: "2026-06-19"
-booking: "/booking/kujyu_kogen_golf_en"
-summary: "Kujyu Kogen Golf in Taketa, Oita, offers 18 holes of strategic mountain-style golf, often playing shorter than its 6,400-6,800 yards due to high altitude."
+lang: en
+title: Kujyu Kogen Golf
+lat: '33.0544'
+lng: '131.2556'
+categories: Mountain Style, Scenic View, High Altitude
+thumbnail: /static/images/kujyu_kogen_golf.jpg
+address: Taketa, Oita
+date: '2026-06-27'
+booking: /booking/kujyu_kogen_golf_en
+summary: Kujyu Kogen Golf in Taketa, Oita, offers 18 holes of strategic mountain-style
+  golf, often playing shorter than its 6,400-6,800 yards due to high altitude.
 ---
+
 
 ## Course Overview
 Kujyu Kogen Golf offers 18 holes of mountain-style golf, typically playing to a par of 72. The course measures around 6,400 to 6,800 yards from the regular tees, often playing shorter due to its high altitude setting. Fairways are generally Zoysia, with Bentgrass greens, a common combination in this region of Japan. This course is characterized by significant elevation changes, requiring precise shot selection and offering panoramic vistas across the Kuju mountain range.

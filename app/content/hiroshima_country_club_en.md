@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Hiroshima Country Club"
-lat: "34.4544"
-lng: "132.6156"
-categories: "Private Club, Championship, Forest Course"
-thumbnail: "/static/images/hiroshima_country_club.jpg"
-address: "Higashihiroshima, Hiroshima"
-date: "2026-05-13"
-booking: "/booking/hiroshima_country_club_en"
-summary: "Hiroshima Country Club, established in 1963, offers a challenging championship forest course experience near Higashihiroshima."
+lang: en
+title: Hiroshima Country Club
+lat: '34.4544'
+lng: '132.6156'
+categories: Private Club, Championship, Forest Course
+thumbnail: /static/images/hiroshima_country_club.jpg
+address: Higashihiroshima, Hiroshima
+date: '2026-06-27'
+booking: /booking/hiroshima_country_club_en
+summary: Hiroshima Country Club, established in 1963, offers a challenging championship
+  forest course experience near Higashihiroshima.
 ---
+
 
 ## Course Overview
 

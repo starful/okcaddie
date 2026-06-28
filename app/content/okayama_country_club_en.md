@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Okayama Country Club"
-lat: "34.7144"
-lng: "133.9156"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/okayama_country_club.jpg"
-address: "Okayama, Okayama"
-date: "2026-05-13"
-booking: "/booking/okayama_country_club_en"
-summary: "Okayama Country Club is a historic 18-hole private forest course near Okayama City, offering strategic play for experienced golfers."
+lang: en
+title: Okayama Country Club
+lat: '34.7144'
+lng: '133.9156'
+categories: Private Club, Historic, Forest Course
+thumbnail: /static/images/okayama_country_club.jpg
+address: Okayama, Okayama
+date: '2026-06-27'
+booking: /booking/okayama_country_club_en
+summary: Okayama Country Club is a historic 18-hole private forest course near Okayama
+  City, offering strategic play for experienced golfers.
 ---
+
 
 ## Course Overview
 

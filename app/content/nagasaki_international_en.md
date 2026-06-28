@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Nagasaki International"
-lat: "32.8544"
-lng: "129.9556"
-categories: "Premium / Luxury, Mountain Style, Scenic"
-thumbnail: "/static/images/nagasaki_international.jpg"
-address: "Isahaya, Nagasaki"
-date: "2026-06-19"
-booking: "/booking/nagasaki_international_en"
-summary: "Nagasaki International, situated in Isahaya, Nagasaki, offers a premium mountain-style golf experience across 18 holes with dramatic coastal views."
+lang: en
+title: Nagasaki International
+lat: '32.8544'
+lng: '129.9556'
+categories: Premium / Luxury, Mountain Style, Scenic
+thumbnail: /static/images/nagasaki_international.jpg
+address: Isahaya, Nagasaki
+date: '2026-06-27'
+booking: /booking/nagasaki_international_en
+summary: Nagasaki International, situated in Isahaya, Nagasaki, offers a premium mountain-style
+  golf experience across 18 holes with dramatic coastal views.
 ---
+
 ## Course Overview
 Nagasaki International offers an 18-hole, par-72 championship experience, with the course typically playing between 6,800 and 7,100 yards from the back tees. While specific design details are not widely publicized, its layout reflects the strategic characteristics of Japan's late 20th-century golf boom. Fairways are generally Zoysia, providing a firm playing surface, while the meticulously maintained greens feature Bentgrass, ensuring consistent roll. A signature aspect is its dramatic elevation changes, combining mountain-style play with expansive views of the Omura Bay and the East China Sea.
 

@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Okayama Royal Golf"
-lat: "34.8544"
-lng: "133.8556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/okayama_royal_golf.jpg"
-address: "Kibi, Okayama"
-date: "2026-05-13"
-booking: "/booking/okayama_royal_golf_ko"
-summary: "오카야마 로얄 골프는 오카야마현 기비 지역에 위치하며, 전략적 산악 코스와 뛰어난 가성비로 18홀 라운딩의 만족을 선사합니다."
+lang: ko
+title: Okayama Royal Golf
+lat: '34.8544'
+lng: '133.8556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/okayama_royal_golf.jpg
+address: Kibi, Okayama
+date: '2026-06-27'
+booking: /booking/okayama_royal_golf_ko
+summary: 오카야마 로얄 골프는 오카야마현 기비 지역에 위치하며, 전략적 산악 코스와 뛰어난 가성비로 18홀 라운딩의 만족을 선사합니다.
 ---
+
 
 ## 코스 개요
 오카야마 로얄 골프는 일본 오카야마현의 기비 지역에 자리 잡은 유서 깊은 산악 스타일의 18홀, 파 72 골프 코스입니다. 1970년대 후반에 조성된 이 코스는 자연의 지형을 최대한 활용하여 설계되었으며, 약 6,500~7,000야드 (레귤러 티 기준)의 전장을 자랑합니다. 벤트그라스 그린과 조이시아/버뮤다 혼합 잔디 페어웨이는 일본의 사계절 기후에 적합하도록 관리되고 있으며, 전반적으로 오카야마의 수려한 자연 경관을 배경으로 전략적인 플레이를 요구하는 것이 특징입니다. 각 홀마다 고저차가 존재하여 클럽 선택에 신중을 기해야 하며, 특히 탁 트인 전망을 제공하는 홀들이 많아 경관을 즐기며 라운드하기에 좋습니다.

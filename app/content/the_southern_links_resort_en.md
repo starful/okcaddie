@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Southern Links Resort"
-lat: "26.1144"
-lng: "127.7356"
-categories: "Seaside Links, Premium / Luxury, Resort"
-thumbnail: "/static/images/the_southern_links_resort.jpg"
-address: "Yaese, Okinawa"
-date: "2026-06-26"
-booking: "/booking/the_southern_links_resort_en"
-summary: "The Southern Links Resort in Yaese, Okinawa, features 18 holes of par 72 golf, playing around 6,700-6,900 yards along dramatic clifftops."
+lang: en
+title: The Southern Links Resort
+lat: '26.1144'
+lng: '127.7356'
+categories: Seaside Links, Premium / Luxury, Resort
+thumbnail: /static/images/the_southern_links_resort.jpg
+address: Yaese, Okinawa
+date: '2026-06-27'
+booking: /booking/the_southern_links_resort_en
+summary: The Southern Links Resort in Yaese, Okinawa, features 18 holes of par 72
+  golf, playing around 6,700-6,900 yards along dramatic clifftops.
 ---
+
 ## Course Overview
 The Southern Links Resort offers an 18-hole, par 72 layout, playing approximately 6,700 to 6,900 yards from the championship tees. Designed by Osamu Ueda and opened in 1989, the course is known for its dramatic seaside "links-style" holes perched atop ocean cliffs. Fairways and greens are typically maintained with Platinum Paspalum, a warm-season grass well-suited for the Okinawan climate.
 

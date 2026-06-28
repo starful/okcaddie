@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Takamatsu Country Club"
-lat: "34.3544"
-lng: "133.9156"
-categories: "Historic, Seaside Links, Scenic View"
-thumbnail: "/static/images/takamatsu_country_club.jpg"
-address: "Sakaide, Kagawa"
-date: "2026-05-13"
-booking: "/booking/takamatsu_country_club_en"
-summary: "Takamatsu Country Club, established in 1961, offers 18 holes of historic seaside golf with expansive views over the Seto Inland Sea from Kagawa Prefecture."
+lang: en
+title: Takamatsu Country Club
+lat: '34.3544'
+lng: '133.9156'
+categories: Historic, Seaside Links, Scenic View
+thumbnail: /static/images/takamatsu_country_club.jpg
+address: Sakaide, Kagawa
+date: '2026-06-27'
+booking: /booking/takamatsu_country_club_en
+summary: Takamatsu Country Club, established in 1961, offers 18 holes of historic
+  seaside golf with expansive views over the Seto Inland Sea from Kagawa Prefecture.
 ---
+
 
 ## Course Overview
 

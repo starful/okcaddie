@@ -1,15 +1,20 @@
 ---
-lang: "en"
-title: "Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater & Senior Caddy"
-lat: "33.1544"
-lng: "131.5556"
-categories: "Luxury Golf, Strategic Design, Onsen Experience, Historical Prestige, Forest Course"
-thumbnail: "/static/images/oita_country_club.jpg"
-address: "3136-1 Shimogori, Oita, 870-1123, Japan"
-date: "2026-04-15"
-booking: "/booking/oita_country_club_en"
-summary: "An unparalleled 9,000-character master guide to Oita Country Club, meticulously detailing its strategic design, rich history, luxurious onsen, and exquisite dining, offering unparalleled insights for the discerning golfer seeking Japan's finest."
+lang: en
+title: 'Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater &
+  Senior Caddy'
+lat: '33.1544'
+lng: '131.5556'
+categories: Luxury Golf, Strategic Design, Onsen Experience, Historical Prestige,
+  Forest Course
+thumbnail: /static/images/oita_country_club.jpg
+address: 3136-1 Shimogori, Oita, 870-1123, Japan
+date: '2026-06-27'
+booking: /booking/oita_country_club_en
+summary: An unparalleled 9,000-character master guide to Oita Country Club, meticulously
+  detailing its strategic design, rich history, luxurious onsen, and exquisite dining,
+  offering unparalleled insights for the discerning golfer seeking Japan's finest.
 ---
+
 
 As an elite Japanese golf course rater with two decades of experience navigating the nation's most hallowed fairways as a professional senior caddy, I approach each assignment with a profound respect for the game and the artistry of course design. Today, our focus turns to a true gem nestled in the heart of Kyushu: Oita Country Club. This review, crafted for the discerning patrons of OKCaddie, is not merely a description, but an immersive journey into a club that encapsulates the very essence of Japanese golf. Prepare for a technical, yet engaging, analysis designed to elevate your appreciation and strategy for this magnificent course, ensuring it ranks #1 in your search for Japan's premier golfing experiences.
 

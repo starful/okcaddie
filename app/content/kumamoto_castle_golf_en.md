@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kumamoto Castle Golf"
-lat: "32.7544"
-lng: "130.7556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kumamoto_castle_golf.jpg"
-address: "Kumamoto, Kumamoto"
-date: "2026-06-19"
-booking: "/booking/kumamoto_castle_golf_en"
-summary: "Kumamoto Castle Golf offers 18 holes of scenic mountain-style play for around 7,000-16,000 JPY, located near Kumamoto city."
+lang: en
+title: Kumamoto Castle Golf
+lat: '32.7544'
+lng: '130.7556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kumamoto_castle_golf.jpg
+address: Kumamoto, Kumamoto
+date: '2026-06-27'
+booking: /booking/kumamoto_castle_golf_en
+summary: Kumamoto Castle Golf offers 18 holes of scenic mountain-style play for around
+  7,000-16,000 JPY, located near Kumamoto city.
 ---
+
 
 ## Course Overview
 Kumamoto Castle Golf presents a challenging 18-hole, par-72 layout for golfers seeking a genuine mountain-style experience. The course typically plays between 6,600 and 6,900 yards from the back tees, featuring significant elevation changes and panoramic vistas across the Kumamoto landscape. Fairways are generally Zoysia grass, providing a firm playing surface, while the greens are typically Bentgrass, offering true rolls with subtle breaks. Its design demands thoughtful shot placement and rewards strategic play, making it a compelling option in the region.

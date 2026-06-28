@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Okinawa Country Club"
-lat: "26.2544"
-lng: "127.7556"
-categories: "Value for Money, Historic, Scenic"
-thumbnail: "/static/images/okinawa_country_club.jpg"
-address: "Nishihara, Okinawa"
-date: "2026-06-26"
-booking: "/booking/okinawa_country_club_ko"
-summary: "오키나와 니시하라에 위치한 18홀, 파 72 코스로, 탁 트인 해안 풍광과 함께 합리적인 가격대의 전략적인 플레이를 경험할 수 있습니다."
+lang: ko
+title: Okinawa Country Club
+lat: '26.2544'
+lng: '127.7556'
+categories: Value for Money, Historic, Scenic
+thumbnail: /static/images/okinawa_country_club.jpg
+address: Nishihara, Okinawa
+date: '2026-06-27'
+booking: /booking/okinawa_country_club_ko
+summary: 오키나와 니시하라에 위치한 18홀, 파 72 코스로, 탁 트인 해안 풍광과 함께 합리적인 가격대의 전략적인 플레이를 경험할 수 있습니다.
 ---
+
 
 ## 코스 개요
 

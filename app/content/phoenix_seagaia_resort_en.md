@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Phoenix Seagaia Resort"
-lat: "31.9544"
-lng: "131.4556"
-categories: "Stay & Play, Premium / Luxury, Resort"
-thumbnail: "/static/images/phoenix_seagaia_resort.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-06-19"
-booking: "/booking/phoenix_seagaia_resort_en"
-summary: "Phoenix Seagaia Resort in Miyazaki offers 27 holes of championship golf across its Sumiyoshi and Takachiho courses, providing a premium resort experience."
+lang: en
+title: Phoenix Seagaia Resort
+lat: '31.9544'
+lng: '131.4556'
+categories: Stay & Play, Premium / Luxury, Resort
+thumbnail: /static/images/phoenix_seagaia_resort.jpg
+address: Miyazaki, Miyazaki
+date: '2026-06-27'
+booking: /booking/phoenix_seagaia_resort_en
+summary: Phoenix Seagaia Resort in Miyazaki offers 27 holes of championship golf across
+  its Sumiyoshi and Takachiho courses, providing a premium resort experience.
 ---
+
 ## Course Overview
 
 Phoenix Seagaia Resort hosts the renowned Phoenix Country Club, featuring 27 holes spread across the Sumiyoshi, Takachiho, and Hibiki courses. The championship combination, often an 18-hole routing of Sumiyoshi and Takachiho, plays to a par of 72 and typically ranges between 6,800 to 7,100 yards from the back tees. Originally designed by Robert Trent Jones Jr. and opened in 1971, the course is celebrated for its strategic bunkering and mature pine tree-lined fairways.

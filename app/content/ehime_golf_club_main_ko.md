@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Ehime Golf Club Main"
-lat: "33.7544"
-lng: "132.7556"
-categories: "Value for Money, Mountain Style, Forest"
-thumbnail: "/static/images/ehime_golf_club_main.jpg"
-address: "Uchiko, Ehime"
-date: "2026-06-06"
-booking: "/booking/ehime_golf_club_main_ko"
-summary: "에히메 현 우치코에 위치한 이 코스는 가성비가 훌륭하며, 좁은 페어웨이와 고저차로 전략적인 플레이를 요구하는 산악 스타일의 18홀 골프장입니다."
+lang: ko
+title: Ehime Golf Club Main
+lat: '33.7544'
+lng: '132.7556'
+categories: Value for Money, Mountain Style, Forest
+thumbnail: /static/images/ehime_golf_club_main.jpg
+address: Uchiko, Ehime
+date: '2026-06-27'
+booking: /booking/ehime_golf_club_main_ko
+summary: 에히메 현 우치코에 위치한 이 코스는 가성비가 훌륭하며, 좁은 페어웨이와 고저차로 전략적인 플레이를 요구하는 산악 스타일의 18홀
+  골프장입니다.
 ---
+
 ## Course Overview
 에히메 골프 클럽 메인은 에히메현 우치코의 산악 지형을 활용한 18홀, 파 72의 코스입니다. 총 길이는 약 6,500야드에서 6,900야드 사이로, 정교한 샷을 요구하는 레이아웃이 특징입니다. 코스 디자이너와 개장 연도에 대한 구체적인 정보는 알려져 있지 않으나, 자연 지형을 최대한 살린 설계가 돋보입니다.
 

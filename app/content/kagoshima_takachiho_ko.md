@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Kagoshima Takachiho"
-lat: "31.8544"
-lng: "130.8556"
-categories: "Stay & Play, Mountain Style, Scenic"
-thumbnail: "/static/images/kagoshima_takachiho.jpg"
-address: "Kirishima, Kagoshima"
-date: "2026-06-19"
-booking: "/booking/kagoshima_takachiho_ko"
-summary: "가고시마현 키리시마에 위치한 카고시마 다카치호 골프 클럽은 해발 고도 변화가 큰 산악 코스로, 18홀 파 72, 약 6,800-7,100야드 규모입니다."
+lang: ko
+title: Kagoshima Takachiho
+lat: '31.8544'
+lng: '130.8556'
+categories: Stay & Play, Mountain Style, Scenic
+thumbnail: /static/images/kagoshima_takachiho.jpg
+address: Kirishima, Kagoshima
+date: '2026-06-27'
+booking: /booking/kagoshima_takachiho_ko
+summary: 가고시마현 키리시마에 위치한 카고시마 다카치호 골프 클럽은 해발 고도 변화가 큰 산악 코스로, 18홀 파 72, 약 6,800-7,100야드
+  규모입니다.
 ---
+
 ## 코스 개요
 
 가고시마 다카치호 골프 클럽은 가고시마현 키리시마 지역의 수려한 자연 속에 자리한 18홀, 파 72의 산악 스타일 코스입니다. 전체 길이는 챔피언 티 기준으로 약 6,800에서 7,100야드 사이로, 전략적인 플레이를 요구합니다. 1990년대 초반에 개장하여 지역의 지형적 특색을 살린 설계가 돋보입니다.

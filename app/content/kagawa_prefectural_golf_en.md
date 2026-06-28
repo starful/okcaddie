@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kagawa Prefectural Golf"
-lat: "34.3144"
-lng: "134.0556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kagawa_prefectural_golf.jpg"
-address: "Takamatsu, Kagawa"
-date: "2026-06-06"
-booking: "/booking/kagawa_prefectural_golf_en"
-summary: "Kagawa Prefectural Golf in Takamatsu offers an 18-hole mountain-style layout, providing excellent value with scenic views over Seto Inland Sea hills."
+lang: en
+title: Kagawa Prefectural Golf
+lat: '34.3144'
+lng: '134.0556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kagawa_prefectural_golf.jpg
+address: Takamatsu, Kagawa
+date: '2026-06-27'
+booking: /booking/kagawa_prefectural_golf_en
+summary: Kagawa Prefectural Golf in Takamatsu offers an 18-hole mountain-style layout,
+  providing excellent value with scenic views over Seto Inland Sea hills.
 ---
+
 ## Course Overview
 Kagawa Prefectural Golf, located in Takamatsu, offers an 18-hole, par-72 layout set amidst the region's undulating hills. While the original designer is not widely known, the course opened to provide accessible golf to the public, focusing on integrating the natural mountain terrain. Fairways are typically Zoysia grass, providing a firm playing surface, while the greens are likely Bent grass, common in the region for a consistent roll.
 

@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kochi Golf Club Heights"
-lat: "33.5144"
-lng: "133.5156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kochi_golf_club_heights.jpg"
-address: "Kochi, Kochi"
-date: "2026-06-06"
-booking: "/booking/kochi_golf_club_heights_en"
-summary: "Kochi Golf Club Heights offers golfers a scenic mountain-style layout in Kochi, providing excellent value with its diverse 18-hole course."
+lang: en
+title: Kochi Golf Club Heights
+lat: '33.5144'
+lng: '133.5156'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kochi_golf_club_heights.jpg
+address: Kochi, Kochi
+date: '2026-06-27'
+booking: /booking/kochi_golf_club_heights_en
+summary: Kochi Golf Club Heights offers golfers a scenic mountain-style layout in
+  Kochi, providing excellent value with its diverse 18-hole course.
 ---
+
 
 ## Course Overview
 Kochi Golf Club Heights, nestled in the scenic hills of Kochi, presents an 18-hole, par 72 challenge, typically playing between 6,500 to 6,800 yards from the regular tees. The course is known for its distinctive mountain-style characteristics, featuring significant elevation changes and panoramic views of the surrounding Shikoku landscape. Fairways are generally zoysia grass, providing a firm surface, while the greens are typically bentgrass, offering consistent roll. Its elevated position offers golfers a refreshing escape and a unique blend of strategic play amidst natural beauty.
