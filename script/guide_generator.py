@@ -3,11 +3,19 @@ import concurrent.futures
 from google import genai
 from dotenv import load_dotenv
 
+from topic_queue_csv import resolve as resolve_queue_csv
+
 # 설정 로드
 load_dotenv()
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 GUIDE_CSV = 'script/csv/guides.csv'
+
+
+def _guides_csv_path() -> str:
+    return resolve_queue_csv("guides", GUIDE_CSV)
+
+
 CONTENT_DIR = "app/content/guides"
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
@@ -51,7 +59,7 @@ def generate_guides_parallel(limit=5):
     tasks = []
     
     # 1. 생성할 작업 리스트 수집
-    with open(GUIDE_CSV, mode='r', encoding='utf-8-sig') as f:
+    with open(_guides_csv_path(), mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         new_topics_count = 0
         for row in reader:

@@ -19,6 +19,12 @@ IMAGES_DIR  = os.path.join(BASE_DIR, 'app', 'static', 'images')
 CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
 CSV_PATH    = os.path.join(SCRIPT_DIR, 'csv', 'courses.csv')
 
+from topic_queue_csv import resolve as resolve_topic_csv
+
+
+def _items_csv_path() -> str:
+    return resolve_topic_csv("items", CSV_PATH, source="bank")
+
 MAX_WIDTH = 1200  # 골프장은 넓은 사진이 잘 나오므로 더 크게
 PROTECTED = {'logo.png', 'logo.svg', 'favicon.ico', 'default.png', 'og_image.png'}
 
@@ -231,7 +237,7 @@ def fetch_all_images():
                         md_safe_names.add(base[: -len(lang)])
                         break
 
-    with open(CSV_PATH, mode="r", encoding="utf-8-sig") as f:
+    with open(_items_csv_path(), mode="r", encoding="utf-8-sig") as f:
         all_rows = list(csv.DictReader(f))
 
     rows = []

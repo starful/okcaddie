@@ -4,6 +4,8 @@ from datetime import datetime
 from google import genai
 from dotenv import load_dotenv
 
+from topic_queue_csv import resolve as resolve_queue_csv
+
 # ==========================================
 # ⚙️ 설정 (Configuration)
 # ==========================================
@@ -12,6 +14,12 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 CSV_PATH = 'script/csv/courses.csv'
 CONTENT_DIR = "app/content"
+
+
+def _courses_csv_path() -> str:
+    return resolve_queue_csv("items", CSV_PATH)
+
+
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
 # 생성할 코스 주제(Topic)의 개수 제한 (명령행 인자가 없을 경우 기본값)
@@ -203,7 +211,12 @@ def process_courses(limit):
         return
 
     tasks = []
-    with open(CSV_PATH, mode='r', encoding='utf-8-sig') as f:
+    csv_path = _courses_csv_path()
+    if not os.path.exists(csv_path):
+        print(f"❌ CSV 없음: {csv_path}")
+        return
+
+    with open(csv_path, mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         new_topic_count = 0
 
