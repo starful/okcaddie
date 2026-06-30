@@ -5,7 +5,7 @@
 
 let state = {
     allCourses: [],
-    currentLang: 'en', // 기본 언어: 영어
+    currentLang: window.CURRENT_LANG || new URLSearchParams(window.location.search).get('lang') || 'en',
     activeTheme: 'all',
     map: null,
     markers: [],

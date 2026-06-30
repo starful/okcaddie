@@ -29,5 +29,32 @@
                 {% endif %}
             </div>
         </div>
+        {% if request.path == '/' %}
+        <div class="theme-filter-container">
+            <div class="theme-filter-buttons">
+                <button type="button" class="theme-button active" data-theme="all" data-en="All" data-ko="전체">
+                    All <span class="count-badge" id="count-all">0</span>
+                </button>
+                <button type="button" class="theme-button" data-theme="Value for Money" data-en="💰 Budget" data-ko="💰 가성비">
+                    💰 Budget <span class="count-badge" id="count-value">0</span>
+                </button>
+                <button type="button" class="theme-button" data-theme="Premium / Luxury" data-en="💎 Premium" data-ko="💎 프리미엄">
+                    💎 Premium <span class="count-badge" id="count-premium">0</span>
+                </button>
+                <button type="button" class="theme-button" data-theme="Public Tournament" data-en="🏆 Tour" data-ko="🏆 대회코스">
+                    🏆 Tour <span class="count-badge" id="count-tour">0</span>
+                </button>
+                <button type="button" class="theme-button" data-theme="Stay & Play" data-en="🏨 Resort" data-ko="🏨 숙박/리조트">
+                    🏨 Resort <span class="count-badge" id="count-resort">0</span>
+                </button>
+                <button type="button" class="theme-button" data-theme="Easy Booking" data-en="📅 Easy" data-ko="📅 예약편리">
+                    📅 Easy <span class="count-badge" id="count-easy">0</span>
+                </button>
+                <button type="button" class="theme-button" data-theme="Private Club" data-en="🔒 Private" data-ko="🔒 회원제">
+                    🔒 Private <span class="count-badge" id="count-private">0</span>
+                </button>
+            </div>
+        </div>
+        {% endif %}
     </div>
 </header>
