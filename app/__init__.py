@@ -849,7 +849,7 @@ def api_courses():
     for c in CACHED_DATA.get('courses', []):
         if c.get('lang') == lang:
             temp = _public_course(c)
-            temp['lang'] = 'en' # main.js가 en만 찾도록 고정되어 있어도 한국어 내용을 보여주게 함
+            temp['lang'] = lang
             temp['title'] = humanize_title(temp.get('title', ''))
             temp['summary'] = clean_summary(temp.get('summary', ''), temp['title'], lang)
             filtered.append(temp)
