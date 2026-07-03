@@ -8,8 +8,14 @@ lat: '35.3344'
 lng: '138.8856'
 summary: 후지 컨트리 클럽의 역사, 전략, 럭셔리 시설을 9,000자 분량으로 다룬 종합 마스터 가이드입니다.
 thumbnail: /static/images/fuji_country_club.jpg
-title: '후지 컨트리 클럽 완벽 해설: 베테랑 캐디의 심층 분석 (ko)'
+title: 'Fuji Country Club: Golf Booking & Course Guide'
+description: Complete guide to Fuji Country Club in Gotemba. Discover green fees,
+  layout details, and how to book tee times through Rakuten GORA.
+seo_title: 'Fuji Country Club: Green Fees, Booking & Tee Times | OKCaddie'
+seo_description: Book your round at Fuji Country Club. Find green fees, Rakuten GORA
+  booking guides, Mt. Fuji views, and course strategy on OKCaddie.
 ---
+
 
 ## 후지 컨트리 클럽: 일본 골프의 심장, 베테랑 캐디가 파헤치다
 

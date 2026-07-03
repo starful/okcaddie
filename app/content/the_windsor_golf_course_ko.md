@@ -9,14 +9,14 @@ lng: '140.7756'
 summary: 홋카이도의 보석, 더 윈저 골프 코스에 대한 9,000자에 달하는 심층 마스터 가이드입니다. 역사, 건축 전략, 홀별 공략, 럭셔리
   시설, 미식 경험까지, 이 한 편으로 윈저를 완벽하게 정복하세요.
 thumbnail: /static/images/the_windsor_golf_course.jpg
-title: The Windsor Golf Course
-description: Plan your perfect round at The Windsor Golf Course. Discover essential
-  details on green fees, course layouts, map location, and hassle-free tee time booking
-  options.
-seo_title: 'The Windsor Golf Course: Green Fees, Booking & Tee Times'
-seo_description: Book your round at The Windsor Golf Course. Find updated green fees,
-  course layouts, Rakuten GORA booking paths, and expert playing tips.
+title: The Windsor Golf Course (Hokkaido)
+description: Plan your round at The Windsor Golf Course in Toyako, Hokkaido. Explore
+  green fees, tee times, Rakuten GORA booking, and layout strategy.
+seo_title: 'The Windsor Golf Course Hokkaido: Green Fees & Booking'
+seo_description: Book tee times at The Windsor Golf Course in Hokkaido. Find updated
+  green fees, Rakuten GORA booking links, and course layout strategy.
 ---
+
 
 
 

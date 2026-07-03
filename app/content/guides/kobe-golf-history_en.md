@@ -1,9 +1,19 @@
 ---
-lang: "en"
-title: "The History of Golf in Kobe and Hyogo"
-summary: "Delve into the fascinating origins of golf in Kobe and Hyogo Prefecture, Japan. Discover how this sport, introduced by foreign residents, took root and flourished, shaping the landscape of recreational activities in the region. Explore the key figures, early golf courses, and cultural adaptations that define the unique history of golf in this part of Japan."
-date: "2026-04-15"
+lang: en
+title: 'The History of Golf in Japan: Kobe and Hyogo''s Legacy'
+summary: Delve into the fascinating origins of golf in Kobe and Hyogo Prefecture,
+  Japan. Discover how this sport, introduced by foreign residents, took root and flourished,
+  shaping the landscape of recreational activities in the region. Explore the key
+  figures, early golf courses, and cultural adaptations that define the unique history
+  of golf in this part of Japan.
+date: '2026-04-15'
+description: Uncover the origins of golf in Japan. Explore the history of Kobe and
+  Hyogo, home to the nation's oldest golf course. Plan your historic golf trip!
+seo_title: 'History of Golf in Japan: Kobe & Hyogo''s Legacy | OK Caddie'
+seo_description: Uncover the origins of golf in Japan. Explore the history of Kobe
+  and Hyogo, home to the nation's oldest golf course. Plan your historic golf trip!
 ---
+
 
 # The History of Golf in Kobe and Hyogo: A Deep Dive
 

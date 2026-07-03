@@ -1,15 +1,23 @@
 ---
-lang: "en"
-title: "Koga Golf Club"
-lat: "33.7144"
-lng: "130.4556"
-categories: "Private Club, Championship, Seaside Links"
-thumbnail: "/static/images/koga_golf_club.jpg"
-address: "Koga, Fukuoka"
-date: "2026-06-19"
-booking: "/booking/koga_golf_club_en"
-summary: "Koga Golf Club, established in 1953 in Fukuoka, is a demanding 18-hole championship links known for its strategic bunkering and firm, fast greens."
+lang: en
+title: 코가 골프클럽 (Koga Golf Club)
+lat: '33.7144'
+lng: '130.4556'
+categories: Private Club, Championship, Seaside Links
+thumbnail: /static/images/koga_golf_club.jpg
+address: Koga, Fukuoka
+date: '2026-06-19'
+booking: /booking/koga_golf_club_en
+summary: Koga Golf Club, established in 1953 in Fukuoka, is a demanding 18-hole championship
+  links known for its strategic bunkering and firm, fast greens.
+description: 후쿠오카 명문 코가 골프클럽(Koga GC)의 그린피, 코스 가이드, 위치 및 라쿠텐 고라 예약 링크를 OKCaddie에서
+  확인하고 일본 골프 여행을 준비해 보세요.
+seo_title: 코가 골프클럽 (Koga Golf Club) 예약·그린피·코스 가이드 | OKCaddie
+seo_description: 후쿠오카 명문 코가 골프클럽(Koga GC)의 그린피, 코스 가이드, 위치 및 라쿠텐 고라 예약 링크를 OKCaddie에서
+  확인하고 일본 골프 여행을 준비해 보세요.
 ---
+
+
 ## Course Overview
 Koga Golf Club, established in 1953, is a highly respected 18-hole championship course in Fukuoka Prefecture, designed by C.H. Alison. This private club plays to a par of 72, typically ranging from 6,800 to 7,200 yards from the back tees, varying slightly by season and pin positions. Its design features characteristics of a true seaside links, with firm Zoysia fairways and immaculate Bentgrass greens.
 

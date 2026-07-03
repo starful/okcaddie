@@ -8,8 +8,15 @@ lat: '36.7144'
 lng: '140.0856'
 summary: 로프 클럽에 대한 8,000자 이상의 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다. 일본 골프의 정수를 경험하세요.
 thumbnail: /static/images/rope_club.jpg
-title: '로프 클럽 완전 분석: 일본 최고 명문 코스 심층 리뷰 (OKCaddie 전문가 가이드)'
+title: Rope Club Golf Course Guide
+description: Plan your perfect round at Rope Club in Tochigi, Japan. Find actual green
+  fees, Rakuten GORA booking guides, layout tips, and reviews on OKCaddie.
+seo_title: 'Rope Club Golf Course: Green Fees, Tee Times & Booking | OKCaddie'
+seo_description: Plan your perfect round at Rope Club in Tochigi, Japan. Find actual
+  green fees, Rakuten GORA booking guides, layout tips, and reviews on OKCaddie.
 ---
+
+
 
 # 로프 클럽 완전 분석: 일본 최고 명문 코스 심층 리뷰 (OKCaddie 전문가 가이드)
 

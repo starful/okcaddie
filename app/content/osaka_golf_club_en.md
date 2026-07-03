@@ -1,15 +1,25 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Osaka Golf Club: An Expert Review by an Elite Rater & Senior Caddy"
-lat: "34.3144"
-lng: "135.1556"
-categories: "Private Club, Seaside Links, Historic, Championship Course"
-thumbnail: "/static/images/osaka_golf_club.jpg"
-address: "Misaki, Osaka Prefecture, Japan"
-date: "2026-04-15"
-booking: "/booking/osaka_golf_club_en"
-summary: "An unparalleled 9,000-character master guide to Osaka Golf Club, meticulously detailing its strategic architecture, historical prestige, hole-by-hole insights, luxury amenities, and gourmet dining for the discerning golf traveler. This expert review by a seasoned Japanese golf rater and senior caddy offers unique insights for all handicappers."
+lang: en
+title: 'Osaka Golf Club: Complete Booking & Course Guide'
+lat: '34.3144'
+lng: '135.1556'
+categories: Private Club, Seaside Links, Historic, Championship Course
+thumbnail: /static/images/osaka_golf_club.jpg
+address: Misaki, Osaka Prefecture, Japan
+date: '2026-04-15'
+booking: /booking/osaka_golf_club_en
+summary: An unparalleled 9,000-character master guide to Osaka Golf Club, meticulously
+  detailing its strategic architecture, historical prestige, hole-by-hole insights,
+  luxury amenities, and gourmet dining for the discerning golf traveler. This expert
+  review by a seasoned Japanese golf rater and senior caddy offers unique insights
+  for all handicappers.
+description: Book your tee time at Osaka Golf Club. Explore updated green fees, Rakuten
+  GORA booking guides, course layouts, and access tips on OKCaddie.
+seo_title: 'Osaka Golf Club: Green Fees, Booking Guide & Review | OKCaddie'
+seo_description: Book your tee time at Osaka Golf Club. Explore updated green fees,
+  Rakuten GORA booking guides, course layouts, and access tips on OKCaddie.
 ---
+
 
 ## Unveiling the Legacy: Osaka Golf Club's Historical Prestige
 

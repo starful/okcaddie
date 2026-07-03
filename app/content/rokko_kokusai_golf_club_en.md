@@ -1,15 +1,23 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (en)"
-lat: "34.7744"
-lng: "135.1556"
-categories: "Public Tournament, Premium / Luxury, Forest Course"
-thumbnail: "/static/images/rokko_kokusai_golf_club.jpg"
-address: "Kobe, Hyogo"
-date: "2026-04-15"
-booking: "/booking/rokko_kokusai_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Rokko Kokusai Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: Rokko Kokusai Golf Club
+lat: '34.7744'
+lng: '135.1556'
+categories: Public Tournament, Premium / Luxury, Forest Course
+thumbnail: /static/images/rokko_kokusai_golf_club.jpg
+address: Kobe, Hyogo
+date: '2026-04-15'
+booking: /booking/rokko_kokusai_golf_club_en
+summary: A comprehensive 9,000-character master guide to Rokko Kokusai Golf Club,
+  covering strategy, history, and luxury facilities.
+description: An in-depth guide to playing at Rokko Kokusai Golf Club in Kobe. Find
+  the latest green fees, booking options, layout strategies, and expert tips.
+seo_title: 'Rokko Kokusai Golf Club: Booking, Green Fees & Kobe Guide'
+seo_description: How to book Rokko Kokusai Golf Club in Kobe, Japan. Get green fees,
+  tee times, Rakuten GORA booking tips, and championship course reviews.
 ---
+
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service on some of Japan's most revered fairways, it is my distinct privilege to present an exhaustive, nuanced review of **Rokko Kokusai Golf Club**. Nestled within the verdant embrace of the Rokko Mountains in Hyogo Prefecture, this club transcends a mere golf course; it is a profound testament to Japanese golf heritage, strategic architectural brilliance, and an unwavering commitment to the holistic player experience. This is not just a review; it is a meticulously crafted guide for the discerning golfer seeking the pinnacle of the Japanese golf pilgrimage, designed to ensure Rokko Kokusai ranks #1 in your considerations for an unforgettable round.
 

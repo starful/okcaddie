@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Wakamatsu Golf Club
+title: 와카마쓰 골프클럽 (Wakamatsu Golf Club)
 lat: '33.9144'
 lng: '130.7556'
 categories: Private Club, Seaside Links, Historic
@@ -10,7 +10,13 @@ date: '2026-06-27'
 booking: /booking/wakamatsu_golf_club_en
 summary: A seaside links course in Kitakyushu, Fukuoka, Wakamatsu Golf Club offers
   a historic private club experience with challenging coastal winds.
+description: 후쿠오카 기타큐슈의 명문 와카마쓰 골프클럽(Wakamatsu GC) 코스 정보. 실시간 그린피, 위치, 라쿠텐 고라 예약 팁을
+  OKCaddie에서 확인하세요.
+seo_title: 와카마쓰 골프클럽 (Wakamatsu GC) 그린피·예약·코스 가이드 | OKCaddie
+seo_description: 후쿠오카 기타큐슈의 명문 와카마쓰 골프클럽(Wakamatsu GC) 코스 정보. 실시간 그린피, 위치, 라쿠텐 고라
+  예약 팁을 OKCaddie에서 확인하세요.
 ---
+
 
 
 ## Course Overview
