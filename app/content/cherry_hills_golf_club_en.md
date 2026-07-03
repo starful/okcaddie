@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Cherry Hills Golf Club: An Expert Review (en)"
-lat: "34.7844"
-lng: "135.0756"
-categories: "Premium / Luxury, Easy Booking, Robert Trent Jones Jr"
-thumbnail: "/static/images/cherry_hills_golf_club.jpg"
-address: "Miki, Hyogo"
-date: "2026-04-15"
-booking: "/booking/cherry_hills_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Cherry Hills Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: Cherry Hills Golf Club
+lat: '34.7844'
+lng: '135.0756'
+categories: Premium / Luxury, Easy Booking, Robert Trent Jones Jr
+thumbnail: /static/images/cherry_hills_golf_club.jpg
+address: Miki, Hyogo
+date: '2026-04-15'
+booking: /booking/cherry_hills_golf_club_en
+summary: A comprehensive 9,000-character master guide to Cherry Hills Golf Club, covering
+  strategy, history, and luxury facilities.
+description: Plan your round at Cherry Hills Golf Club. Find up-to-date green fees,
+  course layout tips, and easy booking via Rakuten GORA on okcaddie.
+seo_title: 'Cherry Hills Golf Club: Green Fees & Booking Guide | okcaddie'
+seo_description: Plan your round at Cherry Hills Golf Club. Find up-to-date green
+  fees, course layout tips, and easy booking via Rakuten GORA on okcaddie.
 ---
+
 
 ## The Definitive Guide to Cherry Hills Golf Club: An Expert Review
 

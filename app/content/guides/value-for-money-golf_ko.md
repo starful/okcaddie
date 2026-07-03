@@ -1,12 +1,13 @@
 ---
 date: '2026-06-19'
-description: 일본 골프 자유여행 완벽 가이드! 라쿠텐 등 셀프 예약 사이트 이용법, 가성비 좋은 골프장 추천, 2인 라운딩 팁 등 그린피를
-  아끼는 실전 노하우를 확인하세요.
-seo_description: 일본 골프 자유여행 완벽 가이드! 라쿠텐 등 셀프 예약 사이트 이용법, 가성비 좋은 골프장 추천, 2인 라운딩 팁 등
-  그린피를 아끼는 실전 노하우를 확인하세요.
-seo_title: '일본 골프 자유여행: 가성비 코스 & 셀프 예약 팁 | OKCaddie'
-title: '일본 골프 자유여행 가이드: 가성비 코스 & 셀프 예약 팁'
+description: Looking for affordable golf near Osaka? Explore the best value-for-money
+  courses, hidden budget gems, and smart booking tips for your Japan golf trip.
+seo_description: Looking for affordable golf near Osaka? Explore the best value-for-money
+  courses, hidden budget gems, and smart booking tips for your Japan golf trip.
+seo_title: 'Best Value Golf Courses Near Osaka: Top Affordable Picks'
+title: Best Value Golf Courses Near Osaka
 ---
+
 
 ---
 lang: "ko"

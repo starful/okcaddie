@@ -13,12 +13,14 @@ lng: 139.5156
 summary: 도츠카 컨트리 클럽은 요코하마의 심장부에 자리한 명문 프라이빗 골프 클럽입니다.  역사와 전통이 살아 숨쉬는 이곳은 전략적인 코스
   레이아웃과 아름다운 자연 경관으로 유명합니다.  최고 수준의 시설과 서비스를 경험하며 잊지 못할 라운딩을 즐겨보세요.
 thumbnail: /static/images/totsuka_country_club.jpg
-title: 도츠카 컨트리 클럽 (Totsuka CC)
-description: 일본 요코하마의 명문 '도츠카 컨트리클럽(토츠카 CC)' 예약 방법, 그린피, 코스 레이아웃 정보를 지금 확인해 보세요.
-seo_title: 도츠카 컨트리클럽(토츠카 CC) 예약·그린피·코스 가이드 | 요코하마 명문 | OKCaddie
-seo_description: 일본 요코하마의 최고급 명문 '도츠카 컨트리클럽(토츠카 CC)' 예약 방법, 그린피, 코스 레이아웃 및 공략법을 확인하세요.
-  OKCaddie의 상세 골프 가이드.
+title: 'Playing Totsuka Country Club: Complete Guest Guide'
+description: Want to play Yokohama's exclusive Totsuka Country Club? Find out how
+  to secure a tee time, current guest fees, and course access rules.
+seo_title: 'How to Play Totsuka Country Club: Guest Fees & Booking Guide'
+seo_description: Want to play Yokohama's exclusive Totsuka Country Club? Find out
+  how to secure a tee time, current guest fees, and course access rules.
 ---
+
 
 
 

@@ -8,8 +8,15 @@ lat: '35.4144'
 lng: '140.0456'
 summary: 카멜리아 힐스 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다.
 thumbnail: /static/images/camellia_hills_country_club.jpg
-title: '카멜리아 힐스 컨트리 클럽 완벽 분석: 20년 경력 캐디의 마스터피스 리뷰 (ko)'
+title: Camellia Hills Country Club | Green Fees & Booking Guide
+description: Planning to play Camellia Hills Country Club? Find updated green fees,
+  course layouts, and easy booking guides (Rakuten GORA). Book your tee time now!
+seo_title: Camellia Hills Country Club | Green Fees & Booking Guide
+seo_description: Planning to play Camellia Hills Country Club? Find updated green
+  fees, course layouts, and easy booking guides (Rakuten GORA). Book your tee time
+  now!
 ---
+
 
 ## 카멜리아 힐스 컨트리 클럽: 일본 프리미엄 골프의 정수, 20년 경력 캐디의 심층 해부
 

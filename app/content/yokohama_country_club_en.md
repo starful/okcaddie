@@ -1,9 +1,9 @@
 ---
 lang: en
-seo_title: 'How to Play Yokohama Country Club: Visitor Booking & Fees'
-seo_description: Can visitors play Yokohama Country Club? Find the latest green fees,
-  booking requirements, and West Course tips in our ultimate Japan golf guide.
-title: 'Yokohama Country Club: Visitor & Booking Guide'
+seo_title: Can Visitors Play Yokohama Country Club? Fees & Booking Guide
+seo_description: Want to play Yokohama Country Club? Discover visitor access rules,
+  green fees, and booking tips for this prestigious Japanese golf course.
+title: 'Yokohama Country Club: Visitor Guide & Booking'
 lat: '35.4344'
 lng: '139.5456'
 categories: Private Club, Public Tournament, Historic
@@ -14,9 +14,10 @@ booking: /booking/yokohama_country_club_en
 summary: A comprehensive 9,000-character master guide to Yokohama Country Club, covering
   strategy, history, and luxury facilities, penned by an elite Japanese golf rater
   and caddy.
-description: Planning a round at Yokohama Country Club? Discover how visitors can
-  book, current green fees, and what to expect on the prestigious West Course.
+description: Want to play Yokohama Country Club? Discover visitor access rules, green
+  fees, and booking tips for this prestigious Japanese golf course.
 ---
+
 
 
 
