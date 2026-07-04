@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.07.04",
+  "last_updated": "2026.07.05",
   "courses": [
     {
       "id": "yokohama_minato_mirai_cafe_ko",
@@ -330,7 +330,7 @@
       "id": "wakamatsu_golf_club_en",
       "base_id": "wakamatsu_golf_club",
       "lang": "en",
-      "title": "와카마쓰 골프클럽 (Wakamatsu Golf Club)",
+      "title": "Wakamatsu Golf Club",
       "lat": 33.9144,
       "lng": 130.7556,
       "categories": [
@@ -1778,7 +1778,7 @@
       "id": "koga_golf_club_en",
       "base_id": "koga_golf_club",
       "lang": "en",
-      "title": "코가 골프클럽 (Koga Golf Club)",
+      "title": "Koga Golf Club",
       "lat": 33.7144,
       "lng": 130.4556,
       "categories": [
@@ -3395,7 +3395,7 @@
       "id": "pgm_golf_resort_okinawa_en",
       "base_id": "pgm_golf_resort_okinawa",
       "lang": "en",
-      "title": "오키나와 PGM 골프 리조트 코스 소개 & 실시간 예약 가이드",
+      "title": "PGM Golf Resort Okinawa",
       "lat": 26.4344,
       "lng": 127.8356,
       "categories": [
@@ -3406,7 +3406,7 @@
       "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
       "address": "Onna, Okinawa",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to PGM Golf Resort Okinawa, covering strategy, history, and luxury facilities.",
+      "summary": "PGM Golf Resort Okinawa guide covering ocean-view layout strategy, PGM resort history, facilities, and visitor booking paths.",
       "booking": "/booking/pgm_golf_resort_okinawa_en",
       "link": "/course/pgm_golf_resort_okinawa"
     },

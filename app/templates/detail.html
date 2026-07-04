@@ -136,9 +136,15 @@
         <!-- 프라이빗 클럽 전용 안내 배너 -->
         {% if 'Private Club' in post.categories or '회원제' in post.categories %}
         <div class="private-alert" style="background: #fff5f5; border: 1px solid #feb2b2; padding: 25px; border-radius: 15px; margin-bottom: 40px; color: #c53030;">
-            <h3 style="margin-top: 0; font-size: 1.1rem; margin-bottom: 10px;">🔒 Private Member-Only Club</h3>
+            <h3 style="margin-top: 0; font-size: 1.1rem; margin-bottom: 10px;">
+                🔒 {{ '회원제 전용 클럽' if is_ko else 'Private Member-Only Club' }}
+            </h3>
             <p style="margin-bottom: 0; font-size: 0.95rem; line-height: 1.6;">
+                {% if is_ko %}
                 이 코스는 회원제 전용 클럽입니다. 일반 예약이 제한될 수 있으니, 전문 대행사나 공식 채널을 통해 라운딩 가능 여부를 먼저 확인하시기 바랍니다.
+                {% else %}
+                This is a private, members-only club. Public tee times may be unavailable—confirm access through an official channel or a golf tour agency before you travel.
+                {% endif %}
             </p>
         </div>
         {% endif %}
