@@ -4,20 +4,13 @@ from __future__ import annotations
 
 import json
 import os
-import re
-
-import frontmatter
 
 try:
-    from .config import GUIDE_IMAGES
-    from .content_new import enrich_item
+    from .guide_content import build_guide_list_item
     from .paths import DATA_FILE, GUIDE_DIR
-    from .text_utils import clean_summary, get_meta_fallback, humanize_title, short_summary
 except ImportError:
-    from config import GUIDE_IMAGES
-    from content_new import enrich_item
+    from guide_content import build_guide_list_item
     from paths import DATA_FILE, GUIDE_DIR
-    from text_utils import clean_summary, get_meta_fallback, humanize_title, short_summary
 
 CACHED_DATA: dict = {"courses": []}
 CACHED_GUIDES: list = []
@@ -46,45 +39,9 @@ def load_all_data() -> None:
         files = sorted([f for f in os.listdir(GUIDE_DIR) if f.endswith(".md")], reverse=True)
         for filename in files:
             try:
-                full_id = filename.replace(".md", "")
-                if full_id.startswith("_") or "_" not in full_id:
-                    continue
-
-                with open(os.path.join(GUIDE_DIR, filename), "r", encoding="utf-8") as f:
-                    raw_text = f.read().strip()
-                    if "---" in raw_text:
-                        raw_text = "---" + raw_text.split("---", 1)[1]
-
-                    post = frontmatter.loads(raw_text)
-                    item = dict(post.metadata)
-
-                    base_id = full_id.rsplit("_", 1)[0]
-                    detected_lang = "ko" if full_id.endswith("_ko") else "en"
-
-                    title = item.get("title") or get_meta_fallback(raw_text, "title")
-                    summary = item.get("summary") or get_meta_fallback(raw_text, "summary")
-
-                    if not summary or "lang:" in summary:
-                        clean_body = re.sub(r"---.*?---", "", post.content, flags=re.DOTALL).strip()
-                        summary = clean_body[:130].replace("\n", " ") + "..."
-
-                    title = humanize_title(title) or "Japan Golf Guide"
-
-                    temp_guides.append(
-                        enrich_item(
-                            {
-                                "id": full_id,
-                                "base_id": base_id,
-                                "lang": detected_lang,
-                                "title": title,
-                                "summary": short_summary(
-                                    clean_summary(summary, title, detected_lang), 200
-                                ),
-                                "published": str(item.get("date", "2026-04-12")),
-                                "image": GUIDE_IMAGES[abs(hash(base_id) * 97) % len(GUIDE_IMAGES)],
-                            }
-                        )
-                    )
+                item = build_guide_list_item(filename)
+                if item:
+                    temp_guides.append(item)
             except Exception as e:
                 print(f"❌ Guide load error ({filename}): {e}")
 

@@ -1,0 +1,9 @@
+[project]
+name = "okcaddie"
+version = "0.1.0"
+description = "OKCaddie Japan golf course guide"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["app"]

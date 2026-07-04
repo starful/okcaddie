@@ -18,18 +18,6 @@ const i18n = {
     ko: { viewDetails: "상세 보기", address: "주소" }
 };
 
-const NEW_CONTENT_DAYS = 14;
-
-function isContentNew(published) {
-    if (!published) return false;
-    const d = new Date(String(published).slice(0, 10) + 'T00:00:00');
-    if (Number.isNaN(d.getTime())) return false;
-    const cutoff = new Date();
-    cutoff.setDate(cutoff.getDate() - NEW_CONTENT_DAYS);
-    cutoff.setHours(0, 0, 0, 0);
-    return d >= cutoff;
-}
-
 function newBadgeHtml(isNew) {
     return isNew ? '<span class="badge-new">New</span>' : '';
 }
@@ -185,7 +173,7 @@ function updateList(courses) {
     if (!listContainer) return;
 
     listContainer.innerHTML = courses.map(c => {
-        const isNew = isContentNew(c.published);
+        const isNew = !!c.is_new;
         return `
         <article class="course-card${isNew ? ' is-new' : ''}">
             <a href="${c.link}" class="course-card-link">

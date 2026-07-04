@@ -36,6 +36,7 @@ _RUNTIME_SELFCHECK_PATTERNS = [
         r"^\s*\d+\.\s+\*\*(?:Character\s+Count|Tone|Language|YAML\s+Frontmatter)\b",
         re.IGNORECASE | re.MULTILINE,
     ),
+    re.compile(r"^\s*```(?:markdown|yaml)\s*$", re.IGNORECASE | re.MULTILINE),
 ]
 _PROMO_SUMMARY_RE = re.compile(
     r"\d{1,3},?\d{3}\s*(?:자|character|-?\s*character)",

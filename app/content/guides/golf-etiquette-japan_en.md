@@ -1,17 +1,11 @@
 ---
 lang: en
-seo_title: 모르면 당황하는 일본 골프 매너 & 복장 규정 (캐디팁은?) | OKCaddie
-seo_description: 일본 골프 여행 전 필수 체크! 헷갈리는 복장 규정부터 캐디 팁, 9홀 후 점심 식사 문화까지 한국인 골퍼를 위한 필수
-  에티켓을 완벽하게 정리했습니다.
-title: '일본 골프 매너와 에티켓: 복장부터 캐디 팁까지'
-summary: Playing golf in Japan is an experience steeped in tradition and respect.
-  This guide provides essential insights into Japanese golf etiquette, ensuring a
-  smooth and enjoyable round for foreign golfers. Understanding and adhering to these
-  customs will not only enhance your experience but also demonstrate your respect
-  for Japanese culture.
+seo_title: Japanese Golf Etiquette & Dress Code Guide | OKCaddie
+seo_description: Essential Japanese golf etiquette for foreign golfers — dress code, caddie tips, pace of play, and on-course customs on OKCaddie.
+title: Japanese Golf Etiquette and Manners
+summary: Playing golf in Japan is steeped in tradition and respect. This guide covers dress code, caddie tips, pace of play, and on-course customs foreign golfers should know.
 date: '2026-04-12'
-description: 일본 골프 여행을 앞둔 한국인 골퍼들을 위해 독특한 복장 규정, 캐디 팁 문화, 그리고 라운드 중 반드시 지켜야 할 로컬 에티켓을
-  상세히 안내합니다.
+description: Essential Japanese golf etiquette for foreign golfers — dress code, caddie tips, pace of play, and on-course customs on OKCaddie.
 ---
 
 

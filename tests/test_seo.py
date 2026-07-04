@@ -30,6 +30,9 @@ def test_api_courses_noindex(client):
     r = client.get("/api/courses")
     assert r.status_code == 200
     assert "noindex" in r.headers.get("X-Robots-Tag", "").lower()
+    data = r.get_json()
+    assert data["courses"]
+    assert "is_new" in data["courses"][0]
 
 
 def test_dynamic_sitemap_courses(client):

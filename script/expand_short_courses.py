@@ -8,7 +8,9 @@ import frontmatter
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
+APP_DIR = os.path.join(BASE_DIR, "app")
 sys.path.insert(0, SCRIPT_DIR)
+sys.path.insert(0, APP_DIR)
 
 from course_generator import (  # noqa: E402
     client,
@@ -17,6 +19,7 @@ from course_generator import (  # noqa: E402
     _strip_selfcheck,
     _dedupe_h2,
 )
+from text_utils import humanize_title  # noqa: E402
 
 # GSC / recent compact batch (EN body < 6,000 chars)
 SHORT_BASE_IDS = [
@@ -119,18 +122,6 @@ def load_course_data(base_id, lang):
         "lang": lang,
         "seo": {k: meta[k] for k in SEO_KEYS if meta.get(k)},
     }
-
-
-def humanize_title(title):
-    for phrase in (
-        "The Definitive Guide to ",
-        ": An Expert Review",
-        " An Expert Review",
-        " (en)",
-        " (ko)",
-    ):
-        title = title.replace(phrase, "")
-    return title.strip() or "Golf Course"
 
 
 def generate_medium(data):

@@ -20,6 +20,7 @@ if APP_DIR not in sys.path:
     sys.path.insert(0, APP_DIR)
 
 from course_content import normalize_course_markdown  # noqa: E402
+from text_utils import strip_llm_selfcheck  # noqa: E402
 
 
 def _courses_csv_path() -> str:
@@ -33,27 +34,13 @@ DEFAULT_LIMIT = 30
 
 LANG_FULL = {"en": "English", "ko": "Korean"}
 
-# 모델이 본문 끝에 자기점검 메타텍스트(영문 보일러플레이트)를 붙이는 경우가 있음 → 저장 직전 제거
-_SELFCHECK_RES = [
-    re.compile(r"^\s*\*{0,2}\s*\(?\s*Total\s+character", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*\*{0,2}\s*\(?\s*Character\s+count\s+check", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*Markdown\s+formatting\s+with", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*YAML\s+frontmatter\s+is\s+correctly", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*The\s+tone\s+is\s+professional,?\s+technical", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*The\s+generated\s+(?:Korean|English)\s+content\s+is\s+~?\s*\d", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*\d+\.\s+\*\*(?:Character\s+Count|Tone|Language|YAML\s+Frontmatter)\b", re.IGNORECASE | re.MULTILINE),
-    re.compile(r"^\s*```(?:markdown|yaml)\s*$", re.IGNORECASE | re.MULTILINE),
-]
 
 def _strip_selfcheck(text):
-    earliest = len(text)
-    for pat in _SELFCHECK_RES:
-        m = pat.search(text)
-        if m and m.start() < earliest:
-            earliest = m.start()
-    if earliest < len(text):
-        return text[:earliest].rstrip() + "\n"
+    trimmed = strip_llm_selfcheck(text)
+    if trimmed != text:
+        return trimmed.rstrip() + "\n"
     return text
+
 
 def _dedupe_h2(text):
     """첫 번째 ## 헤더가 두 번 등장하면 두 번째 직전까지만 보존."""
