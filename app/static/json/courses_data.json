@@ -36,6 +36,40 @@
       "link": "/course/yokohama_minato_mirai_cafe"
     },
     {
+      "id": "sendai_ichibancho_latte_ko",
+      "base_id": "sendai_ichibancho_latte",
+      "lang": "ko",
+      "title": "Sendai Ichibancho Latte",
+      "lat": 38.2606,
+      "lng": 140.8829,
+      "categories": [
+        "Shopping street"
+      ],
+      "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
+      "address": "Miyagi, Sendai",
+      "published": "2026-07-04",
+      "summary": "센다이 이치반초 라떼는 미야기 센다이에 위치하며, 38.2606, 140.8829 좌표에서 쇼핑과 휴식을 즐길 수 있는 특별한 경험을 제공합니다.",
+      "booking": "/booking/sendai_ichibancho_latte_ko",
+      "link": "/course/sendai_ichibancho_latte?lang=ko"
+    },
+    {
+      "id": "sendai_ichibancho_latte_en",
+      "base_id": "sendai_ichibancho_latte",
+      "lang": "en",
+      "title": "Sendai Ichibancho Latte",
+      "lat": 38.2606,
+      "lng": 140.8829,
+      "categories": [
+        "Shopping street"
+      ],
+      "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
+      "address": "Miyagi, Sendai",
+      "published": "2026-07-04",
+      "summary": "Sendai Ichibancho Latte offers a strategic 18-hole golf experience near Sendai, featuring undulating fairways and challenging greens within a 6,600-7,000 yard layout.",
+      "booking": "/booking/sendai_ichibancho_latte_en",
+      "link": "/course/sendai_ichibancho_latte"
+    },
+    {
       "id": "sample_golf_club_ko",
       "base_id": "sample_golf_club",
       "lang": "ko",
@@ -68,6 +102,40 @@
       "summary": "Sample Golf Club in Hyogo offers 18 holes spanning approximately 6,700 to 7,000 yards, providing a strategic challenge for public play.",
       "booking": "/booking/sample_golf_club_en",
       "link": "/course/sample_golf_club"
+    },
+    {
+      "id": "naha_kokusai_street_coffee_ko",
+      "base_id": "naha_kokusai_street_coffee",
+      "lang": "ko",
+      "title": "Naha Kokusai Street Coffee",
+      "lat": 26.214,
+      "lng": 127.6889,
+      "categories": [
+        "Island blend | AC"
+      ],
+      "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
+      "address": "Okinawa, Naha",
+      "published": "2026-07-04",
+      "summary": "오키나와 나하 시내 중심에 위치한 독특한 18홀 골프 코스로, 평균 6,500야드 전후의 이색적인 커피 테마 라운딩을 선사합니다.",
+      "booking": "/booking/naha_kokusai_street_coffee_ko",
+      "link": "/course/naha_kokusai_street_coffee?lang=ko"
+    },
+    {
+      "id": "naha_kokusai_street_coffee_en",
+      "base_id": "naha_kokusai_street_coffee",
+      "lang": "en",
+      "title": "Naha Kokusai Street Coffee",
+      "lat": 26.214,
+      "lng": 127.6889,
+      "categories": [
+        "Island blend | AC"
+      ],
+      "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
+      "address": "Okinawa, Naha",
+      "published": "2026-07-04",
+      "summary": "Naha Kokusai Street Coffee offers a refined coffee 'course' with 4 distinct brewing 'holes' and an average 'round' lasting 45-75 minutes in Okinawa, Naha.",
+      "booking": "/booking/naha_kokusai_street_coffee_en",
+      "link": "/course/naha_kokusai_street_coffee"
     },
     {
       "id": "nagoya_sakae_espresso_ko",
@@ -204,6 +272,40 @@
       "summary": "Experience a unique, tranquil short-game challenge within Hiroshima's iconic Peace Memorial Park, perfect for a contemplative round.",
       "booking": "/booking/hiroshima_peace_park_cafe_en",
       "link": "/course/hiroshima_peace_park_cafe"
+    },
+    {
+      "id": "hakodate_morning_market_cafe_ko",
+      "base_id": "hakodate_morning_market_cafe",
+      "lang": "ko",
+      "title": "Hakodate Morning Market Cafe",
+      "lat": 41.7687,
+      "lng": 140.729,
+      "categories": [
+        "Morning set"
+      ],
+      "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
+      "address": "Hokkaido, Hakodate",
+      "published": "2026-07-04",
+      "summary": "하코다테 아침시장 카페는 신선한 해산물과 현지 식재료로 구성된 활기찬 모닝 세트로 유명하며, 하코다테 역에서 도보 5분 거리에 위치해 있습니다.",
+      "booking": "/booking/hakodate_morning_market_cafe_ko",
+      "link": "/course/hakodate_morning_market_cafe?lang=ko"
+    },
+    {
+      "id": "hakodate_morning_market_cafe_en",
+      "base_id": "hakodate_morning_market_cafe",
+      "lang": "en",
+      "title": "Hakodate Morning Market Cafe",
+      "lat": 41.7687,
+      "lng": 140.729,
+      "categories": [
+        "Morning set"
+      ],
+      "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
+      "address": "Hokkaido, Hakodate",
+      "published": "2026-07-04",
+      "summary": "Hakodate Morning Market Cafe offers a distinctive compact golf experience near Hakodate's bustling market, focusing on precise play within a unique setting.",
+      "booking": "/booking/hakodate_morning_market_cafe_en",
+      "link": "/course/hakodate_morning_market_cafe"
     },
     {
       "id": "wakamatsu_golf_club_ko",

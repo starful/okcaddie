@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://okcaddie.net/guide/guide_expand_008?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/guide_expand_008" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/guide_expand_008?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/guide_expand_008" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/miyazaki-pro-tour-courses</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/miyazaki-pro-tour-courses" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/miyazaki-pro-tour-courses" />
@@ -250,6 +259,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/guide_expand_009?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/guide_expand_009" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/guide_expand_009?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/guide_expand_009" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/guide_expand_007</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/guide_expand_007" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/guide_expand_007?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/guide_expand_007" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/half-time-lunch</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/half-time-lunch" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/half-time-lunch?lang=ko" />
@@ -402,6 +429,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/understanding-scorecards" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/understanding-scorecards?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/understanding-scorecards" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/guide_expand_009</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/guide_expand_009" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/guide_expand_009?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/guide_expand_009" />
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -651,6 +687,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/guide_expand_007?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/guide_expand_007" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/guide_expand_007?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/guide_expand_007" />
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/golf-and-shopping-gotemba</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-and-shopping-gotemba" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-and-shopping-gotemba" />
@@ -689,6 +734,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/miyazaki-pro-tour-courses" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/miyazaki-pro-tour-courses" />
     <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/guide_expand_008</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/guide_expand_008" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/guide_expand_008?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/guide_expand_008" />
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
