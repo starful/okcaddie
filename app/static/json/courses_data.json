@@ -2,6 +2,210 @@
   "last_updated": "2026.07.04",
   "courses": [
     {
+      "id": "yokohama_minato_mirai_cafe_ko",
+      "base_id": "yokohama_minato_mirai_cafe",
+      "lang": "ko",
+      "title": "Yokohama Minato Mirai Cafe",
+      "lat": 35.4564,
+      "lng": 139.634,
+      "categories": [
+        "Waterfront | Wi-Fi"
+      ],
+      "thumbnail": "/static/images/yokohama_minato_mirai_cafe.jpg",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-07-04",
+      "summary": "요코하마 미나토 미라이 카페는 요코하마 항구의 아름다운 전경을 자랑하는 18홀, 파 70의 해안가 골프 코스입니다.",
+      "booking": "/booking/yokohama_minato_mirai_cafe_ko",
+      "link": "/course/yokohama_minato_mirai_cafe?lang=ko"
+    },
+    {
+      "id": "yokohama_minato_mirai_cafe_en",
+      "base_id": "yokohama_minato_mirai_cafe",
+      "lang": "en",
+      "title": "Yokohama Minato Mirai Cafe",
+      "lat": 35.4564,
+      "lng": 139.634,
+      "categories": [
+        "Waterfront | Wi-Fi"
+      ],
+      "thumbnail": "/static/images/yokohama_minato_mirai_cafe.jpg",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-07-04",
+      "summary": "Yokohama Minato Mirai Cafe offers advanced indoor golf simulation in the bustling waterfront district, featuring multiple virtual courses for all skill levels.",
+      "booking": "/booking/yokohama_minato_mirai_cafe_en",
+      "link": "/course/yokohama_minato_mirai_cafe"
+    },
+    {
+      "id": "sample_golf_club_ko",
+      "base_id": "sample_golf_club",
+      "lang": "ko",
+      "title": "Sample Golf Club",
+      "lat": 35.0,
+      "lng": 135.0,
+      "categories": [
+        "Public"
+      ],
+      "thumbnail": "/static/images/sample_golf_club.jpg",
+      "address": "Hyogo",
+      "published": "2026-07-04",
+      "summary": "효고현에 위치한 샘플 골프 클럽은 18홀, 파 72의 대중제 코스로, 전략적인 레이아웃과 접근성이 특징입니다.",
+      "booking": "/booking/sample_golf_club_ko",
+      "link": "/course/sample_golf_club?lang=ko"
+    },
+    {
+      "id": "sample_golf_club_en",
+      "base_id": "sample_golf_club",
+      "lang": "en",
+      "title": "Sample Golf Club",
+      "lat": 35.0,
+      "lng": 135.0,
+      "categories": [
+        "Public"
+      ],
+      "thumbnail": "/static/images/sample_golf_club.jpg",
+      "address": "Hyogo",
+      "published": "2026-07-04",
+      "summary": "Sample Golf Club in Hyogo offers 18 holes spanning approximately 6,700 to 7,000 yards, providing a strategic challenge for public play.",
+      "booking": "/booking/sample_golf_club_en",
+      "link": "/course/sample_golf_club"
+    },
+    {
+      "id": "nagoya_sakae_espresso_ko",
+      "base_id": "nagoya_sakae_espresso",
+      "lang": "ko",
+      "title": "Nagoya Sakae Espresso",
+      "lat": 35.1709,
+      "lng": 136.9066,
+      "categories": [
+        "City center | House roast"
+      ],
+      "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
+      "address": "Aichi, Nagoya",
+      "published": "2026-07-04",
+      "summary": "나고야 도심 한가운데 위치한 나고야 사카에 에스프레소는 18홀 파 70 규모의 프라이빗 코스로, 나고야역에서 차량 10분 거리에 있습니다.",
+      "booking": "/booking/nagoya_sakae_espresso_ko",
+      "link": "/course/nagoya_sakae_espresso?lang=ko"
+    },
+    {
+      "id": "nagoya_sakae_espresso_en",
+      "base_id": "nagoya_sakae_espresso",
+      "lang": "en",
+      "title": "Nagoya Sakae Espresso",
+      "lat": 35.1709,
+      "lng": 136.9066,
+      "categories": [
+        "City center | House roast"
+      ],
+      "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
+      "address": "Aichi, Nagoya",
+      "published": "2026-07-04",
+      "summary": "Nagoya Sakae Espresso offers a unique 18-hole urban golf experience in downtown Nagoya, featuring a compact layout designed for strategic play around 6,000-6,300 yards.",
+      "booking": "/booking/nagoya_sakae_espresso_en",
+      "link": "/course/nagoya_sakae_espresso"
+    },
+    {
+      "id": "kanazawa_higashi_chaya_cafe_ko",
+      "base_id": "kanazawa_higashi_chaya_cafe",
+      "lang": "ko",
+      "title": "Kanazawa Higashi Chaya Cafe",
+      "lat": 36.5713,
+      "lng": 136.6622,
+      "categories": [
+        "Traditional district"
+      ],
+      "thumbnail": "/static/images/kanazawa_higashi_chaya_cafe.jpg",
+      "address": "Ishikawa, Kanazawa",
+      "published": "2026-07-04",
+      "summary": "가나자와 히가시 차야 지구의 정취를 담아 설계된 가상의 골프 코스로, 전통과 현대가 어우러진 라운딩 경험을 제공합니다.",
+      "booking": "/booking/kanazawa_higashi_chaya_cafe_ko",
+      "link": "/course/kanazawa_higashi_chaya_cafe?lang=ko"
+    },
+    {
+      "id": "kanazawa_higashi_chaya_cafe_en",
+      "base_id": "kanazawa_higashi_chaya_cafe",
+      "lang": "en",
+      "title": "Kanazawa Higashi Chaya Cafe",
+      "lat": 36.5713,
+      "lng": 136.6622,
+      "categories": [
+        "Traditional district"
+      ],
+      "thumbnail": "/static/images/kanazawa_higashi_chaya_cafe.jpg",
+      "address": "Ishikawa, Kanazawa",
+      "published": "2026-07-04",
+      "summary": "Kanazawa Higashi Chaya Cafe Golf Course, an 18-hole par 72 layout near Kanazawa Station, offers strategic play amid traditional Japanese aesthetics.",
+      "booking": "/booking/kanazawa_higashi_chaya_cafe_en",
+      "link": "/course/kanazawa_higashi_chaya_cafe"
+    },
+    {
+      "id": "kamakura_komachi_drip_ko",
+      "base_id": "kamakura_komachi_drip",
+      "lang": "ko",
+      "title": "Kamakura Komachi Drip",
+      "lat": 35.3192,
+      "lng": 139.5503,
+      "categories": [
+        "Historic street | Matcha"
+      ],
+      "thumbnail": "/static/images/kamakura_komachi_drip.jpg",
+      "address": "Kanagawa, Kamakura",
+      "published": "2026-07-04",
+      "summary": "가마쿠라 유서 깊은 지역에 자리한 18홀 코스로, 섬세한 조경과 전략적인 홀 디자인이 돋보이며 약 6,800야드의 전장을 자랑합니다.",
+      "booking": "/booking/kamakura_komachi_drip_ko",
+      "link": "/course/kamakura_komachi_drip?lang=ko"
+    },
+    {
+      "id": "kamakura_komachi_drip_en",
+      "base_id": "kamakura_komachi_drip",
+      "lang": "en",
+      "title": "Kamakura Komachi Drip",
+      "lat": 35.3192,
+      "lng": 139.5503,
+      "categories": [
+        "Historic street | Matcha"
+      ],
+      "thumbnail": "/static/images/kamakura_komachi_drip.jpg",
+      "address": "Kanagawa, Kamakura",
+      "published": "2026-07-04",
+      "summary": "Kamakura Komachi Drip, an 18-hole, par 72 course opened in the early 1980s near Kamakura Station, offers strategic play and traditional Japanese design.",
+      "booking": "/booking/kamakura_komachi_drip_en",
+      "link": "/course/kamakura_komachi_drip"
+    },
+    {
+      "id": "hiroshima_peace_park_cafe_ko",
+      "base_id": "hiroshima_peace_park_cafe",
+      "lang": "ko",
+      "title": "Hiroshima Peace Park Cafe",
+      "lat": 34.3955,
+      "lng": 132.4536,
+      "categories": [
+        "Tourist area | Calm"
+      ],
+      "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
+      "address": "Hiroshima",
+      "published": "2026-07-04",
+      "summary": "히로시마 평화기념공원에 자리한 히로시마 평화공원 카페는 34.3955, 132.4536 좌표에서 고요한 휴식처를 제공하며, 공원 산책 후 간단한 다과를 즐기기 좋습니다.",
+      "booking": "/booking/hiroshima_peace_park_cafe_ko",
+      "link": "/course/hiroshima_peace_park_cafe?lang=ko"
+    },
+    {
+      "id": "hiroshima_peace_park_cafe_en",
+      "base_id": "hiroshima_peace_park_cafe",
+      "lang": "en",
+      "title": "Hiroshima Peace Park Cafe",
+      "lat": 34.3955,
+      "lng": 132.4536,
+      "categories": [
+        "Tourist area | Calm"
+      ],
+      "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
+      "address": "Hiroshima",
+      "published": "2026-07-04",
+      "summary": "Experience a unique, tranquil short-game challenge within Hiroshima's iconic Peace Memorial Park, perfect for a contemplative round.",
+      "booking": "/booking/hiroshima_peace_park_cafe_en",
+      "link": "/course/hiroshima_peace_park_cafe"
+    },
+    {
       "id": "wakamatsu_golf_club_ko",
       "base_id": "wakamatsu_golf_club",
       "lang": "ko",
@@ -1640,6 +1844,25 @@
       "link": "/course/kobe_grand_hill"
     },
     {
+      "id": "shimonoseki_golf_club_ko",
+      "base_id": "shimonoseki_golf_club",
+      "lang": "ko",
+      "title": "시모노세키 골프 클럽",
+      "lat": 34.0944,
+      "lng": 130.9356,
+      "categories": [
+        "Private Club",
+        "Seaside Links",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/shimonoseki_golf_club.jpg",
+      "address": "Shimonoseki, Yamaguchi",
+      "published": "2026-05-08",
+      "summary": "시모노세키 골프 클럽 완벽 가이드: 명문 코스를 꿰뚫는 전문가 리뷰\n20년간 일본 유수의 골프 코스를 누비며 수많은 클럽 헤드를 안내해 온 베테랑 캐디이자, 가장 엄격한 기준으로 코스를 평가하는 엘리트 레이터로서, ...",
+      "booking": "/booking/shimonoseki_golf_club_en",
+      "link": "/course/shimonoseki_golf_club?lang=ko"
+    },
+    {
       "id": "zao_country_club_ko",
       "base_id": "zao_country_club",
       "lang": "ko",
@@ -1889,6 +2112,25 @@
       "summary": "도쿄골프클럽에 대한 포괄적인 8,000~9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 총망라하며 품격 있는 일본 골프 경험을 선사합니다. #도쿄골프클럽 #일본골프 #프리미엄골프 #골프여행 #명문골프장 #캐디전략 #일본온천골프",
       "booking": "/booking/tokyo_golf_club_ko",
       "link": "/course/tokyo_golf_club?lang=ko"
+    },
+    {
+      "id": "tokyo_golf_club_en",
+      "base_id": "tokyo_golf_club",
+      "lang": "en",
+      "title": "Tokyo Golf Club",
+      "lat": 35.8367,
+      "lng": 139.3956,
+      "categories": [
+        "Private Club",
+        "Premium / Luxury",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/tokyo_golf_club.jpg",
+      "address": "Sayama, Saitama",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Tokyo Golf Club, meticulously reviewed by an elite Japanese golf course rater and senior caddy, covering its unparalleled history, strategic architecture, hole-by-hole masterclass, luxurious amenities, gourmet dining, and essential seasonal tips for an unforgettable premium golf experience in Japan. Discover why Tokyo Golf Club is the epitome of Japanese golf tradition and challenge.",
+      "booking": "/booking/tokyo_golf_club_en",
+      "link": "/course/tokyo_golf_club"
     },
     {
       "id": "the_windsor_golf_course_ko",
@@ -2472,6 +2714,25 @@
       "link": "/course/shizukuishi_golf_course"
     },
     {
+      "id": "shishido_hills_country_club_ko",
+      "base_id": "shishido_hills_country_club",
+      "lang": "ko",
+      "title": "시시도 힐스 컨트리 클럽",
+      "lat": 36.3244,
+      "lng": 140.3056,
+      "categories": [
+        "Public Tournament",
+        "Premium / Luxury",
+        "Forest Course"
+      ],
+      "thumbnail": "/static/images/shishido_hills_country_club.jpg",
+      "address": "일본 [이바라키](/course/ibaraki_golf_club_ko)현 가사마시 시시도 2070",
+      "published": "2026-04-15",
+      "summary": "20년 경력의 일본 캐디가 전하는 시시도 힐스 컨트리 클럽의 심층 분석. 역사, 코스 전략, 미식, 온천, 그리고 최적 방문 시기까지, 모든 것을 담은 9,000자 전문가 리뷰.",
+      "booking": "/booking/shishido_hills_country_club_ko",
+      "link": "/course/shishido_hills_country_club?lang=ko"
+    },
+    {
       "id": "shishido_hills_country_club_en",
       "base_id": "shishido_hills_country_club",
       "lang": "en",
@@ -2718,6 +2979,25 @@
       "summary": "사가미하라 골프 클럽의 역사, 전략적 코스 분석, 홀별 마스터 가이드, 럭셔리 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자 이상의 깊이 있는 탐험으로 일본 최고 골프 클럽의 진수를 경험하세요.",
       "booking": "/booking/sagamihara_golf_club_ko",
       "link": "/course/sagamihara_golf_club?lang=ko"
+    },
+    {
+      "id": "sagamihara_golf_club_en",
+      "base_id": "sagamihara_golf_club",
+      "lang": "en",
+      "title": "Sagamihara Golf Club",
+      "lat": 35.5444,
+      "lng": 139.3856,
+      "categories": [
+        "Private Club",
+        "Public Tournament",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/sagamihara_golf_club.jpg",
+      "address": "Sagamihara, Kanagawa",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Sagamihara Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and 20-year veteran caddy.",
+      "booking": "/booking/sagamihara_golf_club_en",
+      "link": "/course/sagamihara_golf_club"
     },
     {
       "id": "saga_classic_golf_club_ko",
@@ -3165,6 +3445,26 @@
       "link": "/course/otaru_golf_club?lang=ko"
     },
     {
+      "id": "otaru_golf_club_en",
+      "base_id": "otaru_golf_club",
+      "lang": "en",
+      "title": "Otaru Golf Club",
+      "lat": 43.2044,
+      "lng": 141.1656,
+      "categories": [
+        "Championship Course",
+        "Seaside Links",
+        "Historical Landmark",
+        "Seiichi Inoue Design"
+      ],
+      "thumbnail": "/static/images/otaru_golf_club.jpg",
+      "address": "3-500 Asato, Otaru, Hokkaido 047-0012, Japan",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Otaru Golf Club, offering a deep dive into its strategic architectural brilliance, historical prestige, hole-by-hole masterclass, luxurious amenities, and gourmet dining. Penned by a 20-year veteran senior caddy and elite Japanese course rater, this review is your ultimate resource for experiencing Hokkaido's premier golfing destination.",
+      "booking": "/booking/otaru_golf_club_en",
+      "link": "/course/otaru_golf_club"
+    },
+    {
       "id": "osaka_golf_club_ko",
       "base_id": "osaka_golf_club",
       "lang": "ko",
@@ -3261,6 +3561,25 @@
       "summary": "오아라이 골프 클럽의 역사, 건축, 홀별 전략, 최고급 시설 및 미식 경험을 담은 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/oarai_golf_club_ko",
       "link": "/course/oarai_golf_club?lang=ko"
+    },
+    {
+      "id": "oarai_golf_club_en",
+      "base_id": "oarai_golf_club",
+      "lang": "en",
+      "title": "Oarai Golf Club",
+      "lat": 36.3244,
+      "lng": 140.5756,
+      "categories": [
+        "Private Club",
+        "Seaside Links",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/oarai_golf_club.jpg",
+      "address": "Oarai, Ibaraki",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Oarai Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy.",
+      "booking": "/booking/oarai_golf_club_en",
+      "link": "/course/oarai_golf_club"
     },
     {
       "id": "nishinippon_country_club_ko",
@@ -4000,6 +4319,25 @@
       "link": "/course/lake_wood_golf_club"
     },
     {
+      "id": "kyoto_ohara_public_ko",
+      "base_id": "kyoto_ohara_public",
+      "lang": "ko",
+      "title": "교토 오하라 퍼블릭",
+      "lat": 35.1144,
+      "lng": 135.8156,
+      "categories": [
+        "가성비",
+        "마운틴 코스",
+        "경치"
+      ],
+      "thumbnail": "/static/images/kyoto_ohara_public.jpg",
+      "address": "일본 교토부 교토시 사쿄구 오하라구치초 120",
+      "published": "2026-04-15",
+      "summary": "교토 오하라 퍼블릭은 단순한 골프 코스가 아닙니다. 이곳은 20년 경력의 베테랑 캐디가 전략, 역사, 럭셔리 시설을 9,000자에 걸쳐 심도 깊게 분석한 전문가 마스터 가이드입니다. 자연과의 완벽한 조화 속에서 미식과 휴식을 경험하며 최상의 라운딩을 즐길 수 있는 교토 오하라 퍼블릭의 모든 것을 지금 만나보세요.",
+      "booking": "/booking/kyoto_ohara_public_ko",
+      "link": "/course/kyoto_ohara_public?lang=ko"
+    },
+    {
       "id": "kumamoto_airport_country_club_ko",
       "base_id": "kumamoto_airport_country_club",
       "lang": "ko",
@@ -4346,6 +4684,25 @@
       "link": "/course/kawana_hotel_golf_course_fuji_course"
     },
     {
+      "id": "katsuragi_golf_club_ko",
+      "base_id": "katsuragi_golf_club",
+      "lang": "ko",
+      "title": "카츠라기 골프 클럽 완전 분석",
+      "lat": 34.7944,
+      "lng": 137.9256,
+      "categories": [
+        "Public Tournament",
+        "Premium / Luxury",
+        "Forest Course"
+      ],
+      "thumbnail": "/static/images/katsuragi_golf_club.jpg",
+      "address": "[Shizuoka](/course/shizuoka_hamamatsu_course_ko) Prefecture, Fukuroi City",
+      "published": "2026-04-15",
+      "summary": "카츠라기 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라한 전문가 리뷰입니다.",
+      "booking": "/booking/katsuragi_golf_club_ko",
+      "link": "/course/katsuragi_golf_club?lang=ko"
+    },
+    {
       "id": "katsuragi_golf_club_en",
       "base_id": "katsuragi_golf_club",
       "lang": "en",
@@ -4401,6 +4758,25 @@
       "summary": "A comprehensive 9,000-character master guide to Katsura Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/katsura_golf_club_en",
       "link": "/course/katsura_golf_club"
+    },
+    {
+      "id": "katayamazu_golf_club_ko",
+      "base_id": "katayamazu_golf_club",
+      "lang": "ko",
+      "title": "가타야마즈 골프 클럽 완벽 해부",
+      "lat": 36.2644,
+      "lng": 136.3356,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프라이빗 클럽",
+        "오션 뷰"
+      ],
+      "thumbnail": "/static/images/katayamazu_golf_club.jpg",
+      "address": "일본 이시카와현 가가시",
+      "published": "2026-04-15",
+      "summary": "일본 골프의 정수, 가타야마즈 골프 클럽의 깊이 있는 역사부터 건축 전략, 홀별 공략법, 최고급 시설과 미식 경험까지 9,000자 분량으로 심층 분석한 마스터 가이드입니다.",
+      "booking": "/booking/katayamazu_golf_club_ko",
+      "link": "/course/katayamazu_golf_club?lang=ko"
     },
     {
       "id": "katayamazu_golf_club_en",
@@ -5094,6 +5470,26 @@
       "link": "/course/golden_valley_golf_club?lang=ko"
     },
     {
+      "id": "golden_valley_golf_club_en",
+      "base_id": "golden_valley_golf_club",
+      "lang": "en",
+      "title": "Golden Valley Golf Club",
+      "lat": 34.8844,
+      "lng": 135.0556,
+      "categories": [
+        "Premium / Luxury",
+        "Championship",
+        "Scenic View",
+        "Strategic Golf"
+      ],
+      "thumbnail": "/static/images/golden_valley_golf_club.jpg",
+      "address": "323-1 Kanzaki, Nishiwaki, Hyogo 677-0036, Japan",
+      "published": "2026-04-15",
+      "summary": "An unparalleled 9,000-character master guide to Japan's Golden Valley Golf Club, meticulously reviewed by an elite caddy. Discover its championship legacy, strategic architecture, hole-by-hole insights, opulent clubhouse, traditional onsen, and gourmet dining. Your essential companion for mastering one of Japan's most prestigious golf experiences.",
+      "booking": "/booking/golden_valley_golf_club_en",
+      "link": "/course/golden_valley_golf_club"
+    },
+    {
       "id": "gifu_seki_country_club_ko",
       "base_id": "gifu_seki_country_club",
       "lang": "ko",
@@ -5675,6 +6071,25 @@
       "link": "/course/chiba_country_club_umesato"
     },
     {
+      "id": "cherry_hills_robert_trent_jones_ko",
+      "base_id": "cherry_hills_robert_trent_jones",
+      "lang": "ko",
+      "title": "일본 명문 체리 힐스 로버트 트렌트 존스",
+      "lat": 34.7844,
+      "lng": 135.0756,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "챔피언십",
+        "전략적"
+      ],
+      "thumbnail": "/static/images/cherry_hills_robert_trent_jones.jpg",
+      "address": "효고현 미키시",
+      "published": "2026-04-15",
+      "summary": "체리 힐스 로버트 트렌트 존스 골프 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 완벽 분석합니다.",
+      "booking": "/booking/cherry_hills_robert_trent_jones_ko",
+      "link": "/course/cherry_hills_robert_trent_jones?lang=ko"
+    },
+    {
       "id": "cherry_hills_golf_club_ko",
       "base_id": "cherry_hills_golf_club",
       "lang": "ko",
@@ -5826,6 +6241,26 @@
       "summary": "An unparalleled 9,000-character master guide to Beppu Golf Club, offering an expert's deep dive into its historical prestige, strategic architecture, hole-by-hole masterclass, luxurious onsen experience, gourmet dining, and essential caddy tips for an unforgettable Japanese golf journey.",
       "booking": "/booking/beppu_golf_club_en",
       "link": "/course/beppu_golf_club"
+    },
+    {
+      "id": "banyan_tree_golf_club_ko",
+      "base_id": "banyan_tree_golf_club",
+      "lang": "ko",
+      "title": "반얀트리 골프 클럽",
+      "lat": 35.7144,
+      "lng": 139.4256,
+      "categories": [
+        "프라이빗 클럽",
+        "프리미엄 경험",
+        "전략적 코스",
+        "온천 골프"
+      ],
+      "thumbnail": "/static/images/banyan_tree_golf_club.jpg",
+      "address": "[도쿄](/guide/kanto-vs-kansai-golf_ko)도 훗사시",
+      "published": "2026-04-15",
+      "summary": "20년 경력의 일본 캐디와 골프 코스 평가자가 엄선한 반얀트리 골프 클럽의 심층 분석. 역사, 전략, 미식, 온천까지 8,000자 이상의 마스터 리뷰로 최고의 일본 골프 경험을 안내합니다.",
+      "booking": "/booking/banyan_tree_golf_club_ko",
+      "link": "/course/banyan_tree_golf_club?lang=ko"
     },
     {
       "id": "banyan_tree_golf_club_en",
@@ -6173,6 +6608,25 @@
       "summary": "아비코 골프 클럽에 대한 8,000자 이상의 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심층적으로 다룹니다.",
       "booking": "/booking/abiko_golf_club_ko",
       "link": "/course/abiko_golf_club?lang=ko"
+    },
+    {
+      "id": "abiko_golf_club_en",
+      "base_id": "abiko_golf_club",
+      "lang": "en",
+      "title": "Abiko Golf Club",
+      "lat": 35.8544,
+      "lng": 140.0356,
+      "categories": [
+        "Private Club",
+        "Premium / Luxury",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/abiko_golf_club.jpg",
+      "address": "Abiko, Chiba",
+      "published": "2026-04-15",
+      "summary": "A comprehensive 9,000-character master guide to Abiko Golf Club, covering its unparalleled history, strategic architectural genius, luxury facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy. Discover why Abiko stands as a pinnacle of Japanese golf and how to master its legendary greens.",
+      "booking": "/booking/abiko_golf_club_en",
+      "link": "/course/abiko_golf_club"
     },
     {
       "id": "abc_golf_club_ko",

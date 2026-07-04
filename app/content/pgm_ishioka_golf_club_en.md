@@ -1,14 +1,27 @@
 ---
-lang: "en"
-title: "The Definitive Guide to PGM Ishioka Golf Club: An Expert Review by an Elite Japanese Caddy and Rater"
-lat: "36.2144"
-lng: "140.2656"
-categories: "Championship Course, Strategic Golf, Luxury Experience, Ibaraki Golf, Tournament Venue"
-thumbnail: "/static/images/pgm_ishioka_golf_club.jpg"
-address: "Ishioka, Ibaraki"
-date: "2026-04-15"
-booking: "/booking/pgm_ishioka_golf_club_en"
-summary: "An unparalleled 9,000-character master guide to PGM Ishioka Golf Club, meticulously reviewed by an elite Japanese caddy and course rater. This expert analysis covers the club's prestigious history, strategic architectural genius by Robert Trent Jones Jr., a detailed hole-by-hole masterclass, luxurious clubhouse amenities including the authentic Daikokujo onsen, and exquisite gourmet dining. Discover caddy secrets and seasonal tips for an unforgettable golfing pilgrimage in Ibaraki, designed to elevate your game and rank #1 on Google for discerning golf travelers."
+address: Ishioka, Ibaraki
+booking: /booking/pgm_ishioka_golf_club_en
+categories: Championship Course, Strategic Golf, Luxury Experience, Ibaraki Golf,
+  Tournament Venue
+date: '2026-04-15'
+description: Book your round at PGM Ishioka Golf Club in Ibaraki, Japan. Find the
+  latest green fees, tee times, Rakuten GORA booking tips, and course layout strategy.
+lang: en
+lat: '36.2144'
+lng: '140.2656'
+seo_description: Book your round at PGM Ishioka Golf Club in Ibaraki, Japan. Find
+  the latest green fees, tee times, Rakuten GORA booking tips, and course layout strategy.
+seo_title: 'PGM Ishioka Golf Club: Booking, Green Fees & Guide | OK Caddie'
+summary: 'An unparalleled 9,000-character master guide to PGM Ishioka Golf Club, meticulously
+  reviewed by an elite Japanese caddy and course rater. This expert analysis covers
+  the club''s prestigious history, strategic architectural genius by Robert Trent
+  Jones Jr., a detailed hole-by-hole masterclass, luxurious clubhouse amenities including
+  the authentic Daikokujo onsen, and exquisite gourmet dining. Discover caddy secrets
+  and seasonal tips for an unforgettable golfing pilgrimage in Ibaraki, designed to
+  elevate your game and rank #1 on Google for discerning golf travelers.'
+thumbnail: /static/images/pgm_ishioka_golf_club.jpg
+title: 'The Definitive Guide to PGM Ishioka Golf Club: An Expert Review by an Elite
+  Japanese Caddy and Rater'
 ---
 
 ## PGM Ishioka Golf Club: A Masterpiece of Strategic Design and Japanese Excellence

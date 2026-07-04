@@ -1,20 +1,24 @@
 ---
-lang: en
-title: 'Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater &
-  Senior Caddy'
-lat: '33.1544'
-lng: '131.5556'
+address: 3136-1 Shimogori, Oita, 870-1123, Japan
+booking: /booking/oita_country_club_en
 categories: Luxury Golf, Strategic Design, Onsen Experience, Historical Prestige,
   Forest Course
-thumbnail: /static/images/oita_country_club.jpg
-address: 3136-1 Shimogori, Oita, 870-1123, Japan
 date: '2026-06-27'
-booking: /booking/oita_country_club_en
+description: Easily book your tee time at Oita Country Club. Discover green fees,
+  Rakuten GORA booking guides, course maps, and expert tips on OKCaddie.
+lang: en
+lat: '33.1544'
+lng: '131.5556'
+seo_description: Book your round at Oita Country Club. Find English booking guides,
+  green fees, course layouts, and player tips on OKCaddie.
+seo_title: Oita Country Club Booking & Green Fees | OKCaddie
 summary: An unparalleled 9,000-character master guide to Oita Country Club, meticulously
   detailing its strategic design, rich history, luxurious onsen, and exquisite dining,
   offering unparalleled insights for the discerning golfer seeking Japan's finest.
+thumbnail: /static/images/oita_country_club.jpg
+title: 'Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater &
+  Senior Caddy'
 ---
-
 
 As an elite Japanese golf course rater with two decades of experience navigating the nation's most hallowed fairways as a professional senior caddy, I approach each assignment with a profound respect for the game and the artistry of course design. Today, our focus turns to a true gem nestled in the heart of Kyushu: Oita Country Club. This review, crafted for the discerning patrons of OKCaddie, is not merely a description, but an immersive journey into a club that encapsulates the very essence of Japanese golf. Prepare for a technical, yet engaging, analysis designed to elevate your appreciation and strategy for this magnificent course, ensuring it ranks #1 in your search for Japan's premier golfing experiences.
 

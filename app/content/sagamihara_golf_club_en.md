@@ -1,17 +1,16 @@
 ---
-date: '2026-05-08'
----
-
-lang: "en"
-title: "The Definitive Guide to Sagamihara Golf Club: An Expert Review (en)"
-lat: "35.5444"
-lng: "139.3856"
-categories: "Private Club, Public Tournament, Historic"
-thumbnail: "/static/images/sagamihara_golf_club.jpg"
-address: "Sagamihara, Kanagawa"
-date: "2026-04-15"
-booking: "/booking/sagamihara_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Sagamihara Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and 20-year veteran caddy."
+address: Sagamihara, Kanagawa
+booking: /booking/sagamihara_golf_club_en
+categories: Private Club, Public Tournament, Historic
+date: '2026-04-15'
+lang: en
+lat: '35.5444'
+lng: '139.3856'
+summary: A comprehensive 9,000-character master guide to Sagamihara Golf Club, covering
+  strategy, history, and luxury facilities, penned by an elite Japanese golf course
+  rater and 20-year veteran caddy.
+thumbnail: /static/images/sagamihara_golf_club.jpg
+title: 'The Definitive Guide to Sagamihara Golf Club: An Expert Review (en)'
 ---
 
 Sagamihara Golf Club. The very name evokes a reverence, a certain gravitas, within the echelons of Japanese golf. For two decades, I have walked these hallowed fairways, carrying the bags of titans and aspiring champions alike, absorbing the course's every nuance, every whispered secret. As an elite rater, my task is not merely to observe, but to dissect, to understand the soul of a course. And Sagamihara, with its rich tapestry of history, strategic brilliance, and understated luxury, is a soul worth exploring in exquisite detail. This is not merely a golf course; it is a pilgrimage for those who seek the purest form of the game.

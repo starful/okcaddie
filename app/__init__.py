@@ -17,6 +17,10 @@ try:
     from .content_new import enrich_item, enrich_items
 except ImportError:
     from content_new import enrich_item, enrich_items
+try:
+    from .course_content import load_course_post_file
+except ImportError:
+    from course_content import load_course_post_file
 
 app = Flask(__name__)
 Compress(app)
@@ -882,14 +886,8 @@ def course_detail(course_ref):
     md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
     if not os.path.exists(md_path):
         abort(404)
-        
-    with open(md_path, 'r', encoding='utf-8') as f:
-        raw = f.read().strip()
-    
-    if '---' in raw:
-        raw = '---' + raw.split('---', 1)[1]
-    
-    post_obj = frontmatter.loads(raw)
+
+    post_obj, _ = load_course_post_file(md_path)
     post_data = dict(post_obj.metadata)
     
     # 본문 내 불필요한 메타데이터 텍스트 강제 삭제
@@ -988,12 +986,7 @@ def course_social_card(course_ref):
     if not os.path.exists(md_path):
         abort(404)
 
-    with open(md_path, 'r', encoding='utf-8') as f:
-        raw = f.read().strip()
-    if '---' in raw:
-        raw = '---' + raw.split('---', 1)[1]
-
-    post_obj = frontmatter.loads(raw)
+    post_obj, _ = load_course_post_file(md_path)
     post_data = dict(post_obj.metadata)
     post_data['lang'] = 'ko' if course_id.endswith('_ko') else 'en'
     post_data['title'] = humanize_title(post_data.get('title', ''))

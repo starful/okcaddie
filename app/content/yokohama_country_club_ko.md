@@ -1,13 +1,15 @@
 ---
-seo_title: "요코하마 컨트리 클럽 — 그린피·서코스·예약 가이드"
-seo_description: "요코하마 CC 서코스 그린피, 방문 라운드, 티타임·라쿠텐 고라 예약. 지도, 공략, 접근 정보 — OKCaddie."
 address: Yokohama, Kanagawa
 booking: /booking/yokohama_country_club_ko
 categories: Private Club, Public Tournament, Historic
 date: '2026-04-15'
+description: Want to play Yokohama Country Club? Discover visitor access rules, green
+  fees, and booking tips for this prestigious Japanese golf course.
 lang: ko
 lat: '35.4344'
 lng: '139.5456'
+seo_description: 요코하마 CC 서코스 그린피, 방문 라운드, 티타임·라쿠텐 고라 예약. 지도, 공략, 접근 정보 — OKCaddie.
+seo_title: 요코하마 컨트리 클럽 — 그린피·서코스·예약 가이드
 summary: 요코하마 컨트리 클럽의 역사, 전략적 코스 분석, 최고급 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자 이상의 압도적인
   깊이로 담아낸 마스터 가이드입니다. 일본 최고 수준의 명문 코스를 경험하세요.
 thumbnail: /static/images/yokohama_country_club.jpg

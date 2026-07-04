@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Keya Golf Club: An Expert Review (en)"
-lat: "33.6044"
-lng: "130.1356"
-categories: "Public Tournament, Premium / Luxury, Ocean View"
-thumbnail: "/static/images/keya_golf_club.jpg"
-address: "Itoshima, Fukuoka"
-date: "2026-04-15"
-booking: "/booking/keya_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Keya Golf Club, covering strategy, history, and luxury facilities."
+address: Itoshima, Fukuoka
+booking: /booking/keya_golf_club_en
+categories: Public Tournament, Premium / Luxury, Ocean View
+date: '2026-04-15'
+description: Planning to play Keya Golf Club in Fukuoka? Get updated green fees, booking
+  guides (Rakuten GORA), and expert course tips on OKCaddie.
+lang: en
+lat: '33.6044'
+lng: '130.1356'
+seo_description: Planning to play Keya Golf Club in Fukuoka? Get updated green fees,
+  booking guides (Rakuten GORA), and expert course tips on OKCaddie.
+seo_title: Keya Golf Club Fukuoka | Green Fees & Booking Guide | OKCaddie
+summary: A comprehensive 9,000-character master guide to Keya Golf Club, covering
+  strategy, history, and luxury facilities.
+thumbnail: /static/images/keya_golf_club.jpg
+title: 'The Definitive Guide to Keya Golf Club: An Expert Review (en)'
 ---
 
 As an elite Japanese golf course rater and a seasoned professional caddy with two decades of dedicated service, I have walked the hallowed grounds of Japan's most revered golf courses countless times. Yet, few evoke the profound respect, strategic challenge, and serene beauty quite like Keya Golf Club. Nestled along the picturesque coastline of Itoshima in Fukuoka Prefecture, Keya is not merely a golf course; it is a meticulously crafted masterpiece, a testament to Japanese golfing heritage and architectural brilliance. This review, born from years of intimate observation and technical analysis, aims to be the definitive guide for the discerning golfer, designed to rank #1 on Google for those seeking the ultimate Keya experience. Prepare to embark on a journey into the soul of one of Japan's premier golfing sanctuaries.

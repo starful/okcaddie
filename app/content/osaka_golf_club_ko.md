@@ -1,14 +1,19 @@
 ---
-lang: "ko"
-title: "오사카 골프 클럽 마스터 가이드: 전문가 리뷰"
-lat: "34.3144"
-lng: "135.1556"
-categories: "프라이빗 클럽, 해변 링크스, 역사적 명문"
-thumbnail: "/static/images/osaka_golf_club.jpg"
-address: "미사키, 오사카"
-date: "2026-04-15"
-booking: "/booking/osaka_golf_club_ko"
-summary: "오사카 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다. 최고급 골프 경험을 위한 당신의 필독서입니다."
+address: 미사키, 오사카
+booking: /booking/osaka_golf_club_ko
+categories: 프라이빗 클럽, 해변 링크스, 역사적 명문
+date: '2026-04-15'
+description: Book your tee time at Osaka Golf Club. Explore updated green fees, Rakuten
+  GORA booking guides, course layouts, and access tips on OKCaddie.
+lang: ko
+lat: '34.3144'
+lng: '135.1556'
+seo_description: Book your tee time at Osaka Golf Club. Explore updated green fees,
+  Rakuten GORA booking guides, course layouts, and access tips on OKCaddie.
+seo_title: 'Osaka Golf Club: Green Fees, Booking Guide & Review | OKCaddie'
+summary: 오사카 골프 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다. 최고급 골프 경험을 위한 당신의 필독서입니다.
+thumbnail: /static/images/osaka_golf_club.jpg
+title: '오사카 골프 클럽 마스터 가이드: 전문가 리뷰'
 ---
 
 ## 오사카 골프 클럽: 일본 골프 역사의 숨결이 깃든 해변의 명작

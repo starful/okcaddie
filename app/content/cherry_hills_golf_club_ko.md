@@ -3,9 +3,14 @@ address: 효고현 미키시
 booking: /booking/cherry_hills_golf_club_ko
 categories: Premium / Luxury, Easy Booking, Robert Trent Jones Jr
 date: '2026-04-15'
+description: Plan your round at Cherry Hills Golf Club. Find up-to-date green fees,
+  course layout tips, and easy booking via Rakuten GORA on okcaddie.
 lang: ko
 lat: '34.7844'
 lng: '135.0756'
+seo_description: Plan your round at Cherry Hills Golf Club. Find up-to-date green
+  fees, course layout tips, and easy booking via Rakuten GORA on okcaddie.
+seo_title: 'Cherry Hills Golf Club: Green Fees & Booking Guide | okcaddie'
 summary: 20년 경력의 베테랑 캐디가 파헤치는 체리힐스 골프 클럽의 전략, 역사, 럭셔리 시설 완벽 가이드. 일본 골프 여행의 정수를 경험하세요.
 thumbnail: /static/images/cherry_hills_golf_club.jpg
 title: '체리힐스 골프 클럽 완전 분석: 일본 최고 명문 코스를 위한 전문가 가이드'

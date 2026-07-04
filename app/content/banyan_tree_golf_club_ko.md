@@ -1,17 +1,15 @@
 ---
-date: '2026-05-08'
----
-
-lang: "ko"
-title: "반얀트리 골프 클럽 마스터 가이드: 일본 최고 수준의 경험, 전문가 리뷰 (OKCaddie 독점)"
-lat: "35.7144"
-lng: "139.4256"
-categories: "프라이빗 클럽, 프리미엄 경험, 전략적 코스, 온천 골프"
-thumbnail: "/static/images/banyan_tree_golf_club.jpg"
-address: "[도쿄](/guide/kanto-vs-kansai-golf_ko)도 훗사시"
-date: "2026-04-15"
-booking: "/booking/banyan_tree_golf_club_ko"
-summary: "20년 경력의 일본 캐디와 골프 코스 평가자가 엄선한 반얀트리 골프 클럽의 심층 분석. 역사, 전략, 미식, 온천까지 8,000자 이상의 마스터 리뷰로 최고의 일본 골프 경험을 안내합니다."
+address: '[도쿄](/guide/kanto-vs-kansai-golf_ko)도 훗사시'
+booking: /booking/banyan_tree_golf_club_ko
+categories: 프라이빗 클럽, 프리미엄 경험, 전략적 코스, 온천 골프
+date: '2026-04-15'
+lang: ko
+lat: '35.7144'
+lng: '139.4256'
+summary: 20년 경력의 일본 캐디와 골프 코스 평가자가 엄선한 반얀트리 골프 클럽의 심층 분석. 역사, 전략, 미식, 온천까지 8,000자
+  이상의 마스터 리뷰로 최고의 일본 골프 경험을 안내합니다.
+thumbnail: /static/images/banyan_tree_golf_club.jpg
+title: '반얀트리 골프 클럽 마스터 가이드: 일본 최고 수준의 경험, 전문가 리뷰 (OKCaddie 독점)'
 ---
 
 # 반얀트리 골프 클럽: 일본 골프의 정수를 경험하다 – 20년 경력 베테랑 캐디의 마스터 리뷰

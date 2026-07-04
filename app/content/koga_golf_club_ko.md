@@ -1,14 +1,20 @@
 ---
-lang: "ko"
-title: "Koga Golf Club"
-lat: "33.7144"
-lng: "130.4556"
-categories: "Private Club, Championship, Seaside Links"
-thumbnail: "/static/images/koga_golf_club.jpg"
-address: "Koga, Fukuoka"
-date: "2026-06-19"
-booking: "/booking/koga_golf_club_ko"
-summary: "후쿠오카 고가에 위치한 Koga Golf Club은 미쓰기 고바야시가 설계한 18홀, 파 72의 챔피언십 코스로, 해안가의 바람과 전략적인 벙커링이 특징입니다."
+address: Koga, Fukuoka
+booking: /booking/koga_golf_club_ko
+categories: Private Club, Championship, Seaside Links
+date: '2026-06-19'
+description: 후쿠오카 명문 코가 골프클럽(Koga GC)의 그린피, 코스 가이드, 위치 및 라쿠텐 고라 예약 링크를 OKCaddie에서
+  확인하고 일본 골프 여행을 준비해 보세요.
+lang: ko
+lat: '33.7144'
+lng: '130.4556'
+seo_description: 후쿠오카 명문 코가 골프클럽(Koga GC)의 그린피, 코스 가이드, 위치 및 라쿠텐 고라 예약 링크를 OKCaddie에서
+  확인하고 일본 골프 여행을 준비해 보세요.
+seo_title: 코가 골프클럽 (Koga Golf Club) 예약·그린피·코스 가이드 | OKCaddie
+summary: 후쿠오카 고가에 위치한 Koga Golf Club은 미쓰기 고바야시가 설계한 18홀, 파 72의 챔피언십 코스로, 해안가의 바람과
+  전략적인 벙커링이 특징입니다.
+thumbnail: /static/images/koga_golf_club.jpg
+title: Koga Golf Club
 ---
 
 ## 코스 개요

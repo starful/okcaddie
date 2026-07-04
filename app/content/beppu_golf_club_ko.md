@@ -3,9 +3,14 @@ address: 오이타현 키츠키시 하마와키 1-1
 booking: /booking/beppu_golf_club_ko
 categories: Value for Money, Stay & Play, Historic
 date: '2026-04-15'
+description: Planning a golf trip to Oita? Learn how to book tee times at Beppu Golf
+  Club with our step-by-step English guide, updated green fees, and course reviews.
 lang: ko
 lat: '33.3244'
 lng: '131.4156'
+seo_description: Easily book Beppu Golf Club in Oita, Japan. Get updated green fees,
+  course reviews, and a step-by-step English Rakuten GORA booking guide.
+seo_title: 'Beppu Golf Club Booking: English Guide & Green Fees | OKCaddie'
 summary: 일본 규슈 최고의 명문 벳푸 골프 클럽에 대한 9,000자 심층 분석. 역사, 전략, 온천, 미식까지 완벽한 골프 경험을 위한 마스터
   가이드.
 thumbnail: /static/images/beppu_golf_club.jpg

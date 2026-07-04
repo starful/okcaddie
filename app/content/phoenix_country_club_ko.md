@@ -3,9 +3,14 @@ address: Miyazaki, Miyazaki
 booking: /booking/phoenix_country_club_ko
 categories: Public Tournament, Stay & Play, Premium / Luxury
 date: '2026-04-15'
+description: An essential guide to playing at Phoenix Country Club in Miyazaki, Japan.
+  Access green fees, tee times, Rakuten GORA booking, and expert golf course tips.
 lang: ko
 lat: '31.9567'
 lng: '131.4692'
+seo_description: Book tee times at Miyazaki's famous Phoenix Country Club. Find green
+  fees, Rakuten GORA booking guides, and expert course tips on OK Caddie.
+seo_title: 'Phoenix Country Club Miyazaki: Booking & Green Fees'
 summary: 피닉스 컨트리 클럽의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다.
 thumbnail: /static/images/phoenix_country_club.jpg
 title: '피닉스 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)'

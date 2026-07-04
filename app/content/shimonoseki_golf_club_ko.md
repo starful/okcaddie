@@ -1,5 +1,18 @@
 ---
+address: Shimonoseki, Yamaguchi
+booking: /booking/shimonoseki_golf_club_en
+categories: Private Club, Seaside Links, Championship
 date: '2026-05-08'
+description: Want to play the prestigious Shimonoseki Golf Club? Learn how visitors
+  can book a tee time, current green fees, and strict guest policies.
+lang: ko
+lat: '34.0944'
+lng: '130.9356'
+seo_description: Want to play the prestigious Shimonoseki Golf Club? Learn how visitors
+  can book a tee time, current green fees, and strict guest policies.
+seo_title: 'How to Play Shimonoseki Golf Club: Guest Booking Guide'
+thumbnail: /static/images/shimonoseki_golf_club.jpg
+title: '시모노세키 골프 클럽 완벽 가이드: 명문 코스를 꿰뚫는 전문가 리뷰'
 ---
 
 # 시모노세키 골프 클럽 완벽 가이드: 명문 코스를 꿰뚫는 전문가 리뷰

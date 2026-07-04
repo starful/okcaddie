@@ -1,14 +1,26 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Fuji Country Club: An Expert Review by an Elite Japanese Golf Course Rater and Senior Caddy"
-lat: "35.3344"
-lng: "138.8856"
-categories: "Private Club, Mt. Fuji View, Historic, Luxury Golf Japan, Premier Japanese Golf Course"
-thumbnail: "/static/images/fuji_country_club.jpg"
-address: "3383-1, Higashiyama, Gotemba, Shizuoka 412-0026, Japan"
-date: "2026-04-15"
-booking: "/booking/fuji_country_club_en"
-summary: "An unparalleled 9,000-character master guide to Fuji Country Club, Japan's iconic golfing sanctuary. This expert review by a seasoned golf course rater and senior caddy delves into its historical prestige, strategic architectural brilliance, hole-by-hole masterclass, luxurious amenities, gourmet dining, and essential seasonal tips for an unforgettable Mt. Fuji golf experience. Discover why Fuji Country Club is consistently ranked among the best golf courses in Japan."
+address: 3383-1, Higashiyama, Gotemba, Shizuoka 412-0026, Japan
+booking: /booking/fuji_country_club_en
+categories: Private Club, Mt. Fuji View, Historic, Luxury Golf Japan, Premier Japanese
+  Golf Course
+date: '2026-04-15'
+description: Complete guide to Fuji Country Club in Gotemba. Discover green fees,
+  layout details, and how to book tee times through Rakuten GORA.
+lang: en
+lat: '35.3344'
+lng: '138.8856'
+seo_description: Book your round at Fuji Country Club. Find green fees, Rakuten GORA
+  booking guides, Mt. Fuji views, and course strategy on OKCaddie.
+seo_title: 'Fuji Country Club: Green Fees, Booking & Tee Times | OKCaddie'
+summary: An unparalleled 9,000-character master guide to Fuji Country Club, Japan's
+  iconic golfing sanctuary. This expert review by a seasoned golf course rater and
+  senior caddy delves into its historical prestige, strategic architectural brilliance,
+  hole-by-hole masterclass, luxurious amenities, gourmet dining, and essential seasonal
+  tips for an unforgettable Mt. Fuji golf experience. Discover why Fuji Country Club
+  is consistently ranked among the best golf courses in Japan.
+thumbnail: /static/images/fuji_country_club.jpg
+title: 'The Definitive Guide to Fuji Country Club: An Expert Review by an Elite Japanese
+  Golf Course Rater and Senior Caddy'
 ---
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of experience navigating the hallowed fairways of this nation, I present to you an exhaustive, unvarnished, yet deeply appreciative analysis of Fuji Country Club. This is not merely a review; it is a pilgrimage guide for the discerning golfer seeking the ultimate Japanese golfing experience, a journey to the very heart of golf's spirit under the watchful gaze of Mount Fuji. Our objective at OKCaddie is to provide the definitive resource, ensuring your pursuit of premier **luxury golf in Japan** culminates in an unforgettable encounter with one of its true masterpieces. Prepare to delve into the meticulous details that elevate Fuji Country Club far beyond a mere round of golf.

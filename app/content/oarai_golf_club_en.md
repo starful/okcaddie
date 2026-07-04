@@ -1,17 +1,16 @@
 ---
-date: '2026-05-08'
----
-
-lang: "en"
-title: "The Definitive Guide to Oarai Golf Club: An Expert Review (en)"
-lat: "36.3244"
-lng: "140.5756"
-categories: "Private Club, Seaside Links, Championship"
-thumbnail: "/static/images/oarai_golf_club.jpg"
-address: "Oarai, Ibaraki"
-date: "2026-04-15"
-booking: "/booking/oarai_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Oarai Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy."
+address: Oarai, Ibaraki
+booking: /booking/oarai_golf_club_en
+categories: Private Club, Seaside Links, Championship
+date: '2026-04-15'
+lang: en
+lat: '36.3244'
+lng: '140.5756'
+summary: A comprehensive 9,000-character master guide to Oarai Golf Club, covering
+  strategy, history, and luxury facilities, penned by an elite Japanese golf course
+  rater and senior caddy.
+thumbnail: /static/images/oarai_golf_club.jpg
+title: 'The Definitive Guide to Oarai Golf Club: An Expert Review (en)'
 ---
 
 ## Oarai Golf Club: A Masterpiece Forged by History and Architectural Brilliance

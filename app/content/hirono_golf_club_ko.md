@@ -1,13 +1,15 @@
 ---
-seo_title: "히로노 골프 클럽 — 그린피·회원제·방문 라운드 가이드"
-seo_description: "히로노 GC(효고) 그린피·앨리슨 코스 공략, 회원제 방문·예약 경로. OKCaddie에서 지도와 여행 팁을 확인하세요."
 address: 효고현 미키시 히로노
 booking: /booking/hirono_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic
 date: '2026-04-15'
+description: Want to play Japan’s most exclusive golf course? Discover how to secure
+  a Hirono Golf Club tee time, visitor policies, and guest fees.
 lang: ko
 lat: '34.7967'
 lng: '135.0111'
+seo_description: 히로노 GC(효고) 그린피·앨리슨 코스 공략, 회원제 방문·예약 경로. OKCaddie에서 지도와 여행 팁을 확인하세요.
+seo_title: 히로노 골프 클럽 — 그린피·회원제·방문 라운드 가이드
 summary: 히로노 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 전략, 역사, 럭셔리 시설을 총망라한 전문가 리뷰입니다.
 thumbnail: /static/images/hirono_golf_club.jpg
 title: '히로노 골프 클럽 완벽 가이드: 전문가 리뷰 (ko)'

@@ -1,14 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Kawana Hotel Golf Course Fuji Course: An Expert Review (en)"
-lat: "34.9038"
-lng: "139.1389"
-categories: "Public Tournament, Premium / Luxury, Seaside Links"
-thumbnail: "/static/images/kawana_hotel_golf_course_fuji_course.jpg"
-address: "Ito, Shizuoka"
-date: "2026-04-15"
-booking: "/booking/kawana_hotel_golf_course_fuji_course_en"
-summary: "A comprehensive 9,000-character master guide to Kawana Hotel Golf Course Fuji Course, covering strategy, history, and luxury facilities, from an elite Japanese golf rater and senior caddy."
+address: Ito, Shizuoka
+booking: /booking/kawana_hotel_golf_course_fuji_course_en
+categories: Public Tournament, Premium / Luxury, Seaside Links
+date: '2026-04-15'
+description: How to book the prestigious Kawana Fuji Course. Get latest green fees,
+  booking tips for foreigners, and course strategy to play Japan's top resort.
+lang: en
+lat: '34.9038'
+lng: '139.1389'
+seo_description: How to book the prestigious Kawana Fuji Course. Get latest green
+  fees, booking tips for foreigners, and course strategy to play Japan's top resort.
+seo_title: 'Kawana Hotel Fuji Course: How to Book & Green Fees | OK Caddie'
+summary: A comprehensive 9,000-character master guide to Kawana Hotel Golf Course
+  Fuji Course, covering strategy, history, and luxury facilities, from an elite Japanese
+  golf rater and senior caddy.
+thumbnail: /static/images/kawana_hotel_golf_course_fuji_course.jpg
+title: 'The Definitive Guide to Kawana Hotel Golf Course Fuji Course: An Expert Review
+  (en)'
 ---
 
 As an elite Japanese golf course rater with two decades of experience as a senior caddy, I have walked the hallowed fairways of Japan's most revered courses countless times. Yet, few evoke the profound sense of history, architectural brilliance, and sheer golfing majesty quite like the **Kawana Hotel Golf Course Fuji Course**. Nestled on the breathtaking Izu Peninsula, overlooking the Pacific Ocean and the distant grandeur of Mount Fuji, this course is not merely a venue for golf; it is a pilgrimage for discerning enthusiasts, a living testament to the golden age of golf course design, and an enduring symbol of Japanese luxury and tradition. My mission today is to dissect every facet of this masterpiece, offering an unparalleled insight for the premium golfer seeking to truly understand its essence.

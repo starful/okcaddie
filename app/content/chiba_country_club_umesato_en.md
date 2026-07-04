@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Chiba Country Club Umesato: An Expert Review (en)"
-lat: "35.9344"
-lng: "139.8756"
-categories: "Private Club, Public Tournament, Forest Course"
-thumbnail: "/static/images/chiba_country_club_umesato.jpg"
-address: "Noda, Chiba"
-date: "2026-04-15"
-booking: "/booking/chiba_country_club_umesato_en"
-summary: "A comprehensive 9,000-character master guide to Chiba Country Club Umesato, covering strategy, history, and luxury facilities."
+address: Noda, Chiba
+booking: /booking/chiba_country_club_umesato_en
+categories: Private Club, Public Tournament, Forest Course
+date: '2026-04-15'
+description: An expert guide to Chiba Country Club Umesato. Discover how to book tee
+  times, check green fees, and master this championship golf course in Chiba, Japan.
+lang: en
+lat: '35.9344'
+lng: '139.8756'
+seo_description: Book your round at Chiba Country Club Umesato. Find green fees, Rakuten
+  GORA booking tips, and details on this prestigious Japan Open host course.
+seo_title: 'Chiba Country Club Umesato: Booking & Green Fees | okcaddie'
+summary: A comprehensive 9,000-character master guide to Chiba Country Club Umesato,
+  covering strategy, history, and luxury facilities.
+thumbnail: /static/images/chiba_country_club_umesato.jpg
+title: 'The Definitive Guide to Chiba Country Club Umesato: An Expert Review (en)'
 ---
 
 As a veteran caddy and a dedicated golf course rater in Japan for two decades, I have had the privilege of traversing countless immaculate fairways and deciphering the most challenging greens across this archipelago. Few courses, however, command the reverence and strategic complexity of Chiba Country Club Umesato. This is not merely a golf course; it is a meticulously crafted landscape, a testament to Japanese golf heritage, and a profound challenge that demands respect, precision, and an unyielding commitment to the game. For the discerning golfer seeking the pinnacle of Japanese golf, Umesato presents an experience steeped in history, architectural brilliance, and unparalleled hospitality.

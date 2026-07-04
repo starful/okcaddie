@@ -1,14 +1,23 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Camellia Hills Country Club: An Expert Review by a Senior Caddy (en)"
-lat: "35.4144"
-lng: "140.0456"
-categories: "Public Tournament, Premium / Luxury, Resort"
-thumbnail: "/static/images/camellia_hills_country_club.jpg"
-address: "Kisarazu, Chiba"
-date: "2026-04-15"
-booking: "/booking/camellia_hills_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Camellia Hills Country Club, covering strategy, history, and luxury facilities from an elite Japanese caddy's perspective."
+address: Kisarazu, Chiba
+booking: /booking/camellia_hills_country_club_en
+categories: Public Tournament, Premium / Luxury, Resort
+date: '2026-04-15'
+description: Planning to play Camellia Hills Country Club? Find updated green fees,
+  course layouts, and easy booking guides (Rakuten GORA). Book your tee time now!
+lang: en
+lat: '35.4144'
+lng: '140.0456'
+seo_description: Planning to play Camellia Hills Country Club? Find updated green
+  fees, course layouts, and easy booking guides (Rakuten GORA). Book your tee time
+  now!
+seo_title: Camellia Hills Country Club | Green Fees & Booking Guide
+summary: A comprehensive 9,000-character master guide to Camellia Hills Country Club,
+  covering strategy, history, and luxury facilities from an elite Japanese caddy's
+  perspective.
+thumbnail: /static/images/camellia_hills_country_club.jpg
+title: 'The Definitive Guide to Camellia Hills Country Club: An Expert Review by a
+  Senior Caddy (en)'
 ---
 
 ## The Definitive Guide to Camellia Hills Country Club: An Expert Review by a Senior Caddy

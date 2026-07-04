@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Katayamazu Golf Club: An Expert Review (en)"
-lat: "36.2644"
-lng: "136.3356"
-categories: "Public Tournament, Private Club, Ocean View"
-thumbnail: "/static/images/katayamazu_golf_club.jpg"
-address: "Kaga, Ishikawa"
-date: "2026-04-15"
-booking: "/booking/katayamazu_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Katayamazu Golf Club, covering strategy, history, and luxury facilities."
+address: Kaga, Ishikawa
+booking: /booking/katayamazu_golf_club_en
+categories: Public Tournament, Private Club, Ocean View
+date: '2026-04-15'
+description: Book your round at Ishikawa's legendary Katayamazu Golf Club. Get current
+  green fees, Rakuten GORA booking steps, course reviews, and access guides.
+lang: en
+lat: '36.2644'
+lng: '136.3356'
+seo_description: Book your round at Ishikawa's legendary Katayamazu Golf Club. Get
+  current green fees, Rakuten GORA booking steps, course reviews, and access guides.
+seo_title: Katayamazu Golf Club | Book Tee Times & Green Fees - OK Caddie
+summary: A comprehensive 9,000-character master guide to Katayamazu Golf Club, covering
+  strategy, history, and luxury facilities.
+thumbnail: /static/images/katayamazu_golf_club.jpg
+title: 'The Definitive Guide to Katayamazu Golf Club: An Expert Review (en)'
 ---
 
 ## Katayamazu Golf Club: A Confluence of History, Strategy, and Omotenashi – An Elite Rater's Masterpiece Review

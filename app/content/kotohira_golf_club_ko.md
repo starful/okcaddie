@@ -3,9 +3,14 @@ address: 카가와현 나카타도군 만노초
 booking: /booking/kotohira_golf_club_ko
 categories: 가성비, 스테이 앤 플레이, 쉬운 예약
 date: '2026-04-15'
+description: Book Kotohira Golf Club in Kagawa, Japan. Find English tee time booking,
+  green fees, course layouts, and visitor reviews on OKCaddie.
 lang: ko
 lat: '34.2044'
 lng: '133.8556'
+seo_description: Book Kotohira Golf Club in Kagawa, Japan. Find English tee time booking,
+  green fees, course layouts, and visitor reviews on OKCaddie.
+seo_title: Kotohira Golf Club (Kagawa) | Book Tee Times & Green Fees
 summary: 20년 경력의 전문 캐디가 고토히라 골프 클럽의 역사, 전략적 코스 분석, 럭셔리 시설, 미식 경험을 9,000자 분량으로 심도 있게
   파헤친 종합 마스터 가이드입니다. 일본 골프의 진수를 경험하고 싶은 분들을 위한 필독서.
 thumbnail: /static/images/kotohira_golf_club.jpg

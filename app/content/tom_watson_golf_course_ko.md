@@ -3,14 +3,19 @@ address: 미야자키, 미야자키
 booking: /booking/tom_watson_golf_course_ko
 categories: 스테이 앤 플레이, 쉬운 예약, 나이트 골프
 date: '2026-06-27'
+description: Experience premium resort golf at Tom Watson Golf Course in Miyazaki,
+  Japan. Access our complete booking guide, green fees, and twilight night golf options
+  at Phoenix Seagaia Resort.
 lang: ko
 lat: '31.9644'
 lng: '131.4656'
+seo_description: Book tee times at Tom Watson Golf Course in Miyazaki. Get current
+  green fees, twilight night golf details, and resort information at Phoenix Seagaia.
+seo_title: Tom Watson Golf Course Miyazaki | Book Tee Times & Fees
 summary: 톰 왓슨 골프 코스의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 종합 마스터 가이드입니다.
 thumbnail: /static/images/tom_watson_golf_course.jpg
 title: '톰 왓슨 골프 코스 완벽 가이드: 전문가 리뷰 (ko)'
 ---
-
 
 ## 톰 왓슨 골프 코스: 일본 골프의 전설이 살아 숨 쉬는 곳
 

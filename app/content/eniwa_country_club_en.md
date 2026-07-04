@@ -1,16 +1,20 @@
 ---
-lang: "en"
-seo_title: "Eniwa Country Club Hokkaido — Green Fees & Booking"
-seo_description: "Eniwa CC (Hokkaido): Gold Course green fees, ANA Open pedigree, lodge stay & Rakuten GORA booking on OKCaddie."
-title: "Eniwa Country Club, Hokkaido | Gold Course Host—Fees, Tours & Booking"
-lat: "42.8844"
-lng: "141.5656"
-categories: "Public Tournament, Stay & Play, Scenic View, Luxury Golf"
-thumbnail: "/static/images/eniwa_country_club.jpg"
-address: "Eniwa, Hokkaido"
-date: "2026-04-15"
-booking: "/booking/eniwa_country_club_en"
-summary: "Hokkaido Bentgrass championship hub—Gold/Silver/Bronze picks, ANA Open–level pedigree, lodge/onsen, birch-belt wind, and how visitors book Gold vs resort courses."
+address: Eniwa, Hokkaido
+booking: /booking/eniwa_country_club_en
+categories: Public Tournament, Stay & Play, Scenic View, Luxury Golf
+date: '2026-04-15'
+description: An ultimate guide to playing Eniwa Country Club in Hokkaido, featuring
+  updated green fees, championship course details, and easy English booking options.
+lang: en
+lat: '42.8844'
+lng: '141.5656'
+seo_description: 'Eniwa CC (Hokkaido): Gold Course green fees, ANA Open pedigree,
+  lodge stay & Rakuten GORA booking on OKCaddie.'
+seo_title: Eniwa Country Club Hokkaido — Green Fees & Booking
+summary: Hokkaido Bentgrass championship hub—Gold/Silver/Bronze picks, ANA Open–level
+  pedigree, lodge/onsen, birch-belt wind, and how visitors book Gold vs resort courses.
+thumbnail: /static/images/eniwa_country_club.jpg
+title: Eniwa Country Club, Hokkaido | Gold Course Host—Fees, Tours & Booking
 ---
 
 ## The Undisputed Crown Jewel of Hokkaido Golf: Eniwa Country Club – A Master Review

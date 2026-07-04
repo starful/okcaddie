@@ -14,7 +14,11 @@ from xml.sax.saxutils import escape
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR     = os.path.dirname(SCRIPT_DIR)
 sys.path.insert(0, SCRIPT_DIR)
+APP_DIR      = os.path.join(BASE_DIR, 'app')
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
 
+from course_content import load_course_post_file  # noqa: E402
 from md_dates import ensure_post_date, save_post  # noqa: E402
 CONTENT_DIR  = os.path.join(BASE_DIR, 'app', 'content')        # 코스 마크다운
 GUIDE_DIR    = os.path.join(CONTENT_DIR, 'guides')            # 가이드 마크다운
@@ -218,12 +222,12 @@ def main():
                 continue
             filepath = os.path.join(CONTENT_DIR, filename)
             try:
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    post = frontmatter.load(f)
+                post, normalized = load_course_post_file(filepath)
 
                 date_val, changed = ensure_post_date(post, filepath)
-                if changed:
+                if changed or normalized:
                     save_post(filepath, post)
+                if changed:
                     backfilled += 1
 
                 try:

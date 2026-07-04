@@ -3,9 +3,15 @@ address: Miyazaki, Miyazaki
 booking: /booking/miyazaki_country_club_ko
 categories: Public Tournament, Ocean View, Historic
 date: '2026-04-15'
+description: Experience the legendary Miyazaki Country Club, home of the JLPGA Tour
+  Championship. Explore real-time green fees, expert course layouts, and book your
+  tee time effortlessly in English.
 lang: ko
 lat: '31.8644'
 lng: '131.4456'
+seo_description: Book tee times at Miyazaki Country Club in English. Get real-time
+  green fees, JLPGA champion course layouts, and exclusive golf deals on okcaddie.
+seo_title: Book Miyazaki Country Club | Tee Times & Green Fees (English)
 summary: 미야자키 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.
 thumbnail: /static/images/miyazaki_country_club.jpg
 title: '미야자키 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)'

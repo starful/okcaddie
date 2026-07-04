@@ -14,6 +14,12 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 CSV_PATH = 'script/csv/courses.csv'
 CONTENT_DIR = "app/content"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+APP_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "app")
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+
+from course_content import normalize_course_markdown  # noqa: E402
 
 
 def _courses_csv_path() -> str:
@@ -194,28 +200,25 @@ def generate_course_task(data):
         # 안전망: 자기점검 푸터·중복 본문 제거
         content = _strip_selfcheck(content)
         content = _dedupe_h2(content)
+        content, _ = normalize_course_markdown(content)
 
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
 
-        return f"✅ Success: {safe_name}_{lang} ({len(content)} characters)"
+        return True, f"✅ Success: {safe_name}_{lang} ({len(content)} characters)"
 
     except Exception as e:
-        return f"❌ Error: {safe_name}_{lang} -> {e}"
+        return False, f"❌ Error: {safe_name}_{lang} -> {e}"
 
 
 def process_courses(limit):
     """CSV를 읽어 생성 대상을 수집하고 병렬 처리를 실행"""
-    if not os.path.exists(CSV_PATH):
-        print(f"❌ CSV 없음: {CSV_PATH}")
-        return
-
-    tasks = []
     csv_path = _courses_csv_path()
     if not os.path.exists(csv_path):
         print(f"❌ CSV 없음: {csv_path}")
-        return
+        return 1
 
+    tasks = []
     with open(csv_path, mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         new_topic_count = 0
@@ -260,17 +263,29 @@ def process_courses(limit):
 
     if not tasks:
         print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.")
-        return
+        return 0
 
     print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개)")
     print("🚀 동시 실행 쓰레드: 10")
 
+    success_count = 0
+    failure_count = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(generate_course_task, t) for t in tasks]
         for future in concurrent.futures.as_completed(futures):
-            res = future.result()
-            if res:
-                print(res)
+            ok, message = future.result()
+            if message:
+                print(message)
+            if ok:
+                success_count += 1
+            else:
+                failure_count += 1
+
+    if failure_count:
+        print(f"⚠️  생성 실패: {failure_count}개 파일")
+        return 1
+    print(f"✅ 생성 완료: {success_count}개 파일")
+    return 0
 
 
 if __name__ == "__main__":
@@ -283,5 +298,6 @@ if __name__ == "__main__":
         run_limit = DEFAULT_LIMIT
 
     start_time = time.time()
-    process_courses(limit=run_limit)
+    exit_code = process_courses(limit=run_limit)
     print(f"\n✨ 모든 작업 완료! (소요 시간: {time.time() - start_time:.1f}초)")
+    raise SystemExit(exit_code)

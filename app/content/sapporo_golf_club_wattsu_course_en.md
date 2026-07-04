@@ -1,14 +1,21 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Sapporo Golf Club Wattsu Course: An Expert Review (en)"
-lat: "42.8744"
-lng: "141.4856"
-categories: "Public Tournament, Private Club, Historic"
-thumbnail: "/static/images/sapporo_golf_club_wattsu_course.jpg"
-address: "Kitahiroshima, Hokkaido"
-date: "2026-04-15"
-booking: "/booking/sapporo_golf_club_wattsu_course_en"
-summary: "A comprehensive 9,000-character master guide to Sapporo Golf Club Wattsu Course, covering strategy, history, and luxury facilities."
+address: Kitahiroshima, Hokkaido
+booking: /booking/sapporo_golf_club_wattsu_course_en
+categories: Public Tournament, Private Club, Historic
+date: '2026-04-15'
+description: Discover how to book tee times at Sapporo Golf Club's legendary Wattsu
+  Course. Get access to green fees, English booking guides, and course layouts.
+lang: en
+lat: '42.8744'
+lng: '141.4856'
+seo_description: Book Sapporo Golf Club Wattsu Course in Hokkaido. Find the latest
+  green fees, Rakuten GORA booking tips, and local guide for this championship venue.
+seo_title: Sapporo Golf Club Wattsu Course Booking & Fees | OK Caddie
+summary: A comprehensive 9,000-character master guide to Sapporo Golf Club Wattsu
+  Course, covering strategy, history, and luxury facilities.
+thumbnail: /static/images/sapporo_golf_club_wattsu_course.jpg
+title: 'The Definitive Guide to Sapporo Golf Club Wattsu Course: An Expert Review
+  (en)'
 ---
 
 ## The Definitive Guide to Sapporo Golf Club Wattsu Course: An Expert Review by an Elite Japanese Caddy

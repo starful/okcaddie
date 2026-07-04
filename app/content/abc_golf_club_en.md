@@ -1,16 +1,21 @@
 ---
-lang: "en"
-seo_title: "ABC Golf Club Hyogo — Green Fees, Booking & Course Guide"
-seo_description: "ABC Golf Club (Kato, Hyogo): green fees, public play, tournament access & booking on OKCaddie."
-title: "ABC Golf Club, Hyogo | Kato Premium Parkland—Fees, Access & Strategy"
-lat: "34.8344"
-lng: "135.0356"
-categories: "Public Tournament, Premium / Luxury, Luxury"
-thumbnail: "/static/images/abc_golf_club.jpg"
-address: "Kato, Hyogo"
-date: "2026-04-15"
-booking: "/booking/abc_golf_club_en"
-summary: "Hyogo tournament-caliber parkland—Koga design, Korai/bent surfaces, public tournament access vs member days, fee context, and hole strategy for your Kato round."
+address: Kato, Hyogo
+booking: /booking/abc_golf_club_en
+categories: Public Tournament, Premium / Luxury, Luxury
+date: '2026-04-15'
+description: Play one of Japan's prestigious championship venues. Discover ABC Golf
+  Club's latest green fees, visitor booking access, and expert course strategies on
+  OKCaddie.
+lang: en
+lat: '34.8344'
+lng: '135.0356'
+seo_description: 'ABC Golf Club (Kato, Hyogo): green fees, public play, tournament
+  access & booking on OKCaddie.'
+seo_title: ABC Golf Club Hyogo — Green Fees, Booking & Course Guide
+summary: Hyogo tournament-caliber parkland—Koga design, Korai/bent surfaces, public
+  tournament access vs member days, fee context, and hole strategy for your Kato round.
+thumbnail: /static/images/abc_golf_club.jpg
+title: ABC Golf Club, Hyogo | Kato Premium Parkland—Fees, Access & Strategy
 ---
 
 As a seasoned golf course rater and a caddy with two decades of guiding discerning players across Japan's finest fairways, it is my distinct honor to present an unparalleled assessment of ABC Golf Club. Often whispered about in reverent tones among the cognoscenti, ABC Golf Club is not merely a course; it is a profound journey into the heart of Japanese golf excellence, a meticulously crafted experience that fuses strategic genius with sublime hospitality. This comprehensive review aims to dissect every facet of this legendary club, providing an invaluable guide for the elite traveler seeking the zenith of golf in Japan. Prepare to dive deep into its storied past, unravel its architectural mysteries, conquer its most challenging holes, luxuriate in its exquisite amenities, and savor its culinary masterpieces.

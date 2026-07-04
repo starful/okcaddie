@@ -1,17 +1,20 @@
 ---
-date: '2026-05-08'
----
-
-lang: "en"
-title: "The Definitive Guide to Otaru Golf Club: An Expert Review by an Elite Japanese Caddy and Rater"
-lat: "43.2044"
-lng: "141.1656"
-categories: "Championship Course, Seaside Links, Historical Landmark, Seiichi Inoue Design"
-thumbnail: "/static/images/otaru_golf_club.jpg"
-address: "3-500 Asato, Otaru, Hokkaido 047-0012, Japan"
-date: "2026-04-15"
-booking: "/booking/otaru_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Otaru Golf Club, offering a deep dive into its strategic architectural brilliance, historical prestige, hole-by-hole masterclass, luxurious amenities, and gourmet dining. Penned by a 20-year veteran senior caddy and elite Japanese course rater, this review is your ultimate resource for experiencing Hokkaido's premier golfing destination."
+address: 3-500 Asato, Otaru, Hokkaido 047-0012, Japan
+booking: /booking/otaru_golf_club_en
+categories: Championship Course, Seaside Links, Historical Landmark, Seiichi Inoue
+  Design
+date: '2026-04-15'
+lang: en
+lat: '43.2044'
+lng: '141.1656'
+summary: A comprehensive 9,000-character master guide to Otaru Golf Club, offering
+  a deep dive into its strategic architectural brilliance, historical prestige, hole-by-hole
+  masterclass, luxurious amenities, and gourmet dining. Penned by a 20-year veteran
+  senior caddy and elite Japanese course rater, this review is your ultimate resource
+  for experiencing Hokkaido's premier golfing destination.
+thumbnail: /static/images/otaru_golf_club.jpg
+title: 'The Definitive Guide to Otaru Golf Club: An Expert Review by an Elite Japanese
+  Caddy and Rater'
 ---
 
 As a seasoned golf course rater, having meticulously evaluated Japan’s most hallowed fairways for over two decades, and a professional senior caddy who has guided countless players through their pivotal rounds, I approach each course with a unique blend of critical analysis and practical insight. Today, we journey to Hokkaido, to a golfing sanctuary whose name resonates with prestige and challenge: Otaru Golf Club. This is not merely a golf course; it is a profound historical tapestry woven with strategic design, natural beauty, and the enduring spirit of Japanese golf. Prepare for an unparalleled exploration, a true masterclass in what defines an elite golfing experience.

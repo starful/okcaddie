@@ -1,17 +1,19 @@
 ---
-date: '2026-05-08'
----
-
-lang: "en"
-title: "The Definitive Guide to Golden Valley Golf Club: An Expert Review by an Elite Caddy (en)"
-lat: "34.8844"
-lng: "135.0556"
-categories: "Premium / Luxury, Championship, Scenic View, Strategic Golf"
-thumbnail: "/static/images/golden_valley_golf_club.jpg"
-address: "323-1 Kanzaki, Nishiwaki, Hyogo 677-0036, Japan"
-date: "2026-04-15"
-booking: "/booking/golden_valley_golf_club_en"
-summary: "An unparalleled 9,000-character master guide to Japan's Golden Valley Golf Club, meticulously reviewed by an elite caddy. Discover its championship legacy, strategic architecture, hole-by-hole insights, opulent clubhouse, traditional onsen, and gourmet dining. Your essential companion for mastering one of Japan's most prestigious golf experiences."
+address: 323-1 Kanzaki, Nishiwaki, Hyogo 677-0036, Japan
+booking: /booking/golden_valley_golf_club_en
+categories: Premium / Luxury, Championship, Scenic View, Strategic Golf
+date: '2026-04-15'
+lang: en
+lat: '34.8844'
+lng: '135.0556'
+summary: An unparalleled 9,000-character master guide to Japan's Golden Valley Golf
+  Club, meticulously reviewed by an elite caddy. Discover its championship legacy,
+  strategic architecture, hole-by-hole insights, opulent clubhouse, traditional onsen,
+  and gourmet dining. Your essential companion for mastering one of Japan's most prestigious
+  golf experiences.
+thumbnail: /static/images/golden_valley_golf_club.jpg
+title: 'The Definitive Guide to Golden Valley Golf Club: An Expert Review by an Elite
+  Caddy (en)'
 ---
 
 ## The Definitive Guide to Golden Valley Golf Club: An Expert Review

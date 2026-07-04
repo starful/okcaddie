@@ -1,17 +1,19 @@
 ---
-date: '2026-05-08'
----
-
-lang: "en"
-title: "The Definitive Guide to Abiko Golf Club: An Expert Review by an Elite Caddy (en)"
-lat: "35.8544"
-lng: "140.0356"
-categories: "Private Club, Premium / Luxury, Historic"
-thumbnail: "/static/images/abiko_golf_club.jpg"
-address: "Abiko, Chiba"
-date: "2026-04-15"
-booking: "/booking/abiko_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Abiko Golf Club, covering its unparalleled history, strategic architectural genius, luxury facilities, and gourmet dining, crafted by an elite Japanese golf course rater and senior caddy. Discover why Abiko stands as a pinnacle of Japanese golf and how to master its legendary greens."
+address: Abiko, Chiba
+booking: /booking/abiko_golf_club_en
+categories: Private Club, Premium / Luxury, Historic
+date: '2026-04-15'
+lang: en
+lat: '35.8544'
+lng: '140.0356'
+summary: A comprehensive 9,000-character master guide to Abiko Golf Club, covering
+  its unparalleled history, strategic architectural genius, luxury facilities, and
+  gourmet dining, crafted by an elite Japanese golf course rater and senior caddy.
+  Discover why Abiko stands as a pinnacle of Japanese golf and how to master its legendary
+  greens.
+thumbnail: /static/images/abiko_golf_club.jpg
+title: 'The Definitive Guide to Abiko Golf Club: An Expert Review by an Elite Caddy
+  (en)'
 ---
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service on Japan’s most revered fairways, I have witnessed countless courses rise and fall in prominence. Yet, some bastions of the game stand immutable, their prestige only deepening with each passing season. Abiko Golf Club, nestled in the serene landscapes of Chiba Prefecture, is unequivocally one such timeless masterpiece. It is not merely a golf course; it is a living museum, a strategic puzzle, and an embodiment of Japanese golfing heritage. This master-level review, tailored for the discerning golfer seeking the ultimate experience, aims to dissect every facet of Abiko, providing an unparalleled insight that will equip you not just to play, but to truly *understand* and conquer this legendary layout. Prepare for a deep dive into the soul of Japanese golf.

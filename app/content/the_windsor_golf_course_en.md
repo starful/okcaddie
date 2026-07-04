@@ -1,14 +1,23 @@
 ---
-lang: "en"
-title: "The Definitive Guide to The Windsor Golf Course: An Expert Review by an Elite Caddy (en)"
-lat: "42.5944"
-lng: "140.7756"
-categories: "Stay & Play, Premium / Luxury, Ocean View"
-thumbnail: "/static/images/the_windsor_golf_course.jpg"
-address: "Toyako, Hokkaido"
-date: "2026-04-15"
-booking: "/booking/the_windsor_golf_course_en"
-summary: "A comprehensive 9,000-character master guide to The Windsor Golf Course, covering strategic architectural analysis, historical prestige, hole-by-hole masterclass, luxury facilities, and gourmet dining, crafted by an elite Japanese golf rater and senior caddy."
+address: Toyako, Hokkaido
+booking: /booking/the_windsor_golf_course_en
+categories: Stay & Play, Premium / Luxury, Ocean View
+date: '2026-04-15'
+description: Plan your round at The Windsor Golf Course in Toyako, Hokkaido. Explore
+  green fees, tee times, Rakuten GORA booking, and layout strategy.
+lang: en
+lat: '42.5944'
+lng: '140.7756'
+seo_description: Book tee times at The Windsor Golf Course in Hokkaido. Find updated
+  green fees, Rakuten GORA booking links, and course layout strategy.
+seo_title: 'The Windsor Golf Course Hokkaido: Green Fees & Booking'
+summary: A comprehensive 9,000-character master guide to The Windsor Golf Course,
+  covering strategic architectural analysis, historical prestige, hole-by-hole masterclass,
+  luxury facilities, and gourmet dining, crafted by an elite Japanese golf rater and
+  senior caddy.
+thumbnail: /static/images/the_windsor_golf_course.jpg
+title: 'The Definitive Guide to The Windsor Golf Course: An Expert Review by an Elite
+  Caddy (en)'
 ---
 
 As a seasoned golf course rater with over two decades of dedicated service as a professional senior caddy across Japan's most revered layouts, I approach each course with an unwavering commitment to detail, strategic insight, and an appreciation for the game's timeless traditions. Today, our focus turns to a true gem, a masterpiece meticulously sculpted into Hokkaido's dramatic landscape: The Windsor Golf Course. It is not merely a course; it is an experience, a journey through architectural brilliance, natural grandeur, and unparalleled Japanese hospitality. For the discerning golfer seeking to elevate their understanding and appreciation of championship-level play, this definitive review, crafted for 'OKCaddie', offers an insider's perspective designed to guide your every swing.

@@ -3,9 +3,14 @@ address: Chitose, Hokkaido
 booking: /booking/the_north_country_golf_club_ko
 categories: Public Tournament, Easy Booking, Seaside Links
 date: '2026-04-15'
+description: An in-depth guide to booking tee times, green fees, and playing strategies
+  for The North Country Golf Club in Hokkaido, Japan.
 lang: ko
 lat: '42.8456'
 lng: '141.6744'
+seo_description: Book tee times at Hokkaido's famous North Country Golf Club. Get
+  green fees, Rakuten GORA booking tips, course map, and expert strategy guides.
+seo_title: 'The North Country Golf Club: Booking & Green Fees | OkCaddie'
 summary: 북해도 노스 컨트리 골프 클럽의 역사, 전략, 시설, 미식 경험을 심층 분석한 9,000자 전문가 리뷰입니다. 모든 골퍼를 위한 필수
   가이드.
 thumbnail: /static/images/the_north_country_golf_club.jpg

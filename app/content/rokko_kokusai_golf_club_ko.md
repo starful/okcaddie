@@ -3,9 +3,14 @@ address: Kobe, Hyogo
 booking: /booking/rokko_kokusai_golf_club_ko
 categories: Public Tournament, Premium / Luxury, Forest Course
 date: '2026-04-15'
+description: An in-depth guide to playing at Rokko Kokusai Golf Club in Kobe. Find
+  the latest green fees, booking options, layout strategies, and expert tips.
 lang: ko
 lat: '34.7744'
 lng: '135.1556'
+seo_description: How to book Rokko Kokusai Golf Club in Kobe, Japan. Get green fees,
+  tee times, Rakuten GORA booking tips, and championship course reviews.
+seo_title: 'Rokko Kokusai Golf Club: Booking, Green Fees & Kobe Guide'
 summary: A comprehensive 9,000-character master guide to Rokko Kokusai Golf Club,
   covering strategy, history, and luxury facilities.
 thumbnail: /static/images/rokko_kokusai_golf_club.jpg

@@ -1,18 +1,16 @@
 ---
-date: '2026-05-08'
+address: '[Shizuoka](/course/shizuoka_hamamatsu_course_ko) Prefecture, Fukuroi City'
+booking: /booking/katsuragi_golf_club_ko
+categories: Public Tournament, Premium / Luxury, Forest Course
+date: '2026-04-15'
+lang: ko
+lat: '34.7944'
+lng: '137.9256'
+summary: 카츠라기 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라한 전문가 리뷰입니다.
+thumbnail: /static/images/katsuragi_golf_club.jpg
+title: '카츠라기 골프 클럽 완전 분석: 20년 경력 캐디가 전하는 마스터 피스 리뷰'
 ---
 
-lang: "ko"
-title: "카츠라기 골프 클럽 완전 분석: 20년 경력 캐디가 전하는 마스터 피스 리뷰"
-lat: "34.7944"
-lng: "137.9256"
-categories: "Public Tournament, Premium / Luxury, Forest Course"
-thumbnail: "/static/images/katsuragi_golf_club.jpg"
-address: "[Shizuoka](/course/shizuoka_hamamatsu_course_ko) Prefecture, Fukuroi City"
-date: "2026-04-15"
-booking: "/booking/katsuragi_golf_club_ko"
-summary: "카츠라기 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라한 전문가 리뷰입니다."
----
 ## 카츠라기 골프 클럽: 일본 골프의 심장부를 해부하다
 
 안녕하십니까. 일본의 명문 골프 코스를 평가하고, 20년간 수많은 플레이어들과 함께 페어웨이를 걸어온 베테랑 시니어 캐디입니다. 오늘 이 자리에서 제가 소개해드릴 곳은 단순히 '명문'이라는 수식어만으로는 부족한, 일본 골프의 역사와 정신이 살아 숨 쉬는 '카츠라기 골프 클럽(Katsuragi Golf Club)'입니다.

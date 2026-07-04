@@ -3,9 +3,14 @@ address: 나가사키현 나가사키시
 booking: /booking/passage_kinkai_island_ko
 categories: Premium / Luxury, Stay & Play, Ocean View
 date: '2026-04-15'
+description: Discover Passage Kinkai Island Golf Club in Nagasaki. Get essential details
+  on green fees, tee time booking, resort stay, and course layout tips.
 lang: ko
 lat: '32.8944'
 lng: '129.8356'
+seo_description: Discover Passage Kinkai Island Golf Club in Nagasaki. Get essential
+  details on green fees, tee time booking, resort stay, and course layout tips.
+seo_title: Passage Kinkai Island Golf Club, Nagasaki | Tee Times & Booking
 summary: 패시지 킨카이 아일랜드의 역사, 건축, 홀 공략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드입니다.
 thumbnail: /static/images/passage_kinkai_island.jpg
 title: '패시지 킨카이 아일랜드 심층 리뷰: 전문가의 시선 (Passage Kinkai Island: An Expert Review)'

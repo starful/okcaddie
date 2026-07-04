@@ -1,17 +1,15 @@
 ---
-date: '2026-05-08'
----
-
-lang: "ko"
-title: "시시도 힐스 컨트리 클럽 완벽 가이드: 일본 최고 명문 코스를 향한 전문가의 통찰"
-lat: "36.3244"
-lng: "140.3056"
-categories: "Public Tournament, Premium / Luxury, Forest Course"
-thumbnail: "/static/images/shishido_hills_country_club.jpg"
-address: "일본 [이바라키](/course/ibaraki_golf_club_ko)현 가사마시 시시도 2070"
-date: "2026-04-15"
-booking: "/booking/shishido_hills_country_club_ko"
-summary: "20년 경력의 일본 캐디가 전하는 시시도 힐스 컨트리 클럽의 심층 분석. 역사, 코스 전략, 미식, 온천, 그리고 최적 방문 시기까지, 모든 것을 담은 9,000자 전문가 리뷰."
+address: 일본 [이바라키](/course/ibaraki_golf_club_ko)현 가사마시 시시도 2070
+booking: /booking/shishido_hills_country_club_ko
+categories: Public Tournament, Premium / Luxury, Forest Course
+date: '2026-04-15'
+lang: ko
+lat: '36.3244'
+lng: '140.3056'
+summary: 20년 경력의 일본 캐디가 전하는 시시도 힐스 컨트리 클럽의 심층 분석. 역사, 코스 전략, 미식, 온천, 그리고 최적 방문 시기까지,
+  모든 것을 담은 9,000자 전문가 리뷰.
+thumbnail: /static/images/shishido_hills_country_club.jpg
+title: '시시도 힐스 컨트리 클럽 완벽 가이드: 일본 최고 명문 코스를 향한 전문가의 통찰'
 ---
 
 ## 시시도 힐스 컨트리 클럽: 일본 골프의 심장을 탐하다 (宍戸ヒルズカントリークラブ)

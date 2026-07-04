@@ -1,18 +1,14 @@
 ---
-date: '2026-06-27'
----
-
-
-lang: "ko"
-title: "일본 명문 체리 힐스 로버트 트렌트 존스: 엘리트 캐디가 전하는 완벽 공략 가이드"
-lat: "34.7844"
-lng: "135.0756"
-categories: "프리미엄 / 럭셔리, 챔피언십, 전략적"
-thumbnail: "/static/images/cherry_hills_robert_trent_jones.jpg"
-address: "효고현 미키시"
-date: "2026-04-15"
-booking: "/booking/cherry_hills_robert_trent_jones_ko"
-summary: "체리 힐스 로버트 트렌트 존스 골프 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 완벽 분석합니다."
+address: 효고현 미키시
+booking: /booking/cherry_hills_robert_trent_jones_ko
+categories: 프리미엄 / 럭셔리, 챔피언십, 전략적
+date: '2026-04-15'
+lang: ko
+lat: '34.7844'
+lng: '135.0756'
+summary: 체리 힐스 로버트 트렌트 존스 골프 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 완벽 분석합니다.
+thumbnail: /static/images/cherry_hills_robert_trent_jones.jpg
+title: '일본 명문 체리 힐스 로버트 트렌트 존스: 엘리트 캐디가 전하는 완벽 공략 가이드'
 ---
 
 ## 일본 골프의 심장, 체리 힐스 로버트 트렌트 존스: 20년 캐디의 깊이 있는 통찰

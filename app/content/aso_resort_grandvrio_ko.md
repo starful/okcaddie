@@ -3,9 +3,14 @@ address: 구마모토 아소
 booking: /booking/aso_resort_grandvrio_ko
 categories: 가성비, 스테이 앤 플레이, 마운틴 스타일
 date: '2026-04-15'
+description: Book your stay-and-play at Aso Resort Grandvrio Golf Club, Kumamoto.
+  Explore our guide on rates, course layouts, onsen resorts, and travel tips.
 lang: ko
 lat: '32.9644'
 lng: '131.0256'
+seo_description: Book your stay-and-play at Aso Resort Grandvrio Golf Club, Kumamoto.
+  Explore our guide on rates, course layouts, onsen resorts, and travel tips.
+seo_title: Aso Resort Grandvrio Golf Club | Kumamoto Stay & Play Guide
 summary: 아소 리조트 그랑비리오의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.
 thumbnail: /static/images/aso_resort_grandvrio.jpg
 title: '아소 리조트 그랑비리오 완전 분석: 전문가의 시선 (Aso Resort Grandvrio Expert Review)'

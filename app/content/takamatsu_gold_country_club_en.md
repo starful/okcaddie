@@ -1,14 +1,21 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Takamatsu Gold Country Club: An Expert Review (en)"
-lat: "34.2244"
-lng: "133.9156"
-categories: "Luxury Golf, Strategic Challenge, Scenic Views"
-thumbnail: "/static/images/takamatsu_gold_country_club.jpg"
-address: "Ayagawa, Kagawa"
-date: "2026-04-15"
-booking: "/booking/takamatsu_gold_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Takamatsu Gold Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and seasoned caddy."
+address: Ayagawa, Kagawa
+booking: /booking/takamatsu_gold_country_club_en
+categories: Luxury Golf, Strategic Challenge, Scenic Views
+date: '2026-04-15'
+description: Plan your round at Takamatsu Gold Country Club in Kagawa, Japan. Access
+  green fees, course maps, and easy Rakuten GORA tee time booking guides.
+lang: en
+lat: '34.2244'
+lng: '133.9156'
+seo_description: Plan your round at Takamatsu Gold Country Club in Kagawa, Japan.
+  Access green fees, course maps, and easy Rakuten GORA tee time booking guides.
+seo_title: Takamatsu Gold Country Club, Kagawa | Book Tee Times & Fees
+summary: A comprehensive 9,000-character master guide to Takamatsu Gold Country Club,
+  covering strategy, history, and luxury facilities, penned by an elite Japanese golf
+  course rater and seasoned caddy.
+thumbnail: /static/images/takamatsu_gold_country_club.jpg
+title: 'The Definitive Guide to Takamatsu Gold Country Club: An Expert Review (en)'
 ---
 
 ## The Definitive Guide to Takamatsu Gold Country Club: An Expert Review
