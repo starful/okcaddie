@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.06.30",
+  "last_updated": "2026.07.04",
   "courses": [
     {
       "id": "wakamatsu_golf_club_ko",
@@ -24,7 +24,7 @@
       "id": "wakamatsu_golf_club_en",
       "base_id": "wakamatsu_golf_club",
       "lang": "en",
-      "title": "Wakamatsu Golf Club",
+      "title": "와카마쓰 골프클럽 (Wakamatsu Golf Club)",
       "lat": 33.9144,
       "lng": 130.7556,
       "categories": [
@@ -500,7 +500,7 @@
       "id": "oita_country_club_ko",
       "base_id": "oita_country_club",
       "lang": "ko",
-      "title": "Oita Country Club, Japan",
+      "title": "Oita Country Club",
       "lat": 33.1544,
       "lng": 131.5556,
       "categories": [
@@ -1472,7 +1472,7 @@
       "id": "koga_golf_club_en",
       "base_id": "koga_golf_club",
       "lang": "en",
-      "title": "Koga Golf Club",
+      "title": "코가 골프클럽 (Koga Golf Club)",
       "lat": 33.7144,
       "lng": 130.4556,
       "categories": [
@@ -1894,7 +1894,7 @@
       "id": "the_windsor_golf_course_ko",
       "base_id": "the_windsor_golf_course",
       "lang": "ko",
-      "title": "The Windsor Golf Course",
+      "title": "The Windsor Golf Course (Hokkaido)",
       "lat": 42.5944,
       "lng": 140.7756,
       "categories": [
@@ -2125,7 +2125,7 @@
       "id": "takanodai_country_club_ko",
       "base_id": "takanodai_country_club",
       "lang": "ko",
-      "title": "타카노다이 컨트리클럽",
+      "title": "Takanodai Country Club, Chiba",
       "lat": 35.6844,
       "lng": 140.1156,
       "categories": [
@@ -2840,7 +2840,7 @@
       "id": "rope_club_ko",
       "base_id": "rope_club",
       "lang": "ko",
-      "title": "로프 클럽 완전 분석",
+      "title": "Rope Club Golf Course Guide",
       "lat": 36.7144,
       "lng": 140.0856,
       "categories": [
@@ -2954,7 +2954,7 @@
       "id": "pgm_ishioka_golf_club_ko",
       "base_id": "pgm_ishioka_golf_club",
       "lang": "ko",
-      "title": "PGM 이시오카 골프 클럽",
+      "title": "PGM Ishioka Golf Club",
       "lat": 36.2144,
       "lng": 140.2656,
       "categories": [
@@ -4311,7 +4311,7 @@
       "id": "kawana_hotel_golf_course_fuji_course_ko",
       "base_id": "kawana_hotel_golf_course_fuji_course",
       "lang": "ko",
-      "title": "가와나 호텔 골프 코스 후지 코스",
+      "title": "Kawana Hotel Golf Course (Fuji Course) Guide",
       "lat": 34.9038,
       "lng": 139.1389,
       "categories": [
@@ -5330,7 +5330,7 @@
       "id": "fuji_country_club_ko",
       "base_id": "fuji_country_club",
       "lang": "ko",
-      "title": "후지 컨트리 클럽 완벽 해설",
+      "title": "Fuji Country Club",
       "lat": 35.3344,
       "lng": 138.8856,
       "categories": [
@@ -5716,7 +5716,7 @@
       "id": "camellia_hills_country_club_ko",
       "base_id": "camellia_hills_country_club",
       "lang": "ko",
-      "title": "카멜리아 힐스 컨트리 클럽 완벽 분석",
+      "title": "Camellia Hills Country Club | Green Fees & Booking Guide",
       "lat": 35.4144,
       "lng": 140.0456,
       "categories": [
@@ -6253,7 +6253,7 @@
       "id": "totsuka_country_club_ko",
       "base_id": "totsuka_country_club",
       "lang": "ko",
-      "title": "도츠카 컨트리 클럽 (Totsuka CC)",
+      "title": "Playing Totsuka Country Club",
       "lat": 35.4244,
       "lng": 139.5156,
       "categories": [
