@@ -1,5 +1,4 @@
 import os
-import re
 import json
 import sys
 import frontmatter
@@ -18,8 +17,10 @@ APP_DIR      = os.path.join(BASE_DIR, 'app')
 if APP_DIR not in sys.path:
     sys.path.insert(0, APP_DIR)
 
+from config import FEATURED_COURSE_BASE_IDS_SET as FEATURED_COURSE_BASE_IDS  # noqa: E402
 from course_content import load_course_post_file  # noqa: E402
 from md_dates import ensure_post_date, save_post  # noqa: E402
+from text_utils import humanize_title  # noqa: E402
 CONTENT_DIR  = os.path.join(BASE_DIR, 'app', 'content')        # 코스 마크다운
 GUIDE_DIR    = os.path.join(CONTENT_DIR, 'guides')            # 가이드 마크다운
 STATIC_DIR   = os.path.join(BASE_DIR, 'app', 'static')
@@ -29,63 +30,6 @@ SITEMAP_COURSES_OUT  = os.path.join(STATIC_DIR, 'sitemap-courses.xml')
 SITEMAP_GUIDES_OUT   = os.path.join(STATIC_DIR, 'sitemap-guides.xml')
 SITEMAP_HUB_OUT      = os.path.join(STATIC_DIR, 'sitemap-hub.xml')
 BASE_URL     = 'https://okcaddie.net'
-
-# GSC priority — must match app/__init__.py FEATURED_COURSE_BASE_IDS
-FEATURED_COURSE_BASE_IDS = {
-    "pgm_golf_resort_okinawa",
-    "hirono_golf_club",
-    "yokohama_country_club",
-    "shimonoseki_golf_club",
-    "natsudomari_golf_links",
-    "hakone_country_club",
-    "abc_golf_club",
-    "eniwa_country_club",
-    "totsuka_country_club",
-    "kotohira_golf_club",
-}
-
-# 레거시 보일러플레이트 타이틀 정리 (런타임/sitemap/JSON 모두에 동일 적용)
-_LANG_SUFFIX_RE = re.compile(r'\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*$')
-_REVIEW_BOILERPLATE_RE = re.compile(
-    r'^\s*The\s+Definitive\s+Guide\s+to\s+(?P<name>.+?)\s*:\s*An\s+Expert\s+Review\b.*$',
-    re.IGNORECASE,
-)
-_BOILERPLATE_PHRASES = (
-    "The Definitive Guide to ",
-    ": An Expert Review",
-    "An Expert Review",
-    " Masterpiece Review",
-    "마스터피스 리뷰",
-    "마스터 리뷰",
-    "마스터 가이드",
-    "완벽 가이드",
-    "전문가 리뷰",
-    "심층 분석",
-    "20년 경력 베테랑 캐디의",
-)
-
-def humanize_title(title):
-    if not title:
-        return ""
-    s = _LANG_SUFFIX_RE.sub('', str(title).strip())
-    m = _REVIEW_BOILERPLATE_RE.match(s)
-    if m:
-        return m.group('name').strip()
-    cleaned = s
-    for phrase in _BOILERPLATE_PHRASES:
-        cleaned = cleaned.replace(phrase, "")
-    for sep in (":", "：", " - ", " — "):
-        if sep in cleaned:
-            prefix = cleaned.split(sep, 1)[0].strip()
-            if len(prefix) >= 4:
-                cleaned = prefix
-                break
-    cleaned = cleaned.strip(" -—|·•")
-    if len(cleaned) > 70 and " | " in cleaned:
-        first = cleaned.split(" | ")[0].strip()
-        if len(first) >= 5:
-            cleaned = first
-    return cleaned or s
 
 def strip_markdown(text):
     """마크다운/HTML 태그를 제거하고 순수 텍스트만 추출 (BeautifulSoup 사용)"""
