@@ -5,10 +5,10 @@ from __future__ import annotations
 from flask import Flask
 
 try:
-    from .routes.assets import assets_bp
-    from .routes.courses import courses_bp
-    from .routes.guides import guides_bp
-    from .routes.pages import pages_bp
+    from .assets import assets_bp
+    from .courses import courses_bp
+    from .guides import guides_bp
+    from .pages import pages_bp
 except ImportError:
     from routes.assets import assets_bp
     from routes.courses import courses_bp
