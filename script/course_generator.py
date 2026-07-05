@@ -3,6 +3,7 @@ import concurrent.futures
 from datetime import datetime
 from google import genai
 from dotenv import load_dotenv
+import frontmatter
 
 from topic_queue_csv import resolve as resolve_queue_csv
 
@@ -18,8 +19,10 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 APP_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "app")
 if APP_DIR not in sys.path:
     sys.path.insert(0, APP_DIR)
+sys.path.insert(0, SCRIPT_DIR)
 
 from course_content import normalize_course_markdown  # noqa: E402
+from course_prompts import MIN_BODY_CHARS, LANG_FULL, build_course_prompt  # noqa: E402
 from text_utils import strip_llm_selfcheck  # noqa: E402
 
 
@@ -29,10 +32,7 @@ def _courses_csv_path() -> str:
 
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
-# 생성할 코스 주제(Topic)의 개수 제한 (명령행 인자가 없을 경우 기본값)
 DEFAULT_LIMIT = 30
-
-LANG_FULL = {"en": "English", "ko": "Korean"}
 
 
 def _strip_selfcheck(text):
@@ -60,6 +60,29 @@ def _dedupe_h2(text):
     return text
 
 
+def clean_generated_markdown(content: str) -> str:
+    content = re.sub(r'^```markdown\s*', '', content)
+    content = re.sub(r'^```yaml\s*', '', content)
+    content = re.sub(r'\s*```$', '', content)
+    content = content.replace('## yaml', '').strip()
+    content = re.sub(
+        r'^(title:\s*"[^"]*?)\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*"',
+        r'\1"',
+        content,
+        count=1,
+        flags=re.MULTILINE,
+    )
+    content = _strip_selfcheck(content)
+    content = _dedupe_h2(content)
+    content, _ = normalize_course_markdown(content)
+    return content
+
+
+def build_prompt(data):
+    """6k+ medium-depth course prompt (shared with expand_short_courses)."""
+    return build_course_prompt(data, today=datetime.now().strftime('%Y-%m-%d'))
+
+
 def _safe(row, *keys):
     """CSV에 컬럼이 없거나 값이 비면 빈 문자열을 반환하는 안전 추출 함수."""
     for k in keys:
@@ -69,130 +92,34 @@ def _safe(row, *keys):
     return ""
 
 
-def build_prompt(data):
-    """SEO·신뢰도를 위한 새 프롬프트.
-    - 라벨 제거 (title에 (en)/(ko) 절대 안 들어감)
-    - 보일러플레이트(공허한 칭찬) 금지, 길이 2,500~4,000자
-    - CSV에 추가 컬럼이 있으면 사실로 활용, 없으면 일반 범위 제시
-    """
-    lang = data['lang']
-    lang_full = LANG_FULL.get(lang, "English")
-    safe_name = data['safe_name']
-    name = data['name']
-    today = datetime.now().strftime('%Y-%m-%d')
-
-    # 선택 가능한 정량 컬럼 (CSV에 있을 때만 모델이 사용)
-    facts_lines = []
-    for label, key in [
-        ("Holes", "Holes"),
-        ("Total Yardage", "Yardage"),
-        ("Par", "Par"),
-        ("Designer", "Designer"),
-        ("Opened Year", "OpenedYear"),
-        ("Green Fee Range (JPY)", "GreenFee"),
-        ("Phone", "Phone"),
-        ("Website", "Website"),
-    ]:
-        v = data.get(key) or ""
-        if v:
-            facts_lines.append(f"- {label}: {v}")
-    known_facts_block = ("\n[KNOWN FACTS — TREAT AS GROUND TRUTH]\n" + "\n".join(facts_lines)) if facts_lines else ""
-
-    summary_hint = (
-        "Provide a concrete 1-sentence summary in Korean (<=140 chars) including at least one numeric or location-specific detail."
-        if lang == "ko"
-        else "Provide a concrete 1-sentence summary in English (<=155 chars) including at least one numeric or location-specific detail."
-    )
-
-    return f"""You are a senior Japan golf travel writer producing a course profile for OKCaddie.
-Write in {lang_full}. Be specific and useful for trip planning. Avoid generic praise.
-
-Course: {name}
-Address: {data['address']}
-Coordinates: {data['lat']}, {data['lng']}
-Tags: {data['features']}{known_facts_block}
-
-[GOAL]
-- Total length: 2,500 to 4,000 characters (no padding, no filler).
-- 2-3 sentences max per paragraph.
-- Use H2 (##). Use at most 6 H2 sections.
-- Do NOT use phrases like "world-class", "unforgettable", "must-visit", "every golfer's dream", "breath-taking".
-- Only include numeric facts you are confident about. If unsure, give a typical range (e.g. "around 6,800-7,100 yards") rather than fabricating exact figures.
-- Do NOT invent phone numbers, websites, or addresses beyond the address provided.
-
-[SECTIONS — IN THIS ORDER, MAX 6]
-1. ## Course Overview
-   Holes, par, total yardage range, designer, opening year, fairway/green grass type, signature characteristics. Use [KNOWN FACTS] when present.
-2. ## Layout & Strategy
-   Pick 2-3 strategic holes by number. For each: tee-shot view, hidden hazards, recommended club, putting line.
-3. ## Practical Info
-   Green fee range (weekday vs weekend in JPY), reservation policy (member-only vs public), cart vs walking, dress code specifics, caddie option.
-4. ## Access
-   Nearest train station, drive time/distance from the closest major hub city, parking note.
-5. ## Clubhouse Notes
-   1 paragraph: locker room, bath/onsen, restaurant signature dish.
-6. ## Tips
-   1 paragraph of caddie-grade advice: best months, common mistakes, weather risk, peak season pricing.
-
-[FORMATTING]
-- Output raw Markdown. NO code fences. NO leading "```yaml".
-- Start IMMEDIATELY with the YAML frontmatter below. Wrap ALL values in double quotes.
-
-[YAML FRONTMATTER FORMAT — required exactly]
----
-lang: "{lang}"
-title: "{name}"
-lat: "{data['lat']}"
-lng: "{data['lng']}"
-categories: "{data['features']}"
-thumbnail: "/static/images/{safe_name}.jpg"
-address: "{data['address']}"
-date: "{today}"
-booking: "/booking/{safe_name}_{lang}"
-summary: "{summary_hint}"
----
-"""
-
-
 def generate_course_task(data):
     """실제 Gemini API를 호출하여 코스 리뷰를 생성하는 워커 함수"""
     safe_name = data['safe_name']
     lang = data['lang']
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
-
     prompt = build_prompt(data)
 
     try:
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
-        )
-        content = response.text.strip()
-
-        # AI가 넣은 코드 블록 찌꺼기 제거
-        content = re.sub(r'^```markdown\s*', '', content)
-        content = re.sub(r'^```yaml\s*', '', content)
-        content = re.sub(r'\s*```$', '', content)
-        content = content.replace('## yaml', '').strip()
-
-        # 안전망: 모델이 (en)/(ko) 라벨을 다시 붙였을 경우 제거
-        content = re.sub(
-            r'^(title:\s*"[^"]*?)\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*"',
-            r'\1"',
-            content,
-            count=1,
-            flags=re.MULTILINE,
-        )
-
-        # 안전망: 자기점검 푸터·중복 본문 제거
-        content = _strip_selfcheck(content)
-        content = _dedupe_h2(content)
-        content, _ = normalize_course_markdown(content)
+        content = None
+        body_len = 0
+        for attempt in range(2):
+            extra = ""
+            if attempt == 1:
+                extra = f"\n\nIMPORTANT: Previous draft body was only {body_len} chars. Write at least {MIN_BODY_CHARS} characters in the markdown body."
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt + extra,
+            )
+            content = clean_generated_markdown(response.text.strip())
+            body_len = len(frontmatter.loads(content).content.strip())
+            if body_len >= MIN_BODY_CHARS:
+                break
 
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
 
-        return True, f"✅ Success: {safe_name}_{lang} ({len(content)} characters)"
+        short_flag = " ⚠️ under min" if body_len < MIN_BODY_CHARS else ""
+        return True, f"✅ Success: {safe_name}_{lang} (body {body_len:,} chars{short_flag})"
 
     except Exception as e:
         return False, f"❌ Error: {safe_name}_{lang} -> {e}"
@@ -252,7 +179,7 @@ def process_courses(limit):
         print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.")
         return 0
 
-    print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개)")
+    print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)")
     print("🚀 동시 실행 쓰레드: 10")
 
     success_count = 0

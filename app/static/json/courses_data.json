@@ -14,7 +14,7 @@
       "thumbnail": "/static/images/yokohama_minato_mirai_cafe.jpg",
       "address": "Kanagawa, Yokohama",
       "published": "2026-07-04",
-      "summary": "요코하마 미나토 미라이 카페는 요코하마 항구의 아름다운 전경을 자랑하는 18홀, 파 70의 해안가 골프 코스입니다.",
+      "summary": "요코하마 미나토 미라이 지구에 위치한 이 골프 카페는 최첨단 시뮬레이션 시스템과 캐주얼한 분위기를 제공합니다.",
       "booking": "/booking/yokohama_minato_mirai_cafe_ko",
       "link": "/course/yokohama_minato_mirai_cafe?lang=ko"
     },
@@ -31,7 +31,7 @@
       "thumbnail": "/static/images/yokohama_minato_mirai_cafe.jpg",
       "address": "Kanagawa, Yokohama",
       "published": "2026-07-04",
-      "summary": "Yokohama Minato Mirai Cafe offers advanced indoor golf simulation in the bustling waterfront district, featuring multiple virtual courses for all skill levels.",
+      "summary": "This Yokohama course offers 18 holes of waterfront golf with distinct strategic challenges near the bustling Minato Mirai area.",
       "booking": "/booking/yokohama_minato_mirai_cafe_en",
       "link": "/course/yokohama_minato_mirai_cafe"
     },
@@ -48,7 +48,7 @@
       "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
       "address": "Miyagi, Sendai",
       "published": "2026-07-04",
-      "summary": "센다이 이치반초 라떼는 미야기 센다이에 위치하며, 38.2606, 140.8829 좌표에서 쇼핑과 휴식을 즐길 수 있는 특별한 경험을 제공합니다.",
+      "summary": "센다이 이치반초 라떼는 미야기현 센다이에 위치한 18홀 골프 코스로, 도시의 접근성과 챌린지한 레이아웃을 겸비했습니다.",
       "booking": "/booking/sendai_ichibancho_latte_ko",
       "link": "/course/sendai_ichibancho_latte?lang=ko"
     },
@@ -65,7 +65,7 @@
       "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
       "address": "Miyagi, Sendai",
       "published": "2026-07-04",
-      "summary": "Sendai Ichibancho Latte offers a strategic 18-hole golf experience near Sendai, featuring undulating fairways and challenging greens within a 6,600-7,000 yard layout.",
+      "summary": "Sendai Ichibancho Latte isn't a golf course, but a bustling shopping street in Miyagi, Sendai, offering diversions for visiting golfers.",
       "booking": "/booking/sendai_ichibancho_latte_en",
       "link": "/course/sendai_ichibancho_latte"
     },
@@ -82,7 +82,7 @@
       "thumbnail": "/static/images/sample_golf_club.jpg",
       "address": "Hyogo",
       "published": "2026-07-04",
-      "summary": "효고현에 위치한 샘플 골프 클럽은 18홀, 파 72의 대중제 코스로, 전략적인 레이아웃과 접근성이 특징입니다.",
+      "summary": "효고현에 위치한 샘플 골프 클럽은 1985년 개장한 18홀 퍼블릭 코스로, 자연 지형을 활용한 전략적인 레이아웃이 특징입니다.",
       "booking": "/booking/sample_golf_club_ko",
       "link": "/course/sample_golf_club?lang=ko"
     },
@@ -99,7 +99,7 @@
       "thumbnail": "/static/images/sample_golf_club.jpg",
       "address": "Hyogo",
       "published": "2026-07-04",
-      "summary": "Sample Golf Club in Hyogo offers 18 holes spanning approximately 6,700 to 7,000 yards, providing a strategic challenge for public play.",
+      "summary": "Sample Golf Club in Hyogo offers 18 holes of strategic play across rolling terrain, with weekday green fees starting around JPY 8,000.",
       "booking": "/booking/sample_golf_club_en",
       "link": "/course/sample_golf_club"
     },
@@ -116,7 +116,7 @@
       "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
       "address": "Okinawa, Naha",
       "published": "2026-07-04",
-      "summary": "오키나와 나하 시내 중심에 위치한 독특한 18홀 골프 코스로, 평균 6,500야드 전후의 이색적인 커피 테마 라운딩을 선사합니다.",
+      "summary": "오키나와 나하의 국제거리에 위치한 '나하 국제거리 커피'는 섬 고유의 블렌딩과 시원한 에어컨 시설을 갖춘 아늑한 휴식처로, 여행 중 신선한 에너지를 충전하기에 완벽합니다.",
       "booking": "/booking/naha_kokusai_street_coffee_ko",
       "link": "/course/naha_kokusai_street_coffee?lang=ko"
     },
@@ -133,7 +133,7 @@
       "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
       "address": "Okinawa, Naha",
       "published": "2026-07-04",
-      "summary": "Naha Kokusai Street Coffee offers a refined coffee 'course' with 4 distinct brewing 'holes' and an average 'round' lasting 45-75 minutes in Okinawa, Naha.",
+      "summary": "Naha Kokusai Street Coffee provides a unique 18-hole golf experience in Okinawa, featuring an urban-influenced layout near Kokusai Street.",
       "booking": "/booking/naha_kokusai_street_coffee_en",
       "link": "/course/naha_kokusai_street_coffee"
     },
@@ -150,7 +150,7 @@
       "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
       "address": "Aichi, Nagoya",
       "published": "2026-07-04",
-      "summary": "나고야 도심 한가운데 위치한 나고야 사카에 에스프레소는 18홀 파 70 규모의 프라이빗 코스로, 나고야역에서 차량 10분 거리에 있습니다.",
+      "summary": "나고야 사카에 에스프레소는 도심 속 9홀 이그제큐티브 코스로, 특별한 하우스 로스트 커피와 함께 정교한 샷을 요구하는 골프 경험을 제공합니다.",
       "booking": "/booking/nagoya_sakae_espresso_ko",
       "link": "/course/nagoya_sakae_espresso?lang=ko"
     },
@@ -167,7 +167,7 @@
       "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
       "address": "Aichi, Nagoya",
       "published": "2026-07-04",
-      "summary": "Nagoya Sakae Espresso offers a unique 18-hole urban golf experience in downtown Nagoya, featuring a compact layout designed for strategic play around 6,000-6,300 yards.",
+      "summary": "Nagoya Sakae Espresso offers a surprisingly compact 18-hole city center golf experience with well-maintained bentgrass greens and a distinctive coffee culture.",
       "booking": "/booking/nagoya_sakae_espresso_en",
       "link": "/course/nagoya_sakae_espresso"
     },
@@ -184,7 +184,7 @@
       "thumbnail": "/static/images/kanazawa_higashi_chaya_cafe.jpg",
       "address": "Ishikawa, Kanazawa",
       "published": "2026-07-04",
-      "summary": "가나자와 히가시 차야 지구의 정취를 담아 설계된 가상의 골프 코스로, 전통과 현대가 어우러진 라운딩 경험을 제공합니다.",
+      "summary": "가나자와 히가시차야 카페 골프 코스는 전통적인 히가시차야 지구의 미학을 담은 18홀, 5,800야드 규모의 독특한 코스로, 섬세한 전략을 요구합니다.",
       "booking": "/booking/kanazawa_higashi_chaya_cafe_ko",
       "link": "/course/kanazawa_higashi_chaya_cafe?lang=ko"
     },
@@ -201,7 +201,7 @@
       "thumbnail": "/static/images/kanazawa_higashi_chaya_cafe.jpg",
       "address": "Ishikawa, Kanazawa",
       "published": "2026-07-04",
-      "summary": "Kanazawa Higashi Chaya Cafe Golf Course, an 18-hole par 72 layout near Kanazawa Station, offers strategic play amid traditional Japanese aesthetics.",
+      "summary": "Kanazawa Higashi Chaya Cafe offers a unique 9-hole par-3 golf experience nestled within Kanazawa's historic Higashi Chaya district.",
       "booking": "/booking/kanazawa_higashi_chaya_cafe_en",
       "link": "/course/kanazawa_higashi_chaya_cafe"
     },
@@ -218,7 +218,7 @@
       "thumbnail": "/static/images/kamakura_komachi_drip.jpg",
       "address": "Kanagawa, Kamakura",
       "published": "2026-07-04",
-      "summary": "가마쿠라 유서 깊은 지역에 자리한 18홀 코스로, 섬세한 조경과 전략적인 홀 디자인이 돋보이며 약 6,800야드의 전장을 자랑합니다.",
+      "summary": "가마쿠라 코마치 드립은 가나가와현 가마쿠라의 유서 깊은 산악 지형에 자리한 18홀 골프 코스로, 전략적인 플레이와 아름다운 경관을 선사합니다.",
       "booking": "/booking/kamakura_komachi_drip_ko",
       "link": "/course/kamakura_komachi_drip?lang=ko"
     },
@@ -235,7 +235,7 @@
       "thumbnail": "/static/images/kamakura_komachi_drip.jpg",
       "address": "Kanagawa, Kamakura",
       "published": "2026-07-04",
-      "summary": "Kamakura Komachi Drip, an 18-hole, par 72 course opened in the early 1980s near Kamakura Station, offers strategic play and traditional Japanese design.",
+      "summary": "Kamakura Komachi Drip offers a strategic 18-hole golf experience near historic Komachi-dori, blending traditional Japanese aesthetics with precision play amidst serene Kanagawa scenery.",
       "booking": "/booking/kamakura_komachi_drip_en",
       "link": "/course/kamakura_komachi_drip"
     },
@@ -243,7 +243,7 @@
       "id": "hiroshima_peace_park_cafe_ko",
       "base_id": "hiroshima_peace_park_cafe",
       "lang": "ko",
-      "title": "Hiroshima Peace Park Cafe",
+      "title": "히로시마 평화공원 카페",
       "lat": 34.3955,
       "lng": 132.4536,
       "categories": [
@@ -252,7 +252,7 @@
       "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
       "address": "Hiroshima",
       "published": "2026-07-04",
-      "summary": "히로시마 평화기념공원에 자리한 히로시마 평화공원 카페는 34.3955, 132.4536 좌표에서 고요한 휴식처를 제공하며, 공원 산책 후 간단한 다과를 즐기기 좋습니다.",
+      "summary": "히로시마 평화공원 인근에 위치한 이 9홀 파3 코스는 도시 속 평화로운 단거리 골프 경험을 제공합니다.",
       "booking": "/booking/hiroshima_peace_park_cafe_ko",
       "link": "/course/hiroshima_peace_park_cafe?lang=ko"
     },
@@ -269,7 +269,7 @@
       "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
       "address": "Hiroshima",
       "published": "2026-07-04",
-      "summary": "Experience a unique, tranquil short-game challenge within Hiroshima's iconic Peace Memorial Park, perfect for a contemplative round.",
+      "summary": "This unique Hiroshima location offers a conceptual 1-hole putting challenge amidst reflective surroundings, ideal for a mindful pause.",
       "booking": "/booking/hiroshima_peace_park_cafe_en",
       "link": "/course/hiroshima_peace_park_cafe"
     },
@@ -286,7 +286,7 @@
       "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
       "address": "Hokkaido, Hakodate",
       "published": "2026-07-04",
-      "summary": "하코다테 아침시장 카페는 신선한 해산물과 현지 식재료로 구성된 활기찬 모닝 세트로 유명하며, 하코다테 역에서 도보 5분 거리에 위치해 있습니다.",
+      "summary": "하코다테 아침시장 카페는 신선한 해산물과 현지 특산품을 맛보는 홋카이도 미식 라운드의 정수입니다.",
       "booking": "/booking/hakodate_morning_market_cafe_ko",
       "link": "/course/hakodate_morning_market_cafe?lang=ko"
     },
@@ -322,7 +322,7 @@
       "thumbnail": "/static/images/wakamatsu_golf_club.jpg",
       "address": "Kitakyushu, Fukuoka",
       "published": "2026-06-27",
-      "summary": "1952년 개장한 후쿠오카 기타큐슈의 와카마쓰 골프 클럽은 해안가 링크스 스타일의 18홀 코스로, 전략적인 플레이를 요구합니다.",
+      "summary": "키타큐슈 후쿠오카에 위치한 와카마쓰 골프 클럽은 1930년 개장한 18홀의 유서 깊은 해안 링크스 코스입니다.",
       "booking": "/booking/wakamatsu_golf_club_ko",
       "link": "/course/wakamatsu_golf_club?lang=ko"
     },
@@ -341,7 +341,7 @@
       "thumbnail": "/static/images/wakamatsu_golf_club.jpg",
       "address": "Kitakyushu, Fukuoka",
       "published": "2026-06-27",
-      "summary": "A seaside links course in Kitakyushu, Fukuoka, Wakamatsu Golf Club offers a historic private club experience with challenging coastal winds.",
+      "summary": "Wakamatsu Golf Club in Kitakyushu, Fukuoka, offers a challenging 18-hole seaside links experience with strong historical roots.",
       "booking": "/booking/wakamatsu_golf_club_en",
       "link": "/course/wakamatsu_golf_club"
     },
@@ -398,7 +398,7 @@
       "thumbnail": "/static/images/tokushima_golf_club.jpg",
       "address": "Tokushima, Tokushima",
       "published": "2026-06-27",
-      "summary": "도쿠시마 골프 클럽은 도쿠시마 시내에서 약 20분 거리에 위치하며, 수십 년의 역사를 지닌 숲 코스로 합리적인 가격에 전략적인 라운드를 즐길 수 있습니다.",
+      "summary": "도쿠시마 골프 클럽은 도쿠시마시에 위치한 유서 깊은 산림 코스로, 18홀을 합리적인 가격에 즐길 수 있는 가성비 좋은 선택지입니다.",
       "booking": "/booking/tokushima_golf_club_ko",
       "link": "/course/tokushima_golf_club?lang=ko"
     },
@@ -417,7 +417,7 @@
       "thumbnail": "/static/images/tokushima_golf_club.jpg",
       "address": "Tokushima, Tokushima",
       "published": "2026-06-27",
-      "summary": "Tokushima Golf Club offers 18 holes of classic Japanese forest golf near Tokushima City, providing excellent value with its mature tree-lined fairways.",
+      "summary": "Tokushima Golf Club, established in the mid-20th century, offers a historic, value-focused forest course in Tokushima Prefecture, Japan.",
       "booking": "/booking/tokushima_golf_club_en",
       "link": "/course/tokushima_golf_club"
     },
@@ -436,7 +436,7 @@
       "thumbnail": "/static/images/the_southern_links_resort.jpg",
       "address": "Yaese, Okinawa",
       "published": "2026-06-27",
-      "summary": "오키나와의 야에세에 위치한 더 서던 링크스 리조트는 1988년 개장한 18홀, 파 72의 프리미엄 해안 링크스 코스입니다.",
+      "summary": "오키나와 야에세에 위치한 더 서던 링크스 리조트는 태평양을 따라 펼쳐진 드라마틱한 해안선과 7번 홀의 절벽 너머 샷으로 유명합니다.",
       "booking": "/booking/the_southern_links_resort_ko",
       "link": "/course/the_southern_links_resort?lang=ko"
     },
@@ -455,7 +455,7 @@
       "thumbnail": "/static/images/the_southern_links_resort.jpg",
       "address": "Yaese, Okinawa",
       "published": "2026-06-27",
-      "summary": "The Southern Links Resort in Yaese, Okinawa, features 18 holes of par 72 golf, playing around 6,700-6,900 yards along dramatic clifftops.",
+      "summary": "The Southern Links Resort in Okinawa offers 18 holes of dramatic seaside golf with two iconic ocean-carry holes.",
       "booking": "/booking/the_southern_links_resort_en",
       "link": "/course/the_southern_links_resort"
     },
@@ -474,7 +474,7 @@
       "thumbnail": "/static/images/takarazuka_golf_club.jpg",
       "address": "Takarazuka, Hyogo",
       "published": "2026-06-27",
-      "summary": "효고 다카라즈카에 위치한 이 유서 깊은 사립 골프장은 1926년에 개장하여 전략적인 산림 코스를 제공합니다.",
+      "summary": "효고현 다카라즈카 골프 클럽은 1926년 개장한 유서 깊은 산림 코스로, 전략적인 플레이와 정교한 샷을 요구합니다.",
       "booking": "/booking/takarazuka_golf_club_ko",
       "link": "/course/takarazuka_golf_club?lang=ko"
     },
@@ -512,7 +512,7 @@
       "thumbnail": "/static/images/takamatsu_country_club.jpg",
       "address": "Sakaide, Kagawa",
       "published": "2026-06-27",
-      "summary": "가마가와현 사카이데에 위치한 다카마쓰 컨트리 클럽은 1957년에 개장한 유서 깊은 해변 코스로, 세토 내해의 절경을 감상하며 전략적인 18홀 라운딩을 즐길 수 있습니다.",
+      "summary": "카가와현 사카이데에 위치한 다카마쓰 컨트리클럽은 1963년 개장한 유서 깊은 해변 코스로, 세토내해의 절경을 배경으로 전략적인 라운딩을 선사합니다.",
       "booking": "/booking/takamatsu_country_club_ko",
       "link": "/course/takamatsu_country_club?lang=ko"
     },
@@ -589,7 +589,7 @@
       "thumbnail": "/static/images/seto_inland_sea_golf.jpg",
       "address": "Kasaoka, Okayama",
       "published": "2026-06-27",
-      "summary": "오카야마 가사오카에 위치한 세토 내해 골프는 18홀 챔피언십 코스로, 해안선을 따라 펼쳐진 전략적인 링크스 코스입니다.",
+      "summary": "오카야마 가사오카에 위치한 세토 내해 골프는 세토 내해를 배경으로 18홀 챔피언십 코스를 제공합니다.",
       "booking": "/booking/seto_inland_sea_golf_ko",
       "link": "/course/seto_inland_sea_golf?lang=ko"
     },
@@ -627,7 +627,7 @@
       "thumbnail": "/static/images/phoenix_seagaia_resort.jpg",
       "address": "Miyazaki, Miyazaki",
       "published": "2026-06-27",
-      "summary": "미야자키에 위치한 피닉스 컨트리클럽은 톰 파지오가 리노베이션한 27홀 챔피언십 코스로, 소나무 숲과 태평양 전망이 특징입니다.",
+      "summary": "미야자키의 피닉스 시가이아 리조트에 위치한 이 코스는 1971년 개장한 27홀 골프장으로, 해안가 소나무 숲 사이의 전략적인 레이아웃이 돋보입니다.",
       "booking": "/booking/phoenix_seagaia_resort_ko",
       "link": "/course/phoenix_seagaia_resort?lang=ko"
     },
@@ -646,7 +646,7 @@
       "thumbnail": "/static/images/phoenix_seagaia_resort.jpg",
       "address": "Miyazaki, Miyazaki",
       "published": "2026-06-27",
-      "summary": "Phoenix Seagaia Resort in Miyazaki offers 27 holes of championship golf across its Sumiyoshi and Takachiho courses, providing a premium resort experience.",
+      "summary": "Phoenix Seagaia Resort in Miyazaki offers a challenging 18-hole championship course known for hosting the Dunlop Phoenix Tournament since 1974.",
       "booking": "/booking/phoenix_seagaia_resort_en",
       "link": "/course/phoenix_seagaia_resort"
     },
@@ -665,7 +665,7 @@
       "thumbnail": "/static/images/palm_hills_golf_resort.jpg",
       "address": "Itoman, Okinawa",
       "published": "2026-06-27",
-      "summary": "오키나와 이토만에 위치한 팜 힐스 골프 리조트는 18홀, 파 72 코스로 총 6,787야드를 자랑하며, 전략적인 라운딩과 태평양 전망을 선사합니다.",
+      "summary": "오키나와 이토만에 위치한 팜 힐스 골프 리조트는 18홀 규모로 태평양 조망을 제공하며 전략적인 플레이를 요구합니다.",
       "booking": "/booking/palm_hills_golf_resort_ko",
       "link": "/course/palm_hills_golf_resort?lang=ko"
     },
@@ -684,7 +684,7 @@
       "thumbnail": "/static/images/palm_hills_golf_resort.jpg",
       "address": "Itoman, Okinawa",
       "published": "2026-06-27",
-      "summary": "Palm Hills offers 18 holes of ocean-view golf in Itoman, Okinawa, featuring premium conditions and strategic play across its undulating layout.",
+      "summary": "Palm Hills Golf Resort in Itoman, Okinawa, offers a challenging 18-hole resort course with panoramic ocean views and luxury amenities.",
       "booking": "/booking/palm_hills_golf_resort_en",
       "link": "/course/palm_hills_golf_resort"
     },
@@ -703,7 +703,7 @@
       "thumbnail": "/static/images/okinawa_country_club.jpg",
       "address": "Nishihara, Okinawa",
       "published": "2026-06-27",
-      "summary": "오키나와 니시하라에 위치한 18홀, 파 72 코스로, 탁 트인 해안 풍광과 함께 합리적인 가격대의 전략적인 플레이를 경험할 수 있습니다.",
+      "summary": "오키나와현 니시하라에 위치한 오키나와 컨트리 클럽은 역사와 경관을 갖춘 합리적인 가격의 코스입니다.",
       "booking": "/booking/okinawa_country_club_ko",
       "link": "/course/okinawa_country_club?lang=ko"
     },
@@ -722,7 +722,7 @@
       "thumbnail": "/static/images/okinawa_country_club.jpg",
       "address": "Nishihara, Okinawa",
       "published": "2026-06-27",
-      "summary": "Okinawa Country Club, opened in 1968, offers a strategic 18-hole golf experience near Naha with distinct ocean views and consistent value.",
+      "summary": "Okinawa Country Club offers a scenic and historic 18-hole golf experience in Nishihara, Okinawa, providing great value for players.",
       "booking": "/booking/okinawa_country_club_en",
       "link": "/course/okinawa_country_club"
     },
@@ -741,7 +741,7 @@
       "thumbnail": "/static/images/okayama_royal_golf.jpg",
       "address": "Kibi, Okayama",
       "published": "2026-06-27",
-      "summary": "오카야마 로얄 골프는 오카야마현 기비 지역에 위치하며, 전략적 산악 코스와 뛰어난 가성비로 18홀 라운딩의 만족을 선사합니다.",
+      "summary": "岡山ロイヤルゴルフ는 岡山市에서 접근성이 좋은 산악형 코스로, 합리적인 가격에 경치 좋은 라운딩을 즐길 수 있습니다.",
       "booking": "/booking/okayama_royal_golf_ko",
       "link": "/course/okayama_royal_golf?lang=ko"
     },
@@ -779,7 +779,7 @@
       "thumbnail": "/static/images/okayama_country_club.jpg",
       "address": "Okayama, Okayama",
       "published": "2026-06-27",
-      "summary": "岡山カントリークラブ는 1960년에 설립된 유서 깊은 회원제 골프장으로, 숲 속 코스의 전략적 난이도가 돋보입니다.",
+      "summary": "오카야마 컨트리클럽은 1961년 개장한 유서 깊은 사립 골프장으로, 오카야마 현의 울창한 숲 속에 자리하며 전략적인 코스 레이아웃을 제공합니다.",
       "booking": "/booking/okayama_country_club_ko",
       "link": "/course/okayama_country_club?lang=ko"
     },
@@ -846,7 +846,7 @@
       "id": "ocean_castle_golf_ko",
       "base_id": "ocean_castle_golf",
       "lang": "ko",
-      "title": "Ocean Castle Golf",
+      "title": "오션 캐슬 골프",
       "lat": 26.2844,
       "lng": 127.7856,
       "categories": [
@@ -857,7 +857,7 @@
       "thumbnail": "/static/images/ocean_castle_golf.jpg",
       "address": "Nakagusuku, Okinawa",
       "published": "2026-06-27",
-      "summary": "오키나와 나카구스쿠에 위치한 오션 캐슬 골프는 태평양 조망과 함께 18홀 라운드를 즐길 수 있는 가성비 좋은 코스입니다.",
+      "summary": "오키나와 나카구스쿠에 위치한 오션 캐슬 골프는 태평양을 조망하며 18홀을 즐길 수 있는 전략적인 코스입니다.",
       "booking": "/booking/ocean_castle_golf_ko",
       "link": "/course/ocean_castle_golf?lang=ko"
     },
@@ -876,7 +876,7 @@
       "thumbnail": "/static/images/ocean_castle_golf.jpg",
       "address": "Nakagusuku, Okinawa",
       "published": "2026-06-27",
-      "summary": "Ocean Castle Golf, nestled in Nakagusuku, Okinawa, offers 18 holes with expansive Pacific Ocean views and solid value for golfers.",
+      "summary": "Ocean Castle Golf offers 18 holes of strategic play with compelling ocean views in Nakagusuku, Okinawa, providing excellent value.",
       "booking": "/booking/ocean_castle_golf_en",
       "link": "/course/ocean_castle_golf"
     },
@@ -1009,7 +1009,7 @@
       "thumbnail": "/static/images/nago_bay_golf_course.jpg",
       "address": "Nago, Okinawa",
       "published": "2026-06-27",
-      "summary": "오키나와 나고시에 위치한 나고 베이 골프 코스는 합리적인 가격에 탁 트인 바다 전망을 제공하는 18홀 코스입니다.",
+      "summary": "오키나와 나고만에 위치한 이 코스는 합리적인 그린피로 태평양의 장엄한 오션뷰를 즐길 수 있는 18홀 골프장입니다.",
       "booking": "/booking/nago_bay_golf_course_ko",
       "link": "/course/nago_bay_golf_course?lang=ko"
     },
@@ -1028,7 +1028,7 @@
       "thumbnail": "/static/images/nago_bay_golf_course.jpg",
       "address": "Nago, Okinawa",
       "published": "2026-06-27",
-      "summary": "Nago Bay Golf Course, an 18-hole, par-72 layout in Nago, Okinawa, offers strategic play and consistent ocean views from its elevated fairways.",
+      "summary": "Nago Bay Golf Course in Okinawa offers 18 holes of scenic play with significant ocean views and excellent value for golfers.",
       "booking": "/booking/nago_bay_golf_course_en",
       "link": "/course/nago_bay_golf_course"
     },
@@ -1047,7 +1047,7 @@
       "thumbnail": "/static/images/nagasaki_international.jpg",
       "address": "Isahaya, Nagasaki",
       "published": "2026-06-27",
-      "summary": "Nagasaki International은 1960년 개장한 나가사키현 이사하야시의 산악형 프리미엄 코스로, 전략적인 레이아웃과 수려한 경관이 돋보입니다.",
+      "summary": "나가사키현 이사하야시에 위치한 나가사키 국제 컨트리 클럽은 18홀의 산악형 코스로, 태평양의 장관을 배경으로 전략적인 플레이를 요구합니다.",
       "booking": "/booking/nagasaki_international_ko",
       "link": "/course/nagasaki_international?lang=ko"
     },
@@ -1066,7 +1066,7 @@
       "thumbnail": "/static/images/nagasaki_international.jpg",
       "address": "Isahaya, Nagasaki",
       "published": "2026-06-27",
-      "summary": "Nagasaki International, situated in Isahaya, Nagasaki, offers a premium mountain-style golf experience across 18 holes with dramatic coastal views.",
+      "summary": "Nagasaki International, located in Isahaya, offers 18 holes of premium mountain-style golf with panoramic views of the Shimabara Peninsula.",
       "booking": "/booking/nagasaki_international_en",
       "link": "/course/nagasaki_international"
     },
@@ -1131,7 +1131,7 @@
       "id": "kumamoto_chuo_golf_ko",
       "base_id": "kumamoto_chuo_golf",
       "lang": "ko",
-      "title": "Kumamoto Chuo Golf",
+      "title": "구마모토 추오 골프",
       "lat": 32.8544,
       "lng": 130.8556,
       "categories": [
@@ -1142,7 +1142,7 @@
       "thumbnail": "/static/images/kumamoto_chuo_golf.jpg",
       "address": "Kikuyo, Kumamoto",
       "published": "2026-06-27",
-      "summary": "구마모토 추오 골프는 구마모토현 기쿠요에 위치한 18홀 챔피언십 삼림 코스로, 전략적인 레이아웃과 뛰어난 가성비로 방문객에게 만족감을 선사합니다.",
+      "summary": "구마모토 추오 골프는 구마모토현 기쿠요에 위치하며, 뛰어난 가성비와 도전적인 삼림 코스 레이아웃으로 연간 약 5만 명의 골퍼들이 찾는 곳입니다.",
       "booking": "/booking/kumamoto_chuo_golf_ko",
       "link": "/course/kumamoto_chuo_golf?lang=ko"
     },
@@ -1161,7 +1161,7 @@
       "thumbnail": "/static/images/kumamoto_chuo_golf.jpg",
       "address": "Kikuyo, Kumamoto",
       "published": "2026-06-27",
-      "summary": "Kumamoto Chuo Golf in Kikuyo offers a championship 18-hole forest course experience, typically ranging from JPY 9,000-22,000 for green fees.",
+      "summary": "Kumamoto Chuo Golf in Kikuyo offers a challenging forest layout with competitive green fees, making it a strong value proposition for golfers visiting central Kyushu.",
       "booking": "/booking/kumamoto_chuo_golf_en",
       "link": "/course/kumamoto_chuo_golf"
     },
@@ -1180,7 +1180,7 @@
       "thumbnail": "/static/images/kumamoto_castle_golf.jpg",
       "address": "Kumamoto, Kumamoto",
       "published": "2026-06-27",
-      "summary": "구마모토 현에 자리한 구마모토 캐슬 골프는 약 6,500~6,800야드 규모의 18홀 산악 코스로, 합리적인 가격에 빼어난 경관을 선사합니다.",
+      "summary": "구마모토성 골프는 구마모토 시내에서 접근성이 좋은 18홀 산악 코스로, 합리적인 비용으로 경치 좋은 라운딩을 즐길 수 있습니다.",
       "booking": "/booking/kumamoto_castle_golf_ko",
       "link": "/course/kumamoto_castle_golf?lang=ko"
     },
@@ -1199,7 +1199,7 @@
       "thumbnail": "/static/images/kumamoto_castle_golf.jpg",
       "address": "Kumamoto, Kumamoto",
       "published": "2026-06-27",
-      "summary": "Kumamoto Castle Golf offers 18 holes of scenic mountain-style play for around 7,000-16,000 JPY, located near Kumamoto city.",
+      "summary": "Kumamoto Castle Golf offers 18 holes of scenic, mountain-style golf near Kumamoto City, providing excellent value for golfers seeking a strategic round.",
       "booking": "/booking/kumamoto_castle_golf_en",
       "link": "/course/kumamoto_castle_golf"
     },
@@ -1218,7 +1218,7 @@
       "thumbnail": "/static/images/kujyu_kogen_golf.jpg",
       "address": "Taketa, Oita",
       "published": "2026-06-27",
-      "summary": "오이타 다케타에 위치한 쿠쥬 고원 골프는 해발 약 850m 고지대에서 즐기는 18홀 산악 스타일 코스로, 주변 경관과 전략적인 레이아웃이 돋보입니다.",
+      "summary": "오이타 다케타에 위치한 쿠쥬 고원 골프는 해발 800m 고지에 자리하여 계절별로 다른 고원 풍경과 전략적인 산악 코스 경험을 제공합니다.",
       "booking": "/booking/kujyu_kogen_golf_ko",
       "link": "/course/kujyu_kogen_golf?lang=ko"
     },
@@ -1237,7 +1237,7 @@
       "thumbnail": "/static/images/kujyu_kogen_golf.jpg",
       "address": "Taketa, Oita",
       "published": "2026-06-27",
-      "summary": "Kujyu Kogen Golf in Taketa, Oita, offers 18 holes of strategic mountain-style golf, often playing shorter than its 6,400-6,800 yards due to high altitude.",
+      "summary": "Kujyu Kogen Golf offers a mountain-style 18-hole layout in Oita, Japan, featuring dramatic elevation changes and panoramic views of the Kujyu mountain range.",
       "booking": "/booking/kujyu_kogen_golf_en",
       "link": "/course/kujyu_kogen_golf"
     },
@@ -1256,7 +1256,7 @@
       "thumbnail": "/static/images/kochi_golf_club_heights.jpg",
       "address": "Kochi, Kochi",
       "published": "2026-06-27",
-      "summary": "고치 골프 클럽 하이츠는 고치시에 위치하며, 18홀 산악 코스로 뛰어난 가성비와 경치를 자랑합니다.",
+      "summary": "고치현 산악 지형에 자리 잡은 가성비 좋은 골프장으로, 전략적인 코스 공략과 아름다운 자연 경관을 동시에 즐길 수 있습니다.",
       "booking": "/booking/kochi_golf_club_heights_ko",
       "link": "/course/kochi_golf_club_heights?lang=ko"
     },
@@ -1275,7 +1275,7 @@
       "thumbnail": "/static/images/kochi_golf_club_heights.jpg",
       "address": "Kochi, Kochi",
       "published": "2026-06-27",
-      "summary": "Kochi Golf Club Heights offers golfers a scenic mountain-style layout in Kochi, providing excellent value with its diverse 18-hole course.",
+      "summary": "Kochi Golf Club Heights offers a scenic 18-hole mountain layout renowned for its value and strategic play in Japan's Kochi Prefecture.",
       "booking": "/booking/kochi_golf_club_heights_en",
       "link": "/course/kochi_golf_club_heights"
     },
@@ -1294,7 +1294,7 @@
       "thumbnail": "/static/images/kagoshima_takachiho.jpg",
       "address": "Kirishima, Kagoshima",
       "published": "2026-06-27",
-      "summary": "가고시마현 키리시마에 위치한 카고시마 다카치호 골프 클럽은 해발 고도 변화가 큰 산악 코스로, 18홀 파 72, 약 6,800-7,100야드 규모입니다.",
+      "summary": "가고시마현 기리시마에 위치한 타카치호 코스는 산악 지형을 활용한 18홀 코스로, 웅장한 경관과 전략적인 플레이를 동시에 선사합니다.",
       "booking": "/booking/kagoshima_takachiho_ko",
       "link": "/course/kagoshima_takachiho?lang=ko"
     },
@@ -1313,7 +1313,7 @@
       "thumbnail": "/static/images/kagoshima_takachiho.jpg",
       "address": "Kirishima, Kagoshima",
       "published": "2026-06-27",
-      "summary": "Kagoshima Takachiho offers 18 holes of scenic mountain golf in Kirishima, Kagoshima, featuring dramatic elevation changes and a relaxing onsen.",
+      "summary": "Kagoshima Takachiho offers 18 holes of mountain-style golf in Kirishima, Kagoshima, with scenic views and elevation changes.",
       "booking": "/booking/kagoshima_takachiho_en",
       "link": "/course/kagoshima_takachiho"
     },
@@ -1332,7 +1332,7 @@
       "thumbnail": "/static/images/kagawa_prefectural_golf.jpg",
       "address": "Takamatsu, Kagawa",
       "published": "2026-06-27",
-      "summary": "가가와현 다카마쓰에 위치한 가성비 좋은 산악형 골프 코스입니다. 총 18홀, 파 72로, 세토 내해와 산악 경관을 조망하며 전략적인 라운딩을 즐길 수 있습니다.",
+      "summary": "가가와 현립 골프장은 다카마쓰에 위치하며, 18홀 산악 코스로 뛰어난 가성비와 아름다운 경관을 자랑합니다.",
       "booking": "/booking/kagawa_prefectural_golf_ko",
       "link": "/course/kagawa_prefectural_golf?lang=ko"
     },
@@ -1351,7 +1351,7 @@
       "thumbnail": "/static/images/kagawa_prefectural_golf.jpg",
       "address": "Takamatsu, Kagawa",
       "published": "2026-06-27",
-      "summary": "Kagawa Prefectural Golf in Takamatsu offers an 18-hole mountain-style layout, providing excellent value with scenic views over Seto Inland Sea hills.",
+      "summary": "Kagawa Prefectural Golf in Takamatsu offers 18 holes of scenic, value-focused mountain golf for under 15,000 JPY.",
       "booking": "/booking/kagawa_prefectural_golf_en",
       "link": "/course/kagawa_prefectural_golf"
     },
@@ -1370,7 +1370,7 @@
       "thumbnail": "/static/images/hiroshima_kokusai_golf.jpg",
       "address": "Higashihiroshima, Hiroshima",
       "published": "2026-06-27",
-      "summary": "히로시마 고쿠사이 골프는 동히로시마의 산악 지형을 활용한 경치 좋은 가성비 코스로, 전략적인 플레이를 요구하는 27홀을 제공합니다.",
+      "summary": "히로시마 고쿠사이 골프는 동히로시마의 산악 지형을 활용한 경치 좋은 18홀 코스로, 합리적인 비용으로 도전적인 라운딩을 즐길 수 있습니다.",
       "booking": "/booking/hiroshima_kokusai_golf_ko",
       "link": "/course/hiroshima_kokusai_golf?lang=ko"
     },
@@ -1408,7 +1408,7 @@
       "thumbnail": "/static/images/hiroshima_country_club.jpg",
       "address": "Higashihiroshima, Hiroshima",
       "published": "2026-06-27",
-      "summary": "히로시마현 히가시히로시마에 위치한 27홀 챔피언십 코스로, 정교한 샷을 요구하는 전형적인 산악 코스입니다.",
+      "summary": "히로시마 컨트리클럽은 히가시히로시마에 위치한 18홀 챔피언십 산림 코스로, 정확한 샷을 요구하는 전략적인 골프 경험을 제공합니다.",
       "booking": "/booking/hiroshima_country_club_ko",
       "link": "/course/hiroshima_country_club?lang=ko"
     },
@@ -1446,7 +1446,7 @@
       "thumbnail": "/static/images/hanshin_public_golf.jpg",
       "address": "Amagasaki, Hyogo",
       "published": "2026-06-27",
-      "summary": "효고현 아마가사키에 위치한 한신 퍼블릭 골프장은 강변 코스로 접근성이 뛰어나며, 18홀 플레이에 주중 7,000엔대 그린피로 가성비가 돋보이는 곳입니다.",
+      "summary": "Hanshin Public Golf는 효고현 아마가사키에 위치한 9홀 코스로, 오사카 도심에서 약 30분 거리에 있어 접근성이 뛰어나며 합리적인 가격으로 캐주얼 골퍼들에게 사랑받습니다.",
       "booking": "/booking/hanshin_public_golf_ko",
       "link": "/course/hanshin_public_golf?lang=ko"
     },
@@ -1523,7 +1523,7 @@
       "thumbnail": "/static/images/ehime_golf_club_main.jpg",
       "address": "Uchiko, Ehime",
       "published": "2026-06-27",
-      "summary": "에히메 현 우치코에 위치한 이 코스는 가성비가 훌륭하며, 좁은 페어웨이와 고저차로 전략적인 플레이를 요구하는 산악 스타일의 18홀 골프장입니다.",
+      "summary": "에히메 현 우치코에 위치한 에히메 골프 클럽 메인 코스는 18홀 규모의 산악형 코스로, 합리적인 비용으로 도전적인 라운드를 제공합니다.",
       "booking": "/booking/ehime_golf_club_main_ko",
       "link": "/course/ehime_golf_club_main?lang=ko"
     },
@@ -1542,7 +1542,7 @@
       "thumbnail": "/static/images/ehime_golf_club_main.jpg",
       "address": "Uchiko, Ehime",
       "published": "2026-06-27",
-      "summary": "Ehime Golf Club Main offers a challenging 18-hole, par-72 mountain course near Uchiko, Ehime, emphasizing strategic play and excellent value for money.",
+      "summary": "Ehime Golf Club Main, nestled in Uchiko, offers 18 mountain-style holes with bentgrass greens and excellent value for golfers.",
       "booking": "/booking/ehime_golf_club_main_en",
       "link": "/course/ehime_golf_club_main"
     },
@@ -1580,7 +1580,7 @@
       "thumbnail": "/static/images/kagoshima_kokusai_golf.jpg",
       "address": "Aira, Kagoshima",
       "published": "2026-06-26",
-      "summary": "가고시마 아이라에 위치한 카고시마 국제 골프는 18홀, 파72의 산악 코스로, 합리적인 가격에 빼어난 경치와 전략적인 라운딩 경험을 제공합니다.",
+      "summary": "가고시마현 아이라시에 위치한 가고시마 고쿠사이 골프는 합리적인 가격으로 아름다운 경치를 즐길 수 있는 18홀 산악형 코스입니다.",
       "booking": "/booking/kagoshima_kokusai_golf_ko",
       "link": "/course/kagoshima_kokusai_golf?lang=ko"
     },
@@ -1599,7 +1599,7 @@
       "thumbnail": "/static/images/kagoshima_kokusai_golf.jpg",
       "address": "Aira, Kagoshima",
       "published": "2026-06-26",
-      "summary": "Kagoshima Kokusai Golf offers 27 scenic mountain-style holes in Aira, Kagoshima, known for its strategic design and good value green fees often under ¥15,000.",
+      "summary": "Kagoshima Kokusai Golf offers 18 scenic mountain holes near Aira, providing excellent value for golfers exploring Japan's southern Kyushu region.",
       "booking": "/booking/kagoshima_kokusai_golf_en",
       "link": "/course/kagoshima_kokusai_golf"
     },
@@ -1618,7 +1618,7 @@
       "thumbnail": "/static/images/saga_country_club.jpg",
       "address": "Tosu, Saga",
       "published": "2026-06-19",
-      "summary": "사립 클럽인 사가 컨트리 클럽은 1955년 개장한 18홀, 파72 코스로, 울창한 숲과 전략적인 레이아웃이 특징입니다.",
+      "summary": "사가의 숲속에 자리한 사가 컨트리 클럽은 1960년대 조성된 유서 깊은 코스로, 전략적인 레이아웃과 정교한 관리가 돋보이는 18홀 프라이빗 골프장입니다.",
       "booking": "/booking/saga_country_club_ko",
       "link": "/course/saga_country_club?lang=ko"
     },
@@ -1637,7 +1637,7 @@
       "thumbnail": "/static/images/saga_country_club.jpg",
       "address": "Tosu, Saga",
       "published": "2026-06-19",
-      "summary": "Saga Country Club, a private forest course near Tosu, Saga, offers 18 holes of strategic challenge with narrow corridors and subtle greens.",
+      "summary": "Saga Country Club in Tosu offers a classic 18-hole forest course experience in Kyushu, known for its strategic layout and historic charm.",
       "booking": "/booking/saga_country_club_en",
       "link": "/course/saga_country_club"
     },
@@ -1656,7 +1656,7 @@
       "thumbnail": "/static/images/oita_tokyu_golf.jpg",
       "address": "Oita, Oita",
       "published": "2026-06-19",
-      "summary": "오이타 도큐 골프는 야스다 코지 설계의 18홀, 파72 삼림 코스로, 6,700-6,900야드 전장을 자랑하며 합리적인 가격에 전략적인 라운딩을 즐길 수 있습니다.",
+      "summary": "오이타 도큐 골프는 오이타현에 위치하며, 전략적인 산림 코스에서 합리적인 가격으로 18홀 라운딩을 즐길 수 있는 리조트형 골프장입니다.",
       "booking": "/booking/oita_tokyu_golf_ko",
       "link": "/course/oita_tokyu_golf?lang=ko"
     },
@@ -1675,7 +1675,7 @@
       "thumbnail": "/static/images/oita_tokyu_golf.jpg",
       "address": "Oita, Oita",
       "published": "2026-06-19",
-      "summary": "Oita Tokyu Golf, located in Oita City, offers an 18-hole forest course experience, typically priced between ¥8,000-¥18,000 for a round.",
+      "summary": "Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole forest course experience at an accessible price point.",
       "booking": "/booking/oita_tokyu_golf_en",
       "link": "/course/oita_tokyu_golf"
     },
@@ -1694,7 +1694,7 @@
       "thumbnail": "/static/images/moji_golf_club.jpg",
       "address": "Kitakyushu, Fukuoka",
       "published": "2026-06-19",
-      "summary": "후쿠오카 키타큐슈에 위치한 모지 골프 클럽은 1929년에 개장한 유서 깊은 프라이빗 코스로, 전략적인 레이아웃과 프리미엄 경험을 제공합니다.",
+      "summary": "기타큐슈에 위치한 모지 골프 클럽은 1929년 개장한 유서 깊은 18홀 코스로, 전략적인 플레이를 요구하며 일본 골프 역사의 한 부분을 경험할 수 있습니다.",
       "booking": "/booking/moji_golf_club_ko",
       "link": "/course/moji_golf_club?lang=ko"
     },
@@ -1713,7 +1713,7 @@
       "thumbnail": "/static/images/moji_golf_club.jpg",
       "address": "Kitakyushu, Fukuoka",
       "published": "2026-06-19",
-      "summary": "Moji Golf Club, established in 1934 in Kitakyushu, Fukuoka, offers a challenging 18-hole C.H. Alison design with views of the Kanmon Strait.",
+      "summary": "Moji Golf Club, established in 1929 in Kitakyushu, Fukuoka, presents a challenging 18-hole classic parkland layout with greens fees from ¥18,000.",
       "booking": "/booking/moji_golf_club_en",
       "link": "/course/moji_golf_club"
     },
@@ -1732,7 +1732,7 @@
       "thumbnail": "/static/images/miyazaki_lakeside_golf.jpg",
       "address": "Miyazaki, Miyazaki",
       "published": "2026-06-19",
-      "summary": "미야자키현 미야자키시에 위치한 미야자키 레이크사이드 골프는 약 6,700-7,000야드의 18홀 파72 코스로, 아름다운 호수 경관과 합리적인 가격이 특징입니다.",
+      "summary": "미야자키 레이크사이드 골프는 미야자키 시내에서 30분 거리에 위치하며, 수려한 호수 경관과 합리적인 그린피로 높은 가치를 제공하는 18홀 골프 코스입니다.",
       "booking": "/booking/miyazaki_lakeside_golf_ko",
       "link": "/course/miyazaki_lakeside_golf?lang=ko"
     },
@@ -1751,7 +1751,7 @@
       "thumbnail": "/static/images/miyazaki_lakeside_golf.jpg",
       "address": "Miyazaki, Miyazaki",
       "published": "2026-06-19",
-      "summary": "Miyazaki Lakeside Golf offers a scenic and value-focused 18-hole experience in Miyazaki, featuring lake views and challenging water hazards, located approximately 30 minutes from Miyazaki City.",
+      "summary": "Miyazaki Lakeside Golf, located in Miyazaki, offers an 18-hole scenic golf experience known for its lake views and accessible green fees.",
       "booking": "/booking/miyazaki_lakeside_golf_en",
       "link": "/course/miyazaki_lakeside_golf"
     },
@@ -1770,7 +1770,7 @@
       "thumbnail": "/static/images/koga_golf_club.jpg",
       "address": "Koga, Fukuoka",
       "published": "2026-06-19",
-      "summary": "후쿠오카 고가에 위치한 Koga Golf Club은 미쓰기 고바야시가 설계한 18홀, 파 72의 챔피언십 코스로, 해안가의 바람과 전략적인 벙커링이 특징입니다.",
+      "summary": "후쿠오카 고가 골프 클럽은 1953년에 개장한 일본 굴지의 챔피언십 코스로, 전략적인 18홀 링크스 경험을 선사합니다.",
       "booking": "/booking/koga_golf_club_ko",
       "link": "/course/koga_golf_club?lang=ko"
     },
@@ -1789,7 +1789,7 @@
       "thumbnail": "/static/images/koga_golf_club.jpg",
       "address": "Koga, Fukuoka",
       "published": "2026-06-19",
-      "summary": "Koga Golf Club, established in 1953 in Fukuoka, is a demanding 18-hole championship links known for its strategic bunkering and firm, fast greens.",
+      "summary": "Koga Golf Club, a private championship course in Fukuoka, Japan, features 18 holes of seaside links golf.",
       "booking": "/booking/koga_golf_club_en",
       "link": "/course/koga_golf_club"
     },
@@ -1808,7 +1808,7 @@
       "thumbnail": "/static/images/matsuyama_seaside_golf.jpg",
       "address": "Matsuyama, Ehime",
       "published": "2026-06-06",
-      "summary": "마쓰야마 해변 골프는 에히메현 마쓰야마에 위치한 18홀 해변 링크스 코스로, 합리적인 그린피로 태평양 조망 라운딩을 즐길 수 있습니다.",
+      "summary": "마쓰야마 해변 골프는 에히메현 마쓰야마시에 위치한 18홀 해변 링크스 코스로, 합리적인 가격에 바다 전망을 즐길 수 있습니다.",
       "booking": "/booking/matsuyama_seaside_golf_ko",
       "link": "/course/matsuyama_seaside_golf?lang=ko"
     },
@@ -1827,7 +1827,7 @@
       "thumbnail": "/static/images/matsuyama_seaside_golf.jpg",
       "address": "Matsuyama, Ehime",
       "published": "2026-06-06",
-      "summary": "Matsuyama Seaside Golf, located in Ehime Prefecture, offers 18 holes of links-style golf with expansive views of the Seto Inland Sea, accessible within a 45-minute drive from JR Matsuyama Station.",
+      "summary": "Matsuyama Seaside Golf in Ehime offers a genuine seaside links experience across 18 holes, providing scenic ocean views and competitive green fees.",
       "booking": "/booking/matsuyama_seaside_golf_en",
       "link": "/course/matsuyama_seaside_golf"
     },
@@ -1846,7 +1846,7 @@
       "thumbnail": "/static/images/fukuoka_kokusai_golf.jpg",
       "address": "Munakata, Fukuoka",
       "published": "2026-06-06",
-      "summary": "후쿠오카현 무나카타에 위치한 후쿠오카 국제 골프 클럽은 1957년 개장한 27홀 챔피언십 코스로, 뛰어난 가성비와 도전적인 산림 코스 레이아웃이 특징입니다.",
+      "summary": "후쿠오카 고쿠사이 골프는 후쿠오카현 무나카타시에 위치한 27홀 챔피언십 코스로, 전략적인 코스 설계와 합리적인 비용이 특징입니다.",
       "booking": "/booking/fukuoka_kokusai_golf_ko",
       "link": "/course/fukuoka_kokusai_golf?lang=ko"
     },
@@ -1865,7 +1865,7 @@
       "thumbnail": "/static/images/fukuoka_kokusai_golf.jpg",
       "address": "Munakata, Fukuoka",
       "published": "2026-06-06",
-      "summary": "Fukuoka Kokusai Golf in Munakata offers 18 championship holes, threading tight fairways through dense forest, providing strategic challenges often priced at 10,000-20,000 JPY.",
+      "summary": "Fukuoka Kokusai Golf in Munakata offers two distinct 18-hole courses, providing excellent value amidst a classic forest setting just north of Fukuoka city.",
       "booking": "/booking/fukuoka_kokusai_golf_en",
       "link": "/course/fukuoka_kokusai_golf"
     },
@@ -1873,7 +1873,7 @@
       "id": "sanda_golf_club_ko",
       "base_id": "sanda_golf_club",
       "lang": "ko",
-      "title": "Sanda Golf Club",
+      "title": "산다 골프 클럽",
       "lat": 34.9144,
       "lng": 135.2556,
       "categories": [
@@ -1884,7 +1884,7 @@
       "thumbnail": "/static/images/sanda_golf_club.jpg",
       "address": "Sanda, Hyogo",
       "published": "2026-05-13",
-      "summary": "효고현 산다에 위치한 산다 골프 클럽은 합리적인 가격으로 아름다운 산악 스타일의 18홀 코스를 즐길 수 있는 곳입니다.",
+      "summary": "산다 골프 클럽은 효고현 산다에 위치하며, 전략적인 산악 코스와 탁 트인 경관을 저렴한 비용으로 즐길 수 있는 18홀 골프장입니다.",
       "booking": "/booking/sanda_golf_club_ko",
       "link": "/course/sanda_golf_club?lang=ko"
     },
@@ -1922,7 +1922,7 @@
       "thumbnail": "/static/images/kobe_grand_hill.jpg",
       "address": "Nishinomiya, Hyogo",
       "published": "2026-05-13",
-      "summary": "효고현 니시노미야에 위치한 고베 그랜드 힐은 가성비 좋은 산악형 리조트 코스로, 18홀의 전략적인 플레이를 제공합니다.",
+      "summary": "효고현 니시노미야에 위치한 고베 그랜드 힐은 합리적인 가격으로 즐길 수 있는 27홀 산악형 리조트 코스입니다.",
       "booking": "/booking/kobe_grand_hill_ko",
       "link": "/course/kobe_grand_hill?lang=ko"
     },
@@ -6783,8 +6783,8 @@
       "thumbnail": "/static/images/wakayama_golf_club.jpg",
       "address": "와카야마현 와카야마시",
       "published": "2026-04-12",
-      "summary": "와카야마 골프 클럽은 그림 같은 와카야마현에 자리 잡고 있으며, 아름다운 자연과 전략적인 코스 디자인이 조화롭게 어우러진 곳입니다. 합리적인 가격으로 수준 높은 골프 경험을 제공하며, 모든 골퍼에게 잊지 못할 라운딩을 선사합니다. 접근성 또한 뛰어나 쉽게 방문할 수 있어 더욱 매력적입니다.",
-      "booking": "온라인 예약 가능, 전화 예약 가능",
+      "summary": "와카야마 골프 클럽은 와카야마시 내 18홀 코스로, 훌륭한 가성비와 쉬운 예약이 특징입니다.",
+      "booking": "/booking/wakayama_golf_club_ko",
       "link": "/course/wakayama_golf_club?lang=ko"
     },
     {
@@ -6819,8 +6819,8 @@
       "thumbnail": "/static/images/totsuka_country_club.jpg",
       "address": "가나가와현 요코하마시",
       "published": "2026-04-12",
-      "summary": "도츠카 컨트리 클럽은 요코하마의 심장부에 자리한 명문 프라이빗 골프 클럽입니다.  역사와 전통이 살아 숨쉬는 이곳은 전략적인 코스 레이아웃과 아름다운 자연 경관으로 유명합니다.  최고 수준의 시설과 서비스를 경험하며 잊지 못할 라운딩을 즐겨보세요.",
-      "booking": "회원제, 회원 동반 필수",
+      "summary": "요코하마 시에 위치한 토츠카 컨트리 클럽은 1961년 개장한 명문 프라이빗 코스로, 전략적인 레이아웃과 완벽한 코스 관리로 유명합니다.",
+      "booking": "/booking/totsuka_country_club_ko",
       "link": "/course/totsuka_country_club?lang=ko"
     },
     {
@@ -6855,8 +6855,8 @@
       "thumbnail": "/static/images/toba_country_club.jpg",
       "address": "도바시, 미에현",
       "published": "2026-04-12",
-      "summary": "미에현 도바시에 위치한 도바 컨트리 클럽은 그림 같은 풍경과 전략적인 코스 레이아웃으로 골퍼들에게 잊을 수 없는 경험을 선사합니다. 아름다운 자연 속에서 라운딩을 즐기고, 온천욕으로 피로를 풀 수 있는 매력적인 골프 여행지입니다. 합리적인 가격으로 훌륭한 가성비를 자랑합니다.",
-      "booking": "온라인 예약 가능, 전화 문의 (일본어)",
+      "summary": "미에현 도바시에 위치한 도바 컨트리 클럽은 탁 트인 바다 전망과 합리적인 가격으로 즐길 수 있는 36홀 라운딩을 제공합니다.",
+      "booking": "/booking/toba_country_club_ko",
       "link": "/course/toba_country_club?lang=ko"
     },
     {

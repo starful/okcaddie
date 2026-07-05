@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Re-expand compact course pages (~3–5k chars) to medium depth (~6–9k EN / ~5–8k KO)."""
+"""Re-expand compact course pages to medium depth (6k+ EN / 5.5k+ KO)."""
+
+from __future__ import annotations
+
+import argparse
+import concurrent.futures
 import os
-import re
 import sys
 import time
+
 import frontmatter
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -15,91 +20,41 @@ sys.path.insert(0, APP_DIR)
 from course_generator import (  # noqa: E402
     client,
     CONTENT_DIR,
-    LANG_FULL,
-    _strip_selfcheck,
-    _dedupe_h2,
+    clean_generated_markdown,
 )
+from course_prompts import MIN_BODY_CHARS, build_course_prompt  # noqa: E402
 from text_utils import humanize_title  # noqa: E402
-
-# GSC / recent compact batch (EN body < 6,000 chars)
-SHORT_BASE_IDS = [
-    "seto_inland_sea_golf",
-    "okayama_country_club",
-    "hanshin_public_golf",
-    "takarazuka_golf_club",
-    "hiroshima_kokusai_golf",
-    "takamatsu_country_club",
-    "hiroshima_country_club",
-    "okayama_royal_golf",
-    "kobe_grand_hill",
-    "sanda_golf_club",
-]
 
 SEO_KEYS = ("seo_title", "seo_description")
 
 
-def build_prompt_medium(data):
-    lang = data["lang"]
-    lang_full = LANG_FULL.get(lang, "English")
-    name = data["name"]
-    today = data.get("date") or time.strftime("%Y-%m-%d")
-
-    summary_hint = (
-        "Provide a concrete 1-sentence summary in Korean (<=140 chars) with a numeric or location detail."
-        if lang == "ko"
-        else "Provide a concrete 1-sentence summary in English (<=155 chars) with a numeric or location detail."
-    )
-
-    length_target = (
-        "5,500 to 8,500 characters" if lang == "ko" else "6,000 to 9,000 characters"
-    )
-
-    return f"""You are a senior Japan golf travel writer for OKCaddie.
-Write in {lang_full}. Be specific and useful for trip planning. Avoid generic praise and filler.
-
-Course: {name}
-Address: {data['address']}
-Coordinates: {data['lat']}, {data['lng']}
-Tags: {data['features']}
-
-[GOAL]
-- Total length: {length_target} (substantive paragraphs, not bullet-only lists).
-- 3-4 sentences per major section where appropriate.
-- Use H2 (##) only. Use 7 to 8 H2 sections in the order below.
-- Do NOT use: "world-class", "unforgettable", "must-visit", "Definitive Guide", "Expert Review", "masterpiece".
-- Use realistic ranges for yardage/green fees when exact data is uncertain.
-- Do NOT invent phone numbers or URLs.
-
-[SECTIONS — IN THIS ORDER]
-1. ## Course Overview — history snippet, holes/par/yardage, designer/year if known, turf types, overall character.
-2. ## Layout & Strategy — describe 4 distinct holes (number, par, yardage range): tee shot, hazards, club choice, green read.
-3. ## Conditions & Seasonality — best months, wind/rain, pace of play, weekday vs weekend crowd.
-4. ## Green Fees & Booking — JPY ranges weekday/weekend, member vs visitor policy, caddie/cart, how to book (Rakuten GORA style).
-5. ## Dress Code & On-Course Rules — specific attire, mobile policy, pace expectations.
-6. ## Access — nearest station, drive times from Osaka/Kobe/Hiroshima/Tokyo as relevant, parking.
-7. ## Clubhouse & Dining — locker room, bath/onsen, restaurant highlights.
-8. ## Caddie Tips — common mistakes, local knowledge, who this course suits (handicap/style).
-
-[FORMATTING]
-- Raw Markdown only. NO code fences. NO character-count self-check at the end.
-- Start with YAML frontmatter (all values in double quotes):
-
----
-lang: "{lang}"
-title: "{name}"
-lat: "{data['lat']}"
-lng: "{data['lng']}"
-categories: "{data['features']}"
-thumbnail: "/static/images/{data['safe_name']}.jpg"
-address: "{data['address']}"
-date: "{today}"
-booking: "/booking/{data['safe_name']}_{lang}"
-summary: "{summary_hint}"
----
-"""
+def body_length(path: str) -> int:
+    with open(path, "r", encoding="utf-8") as f:
+        post = frontmatter.load(f)
+    return len(post.content.strip())
 
 
-def load_course_data(base_id, lang):
+def find_short_targets(
+    content_dir: str | None = None,
+    min_chars: int = MIN_BODY_CHARS,
+    langs: tuple[str, ...] = ("en", "ko"),
+) -> list[tuple[str, str, int]]:
+    """Return (base_id, lang, body_chars) for files under min_chars."""
+    root = content_dir or CONTENT_DIR
+    out: list[tuple[str, str, int]] = []
+    for lang in langs:
+        for name in sorted(os.listdir(root)):
+            if not name.endswith(f"_{lang}.md") or name.startswith("_"):
+                continue
+            base_id = name[: -len(f"_{lang}.md")]
+            path = os.path.join(root, name)
+            n = body_length(path)
+            if n < min_chars:
+                out.append((base_id, lang, n))
+    return sorted(out, key=lambda x: (x[0], x[1]))
+
+
+def load_course_data(base_id: str, lang: str) -> dict | None:
     path = os.path.join(CONTENT_DIR, f"{base_id}_{lang}.md")
     if not os.path.exists(path):
         return None
@@ -124,65 +79,146 @@ def load_course_data(base_id, lang):
     }
 
 
-def generate_medium(data):
+def generate_medium(data: dict, *, min_chars: int = MIN_BODY_CHARS) -> int:
     safe_name = data["safe_name"]
     lang = data["lang"]
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
-    prompt = build_prompt_medium(data)
+    prior_len = body_length(filepath) if os.path.exists(filepath) else 0
+    prompt = build_course_prompt(data)
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-    )
-    content = response.text.strip()
-    content = re.sub(r"^```markdown\s*", "", content)
-    content = re.sub(r"^```yaml\s*", "", content)
-    content = re.sub(r"\s*```$", "", content)
-    content = content.replace("## yaml", "").strip()
-    content = re.sub(
-        r'^(title:\s*"[^"]*?)\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*"',
-        r"\1\"",
-        content,
-        count=1,
-        flags=re.MULTILINE,
-    )
-    content = _strip_selfcheck(content)
-    content = _dedupe_h2(content)
+    content = None
+    best_len = prior_len
+    best_content = None
+    for attempt in range(3):
+        extra = ""
+        if attempt > 0:
+            extra = (
+                f"\n\nIMPORTANT: Previous draft body was only {best_len} chars. "
+                f"Write at least {min_chars} characters in the markdown body (excluding frontmatter)."
+            )
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt + extra,
+        )
+        candidate = clean_generated_markdown(response.text.strip())
 
-    # Re-inject SEO overrides after regeneration
-    if data.get("seo"):
-        post = frontmatter.loads(content)
-        for k, v in data["seo"].items():
-            post[k] = v
-        content = frontmatter.dumps(post)
+        if data.get("seo"):
+            post = frontmatter.loads(candidate)
+            for k, v in data["seo"].items():
+                post[k] = v
+            candidate = frontmatter.dumps(post)
+
+        body_len = len(frontmatter.loads(candidate).content.strip())
+        if body_len > best_len:
+            best_len = body_len
+            best_content = candidate
+        if body_len >= min_chars:
+            best_content = candidate
+            best_len = body_len
+            break
+
+    if best_content is None or best_len <= prior_len:
+        return prior_len
 
     with open(filepath, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write(best_content)
 
-    body_len = len(frontmatter.loads(content).content)
-    return body_len
+    return best_len
 
 
-def main():
-    bases = SHORT_BASE_IDS
-    if len(sys.argv) > 1:
-        bases = [b.strip() for b in sys.argv[1].split(",") if b.strip()]
+DEFAULT_WORKERS = 10
 
-    print(f"📝 Medium expand: {len(bases)} courses × 2 languages\n")
-    for base_id in bases:
-        for lang in ("en", "ko"):
-            data = load_course_data(base_id, lang)
-            if not data:
+
+def expand_one_task(base_id: str, lang: str, *, min_chars: int) -> tuple[str, str, bool, int, str | None]:
+    """Worker: expand a single (base_id, lang). Returns (base_id, lang, ok, body_len, error)."""
+    data = load_course_data(base_id, lang)
+    if not data:
+        return base_id, lang, False, 0, "missing file"
+    try:
+        n = generate_medium(data, min_chars=min_chars)
+        ok = n >= min_chars
+        return base_id, lang, ok, n, None
+    except Exception as e:
+        return base_id, lang, False, 0, str(e)
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Expand course pages under a body-length threshold.")
+    p.add_argument(
+        "base_ids",
+        nargs="*",
+        help="Optional base_id list (default: auto-scan all files under --min-chars)",
+    )
+    p.add_argument("--min-chars", type=int, default=MIN_BODY_CHARS, help=f"Body length threshold (default {MIN_BODY_CHARS})")
+    p.add_argument("--lang", default="en,ko", help="Comma-separated langs to scan/expand (default en,ko)")
+    p.add_argument("--dry-run", action="store_true", help="List targets only; do not call Gemini")
+    p.add_argument("--workers", type=int, default=DEFAULT_WORKERS, help=f"Parallel API workers (default {DEFAULT_WORKERS})")
+    return p.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
+    langs = tuple(x.strip() for x in args.lang.split(",") if x.strip())
+
+    if args.base_ids:
+        targets = []
+        for base_id in args.base_ids:
+            for lang in langs:
+                path = os.path.join(CONTENT_DIR, f"{base_id}_{lang}.md")
+                if not os.path.exists(path):
+                    continue
+                n = body_length(path)
+                if n < args.min_chars:
+                    targets.append((base_id, lang, n))
+    else:
+        targets = find_short_targets(min_chars=args.min_chars, langs=langs)
+
+    if not targets:
+        print(f"✅ No files under {args.min_chars} chars for langs={','.join(langs)}")
+        return 0
+
+    en_n = sum(1 for _, lang, _ in targets if lang == "en")
+    ko_n = sum(1 for _, lang, _ in targets if lang == "ko")
+    print(f"📝 Expand targets: {len(targets)} files (EN {en_n}, KO {ko_n}), min={args.min_chars} chars\n")
+    for base_id, lang, n in targets:
+        print(f"  {base_id}_{lang}  ({n:,} chars)")
+
+    if args.dry_run:
+        print("\n(dry-run — no API calls)")
+        return 0
+
+    workers = max(1, args.workers)
+    print(f"\n🚀 Parallel expand: {workers} workers\n")
+
+    ok, warn, err = 0, 0, 0
+    jobs = [(base_id, lang) for base_id, lang, _ in targets]
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {
+            executor.submit(expand_one_task, base_id, lang, min_chars=args.min_chars): (base_id, lang)
+            for base_id, lang in jobs
+        }
+        for future in concurrent.futures.as_completed(futures):
+            base_id, lang, success, n, error = future.result()
+            if error == "missing file":
                 print(f"  ⏭️  skip missing: {base_id}_{lang}")
-                continue
-            try:
-                n = generate_medium(data)
+                err += 1
+            elif error:
+                print(f"  ❌ {base_id}_{lang}: {error}")
+                err += 1
+            elif success:
+                ok += 1
                 print(f"  ✅ {base_id}_{lang} → {n:,} chars body")
-            except Exception as e:
-                print(f"  ❌ {base_id}_{lang}: {e}")
-            time.sleep(0.5)
-    print("\n✨ Done. Run: python script/build_data.py")
+            elif n > 0 and n < args.min_chars:
+                warn += 1
+                print(f"  ⏭️  {base_id}_{lang} → kept prior ({n:,} chars, no improvement)")
+            else:
+                warn += 1
+                print(f"  ✅ {base_id}_{lang} → {n:,} chars body ⚠️ still short")
+
+    print(f"\n✨ Done ({ok} ok, {warn} still short, {err} errors). Run: python script/build_data.py")
+    return 0 if warn == 0 and err == 0 else 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
