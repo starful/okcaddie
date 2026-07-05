@@ -5,6 +5,15 @@ from dotenv import load_dotenv
 
 from topic_queue_csv import resolve as resolve_queue_csv
 
+
+def _emit_pipeline_result(**kwargs):
+    try:
+        from generation_result import emit_generation_result
+
+        emit_generation_result(**kwargs)
+    except ImportError:
+        pass
+
 # 설정 로드
 load_dotenv()
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
@@ -57,19 +66,18 @@ def task_worker(topic_id, topic_name, lang, keywords):
 
 def generate_guides_parallel(limit=5):
     tasks = []
-    
-    # 1. 생성할 작업 리스트 수집
+    new_topics_count = 0
+
     with open(_guides_csv_path(), mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
-        new_topics_count = 0
         for row in reader:
-            if new_topics_count >= limit: break
-            
+            if new_topics_count >= limit:
+                break
+
             topic_id = row['id'].strip()
-            # 영문/국문 파일이 하나라도 없으면 작업 추가
-            if not (os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_en.md")) and 
+            if not (os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_en.md")) and
                     os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_ko.md"))):
-                
+
                 for lang in ['en', 'ko']:
                     tasks.append({
                         'topic_id': topic_id,
@@ -79,17 +87,27 @@ def generate_guides_parallel(limit=5):
                     })
                 new_topics_count += 1
 
+    if not tasks:
+        print("💡 생성할 새 가이드가 없습니다.")
+        _emit_pipeline_result(step="guides", topics=0, generated=0)
+        return
+
     print(f"🔥 병렬 처리 시작: 총 {len(tasks)}개 파일 생성 시도 (동시 작업 쓰레드: 10)")
 
-    # 2. 멀티쓰레딩 실행 (max_workers로 동시 실행 수 조절)
+    ok = 0
+    failed = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        # map을 사용하여 함수와 인자 리스트 연결
         futures = [executor.submit(task_worker, t['topic_id'], t['topic_name'], t['lang'], t['keywords']) for t in tasks]
-        
+
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             if result:
                 print(result)
+                if result.startswith("✅"):
+                    ok += 1
+                elif result.startswith("❌"):
+                    failed += 1
+    _emit_pipeline_result(step="guides", topics=new_topics_count, generated=ok, failed=failed)
 
 if __name__ == "__main__":
     # 실행 시 개수 지정 가능 (예: python script/guide_generator.py 20)

@@ -7,6 +7,15 @@ import frontmatter
 
 from topic_queue_csv import resolve as resolve_queue_csv
 
+
+def _emit_pipeline_result(**kwargs):
+    try:
+        from generation_result import emit_generation_result
+
+        emit_generation_result(**kwargs)
+    except ImportError:
+        pass
+
 # ==========================================
 # ⚙️ 설정 (Configuration)
 # ==========================================
@@ -177,6 +186,7 @@ def process_courses(limit):
 
     if not tasks:
         print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.")
+        _emit_pipeline_result(step="items", topics=0, generated=0)
         return 0
 
     print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)")
@@ -197,8 +207,16 @@ def process_courses(limit):
 
     if failure_count:
         print(f"⚠️  생성 실패: {failure_count}개 파일")
+        _emit_pipeline_result(
+            step="items",
+            topics=new_topic_count,
+            generated=success_count,
+            failed=failure_count,
+            ok=False,
+        )
         return 1
     print(f"✅ 생성 완료: {success_count}개 파일")
+    _emit_pipeline_result(step="items", topics=new_topic_count, generated=success_count)
     return 0
 
 
