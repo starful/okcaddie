@@ -9,8 +9,14 @@ lng: '127.7356'
 summary: 오키나와의 보석, 서던 링크스 골프 클럽에 대한 9,000자에 달하는 심도 깊은 전문가 리뷰입니다. 코스 전략, 유구한 역사, 최고급
   시설을 아우르는 완벽한 가이드를 제공합니다.
 thumbnail: /static/images/southern_links_golf_club.jpg
-title: '서던 링크스 골프 클럽 마스터 가이드: 명예로운 캐디가 전하는 최고의 라운딩 경험'
+title: Southern Links Golf Club (Okinawa)
+description: Book your tee time at Southern Links Golf Club, Okinawa's iconic seaside
+  course. Find green fees, Rakuten GORA booking guides & tips on okcaddie.
+seo_title: Southern Links Golf Club (Okinawa) | Green Fees & Booking | okcaddie
+seo_description: Book your tee time at Southern Links Golf Club, Okinawa's iconic
+  seaside course. Find green fees, Rakuten GORA booking guides & tips on okcaddie.
 ---
+
 
 ## 유구한 역사와 품격: 서던 링크스 골프 클럽의 발자취
 

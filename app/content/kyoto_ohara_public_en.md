@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'The Definitive Guide to Kyoto Ohara Public: An Expert Review (en)'
+title: Kyoto Ohara Public Golf Course
 lat: '35.1144'
 lng: '135.8156'
 categories: Value for Money, Mountain Style, Scenic
@@ -10,7 +10,14 @@ date: '2026-06-27'
 booking: /booking/kyoto_ohara_public_en
 summary: A comprehensive 9,000-character master guide to Kyoto Ohara Public, covering
   strategy, history, and luxury facilities.
+description: An essential guide to playing at Kyoto Ohara Public Golf Course, featuring
+  up-to-date green fees, booking paths via Rakuten GORA, course layouts, and access
+  tips for travelers.
+seo_title: Kyoto Ohara Public Golf Course | Green Fees & Booking
+seo_description: Plan your round at Kyoto Ohara Public Golf Course. Find green fees,
+  Rakuten GORA booking tips, course layout, and directions. Book your Kyoto golf trip!
 ---
+
 
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service, I have walked the hallowed fairways and meticulously scrutinized the greens of countless courses across Japan. My mission with OKCaddie is to provide unparalleled insights, separating the truly exceptional from the merely good. Today, we turn our discerning eye to a course that, despite its "public" designation, embodies the soul and strategic depth of Japan's finest private clubs: Kyoto Ohara Public. Prepare for a review that transcends the superficial, delving into the very essence of its design, tradition, and transcendent post-round experience. This is not just a golf course; it is an pilgrimage for the serious player, an ode to the strategic game, nestled within the ancient embrace of Kyoto.

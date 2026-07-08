@@ -1,15 +1,23 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Nasu Ogawa Golf Club: An Expert Review (en)"
-lat: "36.7844"
-lng: "140.1156"
-categories: "Strategic, Championship Course, Onsen Golf, Japanese Hospitality"
-thumbnail: "/static/images/nasu_ogawa_golf_club.jpg"
-address: "323 Nakagawa, Nasu-gun, Tochigi, Japan"
-date: "2026-04-15"
-booking: "/booking/nasu_ogawa_golf_club_en"
-summary: "An 8,500-character master guide to Nasu Ogawa Golf Club, meticulously reviewed by an elite Japanese rater and senior caddy, covering its strategic design, rich history, luxurious amenities, and unparalleled gourmet experiences."
+lang: en
+title: Nasu Ogawa Golf Club
+lat: '36.7844'
+lng: '140.1156'
+categories: Strategic, Championship Course, Onsen Golf, Japanese Hospitality
+thumbnail: /static/images/nasu_ogawa_golf_club.jpg
+address: 323 Nakagawa, Nasu-gun, Tochigi, Japan
+date: '2026-04-15'
+booking: /booking/nasu_ogawa_golf_club_en
+summary: An 8,500-character master guide to Nasu Ogawa Golf Club, meticulously reviewed
+  by an elite Japanese rater and senior caddy, covering its strategic design, rich
+  history, luxurious amenities, and unparalleled gourmet experiences.
+description: Book your round at Nasu Ogawa Golf Club in Tochigi, Japan. Find updated
+  green fees, tee times, Rakuten GORA booking links, and course tips on OK Caddie.
+seo_title: 'Nasu Ogawa Golf Club, Tochigi: Green Fees & Booking | OK Caddie'
+seo_description: Book your round at Nasu Ogawa Golf Club in Tochigi, Japan. Find updated
+  green fees, tee times, Rakuten GORA booking links, and course tips on OK Caddie.
 ---
+
 
 ## Nasu Ogawa Golf Club: A Masterpiece Forged in the Highlands of Tochigi
 

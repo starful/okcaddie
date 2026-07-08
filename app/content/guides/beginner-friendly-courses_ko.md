@@ -1,9 +1,17 @@
 ---
-lang: "ko"
-title: "초보자도 즐겁게 라운딩할 수 있는 쉬운 코스 추천"
-summary: "골프 초보자도 부담 없이 즐길 수 있는 일본의 쉬운 골프 코스를 추천합니다. 경사가 완만하고 페어웨이가 넓어 누구나 편안하게 라운딩할 수 있는 곳들을 소개하며, 초보자들을 위한 유용한 팁과 준비물 정보도 함께 제공합니다. 첫 라운딩의 설렘을 만끽하고 싶은 분들을 위한 완벽한 가이드입니다."
-date: "2026-04-15"
+lang: ko
+title: Best Beginner-Friendly Golf Courses in Japan
+summary: 골프 초보자도 부담 없이 즐길 수 있는 일본의 쉬운 골프 코스를 추천합니다. 경사가 완만하고 페어웨이가 넓어 누구나 편안하게 라운딩할
+  수 있는 곳들을 소개하며, 초보자들을 위한 유용한 팁과 준비물 정보도 함께 제공합니다. 첫 라운딩의 설렘을 만끽하고 싶은 분들을 위한 완벽한 가이드입니다.
+date: '2026-04-15'
+description: Planning a golf trip to Japan but worried about the difficulty? Discover
+  the most welcoming, scenic, and easy-to-play courses designed specifically for beginner
+  golfers.
+seo_title: Best Beginner-Friendly Golf Courses in Japan | OkCaddie
+seo_description: Discover the best beginner-friendly golf courses in Japan. Our guide
+  covers easy, welcoming courses perfect for new and casual players.
 ---
+
 
 # 초보자도 즐겁게 라운딩할 수 있는 쉬운 코스 추천: 일본 골프 여행 완벽 가이드
 

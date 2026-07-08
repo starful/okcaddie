@@ -1,9 +1,17 @@
 ---
-lang: "ko"
-title: "아이와 함께 라운딩 가능한 가족형 골프장 추천"
-summary: "가족과 함께하는 골프 라운딩은 아이들에게 스포츠를 가르치고 소중한 추억을 만들 수 있는 특별한 경험입니다. 이 가이드는 일본 내에서 아이들과 함께 즐거운 시간을 보낼 수 있는 가족 친화적인 골프장을 선별하여 추천합니다. 코스 선택 기준부터 성공적인 가족 골프 여행을 위한 팁까지, 모든 부모님들이 완벽한 가족형 골프 휴가를 계획하는 데 필요한 정보를 제공합니다."
-date: "2026-04-15"
+lang: ko
+title: 'Golfing with Kids: Family-Friendly Golf Courses in Japan'
+summary: 가족과 함께하는 골프 라운딩은 아이들에게 스포츠를 가르치고 소중한 추억을 만들 수 있는 특별한 경험입니다. 이 가이드는 일본 내에서
+  아이들과 함께 즐거운 시간을 보낼 수 있는 가족 친화적인 골프장을 선별하여 추천합니다. 코스 선택 기준부터 성공적인 가족 골프 여행을 위한 팁까지,
+  모든 부모님들이 완벽한 가족형 골프 휴가를 계획하는 데 필요한 정보를 제공합니다.
+date: '2026-04-15'
+description: Planning a family golf trip? Discover the best family-friendly golf courses
+  in Japan for kids. Enjoy world-class golf and culture with OK Caddie!
+seo_title: 'Golfing with Kids in Japan: Best Family-Friendly Courses | OK Caddie'
+seo_description: Planning a family golf trip? Discover the best family-friendly golf
+  courses in Japan for kids. Enjoy world-class golf and culture with OK Caddie!
 ---
+
 
 # 아이와 함께 라운딩 가능한 일본 가족형 골프장 추천: 완벽한 가족 골프 휴가를 위한 딥다이브 가이드
 

@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Fujizakura Country Club: An Expert Review (en)"
-lat: "35.4544"
-lng: "138.7456"
-categories: "Public Tournament, Premium / Luxury, Mt. Fuji View"
-thumbnail: "/static/images/fujizakura_country_club.jpg"
-address: "Fujikawaguchiko, Yamanashi"
-date: "2026-04-15"
-booking: "/booking/fujizakura_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Fujizakura Country Club, covering strategy, history, and luxury facilities."
+lang: en
+title: Fujizakura Country Club
+lat: '35.4544'
+lng: '138.7456'
+categories: Public Tournament, Premium / Luxury, Mt. Fuji View
+thumbnail: /static/images/fujizakura_country_club.jpg
+address: Fujikawaguchiko, Yamanashi
+date: '2026-04-15'
+booking: /booking/fujizakura_country_club_en
+summary: A comprehensive 9,000-character master guide to Fujizakura Country Club,
+  covering strategy, history, and luxury facilities.
+description: Book your tee time at Fujizakura Country Club. Get up-to-date green fees,
+  course layout tips, and guides for booking this iconic Mt. Fuji golf course.
+seo_title: Fujizakura Country Club | Tee Times, Booking & Green Fees
+seo_description: Book your tee time at Fujizakura Country Club. Get up-to-date green
+  fees, course layout tips, and guides for booking this iconic Mt. Fuji golf course.
 ---
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated experience navigating the nuanced greens and fairways of Japan's most revered courses, I have had the privilege of walking virtually every blade of grass that matters. Yet, among the pantheon of golfing excellence, Fujizakura Country Club stands as a singular testament to strategic design, natural beauty, and unparalleled prestige. Nestled at the foothills of the majestic Mount Fuji, this club is not merely a golf course; it is an institution, a pilgrimage for discerning golfers, and a crucible where champions are forged. My mission today is to peel back every layer of this masterpiece, offering an analysis so granular, so insightful, that you will feel the crisp air of the Yamanashi highlands and sense the strategic demands of its hallowed grounds even before your first tee shot. Prepare for a review that transcends mere description, offering a masterclass in appreciating one of Japan's truly iconic golfing destinations.
 

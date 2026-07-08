@@ -1,12 +1,13 @@
 ---
 date: '2026-06-19'
-description: Experience Japan's breathtaking fall colors on the fairway. Discover
-  the best golf courses for stunning autumn foliage and scenic views.
-seo_description: Experience Japan's breathtaking fall colors on the fairway. Discover
-  the best golf courses for stunning autumn foliage and scenic views.
-seo_title: 'Japan Autumn Golf: Best Fall Foliage Courses | OK Caddie'
-title: Best Golf Courses in Japan for Stunning Autumn Leaves
+description: Experience Japan's stunning autumn colors on the green. Discover the
+  best golf courses for breathtaking fall foliage and scenic mountain views.
+seo_description: Experience Japan's stunning autumn colors on the green. Discover
+  the best golf courses for breathtaking fall foliage and scenic mountain views.
+seo_title: 'Best Autumn Golf Courses in Japan: Fall Foliage Guide | OK Caddie'
+title: Best Japan Golf Courses for Autumn Leaves & Fall Foliage
 ---
+
 
 
 ---
