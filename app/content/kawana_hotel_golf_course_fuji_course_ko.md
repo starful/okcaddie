@@ -8,13 +8,15 @@ lat: '34.9038'
 lng: '139.1389'
 summary: 가와나 호텔 골프 코스 후지 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.
 thumbnail: /static/images/kawana_hotel_golf_course_fuji_course.jpg
-title: Kawana Hotel Golf Course (Fuji Course) Guide
-description: How to book the prestigious Kawana Fuji Course. Get latest green fees,
-  booking tips for foreigners, and course strategy to play Japan's top resort.
-seo_title: 'Kawana Hotel Fuji Course: How to Book & Green Fees | OK Caddie'
-seo_description: How to book the prestigious Kawana Fuji Course. Get latest green
-  fees, booking tips for foreigners, and course strategy to play Japan's top resort.
+title: Kawana Hotel Golf Course (Fuji Course)
+description: The ultimate guide to booking the prestigious Kawana Hotel Golf Course
+  (Fuji Course) for international golfers, including the latest green fees and insider
+  tips.
+seo_title: 'Kawana Hotel Fuji Course Booking Guide: Fees & Tee Times | OK Caddie'
+seo_description: Book your tee time at Japan's legendary Kawana Hotel Fuji Course.
+  Get actual green fees, booking steps for foreigners, and expert course tips.
 ---
+
 
 
 ## 가와나 호텔 골프 코스 [후지](/course/fuji_country_club_ko) 코스: 전설의 해안 링크를 탐험하다

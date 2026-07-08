@@ -9,8 +9,14 @@ lng: '138.9656'
 summary: 20년 경력의 베테랑 캐디가 선사하는 이즈 오히토 컨트리 클럽의 역사, 전략, 미식, 온천 등 9,000자 분량의 심도 깊은 마스터
   가이드입니다.
 thumbnail: /static/images/izu_ohito_country_club.jpg
-title: '이즈 오히토 컨트리 클럽 완벽 가이드: 명품 코스 레이터의 심층 분석'
+title: 'Izu Ohito Country Club: Green Fees & Booking Guide'
+description: Plan your round at Izu Ohito Country Club. Find updated green fees, easy
+  English booking options, course layout tips, and stunning Mt. Fuji views.
+seo_title: 'Izu Ohito Country Club: Green Fees & Booking Guide | okcaddie'
+seo_description: Plan your round at Izu Ohito Country Club. Find updated green fees,
+  easy English booking options, course layout tips, and stunning Mt. Fuji views.
 ---
+
 
 일본 골프 코스 레이터이자 20년 경력의 프로페셔널 시니어 캐디로서, 저는 수많은 명문 코스를 경험하며 그 깊이와 철학을 탐구해왔습니다. 오늘 여러분께 소개할 곳은 일본 이즈 반도의 보석, '이즈 오히토 컨트리 클럽(Izu Ohito Country Club)'입니다. 이곳은 단순히 골프를 치는 곳이 아니라, 자연과 건축, 전략과 휴식이 완벽하게 조화된 하나의 예술 작품과 같습니다. 저는 이 심층 리뷰를 통해 이즈 오히토가 왜 일본 골프계에서 독보적인 위치를 차지하는지, 그리고 어떻게 여러분의 골프 경험을 최상으로 끌어올릴 수 있는지 상세히 분석하고자 합니다. 저의 모든 지식과 경험을 담아, 이즈 오히토 컨트리 클럽에 대한 최고의 가이드를 선사할 것을 약속드립니다.
 

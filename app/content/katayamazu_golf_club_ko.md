@@ -3,19 +3,20 @@ address: 일본 이시카와현 가가시
 booking: /booking/katayamazu_golf_club_ko
 categories: 퍼블릭 토너먼트, 프라이빗 클럽, 오션 뷰
 date: '2026-04-15'
-description: Book your round at Ishikawa's legendary Katayamazu Golf Club. Get current
-  green fees, Rakuten GORA booking steps, course reviews, and access guides.
+description: The ultimate guide to playing Katayamazu Golf Club. Learn how to book
+  via Rakuten GORA, get current green fees, and read expert course reviews.
 lang: ko
 lat: '36.2644'
 lng: '136.3356'
-seo_description: Book your round at Ishikawa's legendary Katayamazu Golf Club. Get
-  current green fees, Rakuten GORA booking steps, course reviews, and access guides.
-seo_title: Katayamazu Golf Club | Book Tee Times & Green Fees - OK Caddie
+seo_description: Want to play Katayamazu Golf Club? Check 2024 green fees and follow
+  our easy Rakuten GORA English booking guide to secure your tee time.
+seo_title: Book Katayamazu Golf Club | Green Fees & English Guide
 summary: 일본 골프의 정수, 가타야마즈 골프 클럽의 깊이 있는 역사부터 건축 전략, 홀별 공략법, 최고급 시설과 미식 경험까지 9,000자
   분량으로 심층 분석한 마스터 가이드입니다.
 thumbnail: /static/images/katayamazu_golf_club.jpg
-title: '가타야마즈 골프 클럽 완벽 해부: 일본 명문 코스 평가 전문가의 심층 리뷰'
+title: 'Katayamazu Golf Club: English Booking Guide'
 ---
+
 
 ## 가타야마즈 골프 클럽: 일본 골프의 정수를 만나다
 

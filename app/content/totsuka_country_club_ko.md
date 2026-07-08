@@ -3,18 +3,19 @@ address: 가나가와현 요코하마시
 booking: /booking/totsuka_country_club_ko
 categories: Premium / Luxury, Private Club
 date: '2026-04-12'
-description: Planning to play Totsuka Country Club in Yokohama? Here is everything
-  guests need to know about green fees, course layouts, and access rules.
+description: Can guests play Totsuka Country Club? Discover how to book a tee time,
+  guest green fees, and access rules for Yokohama's elite golf course.
 lang: ko
 lat: '35.4244'
 lng: '139.5156'
-seo_description: Want to play Yokohama's exclusive Totsuka Country Club? Find out
-  how to secure a tee time, current guest fees, and course access rules.
-seo_title: 'How to Play Totsuka Country Club: Guest Fees & Booking Guide'
+seo_description: Can guests play Totsuka Country Club? Discover how to book a tee
+  time, guest green fees, and access rules for Yokohama's elite golf course.
+seo_title: 'How to Play Totsuka Country Club: Guest Booking & Fees'
 summary: 요코하마 시에 위치한 토츠카 컨트리 클럽은 1961년 개장한 명문 프라이빗 코스로, 전략적인 레이아웃과 완벽한 코스 관리로 유명합니다.
 thumbnail: /static/images/totsuka_country_club.jpg
-title: Playing Totsuka Country Club
+title: 'Playing Totsuka Country Club: Guest Guide & Fees'
 ---
+
 
 가나가와현 요코하마시에 자리 잡은 토츠카 컨트리 클럽은 일본의 고전적인 골프 코스 디자인의 정수를 보여주는 곳입니다. 도시의 번잡함에서 벗어나 잘 가꿔진 자연 속에서 집중력 있는 라운드를 경험하고자 하는 골퍼들에게 이 명문 클럽은 훌륭한 선택지가 될 것입니다. OKCaddie에서는 여러분의 일본 골프 여행 계획에 실질적인 도움을 드릴 수 있도록, 토츠카 컨트리 클럽에서의 라운드 경험을 상세히 안내해 드립니다.
 
