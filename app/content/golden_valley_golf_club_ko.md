@@ -85,7 +85,7 @@ title: '골든밸리 골프 클럽 심층 분석: 전문가 리뷰 (ko)'
 
 **골든밸리 골프 클럽 접근 가이드:**
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)/후쿠오카에서:**
+*   **도쿄/후쿠오카에서:**
     신칸센(Shinkansen)을 이용하여 신오사카역(Shin-[[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko) Station)까지 이동합니다. 신오사카역에서 JR 고베선(JR [Kobe](/course/kobe_grand_hill_ko) Line)으로 갈아타고 니시와키시역(Nishiwaki-shi Station) 또는 가코가와역(Kakogawa Station)까지 이동한 후, 클럽에서 제공하는 셔틀버스(사전 예약 필수)를 이용하거나 택시를 이용하는 것이 가장 편리합니다. 총 소요 시간은 도쿄에서 약 3.5-4시간, 후쿠오카에서 약 3-3.5시간 정도입니다.
 *   **오사카에서:**
     JR 고베선을 이용하여 니시와키시역 또는 가코가와역까지 이동 후, 셔틀버스 또는 택시를 이용합니다. 오사카 시내에서 차량으로 이동할 경우 약 1시간 30분 정도 소요됩니다. 고속도로 접근성이 좋아 렌터카를 이용하는 것도 좋은 선택입니다.

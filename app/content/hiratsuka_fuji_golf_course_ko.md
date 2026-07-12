@@ -139,7 +139,7 @@ title: 'The Definitive Guide to Hiratsuka Fuji Golf Course: An Expert Review (ko
 
 ### 6.2 주요 도시에서의 상세 접근 가이드
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **자동차:** 도메이 고속도로([Tom](/course/tom_watson_golf_course_ko)ei Expressway)를 이용해 오다와라 아츠기 도로(Odawara Atsugi Road)의 니시 쇼난 바이패스(Nishi Shonan Bypass) 나카이(Nakai) IC로 진출하면 됩니다. 도쿄 시내에서 약 1시간 30분 ~ 2시간 소요 (교통 상황에 따라 변동). 내비게이션에 '히라츠카 후지 골프 클럽'을 입력하면 편리합니다.
     *   **전철:** 도쿄역에서 신칸센(Shinkansen)을 타고 오다와라역(Odawara Station)까지 이동 (약 35분). 오다와라역에서 택시로 약 20-30분 소요됩니다. 또는 오다와라역에서 오다큐 오다와라선(Odakyu Odawara Line)으로 갈아타고 신고도이역(Shinkodoi Station)까지 이동 후, 역에서 택시를 이용하는 방법도 있습니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 및 후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**

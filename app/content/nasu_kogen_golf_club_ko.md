@@ -104,7 +104,7 @@ title: '나스 고원 골프 클럽 마스터 가이드: 명문 코스 전문가
 
 **주요 도시에서의 접근성:**
 나스 고원 골프 클럽은 일본 주요 도시에서 접근성이 뛰어납니다.
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)([Tokyo](/course/tokyo_golf_club_ko))에서:**
+*   **도쿄([Tokyo](/course/tokyo_golf_club_ko))에서:**
     *   **신칸센(Shinkansen):** 도쿄역에서 도호쿠 신칸센(Tohoku Shinkansen)을 타고 '나스시오바라(那須塩原)' 역까지 약 1시간 10분 소요됩니다. 나스시오바라 역에서는 클럽까지 셔틀버스(사전 예약 필수) 또는 택시로 약 30분 소요됩니다.
     *   **자동차:** 도호쿠 자동차도(Tohoku Expressway)를 이용하여 '나스(那須)' IC에서 나와 약 20분 소요됩니다. 총 소요 시간은 약 2시간 30분 ~ 3시간입니다.
 *   **오사카([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko))에서:**

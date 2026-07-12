@@ -167,7 +167,7 @@ title: '간사이 골프 클럽 심층 분석: 최고 전문가가 전하는 마
 *   **교토([[[Kyoto](/course/kyoto_joyo_country_ko)](/course/kyoto_ohara_public_ko)](/course/kyoto_golf_club_kamigamo_ko))에서:**
     *   **자동차:** 고속도로를 이용할 경우 약 1시간 ~ 1시간 30분 소요됩니다.
     *   **대중교통:** JR 교토 역에서 JR 고베 선을 이용하여 미키역 또는 오노역까지 이동한 후, 택시 또는 클럽 셔틀을 이용할 수 있습니다. (약 1시간 40분 ~ 2시간 20분 소요)
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)([Tokyo](/course/tokyo_golf_club_ko))에서:**
+*   **도쿄([Tokyo](/course/tokyo_golf_club_ko))에서:**
     *   **항공:** 하네다 또는 [나리타](/course/narita_golf_club_ko) 공항에서 간사이 국제공항(KIX)까지 비행기로 이동한 후, 위 오사카 접근 방법을 따릅니다.
     *   **신칸센:** 도쿄역에서 신칸센을 이용하여 신오사카 역까지 이동한 후, 위 오사카 접근 방법을 따릅니다. (총 약 4시간 ~ 5시간 소요)
 

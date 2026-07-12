@@ -137,7 +137,7 @@ seo_description: Want to play Takanodai Country Club in Chiba? Discover green fe
 
 ### 주요 도시별 상세 접근 가이드
 
-타카노다이 컨트리클럽은 치바현 치바시에 위치하여 [도쿄](/guide/kanto-vs-kansai-golf_ko)에서 접근성이 매우 뛰어납니다.
+타카노다이 컨트리클럽은 치바현 치바시에 위치하여 도쿄에서 접근성이 매우 뛰어납니다.
 
 *   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **자동차:** 도쿄 도심에서 약 60~80분 소요 (교통 상황에 따라 변동). 도쿄만 아쿠아라인(東京湾アクアライン) 또는 게이요 도로(京葉道路)를 이용하는 것이 가장 빠릅니다. 내비게이션에 클럽 주소를 입력하면 편리하게 이동할 수 있습니다.

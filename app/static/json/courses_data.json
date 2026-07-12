@@ -1,6 +1,843 @@
 {
-  "last_updated": "2026.07.05",
+  "last_updated": "2026.07.12",
   "courses": [
+    {
+      "id": "wakayama_golf_club_ko",
+      "base_id": "wakayama_golf_club",
+      "lang": "ko",
+      "title": "와카야마 골프 클럽",
+      "lat": 34.1844,
+      "lng": 135.1556,
+      "categories": [
+        "가성비",
+        "퍼블릭 토너먼트"
+      ],
+      "thumbnail": "/static/images/wakayama_golf_club.jpg",
+      "address": "와카야마현 와카야마시",
+      "published": "2026-07-12",
+      "summary": "와카야마 시내권 가성비 라운드. 요금 구간, 예약, 레이아웃, 간사이에서 가는 법.",
+      "booking": "/booking/wakayama_golf_club_ko",
+      "link": "/course/wakayama_golf_club?lang=ko"
+    },
+    {
+      "id": "wakayama_golf_club_en",
+      "base_id": "wakayama_golf_club",
+      "lang": "en",
+      "title": "Wakayama Golf Club",
+      "lat": 34.1844,
+      "lng": 135.1556,
+      "categories": [
+        "Value for Money",
+        "Public Tournament"
+      ],
+      "thumbnail": "/static/images/wakayama_golf_club.jpg",
+      "address": "Wakayama, Wakayama",
+      "published": "2026-07-12",
+      "summary": "Semi-public Wakayama round—fee planning bands, booking windows, layout notes, and how to get there from Kansai.",
+      "booking": "/booking/wakayama_golf_club_en",
+      "link": "/course/wakayama_golf_club"
+    },
+    {
+      "id": "the_north_country_golf_club_ko",
+      "base_id": "the_north_country_golf_club",
+      "lang": "ko",
+      "title": "노스 컨트리 골프 클럽",
+      "lat": 42.8456,
+      "lng": 141.6744,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "쉬운 예약",
+        "시사이드 링크스"
+      ],
+      "thumbnail": "/static/images/the_north_country_golf_club.jpg",
+      "address": "홋카이도 지토세",
+      "published": "2026-07-12",
+      "summary": "지토세권 홋카이도 골프. 공항 접근, 예약, 여름 요금 참고, 바람 공략.",
+      "booking": "/booking/the_north_country_golf_club_ko",
+      "link": "/course/the_north_country_golf_club?lang=ko"
+    },
+    {
+      "id": "the_north_country_golf_club_en",
+      "base_id": "the_north_country_golf_club",
+      "lang": "en",
+      "title": "The North Country Golf Club",
+      "lat": 42.8456,
+      "lng": 141.6744,
+      "categories": [
+        "Public Tournament",
+        "Easy Booking",
+        "Seaside Links"
+      ],
+      "thumbnail": "/static/images/the_north_country_golf_club.jpg",
+      "address": "Chitose, Hokkaido",
+      "published": "2026-07-12",
+      "summary": "Chitose-area Hokkaido golf—easy airport access, booking paths, summer fee ranges, and wind-aware play notes.",
+      "booking": "/booking/the_north_country_golf_club_en",
+      "link": "/course/the_north_country_golf_club"
+    },
+    {
+      "id": "the_masters_amakusa_course_ko",
+      "base_id": "the_masters_amakusa_course",
+      "lang": "ko",
+      "title": "더 마스터즈 아마쿠사 코스",
+      "lat": 32.4844,
+      "lng": 130.1556,
+      "categories": [
+        "챔피언십 코스",
+        "오션 뷰",
+        "럭셔리 골프",
+        "골프와 스파",
+        "고메 다이닝"
+      ],
+      "thumbnail": "/static/images/the_masters_amakusa_course.jpg",
+      "address": "구마모토현 아마쿠사시",
+      "published": "2026-07-12",
+      "summary": "아마쿠사 오션 뷰 골프. 예약·요금 참고, 바람 팁, 구마모토 시내에서 실제 거리.",
+      "booking": "/booking/the_masters_amakusa_course_ko",
+      "link": "/course/the_masters_amakusa_course?lang=ko"
+    },
+    {
+      "id": "the_masters_amakusa_course_en",
+      "base_id": "the_masters_amakusa_course",
+      "lang": "en",
+      "title": "The Masters Amakusa Course",
+      "lat": 32.4844,
+      "lng": 130.1556,
+      "categories": [
+        "Championship Course",
+        "Ocean View",
+        "Luxury Golf",
+        "Golf and Spa",
+        "Gourmet Dining"
+      ],
+      "thumbnail": "/static/images/the_masters_amakusa_course.jpg",
+      "address": "Amakusa, Kumamoto Prefecture, Japan",
+      "published": "2026-07-12",
+      "summary": "Amakusa ocean-view golf—booking paths, fee ranges, wind notes, and how far it really is from Kumamoto City.",
+      "booking": "/booking/the_masters_amakusa_course_en",
+      "link": "/course/the_masters_amakusa_course"
+    },
+    {
+      "id": "shimonoseki_golf_club_ko",
+      "base_id": "shimonoseki_golf_club",
+      "lang": "ko",
+      "title": "시모노세키 골프 클럽",
+      "lat": 34.0944,
+      "lng": 130.9356,
+      "categories": [
+        "프라이빗 클럽",
+        "시사이드 링크스",
+        "챔피언십"
+      ],
+      "thumbnail": "/static/images/shimonoseki_golf_club.jpg",
+      "address": "야마구치현 시모노세키",
+      "published": "2026-07-12",
+      "summary": "간몬 해협 명문 프라이빗 클럽. 게스트 이용 현실, 요금 참고, 해안 바람 팁, 접근 방법.",
+      "booking": "/booking/shimonoseki_golf_club_ko",
+      "link": "/course/shimonoseki_golf_club?lang=ko"
+    },
+    {
+      "id": "shimonoseki_golf_club_en",
+      "base_id": "shimonoseki_golf_club",
+      "lang": "en",
+      "title": "Shimonoseki Golf Club",
+      "lat": 34.0944,
+      "lng": 130.9356,
+      "categories": [
+        "Private Club",
+        "Seaside Links",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/shimonoseki_golf_club.jpg",
+      "address": "Shimonoseki, Yamaguchi",
+      "published": "2026-07-12",
+      "summary": "Kanmon-coast member club reality check—guest paths, fee ranges, seaside wind tips, and access from Shimonoseki / Kitakyushu.",
+      "booking": "/booking/shimonoseki_golf_club_en",
+      "link": "/course/shimonoseki_golf_club"
+    },
+    {
+      "id": "sapporo_golf_club_wattsu_course_ko",
+      "base_id": "sapporo_golf_club_wattsu_course",
+      "lang": "ko",
+      "title": "삿포로 골프 클럽 왓츠 코스",
+      "lat": 42.8744,
+      "lng": 141.4856,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프라이빗 클럽",
+        "역사"
+      ],
+      "thumbnail": "/static/images/sapporo_golf_club_wattsu_course.jpg",
+      "address": "홋카이도 기타히로시마",
+      "published": "2026-07-12",
+      "summary": "왓츠 코스 실전 가이드. 예약 가능 여부 확인법, 요금 범위, 코스 성향, 삿포로·CTS 접근.",
+      "booking": "/booking/sapporo_golf_club_wattsu_course_ko",
+      "link": "/course/sapporo_golf_club_wattsu_course?lang=ko"
+    },
+    {
+      "id": "sapporo_golf_club_wattsu_course_en",
+      "base_id": "sapporo_golf_club_wattsu_course",
+      "lang": "en",
+      "title": "Sapporo Golf Club Wattsu Course",
+      "lat": 42.8744,
+      "lng": 141.4856,
+      "categories": [
+        "Public Tournament",
+        "Private Club",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/sapporo_golf_club_wattsu_course.jpg",
+      "address": "Kitahiroshima, Hokkaido",
+      "published": "2026-07-12",
+      "summary": "Visitor-focused guide to Sapporo GC Wattsu—historic championship layout near Sapporo, booking reality check, fees, and CTS access.",
+      "booking": "/booking/sapporo_golf_club_wattsu_course_en",
+      "link": "/course/sapporo_golf_club_wattsu_course"
+    },
+    {
+      "id": "pgm_golf_resort_okinawa_ko",
+      "base_id": "pgm_golf_resort_okinawa",
+      "lang": "ko",
+      "title": "PGM 골프 리조트 오키나와",
+      "lat": 26.4344,
+      "lng": 127.8356,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프리미엄 / 럭셔리",
+        "오션 뷰"
+      ],
+      "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
+      "address": "오키나와 온나",
+      "published": "2026-07-12",
+      "summary": "오키나와 온나의 27홀 리조트 코스. 방문자 예약 경로, 나하 공항 접근, 그린피 참고 범위와 라운드 팁.",
+      "booking": "/booking/pgm_golf_resort_okinawa_ko",
+      "link": "/course/pgm_golf_resort_okinawa?lang=ko"
+    },
+    {
+      "id": "pgm_golf_resort_okinawa_en",
+      "base_id": "pgm_golf_resort_okinawa",
+      "lang": "en",
+      "title": "PGM Golf Resort Okinawa",
+      "lat": 26.4344,
+      "lng": 127.8356,
+      "categories": [
+        "Public Tournament",
+        "Premium / Luxury",
+        "Ocean View"
+      ],
+      "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
+      "address": "Onna, Okinawa",
+      "published": "2026-07-12",
+      "summary": "Visitor guide to PGM Golf Resort Okinawa—27-hole ocean-side layout in Onna, booking paths, access from Naha Airport, and what to expect on fee day.",
+      "booking": "/booking/pgm_golf_resort_okinawa_en",
+      "link": "/course/pgm_golf_resort_okinawa"
+    },
+    {
+      "id": "passage_kinkai_island_ko",
+      "base_id": "passage_kinkai_island",
+      "lang": "ko",
+      "title": "패시지 킨카이 아일랜드",
+      "lat": 32.8944,
+      "lng": 129.8356,
+      "categories": [
+        "프리미엄 / 럭셔리",
+        "스테이 앤 플레이",
+        "오션 뷰"
+      ],
+      "thumbnail": "/static/images/passage_kinkai_island.jpg",
+      "address": "나가사키현 나가사키시",
+      "published": "2026-07-12",
+      "summary": "나가사키 해안 프리미엄 골프. 예약 현실, 요금 참고, 바람·벙커 팁, 숙박 동선.",
+      "booking": "/booking/passage_kinkai_island_ko",
+      "link": "/course/passage_kinkai_island?lang=ko"
+    },
+    {
+      "id": "passage_kinkai_island_en",
+      "base_id": "passage_kinkai_island",
+      "lang": "en",
+      "title": "Passage Kinkai Island",
+      "lat": 32.8944,
+      "lng": 129.8356,
+      "categories": [
+        "Premium / Luxury",
+        "Stay & Play",
+        "Ocean View"
+      ],
+      "thumbnail": "/static/images/passage_kinkai_island.jpg",
+      "address": "Nagasaki, Nagasaki",
+      "published": "2026-07-12",
+      "summary": "Nagasaki coastal premium golf—booking reality, fee ranges, wind/bunker tips, and stay-and-play logistics.",
+      "booking": "/booking/passage_kinkai_island_en",
+      "link": "/course/passage_kinkai_island"
+    },
+    {
+      "id": "natsudomari_golf_links_ko",
+      "base_id": "natsudomari_golf_links",
+      "lang": "ko",
+      "title": "나쓰도마리 골프 링크스",
+      "lat": 41.0144,
+      "lng": 140.8956,
+      "categories": [
+        "시사이드 링크스",
+        "경관",
+        "전략형"
+      ],
+      "thumbnail": "/static/images/natsudomari_golf_links.jpg",
+      "address": "아오모리현 히가시쓰가루군 히라나이정",
+      "published": "2026-07-12",
+      "summary": "무쓰만을 바라보는 북일본 링크스. 예약·요금 참고, 바람 공략, 접근 방법.",
+      "booking": "/booking/natsudomari_golf_links_ko",
+      "link": "/course/natsudomari_golf_links?lang=ko"
+    },
+    {
+      "id": "natsudomari_golf_links_en",
+      "base_id": "natsudomari_golf_links",
+      "lang": "en",
+      "title": "Natsudomari Golf Links",
+      "lat": 41.0144,
+      "lng": 140.8956,
+      "categories": [
+        "Seaside Links",
+        "Scenic View",
+        "Strategic Design"
+      ],
+      "thumbnail": "/static/images/natsudomari_golf_links.jpg",
+      "address": "Hiranai, Higashitsugaru District, Aomori Prefecture, Japan",
+      "published": "2026-07-12",
+      "summary": "Practical guide to Natsudomari Golf Links on Mutsu Bay—links wind chess, booking paths, fee ranges, and how to get there.",
+      "booking": "/booking/natsudomari_golf_links_en",
+      "link": "/course/natsudomari_golf_links"
+    },
+    {
+      "id": "miyazaki_country_club_ko",
+      "base_id": "miyazaki_country_club",
+      "lang": "ko",
+      "title": "미야자키 컨트리 클럽",
+      "lat": 31.8644,
+      "lng": 131.4456,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "오션 뷰",
+        "히스토릭"
+      ],
+      "thumbnail": "/static/images/miyazaki_country_club.jpg",
+      "address": "미야자키현 미야자키시",
+      "published": "2026-07-12",
+      "summary": "JLPGA 개최 이력의 미야자키 명문. 예약·요금 참고, 해안권 플레이 팁, 시가이아 일정과의 조합.",
+      "booking": "/booking/miyazaki_country_club_ko",
+      "link": "/course/miyazaki_country_club?lang=ko"
+    },
+    {
+      "id": "miyazaki_country_club_en",
+      "base_id": "miyazaki_country_club",
+      "lang": "en",
+      "title": "Miyazaki Country Club",
+      "lat": 31.8644,
+      "lng": 131.4456,
+      "categories": [
+        "Public Tournament",
+        "Ocean View",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/miyazaki_country_club.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-07-12",
+      "summary": "JLPGA host venue in Miyazaki—booking paths, fee ranges, coastal play tips, and how it fits a Seagaia-area trip.",
+      "booking": "/booking/miyazaki_country_club_en",
+      "link": "/course/miyazaki_country_club"
+    },
+    {
+      "id": "kotohira_golf_club_ko",
+      "base_id": "kotohira_golf_club",
+      "lang": "ko",
+      "title": "고토히라 골프 클럽",
+      "lat": 34.2044,
+      "lng": 133.8556,
+      "categories": [
+        "가성비",
+        "스테이 앤 플레이",
+        "쉬운 예약"
+      ],
+      "thumbnail": "/static/images/kotohira_golf_club.jpg",
+      "address": "가가와현 나카타도군 만노초",
+      "published": "2026-07-12",
+      "summary": "고토히라 근처 만노 언덕 골프. 예약 쉬운 시코쿠 라운드, 요금 참고, 참배 여행과 조합.",
+      "booking": "/booking/kotohira_golf_club_ko",
+      "link": "/course/kotohira_golf_club?lang=ko"
+    },
+    {
+      "id": "kotohira_golf_club_en",
+      "base_id": "kotohira_golf_club",
+      "lang": "en",
+      "title": "Kotohira Golf Club",
+      "lat": 34.2044,
+      "lng": 133.8556,
+      "categories": [
+        "Value for Money",
+        "Stay & Play",
+        "Easy Booking"
+      ],
+      "thumbnail": "/static/images/kotohira_golf_club.jpg",
+      "address": "Manno, Kagawa",
+      "published": "2026-07-12",
+      "summary": "Manno hills near Kotohira—bookable Shikoku golf, fee ranges, layout notes, and shrine-town access tips.",
+      "booking": "/booking/kotohira_golf_club_en",
+      "link": "/course/kotohira_golf_club"
+    },
+    {
+      "id": "keya_golf_club_ko",
+      "base_id": "keya_golf_club",
+      "lang": "ko",
+      "title": "케야 골프 클럽",
+      "lat": 33.6044,
+      "lng": 130.1356,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프리미엄 / 럭셔리",
+        "오션 뷰"
+      ],
+      "thumbnail": "/static/images/keya_golf_club.jpg",
+      "address": "후쿠오카현 이토시마",
+      "published": "2026-07-12",
+      "summary": "이토시마 해안 케야 골프 클럽. 예약·요금 참고, 오션 뷰 코스 요약, 후쿠오카에서 가는 법.",
+      "booking": "/booking/keya_golf_club_ko",
+      "link": "/course/keya_golf_club?lang=ko"
+    },
+    {
+      "id": "keya_golf_club_en",
+      "base_id": "keya_golf_club",
+      "lang": "en",
+      "title": "Keya Golf Club",
+      "lat": 33.6044,
+      "lng": 130.1356,
+      "categories": [
+        "Public Tournament",
+        "Premium / Luxury",
+        "Ocean View"
+      ],
+      "thumbnail": "/static/images/keya_golf_club.jpg",
+      "address": "Itoshima, Fukuoka",
+      "published": "2026-07-12",
+      "summary": "Practical guide to Keya Golf Club in Itoshima—ocean-view golf, booking paths, fee ranges, and access from Fukuoka.",
+      "booking": "/booking/keya_golf_club_en",
+      "link": "/course/keya_golf_club"
+    },
+    {
+      "id": "kawana_hotel_golf_course_fuji_course_ko",
+      "base_id": "kawana_hotel_golf_course_fuji_course",
+      "lang": "ko",
+      "title": "카와나 호텔 후지 코스",
+      "lat": 34.9038,
+      "lng": 139.1389,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프리미엄 / 럭셔리",
+        "시사이드"
+      ],
+      "thumbnail": "/static/images/kawana_hotel_golf_course_fuji_course.jpg",
+      "address": "시즈오카현 이토시",
+      "published": "2026-07-12",
+      "summary": "카와나 후지 코스 실전 가이드. 호텔·데이 플레이 구분, 요금, 도쿄 접근, 해안 코스 팁.",
+      "booking": "/booking/kawana_hotel_golf_course_fuji_course_ko",
+      "link": "/course/kawana_hotel_golf_course_fuji_course?lang=ko"
+    },
+    {
+      "id": "kawana_hotel_golf_course_fuji_course_en",
+      "base_id": "kawana_hotel_golf_course_fuji_course",
+      "lang": "en",
+      "title": "Kawana Hotel Fuji Course",
+      "lat": 34.9038,
+      "lng": 139.1389,
+      "categories": [
+        "Public Tournament",
+        "Premium / Luxury",
+        "Seaside Links"
+      ],
+      "thumbnail": "/static/images/kawana_hotel_golf_course_fuji_course.jpg",
+      "address": "Ito, Shizuoka",
+      "published": "2026-07-12",
+      "summary": "Practical Kawana Fuji Course guide for travelers—prestige oceanside layout in Ito, booking/stay options, fees, and access from Tokyo.",
+      "booking": "/booking/kawana_hotel_golf_course_fuji_course_en",
+      "link": "/course/kawana_hotel_golf_course_fuji_course"
+    },
+    {
+      "id": "katayamazu_golf_club_ko",
+      "base_id": "katayamazu_golf_club",
+      "lang": "ko",
+      "title": "가타야마즈 골프 클럽",
+      "lat": 36.2644,
+      "lng": 136.3356,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프라이빗 클럽",
+        "오션 뷰"
+      ],
+      "thumbnail": "/static/images/katayamazu_golf_club.jpg",
+      "address": "이시카와현 가가시",
+      "published": "2026-07-12",
+      "summary": "가가 해안 클래식. 가타야마즈 예약·요금 참고, 바람 팁, 고마쓰에서 가는 법.",
+      "booking": "/booking/katayamazu_golf_club_ko",
+      "link": "/course/katayamazu_golf_club?lang=ko"
+    },
+    {
+      "id": "katayamazu_golf_club_en",
+      "base_id": "katayamazu_golf_club",
+      "lang": "en",
+      "title": "Katayamazu Golf Club",
+      "lat": 36.2644,
+      "lng": 136.3356,
+      "categories": [
+        "Public Tournament",
+        "Private Club",
+        "Ocean View"
+      ],
+      "thumbnail": "/static/images/katayamazu_golf_club.jpg",
+      "address": "Kaga, Ishikawa",
+      "published": "2026-07-12",
+      "summary": "Kaga coast classic—how visitors book Katayamazu, planning fee ranges, wind tips, and access from Komatsu.",
+      "booking": "/booking/katayamazu_golf_club_en",
+      "link": "/course/katayamazu_golf_club"
+    },
+    {
+      "id": "kasumigaseki_country_club_ko",
+      "base_id": "kasumigaseki_country_club",
+      "lang": "ko",
+      "title": "가스미가세키 컨트리 클럽",
+      "lat": 35.8569,
+      "lng": 139.3814,
+      "categories": [
+        "프라이빗 클럽",
+        "공개 토너먼트",
+        "올림픽 개최지"
+      ],
+      "thumbnail": "/static/images/kasumigaseki_country_club.jpg",
+      "address": "사이타마현 가와고에시",
+      "published": "2026-07-12",
+      "summary": "올림픽 개최 프라이빗 명문. 일반 방문자가 거의 못 치는 이유, 게스트 경로, 현실적인 대안.",
+      "booking": "/booking/kasumigaseki_country_club_ko",
+      "link": "/course/kasumigaseki_country_club?lang=ko"
+    },
+    {
+      "id": "kasumigaseki_country_club_en",
+      "base_id": "kasumigaseki_country_club",
+      "lang": "en",
+      "title": "Kasumigaseki Country Club",
+      "lat": 35.8569,
+      "lng": 139.3814,
+      "categories": [
+        "Private Club",
+        "Public Tournament",
+        "Olympic Venue"
+      ],
+      "thumbnail": "/static/images/kasumigaseki_country_club.jpg",
+      "address": "Kawagoe, Saitama",
+      "published": "2026-07-12",
+      "summary": "Olympic-host private club near Tokyo—why casual visitors rarely get on, what guest paths look like, and practical alternatives.",
+      "booking": "/booking/kasumigaseki_country_club_en",
+      "link": "/course/kasumigaseki_country_club"
+    },
+    {
+      "id": "eniwa_country_club_ko",
+      "base_id": "eniwa_country_club",
+      "lang": "ko",
+      "title": "에니와 컨트리클럽 (홋카이도)",
+      "lat": 42.8844,
+      "lng": 141.5656,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "Stay & Play",
+        "경관",
+        "럭셔리 골프"
+      ],
+      "thumbnail": "/static/images/eniwa_country_club.jpg",
+      "address": "홋카이도 에니와시",
+      "published": "2026-07-12",
+      "summary": "에니와 CC 실전 가이드. 챔피언십 골드 포함 3개 코스, 예약 시 코스 확인, CTS 접근, 시즌 팁.",
+      "booking": "/booking/eniwa_country_club_ko",
+      "link": "/course/eniwa_country_club?lang=ko"
+    },
+    {
+      "id": "eniwa_country_club_en",
+      "base_id": "eniwa_country_club",
+      "lang": "en",
+      "title": "Eniwa Country Club (Hokkaido)",
+      "lat": 42.8844,
+      "lng": 141.5656,
+      "categories": [
+        "Public Tournament",
+        "Stay & Play",
+        "Scenic View",
+        "Luxury Golf"
+      ],
+      "thumbnail": "/static/images/eniwa_country_club.jpg",
+      "address": "Eniwa, Hokkaido",
+      "published": "2026-07-12",
+      "summary": "Practical visitor guide to Eniwa Country Club—three courses including championship Gold, booking tips, CTS access, and when to play in Hokkaido.",
+      "booking": "/booking/eniwa_country_club_en",
+      "link": "/course/eniwa_country_club"
+    },
+    {
+      "id": "camellia_hills_country_club_ko",
+      "base_id": "camellia_hills_country_club",
+      "lang": "ko",
+      "title": "카멜리아 힐스 컨트리 클럽",
+      "lat": 35.4144,
+      "lng": 140.0456,
+      "categories": [
+        "퍼블릭 토너먼트",
+        "프리미엄 / 럭셔리",
+        "리조트"
+      ],
+      "thumbnail": "/static/images/camellia_hills_country_club.jpg",
+      "address": "지바현 기사라즈시",
+      "published": "2026-07-12",
+      "summary": "기사라즈 리조트형 지바 골프. 예약·요금 참고, 레이아웃, 도쿄만 접근 팁.",
+      "booking": "/booking/camellia_hills_country_club_ko",
+      "link": "/course/camellia_hills_country_club?lang=ko"
+    },
+    {
+      "id": "camellia_hills_country_club_en",
+      "base_id": "camellia_hills_country_club",
+      "lang": "en",
+      "title": "Camellia Hills Country Club",
+      "lat": 35.4144,
+      "lng": 140.0456,
+      "categories": [
+        "Public Tournament",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/camellia_hills_country_club.jpg",
+      "address": "Kisarazu, Chiba",
+      "published": "2026-07-12",
+      "summary": "Kisarazu resort-style Chiba golf—booking paths, fee ranges, layout notes, and Tokyo Bay access tips.",
+      "booking": "/booking/camellia_hills_country_club_en",
+      "link": "/course/camellia_hills_country_club"
+    },
+    {
+      "id": "aso_resort_grandvrio_ko",
+      "base_id": "aso_resort_grandvrio",
+      "lang": "ko",
+      "title": "아소 리조트 그랑비리오",
+      "lat": 32.9644,
+      "lng": 131.0256,
+      "categories": [
+        "가성비",
+        "스테이 앤 플레이",
+        "마운틴 스타일"
+      ],
+      "thumbnail": "/static/images/aso_resort_grandvrio.jpg",
+      "address": "구마모토현 아소",
+      "published": "2026-07-12",
+      "summary": "아소 칼데라권 리조트 골프. 패키지 요금, 바람·기복 팁, 온천 숙박, 공항에서 가는 법.",
+      "booking": "/booking/aso_resort_grandvrio_ko",
+      "link": "/course/aso_resort_grandvrio?lang=ko"
+    },
+    {
+      "id": "aso_resort_grandvrio_en",
+      "base_id": "aso_resort_grandvrio",
+      "lang": "en",
+      "title": "Aso Resort Grandvrio",
+      "lat": 32.9644,
+      "lng": 131.0256,
+      "categories": [
+        "Value for Money",
+        "Stay & Play",
+        "Mountain Style"
+      ],
+      "thumbnail": "/static/images/aso_resort_grandvrio.jpg",
+      "address": "Aso, Kumamoto",
+      "published": "2026-07-12",
+      "summary": "Mount Aso caldera resort golf—package ranges, wind/elevation tips, onsen stay, and airport access for Kumamoto trips.",
+      "booking": "/booking/aso_resort_grandvrio_en",
+      "link": "/course/aso_resort_grandvrio"
+    },
+    {
+      "id": "takamatsu_ritsurin_garden_cafe_ko",
+      "base_id": "takamatsu_ritsurin_garden_cafe",
+      "lang": "ko",
+      "title": "Takamatsu Ritsurin Garden Cafe",
+      "lat": 34.3299,
+      "lng": 134.0445,
+      "categories": [
+        "Garden district"
+      ],
+      "thumbnail": "/static/images/takamatsu_ritsurin_garden_cafe.jpg",
+      "address": "Kagawa, Takamatsu",
+      "published": "2026-07-08",
+      "summary": "가가와 다카마쓰의 리쓰린 정원 근처에 자리한 숏 코스로, 섬세한 숏게임과 아름다운 정원 경관을 동시에 즐길 수 있는 18홀 골프 경험을 제공합니다.",
+      "booking": "/booking/takamatsu_ritsurin_garden_cafe_ko",
+      "link": "/course/takamatsu_ritsurin_garden_cafe?lang=ko"
+    },
+    {
+      "id": "takamatsu_ritsurin_garden_cafe_en",
+      "base_id": "takamatsu_ritsurin_garden_cafe",
+      "lang": "en",
+      "title": "Takamatsu Ritsurin Garden Cafe",
+      "lat": 34.3299,
+      "lng": 134.0445,
+      "categories": [
+        "Garden district"
+      ],
+      "thumbnail": "/static/images/takamatsu_ritsurin_garden_cafe.jpg",
+      "address": "Kagawa, Takamatsu",
+      "published": "2026-07-08",
+      "summary": "Takamatsu Ritsurin Garden Cafe offers 18 holes of play near Japan's Ritsurin Garden, providing a blend of challenging shots and scenic tranquility.",
+      "booking": "/booking/takamatsu_ritsurin_garden_cafe_en",
+      "link": "/course/takamatsu_ritsurin_garden_cafe"
+    },
+    {
+      "id": "nara_parkside_kissaten_ko",
+      "base_id": "nara_parkside_kissaten",
+      "lang": "ko",
+      "title": "Nara Parkside Kissaten",
+      "lat": 34.6851,
+      "lng": 135.805,
+      "categories": [
+        "Deer area nearby"
+      ],
+      "thumbnail": "/static/images/nara_parkside_kissaten.jpg",
+      "address": "Nara",
+      "published": "2026-07-08",
+      "summary": "나라에 위치한 나라 파크사이드 킷사텐은 18홀 골프 코스로, 주변 사슴 공원과 가까워 독특한 라운딩 경험을 제공합니다.",
+      "booking": "/booking/nara_parkside_kissaten_ko",
+      "link": "/course/nara_parkside_kissaten?lang=ko"
+    },
+    {
+      "id": "nara_parkside_kissaten_en",
+      "base_id": "nara_parkside_kissaten",
+      "lang": "en",
+      "title": "Nara Parkside Kissaten",
+      "lat": 34.6851,
+      "lng": 135.805,
+      "categories": [
+        "Deer area nearby"
+      ],
+      "thumbnail": "/static/images/nara_parkside_kissaten.jpg",
+      "address": "Nara",
+      "published": "2026-07-08",
+      "summary": "Nara Parkside Kissaten offers 18 holes of strategic golf near Nara Park, a 50-minute drive from Osaka.",
+      "booking": "/booking/nara_parkside_kissaten_en",
+      "link": "/course/nara_parkside_kissaten"
+    },
+    {
+      "id": "matsuyama_dogo_onsen_cafe_ko",
+      "base_id": "matsuyama_dogo_onsen_cafe",
+      "lang": "ko",
+      "title": "Matsuyama Dogo Onsen Cafe",
+      "lat": 33.8518,
+      "lng": 132.786,
+      "categories": [
+        "Onsen town"
+      ],
+      "thumbnail": "/static/images/matsuyama_dogo_onsen_cafe.jpg",
+      "address": "Ehime, Matsuyama",
+      "published": "2026-07-08",
+      "summary": "마쓰야마 도고 온천 카페는 에히메현 마쓰야마에 위치하며, 도고 온천과 인접해 라운드 후 휴식을 취하기 좋은 18홀 골프 코스입니다.",
+      "booking": "/booking/matsuyama_dogo_onsen_cafe_ko",
+      "link": "/course/matsuyama_dogo_onsen_cafe?lang=ko"
+    },
+    {
+      "id": "kumamoto_castle_town_cafe_ko",
+      "base_id": "kumamoto_castle_town_cafe",
+      "lang": "ko",
+      "title": "Kumamoto Castle Town Cafe",
+      "lat": 32.8062,
+      "lng": 130.7059,
+      "categories": [
+        "Castle area"
+      ],
+      "thumbnail": "/static/images/kumamoto_castle_town_cafe.jpg",
+      "address": "Kumamoto",
+      "published": "2026-07-08",
+      "summary": "구마모토성 타운 카페 골프 코스는 구마모토성 인근에 위치한 9홀 퍼블릭 코스로, 정교한 샷과 경치를 즐기기에 적합합니다.",
+      "booking": "/booking/kumamoto_castle_town_cafe_ko",
+      "link": "/course/kumamoto_castle_town_cafe?lang=ko"
+    },
+    {
+      "id": "kumamoto_castle_town_cafe_en",
+      "base_id": "kumamoto_castle_town_cafe",
+      "lang": "en",
+      "title": "Kumamoto Castle Town Cafe",
+      "lat": 32.8062,
+      "lng": 130.7059,
+      "categories": [
+        "Castle area"
+      ],
+      "thumbnail": "/static/images/kumamoto_castle_town_cafe.jpg",
+      "address": "Kumamoto",
+      "published": "2026-07-08",
+      "summary": "Nestled near Kumamoto Castle, this 18-hole course offers strategic play across its 6,800 yards, featuring subtle elevation changes and scenic views.",
+      "booking": "/booking/kumamoto_castle_town_cafe_en",
+      "link": "/course/kumamoto_castle_town_cafe"
+    },
+    {
+      "id": "kobe_harborland_cafe_ko",
+      "base_id": "kobe_harborland_cafe",
+      "lang": "ko",
+      "title": "Kobe Harborland Cafe",
+      "lat": 34.6795,
+      "lng": 135.183,
+      "categories": [
+        "Harbor view"
+      ],
+      "thumbnail": "/static/images/kobe_harborland_cafe.jpg",
+      "address": "Hyogo, Kobe",
+      "published": "2026-07-08",
+      "summary": "고베 하버랜드 카페는 고베항의 아름다운 전경을 배경으로 즐기는 9홀 파3 코스로, 도심 속에서 가볍게 골프를 즐기기에 이상적입니다.",
+      "booking": "/booking/kobe_harborland_cafe_ko",
+      "link": "/course/kobe_harborland_cafe?lang=ko"
+    },
+    {
+      "id": "kobe_harborland_cafe_en",
+      "base_id": "kobe_harborland_cafe",
+      "lang": "en",
+      "title": "Kobe Harborland Cafe",
+      "lat": 34.6795,
+      "lng": 135.183,
+      "categories": [
+        "Harbor view"
+      ],
+      "thumbnail": "/static/images/kobe_harborland_cafe.jpg",
+      "address": "Hyogo, Kobe",
+      "published": "2026-07-08",
+      "summary": "Kobe Harborland Cafe offers a convenient 9-hole executive golf experience in central Kobe, featuring scenic harbor views.",
+      "booking": "/booking/kobe_harborland_cafe_en",
+      "link": "/course/kobe_harborland_cafe"
+    },
+    {
+      "id": "asahikawa_winter_roast_ko",
+      "base_id": "asahikawa_winter_roast",
+      "lang": "ko",
+      "title": "아사히카와 윈터 로스트",
+      "lat": 43.7706,
+      "lng": 142.365,
+      "categories": [
+        "Warm interior"
+      ],
+      "thumbnail": "/static/images/asahikawa_winter_roast.jpg",
+      "address": "Hokkaido, Asahikawa",
+      "published": "2026-07-08",
+      "summary": "홋카이도 아사히카와에 위치한 아사히카와 윈터 로스트는 18홀, 파 72 코스로 독특한 겨울 골프 경험을 제공합니다.",
+      "booking": "/booking/asahikawa_winter_roast_ko",
+      "link": "/course/asahikawa_winter_roast?lang=ko"
+    },
+    {
+      "id": "asahikawa_winter_roast_en",
+      "base_id": "asahikawa_winter_roast",
+      "lang": "en",
+      "title": "Asahikawa Winter Roast",
+      "lat": 43.7706,
+      "lng": 142.365,
+      "categories": [
+        "Warm interior"
+      ],
+      "thumbnail": "/static/images/asahikawa_winter_roast.jpg",
+      "address": "Hokkaido, Asahikawa",
+      "published": "2026-07-08",
+      "summary": "Asahikawa Winter Roast in Hokkaido presents 18 holes of strategic golf, notable for its strategic routing and a welcoming interior for colder seasons.",
+      "booking": "/booking/asahikawa_winter_roast_en",
+      "link": "/course/asahikawa_winter_roast"
+    },
     {
       "id": "yokohama_minato_mirai_cafe_ko",
       "base_id": "yokohama_minato_mirai_cafe",
@@ -1074,7 +1911,7 @@
       "id": "kyoto_ohara_public_en",
       "base_id": "kyoto_ohara_public",
       "lang": "en",
-      "title": "Kyoto Ohara Public",
+      "title": "Kyoto Ohara Public Golf Course",
       "lat": 35.1144,
       "lng": 135.8156,
       "categories": [
@@ -1946,25 +2783,6 @@
       "link": "/course/kobe_grand_hill"
     },
     {
-      "id": "shimonoseki_golf_club_ko",
-      "base_id": "shimonoseki_golf_club",
-      "lang": "ko",
-      "title": "시모노세키 골프 클럽",
-      "lat": 34.0944,
-      "lng": 130.9356,
-      "categories": [
-        "Private Club",
-        "Seaside Links",
-        "Championship"
-      ],
-      "thumbnail": "/static/images/shimonoseki_golf_club.jpg",
-      "address": "Shimonoseki, Yamaguchi",
-      "published": "2026-05-08",
-      "summary": "시모노세키 골프 클럽 완벽 가이드: 명문 코스를 꿰뚫는 전문가 리뷰\n20년간 일본 유수의 골프 코스를 누비며 수많은 클럽 헤드를 안내해 온 베테랑 캐디이자, 가장 엄격한 기준으로 코스를 평가하는 엘리트 레이터로서, ...",
-      "booking": "/booking/shimonoseki_golf_club_en",
-      "link": "/course/shimonoseki_golf_club?lang=ko"
-    },
-    {
       "id": "zao_country_club_ko",
       "base_id": "zao_country_club",
       "lang": "ko",
@@ -2027,7 +2845,7 @@
       "id": "yokohama_country_club_en",
       "base_id": "yokohama_country_club",
       "lang": "en",
-      "title": "Yokohama Country Club",
+      "title": "How to Play Yokohama Country Club",
       "lat": 35.4344,
       "lng": 139.5456,
       "categories": [
@@ -2310,84 +3128,6 @@
       "summary": "A comprehensive 9,000-character master guide to The Royal Golf Club in Ibaraki, Japan. This expert review offers deep insights into its historical prestige, strategic architectural analysis, a hole-by-hole masterclass, an immersive clubhouse and onsen experience, gourmet dining, and essential seasonal tips for discerning golfers seeking the ultimate Japanese championship challenge.",
       "booking": "/booking/the_royal_golf_club_en",
       "link": "/course/the_royal_golf_club"
-    },
-    {
-      "id": "the_north_country_golf_club_ko",
-      "base_id": "the_north_country_golf_club",
-      "lang": "ko",
-      "title": "북해도 노스 컨트리 골프 클럽",
-      "lat": 42.8456,
-      "lng": 141.6744,
-      "categories": [
-        "Public Tournament",
-        "Easy Booking",
-        "Seaside Links"
-      ],
-      "thumbnail": "/static/images/the_north_country_golf_club.jpg",
-      "address": "Chitose, Hokkaido",
-      "published": "2026-04-15",
-      "summary": "북해도 노스 컨트리 골프 클럽의 역사, 전략, 시설, 미식 경험을 심층 분석한 9,000자 전문가 리뷰입니다. 모든 골퍼를 위한 필수 가이드.",
-      "booking": "/booking/the_north_country_golf_club_ko",
-      "link": "/course/the_north_country_golf_club?lang=ko"
-    },
-    {
-      "id": "the_north_country_golf_club_en",
-      "base_id": "the_north_country_golf_club",
-      "lang": "en",
-      "title": "The North Country Golf Club",
-      "lat": 42.8456,
-      "lng": 141.6744,
-      "categories": [
-        "Public Tournament",
-        "Easy Booking",
-        "Seaside Links"
-      ],
-      "thumbnail": "/static/images/the_north_country_golf_club.jpg",
-      "address": "Chitose, Hokkaido",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to The North Country Golf Club, covering strategy, history, and luxury facilities.",
-      "booking": "/booking/the_north_country_golf_club_en",
-      "link": "/course/the_north_country_golf_club"
-    },
-    {
-      "id": "the_masters_amakusa_course_ko",
-      "base_id": "the_masters_amakusa_course",
-      "lang": "ko",
-      "title": "The Masters Amakusa Course",
-      "lat": 32.4844,
-      "lng": 130.1556,
-      "categories": [
-        "가치",
-        "쉬운 예약",
-        "오션 뷰"
-      ],
-      "thumbnail": "/static/images/the_masters_amakusa_course.jpg",
-      "address": "일본 구마모토현 아마쿠사시",
-      "published": "2026-04-15",
-      "summary": "더 마스터즈 아마쿠사 코스의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.",
-      "booking": "/booking/the_masters_amakusa_course_ko",
-      "link": "/course/the_masters_amakusa_course?lang=ko"
-    },
-    {
-      "id": "the_masters_amakusa_course_en",
-      "base_id": "the_masters_amakusa_course",
-      "lang": "en",
-      "title": "The Masters Amakusa Course",
-      "lat": 32.4844,
-      "lng": 130.1556,
-      "categories": [
-        "Championship Course",
-        "Ocean View",
-        "Luxury Golf",
-        "Golf and Spa",
-        "Gourmet Dining"
-      ],
-      "thumbnail": "/static/images/the_masters_amakusa_course.jpg",
-      "address": "Amakusa, Kumamoto Prefecture, Japan",
-      "published": "2026-04-15",
-      "summary": "An exhaustive 9,000-character master guide to The Masters Amakusa Course, meticulously reviewed by an elite Japanese golf course rater and senior caddy. Discover its historical prestige, strategic architecture, hole-by-hole insights, luxurious facilities, and gourmet dining, optimized for the discerning golf traveler.",
-      "booking": "/booking/the_masters_amakusa_course_en",
-      "link": "/course/the_masters_amakusa_course"
     },
     {
       "id": "the_country_club_japan_ko",
@@ -2682,7 +3422,7 @@
       "id": "southern_links_golf_club_ko",
       "base_id": "southern_links_golf_club",
       "lang": "ko",
-      "title": "서던 링크스 골프 클럽",
+      "title": "Southern Links Golf Club (Okinawa)",
       "lat": 26.1144,
       "lng": 127.7356,
       "categories": [
@@ -2854,25 +3594,6 @@
       "link": "/course/shishido_hills_country_club"
     },
     {
-      "id": "shimonoseki_golf_club_en",
-      "base_id": "shimonoseki_golf_club",
-      "lang": "en",
-      "title": "Shimonoseki Golf Club",
-      "lat": 34.0944,
-      "lng": 130.9356,
-      "categories": [
-        "Private Club",
-        "Seaside Links",
-        "Championship"
-      ],
-      "thumbnail": "/static/images/shimonoseki_golf_club.jpg",
-      "address": "Shimonoseki, Yamaguchi",
-      "published": "2026-04-15",
-      "summary": "Kanmon coast member club—Dr. Sato layout, Korai fairways, fast bent greens, sea breeze strategy, and what you need for a guest or sponsor invitation round.",
-      "booking": "/booking/shimonoseki_golf_club_en",
-      "link": "/course/shimonoseki_golf_club"
-    },
-    {
       "id": "shima_country_club_ko",
       "base_id": "shima_country_club",
       "lang": "ko",
@@ -3024,44 +3745,6 @@
       "summary": "A comprehensive 9,000-character master guide to Satsuma Resort Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/satsuma_resort_golf_club_en",
       "link": "/course/satsuma_resort_golf_club"
-    },
-    {
-      "id": "sapporo_golf_club_wattsu_course_ko",
-      "base_id": "sapporo_golf_club_wattsu_course",
-      "lang": "ko",
-      "title": "Sapporo Golf Club Wattsu Course",
-      "lat": 42.8744,
-      "lng": 141.4856,
-      "categories": [
-        "Public Tournament",
-        "Private Club",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/sapporo_golf_club_wattsu_course.jpg",
-      "address": "Kitahiroshima, Hokkaido",
-      "published": "2026-04-15",
-      "summary": "삿포로 골프 클럽 왓츠 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심층적으로 다룹니다.",
-      "booking": "/booking/sapporo_golf_club_wattsu_course_ko",
-      "link": "/course/sapporo_golf_club_wattsu_course?lang=ko"
-    },
-    {
-      "id": "sapporo_golf_club_wattsu_course_en",
-      "base_id": "sapporo_golf_club_wattsu_course",
-      "lang": "en",
-      "title": "Sapporo Golf Club Wattsu Course",
-      "lat": 42.8744,
-      "lng": 141.4856,
-      "categories": [
-        "Public Tournament",
-        "Private Club",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/sapporo_golf_club_wattsu_course.jpg",
-      "address": "Kitahiroshima, Hokkaido",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Sapporo Golf Club Wattsu Course, covering strategy, history, and luxury facilities.",
-      "booking": "/booking/sapporo_golf_club_wattsu_course_en",
-      "link": "/course/sapporo_golf_club_wattsu_course"
     },
     {
       "id": "sagamihara_golf_club_ko",
@@ -3222,7 +3905,7 @@
       "id": "rope_club_ko",
       "base_id": "rope_club",
       "lang": "ko",
-      "title": "Rope Club Golf Course Guide",
+      "title": "Rope Club Golf Course",
       "lat": 36.7144,
       "lng": 140.0856,
       "categories": [
@@ -3373,44 +4056,6 @@
       "link": "/course/pgm_ishioka_golf_club"
     },
     {
-      "id": "pgm_golf_resort_okinawa_ko",
-      "base_id": "pgm_golf_resort_okinawa",
-      "lang": "ko",
-      "title": "PGM 골프 리조트 오키나와 완전 분석",
-      "lat": 26.4344,
-      "lng": 127.8356,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
-      "address": "오키나와현 구니가미군 온나손 요메야마 1000",
-      "published": "2026-04-15",
-      "summary": "PGM 골프 리조트 오키나와에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 아우르는 일본 최고 전문가의 심층 리뷰입니다. 오키나와 골프 여행의 정점을 경험하세요.",
-      "booking": "/booking/pgm_golf_resort_okinawa_ko",
-      "link": "/course/pgm_golf_resort_okinawa?lang=ko"
-    },
-    {
-      "id": "pgm_golf_resort_okinawa_en",
-      "base_id": "pgm_golf_resort_okinawa",
-      "lang": "en",
-      "title": "PGM Golf Resort Okinawa",
-      "lat": 26.4344,
-      "lng": 127.8356,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/pgm_golf_resort_okinawa.jpg",
-      "address": "Onna, Okinawa",
-      "published": "2026-04-15",
-      "summary": "PGM Golf Resort Okinawa guide covering ocean-view layout strategy, PGM resort history, facilities, and visitor booking paths.",
-      "booking": "/booking/pgm_golf_resort_okinawa_en",
-      "link": "/course/pgm_golf_resort_okinawa"
-    },
-    {
       "id": "passage_kinkai_ko",
       "base_id": "passage_kinkai",
       "lang": "ko",
@@ -3428,44 +4073,6 @@
       "summary": "더 패시지 긴카이의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 분량의 포괄적인 마스터 가이드입니다.",
       "booking": "/booking/passage_kinkai_ko",
       "link": "/course/passage_kinkai?lang=ko"
-    },
-    {
-      "id": "passage_kinkai_island_ko",
-      "base_id": "passage_kinkai_island",
-      "lang": "ko",
-      "title": "패시지 킨카이 아일랜드 심층 리뷰",
-      "lat": 32.8944,
-      "lng": 129.8356,
-      "categories": [
-        "Premium / Luxury",
-        "Stay & Play",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/passage_kinkai_island.jpg",
-      "address": "나가사키현 나가사키시",
-      "published": "2026-04-15",
-      "summary": "패시지 킨카이 아일랜드의 역사, 건축, 홀 공략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드입니다.",
-      "booking": "/booking/passage_kinkai_island_ko",
-      "link": "/course/passage_kinkai_island?lang=ko"
-    },
-    {
-      "id": "passage_kinkai_island_en",
-      "base_id": "passage_kinkai_island",
-      "lang": "en",
-      "title": "Passage Kinkai Island Golf Club, Nagasaki",
-      "lat": 32.8944,
-      "lng": 129.8356,
-      "categories": [
-        "Premium / Luxury",
-        "Stay & Play",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/passage_kinkai_island.jpg",
-      "address": "Nagasaki, Nagasaki",
-      "published": "2026-04-15",
-      "summary": "Nagasaki private island golf—Kuroki coastal design, Korai vs bent greens, invite-only access, stay-and-play angles, and wind/bunker strategy before you plan Kinkai.",
-      "booking": "/booking/passage_kinkai_island_en",
-      "link": "/course/passage_kinkai_island"
     },
     {
       "id": "passage_kinkai_en",
@@ -3796,48 +4403,6 @@
       "summary": "A comprehensive 9,000-character master guide to Nikko Country Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/nikko_country_club_en",
       "link": "/course/nikko_country_club"
-    },
-    {
-      "id": "natsudomari_golf_links_ko",
-      "base_id": "natsudomari_golf_links",
-      "lang": "ko",
-      "title": "나츠도마리 골프 링크스 완벽 분석",
-      "lat": 41.0144,
-      "lng": 140.8956,
-      "categories": [
-        "해변 링크스",
-        "절경",
-        "고급 골프 경험",
-        "일본 명문 골프장"
-      ],
-      "thumbnail": "/static/images/natsudomari_golf_links.jpg",
-      "address": "Hiranai, Aomori",
-      "published": "2026-04-15",
-      "summary": "나츠도마리 골프 링크스에 대한 9,000자 전문가 마스터 가이드. 역사, 전략, 최고급 시설, 미식 경험을 심층 분석합니다. 일본 북동부 아오모리의 숨겨진 보석, 진정한 링크스 골프의 정수를 경험하세요.",
-      "booking": "/booking/natsudomari_golf_links_ko",
-      "link": "/course/natsudomari_golf_links?lang=ko"
-    },
-    {
-      "id": "natsudomari_golf_links_en",
-      "base_id": "natsudomari_golf_links",
-      "lang": "en",
-      "title": "Book Natsudomari Golf Links Tee Times",
-      "lat": 41.0144,
-      "lng": 140.8956,
-      "categories": [
-        "Seaside Links",
-        "Scenic View",
-        "Strategic Design",
-        "Luxury Experience",
-        "Japanese Golf",
-        "Tohoku Gem"
-      ],
-      "thumbnail": "/static/images/natsudomari_golf_links.jpg",
-      "address": "Hiranai, Higashitsugaru District, Aomori Prefecture, Japan",
-      "published": "2026-04-15",
-      "summary": "Top northern Japan links on Mutsu Bay—Izumi’s firm fairways, coastal wind chess, deep bunkers, clubhouse dining, and when to book if you want a bucket-list Aomori round.",
-      "booking": "/booking/natsudomari_golf_links_en",
-      "link": "/course/natsudomari_golf_links"
     },
     {
       "id": "nasu_ogawa_golf_club_ko",
@@ -4189,44 +4754,6 @@
       "link": "/course/miyoshi_country_club"
     },
     {
-      "id": "miyazaki_country_club_ko",
-      "base_id": "miyazaki_country_club",
-      "lang": "ko",
-      "title": "미야자키 컨트리 클럽",
-      "lat": 31.8644,
-      "lng": 131.4456,
-      "categories": [
-        "Public Tournament",
-        "Ocean View",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/miyazaki_country_club.jpg",
-      "address": "Miyazaki, Miyazaki",
-      "published": "2026-04-15",
-      "summary": "미야자키 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
-      "booking": "/booking/miyazaki_country_club_ko",
-      "link": "/course/miyazaki_country_club?lang=ko"
-    },
-    {
-      "id": "miyazaki_country_club_en",
-      "base_id": "miyazaki_country_club",
-      "lang": "en",
-      "title": "Miyazaki Country Club",
-      "lat": 31.8644,
-      "lng": 131.4456,
-      "categories": [
-        "Public Tournament",
-        "Ocean View",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/miyazaki_country_club.jpg",
-      "address": "Miyazaki, Miyazaki",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Miyazaki Country Club, covering strategy, history, and luxury facilities.",
-      "booking": "/booking/miyazaki_country_club_en",
-      "link": "/course/miyazaki_country_club"
-    },
-    {
       "id": "miki_golf_club_ko",
       "base_id": "miki_golf_club",
       "lang": "ko",
@@ -4478,44 +5005,6 @@
       "link": "/course/kumamoto_airport_country_club"
     },
     {
-      "id": "kotohira_golf_club_ko",
-      "base_id": "kotohira_golf_club",
-      "lang": "ko",
-      "title": "고토히라 골프 클럽",
-      "lat": 34.2044,
-      "lng": 133.8556,
-      "categories": [
-        "가성비",
-        "스테이 앤 플레이",
-        "쉬운 예약"
-      ],
-      "thumbnail": "/static/images/kotohira_golf_club.jpg",
-      "address": "카가와현 나카타도군 만노초",
-      "published": "2026-04-15",
-      "summary": "20년 경력의 전문 캐디가 고토히라 골프 클럽의 역사, 전략적 코스 분석, 럭셔리 시설, 미식 경험을 9,000자 분량으로 심도 있게 파헤친 종합 마스터 가이드입니다. 일본 골프의 진수를 경험하고 싶은 분들을 위한 필독서.",
-      "booking": "/booking/kotohira_golf_club_ko",
-      "link": "/course/kotohira_golf_club?lang=ko"
-    },
-    {
-      "id": "kotohira_golf_club_en",
-      "base_id": "kotohira_golf_club",
-      "lang": "en",
-      "title": "Kotohira Golf Club (Kagawa)",
-      "lat": 34.2044,
-      "lng": 133.8556,
-      "categories": [
-        "Value for Money",
-        "Stay & Play",
-        "Easy Booking"
-      ],
-      "thumbnail": "/static/images/kotohira_golf_club.jpg",
-      "address": "Manno, Kagawa",
-      "published": "2026-04-15",
-      "summary": "Manno hills near Kotohira-gū—Masashi Sato risk/reward layout, Korai fairways, bent greens, visitor-friendly booking, and the best seasons for tee times in Shikoku.",
-      "booking": "/booking/kotohira_golf_club_en",
-      "link": "/course/kotohira_golf_club"
-    },
-    {
       "id": "koganei_golf_club_ko",
       "base_id": "koganei_golf_club",
       "lang": "ko",
@@ -4710,82 +5199,6 @@
       "link": "/course/kinojo_golf_club"
     },
     {
-      "id": "keya_golf_club_ko",
-      "base_id": "keya_golf_club",
-      "lang": "ko",
-      "title": "Keya Golf Club (Fukuoka)",
-      "lat": 33.6044,
-      "lng": 130.1356,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/keya_golf_club.jpg",
-      "address": "이토시마, 후쿠오카",
-      "published": "2026-04-15",
-      "summary": "케야 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
-      "booking": "/booking/keya_golf_club_ko",
-      "link": "/course/keya_golf_club?lang=ko"
-    },
-    {
-      "id": "keya_golf_club_en",
-      "base_id": "keya_golf_club",
-      "lang": "en",
-      "title": "Keya Golf Club",
-      "lat": 33.6044,
-      "lng": 130.1356,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/keya_golf_club.jpg",
-      "address": "Itoshima, Fukuoka",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Keya Golf Club, covering strategy, history, and luxury facilities.",
-      "booking": "/booking/keya_golf_club_en",
-      "link": "/course/keya_golf_club"
-    },
-    {
-      "id": "kawana_hotel_golf_course_fuji_course_ko",
-      "base_id": "kawana_hotel_golf_course_fuji_course",
-      "lang": "ko",
-      "title": "Kawana Hotel Golf Course (Fuji Course) Guide",
-      "lat": 34.9038,
-      "lng": 139.1389,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Seaside Links"
-      ],
-      "thumbnail": "/static/images/kawana_hotel_golf_course_fuji_course.jpg",
-      "address": "Ito, Shizuoka",
-      "published": "2026-04-15",
-      "summary": "가와나 호텔 골프 코스 후지 코스에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.",
-      "booking": "/booking/kawana_hotel_golf_course_fuji_course_ko",
-      "link": "/course/kawana_hotel_golf_course_fuji_course?lang=ko"
-    },
-    {
-      "id": "kawana_hotel_golf_course_fuji_course_en",
-      "base_id": "kawana_hotel_golf_course_fuji_course",
-      "lang": "en",
-      "title": "Kawana Hotel Golf Course Fuji Course",
-      "lat": 34.9038,
-      "lng": 139.1389,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Seaside Links"
-      ],
-      "thumbnail": "/static/images/kawana_hotel_golf_course_fuji_course.jpg",
-      "address": "Ito, Shizuoka",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Kawana Hotel Golf Course Fuji Course, covering strategy, history, and luxury facilities, from an elite Japanese golf rater and senior caddy.",
-      "booking": "/booking/kawana_hotel_golf_course_fuji_course_en",
-      "link": "/course/kawana_hotel_golf_course_fuji_course"
-    },
-    {
       "id": "katsuragi_golf_club_ko",
       "base_id": "katsuragi_golf_club",
       "lang": "ko",
@@ -4860,82 +5273,6 @@
       "summary": "A comprehensive 9,000-character master guide to Katsura Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/katsura_golf_club_en",
       "link": "/course/katsura_golf_club"
-    },
-    {
-      "id": "katayamazu_golf_club_ko",
-      "base_id": "katayamazu_golf_club",
-      "lang": "ko",
-      "title": "가타야마즈 골프 클럽 완벽 해부",
-      "lat": 36.2644,
-      "lng": 136.3356,
-      "categories": [
-        "퍼블릭 토너먼트",
-        "프라이빗 클럽",
-        "오션 뷰"
-      ],
-      "thumbnail": "/static/images/katayamazu_golf_club.jpg",
-      "address": "일본 이시카와현 가가시",
-      "published": "2026-04-15",
-      "summary": "일본 골프의 정수, 가타야마즈 골프 클럽의 깊이 있는 역사부터 건축 전략, 홀별 공략법, 최고급 시설과 미식 경험까지 9,000자 분량으로 심층 분석한 마스터 가이드입니다.",
-      "booking": "/booking/katayamazu_golf_club_ko",
-      "link": "/course/katayamazu_golf_club?lang=ko"
-    },
-    {
-      "id": "katayamazu_golf_club_en",
-      "base_id": "katayamazu_golf_club",
-      "lang": "en",
-      "title": "Katayamazu Golf Club",
-      "lat": 36.2644,
-      "lng": 136.3356,
-      "categories": [
-        "Public Tournament",
-        "Private Club",
-        "Ocean View"
-      ],
-      "thumbnail": "/static/images/katayamazu_golf_club.jpg",
-      "address": "Kaga, Ishikawa",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Katayamazu Golf Club, covering strategy, history, and luxury facilities.",
-      "booking": "/booking/katayamazu_golf_club_en",
-      "link": "/course/katayamazu_golf_club"
-    },
-    {
-      "id": "kasumigaseki_country_club_ko",
-      "base_id": "kasumigaseki_country_club",
-      "lang": "ko",
-      "title": "가스미가세키 컨트리 클럽",
-      "lat": 35.8569,
-      "lng": 139.3814,
-      "categories": [
-        "프라이빗 클럽",
-        "공개 토너먼트",
-        "올림픽 개최지"
-      ],
-      "thumbnail": "/static/images/kasumigaseki_country_club.jpg",
-      "address": "사이타마현 가와고에시",
-      "published": "2026-04-15",
-      "summary": "가스미가세키 컨트리 클럽의 전략, 역사, 럭셔리 시설을 다루는 9,000자 분량의 종합 마스터 가이드입니다.",
-      "booking": "/booking/kasumigaseki_country_club_ko",
-      "link": "/course/kasumigaseki_country_club?lang=ko"
-    },
-    {
-      "id": "kasumigaseki_country_club_en",
-      "base_id": "kasumigaseki_country_club",
-      "lang": "en",
-      "title": "Kasumigaseki Country Club",
-      "lat": 35.8569,
-      "lng": 139.3814,
-      "categories": [
-        "Private Club",
-        "Public Tournament",
-        "Olympic Venue"
-      ],
-      "thumbnail": "/static/images/kasumigaseki_country_club.jpg",
-      "address": "Kawagoe, Saitama",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Kasumigaseki Country Club, covering strategy, history, and luxury facilities.",
-      "booking": "/booking/kasumigaseki_country_club_en",
-      "link": "/course/kasumigaseki_country_club"
     },
     {
       "id": "karuizawa_asama_golf_course_ko",
@@ -5247,7 +5584,7 @@
       "id": "izu_ohito_country_club_ko",
       "base_id": "izu_ohito_country_club",
       "lang": "ko",
-      "title": "이즈 오히토 컨트리 클럽",
+      "title": "Izu Ohito Country Club",
       "lat": 35.0144,
       "lng": 138.9656,
       "categories": [
@@ -5691,7 +6028,7 @@
       "id": "fukushima_golf_club_en",
       "base_id": "fukushima_golf_club",
       "lang": "en",
-      "title": "Fukushima Golf Club",
+      "title": "Fukushima Golf Club Guide",
       "lat": 37.7844,
       "lng": 140.3856,
       "categories": [
@@ -5939,45 +6276,6 @@
       "summary": "A comprehensive 9,000-character master guide to Enoshima Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/enoshima_golf_club_en",
       "link": "/course/enoshima_golf_club"
-    },
-    {
-      "id": "eniwa_country_club_ko",
-      "base_id": "eniwa_country_club",
-      "lang": "ko",
-      "title": "Eniwa Country Club, Hokkaido",
-      "lat": 42.8844,
-      "lng": 141.5656,
-      "categories": [
-        "Public Tournament",
-        "Stay & Play",
-        "Scenic View"
-      ],
-      "thumbnail": "/static/images/eniwa_country_club.jpg",
-      "address": "Eniwa, Hokkaido",
-      "published": "2026-04-15",
-      "summary": "홋카이도 에니와 컨트리클럽에 대한 9,000자 분량의 포괄적인 전문가 리뷰입니다. 역사, 전략, 건축 분석, 홀별 마스터클래스, 럭셔리 시설, 미식 경험 및 캐디의 비밀 팁까지, 이 가이드는 당신의 에니와 라운딩을 완벽하게 만들 것입니다.",
-      "booking": "/booking/eniwa_country_club_ko",
-      "link": "/course/eniwa_country_club?lang=ko"
-    },
-    {
-      "id": "eniwa_country_club_en",
-      "base_id": "eniwa_country_club",
-      "lang": "en",
-      "title": "Eniwa Country Club, Hokkaido | Gold Course Host—Fees, Tours & Booking",
-      "lat": 42.8844,
-      "lng": 141.5656,
-      "categories": [
-        "Public Tournament",
-        "Stay & Play",
-        "Scenic View",
-        "Luxury Golf"
-      ],
-      "thumbnail": "/static/images/eniwa_country_club.jpg",
-      "address": "Eniwa, Hokkaido",
-      "published": "2026-04-15",
-      "summary": "Hokkaido Bentgrass championship hub—Gold/Silver/Bronze picks, ANA Open–level pedigree, lodge/onsen, birch-belt wind, and how visitors book Gold vs resort courses.",
-      "booking": "/booking/eniwa_country_club_en",
-      "link": "/course/eniwa_country_club"
     },
     {
       "id": "ehime_golf_club_ko",
@@ -6230,44 +6528,6 @@
       "link": "/course/cherry_hills_golf_club"
     },
     {
-      "id": "camellia_hills_country_club_ko",
-      "base_id": "camellia_hills_country_club",
-      "lang": "ko",
-      "title": "Camellia Hills Country Club | Green Fees & Booking Guide",
-      "lat": 35.4144,
-      "lng": 140.0456,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Resort"
-      ],
-      "thumbnail": "/static/images/camellia_hills_country_club.jpg",
-      "address": "Kisarazu, Chiba",
-      "published": "2026-04-15",
-      "summary": "카멜리아 힐스 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 모두 다룹니다.",
-      "booking": "/booking/camellia_hills_country_club_ko",
-      "link": "/course/camellia_hills_country_club?lang=ko"
-    },
-    {
-      "id": "camellia_hills_country_club_en",
-      "base_id": "camellia_hills_country_club",
-      "lang": "en",
-      "title": "Camellia Hills Country Club",
-      "lat": 35.4144,
-      "lng": 140.0456,
-      "categories": [
-        "Public Tournament",
-        "Premium / Luxury",
-        "Resort"
-      ],
-      "thumbnail": "/static/images/camellia_hills_country_club.jpg",
-      "address": "Kisarazu, Chiba",
-      "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Camellia Hills Country Club, covering strategy, history, and luxury facilities from an elite Japanese caddy's perspective.",
-      "booking": "/booking/camellia_hills_country_club_en",
-      "link": "/course/camellia_hills_country_club"
-    },
-    {
       "id": "caledonian_golf_club_ko",
       "base_id": "caledonian_golf_club",
       "lang": "ko",
@@ -6358,7 +6618,7 @@
         "온천 골프"
       ],
       "thumbnail": "/static/images/banyan_tree_golf_club.jpg",
-      "address": "[도쿄](/guide/kanto-vs-kansai-golf_ko)도 훗사시",
+      "address": "도쿄도 훗사시",
       "published": "2026-04-15",
       "summary": "20년 경력의 일본 캐디와 골프 코스 평가자가 엄선한 반얀트리 골프 클럽의 심층 분석. 역사, 전략, 미식, 온천까지 8,000자 이상의 마스터 리뷰로 최고의 일본 골프 경험을 안내합니다.",
       "booking": "/booking/banyan_tree_golf_club_ko",
@@ -6458,44 +6718,6 @@
       "summary": "A comprehensive 9,000-character master guide to Aso Sky Blue Golf Club, covering strategy, history, and luxury facilities.",
       "booking": "/booking/aso_sky_blue_golf_club_en",
       "link": "/course/aso_sky_blue_golf_club"
-    },
-    {
-      "id": "aso_resort_grandvrio_ko",
-      "base_id": "aso_resort_grandvrio",
-      "lang": "ko",
-      "title": "아소 리조트 그랑비리오 완전 분석",
-      "lat": 32.9644,
-      "lng": 131.0256,
-      "categories": [
-        "가성비",
-        "스테이 앤 플레이",
-        "마운틴 스타일"
-      ],
-      "thumbnail": "/static/images/aso_resort_grandvrio.jpg",
-      "address": "구마모토 아소",
-      "published": "2026-04-15",
-      "summary": "아소 리조트 그랑비리오의 전략, 역사, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.",
-      "booking": "/booking/aso_resort_grandvrio_ko",
-      "link": "/course/aso_resort_grandvrio?lang=ko"
-    },
-    {
-      "id": "aso_resort_grandvrio_en",
-      "base_id": "aso_resort_grandvrio",
-      "lang": "en",
-      "title": "Aso Resort Grandvrio Golf Club | Kumamoto Stay & Play Guide",
-      "lat": 32.9644,
-      "lng": 131.0256,
-      "categories": [
-        "Value for Money",
-        "Stay & Play",
-        "Mountain Style"
-      ],
-      "thumbnail": "/static/images/aso_resort_grandvrio.jpg",
-      "address": "Aso, Kumamoto",
-      "published": "2026-04-15",
-      "summary": "Play inside Mount Aso’s caldera—resort stay, onsen, Korai/bent turf, risk/reward bunkering, typical packages, and wind/elevation notes before you book Kyūshū golf.",
-      "booking": "/booking/aso_resort_grandvrio_en",
-      "link": "/course/aso_resort_grandvrio"
     },
     {
       "id": "ashinoko_country_club_ko",
@@ -6767,43 +6989,6 @@
       "summary": "Hyogo tournament-caliber parkland—Koga design, Korai/bent surfaces, public tournament access vs member days, fee context, and hole strategy for your Kato round.",
       "booking": "/booking/abc_golf_club_en",
       "link": "/course/abc_golf_club"
-    },
-    {
-      "id": "wakayama_golf_club_ko",
-      "base_id": "wakayama_golf_club",
-      "lang": "ko",
-      "title": "와카야마 골프 클럽",
-      "lat": 34.1844,
-      "lng": 135.1556,
-      "categories": [
-        "Value for Money",
-        "Public Tournament",
-        "Easy Booking"
-      ],
-      "thumbnail": "/static/images/wakayama_golf_club.jpg",
-      "address": "와카야마현 와카야마시",
-      "published": "2026-04-12",
-      "summary": "와카야마 골프 클럽은 와카야마시 내 18홀 코스로, 훌륭한 가성비와 쉬운 예약이 특징입니다.",
-      "booking": "/booking/wakayama_golf_club_ko",
-      "link": "/course/wakayama_golf_club?lang=ko"
-    },
-    {
-      "id": "wakayama_golf_club_en",
-      "base_id": "wakayama_golf_club",
-      "lang": "en",
-      "title": "Wakayama Golf Club",
-      "lat": 34.1844,
-      "lng": 135.1556,
-      "categories": [
-        "Value for Money",
-        "Public Tournament"
-      ],
-      "thumbnail": "/static/images/wakayama_golf_club.jpg",
-      "address": "Wakayama, Wakayama",
-      "published": "2026-04-12",
-      "summary": "Semi-public Wakayama value—¥8k–¥18k-style green fees, booking windows, par-4 12th & par-3 17th highlights, carts/caddies, and the smartest seasons to reserve a tee time.",
-      "booking": "Through official website or reputable online booking platforms.",
-      "link": "/course/wakayama_golf_club"
     },
     {
       "id": "totsuka_country_club_ko",

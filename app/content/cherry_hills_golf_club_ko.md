@@ -119,7 +119,7 @@ title: '체리힐스 골프 클럽 완전 분석: 일본 최고 명문 코스를
 #### 주요 도시에서의 상세 접근 가이드
 체리힐스 골프 클럽은 간사이 지역의 중심에 위치하여 일본 주요 도시에서 접근성이 매우 뛰어납니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **신칸센 + 렌터카/택시:** 도쿄역에서 신오사카(新大阪)역까지 도카이도-산요 신칸센(Tokaido-Sanyo Shinkansen)을 이용합니다 (약 2시간 30분). 신오사카역에서 렌터카를 빌리거나 택시를 이용하여 클럽까지 약 1시간 정도 소요됩니다. 렌터카 이용 시 고속도로 통행료를 고려해야 합니다.
     *   **항공 + 렌터카/택시:** 하네다(Haneda) 또는 [나리타](/course/narita_golf_club_ko)(Narita) 공항에서 오사카 간사이 국제공항([[Kansai](/course/kansai_classic_golf_club_ko)](/course/kansai_golf_club_ko) International Airport, KIX)으로 이동 (약 1시간 15분). 간사이 공항에서 렌터카를 빌리거나 택시를 이용하면 클럽까지 약 1시간 30분 정도 소요됩니다.
 

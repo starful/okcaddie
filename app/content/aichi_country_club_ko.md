@@ -104,7 +104,7 @@ title: '아이치 컨트리 클럽 심층 분석: 일본 명문의 전략적 정
 **주요 도시에서의 접근성:**
 아이치 컨트리 클럽은 아이치현 나고야시에 위치해 있어, 일본 주요 도시로부터 접근성이 매우 뛰어납니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   도쿄역에서 신칸센(노조미)을 이용하여 나고야역까지 약 1시간 40분 소요됩니다.
     *   나고야역 도착 후, 클럽에서 제공하는 셔틀 버스(예약 필수)를 이용하거나 택시를 이용하면 약 30~40분 소요됩니다. 총 이동 시간은 약 2시간 30분 내외입니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**

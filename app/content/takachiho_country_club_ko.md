@@ -180,7 +180,7 @@ title: '타카치호 컨트리 클럽 완벽 분석: 전문가의 시선 (ko)'
 
 타카치호 컨트리 클럽은 가고시마 현 기리시마에 위치하고 있어, 주요 도시로부터의 접근성은 다음과 같습니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **항공편:** 하네다 공항(HND) 또는 [나리타](/course/narita_golf_club_ko) 공항(NRT)에서 가고시마 공항(KOJ)까지 약 1시간 45분 ~ 2시간 소요됩니다.
     *   **공항에서 클럽까지:** 가고시마 공항에서 타카치호 컨트리 클럽까지는 렌터카 또는 택시로 약 30~40분 소요됩니다. 렌터카를 이용하는 것이 가장 편리하며, 규슈의 아름다운 풍경을 만끽하며 이동할 수 있습니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**

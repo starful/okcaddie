@@ -149,7 +149,7 @@ seo_description: Can foreigners play Hakone Country Club? Learn how to secure a 
 
 **주요 도시에서의 접근 가이드:**
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **신칸센(Shinkansen) + 택시/버스:** 도쿄역에서 JR 도카이도 신칸센(Tokaido Shinkansen)을 이용하여 오다와라역(小田原駅)까지 약 30분 소요됩니다. 오다와라역에서 클럽하우스까지는 택시로 약 40~50분, 또는 하코네 등산 철도/버스를 이용할 수 있습니다.
     *   **자동차:** 도메이 고속도로(東名高速道路)를 이용하여 아츠기 IC(厚木IC)를 거쳐 오다와라 아츠기 도로(小田原厚木道路)를 이용하는 경로가 일반적입니다. 약 1시간 30분 ~ 2시간 소요(교통 상황에 따라 변동).
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**

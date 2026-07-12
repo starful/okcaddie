@@ -9,7 +9,12 @@ import markdown
 from flask import Blueprint, abort, redirect, render_template, request
 
 try:
-    from ..config import FAMILY_SITE_ID, GUIDE_RELATED_COURSES, SUPPORTED_LANGS
+    from ..config import (
+        FAMILY_SITE_ID,
+        GUIDE_RELATED_COURSES,
+        RETIRED_GUIDE_REDIRECTS,
+        SUPPORTED_LANGS,
+    )
     from ..data_loader import CACHED_GUIDES
     from ..family_sites import cross_links_for, inject_family_context
     from ..guide_content import guide_image_url, load_guide_post
@@ -18,7 +23,12 @@ try:
     from ..text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from ..view_helpers import attach_seo_fields, course_cards, share_context
 except ImportError:
-    from config import FAMILY_SITE_ID, GUIDE_RELATED_COURSES, SUPPORTED_LANGS
+    from config import (
+        FAMILY_SITE_ID,
+        GUIDE_RELATED_COURSES,
+        RETIRED_GUIDE_REDIRECTS,
+        SUPPORTED_LANGS,
+    )
     from data_loader import CACHED_GUIDES
     from family_sites import cross_links_for, inject_family_context
     from guide_content import guide_image_url, load_guide_post
@@ -46,6 +56,15 @@ def guide_detail(guide_ref):
     lang = request.args.get("lang", "en").strip().lower()
     if lang not in SUPPORTED_LANGS:
         lang = "en"
+
+    retired_target = RETIRED_GUIDE_REDIRECTS.get(base_id)
+    if retired_target:
+        dest = retired_target
+        if lang == "ko" and "?" not in dest:
+            dest = f"{dest}?lang=ko"
+        elif lang == "ko" and "lang=" not in dest:
+            dest = f"{dest}&lang=ko"
+        return redirect(dest, code=301)
 
     guide_id = resolve_guide_id(base_id, lang)
     if not guide_id:

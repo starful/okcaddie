@@ -141,7 +141,7 @@ title: '아소 스카이 블루 골프 클럽 완벽 분석: 전문가 리뷰 (k
 
 아소 스카이 블루 골프 클럽은 구마모토현 아소산 자락에 위치해 있어, 대중교통보다는 렌터카나 전용 셔틀버스를 이용하는 것이 편리합니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **항공편:** 하네다 공항(HND) 또는 [나리타](/course/narita_golf_club_ko) 공항(NRT)에서 구마모토 공항(KMJ)으로 국내선 항공편을 이용합니다 (약 1시간 40분 소요).
     *   **구마모토 공항에서:** 공항에서 렌터카를 대여하거나, 클럽하우스에서 운영하는 유료 셔틀버스(사전 예약 필수)를 이용합니다. 골프 클럽까지는 차량으로 약 40-50분 소요됩니다.
 *   **오사카([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**

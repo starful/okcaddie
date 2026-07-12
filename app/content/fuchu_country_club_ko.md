@@ -12,7 +12,7 @@ thumbnail: /static/images/fuchu_country_club.jpg
 title: 'The Definitive Guide to Fuchu Country Club: An Expert Review (ko)'
 ---
 
-[도쿄](/guide/kanto-vs-kansai-golf_ko) 교외의 푸르른 숲 속에 자리 잡은 후추 컨트리 클럽(Fuchu Country Club)은 단순한 골프장을 넘어, 일본 골프의 역사와 정신이 살아 숨 쉬는 성지입니다. 20년 경력의 베테랑 캐디이자 엘리트 코스 평가자로서, 저는 이 클럽이 선사하는 비할 데 없는 경험을 세밀하게 분석하여 여러분께 최고의 가이드를 제공하고자 합니다. OKCaddie 독자 여러분께, 일본 명문 골프의 정수를 경험할 준비가 되셨습니까?
+도쿄 교외의 푸르른 숲 속에 자리 잡은 후추 컨트리 클럽(Fuchu Country Club)은 단순한 골프장을 넘어, 일본 골프의 역사와 정신이 살아 숨 쉬는 성지입니다. 20년 경력의 베테랑 캐디이자 엘리트 코스 평가자로서, 저는 이 클럽이 선사하는 비할 데 없는 경험을 세밀하게 분석하여 여러분께 최고의 가이드를 제공하고자 합니다. OKCaddie 독자 여러분께, 일본 명문 골프의 정수를 경험할 준비가 되셨습니까?
 
 ## 후추 컨트리 클럽: 유구한 역사와 명문의 품격
 

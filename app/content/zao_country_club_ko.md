@@ -126,7 +126,7 @@ title: '자오 컨트리 클럽 완벽 가이드: 전문가 리뷰 (ko)'
 
 ### 주요 도시별 접근 가이드
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **신칸센:** 도쿄역에서 야마가타 신칸센([Yamagata](/course/yamagata_zao_onsen_golf_ko) Shinkansen)을 타고 '야마가타 역(山形駅)'까지 이동합니다 (약 2시간 40분 ~ 3시간 소요).
     *   **이후 교통:** 야마가타 역에서 클럽까지는 택시 또는 클럽에서 운영하는 셔틀버스(사전 예약 필수)를 이용하면 약 30~40분 소요됩니다. 렌터카를 이용하는 것도 좋은 방법이며, 주변 관광지와 연계하여 편리하게 이동할 수 있습니다.
 

@@ -153,7 +153,7 @@ title: '톰 왓슨 골프 코스 완벽 가이드: 전문가 리뷰 (ko)'
 톰 왓슨 골프 코스는 미야자키 시내와 미야자키 공항에서 접근성이 매우 뛰어납니다.
 
 *   **미야자키 공항 ([[[Miyazaki](/course/miyazaki_tom_watson_night_ko)](/course/miyazaki_lakeside_golf_ko)](/course/miyazaki_country_club_ko) Airport, KMI):** 공항에서 코스까지는 차량으로 약 20~25분 정도 소요됩니다. 공항 렌터카를 이용하거나, 리조트 셔틀버스(사전 예약 권장)를 이용하면 편리합니다. 택시를 이용할 경우 약 4,000~5,000엔 정도의 요금이 발생합니다.
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)/오사카/후쿠오카:**
+*   **도쿄/오사카/후쿠오카:**
     *   **항공편:** 각 주요 도시에서 미야자키 공항(KMI)까지 직항편이 다수 운항됩니다.
         *   도쿄 하네다/[나리타](/course/narita_golf_club_ko) 공항: 약 1시간 40분 ~ 2시간 소요.
         *   오사카 간사이/이타미 공항: 약 1시간 ~ 1시간 15분 소요.

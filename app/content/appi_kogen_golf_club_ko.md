@@ -147,7 +147,7 @@ title: '안비 고원 골프 클럽 마스터 가이드: 명예로운 전통과 
 
 아피 고원 골프 클럽은 도호쿠 지역에 위치해 있지만, 일본의 주요 도시에서 접근성이 매우 뛰어납니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **신칸센(Shinkansen) + 셔틀버스:** 도쿄역에서 도호쿠 신칸센(Tohoku Shinkansen)을 타고 모리오카역(Morioka Station)까지 약 2시간 15분 소요됩니다. 모리오카역에서는 아피 고원 리조트 셔틀버스를 이용하여 약 50분~1시간이면 클럽에 도착할 수 있습니다. 가장 빠르고 효율적인 방법입니다.
 *   **오사카([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 및 후쿠오카([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**
     *   **항공편 + 셔틀/렌터카:** 오사카 이타미(ITM) 또는 후쿠오카(FUK) 공항에서 이와테 하나마키 공항([Iwate](/course/iwate_numakunai_golf_ko) Hanamaki Airport, HNA)까지 직항편을 이용합니다. 비행시간은 약 1시간 20분~1시간 40분 소요됩니다. 하나마키 공항에서는 렌터카를 이용하거나 리조트 셔틀버스(사전 예약 필수)를 통해 약 1시간 10분~1시간 30분이면 아피 고원 리조트에 도착합니다.

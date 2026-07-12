@@ -3,9 +3,14 @@ address: 1794 Yaese, Shimajiri District, Okinawa 901-0613, Japan
 booking: /booking/southern_links_golf_club_en
 categories: Premium / Luxury, Easy Booking, Ocean View, Championship Course
 date: '2026-04-15'
+description: Book your tee time at Southern Links Golf Club, Okinawa's iconic seaside
+  course. Find green fees, Rakuten GORA booking guides & tips on okcaddie.
 lang: en
 lat: '26.1144'
 lng: '127.7356'
+seo_description: Book your tee time at Southern Links Golf Club, Okinawa's iconic
+  seaside course. Find green fees, Rakuten GORA booking guides & tips on okcaddie.
+seo_title: Southern Links Golf Club (Okinawa) | Green Fees & Booking | okcaddie
 summary: 'A comprehensive 9,000-character master guide to Southern Links Golf Club
   in Okinawa, Japan, offering strategic insights, historical context, luxury amenities,
   and expert caddy tips for an unparalleled golfing experience. Optimized for SEO

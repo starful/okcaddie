@@ -111,7 +111,7 @@ title: 'The Definitive Guide to Jun Classic Country Club: An Expert Review (ko)'
 *   **가을 (10월 초 ~ 11월 중순):** 단풍이 절정에 달하는 시기로, 형형색색의 나무들이 코스를 수놓아 환상적인 라운드를 경험할 수 있습니다. 습도가 낮고 기온이 시원하여 잔디 컨디션이 최고조에 달하며, 고라이 페어웨이도 견고하고 이상적인 상태를 유지합니다. 일본의 가을 골프는 준 클래식에서 정점을 찍습니다.
 
 **접근성 가이드:**
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **자동차:** 도호쿠 자동차도(東北自動車道)를 이용하여 약 1시간 30분 ~ 2시간 소요됩니다. (나카가와 미나미(那珂川南) IC 또는 야이타(矢板) IC 이용)
     *   **신칸센:** 도쿄역에서 도호쿠 신칸센(東北新幹線)을 타고 우쓰노미야(宇都宮)역까지 약 50분 소요됩니다. 우쓰노미야역에서 클럽까지는 택시 또는 클럽 셔틀 서비스(사전 예약 필수)를 이용하면 약 40분 정도 걸립니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) / 후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**

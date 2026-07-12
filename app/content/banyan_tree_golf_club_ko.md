@@ -1,5 +1,5 @@
 ---
-address: '[도쿄](/guide/kanto-vs-kansai-golf_ko)도 훗사시'
+address: '도쿄도 훗사시'
 booking: /booking/banyan_tree_golf_club_ko
 categories: 프라이빗 클럽, 프리미엄 경험, 전략적 코스, 온천 골프
 date: '2026-04-15'

@@ -106,7 +106,7 @@ title: '에히메 골프 클럽 완벽 가이드: 엘리트 코스 평가인의 
 *   **가을 (10월~11월 초):** 단풍이 절정을 이루는 가을은 에히메 골프 클럽의 또 다른 명성기입니다. 선선한 날씨와 함께 코라이 잔디가 황금빛으로 물들고, 그린 스피드도 빠르게 유지되어 도전적인 플레이를 즐길 수 있습니다. 습도가 낮아 샷감도 좋습니다.
 
 **접근성 가이드:**
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:** 하네다 공항(HND) 또는 [나리타](/course/narita_golf_club_ko) 공항(NRT)에서 마츠야마 공항(MYJ)으로 약 1시간 30분~2시간 소요되는 국내선 항공편을 이용합니다. 마츠야마 공항에서는 렌터카 또는 택시를 이용하여 에히메 골프 클럽까지 약 40~50분 소요됩니다.
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:** 하네다 공항(HND) 또는 [나리타](/course/narita_golf_club_ko) 공항(NRT)에서 마츠야마 공항(MYJ)으로 약 1시간 30분~2시간 소요되는 국내선 항공편을 이용합니다. 마츠야마 공항에서는 렌터카 또는 택시를 이용하여 에히메 골프 클럽까지 약 40~50분 소요됩니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:** 이타미 공항(ITM)에서 마츠야마 공항(MYJ)으로 약 45분~1시간 소요되는 국내선 항공편을 이용합니다. 이후 마츠야마 공항에서 골프 클럽까지 이동합니다. 또는 신칸센을 이용하여 오카야마역까지 이동 후, 특급 열차 '시오카제(しおかぜ)'를 이용하여 마츠야마역까지 이동하는 방법도 있습니다(총 약 3시간 소요). 마츠야마역에서 클럽까지는 택시로 약 1시간 소요됩니다.
 *   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:** 후쿠오카 공항(FUK)에서 마츠야마 공항(MYJ)으로 약 40분~50분 소요되는 국내선 항공편을 이용합니다. 이후 마츠야마 공항에서 골프 클럽까지 이동합니다.
 

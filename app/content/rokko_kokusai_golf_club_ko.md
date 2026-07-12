@@ -138,7 +138,7 @@ title: 'The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (ko)'
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**
     *   **자동차:** 한신 고속도로([Hanshin](/course/hanshin_public_golf_ko) Expressway)를 이용하면 약 40~50분 소요됩니다. 가장 편리하고 빠른 방법입니다.
     *   **대중교통:** JR 오사카 역에서 JR 고베선(Kobe Line)을 타고 산노미야(Sannomiya) 역까지 약 20분 이동 후, 역에서 클럽 셔틀버스를 이용하거나 택시로 약 20분 추가 소요됩니다.
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **신칸센 + 자동차/택시:** 도쿄역에서 신칸센 '노조미'를 타고 신코베(Shin-Kobe) 역까지 약 2시간 40분 소요됩니다. 신코베 역에서 클럽까지는 택시로 약 30분 소요됩니다. 비행기보다 시간 활용에 효율적입니다.
     *   **비행기 + 자동차/택시:** 하네다(Haneda) 또는 [나리타](/course/narita_golf_club_ko)(Narita) 공항에서 이타미(Itami) 공항(오사카 국제공항) 또는 간사이([[Kansai](/course/kansai_classic_golf_club_ko)](/course/kansai_golf_club_ko)) 국제공항까지 비행기로 약 1시간 소요됩니다. 이타미 공항에서는 클럽까지 약 40분, 간사이 국제공항에서는 약 1시간 10분 정도 택시 또는 렌터카로 이동해야 합니다.
 *   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**

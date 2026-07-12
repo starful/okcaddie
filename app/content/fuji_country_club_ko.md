@@ -131,7 +131,7 @@ seo_description: Book your round at Fuji Country Club. Find green fees, Rakuten 
 
 **주요 도시에서의 접근성:**
 후지 컨트리 클럽은 일본의 주요 도시에서 접근하기 용이한 지리적 이점을 가지고 있습니다.
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko))에서:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko))에서:**
     *   **자동차:** 도메이 고속도로([Tom](/course/tom_watson_golf_course_ko)ei Expressway)를 이용해 고텐바 IC(Gotemba IC)까지 약 1시간 30분 ~ 2시간 소요됩니다. 렌터카를 이용하는 것이 가장 편리합니다.
     *   **대중교통:** 도쿄역 또는 신주쿠역에서 JR 도카이도 본선(Tokaido Line)을 타고 고텐바역(Gotemba Station)까지 이동 후, 택시나 클럽 셔틀버스(사전 예약 필요)를 이용하면 됩니다. 신칸센을 이용할 경우 미시마역(Mishima Station)에서 내려 택시로 약 40분 소요됩니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko))에서:**

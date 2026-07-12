@@ -24,6 +24,31 @@ FEATURED_COURSE_BASE_IDS = (
 )
 FEATURED_COURSE_BASE_IDS_SET = frozenset(FEATURED_COURSE_BASE_IDS)
 
+# Retired guides: 301 to guide hub (or a successor) instead of soft-404.
+RETIRED_GUIDE_REDIRECTS = {
+    "guide_seed_001": "/guide",
+    "guide_seed_002": "/guide",
+    "guide_seed_003": "/guide",
+    "guide_expand_001": "/guide",
+    "guide_expand_002": "/guide",
+    "guide_expand_003": "/guide",
+    "guide_expand_004": "/guide",
+    "guide_expand_005": "/guide",
+    "guide_expand_006": "/guide",
+    "guide_expand_007": "/guide",
+    "guide_expand_008": "/guide",
+    "guide_expand_009": "/guide",
+    "best-souvenirs-proshop": "/guide",
+    "chipping-and-putting-practice": "/guide",
+    "golf-insurance-for-travelers": "/guide",
+    "kanto-vs-kansai-golf": "/guide",
+    "rental-clubs-japan": "/guide",
+    "self-play-vs-caddy": "/guide",
+    "spring-cherry-blossom-golf": "/guide",
+    "stay-and-play-karuizawa": "/guide",
+    "trash-and-smoking-rules": "/guide",
+}
+
 GUIDE_IMAGES = [
     "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200",
     "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200",

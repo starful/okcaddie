@@ -139,7 +139,7 @@ title: '우베 72 컨트리 클럽 완벽 가이드: 일본 최고 전문가의 
 
 우베 72 컨트리 클럽은 일본 서부에 위치해 있어, 주요 도시에서 항공편을 이용하는 것이 가장 효율적입니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko) ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **항공:** 하네다 공항(HND)에서 야마구치 우베 공항(UBJ)까지 약 1시간 30분 소요. 하루에도 여러 편의 항공편이 운항됩니다.
     *   **야마구치 우베 공항에서 클럽까지:** 택시로 약 15~20분 소요됩니다. 클럽하우스에서 픽업 서비스를 제공하기도 하니 사전에 확인하는 것이 좋습니다.
 *   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**

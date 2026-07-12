@@ -115,7 +115,7 @@ title: 'The Definitive Guide to The Royal Golf Club: An Expert Review (ko)'
 
 ### 더 로얄 골프 클럽 접근성 가이드
 
-더 로얄 골프 클럽은 이바라키현 호코타에 위치하여 [도쿄](/guide/kanto-vs-kansai-golf_ko) 및 기타 주요 도시에서의 접근성이 매우 우수합니다.
+더 로얄 골프 클럽은 이바라키현 호코타에 위치하여 도쿄 및 기타 주요 도시에서의 접근성이 매우 우수합니다.
 
 *   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **자동차:** 조반(常磐) 고속도로 이용 시 약 1시간 30분 ~ 2시간 소요. 렌터카 또는 클럽 셔틀 서비스(사전 예약 필수) 이용이 가장 편리합니다.

@@ -1,14 +1,21 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Izu Ohito Country Club: An Expert Review (en)"
-lat: "35.0144"
-lng: "138.9656"
-categories: "Value for Money, Stay & Play, Mt. Fuji View"
-thumbnail: "/static/images/izu_ohito_country_club.jpg"
-address: "Izu, Shizuoka"
-date: "2026-04-15"
-booking: "/booking/izu_ohito_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Izu Ohito Country Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf rater and senior caddy."
+address: Izu, Shizuoka
+booking: /booking/izu_ohito_country_club_en
+categories: Value for Money, Stay & Play, Mt. Fuji View
+date: '2026-04-15'
+description: Plan your round at Izu Ohito Country Club. Find updated green fees, easy
+  English booking options, course layout tips, and stunning Mt. Fuji views.
+lang: en
+lat: '35.0144'
+lng: '138.9656'
+seo_description: Plan your round at Izu Ohito Country Club. Find updated green fees,
+  easy English booking options, course layout tips, and stunning Mt. Fuji views.
+seo_title: 'Izu Ohito Country Club: Green Fees & Booking Guide | okcaddie'
+summary: A comprehensive 9,000-character master guide to Izu Ohito Country Club, covering
+  strategy, history, and luxury facilities, penned by an elite Japanese golf rater
+  and senior caddy.
+thumbnail: /static/images/izu_ohito_country_club.jpg
+title: 'The Definitive Guide to Izu Ohito Country Club: An Expert Review (en)'
 ---
 
 As an elite Japanese golf course rater and a caddy with two decades of guiding golfers through Japan's most revered layouts, I can confidently state that Izu Ohito Country Club represents a quintessential experience in Japanese golf. Nestled amidst the verdant embrace of the Izu Peninsula, with the majestic silhouette of Mount Fuji often gracing the horizon, this club transcends mere recreation; it is an immersion into the very soul of Japanese golf culture, strategy, and unparalleled hospitality. For the discerning golfer seeking an authentic, challenging, yet deeply rewarding journey, Izu Ohito is not merely a destination—it is a pilgrimage.

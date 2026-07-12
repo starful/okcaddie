@@ -131,7 +131,7 @@ seo_description: Book your round at Nishinasuno Country Club in Tochigi. Find gr
 
 ### ### 상세 교통편 (Detailed Access Guide)
 
-서나스노 컨트리 클럽은 [도쿄](/guide/kanto-vs-kansai-golf_ko) 도심에서 접근성이 매우 뛰어납니다.
+서나스노 컨트리 클럽은 도쿄 도심에서 접근성이 매우 뛰어납니다.
 
 *   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
     *   **자동차 이용:** 도호쿠 자동차도(東北自動車道)를 이용하여 니시나스노 시오바라 IC(西那須野塩原IC)까지 약 1시간 30분 소요됩니다. IC에서 클럽까지는 약 15분 거리로 매우 가깝습니다. (총 소요시간 약 2시간 내외)

@@ -152,7 +152,7 @@ seo_description: Book tee times at The Windsor Golf Course in Hokkaido. Find upd
 
 더 윈저 골프 코스는 홋카이도의 서남부에 위치하고 있으며, 신치토세 공항(CTS)을 통해 가장 편리하게 접근할 수 있습니다.
 
-*   **[도쿄](/guide/kanto-vs-kansai-golf_ko)/오사카/후쿠오카 → 신치토세 공항 (CTS):**
+*   **도쿄/오사카/후쿠오카 → 신치토세 공항 (CTS):**
     *   **항공편:** 일본 국내선 항공편을 이용하여 신치토세 공항까지 약 1시간 30분 ~ 2시간 소요됩니다. ANA, JAL, 피치항공 등 다양한 항공[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 운항합니다.
 *   **신치토세 공항 (CTS) → 윈저 골프 코스:**
     *   **렌터카:** 공항 내 렌터카 서비스를 이용하여 약 1시간 40분 ~ 2시간 소요됩니다. 윈저 리조트까지의 드라이브는 홋카이도의 아름다운 자연경관을 만끽할 수 있는 좋은 기회입니다. 국제 운전면허증이 필수입니다.
