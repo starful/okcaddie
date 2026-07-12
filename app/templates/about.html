@@ -59,8 +59,8 @@
         <div class="contact-section">
             <h2>💌 Get In Touch</h2>
             <p>Have a question about a specific course or interested in a partnership? We're here to help!</p>
-            <a href="https://script.google.com/macros/s/AKfycbw5CuKoLLM-NV37_83PvhnQIjTtDzXDN-Au21ThJd4wmjNEXlmYIB_O-Zh_GyJt2lkShw/exec" class="contact-link" target="_blank" rel="noopener noreferrer">
-                Open Contact Form
+            <a href="{{ '/contact?lang=ko' if (active_lang or 'en') == 'ko' else '/contact' }}" class="contact-link">
+                {{ '문의하기' if active_lang == 'ko' else 'Open Contact Form' }}
             </a>
         </div>
     </div>

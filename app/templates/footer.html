@@ -23,6 +23,7 @@
         <nav class="footer-nav" aria-label="{{ '푸터 링크' if active_lang == 'ko' else 'Footer links' }}">
             <a href="{{ '/courses?lang=ko' if (active_lang or 'en') == 'ko' else '/courses' }}">{{ '전체 코스' if active_lang == 'ko' else 'Courses' }}</a>
             <a href="{{ '/about?lang=ko' if (active_lang or 'en') == 'ko' else '/about' }}">{{ '소개' if active_lang == 'ko' else 'About' }}</a>
+            <a href="{{ '/contact?lang=ko' if (active_lang or 'en') == 'ko' else '/contact' }}">{{ '문의' if active_lang == 'ko' else 'Contact' }}</a>
             <a href="{{ '/privacy?lang=ko' if (active_lang or 'en') == 'ko' else '/privacy' }}">{{ '개인정보 처리방침' if active_lang == 'ko' else 'Privacy Policy' }}</a>
         </nav>
 

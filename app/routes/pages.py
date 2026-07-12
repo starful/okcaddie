@@ -64,6 +64,13 @@ def privacy():
     return render_template("privacy.html", active_lang=lang)
 
 
+@pages_bp.route("/contact")
+@pages_bp.route("/contact.html")
+def contact():
+    lang = request.args.get("lang", "en")
+    return render_template("contact.html", active_lang=lang)
+
+
 @pages_bp.route("/sitemap.xml")
 def sitemap_xml():
     now_iso = datetime.now(timezone.utc).date().isoformat()
