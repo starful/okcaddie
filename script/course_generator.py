@@ -30,8 +30,13 @@ if APP_DIR not in sys.path:
     sys.path.insert(0, APP_DIR)
 sys.path.insert(0, SCRIPT_DIR)
 
+from content_quality import (  # noqa: E402
+    is_non_golf_course_slug,
+    strip_code_fences,
+    validate_course_body,
+)
 from course_content import normalize_course_markdown  # noqa: E402
-from course_prompts import MIN_BODY_CHARS, LANG_FULL, build_course_prompt  # noqa: E402
+from course_prompts import MIN_BODY_CHARS, build_course_prompt  # noqa: E402
 from text_utils import strip_llm_selfcheck  # noqa: E402
 
 
@@ -70,10 +75,7 @@ def _dedupe_h2(text):
 
 
 def clean_generated_markdown(content: str) -> str:
-    content = re.sub(r'^```markdown\s*', '', content)
-    content = re.sub(r'^```yaml\s*', '', content)
-    content = re.sub(r'\s*```$', '', content)
-    content = content.replace('## yaml', '').strip()
+    content = strip_code_fences(content)
     content = re.sub(
         r'^(title:\s*"[^"]*?)\s*\(\s*(?:en|ko|EN|KO)\s*\)\s*"',
         r'\1"',
@@ -106,23 +108,47 @@ def generate_course_task(data):
     safe_name = data['safe_name']
     lang = data['lang']
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
+    if is_non_golf_course_slug(safe_name, data.get("name", "")):
+        return False, f"⏭️  Skip non-golf slug: {safe_name}_{lang}"
+
     prompt = build_prompt(data)
 
     try:
         content = None
         body_len = 0
-        for attempt in range(2):
+        quality_errors: list[str] = []
+        for attempt in range(3):
             extra = ""
-            if attempt == 1:
-                extra = f"\n\nIMPORTANT: Previous draft body was only {body_len} chars. Write at least {MIN_BODY_CHARS} characters in the markdown body."
+            if attempt == 1 and body_len and body_len < MIN_BODY_CHARS:
+                extra = (
+                    f"\n\nIMPORTANT: Previous draft body was only {body_len} chars. "
+                    f"Write at least {MIN_BODY_CHARS} characters of useful trip-planning detail "
+                    f"(not filler praise)."
+                )
+            elif attempt >= 1 and quality_errors:
+                extra = (
+                    "\n\nIMPORTANT: Previous draft failed quality checks: "
+                    + "; ".join(quality_errors)
+                    + ". Fix those issues. Keep the practical Quick Facts → Booking → Access structure. "
+                    "Do not use masterclass / elite-caddy voice."
+                )
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt + extra,
             )
             content = clean_generated_markdown(response.text.strip())
-            body_len = len(frontmatter.loads(content).content.strip())
-            if body_len >= MIN_BODY_CHARS:
+            post = frontmatter.loads(content)
+            body = post.content.strip()
+            body_len = len(body)
+            quality_errors = validate_course_body(body)
+            if body_len >= MIN_BODY_CHARS and not quality_errors:
                 break
+
+        if quality_errors:
+            return (
+                False,
+                f"❌ Quality fail: {safe_name}_{lang} -> {'; '.join(quality_errors)}",
+            )
 
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
@@ -149,6 +175,10 @@ def process_courses(limit):
         for row in reader:
             name = row['Name'].strip()
             safe_name = name.lower().replace(" ", "_").replace("'", "").replace(",", "").replace("&", "and").replace(".", "")
+
+            if is_non_golf_course_slug(safe_name, name):
+                print(f"⏭️  Skip non-golf CSV row: {name} ({safe_name})")
+                continue
 
             if os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and os.path.exists(
                 os.path.join(CONTENT_DIR, f"{safe_name}_ko.md")

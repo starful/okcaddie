@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Re-expand compact course pages to medium depth (6k+ EN / 5.5k+ KO)."""
+"""Re-expand compact course pages to practical visitor depth (3k+)."""
 
 from __future__ import annotations
 
@@ -22,6 +22,7 @@ from course_generator import (  # noqa: E402
     CONTENT_DIR,
     clean_generated_markdown,
 )
+from content_quality import is_non_golf_course_slug, validate_course_body  # noqa: E402
 from course_prompts import MIN_BODY_CHARS, build_course_prompt  # noqa: E402
 from text_utils import humanize_title  # noqa: E402
 
@@ -47,6 +48,8 @@ def find_short_targets(
             if not name.endswith(f"_{lang}.md") or name.startswith("_"):
                 continue
             base_id = name[: -len(f"_{lang}.md")]
+            if is_non_golf_course_slug(base_id):
+                continue
             path = os.path.join(root, name)
             n = body_length(path)
             if n < min_chars:
@@ -83,6 +86,9 @@ def generate_medium(data: dict, *, min_chars: int = MIN_BODY_CHARS) -> int:
     safe_name = data["safe_name"]
     lang = data["lang"]
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
+    if is_non_golf_course_slug(safe_name, data.get("name", "")):
+        return body_length(filepath) if os.path.exists(filepath) else 0
+
     prior_len = body_length(filepath) if os.path.exists(filepath) else 0
     prompt = build_course_prompt(data)
 
@@ -94,7 +100,8 @@ def generate_medium(data: dict, *, min_chars: int = MIN_BODY_CHARS) -> int:
         if attempt > 0:
             extra = (
                 f"\n\nIMPORTANT: Previous draft body was only {best_len} chars. "
-                f"Write at least {min_chars} characters in the markdown body (excluding frontmatter)."
+                f"Write at least {min_chars} characters of useful trip-planning detail "
+                f"(Quick Facts → Fees/Booking → Access). No masterclass filler."
             )
         response = client.models.generate_content(
             model="gemini-2.5-flash",
@@ -108,7 +115,10 @@ def generate_medium(data: dict, *, min_chars: int = MIN_BODY_CHARS) -> int:
                 post[k] = v
             candidate = frontmatter.dumps(post)
 
-        body_len = len(frontmatter.loads(candidate).content.strip())
+        body = frontmatter.loads(candidate).content.strip()
+        body_len = len(body)
+        if validate_course_body(body):
+            continue
         if body_len > best_len:
             best_len = body_len
             best_content = candidate

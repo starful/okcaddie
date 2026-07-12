@@ -4,7 +4,8 @@ from __future__ import annotations
 
 from datetime import datetime
 
-MIN_BODY_CHARS = 6000
+# Practical pages beat padded masterclass prose (see 2026-07 content cleanup).
+MIN_BODY_CHARS = 3000
 
 LANG_FULL = {"en": "English", "ko": "Korean"}
 
@@ -21,13 +22,13 @@ CSV_FACT_FIELDS = [
 
 
 def length_target(lang: str) -> str:
-    return "5,500 to 8,500 characters" if lang == "ko" else "6,000 to 9,000 characters"
+    return "3,000 to 6,500 characters" if lang == "ko" else "3,500 to 7,000 characters"
 
 
 def summary_hint(lang: str) -> str:
     if lang == "ko":
-        return "Provide a concrete 1-sentence summary in Korean (<=140 chars) with a numeric or location detail."
-    return "Provide a concrete 1-sentence summary in English (<=155 chars) with a numeric or location detail."
+        return "예약·요금·접근이 드러나는 구체적 한 문장 요약(<=140자)."
+    return "One concrete sentence (<=155 chars) mentioning booking, fees, or access."
 
 
 def known_facts_block(data: dict) -> str:
@@ -42,7 +43,7 @@ def known_facts_block(data: dict) -> str:
 
 
 def build_course_prompt(data: dict, *, today: str | None = None) -> str:
-    """Medium-depth course profile prompt (6k+ EN / 5.5k+ KO)."""
+    """Practical visitor course profile (booking / fees / access first)."""
     lang = data["lang"]
     lang_full = LANG_FULL.get(lang, "English")
     safe_name = data["safe_name"]
@@ -50,32 +51,33 @@ def build_course_prompt(data: dict, *, today: str | None = None) -> str:
     today = today or data.get("date") or datetime.now().strftime("%Y-%m-%d")
     facts = known_facts_block(data)
 
-    return f"""You are a senior Japan golf travel writer for OKCaddie.
-Write in {lang_full}. Be specific and useful for trip planning. Avoid generic praise and filler.
+    return f"""You are a practical Japan golf travel editor for OKCaddie.
+Write in {lang_full}. Trip-planning first. No ornate caddy monologue.
 
 Course: {name}
 Address: {data['address']}
 Coordinates: {data['lat']}, {data['lng']}
 Tags: {data['features']}{facts}
 
-[GOAL]
-- Total length: {length_target(lang)} (substantive paragraphs, not bullet-only lists).
-- Minimum body length after frontmatter: {MIN_BODY_CHARS} characters.
-- 3-4 sentences per major section where appropriate.
-- Use H2 (##) only. Use 7 to 8 H2 sections in the order below.
-- Do NOT use: "world-class", "unforgettable", "must-visit", "Definitive Guide", "Expert Review", "masterpiece".
-- Use realistic ranges for yardage/green fees when exact data is uncertain.
-- Do NOT invent phone numbers or URLs beyond what is provided.
+[HARD RULES]
+- Total length: {length_target(lang)}. Minimum body after frontmatter: {MIN_BODY_CHARS} characters.
+- Use H2 (##) only. 7 sections in the EXACT order below.
+- Do NOT use: "world-class", "unforgettable", "must-visit", "Definitive Guide", "Expert Review",
+  "masterpiece", "as an elite", "two decades", "Historical Prestige", "Hole-by-Hole Masterclass",
+  "symphony of", "character-by-character", "unforgettable pilgrimage", "20년 경력", "마스터피스".
+- Do NOT invent exact hole-by-hole yardages, stimpmeter readings, or phone numbers.
+  Only use hole numbers / designer / fees when present in KNOWN FACTS; otherwise speak in ranges and character.
+- Be honest about visitor access (public vs private / introduction). Prefer "verify live quote" over fake exact yen.
+- Link booking as markdown: [/booking/{safe_name}_{lang}](/booking/{safe_name}_{lang})
 
 [SECTIONS — IN THIS ORDER]
-1. ## Course Overview — history snippet, holes/par/yardage, designer/year if known, turf types, overall character.
-2. ## Layout & Strategy — describe 4 distinct holes (number, par, yardage range): tee shot, hazards, club choice, green read.
-3. ## Conditions & Seasonality — best months, wind/rain, pace of play, weekday vs weekend crowd.
-4. ## Green Fees & Booking — JPY ranges weekday/weekend, member vs visitor policy, caddie/cart, how to book (Rakuten GORA style).
-5. ## Dress Code & On-Course Rules — specific attire, mobile policy, pace expectations.
-6. ## Access — nearest station, drive times from Osaka/Kobe/Hiroshima/Tokyo as relevant, parking.
-7. ## Clubhouse & Dining — locker room, bath/onsen, restaurant highlights.
-8. ## Caddie Tips — common mistakes, local knowledge, who this course suits (handicap/style).
+1. ## Quick Facts — compact bullets or a 2-column markdown table: location, holes/style if known, visitor access, best for, best season.
+2. ## Who This Course Is For — 3 bullets for fits + 1 to 2 for skips.
+3. ## Course Overview — layout character, turf tendencies, wind/elevation; no fake hole novels.
+4. ## Green Fees & Booking — weekday/weekend JPY ranges as estimates, what packages usually include, how visitors book (Rakuten GORA / hotel). Always say fees move with season.
+5. ## Access — nearest airport/station, typical drive times from relevant hubs, car vs taxi reality.
+6. ## Dress Code & Tips — attire, soft spikes, pace, 3 practical tips.
+7. ## Bottom Line — 2 to 3 sentences: who should book this and the first next action.
 
 [FORMATTING]
 - Raw Markdown only. NO code fences. NO character-count self-check at the end.
@@ -92,5 +94,7 @@ address: "{data['address']}"
 date: "{today}"
 booking: "/booking/{safe_name}_{lang}"
 summary: "{summary_hint(lang)}"
+seo_title: "Write a practical SEO title with booking or fees angle (<=60 chars)"
+seo_description: "Write a practical meta description with location + booking cue (<=155 chars)"
 ---
 """
