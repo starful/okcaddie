@@ -436,6 +436,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/public-vs-private-access</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/public-vs-private-access" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/public-vs-private-access" />
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/hokkaido-summer-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/hokkaido-summer-golf" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/hokkaido-summer-golf" />
