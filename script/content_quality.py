@@ -37,8 +37,27 @@ BLOCKED_GUIDE_IDS = frozenset(
 
 BLOCKED_GUIDE_ID_PREFIXES = ("guide_seed_", "guide_expand_")
 
-# Slug / name markers for non-golf "cafe course" rows.
-NON_GOLF_SLUG_MARKERS = (
+# Name/Features/Address must signal golf; otherwise reject.
+GOLF_THEME_MARKERS = (
+    "golf",
+    "golfer",
+    "course",
+    "links",
+    "country club",
+    "fairway",
+    "tee",
+    "caddie",
+    "caddy",
+    "par ",
+    "holes",
+    "18-hole",
+    "9-hole",
+    "골프",
+    "코스",
+    "캐디",
+)
+
+FOREIGN_THEME_MARKERS = (
     "cafe",
     "latte",
     "roast",
@@ -47,7 +66,20 @@ NON_GOLF_SLUG_MARKERS = (
     "dessert",
     "bakery",
     "coffee",
+    "brew",
+    "ramen",
+    "tonkotsu",
+    "menya",
+    "noodle",
+    "라멘",
+    "onsen",
+    "ryokan",
+    "rotenburo",
+    "温泉",
+    "旅館",
 )
+
+NON_GOLF_SLUG_MARKERS = FOREIGN_THEME_MARKERS
 
 # Phrases that mark the old mass-produced masterclass voice.
 BANNED_PHRASES = (
@@ -92,9 +124,20 @@ def is_blocked_guide_id(topic_id: str) -> bool:
     return any(tid.startswith(p) for p in BLOCKED_GUIDE_ID_PREFIXES)
 
 
-def is_non_golf_course_slug(safe_name: str, display_name: str = "") -> bool:
-    blob = f"{safe_name} {display_name}".lower()
-    return any(m in blob for m in NON_GOLF_SLUG_MARKERS)
+def is_non_golf_course_slug(
+    safe_name: str,
+    display_name: str = "",
+    *,
+    features: str = "",
+    address: str = "",
+) -> bool:
+    """True when the row is off-theme for a golf site (reject)."""
+    blob = f"{safe_name} {display_name} {features} {address}".lower()
+    if any(m in blob for m in FOREIGN_THEME_MARKERS):
+        return True
+    if any(m in blob for m in GOLF_THEME_MARKERS):
+        return False
+    return True
 
 
 def find_banned_phrases(text: str) -> list[str]:

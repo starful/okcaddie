@@ -108,8 +108,13 @@ def generate_course_task(data):
     safe_name = data['safe_name']
     lang = data['lang']
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
-    if is_non_golf_course_slug(safe_name, data.get("name", "")):
-        return False, f"⏭️  Skip non-golf slug: {safe_name}_{lang}"
+    if is_non_golf_course_slug(
+        safe_name,
+        data.get("name", ""),
+        features=data.get("features", ""),
+        address=data.get("address", ""),
+    ):
+        return False, f"⏭️  Skip off-theme slug: {safe_name}_{lang}"
 
     prompt = build_prompt(data)
 
@@ -176,8 +181,13 @@ def process_courses(limit):
             name = row['Name'].strip()
             safe_name = name.lower().replace(" ", "_").replace("'", "").replace(",", "").replace("&", "and").replace(".", "")
 
-            if is_non_golf_course_slug(safe_name, name):
-                print(f"⏭️  Skip non-golf CSV row: {name} ({safe_name})")
+            if is_non_golf_course_slug(
+                safe_name,
+                name,
+                features=_safe(row, "Features"),
+                address=_safe(row, "Address"),
+            ):
+                print(f"⏭️  Skip off-theme CSV row: {name} ({safe_name})")
                 continue
 
             if os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and os.path.exists(
