@@ -303,9 +303,11 @@ def booking_redirect(course_id):
 @courses_bp.route("/travel/<item_type>/<course_id>")
 def travel_redirect(item_type, course_id):
     is_ko = course_id.endswith("_ko")
+    # "guide" = general Klook landing from guide pages (not GORA /booking/).
     links = {
         "rental": "https://klook.tpo.mx/llRQoxrb" if is_ko else "https://klook.tpo.mx/skGztuAJ",
         "pickup": "https://klook.tpo.mx/8qLZKsBY" if is_ko else "https://klook.tpo.mx/zPN5kiip",
         "esim": "https://klook.tpo.mx/OBHJbySq" if is_ko else "https://klook.tpo.mx/696NKlPT",
+        "guide": "https://klook.tpo.mx/470RSray",
     }
     return redirect(links.get(item_type, "https://klook.tpo.mx/470RSray"))

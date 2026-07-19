@@ -48,9 +48,9 @@ Keywords: {kw}
 - Do NOT invent exact yen prices, phone numbers, or URLs. Use ranges and "verify live" wording.
 - Prefer checklists and steps over ornate prose.
 - Total length: {length_target(lang)}. Minimum body after frontmatter: {MIN_BODY_CHARS} characters.
-- Use H2 (##) only. 6 to 8 H2 sections in the order below.
+- Use H2 (##) only. 6 to 8 H2 sections covering the themes below with UNIQUE wording for THIS topic.
 
-[SECTIONS — IN THIS ORDER]
+[SECTIONS — COVER THESE THEMES]
 1. ## Quick Facts — who this is for, time needed, cost band if relevant, season.
 2. ## Who This Guide Is For — and who should skip it.
 3. ## How It Works / Steps — concrete numbered steps a traveler can follow.

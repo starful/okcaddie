@@ -61,7 +61,7 @@ Tags: {data['features']}{facts}
 
 [HARD RULES]
 - Total length: {length_target(lang)}. Minimum body after frontmatter: {MIN_BODY_CHARS} characters.
-- Use H2 (##) only. 7 sections in the EXACT order below.
+- Use H2 (##) only. 7 sections covering the themes below (unique wording OK).
 - Do NOT use: "world-class", "unforgettable", "must-visit", "Definitive Guide", "Expert Review",
   "masterpiece", "as an elite", "two decades", "Historical Prestige", "Hole-by-Hole Masterclass",
   "symphony of", "character-by-character", "unforgettable pilgrimage", "20년 경력", "마스터피스".
@@ -70,7 +70,9 @@ Tags: {data['features']}{facts}
 - Be honest about visitor access (public vs private / introduction). Prefer "verify live quote" over fake exact yen.
 - Link booking as markdown: [/booking/{safe_name}_{lang}](/booking/{safe_name}_{lang})
 
-[SECTIONS — IN THIS ORDER]
+[SECTIONS — COVER THESE THEMES]
+Use unique ## wording for THIS course while covering themes in this order
+(do not copy-paste identical titles across every page):
 1. ## Quick Facts — compact bullets or a 2-column markdown table: location, holes/style if known, visitor access, best for, best season.
 2. ## Who This Course Is For — 3 bullets for fits + 1 to 2 for skips.
 3. ## Course Overview — layout character, turf tendencies, wind/elevation; no fake hole novels.

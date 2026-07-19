@@ -151,20 +151,24 @@
         </section>
         {% endif %}
 
-        <!-- [수익화] 클룩(Klook) 예약 유도 배너 -->
+        <!-- [수익화] 라쿠텐 GORA + 클룩(Klook) — 링크 분리 -->
         <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">
             <h3 style="color: var(--accent-red); margin-bottom: 15px; font-size: 1.4rem; font-weight: 900;">
                 {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
             </h3>
             <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
-                {{ '클룩(Klook)에서 일본 전역의 골프 패키지와 여행 필수품을 최저가에 예약할 수 있습니다.' if active_lang == 'ko' else 'Book Japan golf packages and travel essentials at the best prices on Klook.' }}
+                {{ '티타임은 라쿠텐 고라, 렌터카·픽업·eSIM은 클룩에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA, and prep rental, transfer & eSIM on Klook.' }}
             </p>
-            <!-- /booking/ID 경로를 통해 클룩 파트너 링크로 리다이렉트 -->
-            <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn" style="padding: 18px 40px; font-size: 1.2rem;">
-                🚀 {{ '실시간 최저가 확인 및 예약하기' if active_lang == 'ko' else 'Check Real-time Prices & Book' }}
-            </a>
+            <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 10px;">
+                <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #bf0000;">
+                    {{ '라쿠텐 고라에서 티타임 보기' if active_lang == 'ko' else 'Tee times on Rakuten GORA' }}
+                </a>
+                <a href="/travel/guide/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #166534;">
+                    {{ '클룩에서 여행 준비하기' if active_lang == 'ko' else 'Prepare your trip on Klook' }}
+                </a>
+            </div>
             <p style="margin-top: 15px; font-size: 0.8rem; color: #aaa;">
-                * {{ '이 링크를 통해 예약 시 사이트 운영에 큰 도움이 됩니다.' if active_lang == 'ko' else 'Booking through this link helps support our site.' }}
+                * {{ '제휴 링크 · 새 탭에서 열림' if active_lang == 'ko' else 'Affiliate links · opens in a new tab' }}
             </p>
         </section>
 
@@ -183,12 +187,13 @@
     {% include 'footer.html' %}
     <script>
     (function () {
-      document.querySelectorAll('.booking-banner a[href^="/booking/"]').forEach(function (a) {
+      document.querySelectorAll('.booking-banner a[href^="/booking/"], .booking-banner a[href^="/travel/"]').forEach(function (a) {
         a.addEventListener('click', function () {
           if (typeof gtag === 'function') {
+            var href = a.getAttribute('href') || '';
             gtag('event', 'partner_outbound_click', {
-              event_category: 'guide_booking',
-              event_label: (a.getAttribute('href') || '').split('?')[0]
+              event_category: href.indexOf('/booking/') === 0 ? 'guide_gora' : 'guide_klook',
+              event_label: href.split('?')[0]
             });
           }
         });
