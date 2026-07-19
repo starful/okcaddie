@@ -8,8 +8,14 @@ lat: '31.8944'
 lng: '130.4556'
 summary: 사츠마 리조트 골프 클럽의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.
 thumbnail: /static/images/satsuma_resort_golf_club.jpg
-title: '사츠마 리조트 골프 클럽 완벽 가이드: 일본 최고 전문가의 심층 리뷰 (ko)'
+title: Satsuma Resort Golf Club, Kagoshima
+description: Plan your trip to Satsuma Resort Golf Club. Get the latest green fees,
+  booking guides, and expert course tips for your Kagoshima golf vacation.
+seo_title: 'Satsuma Resort Golf Club Kagoshima: Booking & Green Fees'
+seo_description: Book tee times at Satsuma Resort Golf Club in Kagoshima. Find green
+  fees, Rakuten GORA booking tips, course layouts, and travel guides.
 ---
+
 
 ## 薩摩リゾートゴルフ倶楽部: 명문의 역사와 불변의 가치를 탐하다
 

@@ -1,8 +1,9 @@
 ---
 lang: en
-seo_title: Aso Resort Grandvrio Golf — Stay & Play Fees & Access | OKCaddie
-seo_description: Plan Aso Resort Grandvrio in Kumamoto. Package fee ranges, caldera-course tips, onsen stay notes, and access from Kumamoto Airport.
-title: Aso Resort Grandvrio — Stay & Play, Fees & Course Guide
+seo_title: 'Aso Resort Grandvrio Golf: Stay & Play Fees & Guide'
+seo_description: Plan your Kumamoto golf trip! Get rates for Aso Resort Grandvrio's
+  Stay & Play packages, Arnold Palmer course reviews, onsen hotel info, and transit.
+title: 'Aso Resort Grandvrio Golf: Stay & Play Guide'
 lat: '32.9644'
 lng: '131.0256'
 categories: Value for Money, Stay & Play, Mountain Style
@@ -10,9 +11,12 @@ thumbnail: /static/images/aso_resort_grandvrio.jpg
 address: Aso, Kumamoto
 date: '2026-07-12'
 booking: /booking/aso_resort_grandvrio_en
-summary: Mount Aso caldera resort golf—package ranges, wind/elevation tips, onsen stay, and airport access for Kumamoto trips.
-description: Practical stay-and-play guide to Aso Resort Grandvrio. Green-fee packages, layout notes, and how to get there.
+summary: Mount Aso caldera resort golf—package ranges, wind/elevation tips, onsen
+  stay, and airport access for Kumamoto trips.
+description: Plan your Kumamoto golf trip! Get rates for Aso Resort Grandvrio's Stay
+  & Play packages, Arnold Palmer course reviews, onsen hotel info, and transit.
 ---
+
 
 Aso Resort Grandvrio is a **mountain stay-and-play** base inside the Mount Aso region of Kumamoto—golf, lodging, and onsen-style recovery in one trip rather than a Tokyo-suburb day ticket.
 

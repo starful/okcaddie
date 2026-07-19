@@ -1,8 +1,10 @@
 ---
 lang: ko
-seo_title: 카멜리아 힐스 컨트리 클럽(기사라즈) 요금·예약 | OKCaddie
-seo_description: 지바 기사라즈 카멜리아 힐스 실전 가이드. 그린피 참고, 예약, 리조트 코스 요약, 도쿄·하네다 접근.
-title: 카멜리아 힐스 컨트리 클럽 — 티타임·요금·방문자 가이드
+seo_title: 'Camellia Hills Country Club Chiba: Fees & Visitor Booking | OKCaddie'
+seo_description: Want to play Camellia Hills Country Club? Find updated green fees,
+  visitor booking guides, and fast travel routes from Tokyo. Plan your golf round
+  today!
+title: Camellia Hills Country Club
 lat: '35.4144'
 lng: '140.0456'
 categories: 퍼블릭 토너먼트, 프리미엄 / 럭셔리, 리조트
@@ -11,8 +13,10 @@ address: 지바현 기사라즈시
 date: '2026-07-12'
 booking: /booking/camellia_hills_country_club_ko
 summary: 기사라즈 리조트형 지바 골프. 예약·요금 참고, 레이아웃, 도쿄만 접근 팁.
-description: 카멜리아 힐스 CC 실전 가이드. 티타임, 그린피 계획, 도쿄에서 지바 골프 접근.
+description: Discover Camellia Hills Country Club in Kisarazu, Chiba. Learn about
+  green fees, course details, visitor booking, and transit from Tokyo/Haneda.
 ---
+
 
 지바 기사라즈의 **카멜리아 힐스 컨트리 클럽**은 도쿄만 보소 쪽의 **리조트 성향·예약 가능** 코스입니다. 프라이빗 소개 없이 클럽하우스 하루를 채우고 싶을 때 실용적입니다.
 

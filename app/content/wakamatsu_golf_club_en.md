@@ -6,14 +6,16 @@ date: '2026-06-27'
 lang: en
 lat: '33.9144'
 lng: '130.7556'
-seo_description: Wakamatsu Golf Club in Kitakyushu, Fukuoka — green fees, course guide,
-  map, and Rakuten GORA booking on OKCaddie.
-seo_title: Wakamatsu Golf Club | Green Fees, Booking & Course Guide | OKCaddie
+seo_description: 기타큐슈 명문 와카마쓰 골프클럽(와카마츠 GC)의 실시간 그린피, 코스 레이아웃, 라쿠텐 고라 예약 방법과 날씨 정보를
+  OKCaddie에서 확인해 보세요.
+seo_title: 와카마쓰 골프클럽(와카마츠 GC) 예약·그린피·코스 가이드 | OKCaddie
 summary: Wakamatsu Golf Club in Kitakyushu, Fukuoka, offers a challenging 18-hole
   seaside links experience with strong historical roots.
 thumbnail: /static/images/wakamatsu_golf_club.jpg
-title: Wakamatsu Golf Club
+title: 와카마쓰 골프클럽 (Wakamatsu Golf Club)
+description: 일본 기타큐슈의 유서 깊은 명문 코스, 와카마쓰 골프클럽의 실시간 그린피와 상세 코스 정보, 예약 팁을 안내합니다.
 ---
+
 
 ## Course Overview
 

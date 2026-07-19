@@ -1,8 +1,9 @@
 ---
 lang: ko
-seo_title: 가스미가세키 컨트리 클럽 — 이용 현실·요금·방문자 노트 | OKCaddie
-seo_description: 사이타마 가와고에 가스미가세키는 프라이빗·올림픽 개최 명문입니다. 게스트 접근 현실, 계획 포인트, 실제 예약 가능한 대안.
-title: 가스미가세키 컨트리 클럽 — 접근 현실·계획 가이드
+seo_title: 'Kasumigaseki Country Club: Can You Play? Fees & Visitor Guide'
+seo_description: Can visitors play the prestigious Kasumigaseki Country Club? Discover
+  booking rules, guest access fees, and top nearby alternatives in Japan.
+title: 'Kasumigaseki Country Club: Visitor Access & Booking Guide'
 lat: '35.8569'
 lng: '139.3814'
 categories: 프라이빗 클럽, 공개 토너먼트, 올림픽 개최지
@@ -11,8 +12,10 @@ address: 사이타마현 가와고에시
 date: '2026-07-12'
 booking: /booking/kasumigaseki_country_club_ko
 summary: 올림픽 개최 프라이빗 명문. 일반 방문자가 거의 못 치는 이유, 게스트 경로, 현실적인 대안.
-description: 가스미가세키 CC 정직한 접근 가이드. 프라이빗 클럽 현실, 초대 시 요금 계획, 도쿄권에서 실제 예약 가능한 옵션.
+description: Can visitors play the prestigious Kasumigaseki Country Club? Discover
+  booking rules, guest access fees, and top nearby alternatives in Japan.
 ---
+
 
 사이타마 가와고에의 **가스미가세키 컨트리 클럽**은 일본에서도 손꼽히는 **프라이빗 명문**이자 **올림픽 골프 개최지**입니다. 그 명성 때문에 **대부분의 여행자는 티타임을 얻지 못합니다.**
 

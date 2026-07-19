@@ -9,8 +9,14 @@ lng: '139.3856'
 summary: 무사시 컨트리 클럽 사사이의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 전문가 마스터 가이드. 최고의 일본 골프 경험을 위한
   필수 정보.
 thumbnail: /static/images/musashi_country_club_sasai.jpg
-title: '무사시 컨트리 클럽 사사이 완벽 공략: 전문가의 마스터 리뷰 (Musashi Country Club Sasai)'
+title: Musashi Country Club Sasai Course
+description: Plan your round at Saitama's Musashi Country Club Sasai. Discover green
+  fees, visitor booking options, course layout, and exclusive travel tips.
+seo_title: 'Musashi Country Club Sasai Course: Green Fees & Booking Guide'
+seo_description: Plan your round at Saitama's Musashi Country Club Sasai. Discover
+  green fees, visitor booking options, course layout, and exclusive travel tips.
 ---
+
 
 # 무사시 컨트리 클럽 사사이: 시간을 초월한 명문의 전설을 만나다 (Musashi Country Club Sasai)
 

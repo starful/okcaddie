@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "Kochi Golf Club Heights"
-lat: "33.5144"
-lng: "133.5156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kochi_golf_club_heights.jpg"
-address: "Kochi, Kochi"
-date: "2026-06-27"
-booking: "/booking/kochi_golf_club_heights_en"
-summary: "Kochi Golf Club Heights offers a scenic 18-hole mountain layout renowned for its value and strategic play in Japan's Kochi Prefecture."
+lang: en
+title: Kochi Golf Club
+lat: '33.5144'
+lng: '133.5156'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kochi_golf_club_heights.jpg
+address: Kochi, Kochi
+date: '2026-06-27'
+booking: /booking/kochi_golf_club_heights_en
+summary: Kochi Golf Club Heights offers a scenic 18-hole mountain layout renowned
+  for its value and strategic play in Japan's Kochi Prefecture.
+description: Planning a golf trip to Kochi Golf Club in Japan? Discover updated green
+  fees, tee times, English booking options via Rakuten GORA, and expert layout strategies.
+seo_title: 'Kochi Golf Club Japan: Book Tee Times & Green Fees'
+seo_description: Plan your round at Kochi Golf Club, Japan. Get updated green fees,
+  English booking guides, Rakuten GORA tips, and course reviews on OKCaddie.
 ---
+
 
 ## Course Overview
 

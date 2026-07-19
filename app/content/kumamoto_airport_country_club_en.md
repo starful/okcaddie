@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Kumamoto Airport Country Club: An Expert Review (en)"
-lat: "32.8444"
-lng: "130.8656"
-categories: "Public Tournament, Forest Course, Scenic View"
-thumbnail: "/static/images/kumamoto_airport_country_club.jpg"
-address: "Kikuyo, Kumamoto"
-date: "2026-04-15"
-booking: "/booking/kumamoto_airport_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Kumamoto Airport Country Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'Kumamoto Airport Country Club Guide: Tee Times & Booking'
+lat: '32.8444'
+lng: '130.8656'
+categories: Public Tournament, Forest Course, Scenic View
+thumbnail: /static/images/kumamoto_airport_country_club.jpg
+address: Kikuyo, Kumamoto
+date: '2026-04-15'
+booking: /booking/kumamoto_airport_country_club_en
+summary: A comprehensive 9,000-character master guide to Kumamoto Airport Country
+  Club, covering strategy, history, and luxury facilities.
+description: Plan your round at Kumamoto Airport Country Club. Find green fees, easy
+  booking via Rakuten GORA, course layout, and travel tips. Book your tee time today!
+seo_title: 'Kumamoto Airport CC: Green Fees & Tee Times | OK Caddie'
+seo_description: Planning a golf trip to Kumamoto? Find green fees, Rakuten GORA booking
+  tips, and course guides for Kumamoto Airport Country Club. Book your tee time now!
 ---
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of dedicated service on some of Japan's most revered fairways, my discernment for golfing excellence is honed to an almost molecular level. Today, our focus turns to a jewel in Kyushu's crown: Kumamoto Airport Country Club. This review, meticulously crafted for the discerning readership of 'OKCaddie', aims to transcend mere description, offering an immersive analysis designed to elevate your anticipation and performance. Prepare for a masterpiece review, a deep dive into every facet that defines this exceptional golfing experience.
 

@@ -1,8 +1,9 @@
 ---
 lang: ko
-seo_title: 케야 골프 클럽(이토시마) 티타임·그린피·접근 | OKCaddie
-seo_description: 후쿠오카 이토시마 케야 골프 클럽 실전 가이드. 예약 경로, 그린피 참고 구간, 코스 특징, 후쿠오카 공항 접근.
-title: 케야 골프 클럽 — 티타임·그린피·방문자 가이드
+seo_title: 'Play Keya Golf Club Fukuoka: Visitor Booking & Fees | OKCaddie'
+seo_description: Want to play Keya Golf Club in Fukuoka? Discover how visitors can
+  book tee times, current green fees, and tips for this scenic KBC Augusta host course.
+title: Keya Golf Club, Fukuoka
 lat: '33.6044'
 lng: '130.1356'
 categories: 퍼블릭 토너먼트, 프리미엄 / 럭셔리, 오션 뷰
@@ -11,8 +12,10 @@ address: 후쿠오카현 이토시마
 date: '2026-07-12'
 booking: /booking/keya_golf_club_ko
 summary: 이토시마 해안 케야 골프 클럽. 예약·요금 참고, 오션 뷰 코스 요약, 후쿠오카에서 가는 법.
-description: 케야 골프 클럽 방문자 가이드. 그린피 계획, 티타임 예약, 이토시마 접근, 코스에서 기대할 점.
+description: An essential guide to playing at Keya Golf Club in Itoshima, Fukuoka,
+  featuring visitor booking options, green fees, and tournament-tested course insights.
 ---
+
 
 **케야 골프 클럽**은 후쿠오카 서쪽 이토시마 해안에 있는 **오션 뷰·예약 가능**한 코스입니다. 프라이빗 명문 클럽의 초대가 없어도, 경관과 컨디션을 보고 하루를 잡기 좋은 선택입니다.
 
