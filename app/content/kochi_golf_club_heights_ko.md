@@ -1,14 +1,19 @@
 ---
-lang: "ko"
-title: "Kochi Golf Club Heights"
-lat: "33.5144"
-lng: "133.5156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kochi_golf_club_heights.jpg"
-address: "Kochi, Kochi"
-date: "2026-06-27"
-booking: "/booking/kochi_golf_club_heights_ko"
-summary: "고치현 산악 지형에 자리 잡은 가성비 좋은 골프장으로, 전략적인 코스 공략과 아름다운 자연 경관을 동시에 즐길 수 있습니다."
+address: Kochi, Kochi
+booking: /booking/kochi_golf_club_heights_ko
+categories: Value for Money, Mountain Style, Scenic
+date: '2026-06-27'
+description: Planning a golf trip to Kochi Golf Club in Japan? Discover updated green
+  fees, tee times, English booking options via Rakuten GORA, and expert layout strategies.
+lang: ko
+lat: '33.5144'
+lng: '133.5156'
+seo_description: Plan your round at Kochi Golf Club, Japan. Get updated green fees,
+  English booking guides, Rakuten GORA tips, and course reviews on OKCaddie.
+seo_title: 'Kochi Golf Club Japan: Book Tee Times & Green Fees'
+summary: 고치현 산악 지형에 자리 잡은 가성비 좋은 골프장으로, 전략적인 코스 공략과 아름다운 자연 경관을 동시에 즐길 수 있습니다.
+thumbnail: /static/images/kochi_golf_club_heights.jpg
+title: Kochi Golf Club Heights
 ---
 
 ## Course Overview

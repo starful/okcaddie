@@ -3,9 +3,14 @@ address: Miyoshi, Aichi
 booking: /booking/miyoshi_country_club_ko
 categories: Public Tournament, Private Club, Forest Course
 date: '2026-04-15'
+description: Book tee times at Miyoshi Country Club, Aichi. Find green fees, Rakuten
+  GORA guides, and course tips for Japan's prestigious Tokai Classic host.
 lang: ko
 lat: '35.0944'
 lng: '137.0856'
+seo_description: Book tee times at Miyoshi Country Club, Aichi. Find green fees, Rakuten
+  GORA guides, and course tips for Japan's prestigious Tokai Classic host.
+seo_title: Miyoshi Country Club (Aichi) | Tee Times & Booking Guide | OK Caddie
 summary: 미요시 컨트리 클럽의 역사, 전략, 럭셔리 시설을 9,000자에 걸쳐 심층 분석한 마스터 가이드입니다.
 thumbnail: /static/images/miyoshi_country_club.jpg
 title: '미요시 컨트리 클럽 완벽 가이드: 명인의 시선으로 분석한 최고급 리뷰 (ko)'

@@ -3,9 +3,14 @@ address: 오키나와 온나
 booking: /booking/atta_terrace_golf_resort_ko
 categories: 프리미엄 / 럭셔리, 프라이빗 클럽, 오션 뷰
 date: '2026-04-15'
+description: An exclusive resort course in Okinawa offering stunning ocean views.
+  Discover how to book, green fees, and insider playing tips.
 lang: ko
 lat: '26.5144'
 lng: '127.9156'
+seo_description: Plan your round at Okinawa's luxury Atta Terrace Golf Resort. Find
+  updated green fees, booking tips (Rakuten GORA), and course map.
+seo_title: 'Atta Terrace Golf Resort Okinawa: Booking & Green Fees'
 summary: 아타 테라스 골프 리조트에 대한 9,000자에 달하는 종합 마스터 가이드로, 전략, 역사, 럭셔리 시설을 총망라합니다.
 thumbnail: /static/images/atta_terrace_golf_resort.jpg
 title: '아타 테라스 골프 리조트 완벽 가이드: 전문가 리뷰'

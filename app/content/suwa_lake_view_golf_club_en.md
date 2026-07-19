@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Suwa Lake View Golf Club: An Expert Review (en)"
-lat: "36.0144"
-lng: "138.1556"
-categories: "Value for Money, Mountain Style, Lake View"
-thumbnail: "/static/images/suwa_lake_view_golf_club.jpg"
-address: "Suwa, Nagano"
-date: "2026-04-15"
-booking: "/booking/suwa_lake_view_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Suwa Lake View Golf Club, covering strategy, history, and luxury facilities."
+address: Suwa, Nagano
+booking: /booking/suwa_lake_view_golf_club_en
+categories: Value for Money, Mountain Style, Lake View
+date: '2026-04-15'
+description: Book your round at Suwa Lake View Golf Club in Nagano, Japan. Find green
+  fees, course layouts, reviews, and easy English booking steps on OK Caddie.
+lang: en
+lat: '36.0144'
+lng: '138.1556'
+seo_description: Book your round at Suwa Lake View Golf Club in Nagano, Japan. Find
+  green fees, course layouts, reviews, and easy English booking steps on OK Caddie.
+seo_title: Suwa Lake View Golf Club (Nagano) | Green Fees & Booking Guide
+summary: A comprehensive 9,000-character master guide to Suwa Lake View Golf Club,
+  covering strategy, history, and luxury facilities.
+thumbnail: /static/images/suwa_lake_view_golf_club.jpg
+title: 'The Definitive Guide to Suwa Lake View Golf Club: An Expert Review (en)'
 ---
 
 ## The Definitive Guide to Suwa Lake View Golf Club: An Expert Review by an Elite Rater

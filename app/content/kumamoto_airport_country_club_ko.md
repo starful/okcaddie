@@ -3,9 +3,14 @@ address: Kikuyo, Kumamoto
 booking: /booking/kumamoto_airport_country_club_ko
 categories: Public Tournament, Forest Course, Scenic View
 date: '2026-04-15'
+description: Plan your round at Kumamoto Airport Country Club. Find green fees, easy
+  booking via Rakuten GORA, course layout, and travel tips. Book your tee time today!
 lang: ko
 lat: '32.8444'
 lng: '130.8656'
+seo_description: Planning a golf trip to Kumamoto? Find green fees, Rakuten GORA booking
+  tips, and course guides for Kumamoto Airport Country Club. Book your tee time now!
+seo_title: 'Kumamoto Airport CC: Green Fees & Tee Times | OK Caddie'
 summary: 구마모토 공항 컨트리 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드로, 전략, 역사, 럭셔리 시설을 다룹니다.
 thumbnail: /static/images/kumamoto_airport_country_club.jpg
 title: '구마모토 공항 컨트리 클럽 완벽 가이드: 전문가의 심층 리뷰 (ko)'

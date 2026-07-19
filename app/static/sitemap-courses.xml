@@ -19,15 +19,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/asahikawa_winter_roast</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/asahikawa_winter_roast" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/asahikawa_winter_roast?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/asahikawa_winter_roast" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/appi_kogen_golf_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/appi_kogen_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/appi_kogen_golf_club?lang=ko" />
@@ -231,15 +222,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nasu_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nasu_golf_club" />
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/kobe_harborland_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kobe_harborland_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kobe_harborland_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kobe_harborland_cafe" />
-    <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -487,15 +469,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/nagoya_sakae_espresso</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nagoya_sakae_espresso" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nagoya_sakae_espresso?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nagoya_sakae_espresso" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/kishu_golf_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kishu_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kishu_golf_club?lang=ko" />
@@ -685,51 +658,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/yokohama_minato_mirai_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/yokohama_minato_mirai_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/yokohama_minato_mirai_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/yokohama_minato_mirai_cafe" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/kanazawa_higashi_chaya_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kanazawa_higashi_chaya_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kanazawa_higashi_chaya_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kanazawa_higashi_chaya_cafe" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/sendai_ichibancho_latte</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/sendai_ichibancho_latte" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/sendai_ichibancho_latte?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/sendai_ichibancho_latte" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/nara_parkside_kissaten?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nara_parkside_kissaten" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nara_parkside_kissaten?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nara_parkside_kissaten" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/kamakura_komachi_drip</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kamakura_komachi_drip" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kamakura_komachi_drip?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kamakura_komachi_drip" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/enoshima_golf_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/enoshima_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/enoshima_golf_club?lang=ko" />
@@ -753,15 +681,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/narita_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/narita_golf_club" />
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/naha_kokusai_street_coffee?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/naha_kokusai_street_coffee" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/naha_kokusai_street_coffee?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/naha_kokusai_street_coffee" />
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -807,15 +726,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/sayama_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/sayama_golf_club" />
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe" />
-    <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -960,15 +870,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kagoshima_takachiho?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kagoshima_takachiho" />
     <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/hiroshima_peace_park_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/hiroshima_peace_park_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/hiroshima_peace_park_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/hiroshima_peace_park_cafe" />
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1432,15 +1333,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/hakodate_morning_market_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/hakodate_morning_market_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/hakodate_morning_market_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/hakodate_morning_market_cafe" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/toba_country_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/toba_country_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/toba_country_club?lang=ko" />
@@ -1500,15 +1392,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/okayama_goshuin_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/okayama_goshuin_golf_club" />
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/kumamoto_castle_town_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kumamoto_castle_town_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kumamoto_castle_town_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kumamoto_castle_town_cafe" />
-    <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1900,23 +1783,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/matsuyama_dogo_onsen_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/matsuyama_dogo_onsen_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/matsuyama_dogo_onsen_cafe?lang=ko" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/hiroshima_peace_park_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/hiroshima_peace_park_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/hiroshima_peace_park_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/hiroshima_peace_park_cafe" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/kagoshima_takachiho?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kagoshima_takachiho" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kagoshima_takachiho?lang=ko" />
@@ -2160,15 +2026,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/kumamoto_castle_town_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kumamoto_castle_town_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kumamoto_castle_town_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kumamoto_castle_town_cafe" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/okayama_goshuin_golf_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/okayama_goshuin_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/okayama_goshuin_golf_club?lang=ko" />
@@ -2228,15 +2085,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/toba_country_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/toba_country_club" />
     <lastmod>2026-04-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/hakodate_morning_market_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/hakodate_morning_market_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/hakodate_morning_market_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/hakodate_morning_market_cafe" />
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2592,15 +2440,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/kobe_harborland_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kobe_harborland_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kobe_harborland_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kobe_harborland_cafe" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/nasu_golf_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nasu_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nasu_golf_club?lang=ko" />
@@ -2808,15 +2647,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/asahikawa_winter_roast?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/asahikawa_winter_roast" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/asahikawa_winter_roast?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/asahikawa_winter_roast" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/mie_kokusai_golf_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/mie_kokusai_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/mie_kokusai_golf_club?lang=ko" />
@@ -2880,15 +2710,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/takamatsu_ritsurin_garden_cafe" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/inuyama_country_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/inuyama_country_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/inuyama_country_club?lang=ko" />
@@ -2943,15 +2764,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okcaddie.net/course/naha_kokusai_street_coffee</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/naha_kokusai_street_coffee" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/naha_kokusai_street_coffee?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/naha_kokusai_street_coffee" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okcaddie.net/course/narita_golf_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/narita_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/narita_golf_club?lang=ko" />
@@ -2975,51 +2787,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/enoshima_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/enoshima_golf_club" />
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/kamakura_komachi_drip?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kamakura_komachi_drip" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kamakura_komachi_drip?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kamakura_komachi_drip" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/nara_parkside_kissaten</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nara_parkside_kissaten" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nara_parkside_kissaten?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nara_parkside_kissaten" />
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/sendai_ichibancho_latte?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/sendai_ichibancho_latte" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/sendai_ichibancho_latte?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/sendai_ichibancho_latte" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/kanazawa_higashi_chaya_cafe?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kanazawa_higashi_chaya_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kanazawa_higashi_chaya_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kanazawa_higashi_chaya_cafe" />
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/yokohama_minato_mirai_cafe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/yokohama_minato_mirai_cafe" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/yokohama_minato_mirai_cafe?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/yokohama_minato_mirai_cafe" />
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3209,15 +2976,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kishu_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kishu_golf_club" />
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okcaddie.net/course/nagoya_sakae_espresso?lang=ko</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nagoya_sakae_espresso" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nagoya_sakae_espresso?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nagoya_sakae_espresso" />
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

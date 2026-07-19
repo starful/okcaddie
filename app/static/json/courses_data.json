@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.07.12",
+  "last_updated": "2026.07.19",
   "courses": [
     {
       "id": "wakayama_golf_club_ko",
@@ -387,7 +387,7 @@
       "id": "keya_golf_club_ko",
       "base_id": "keya_golf_club",
       "lang": "ko",
-      "title": "케야 골프 클럽",
+      "title": "Keya Golf Club, Fukuoka",
       "lat": 33.6044,
       "lng": 130.1356,
       "categories": [
@@ -501,7 +501,7 @@
       "id": "kasumigaseki_country_club_ko",
       "base_id": "kasumigaseki_country_club",
       "lang": "ko",
-      "title": "가스미가세키 컨트리 클럽",
+      "title": "Kasumigaseki Country Club",
       "lat": 35.8569,
       "lng": 139.3814,
       "categories": [
@@ -579,7 +579,7 @@
       "id": "camellia_hills_country_club_ko",
       "base_id": "camellia_hills_country_club",
       "lang": "ko",
-      "title": "카멜리아 힐스 컨트리 클럽",
+      "title": "Camellia Hills Country Club",
       "lat": 35.4144,
       "lng": 140.0456,
       "categories": [
@@ -636,7 +636,7 @@
       "id": "aso_resort_grandvrio_en",
       "base_id": "aso_resort_grandvrio",
       "lang": "en",
-      "title": "Aso Resort Grandvrio",
+      "title": "Aso Resort Grandvrio Golf",
       "lat": 32.9644,
       "lng": 131.0256,
       "categories": [
@@ -650,261 +650,6 @@
       "summary": "Mount Aso caldera resort golf—package ranges, wind/elevation tips, onsen stay, and airport access for Kumamoto trips.",
       "booking": "/booking/aso_resort_grandvrio_en",
       "link": "/course/aso_resort_grandvrio"
-    },
-    {
-      "id": "takamatsu_ritsurin_garden_cafe_ko",
-      "base_id": "takamatsu_ritsurin_garden_cafe",
-      "lang": "ko",
-      "title": "Takamatsu Ritsurin Garden Cafe",
-      "lat": 34.3299,
-      "lng": 134.0445,
-      "categories": [
-        "Garden district"
-      ],
-      "thumbnail": "/static/images/takamatsu_ritsurin_garden_cafe.jpg",
-      "address": "Kagawa, Takamatsu",
-      "published": "2026-07-08",
-      "summary": "가가와 다카마쓰의 리쓰린 정원 근처에 자리한 숏 코스로, 섬세한 숏게임과 아름다운 정원 경관을 동시에 즐길 수 있는 18홀 골프 경험을 제공합니다.",
-      "booking": "/booking/takamatsu_ritsurin_garden_cafe_ko",
-      "link": "/course/takamatsu_ritsurin_garden_cafe?lang=ko"
-    },
-    {
-      "id": "takamatsu_ritsurin_garden_cafe_en",
-      "base_id": "takamatsu_ritsurin_garden_cafe",
-      "lang": "en",
-      "title": "Takamatsu Ritsurin Garden Cafe",
-      "lat": 34.3299,
-      "lng": 134.0445,
-      "categories": [
-        "Garden district"
-      ],
-      "thumbnail": "/static/images/takamatsu_ritsurin_garden_cafe.jpg",
-      "address": "Kagawa, Takamatsu",
-      "published": "2026-07-08",
-      "summary": "Takamatsu Ritsurin Garden Cafe offers 18 holes of play near Japan's Ritsurin Garden, providing a blend of challenging shots and scenic tranquility.",
-      "booking": "/booking/takamatsu_ritsurin_garden_cafe_en",
-      "link": "/course/takamatsu_ritsurin_garden_cafe"
-    },
-    {
-      "id": "nara_parkside_kissaten_ko",
-      "base_id": "nara_parkside_kissaten",
-      "lang": "ko",
-      "title": "Nara Parkside Kissaten",
-      "lat": 34.6851,
-      "lng": 135.805,
-      "categories": [
-        "Deer area nearby"
-      ],
-      "thumbnail": "/static/images/nara_parkside_kissaten.jpg",
-      "address": "Nara",
-      "published": "2026-07-08",
-      "summary": "나라에 위치한 나라 파크사이드 킷사텐은 18홀 골프 코스로, 주변 사슴 공원과 가까워 독특한 라운딩 경험을 제공합니다.",
-      "booking": "/booking/nara_parkside_kissaten_ko",
-      "link": "/course/nara_parkside_kissaten?lang=ko"
-    },
-    {
-      "id": "nara_parkside_kissaten_en",
-      "base_id": "nara_parkside_kissaten",
-      "lang": "en",
-      "title": "Nara Parkside Kissaten",
-      "lat": 34.6851,
-      "lng": 135.805,
-      "categories": [
-        "Deer area nearby"
-      ],
-      "thumbnail": "/static/images/nara_parkside_kissaten.jpg",
-      "address": "Nara",
-      "published": "2026-07-08",
-      "summary": "Nara Parkside Kissaten offers 18 holes of strategic golf near Nara Park, a 50-minute drive from Osaka.",
-      "booking": "/booking/nara_parkside_kissaten_en",
-      "link": "/course/nara_parkside_kissaten"
-    },
-    {
-      "id": "matsuyama_dogo_onsen_cafe_ko",
-      "base_id": "matsuyama_dogo_onsen_cafe",
-      "lang": "ko",
-      "title": "Matsuyama Dogo Onsen Cafe",
-      "lat": 33.8518,
-      "lng": 132.786,
-      "categories": [
-        "Onsen town"
-      ],
-      "thumbnail": "/static/images/matsuyama_dogo_onsen_cafe.jpg",
-      "address": "Ehime, Matsuyama",
-      "published": "2026-07-08",
-      "summary": "마쓰야마 도고 온천 카페는 에히메현 마쓰야마에 위치하며, 도고 온천과 인접해 라운드 후 휴식을 취하기 좋은 18홀 골프 코스입니다.",
-      "booking": "/booking/matsuyama_dogo_onsen_cafe_ko",
-      "link": "/course/matsuyama_dogo_onsen_cafe?lang=ko"
-    },
-    {
-      "id": "kumamoto_castle_town_cafe_ko",
-      "base_id": "kumamoto_castle_town_cafe",
-      "lang": "ko",
-      "title": "Kumamoto Castle Town Cafe",
-      "lat": 32.8062,
-      "lng": 130.7059,
-      "categories": [
-        "Castle area"
-      ],
-      "thumbnail": "/static/images/kumamoto_castle_town_cafe.jpg",
-      "address": "Kumamoto",
-      "published": "2026-07-08",
-      "summary": "구마모토성 타운 카페 골프 코스는 구마모토성 인근에 위치한 9홀 퍼블릭 코스로, 정교한 샷과 경치를 즐기기에 적합합니다.",
-      "booking": "/booking/kumamoto_castle_town_cafe_ko",
-      "link": "/course/kumamoto_castle_town_cafe?lang=ko"
-    },
-    {
-      "id": "kumamoto_castle_town_cafe_en",
-      "base_id": "kumamoto_castle_town_cafe",
-      "lang": "en",
-      "title": "Kumamoto Castle Town Cafe",
-      "lat": 32.8062,
-      "lng": 130.7059,
-      "categories": [
-        "Castle area"
-      ],
-      "thumbnail": "/static/images/kumamoto_castle_town_cafe.jpg",
-      "address": "Kumamoto",
-      "published": "2026-07-08",
-      "summary": "Nestled near Kumamoto Castle, this 18-hole course offers strategic play across its 6,800 yards, featuring subtle elevation changes and scenic views.",
-      "booking": "/booking/kumamoto_castle_town_cafe_en",
-      "link": "/course/kumamoto_castle_town_cafe"
-    },
-    {
-      "id": "kobe_harborland_cafe_ko",
-      "base_id": "kobe_harborland_cafe",
-      "lang": "ko",
-      "title": "Kobe Harborland Cafe",
-      "lat": 34.6795,
-      "lng": 135.183,
-      "categories": [
-        "Harbor view"
-      ],
-      "thumbnail": "/static/images/kobe_harborland_cafe.jpg",
-      "address": "Hyogo, Kobe",
-      "published": "2026-07-08",
-      "summary": "고베 하버랜드 카페는 고베항의 아름다운 전경을 배경으로 즐기는 9홀 파3 코스로, 도심 속에서 가볍게 골프를 즐기기에 이상적입니다.",
-      "booking": "/booking/kobe_harborland_cafe_ko",
-      "link": "/course/kobe_harborland_cafe?lang=ko"
-    },
-    {
-      "id": "kobe_harborland_cafe_en",
-      "base_id": "kobe_harborland_cafe",
-      "lang": "en",
-      "title": "Kobe Harborland Cafe",
-      "lat": 34.6795,
-      "lng": 135.183,
-      "categories": [
-        "Harbor view"
-      ],
-      "thumbnail": "/static/images/kobe_harborland_cafe.jpg",
-      "address": "Hyogo, Kobe",
-      "published": "2026-07-08",
-      "summary": "Kobe Harborland Cafe offers a convenient 9-hole executive golf experience in central Kobe, featuring scenic harbor views.",
-      "booking": "/booking/kobe_harborland_cafe_en",
-      "link": "/course/kobe_harborland_cafe"
-    },
-    {
-      "id": "asahikawa_winter_roast_ko",
-      "base_id": "asahikawa_winter_roast",
-      "lang": "ko",
-      "title": "아사히카와 윈터 로스트",
-      "lat": 43.7706,
-      "lng": 142.365,
-      "categories": [
-        "Warm interior"
-      ],
-      "thumbnail": "/static/images/asahikawa_winter_roast.jpg",
-      "address": "Hokkaido, Asahikawa",
-      "published": "2026-07-08",
-      "summary": "홋카이도 아사히카와에 위치한 아사히카와 윈터 로스트는 18홀, 파 72 코스로 독특한 겨울 골프 경험을 제공합니다.",
-      "booking": "/booking/asahikawa_winter_roast_ko",
-      "link": "/course/asahikawa_winter_roast?lang=ko"
-    },
-    {
-      "id": "asahikawa_winter_roast_en",
-      "base_id": "asahikawa_winter_roast",
-      "lang": "en",
-      "title": "Asahikawa Winter Roast",
-      "lat": 43.7706,
-      "lng": 142.365,
-      "categories": [
-        "Warm interior"
-      ],
-      "thumbnail": "/static/images/asahikawa_winter_roast.jpg",
-      "address": "Hokkaido, Asahikawa",
-      "published": "2026-07-08",
-      "summary": "Asahikawa Winter Roast in Hokkaido presents 18 holes of strategic golf, notable for its strategic routing and a welcoming interior for colder seasons.",
-      "booking": "/booking/asahikawa_winter_roast_en",
-      "link": "/course/asahikawa_winter_roast"
-    },
-    {
-      "id": "yokohama_minato_mirai_cafe_ko",
-      "base_id": "yokohama_minato_mirai_cafe",
-      "lang": "ko",
-      "title": "Yokohama Minato Mirai Cafe",
-      "lat": 35.4564,
-      "lng": 139.634,
-      "categories": [
-        "Waterfront | Wi-Fi"
-      ],
-      "thumbnail": "/static/images/yokohama_minato_mirai_cafe.jpg",
-      "address": "Kanagawa, Yokohama",
-      "published": "2026-07-04",
-      "summary": "요코하마 미나토 미라이 지구에 위치한 이 골프 카페는 최첨단 시뮬레이션 시스템과 캐주얼한 분위기를 제공합니다.",
-      "booking": "/booking/yokohama_minato_mirai_cafe_ko",
-      "link": "/course/yokohama_minato_mirai_cafe?lang=ko"
-    },
-    {
-      "id": "yokohama_minato_mirai_cafe_en",
-      "base_id": "yokohama_minato_mirai_cafe",
-      "lang": "en",
-      "title": "Yokohama Minato Mirai Cafe",
-      "lat": 35.4564,
-      "lng": 139.634,
-      "categories": [
-        "Waterfront | Wi-Fi"
-      ],
-      "thumbnail": "/static/images/yokohama_minato_mirai_cafe.jpg",
-      "address": "Kanagawa, Yokohama",
-      "published": "2026-07-04",
-      "summary": "This Yokohama course offers 18 holes of waterfront golf with distinct strategic challenges near the bustling Minato Mirai area.",
-      "booking": "/booking/yokohama_minato_mirai_cafe_en",
-      "link": "/course/yokohama_minato_mirai_cafe"
-    },
-    {
-      "id": "sendai_ichibancho_latte_ko",
-      "base_id": "sendai_ichibancho_latte",
-      "lang": "ko",
-      "title": "Sendai Ichibancho Latte",
-      "lat": 38.2606,
-      "lng": 140.8829,
-      "categories": [
-        "Shopping street"
-      ],
-      "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
-      "address": "Miyagi, Sendai",
-      "published": "2026-07-04",
-      "summary": "센다이 이치반초 라떼는 미야기현 센다이에 위치한 18홀 골프 코스로, 도시의 접근성과 챌린지한 레이아웃을 겸비했습니다.",
-      "booking": "/booking/sendai_ichibancho_latte_ko",
-      "link": "/course/sendai_ichibancho_latte?lang=ko"
-    },
-    {
-      "id": "sendai_ichibancho_latte_en",
-      "base_id": "sendai_ichibancho_latte",
-      "lang": "en",
-      "title": "Sendai Ichibancho Latte",
-      "lat": 38.2606,
-      "lng": 140.8829,
-      "categories": [
-        "Shopping street"
-      ],
-      "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
-      "address": "Miyagi, Sendai",
-      "published": "2026-07-04",
-      "summary": "Sendai Ichibancho Latte isn't a golf course, but a bustling shopping street in Miyagi, Sendai, offering diversions for visiting golfers.",
-      "booking": "/booking/sendai_ichibancho_latte_en",
-      "link": "/course/sendai_ichibancho_latte"
     },
     {
       "id": "sample_golf_club_ko",
@@ -941,210 +686,6 @@
       "link": "/course/sample_golf_club"
     },
     {
-      "id": "naha_kokusai_street_coffee_ko",
-      "base_id": "naha_kokusai_street_coffee",
-      "lang": "ko",
-      "title": "Naha Kokusai Street Coffee",
-      "lat": 26.214,
-      "lng": 127.6889,
-      "categories": [
-        "Island blend | AC"
-      ],
-      "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
-      "address": "Okinawa, Naha",
-      "published": "2026-07-04",
-      "summary": "오키나와 나하의 국제거리에 위치한 '나하 국제거리 커피'는 섬 고유의 블렌딩과 시원한 에어컨 시설을 갖춘 아늑한 휴식처로, 여행 중 신선한 에너지를 충전하기에 완벽합니다.",
-      "booking": "/booking/naha_kokusai_street_coffee_ko",
-      "link": "/course/naha_kokusai_street_coffee?lang=ko"
-    },
-    {
-      "id": "naha_kokusai_street_coffee_en",
-      "base_id": "naha_kokusai_street_coffee",
-      "lang": "en",
-      "title": "Naha Kokusai Street Coffee",
-      "lat": 26.214,
-      "lng": 127.6889,
-      "categories": [
-        "Island blend | AC"
-      ],
-      "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
-      "address": "Okinawa, Naha",
-      "published": "2026-07-04",
-      "summary": "Naha Kokusai Street Coffee provides a unique 18-hole golf experience in Okinawa, featuring an urban-influenced layout near Kokusai Street.",
-      "booking": "/booking/naha_kokusai_street_coffee_en",
-      "link": "/course/naha_kokusai_street_coffee"
-    },
-    {
-      "id": "nagoya_sakae_espresso_ko",
-      "base_id": "nagoya_sakae_espresso",
-      "lang": "ko",
-      "title": "Nagoya Sakae Espresso",
-      "lat": 35.1709,
-      "lng": 136.9066,
-      "categories": [
-        "City center | House roast"
-      ],
-      "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
-      "address": "Aichi, Nagoya",
-      "published": "2026-07-04",
-      "summary": "나고야 사카에 에스프레소는 도심 속 9홀 이그제큐티브 코스로, 특별한 하우스 로스트 커피와 함께 정교한 샷을 요구하는 골프 경험을 제공합니다.",
-      "booking": "/booking/nagoya_sakae_espresso_ko",
-      "link": "/course/nagoya_sakae_espresso?lang=ko"
-    },
-    {
-      "id": "nagoya_sakae_espresso_en",
-      "base_id": "nagoya_sakae_espresso",
-      "lang": "en",
-      "title": "Nagoya Sakae Espresso",
-      "lat": 35.1709,
-      "lng": 136.9066,
-      "categories": [
-        "City center | House roast"
-      ],
-      "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
-      "address": "Aichi, Nagoya",
-      "published": "2026-07-04",
-      "summary": "Nagoya Sakae Espresso offers a surprisingly compact 18-hole city center golf experience with well-maintained bentgrass greens and a distinctive coffee culture.",
-      "booking": "/booking/nagoya_sakae_espresso_en",
-      "link": "/course/nagoya_sakae_espresso"
-    },
-    {
-      "id": "kanazawa_higashi_chaya_cafe_ko",
-      "base_id": "kanazawa_higashi_chaya_cafe",
-      "lang": "ko",
-      "title": "Kanazawa Higashi Chaya Cafe",
-      "lat": 36.5713,
-      "lng": 136.6622,
-      "categories": [
-        "Traditional district"
-      ],
-      "thumbnail": "/static/images/kanazawa_higashi_chaya_cafe.jpg",
-      "address": "Ishikawa, Kanazawa",
-      "published": "2026-07-04",
-      "summary": "가나자와 히가시차야 카페 골프 코스는 전통적인 히가시차야 지구의 미학을 담은 18홀, 5,800야드 규모의 독특한 코스로, 섬세한 전략을 요구합니다.",
-      "booking": "/booking/kanazawa_higashi_chaya_cafe_ko",
-      "link": "/course/kanazawa_higashi_chaya_cafe?lang=ko"
-    },
-    {
-      "id": "kanazawa_higashi_chaya_cafe_en",
-      "base_id": "kanazawa_higashi_chaya_cafe",
-      "lang": "en",
-      "title": "Kanazawa Higashi Chaya Cafe",
-      "lat": 36.5713,
-      "lng": 136.6622,
-      "categories": [
-        "Traditional district"
-      ],
-      "thumbnail": "/static/images/kanazawa_higashi_chaya_cafe.jpg",
-      "address": "Ishikawa, Kanazawa",
-      "published": "2026-07-04",
-      "summary": "Kanazawa Higashi Chaya Cafe offers a unique 9-hole par-3 golf experience nestled within Kanazawa's historic Higashi Chaya district.",
-      "booking": "/booking/kanazawa_higashi_chaya_cafe_en",
-      "link": "/course/kanazawa_higashi_chaya_cafe"
-    },
-    {
-      "id": "kamakura_komachi_drip_ko",
-      "base_id": "kamakura_komachi_drip",
-      "lang": "ko",
-      "title": "Kamakura Komachi Drip",
-      "lat": 35.3192,
-      "lng": 139.5503,
-      "categories": [
-        "Historic street | Matcha"
-      ],
-      "thumbnail": "/static/images/kamakura_komachi_drip.jpg",
-      "address": "Kanagawa, Kamakura",
-      "published": "2026-07-04",
-      "summary": "가마쿠라 코마치 드립은 가나가와현 가마쿠라의 유서 깊은 산악 지형에 자리한 18홀 골프 코스로, 전략적인 플레이와 아름다운 경관을 선사합니다.",
-      "booking": "/booking/kamakura_komachi_drip_ko",
-      "link": "/course/kamakura_komachi_drip?lang=ko"
-    },
-    {
-      "id": "kamakura_komachi_drip_en",
-      "base_id": "kamakura_komachi_drip",
-      "lang": "en",
-      "title": "Kamakura Komachi Drip",
-      "lat": 35.3192,
-      "lng": 139.5503,
-      "categories": [
-        "Historic street | Matcha"
-      ],
-      "thumbnail": "/static/images/kamakura_komachi_drip.jpg",
-      "address": "Kanagawa, Kamakura",
-      "published": "2026-07-04",
-      "summary": "Kamakura Komachi Drip offers a strategic 18-hole golf experience near historic Komachi-dori, blending traditional Japanese aesthetics with precision play amidst serene Kanagawa scenery.",
-      "booking": "/booking/kamakura_komachi_drip_en",
-      "link": "/course/kamakura_komachi_drip"
-    },
-    {
-      "id": "hiroshima_peace_park_cafe_ko",
-      "base_id": "hiroshima_peace_park_cafe",
-      "lang": "ko",
-      "title": "히로시마 평화공원 카페",
-      "lat": 34.3955,
-      "lng": 132.4536,
-      "categories": [
-        "Tourist area | Calm"
-      ],
-      "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
-      "address": "Hiroshima",
-      "published": "2026-07-04",
-      "summary": "히로시마 평화공원 인근에 위치한 이 9홀 파3 코스는 도시 속 평화로운 단거리 골프 경험을 제공합니다.",
-      "booking": "/booking/hiroshima_peace_park_cafe_ko",
-      "link": "/course/hiroshima_peace_park_cafe?lang=ko"
-    },
-    {
-      "id": "hiroshima_peace_park_cafe_en",
-      "base_id": "hiroshima_peace_park_cafe",
-      "lang": "en",
-      "title": "Hiroshima Peace Park Cafe",
-      "lat": 34.3955,
-      "lng": 132.4536,
-      "categories": [
-        "Tourist area | Calm"
-      ],
-      "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
-      "address": "Hiroshima",
-      "published": "2026-07-04",
-      "summary": "This unique Hiroshima location offers a conceptual 1-hole putting challenge amidst reflective surroundings, ideal for a mindful pause.",
-      "booking": "/booking/hiroshima_peace_park_cafe_en",
-      "link": "/course/hiroshima_peace_park_cafe"
-    },
-    {
-      "id": "hakodate_morning_market_cafe_ko",
-      "base_id": "hakodate_morning_market_cafe",
-      "lang": "ko",
-      "title": "Hakodate Morning Market Cafe",
-      "lat": 41.7687,
-      "lng": 140.729,
-      "categories": [
-        "Morning set"
-      ],
-      "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
-      "address": "Hokkaido, Hakodate",
-      "published": "2026-07-04",
-      "summary": "하코다테 아침시장 카페는 신선한 해산물과 현지 특산품을 맛보는 홋카이도 미식 라운드의 정수입니다.",
-      "booking": "/booking/hakodate_morning_market_cafe_ko",
-      "link": "/course/hakodate_morning_market_cafe?lang=ko"
-    },
-    {
-      "id": "hakodate_morning_market_cafe_en",
-      "base_id": "hakodate_morning_market_cafe",
-      "lang": "en",
-      "title": "Hakodate Morning Market Cafe",
-      "lat": 41.7687,
-      "lng": 140.729,
-      "categories": [
-        "Morning set"
-      ],
-      "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
-      "address": "Hokkaido, Hakodate",
-      "published": "2026-07-04",
-      "summary": "Hakodate Morning Market Cafe offers a distinctive compact golf experience near Hakodate's bustling market, focusing on precise play within a unique setting.",
-      "booking": "/booking/hakodate_morning_market_cafe_en",
-      "link": "/course/hakodate_morning_market_cafe"
-    },
-    {
       "id": "wakamatsu_golf_club_ko",
       "base_id": "wakamatsu_golf_club",
       "lang": "ko",
@@ -1167,7 +708,7 @@
       "id": "wakamatsu_golf_club_en",
       "base_id": "wakamatsu_golf_club",
       "lang": "en",
-      "title": "Wakamatsu Golf Club",
+      "title": "와카마쓰 골프클럽 (Wakamatsu Golf Club)",
       "lat": 33.9144,
       "lng": 130.7556,
       "categories": [
@@ -2101,7 +1642,7 @@
       "id": "kochi_golf_club_heights_en",
       "base_id": "kochi_golf_club_heights",
       "lang": "en",
-      "title": "Kochi Golf Club Heights",
+      "title": "Kochi Golf Club",
       "lat": 33.5144,
       "lng": 133.5156,
       "categories": [
@@ -3365,7 +2906,7 @@
       "id": "suwa_lake_view_golf_club_ko",
       "base_id": "suwa_lake_view_golf_club",
       "lang": "ko",
-      "title": "스와 레이크 뷰 골프 클럽 완벽 분석",
+      "title": "Suwa Lake View Golf Club",
       "lat": 36.0144,
       "lng": 138.1556,
       "categories": [
@@ -3422,7 +2963,7 @@
       "id": "southern_links_golf_club_ko",
       "base_id": "southern_links_golf_club",
       "lang": "ko",
-      "title": "Southern Links Golf Club (Okinawa)",
+      "title": "Southern Links Golf Club, Okinawa",
       "lat": 26.1144,
       "lng": 127.7356,
       "categories": [
@@ -3712,7 +3253,7 @@
       "id": "satsuma_resort_golf_club_ko",
       "base_id": "satsuma_resort_golf_club",
       "lang": "ko",
-      "title": "사츠마 리조트 골프 클럽",
+      "title": "Satsuma Resort Golf Club, Kagoshima",
       "lat": 31.8944,
       "lng": 130.4556,
       "categories": [
@@ -4523,7 +4064,7 @@
       "id": "naruo_golf_club_ko",
       "base_id": "naruo_golf_club",
       "lang": "ko",
-      "title": "나루오 골프 클럽",
+      "title": "Naruo Golf Club",
       "lat": 34.8194,
       "lng": 135.3444,
       "categories": [
@@ -4680,7 +4221,7 @@
       "id": "musashi_country_club_sasai_ko",
       "base_id": "musashi_country_club_sasai",
       "lang": "ko",
-      "title": "무사시 컨트리 클럽 사사이 완벽 공략",
+      "title": "Musashi Country Club Sasai Course",
       "lat": 35.8444,
       "lng": 139.3856,
       "categories": [
@@ -4738,7 +4279,7 @@
       "id": "miyoshi_country_club_en",
       "base_id": "miyoshi_country_club",
       "lang": "en",
-      "title": "Miyoshi Country Club",
+      "title": "Miyoshi Country Club (Aichi) | Tee Times & Booking Guide | OK Caddie",
       "lat": 35.0944,
       "lng": 137.0856,
       "categories": [
@@ -4989,7 +4530,7 @@
       "id": "kumamoto_airport_country_club_en",
       "base_id": "kumamoto_airport_country_club",
       "lang": "en",
-      "title": "Kumamoto Airport Country Club",
+      "title": "Kumamoto Airport Country Club Guide",
       "lat": 32.8444,
       "lng": 130.8656,
       "categories": [
@@ -6435,7 +5976,7 @@
       "id": "chiba_country_club_umesato_ko",
       "base_id": "chiba_country_club_umesato",
       "lang": "ko",
-      "title": "Chiba Country Club Umesato Course",
+      "title": "Chiba Country Club Umesato Golf Course",
       "lat": 35.9344,
       "lng": 139.8756,
       "categories": [
@@ -6474,7 +6015,7 @@
       "id": "cherry_hills_robert_trent_jones_ko",
       "base_id": "cherry_hills_robert_trent_jones",
       "lang": "ko",
-      "title": "일본 명문 체리 힐스 로버트 트렌트 존스",
+      "title": "Cherry Hills Golf Club (Robert Trent Jones Jr.)",
       "lat": 34.7844,
       "lng": 135.0756,
       "categories": [
@@ -6666,7 +6207,7 @@
       "id": "atta_terrace_golf_resort_en",
       "base_id": "atta_terrace_golf_resort",
       "lang": "en",
-      "title": "Atta Terrace Golf Resort",
+      "title": "Atta Terrace Golf Resort, Okinawa",
       "lat": 26.5144,
       "lng": 127.9156,
       "categories": [

@@ -1,19 +1,23 @@
 ---
+address: Miki, Hyogo
+booking: /booking/cherry_hills_robert_trent_jones_en
+categories: Premium / Luxury, Championship, Strategic
+date: '2026-06-27'
+description: Book your tee time at Cherry Hills Golf Club, a Robert Trent Jones Jr.
+  masterpiece in Hyogo, Japan. Find green fees, booking guides, and course tips.
 lang: en
-title: 'The Definitive Guide to Cherry Hills Robert Trent Jones: An Expert Review
-  (en)'
 lat: '34.7844'
 lng: '135.0756'
-categories: Premium / Luxury, Championship, Strategic
-thumbnail: /static/images/cherry_hills_robert_trent_jones.jpg
-address: Miki, Hyogo
-date: '2026-06-27'
-booking: /booking/cherry_hills_robert_trent_jones_en
+seo_description: Plan your round at Cherry Hills Golf Club (Hyogo). Get green fees,
+  tee times, Rakuten GORA booking tips, and expert course strategy.
+seo_title: Cherry Hills Golf Club | Green Fees & Booking Guide
 summary: A comprehensive 9,000-character master guide to Cherry Hills Robert Trent
   Jones, covering strategy, history, and luxury facilities, designed for the discerning
   golfer seeking the ultimate Japanese golfing experience.
+thumbnail: /static/images/cherry_hills_robert_trent_jones.jpg
+title: 'The Definitive Guide to Cherry Hills Robert Trent Jones: An Expert Review
+  (en)'
 ---
-
 
 As a seasoned golf course rater and a professional senior caddy with two decades of dedicated service on Japan's most revered fairways, it is my distinct honor to present an exhaustive, nuanced review of Cherry Hills Robert Trent Jones. This masterpiece of golf architecture, nestled within the verdant landscape of Miki, Hyogo, stands as a testament to strategic design and unyielding quality. For the discerning global golfer seeking not merely a round, but a profound engagement with the sport, Cherry Hills is an essential pilgrimage. This comprehensive guide, meticulously crafted for OKCaddie, aims to reveal every layer of its brilliance, ensuring you are prepared for an unparalleled golfing journey that truly ranks among Japan's finest.
 

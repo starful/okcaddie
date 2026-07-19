@@ -1,14 +1,21 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Naruo Golf Club: An Expert Review"
-lat: "34.8194"
-lng: "135.3444"
-categories: "Private Club, Parkland, Historic"
-thumbnail: "/static/images/naruo_golf_club.jpg"
-address: "Kawanishi, Hyogo"
-date: "2026-04-15"
-booking: "/booking/naruo_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Naruo Golf Club, covering strategy, history, and luxury facilities, penned by an elite Japanese golf course rater and senior caddy."
+address: Kawanishi, Hyogo
+booking: /booking/naruo_golf_club_en
+categories: Private Club, Parkland, Historic
+date: '2026-04-15'
+description: An essential visitor guide to playing Naruo Golf Club, featuring green
+  fees, booking channels, and expert course tips.
+lang: en
+lat: '34.8194'
+lng: '135.3444'
+seo_description: Want to play Japan's historic Naruo Golf Club? Discover green fees,
+  visitor booking options, and tips to secure your exclusive tee time.
+seo_title: 'How to Play Naruo Golf Club: Booking & Green Fees | OKCaddie'
+summary: A comprehensive 9,000-character master guide to Naruo Golf Club, covering
+  strategy, history, and luxury facilities, penned by an elite Japanese golf course
+  rater and senior caddy.
+thumbnail: /static/images/naruo_golf_club.jpg
+title: 'The Definitive Guide to Naruo Golf Club: An Expert Review'
 ---
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of devoted service on some of Japan's most revered fairways, it is my distinct honor to present an exhaustive, authoritative review of **Naruo Golf Club (鳴尾ゴルフ倶楽部)**. Often whispered among the cognoscenti as 'The Grand Dame of Kansai Golf,' Naruo is not merely a golf course; it is a meticulously preserved artifact, a living testament to the genesis and evolution of golf in Japan, demanding not just skill, but profound respect and strategic acumen from every player. This is a pilgrimage site for those who truly understand the game.

@@ -3,6 +3,7 @@ address: Kitakyushu, Fukuoka
 booking: /booking/wakamatsu_golf_club_ko
 categories: Private Club, Seaside Links, Historic
 date: '2026-06-27'
+description: 일본 기타큐슈의 유서 깊은 명문 코스, 와카마쓰 골프클럽의 실시간 그린피와 상세 코스 정보, 예약 팁을 안내합니다.
 lang: ko
 lat: '33.9144'
 lng: '130.7556'
