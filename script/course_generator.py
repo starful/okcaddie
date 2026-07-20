@@ -20,7 +20,15 @@ def _emit_pipeline_result(**kwargs):
 # ⚙️ 설정 (Configuration)
 # ==========================================
 load_dotenv()
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+try:
+    from google.genai import types as genai_types
+
+    client = genai.Client(
+        api_key=os.environ.get("GEMINI_API_KEY"),
+        http_options=genai_types.HttpOptions(timeout=180_000),  # 3 min / call
+    )
+except Exception:
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 CSV_PATH = 'script/csv/courses.csv'
 CONTENT_DIR = "app/content"
@@ -122,7 +130,7 @@ def generate_course_task(data):
         content = None
         body_len = 0
         quality_errors: list[str] = []
-        for attempt in range(3):
+        for attempt in range(2):
             extra = ""
             if attempt == 1 and body_len and body_len < MIN_BODY_CHARS:
                 extra = (
@@ -135,6 +143,8 @@ def generate_course_task(data):
                     "\n\nIMPORTANT: Previous draft failed quality checks: "
                     + "; ".join(quality_errors)
                     + ". Fix those issues. Keep the practical Quick Facts → Booking → Access structure. "
+                    "You MUST include these exact H2 headings: "
+                    "## Quick Facts, ## Course Overview, ## Green Fees & Booking, ## Access. "
                     "Do not use masterclass / elite-caddy voice."
                 )
             response = client.models.generate_content(
@@ -148,6 +158,11 @@ def generate_course_task(data):
             quality_errors = validate_course_body(body)
             if body_len >= MIN_BODY_CHARS and not quality_errors:
                 break
+            print(
+                f"↻ retry {attempt + 1}/2 {safe_name}_{lang}: "
+                f"body={body_len} errs={quality_errors or '-'}",
+                flush=True,
+            )
 
         if quality_errors:
             return (
@@ -169,7 +184,7 @@ def process_courses(limit):
     """CSV를 읽어 생성 대상을 수집하고 병렬 처리를 실행"""
     csv_path = _courses_csv_path()
     if not os.path.exists(csv_path):
-        print(f"❌ CSV 없음: {csv_path}")
+        print(f"❌ CSV 없음: {csv_path}", flush=True)
         return 1
 
     tasks = []
@@ -187,7 +202,7 @@ def process_courses(limit):
                 features=_safe(row, "Features"),
                 address=_safe(row, "Address"),
             ):
-                print(f"⏭️  Skip off-theme CSV row: {name} ({safe_name})")
+                print(f"⏭️  Skip off-theme CSV row: {name} ({safe_name})", flush=True)
                 continue
 
             if os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and os.path.exists(
@@ -225,12 +240,12 @@ def process_courses(limit):
             new_topic_count += 1
 
     if not tasks:
-        print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.")
+        print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.", flush=True)
         _emit_pipeline_result(step="items", topics=0, generated=0)
         return 0
 
-    print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)")
-    print("🚀 동시 실행 쓰레드: 10")
+    print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)", flush=True)
+    print("🚀 동시 실행 쓰레드: 10", flush=True)
 
     success_count = 0
     failure_count = 0
@@ -239,14 +254,14 @@ def process_courses(limit):
         for future in concurrent.futures.as_completed(futures):
             ok, message = future.result()
             if message:
-                print(message)
+                print(message, flush=True)
             if ok:
                 success_count += 1
             else:
                 failure_count += 1
 
     if failure_count:
-        print(f"⚠️  생성 실패: {failure_count}개 파일")
+        print(f"⚠️  생성 실패: {failure_count}개 파일", flush=True)
         _emit_pipeline_result(
             step="items",
             topics=new_topic_count,
@@ -255,7 +270,7 @@ def process_courses(limit):
             ok=False,
         )
         return 1
-    print(f"✅ 생성 완료: {success_count}개 파일")
+    print(f"✅ 생성 완료: {success_count}개 파일", flush=True)
     _emit_pipeline_result(step="items", topics=new_topic_count, generated=success_count)
     return 0
 
@@ -271,5 +286,5 @@ if __name__ == "__main__":
 
     start_time = time.time()
     exit_code = process_courses(limit=run_limit)
-    print(f"\n✨ 모든 작업 완료! (소요 시간: {time.time() - start_time:.1f}초)")
+    print(f"\n✨ 모든 작업 완료! (소요 시간: {time.time() - start_time:.1f}초)", flush=True)
     raise SystemExit(exit_code)

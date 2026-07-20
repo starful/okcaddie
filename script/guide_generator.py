@@ -25,7 +25,15 @@ def _emit_pipeline_result(**kwargs):
 
 # 설정 로드
 load_dotenv()
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+try:
+    from google.genai import types as genai_types
+
+    client = genai.Client(
+        api_key=os.environ.get("GEMINI_API_KEY"),
+        http_options=genai_types.HttpOptions(timeout=180_000),
+    )
+except Exception:
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 GUIDE_CSV = 'script/csv/guides.csv'
 

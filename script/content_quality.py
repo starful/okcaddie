@@ -103,9 +103,21 @@ BANNED_PHRASES = (
 )
 
 REQUIRED_COURSE_H2_HINTS = (
-    ("overview", "quick fact", "한눈에", "코스 개요", "quick facts"),
+    (
+        "overview",
+        "quick fact",
+        "quick facts",
+        "한눈에",
+        "코스 개요",
+        "at a glance",
+        "snapshot",
+        "basic info",
+        "기본 정보",
+        "course layout",
+        "레이아웃",
+    ),
     ("fee", "booking", "green fee", "요금", "예약", "그린피"),
-    ("access", "접근", "getting there"),
+    ("access", "접근", "getting there", "가는 법", "교통"),
 )
 
 REQUIRED_GUIDE_H2_HINTS = (
