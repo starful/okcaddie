@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Miyoshi Country Club (Aichi) | Tee Times & Booking Guide | OK Caddie
+title: Miyoshi Country Club (Aichi) Golf Booking Guide
 lat: '35.0944'
 lng: '137.0856'
 categories: Tournament Course, Private Club, Forest Course
@@ -11,12 +11,13 @@ booking: /booking/miyoshi_country_club_en
 summary: A comprehensive 9,000-character master guide to Miyoshi Country Club, covering
   strategy, history, and luxury facilities, penned by an elite Japanese golf rater
   and senior caddy.
-description: Book tee times at Miyoshi Country Club, Aichi. Find green fees, Rakuten
-  GORA guides, and course tips for Japan's prestigious Tokai Classic host.
-seo_title: Miyoshi Country Club (Aichi) | Tee Times & Booking Guide | OK Caddie
-seo_description: Book tee times at Miyoshi Country Club, Aichi. Find green fees, Rakuten
-  GORA guides, and course tips for Japan's prestigious Tokai Classic host.
+description: How to play at Miyoshi Country Club in Aichi near Nagoya. Find green
+  fees, booking guides, and course tips for Japan's prestigious Tokai Classic venue.
+seo_title: Miyoshi Country Club (Aichi) Tee Times & Booking Guide
+seo_description: How to play at Miyoshi Country Club in Aichi near Nagoya. Find green
+  fees, booking guides, and course tips for Japan's prestigious Tokai Classic venue.
 ---
+
 
 
 ## The Sacred Ground of Japanese Golf: Miyoshi Country Club – An Expert's Deep Dive

@@ -8,13 +8,14 @@ lat: '34.8194'
 lng: '135.3444'
 summary: 나루오 골프 클럽의 전략, 역사, 럭셔리 시설을 망라한 9,000자 심층 마스터 가이드.
 thumbnail: /static/images/naruo_golf_club.jpg
-title: 'Naruo Golf Club: Visitor & Booking Guide'
-description: An essential visitor guide to playing Naruo Golf Club, featuring green
-  fees, booking channels, and expert course tips.
-seo_title: 'How to Play Naruo Golf Club: Booking & Green Fees | OKCaddie'
-seo_description: Want to play Japan's historic Naruo Golf Club? Discover green fees,
-  visitor booking options, and tips to secure your exclusive tee time.
+title: 'Naruo Golf Club: Booking & Visitor Guide'
+description: Can you play Japan's exclusive Naruo Golf Club? Discover how to secure
+  a tee time, visitor booking tips, and current green fees.
+seo_title: 'How to Play Naruo Golf Club: Booking & Visitor Guide | OKCaddie'
+seo_description: Can you play Japan's exclusive Naruo Golf Club? Discover how to secure
+  a tee time, visitor booking tips, and current green fees.
 ---
+
 
 
 골프 애호가 여러분, 그리고 일본 명문 코스 탐험을 꿈꾸는 모든 분들께, 저는 이 자리에서 일본 골프 역사와 건축의 정수를 담고 있는 한 골프 클럽에 대한 저의 심도 깊은 분석을 공유하고자 합니다. 20년간 일본 최고의 코스들을 누비며 그린의 숨결을 읽어온 전문 시니어 캐디이자, 일본 골프 코스 평가단의 일원으로서, 효고현에 자리한 '나루오 골프 클럽(鳴尾ゴルフ倶楽部)'에 대한 이 마스터피스 리뷰를 바칩니다. 이곳은 단순한 골프장이 아닌, 골프 정신과 건축 미학이 살아 숨 쉬는 전설적인 공간입니다.

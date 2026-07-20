@@ -1,15 +1,16 @@
 ---
 lang: ko
-seo_title: How to Ship Golf Clubs in Japan (Yamato Guide) | OK Caddie
-seo_description: Learn how to ship golf clubs in Japan using Yamato Takkyubin. Easy
-  guide for airport, hotel, and course delivery, costs, and timing.
-title: How to Ship Golf Clubs in Japan (Yamato Takkyubin Guide)
+seo_title: How to Ship Golf Clubs in Japan (Takkyubin Guide) | OK Caddie
+seo_description: Learn how to ship your golf bag in Japan using Yamato Takkyubin.
+  Easy step-by-step guide for airport, hotel, and golf course delivery, plus costs.
+title: Golf Bag Delivery in Japan (Takkyubin Guide)
 date: '2026-07-12'
 summary: 방문 골퍼가 공항·호텔·골프장 사이로 골프백을 탁송하는 방법. 열차에 클럽을 들고 다니지 않는 실전 동선.
-description: Easy guide to golf bag delivery in Japan. Ship your clubs from airports
-  to hotels & courses with Yamato Takkyubin. Save hassle and travel light!
+description: Learn how to ship your golf bag in Japan using Yamato Takkyubin. Easy
+  step-by-step guide for airport, hotel, and golf course delivery, plus costs.
 categories: 여행 팁, 예약·로지스틱스
 ---
+
 
 
 도쿄 전철에 풀사이즈 골프 트래블백을 들고 타는 일은 고역입니다. 야마토(검은 고양이)·사가와 등 **탁큐빈(宅急便)** 이 **공항 → 호텔 → 골프장 → 다음 도시**로 클럽을 옮기는 현실적인 방법입니다.

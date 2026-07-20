@@ -1,9 +1,9 @@
 ---
 lang: ko
-seo_title: 'Kasumigaseki Country Club: Can You Play? Fees & Visitor Guide'
-seo_description: Can visitors play the prestigious Kasumigaseki Country Club? Discover
-  booking rules, guest access fees, and top nearby alternatives in Japan.
-title: 'Kasumigaseki Country Club: Visitor Access & Booking Guide'
+seo_title: 'How to Play Kasumigaseki Country Club: Fees & Visitor Access'
+seo_description: Can you play Kasumigaseki Country Club? Discover green fees, booking
+  requirements, and how non-members can access Japan's legendary Olympic venue.
+title: 'Kasumigaseki Country Club: Visitor Access, Fees & How to Play'
 lat: '35.8569'
 lng: '139.3814'
 categories: 프라이빗 클럽, 공개 토너먼트, 올림픽 개최지
@@ -12,9 +12,10 @@ address: 사이타마현 가와고에시
 date: '2026-07-12'
 booking: /booking/kasumigaseki_country_club_ko
 summary: 올림픽 개최 프라이빗 명문. 일반 방문자가 거의 못 치는 이유, 게스트 경로, 현실적인 대안.
-description: Can visitors play the prestigious Kasumigaseki Country Club? Discover
-  booking rules, guest access fees, and top nearby alternatives in Japan.
+description: Can you play Kasumigaseki Country Club? Discover green fees, booking
+  requirements, and how non-members can access Japan's legendary Olympic venue.
 ---
+
 
 
 사이타마 가와고에의 **가스미가세키 컨트리 클럽**은 일본에서도 손꼽히는 **프라이빗 명문**이자 **올림픽 골프 개최지**입니다. 그 명성 때문에 **대부분의 여행자는 티타임을 얻지 못합니다.**

@@ -8,13 +8,14 @@ summary: Experience world-class golf in Miyazaki, Japan, a region renowned for i
   inspire. This guide unveils the best golf courses in Miyazaki, offering insights
   into their unique features, historical significance, and accessibility for international
   golfers.
-title: 'Play Like a Pro: Miyazaki''s Championship Golf Courses'
-description: Play Japan's elite pro tour venues. Explore the best Miyazaki golf courses,
-  including championship tournament hosts. Plan your golf trip today.
-seo_title: 'Best Miyazaki Golf Courses: Play Pro Tour Venues | OK Caddie'
-seo_description: Discover Miyazaki's top championship golf courses, home to Japan's
-  legendary pro tournaments. Plan your perfect Miyazaki golf trip with OK Caddie.
+title: 'Miyazaki Golf Guide: Play Japan''s Best Championship Courses'
+description: Experience world-class golf in Miyazaki, Japan. Discover the legendary
+  championship courses and pro tour venues that host Japan's top tournaments.
+seo_title: 'Golf in Miyazaki: Best Championship & Pro Tour Courses'
+seo_description: Explore the best golf courses in Miyazaki, Japan. Play legendary
+  pro tour venues like Phoenix CC. Plan your ultimate golf trip with OK Caddie.
 ---
+
 
 
 ## Tee Off in Paradise: Your Guide to Miyazaki's Pro-Level Golf Courses

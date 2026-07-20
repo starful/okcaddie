@@ -9,13 +9,15 @@ lng: '140.1156'
 summary: 타카노다이 컨트리클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 코스 전략, 유구한 역사, 그리고 최고급 시설까지 모든 것을
   담았습니다.
 thumbnail: /static/images/takanodai_country_club.jpg
-title: Takanodai Country Club, Chiba
-description: Want to play Takanodai Country Club in Chiba? Discover green fees, booking
-  options, course tips, and access for this legendary Japan Open host.
-seo_title: Takanodai Country Club (Chiba) | Green Fees & Booking Guide
-seo_description: Want to play Takanodai Country Club in Chiba? Discover green fees,
-  booking options, course tips, and access for this legendary Japan Open host.
+title: 'Takanodai Country Club: Visitor Booking & Course Guide'
+description: An insider's guide to playing Takanodai Country Club in Chiba. Discover
+  how to secure a tee time, visitor green fees, and what to expect at this prestigious
+  Japan Open host.
+seo_title: 'How to Play Takanodai Country Club: Booking Guide & Fees'
+seo_description: Can you play the exclusive Takanodai Country Club? Find out how to
+  book a tee time, visitor green fees, and rules for this elite Chiba course.
 ---
+
 
 
 

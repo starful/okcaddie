@@ -1,8 +1,9 @@
 ---
 lang: ko
-seo_title: 더 마스터즈 아마쿠사 코스 예약·그린피·접근 | OKCaddie
-seo_description: 구마모토 아마쿠사 마스터즈 코스 실전 가이드. 요금 참고, 예약, 오션 뷰 팁, 아마쿠사·구마모토 접근.
-title: 더 마스터즈 아마쿠사 코스 — 티타임·요금·방문자 가이드
+seo_title: 'The Masters Amakusa Course: Booking, Fees & Tee Times'
+seo_description: Book your tee time at The Masters Amakusa Course in Kumamoto. Get
+  green fees, visitor booking guides, and course reviews. Plan your perfect round!
+title: The Masters Amakusa Course
 lat: '32.4844'
 lng: '130.1556'
 categories: 챔피언십 코스, 오션 뷰, 럭셔리 골프, 골프와 스파, 고메 다이닝
@@ -11,8 +12,10 @@ address: 구마모토현 아마쿠사시
 date: '2026-07-12'
 booking: /booking/the_masters_amakusa_course_ko
 summary: 아마쿠사 오션 뷰 골프. 예약·요금 참고, 바람 팁, 구마모토 시내에서 실제 거리.
-description: 더 마스터즈 아마쿠사 코스 실전 가이드. 티타임, 그린피, 스파·숙박, 접근.
+description: Book your tee time at The Masters Amakusa Course in Kumamoto. Get green
+  fees, visitor booking guides, and course reviews. Plan your perfect round!
 ---
+
 
 **더 마스터즈 아마쿠사 코스**는 구마모토 **아마쿠사 오션 뷰** 목적지입니다. 구마모토성 오전 관광 뒤에 잠깐 넣는 라운드가 아니라, 해안 경관과 리조트형 하루를 목적으로 잡을 때 맞습니다.
 
