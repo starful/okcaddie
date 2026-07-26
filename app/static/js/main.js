@@ -7,10 +7,27 @@ let state = {
     allCourses: [],
     currentLang: window.CURRENT_LANG || new URLSearchParams(window.location.search).get('lang') || 'en',
     activeTheme: 'all',
+    query: '',
     map: null,
     markers: [],
     infoWindow: null
 };
+
+function baseIdOf(course) {
+    if (course.base_id) return course.base_id;
+    return String(course.id || '').replace(/_(en|ko)$/, '');
+}
+
+function matchesQuery(course, q) {
+    if (!q) return true;
+    const hay = [
+        course.title,
+        course.summary,
+        course.address,
+        ...(course.categories || []),
+    ].join(' ').toLowerCase();
+    return hay.includes(q);
+}
 
 // 언어별 공통 텍스트
 const i18n = {
@@ -99,11 +116,12 @@ async function fetchCourses() {
  * 3. 메인 화면 렌더링 (지도 + 리스트)
  */
 function renderApp() {
+    const q = (state.query || '').trim().toLowerCase();
     // 선택된 언어와 카테고리에 맞는 데이터 필터링
     const filtered = sortByPublishedDesc(state.allCourses.filter(c => {
         const langMatch = c.lang === state.currentLang;
         const themeMatch = state.activeTheme === 'all' || c.categories.includes(state.activeTheme);
-        return langMatch && themeMatch;
+        return langMatch && themeMatch && matchesQuery(c, q);
     }));
 
     updateMarkers(filtered);
@@ -172,10 +190,13 @@ function updateList(courses) {
     const listContainer = document.getElementById('course-list');
     if (!listContainer) return;
 
+    const cmpAdd = state.currentLang === 'ko' ? '+ 비교' : '+ Compare';
+    const cmpOn = state.currentLang === 'ko' ? '✓ 비교 중' : '✓ Comparing';
     listContainer.innerHTML = courses.map(c => {
         const isNew = !!c.is_new;
+        const bid = baseIdOf(c);
         return `
-        <article class="course-card${isNew ? ' is-new' : ''}">
+        <article class="course-card${isNew ? ' is-new' : ''}" data-compare-card="${bid}">
             <a href="${c.link}" class="course-card-link">
                 <div class="card-visual">
                     <img src="${c.thumbnail}" class="card-thumb" alt="${c.title}" loading="lazy">
@@ -183,12 +204,15 @@ function updateList(courses) {
                 </div>
                 <div class="card-content">
                     <div class="card-title">${c.title}</div>
-                    <p style="font-size:0.9rem; color:#666;">${c.summary.substring(0, 100)}...</p>
+                    <p style="font-size:0.9rem; color:#666;">${(c.summary || '').substring(0, 100)}...</p>
                     ${formatPublished(c.published) ? `<span class="published-date">📅 ${formatPublished(c.published)}</span>` : ''}
                 </div>
             </a>
+            <button type="button" class="compare-toggle-btn" data-compare-id="${bid}"
+                data-label-default="${cmpAdd}" data-label-selected="${cmpOn}">${cmpAdd}</button>
         </article>`;
     }).join('');
+    if (window.OKCompare) window.OKCompare.syncCompareUI();
 }
 
 /**
@@ -228,6 +252,9 @@ function setupEventListeners() {
             // 버튼 활성화 클래스 토글
             document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
+
+            if (window.OK_COMPARE) window.OK_COMPARE.lang = state.currentLang;
+            if (window.OKCompare) window.OKCompare.syncCompareUI();
             
             // UI 업데이트 함수 호출 (중복 제거)
             updateLanguageUI();
@@ -247,6 +274,14 @@ function setupEventListeners() {
             renderApp();
         });
     });
+
+    const searchInput = document.getElementById('map-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', () => {
+            state.query = searchInput.value || '';
+            renderApp();
+        });
+    }
 
     // 코스 카드 클릭 → GA4 (광고 전환·퍼널 분석)
     const listContainer = document.getElementById('course-list');

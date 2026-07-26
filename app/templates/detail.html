@@ -116,6 +116,13 @@
         <!-- 상단 헤더: 제목 및 메타 정보 -->
         <header class="detail-header" style="text-align: center; margin-bottom: 40px;">
             <h1 class="detail-title" style="margin-bottom: 15px; line-height: 1.2; word-break: keep-all;">{{ post.title }}</h1>
+            <button type="button"
+                class="compare-toggle-btn detail-compare-btn"
+                data-compare-id="{{ post.base_id }}"
+                data-label-default="{{ '+ 비교' if is_ko else '+ Compare' }}"
+                data-label-selected="{{ '✓ 비교 중' if is_ko else '✓ Comparing' }}">
+                {{ '+ 비교' if is_ko else '+ Compare' }}
+            </button>
             <div class="detail-meta" style="color: #666; font-size: 0.95rem;">
                 <span>📍 {{ post.address }}</span> | 
                 <span>🏷️ {{ post.categories|join(', ') if post.categories is iterable else post.categories }}</span>

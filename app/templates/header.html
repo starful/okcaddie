@@ -17,19 +17,28 @@
             </div>
             
             <!-- 우측 언어 버튼 -->
-            <div class="header-right lang-selector">
+            <div class="header-right lang-selector" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end;">
                 {% if post and post.id %}
                     {% set base_id = post.base_id or (post.id | replace('_ko', '') | replace('_en', '')) %}
                     {% set path_prefix = '/guide/' if request.path.startswith('/guide') else '/course/' %}
                     <a href="{{ path_prefix }}{{ base_id }}?lang=ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}">KO</a>
                     <a href="{{ path_prefix }}{{ base_id }}" class="lang-btn {{ 'active' if active_lang == 'en' }}">EN</a>
                 {% else %}
-                    <a href="{% if request.path == '/courses' %}/courses?lang=ko{% if request.args.get('page') and request.args.get('page') != '1' %}&page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/?lang=ko{% elif request.path == '/guide' %}/guide?lang=ko{% elif request.path == '/about' or request.path == '/about.html' %}/about?lang=ko{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy?lang=ko{% else %}?lang=ko{% endif %}" class="lang-btn {{ 'active' if active_lang == 'ko' }}" data-lang="ko">KO</a>
-                    <a href="{% if request.path == '/courses' %}/courses{% if request.args.get('page') and request.args.get('page') != '1' %}?page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/{% elif request.path == '/guide' %}/guide{% elif request.path == '/about' or request.path == '/about.html' %}/about{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy{% else %}?lang=en{% endif %}" class="lang-btn {{ 'active' if active_lang == 'en' }}" data-lang="en">EN</a>
+                    <a href="{% if request.path == '/courses' %}/courses?lang=ko{% if request.args.get('page') and request.args.get('page') != '1' %}&page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/?lang=ko{% elif request.path == '/guide' %}/guide?lang=ko{% elif request.path == '/compare' %}/compare?lang=ko{% elif request.path == '/about' or request.path == '/about.html' %}/about?lang=ko{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy?lang=ko{% else %}?lang=ko{% endif %}" class="lang-btn {{ 'active' if active_lang == 'ko' }}" data-lang="ko">KO</a>
+                    <a href="{% if request.path == '/courses' %}/courses{% if request.args.get('page') and request.args.get('page') != '1' %}?page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/{% elif request.path == '/guide' %}/guide{% elif request.path == '/compare' %}/compare{% elif request.path == '/about' or request.path == '/about.html' %}/about{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy{% else %}?lang=en{% endif %}" class="lang-btn {{ 'active' if active_lang == 'en' }}" data-lang="en">EN</a>
                 {% endif %}
+                <a href="/compare?lang={{ active_lang or 'en' }}" class="header-compare-btn" data-compare-open>
+                    {{ '비교' if active_lang == 'ko' else 'Compare' }}
+                    <span class="header-compare-badge" data-compare-count>0</span>
+                </a>
             </div>
         </div>
         {% if request.path == '/' %}
+        <div class="map-search-wrap">
+            <input type="search" id="map-search" class="map-search-input"
+                   placeholder="{{ '코스·지역·테마 검색…' if active_lang == 'ko' else 'Search courses, area, theme…' }}"
+                   autocomplete="off">
+        </div>
         <div class="theme-filter-container">
             <div class="theme-filter-buttons">
                 <button type="button" class="theme-button active" data-theme="all" data-en="All" data-ko="전체">
