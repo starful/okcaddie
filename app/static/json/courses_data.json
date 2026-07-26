@@ -1,6 +1,63 @@
 {
-  "last_updated": "2026.07.19",
+  "last_updated": "2026.07.26",
   "courses": [
+    {
+      "id": "miyazaki_tom_watson_night_ko",
+      "base_id": "miyazaki_tom_watson_night",
+      "lang": "ko",
+      "title": "No Title",
+      "lat": 31.9644,
+      "lng": 131.4656,
+      "categories": [
+        "Night Golf",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/miyazaki_tom_watson_night.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-07-26",
+      "summary": "본문 초안 작성을 마쳤고, 길이 기준(3,000자 이상)을 여유 있게 넘기도록 일부 섹션을 보강했습니다. 이 세션에서는 파일 쓰기·bash 실행 권한이 자동 승인되지 않아 저장소에 직접 저장하지는 못했고, 완성된 마...",
+      "booking": "/booking/miyazaki_tom_watson_night_en",
+      "link": "/course/miyazaki_tom_watson_night?lang=ko"
+    },
+    {
+      "id": "miyazaki_tom_watson_night_en",
+      "base_id": "miyazaki_tom_watson_night",
+      "lang": "en",
+      "title": "Miyazaki Tom Watson Night",
+      "lat": 31.9644,
+      "lng": 131.4656,
+      "categories": [
+        "Night Golf",
+        "Premium / Luxury",
+        "Resort"
+      ],
+      "thumbnail": "/static/images/miyazaki_tom_watson_night.jpg",
+      "address": "Miyazaki, Miyazaki",
+      "published": "2026-07-26",
+      "summary": "Floodlit resort golf in Miyazaki with weekday and weekend fee ranges — check live pricing and book at /booking/miyazaki_tom_watson_night_en.",
+      "booking": "/booking/miyazaki_tom_watson_night_en",
+      "link": "/course/miyazaki_tom_watson_night"
+    },
+    {
+      "id": "hokkaido_brooks_golf_en",
+      "base_id": "hokkaido_brooks_golf",
+      "lang": "en",
+      "title": "Hokkaido Brooks Golf",
+      "lat": 42.8144,
+      "lng": 141.7156,
+      "categories": [
+        "Premium / Luxury",
+        "Championship",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/hokkaido_brooks_golf.jpg",
+      "address": "Tomakomai, Hokkaido",
+      "published": "2026-07-26",
+      "summary": "Forest championship golf near Tomakomai with a short summer window; check live rates and tee times before booking.",
+      "booking": "/booking/hokkaido_brooks_golf_en",
+      "link": "/course/hokkaido_brooks_golf"
+    },
     {
       "id": "wakayama_golf_club_ko",
       "base_id": "wakayama_golf_club",
@@ -79,7 +136,7 @@
       "id": "the_masters_amakusa_course_ko",
       "base_id": "the_masters_amakusa_course",
       "lang": "ko",
-      "title": "더 마스터즈 아마쿠사 코스",
+      "title": "The Masters Amakusa Course",
       "lat": 32.4844,
       "lng": 130.1556,
       "categories": [
@@ -387,7 +444,7 @@
       "id": "keya_golf_club_ko",
       "base_id": "keya_golf_club",
       "lang": "ko",
-      "title": "Keya Golf Club, Fukuoka",
+      "title": "Keya Golf Club",
       "lat": 33.6044,
       "lng": 130.1356,
       "categories": [
@@ -636,7 +693,7 @@
       "id": "aso_resort_grandvrio_en",
       "base_id": "aso_resort_grandvrio",
       "lang": "en",
-      "title": "Aso Resort Grandvrio Golf",
+      "title": "Aso Resort Grandvrio Golf Club",
       "lat": 32.9644,
       "lng": 131.0256,
       "categories": [
@@ -2750,7 +2807,7 @@
       "id": "takanodai_country_club_ko",
       "base_id": "takanodai_country_club",
       "lang": "ko",
-      "title": "Takanodai Country Club, Chiba",
+      "title": "Takanodai Country Club",
       "lat": 35.6844,
       "lng": 140.1156,
       "categories": [
@@ -2906,7 +2963,7 @@
       "id": "suwa_lake_view_golf_club_ko",
       "base_id": "suwa_lake_view_golf_club",
       "lang": "ko",
-      "title": "Suwa Lake View Golf Club",
+      "title": "Suwa Lake View Golf Club, Nagano",
       "lat": 36.0144,
       "lng": 138.1556,
       "categories": [
@@ -4279,7 +4336,7 @@
       "id": "miyoshi_country_club_en",
       "base_id": "miyoshi_country_club",
       "lang": "en",
-      "title": "Miyoshi Country Club (Aichi) | Tee Times & Booking Guide | OK Caddie",
+      "title": "Miyoshi Country Club (Aichi) Golf Booking Guide",
       "lat": 35.0944,
       "lng": 137.0856,
       "categories": [
@@ -4530,7 +4587,7 @@
       "id": "kumamoto_airport_country_club_en",
       "base_id": "kumamoto_airport_country_club",
       "lang": "en",
-      "title": "Kumamoto Airport Country Club Guide",
+      "title": "Kumamoto Airport Country Club",
       "lat": 32.8444,
       "lng": 130.8656,
       "categories": [
@@ -6015,7 +6072,7 @@
       "id": "cherry_hills_robert_trent_jones_ko",
       "base_id": "cherry_hills_robert_trent_jones",
       "lang": "ko",
-      "title": "Cherry Hills Golf Club (Robert Trent Jones Jr.)",
+      "title": "Cherry Hills Golf Club (Robert Trent Jones Jr. Design)",
       "lat": 34.7844,
       "lng": 135.0756,
       "categories": [

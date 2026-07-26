@@ -18,7 +18,6 @@ sys.path.insert(0, SCRIPT_DIR)
 sys.path.insert(0, APP_DIR)
 
 from course_generator import (  # noqa: E402
-    client,
     CONTENT_DIR,
     clean_generated_markdown,
 )
@@ -27,6 +26,17 @@ from course_prompts import MIN_BODY_CHARS, build_course_prompt  # noqa: E402
 from text_utils import humanize_title  # noqa: E402
 
 SEO_KEYS = ("seo_title", "seo_description")
+
+
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
 
 
 def body_length(path: str) -> int:
@@ -103,11 +113,8 @@ def generate_medium(data: dict, *, min_chars: int = MIN_BODY_CHARS) -> int:
                 f"Write at least {min_chars} characters of useful trip-planning detail "
                 f"(Quick Facts → Fees/Booking → Access). No masterclass filler."
             )
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt + extra,
-        )
-        candidate = clean_generated_markdown(response.text.strip())
+        response_text = _claude_md(prompt)
+        candidate = clean_generated_markdown(response_text.strip())
 
         if data.get("seo"):
             post = frontmatter.loads(candidate)
@@ -161,7 +168,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     p.add_argument("--min-chars", type=int, default=MIN_BODY_CHARS, help=f"Body length threshold (default {MIN_BODY_CHARS})")
     p.add_argument("--lang", default="en,ko", help="Comma-separated langs to scan/expand (default en,ko)")
-    p.add_argument("--dry-run", action="store_true", help="List targets only; do not call Gemini")
+    p.add_argument("--dry-run", action="store_true", help="List targets only; do not call Claude")
     p.add_argument("--workers", type=int, default=DEFAULT_WORKERS, help=f"Parallel API workers (default {DEFAULT_WORKERS})")
     return p.parse_args(argv)
 

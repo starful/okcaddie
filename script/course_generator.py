@@ -1,7 +1,6 @@
 import os, csv, time, sys, re
 import concurrent.futures
 from datetime import datetime
-from google import genai
 from dotenv import load_dotenv
 import frontmatter
 
@@ -20,15 +19,16 @@ def _emit_pipeline_result(**kwargs):
 # ⚙️ 설정 (Configuration)
 # ==========================================
 load_dotenv()
-try:
-    from google.genai import types as genai_types
 
-    client = genai.Client(
-        api_key=os.environ.get("GEMINI_API_KEY"),
-        http_options=genai_types.HttpOptions(timeout=180_000),  # 3 min / call
-    )
-except Exception:
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
 
 CSV_PATH = 'script/csv/courses.csv'
 CONTENT_DIR = "app/content"
@@ -112,7 +112,7 @@ def _safe(row, *keys):
 
 
 def generate_course_task(data):
-    """실제 Gemini API를 호출하여 코스 리뷰를 생성하는 워커 함수"""
+    """실제 Claude API를 호출하여 코스 리뷰를 생성하는 워커 함수"""
     safe_name = data['safe_name']
     lang = data['lang']
     filepath = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
@@ -147,11 +147,8 @@ def generate_course_task(data):
                     "## Quick Facts, ## Course Overview, ## Green Fees & Booking, ## Access. "
                     "Do not use masterclass / elite-caddy voice."
                 )
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt + extra,
-            )
-            content = clean_generated_markdown(response.text.strip())
+            response_text = _claude_md(prompt)
+            content = clean_generated_markdown(response_text.strip())
             post = frontmatter.loads(content)
             body = post.content.strip()
             body_len = len(body)

@@ -3,7 +3,6 @@ import concurrent.futures
 from datetime import datetime
 
 import frontmatter
-from google import genai
 from dotenv import load_dotenv
 
 from content_quality import (
@@ -25,15 +24,16 @@ def _emit_pipeline_result(**kwargs):
 
 # 설정 로드
 load_dotenv()
-try:
-    from google.genai import types as genai_types
 
-    client = genai.Client(
-        api_key=os.environ.get("GEMINI_API_KEY"),
-        http_options=genai_types.HttpOptions(timeout=180_000),
-    )
-except Exception:
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
 
 GUIDE_CSV = 'script/csv/guides.csv'
 
@@ -54,7 +54,7 @@ def clean_guide_markdown(content: str) -> str:
 
 
 def task_worker(topic_id, topic_name, lang, keywords):
-    """실제 Gemini API를 호출하여 파일을 생성하는 워커 함수"""
+    """실제 Claude API를 호출하여 파일을 생성하는 워커 함수"""
     filepath = os.path.join(CONTENT_DIR, f"{topic_id}_{lang}.md")
 
     if is_blocked_guide_id(topic_id):
@@ -89,11 +89,8 @@ def task_worker(topic_id, topic_name, lang, keywords):
                     + "; ".join(quality_errors)
                     + ". Fix those issues. Keep Quick Facts → Steps → Bottom Line."
                 )
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt + extra,
-            )
-            content = clean_guide_markdown(response.text)
+            response_text = _claude_md(prompt)
+            content = clean_guide_markdown(response_text)
             if content == "SKIP_NOT_GOLF":
                 return f"⏭️  Skip not-golf topic: {topic_id}_{lang} ({topic_name})"
 
