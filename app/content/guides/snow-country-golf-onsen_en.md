@@ -26,30 +26,30 @@ There's a specific kind of golf trip that exists mostly in Japan's colder prefec
 
 Hokkaido's golf season is the shortest in Japan, which makes the courses that do operate feel genuinely seasonal and special.
 
-*   **[Hokkaido Brooks Golf](/course/hokkaido_brooks_golf_en)** — A championship forest course near Tomakomai with a notably short summer window; book with the season's tight calendar in mind.
-*   **[Hokkaido Classic Golf Club](/course/hokkaido_classic_golf_club_en)** — A Jack Nicklaus-designed forest course in Abira, one of the region's more premium options.
-*   **[Otaru Golf Club](/course/otaru_golf_club_en)** — A historic seaside-links course near the port city of Otaru, designed by Seiichi Inoue.
-*   **[Sapporo Country Club](/course/sapporo_country_club_en)** and **[Eniwa Country Club](/course/eniwa_country_club_en)** — Both convenient to New Chitose Airport, useful anchor points for a Hokkaido golf-and-onsen trip that also includes Sapporo or the Jozankei/Noboribetsu onsen areas nearby.
+*   **[Hokkaido Brooks Golf](/course/hokkaido_brooks_golf)** — A championship forest course near Tomakomai with a notably short summer window; book with the season's tight calendar in mind.
+*   **[Hokkaido Classic Golf Club](/course/hokkaido_classic_golf_club)** — A Jack Nicklaus-designed forest course in Abira, one of the region's more premium options.
+*   **[Otaru Golf Club](/course/otaru_golf_club)** — A historic seaside-links course near the port city of Otaru, designed by Seiichi Inoue.
+*   **[Sapporo Country Club](/course/sapporo_country_club)** and **[Eniwa Country Club](/course/eniwa_country_club)** — Both convenient to New Chitose Airport, useful anchor points for a Hokkaido golf-and-onsen trip that also includes Sapporo or the Jozankei/Noboribetsu onsen areas nearby.
 
 ## Tohoku: Aomori, Iwate & Fukushima
 
 Tohoku's mountain courses sit closest to some of Japan's most storied onsen towns.
 
-*   **[Towada Highland Golf Club](/course/towada_highland_golf_club_en)** — A scenic mountain-style course in Towada, Aomori, within range of the Towada-Hachimantai onsen region.
-*   **[Shizukuishi Golf Course](/course/shizukuishi_golf_course_en)** — Located in Shizukuishi, Iwate, near the base of Mount Iwate and its surrounding hot spring villages.
-*   **[Fukushima Golf Club](/course/fukushima_golf_club_en)** — A mountain-style course in Fukushima City with easy access to the prefecture's many onsen towns.
-*   **[Spa Resort Hawaiians Golf](/course/spa_resort_hawaiians_golf_en)** — In Iwaki, Fukushima, this course is directly attached to one of Japan's largest indoor onsen resort complexes — about as literal a golf-onsen pairing as exists in the country.
+*   **[Towada Highland Golf Club](/course/towada_highland_golf_club)** — A scenic mountain-style course in Towada, Aomori, within range of the Towada-Hachimantai onsen region.
+*   **[Shizukuishi Golf Course](/course/shizukuishi_golf_course)** — Located in Shizukuishi, Iwate, near the base of Mount Iwate and its surrounding hot spring villages.
+*   **[Fukushima Golf Club](/course/fukushima_golf_club)** — A mountain-style course in Fukushima City with easy access to the prefecture's many onsen towns.
+*   **[Spa Resort Hawaiians Golf](/course/spa_resort_hawaiians_golf)** — In Iwaki, Fukushima, this course is directly attached to one of Japan's largest indoor onsen resort complexes — about as literal a golf-onsen pairing as exists in the country.
 
 ## Nagano & Nasu: Snow-Country Golf Closer to Tokyo
 
 You don't have to travel all the way to Hokkaido for the snow-country feel; Nagano and Tochigi's mountain towns deliver a similar experience within a few hours of Tokyo.
 
-*   **[Karuizawa Asama Golf Course](/course/karuizawa_asama_golf_course_en)** — In Karuizawa, Nagano, a highland resort town long associated with cooler-weather escapes and, in winter, snow.
-*   **[Nasu Ogawa Golf Club](/course/nasu_ogawa_golf_club_en)** — Tagged directly as "Onsen Golf" in Nasu, Tochigi — a strategic course in one of Kanto's most established hot spring resort towns, and popular with imperial family visits historically.
+*   **[Karuizawa Asama Golf Course](/course/karuizawa_asama_golf_course)** — In Karuizawa, Nagano, a highland resort town long associated with cooler-weather escapes and, in winter, snow.
+*   **[Nasu Ogawa Golf Club](/course/nasu_ogawa_golf_club)** — Tagged directly as "Onsen Golf" in Nasu, Tochigi — a strategic course in one of Kanto's most established hot spring resort towns, and popular with imperial family visits historically.
 
 ## A Note on Beppu (Kyushu's Onsen Capital)
 
-Not every golf-onsen pairing in Japan requires cold weather. In the far south, **[Beppu Golf Club](/course/beppu_golf_club_en)** in Oita sits in Japan's single most famous onsen city — a useful reminder that the "golf then onsen" rhythm works in a mild climate too, if snow country isn't on your route this trip.
+Not every golf-onsen pairing in Japan requires cold weather. In the far south, **[Beppu Golf Club](/course/beppu_golf_club)** in Oita sits in Japan's single most famous onsen city — a useful reminder that the "golf then onsen" rhythm works in a mild climate too, if snow country isn't on your route this trip.
 
 ## Planning Your Snow Country Golf-Onsen Trip
 

@@ -12,11 +12,19 @@ from flask import Blueprint, abort, jsonify, redirect, render_template, request
 
 try:
     from ..badges import enrich_item
-    from ..config import AREA_MAP, FAMILY_SITE_ID, GUIDE_RELATED_COURSES, SITE_URL, SUPPORTED_LANGS
+    from ..config import (
+        AREA_MAP,
+        FAMILY_SITE_ID,
+        GUIDE_RELATED_COURSES,
+        RETIRED_COURSE_REDIRECTS,
+        RETIRED_GUIDE_REDIRECTS,
+        SITE_URL,
+        SUPPORTED_LANGS,
+    )
     from ..course_content import load_course_post_file
     from ..data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
     from ..family_sites import cross_links_for, inject_family_context
-    from ..ids import extract_prefecture, resolve_course_id, split_localized_id
+    from ..ids import extract_prefecture, resolve_course_id, resolve_guide_id, split_localized_id
     from ..paths import CONTENT_DIR
     from ..text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from ..view_helpers import (
@@ -32,11 +40,19 @@ try:
     )
 except ImportError:
     from badges import enrich_item
-    from config import AREA_MAP, FAMILY_SITE_ID, GUIDE_RELATED_COURSES, SITE_URL, SUPPORTED_LANGS
+    from config import (
+        AREA_MAP,
+        FAMILY_SITE_ID,
+        GUIDE_RELATED_COURSES,
+        RETIRED_COURSE_REDIRECTS,
+        RETIRED_GUIDE_REDIRECTS,
+        SITE_URL,
+        SUPPORTED_LANGS,
+    )
     from course_content import load_course_post_file
     from data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
     from family_sites import cross_links_for, inject_family_context
-    from ids import extract_prefecture, resolve_course_id, split_localized_id
+    from ids import extract_prefecture, resolve_course_id, resolve_guide_id, split_localized_id
     from paths import CONTENT_DIR
     from text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from view_helpers import (
@@ -124,11 +140,29 @@ def courses_index():
     )
 
 
+def _lang_aware_redirect(dest: str, lang: str):
+    if lang == "ko" and "?" not in dest:
+        dest = f"{dest}?lang=ko"
+    elif lang == "ko" and "lang=" not in dest:
+        dest = f"{dest}&lang=ko"
+    return redirect(dest, code=301)
+
+
 @courses_bp.route("/course/<course_ref>")
 def course_detail(course_ref):
     base_id, legacy_lang = split_localized_id(course_ref)
+
+    lang = (legacy_lang or request.args.get("lang", "en")).strip().lower()
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
+
+    retired_target = RETIRED_COURSE_REDIRECTS.get(base_id)
+    if retired_target:
+        return _lang_aware_redirect(retired_target, lang)
+
     if legacy_lang:
-        return redirect(f"/course/{base_id}?lang={legacy_lang}", code=301)
+        dest = f"/course/{base_id}" + (f"?lang={legacy_lang}" if legacy_lang != "en" else "")
+        return redirect(dest, code=301)
 
     lang = request.args.get("lang", "en").strip().lower()
     if lang not in SUPPORTED_LANGS:
@@ -228,11 +262,24 @@ def course_detail(course_ref):
 def course_social_card(course_ref):
     base_id, legacy_lang = split_localized_id(course_ref)
     if legacy_lang:
-        return redirect(f"/card/{base_id}?lang={legacy_lang}", code=301)
+        dest = f"/card/{base_id}" + (f"?lang={legacy_lang}" if legacy_lang != "en" else "")
+        return redirect(dest, code=301)
 
     lang = request.args.get("lang", "en").strip().lower()
     if lang not in SUPPORTED_LANGS:
         lang = "en"
+
+    retired_target = RETIRED_COURSE_REDIRECTS.get(base_id)
+    if retired_target:
+        return _lang_aware_redirect(retired_target, lang)
+
+    # Mislinked guide IDs under /card/ → canonical guide page (or retired target).
+    guide_retired = RETIRED_GUIDE_REDIRECTS.get(base_id)
+    if guide_retired:
+        return _lang_aware_redirect(guide_retired, lang)
+    if not resolve_course_id(base_id, lang) and resolve_guide_id(base_id, lang):
+        dest = f"/guide/{base_id}"
+        return _lang_aware_redirect(dest, lang)
 
     course_id = resolve_course_id(base_id, lang)
     if not course_id:
@@ -263,10 +310,24 @@ def course_social_card(course_ref):
     )
 
 
+def _noindex_redirect(url: str, code: int = 302):
+    response = redirect(url, code=code)
+    response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    return response
+
+
 @courses_bp.route("/booking/<course_id>")
 def booking_redirect(course_id):
     area_code = 0
+    base_id, _legacy = split_localized_id(course_id)
     md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
+    if not os.path.exists(md_path):
+        # Accept bare base_id or wrong-suffix IDs from old share links.
+        for candidate in (f"{base_id}_en", f"{base_id}_ko"):
+            alt = os.path.join(CONTENT_DIR, f"{candidate}.md")
+            if os.path.exists(alt):
+                md_path = alt
+                break
 
     if os.path.exists(md_path):
         with open(md_path, "r", encoding="utf-8") as f:
@@ -297,7 +358,7 @@ def booking_redirect(course_id):
         + "&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
     )
 
-    return redirect(final_url)
+    return _noindex_redirect(final_url)
 
 
 @courses_bp.route("/travel/<item_type>/<course_id>")
@@ -310,4 +371,4 @@ def travel_redirect(item_type, course_id):
         "esim": "https://klook.tpo.mx/OBHJbySq" if is_ko else "https://klook.tpo.mx/696NKlPT",
         "guide": "https://klook.tpo.mx/470RSray",
     }
-    return redirect(links.get(item_type, "https://klook.tpo.mx/470RSray"))
+    return _noindex_redirect(links.get(item_type, "https://klook.tpo.mx/470RSray"))

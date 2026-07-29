@@ -65,7 +65,7 @@ description: Can you play Kasumigaseki Country Club? Discover green fees, bookin
 
 - 보수적 프라이빗 복장, 소프트 스파이크, 캐주얼 애슬레저 불가
 - 핸디캡·소개 서류 요청 가능—호스트가 말한 것을 지참
-- 유사 배타성: [히로노](/course/hirono_golf_club_ko) · [도쿄 GC](/course/tokyo_golf_club_ko) · [고가네이](/course/koganei_golf_club_ko)
+- 유사 배타성: [히로노](/course/hirono_golf_club?lang=ko) · [도쿄 GC](/course/tokyo_golf_club?lang=ko) · [고가네이](/course/koganei_golf_club?lang=ko)
 - 예약 가능 계획: [도쿄 근교 골프](/guide/tokyo-near-golf?lang=ko) · [럭셔리 골프](/guide/luxury-golf-experience?lang=ko)
 
 ## 정리

@@ -65,7 +65,7 @@ description: Book your tee time at The Masters Amakusa Course in Kumamoto. Get g
 
 - 카라 셔츠, 테일러드 하의, 소프트 스파이크
 - 노출 홀용 바람막이·선크림
-- 관련: [아소 그랑비리오](/course/aso_resort_grandvrio_ko) · [예약 팁](/guide/booking-tips-japan?lang=ko)
+- 관련: [아소 그랑비리오](/course/aso_resort_grandvrio?lang=ko) · [예약 팁](/guide/booking-tips-japan?lang=ko)
 
 ## 정리
 

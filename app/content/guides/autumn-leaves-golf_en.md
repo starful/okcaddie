@@ -37,9 +37,9 @@ Here's a curated selection of the most scenic golf courses in Japan celebrated f
 
 **Hokkaido:**
 
-*   **[Sapporo Golf Club Wattsu Course](/course/sapporo_golf_club_wattsu_course_en) (札幌ゴルフ倶楽部輪厚コース):** Located near Sapporo, this prestigious course is known for its meticulously maintained fairways and challenging layout. The surrounding forests explode in vibrant colors during autumn, creating a breathtaking backdrop for your game. The course features strategically placed bunkers and water hazards, demanding precision and skill.
+*   **[Sapporo Golf Club Wattsu Course](/course/sapporo_golf_club_wattsu_course) (札幌ゴルフ倶楽部輪厚コース):** Located near Sapporo, this prestigious course is known for its meticulously maintained fairways and challenging layout. The surrounding forests explode in vibrant colors during autumn, creating a breathtaking backdrop for your game. The course features strategically placed bunkers and water hazards, demanding precision and skill.
 
-*   **[The North Country Golf Club](/course/the_north_country_golf_club_en) (ザ・ノースカントリーゴルフクラブ):** Designed by Jack Nicklaus, this course offers a challenging and rewarding experience amidst the stunning Hokkaido landscape. During autumn, the surrounding birch and maple forests turn into a fiery display of color, enhancing the beauty of the course. It is renowned for its length and strategic bunkering.
+*   **[The North Country Golf Club](/course/the_north_country_golf_club) (ザ・ノースカントリーゴルフクラブ):** Designed by Jack Nicklaus, this course offers a challenging and rewarding experience amidst the stunning Hokkaido landscape. During autumn, the surrounding birch and maple forests turn into a fiery display of color, enhancing the beauty of the course. It is renowned for its length and strategic bunkering.
 
 **Tohoku:**
 
@@ -61,15 +61,15 @@ Here's a curated selection of the most scenic golf courses in Japan celebrated f
 
 **Kansai:**
 
-*   **[Arima Royal Golf Club](/course/arima_royal_golf_club_en) (有馬ロイヤルゴルフクラブ):** Located near the historic Arima Onsen, this course offers stunning views of the surrounding mountains. The autumn foliage enhances the beauty of the landscape, creating a picturesque setting for a round of golf. Enjoy a hot spring bath after your round.
+*   **[Arima Royal Golf Club](/course/arima_royal_golf_club) (有馬ロイヤルゴルフクラブ):** Located near the historic Arima Onsen, this course offers stunning views of the surrounding mountains. The autumn foliage enhances the beauty of the landscape, creating a picturesque setting for a round of golf. Enjoy a hot spring bath after your round.
 
-*   **[Takarazuka Golf Club](/course/takarazuka_golf_club_en) (宝塚ゴルフ倶楽部):** One of the oldest golf clubs in Japan, this course is steeped in history and tradition. The surrounding forests provide a beautiful backdrop for your game, especially during autumn when the foliage is at its peak.
+*   **[Takarazuka Golf Club](/course/takarazuka_golf_club) (宝塚ゴルフ倶楽部):** One of the oldest golf clubs in Japan, this course is steeped in history and tradition. The surrounding forests provide a beautiful backdrop for your game, especially during autumn when the foliage is at its peak.
 
 **Kyushu:**
 
-*   **[Phoenix Country Club](/course/phoenix_country_club_en) (フェニックスカントリークラブ):** Located in Miyazaki Prefecture, this resort course is known for its stunning ocean views and lush greenery. During autumn, the surrounding forests add a touch of color to the landscape, creating a beautiful setting for a round of golf.
+*   **[Phoenix Country Club](/course/phoenix_country_club) (フェニックスカントリークラブ):** Located in Miyazaki Prefecture, this resort course is known for its stunning ocean views and lush greenery. During autumn, the surrounding forests add a touch of color to the landscape, creating a beautiful setting for a round of golf.
 
-*   **[Keya Golf Club](/course/keya_golf_club_en) (芥屋ゴルフ倶楽部):** This championship course is located on the coast and offers stunning ocean views. The autumn foliage adds to the beauty of the landscape, creating a truly memorable golfing experience.
+*   **[Keya Golf Club](/course/keya_golf_club) (芥屋ゴルフ倶楽部):** This championship course is located on the coast and offers stunning ocean views. The autumn foliage adds to the beauty of the landscape, creating a truly memorable golfing experience.
 
 ## Planning Your Autumn Golf Trip
 

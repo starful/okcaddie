@@ -69,7 +69,7 @@ Combine with Itoshima beaches or seafood lunch only if your tee time allows; don
 - Collared shirts; tailored shorts or golf pants (no jeans)
 - Soft spikes only
 - Soft shell or wind layer even in shoulder seasons—coast breeze cools fast
-- Related: [Fukuoka Country Club](/course/fukuoka_country_club_en) · [Booking tips for Japan](/guide/booking-tips-japan) · [Dress code](/guide/dress-code-guide)
+- Related: [Fukuoka Country Club](/course/fukuoka_country_club) · [Booking tips for Japan](/guide/booking-tips-japan) · [Dress code](/guide/dress-code-guide)
 
 ## Bottom line
 

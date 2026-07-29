@@ -62,7 +62,7 @@ Build the round as the day’s main event, not a squeezed side quest.
 
 - Collared shirt, tailored bottoms, soft spikes
 - Wind layer and sunscreen on exposed holes
-- Related: [Aso Resort Grandvrio](/course/aso_resort_grandvrio_en) · [Booking tips](/guide/booking-tips-japan)
+- Related: [Aso Resort Grandvrio](/course/aso_resort_grandvrio) · [Booking tips](/guide/booking-tips-japan)
 
 ## Bottom line
 

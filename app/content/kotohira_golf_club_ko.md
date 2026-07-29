@@ -48,7 +48,7 @@ description: 고토히라 골프 클럽 실전 가이드. 티타임, 그린피, 
 - **평일**: 대략 1만엔대 중반
 - **주말**: 중식·캐디에 따라 1만엔대 후반 ~ 2만엔대 초반
 
-[고토히라 GC 예약](/booking/kotohira_golf_club_ko). 다카마쓰 기점이면 [다카마쓰 골드 CC](/course/takamatsu_gold_country_club_ko)와 이틀 루프를 비교하세요.
+[고토히라 GC 예약](/booking/kotohira_golf_club_ko). 다카마쓰 기점이면 [다카마쓰 골드 CC](/course/takamatsu_gold_country_club?lang=ko)와 이틀 루프를 비교하세요.
 
 ## 접근
 

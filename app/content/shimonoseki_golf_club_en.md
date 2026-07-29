@@ -68,7 +68,7 @@ Pair with Kanmon Bridge sightseeing only after the round; morning tees need an e
 
 - Full private-club dress: collared shirt, tailored trousers/shorts, soft spikes
 - Wind layer and rain shell in the bag year-round
-- Related: [Ube 72 Country Club](/course/ube_72_country_club_en) · [Booking tips](/guide/booking-tips-japan) · [Dress code](/guide/dress-code-guide)
+- Related: [Ube 72 Country Club](/course/ube_72_country_club) · [Booking tips](/guide/booking-tips-japan) · [Dress code](/guide/dress-code-guide)
 
 ## Bottom line
 

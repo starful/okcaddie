@@ -26,14 +26,14 @@ date: "2026-04-15"
 
 미야자키에는 많은 훌륭한 골프 코스가 있지만, 특히 프로 대회가 개최되는 챔피언십 코스는 그 명성이 높습니다. 다음은 미야자키를 대표하는 챔피언십 코스들을 자세히 소개합니다.
 
-### 1. [피닉스](/course/phoenix_seagaia_resort_ko) 컨트리 클럽 ([Phoenix Country Club](/course/phoenix_country_club_ko))
+### 1. [피닉스](/course/phoenix_seagaia_resort?lang=ko) 컨트리 클럽 ([Phoenix Country Club](/course/phoenix_country_club?lang=ko))
 
 *   **특징:** 던롭 피닉스 토너먼트가 매년 개최되는 명문 코스입니다. 소나무 숲으로 둘러싸인 아름다운 경관과 전략적인 코스 레이아웃이 특징입니다. 잭 니클라우스가 설계한 코스로, 도전적인 플레이를 요구합니다.
-*   **코스 공략법:** 페어웨이와 그린 모두 관리가 잘 되어 있지만, 벙커와 워터 해저드가 많아 정확한 샷이 중요합니다. 특히, 바람의 영향을 많이 받는 코스이므로, 바람의 방향과 세기를 정확하게 파악해야 합니다. 그린의 경[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 심한 편이므로, 신중한 퍼팅 전략이 필요합니다.
+*   **코스 공략법:** 페어웨이와 그린 모두 관리가 잘 되어 있지만, 벙커와 워터 해저드가 많아 정확한 샷이 중요합니다. 특히, 바람의 영향을 많이 받는 코스이므로, 바람의 방향과 세기를 정확하게 파악해야 합니다. 그린의 경[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 심한 편이므로, 신중한 퍼팅 전략이 필요합니다.
 *   **주변 정보:** 클럽하우스 내 레스토랑에서는 미야자키의 특산물을 이용한 맛있는 요리를 즐길 수 있습니다. 인근에는 쉐라톤 그랜드 오션 리조트가 있어 숙박과 휴식을 취하기에 좋습니다.
 *   **SEO 키워드:** 피닉스 컨트리 클럽, 던롭 피닉스 토너먼트, 미야자키 골프, 잭 니클라우스, 쉐라톤 그랜드 오션 리조트
 
-### 2. 톰 왓슨 골프 코스 ([Tom Watson Golf Course](/course/tom_watson_golf_course_ko))
+### 2. 톰 왓슨 골프 코스 ([Tom Watson Golf Course](/course/tom_watson_golf_course?lang=ko))
 
 *   **특징:** 세계적인 골프 선수 톰 왓슨이 설계한 링크스 스타일의 코스입니다. 넓은 페어웨이와 벙커, 그리고 해안선을 따라 펼쳐지는 아름다운 경관이 특징입니다. 바람의 영향을 많이 받는 코스로, 전략적인 클럽 선택이 중요합니다.
 *   **코스 공략법:** 페어웨이가 넓지만, 벙커가 많아 정확한 티샷이 중요합니다. 그린 주변에도 벙커가 많으므로, 어프로치 샷의 정확도가 요구됩니다. 바람의 방향과 세기를 고려하여 클럽을 선택하고, 탄도를 조절하는 것이 중요합니다.

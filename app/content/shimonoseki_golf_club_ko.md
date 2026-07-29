@@ -68,7 +68,7 @@ description: 시모노세키 골프 클럽 방문자 가이드. 게스트 예약
 
 - 프라이빗 클럽 복장: 카라 셔츠, 테일러드 팬츠/반바지, 소프트 스파이크
 - 사철 바람막이·우비
-- 관련: [우베 72 컨트리 클럽](/course/ube_72_country_club_ko) · [예약 팁](/guide/booking-tips-japan?lang=ko) · [복장](/guide/dress-code-guide?lang=ko)
+- 관련: [우베 72 컨트리 클럽](/course/ube_72_country_club?lang=ko) · [예약 팁](/guide/booking-tips-japan?lang=ko) · [복장](/guide/dress-code-guide?lang=ko)
 
 ## 정리
 

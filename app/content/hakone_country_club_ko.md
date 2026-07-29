@@ -59,7 +59,7 @@ seo_description: Can foreigners play Hakone Country Club? Learn how to secure a 
 하코네 컨트리 클럽의 18개 홀은 각각의 개성과 도전 과제를 가지고 있지만, 그중에서도 특히 플레이어의 전략적 사고와 기술을 요구하는 4개의 홀을 선별하여 심층적으로 분석해 드리겠습니다.
 
 ### 4번 홀 (Par 4, 핸디캡 2)
-*   **티샷 뷰:** 티잉 그라운드에 서면 시야를 압도하는 웅장한 내리막 경사와 함께 페어웨이가 좌측으로 완만하게 휘어지는 도그레그 홀이 펼쳐집니다. 멀리 희미하게 [후지](/course/fuji_country_club_ko)산의 실루엣이 보이기도 하며, 샷에 대한 기대감과 함께 미묘한 긴장감을 선사합니다. 페어웨이 우측에는 깊은 러프와 숲이 병풍처럼 늘어서 있어, 슬라이스에 대한 경계심을 높입니다.
+*   **티샷 뷰:** 티잉 그라운드에 서면 시야를 압도하는 웅장한 내리막 경사와 함께 페어웨이가 좌측으로 완만하게 휘어지는 도그레그 홀이 펼쳐집니다. 멀리 희미하게 [후지](/course/fuji_country_club?lang=ko)산의 실루엣이 보이기도 하며, 샷에 대한 기대감과 함께 미묘한 긴장감을 선사합니다. 페어웨이 우측에는 깊은 러프와 숲이 병풍처럼 늘어서 있어, 슬라이스에 대한 경계심을 높입니다.
 *   **숨겨진 해저드:** 티샷의 가장 큰 함정은 페어웨이 좌측 코너 지점에 도사리고 있는 두 개의 깊은 벙커입니다. 이 벙커는 약 230야드(캐리 기준) 지점에 위치하며, 무리하게 코너를 노리다가는 좌측 벙커에 빠지거나 숲으로 향하는 OB(아웃 오브 바운스)로 이어질 수 있습니다. 또한, 우측은 가파른 경사의 언덕과 나무들이 밀집해 있어 샷이 밀릴 경우 탈출이 매우 어렵습니다.
 *   **야드지 전략:**
     *   **장타자:** 벙커를 피하기 위해 좌측 벙커의 우측 가장자리를 겨냥하여 약 240~260야드 캐리의 드로우 샷을 구사하는 것이 최적의 전략입니다. 성공 시 짧은 숏 아이언으로 그린을 공략할 수 있습니다.
@@ -71,7 +71,7 @@ seo_description: Can foreigners play Hakone Country Club? Learn how to secure a 
 
 ### 7번 홀 (Par 3, 핸디캡 14)
 *   **티샷 뷰:** 아름다운 연못이 그린 앞을 가로막고 있는 전형적인 아일랜드 그린 형태의 파3 홀입니다. 티잉 그라운드에 서면 연못 너머로 그림처럼 펼쳐진 그린과 그 뒤편의 울창한 숲이 시선을 사로잡습니다. 정면에서 불어오는 바람의 영향을 직접적으로 받는 경우가 많아 클럽 선택에 신중을 기해야 합니다.
-*   **숨겨진 해저드:** 가장 명확한 해저드는 그린 앞을 가로막는 거대한 연못입니다. 짧은 샷은 여지없이 물에 빠지게 됩니다. 또한, 그린 좌측에는 깊은 벙커가, 우측에는 경[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 심한 러프가 기다리고 있어 미스샷 시 파 세이브가 매우 어렵습니다.
+*   **숨겨진 해저드:** 가장 명확한 해저드는 그린 앞을 가로막는 거대한 연못입니다. 짧은 샷은 여지없이 물에 빠지게 됩니다. 또한, 그린 좌측에는 깊은 벙커가, 우측에는 경[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 심한 러프가 기다리고 있어 미스샷 시 파 세이브가 매우 어렵습니다.
 *   **야드지 전략:**
     *   **정확한 거리 측정:** 야드지는 150~170야드 사이로 측정되지만, 바람의 방향과 강도, 그리고 핀 위치에 따라 클럽을 한 클럽 더 잡거나 덜 잡아야 합니다.
     *   **안전한 공략:** 가장 안전한 전략은 핀을 직접 노리기보다 그린 중앙을 목표로 하는 것입니다. 그린의 넓은 면적을 활용하여 온 그린에 성공하는 것이 파 세이브의 핵심입니다. 특히 바람이 강할 때는 핀보다 한 클럽 길게 잡고 그린 중앙보다 약간 후방을 노리는 것이 좋습니다.
@@ -104,7 +104,7 @@ seo_description: Can foreigners play Hakone Country Club? Learn how to secure a 
 
 하코네 컨트리 클럽은 단순히 샷의 정확성만을 요구하는 것이 아니라, 매 홀마다 변화하는 지형과 숨겨진 함정을 읽어내는 지혜로운 전략을 요구합니다. 20년 캐디의 경험으로 말씀드리건대, 이 코스에서는 '신중함'과 '유연한 사고'가 가장 큰 무기가 될 것입니다.
 
-## 클럽하우스와 다이코쿠조(大浴場) 경험: 라운드 후의 완벽한 휴식 (Clubhouse & [[[[[[The](/course/the_southern_links_resort_ko)](/course/the_masters_amakusa_course_ko)](/course/the_country_club_japan_ko)](/course/the_royal_golf_club_ko)](/course/the_windsor_golf_course_ko)](/course/the_north_country_golf_club_ko) Onsen Experience)
+## 클럽하우스와 다이코쿠조(大浴場) 경험: 라운드 후의 완벽한 휴식 (Clubhouse & [[[[[[The](/course/the_southern_links_resort?lang=ko)](/course/the_masters_amakusa_course?lang=ko)](/course/the_country_club_japan?lang=ko)](/course/the_royal_golf_club?lang=ko)](/course/the_windsor_golf_course?lang=ko)](/course/the_north_country_golf_club?lang=ko) Onsen Experience)
 
 하코네 컨트리 클럽의 클럽하우스는 일본 전통 건축의 미와 현대적인 편의시설이 완벽하게 조화를 이룬 공간입니다. 웅장하면서도 절제된 외관은 주변 자연경관과 이질감 없이 어우러져, 마치 오랜 시간 그 자리를 지켜온 고택과 같은 품격을 자랑합니다. 내부는 자연 채광을 최대한 활용한 개방형 구조로, 일본 특유의 목재와 석재를 사용하여 따뜻하고 편안한 분위기를 연출합니다. 라운지를 가득 채우는 은은한 나무 향기는 방문객들에게 즉각적인 안정감을 선사합니다.
 
@@ -149,14 +149,14 @@ seo_description: Can foreigners play Hakone Country Club? Learn how to secure a 
 
 **주요 도시에서의 접근 가이드:**
 
-*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club?lang=ko)) 출발:**
     *   **신칸센(Shinkansen) + 택시/버스:** 도쿄역에서 JR 도카이도 신칸센(Tokaido Shinkansen)을 이용하여 오다와라역(小田原駅)까지 약 30분 소요됩니다. 오다와라역에서 클럽하우스까지는 택시로 약 40~50분, 또는 하코네 등산 철도/버스를 이용할 수 있습니다.
     *   **자동차:** 도메이 고속도로(東名高速道路)를 이용하여 아츠기 IC(厚木IC)를 거쳐 오다와라 아츠기 도로(小田原厚木道路)를 이용하는 경로가 일반적입니다. 약 1시간 30분 ~ 2시간 소요(교통 상황에 따라 변동).
-*   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**
+*   **오사카 ([[Osaka](/course/osaka_ibaraki_country?lang=ko)](/course/osaka_golf_club?lang=ko)) 출발:**
     *   **신칸센 + 택시/버스:** 신오사카역에서 JR 도카이도 신칸센을 이용하여 오다와라역까지 약 2시간 30분 소요됩니다. 이후 오다와라역에서 택시 또는 버스를 이용하여 클럽하우스로 이동합니다.
     *   **자동차:** 메이신 고속도로(名神高速道路)를 거쳐 도메이 고속도로를 이용합니다. 약 5~6시간 소요되므로, 신칸센 이용을 추천합니다.
 
-*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**
+*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north?lang=ko)](/course/fukuoka?lang=kokusai_golf_ko)](/course/fukuoka_international?lang=ko)](/course/fukuoka_country_club?lang=ko)) 출발:**
     *   **항공 + 신칸센/자동차:** 후쿠오카 공항에서 하네다 공항(도쿄)으로 비행기를 이용한 후, 도쿄에서의 접근 방법을 따르는 것이 가장 효율적입니다. 또는 하카타역에서 신칸센을 이용하여 오다와라역까지 약 5시간 소요되므로, 이 경우 1박 2일 이상의 일정을 추천합니다.
 
 **캐디의 비밀 팁:**

@@ -41,13 +41,29 @@ RETIRED_GUIDE_REDIRECTS = {
     "best-souvenirs-proshop": "/guide",
     "chipping-and-putting-practice": "/guide",
     "golf-insurance-for-travelers": "/guide",
+    "golf-score-terms-japanese": "/guide/understanding-scorecards",
     "kanto-vs-kansai-golf": "/guide",
     "rental-clubs-japan": "/guide",
     "self-play-vs-caddy": "/guide",
-    "spring-cherry-blossom-golf": "/guide",
+    "spring-cherry-blossom-golf": "/guide/spring-sakura-golf",
     "stay-and-play-karuizawa": "/guide",
     "trash-and-smoking-rules": "/guide",
 }
+
+# Non-golf / removed course slugs: 301 instead of soft-404 (Search Console).
+RETIRED_COURSE_REDIRECTS = {
+    "kobe_harborland_cafe": "/courses",
+    "kumamoto_castle_town_cafe": "/courses",
+    "nagoya_sakae_espresso": "/courses",
+    "sendai_ichibancho_latte": "/courses",
+    "kamakura_komachi_drip": "/courses",
+    "naha_kokusai_street_coffee": "/courses",
+    "yokohama_minato_mirai_cafe": "/courses",
+    "sample_golf_club": "/courses",
+}
+
+# Slugs omitted from sitemaps (test/demo content).
+SITEMAP_EXCLUDED_COURSE_BASE_IDS = frozenset({"sample_golf_club"})
 
 GUIDE_IMAGES = [
     "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200",

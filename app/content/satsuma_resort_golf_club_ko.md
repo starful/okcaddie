@@ -59,7 +59,7 @@ seo_description: Book tee times at Satsuma Resort Golf Club in Kagoshima. Find g
 사츠마는 모든 수준의 골퍼에게 공평하면서도 도전적인 '리스크 앤 리워드(Risk and Reward)'를 제공합니다.
 
 *   **하이 핸디캐퍼 (High Handicapper):** 과감한 샷보다는 안전한 페어웨이 중앙을 목표로 하고, 그린 공략 시에는 그린 주변의 넓은 공간을 활용하여 투온(two-on)보다는 쓰리온(three-on)을 목표로 하는 것이 현명합니다. 무리한 그린 공략보다는 어프로치와 퍼팅으로 파 세이브(par save)를 노리는 전략이 유효합니다. 숨겨진 해저드와 벙커를 피하는 안전한 루트가 항상 존재합니다.
-*   **로우 핸디캐퍼 (Low Handicapper):** 챌린지를 즐기는 로우 핸디캐퍼에게 사츠마는 끊임없는 유혹을 던집니다. 짧은 파4 홀에서 드라이버 온(driver-on)을 시도하거나, 롱홀에서 투온을 노릴 수 있는 기회가 주어지지만, 그만큼 정교한 샷과 완벽한 코스 이해가 필요합니다. 과감한 핀 공략은 [버디](/guide/golf-score-terms-japanese_ko)(birdie) 기회를 제공하지만, 조금만 벗어나도 깊은 벙커나 까다로운 칩샷(chip shot)으로 이어져 스코어를 잃을 수 있습니다.
+*   **로우 핸디캐퍼 (Low Handicapper):** 챌린지를 즐기는 로우 핸디캐퍼에게 사츠마는 끊임없는 유혹을 던집니다. 짧은 파4 홀에서 드라이버 온(driver-on)을 시도하거나, 롱홀에서 투온을 노릴 수 있는 기회가 주어지지만, 그만큼 정교한 샷과 완벽한 코스 이해가 필요합니다. 과감한 핀 공략은 [버디](/guide/golf-score-terms-japanese?lang=ko)(birdie) 기회를 제공하지만, 조금만 벗어나도 깊은 벙커나 까다로운 칩샷(chip shot)으로 이어져 스코어를 잃을 수 있습니다.
 
 사츠마의 코스 설계는 단순히 골프 실력을 측정하는 것을 넘어, 골퍼의 전략적 사고력과 자연을 읽는 지혜를 시험하는 살아있는 예술 작품이라 할 수 있습니다. 매 홀마다 새로운 퍼즐을 풀어가는 듯한 즐거움을 선사하며, 라운딩이 끝난 후에도 깊은 여운을 남깁니다. (2,100자)
 
@@ -93,7 +93,7 @@ seo_description: Book tee times at Satsuma Resort Golf Club in Kagoshima. Find g
 
 ### 13번 홀 (파5, 520야드): 전략적 롱홀의 진수
 
-**티샷 뷰:** 좌측으로 길게 휘어지는 아름다운 도그레그(dogleg) 홀입니다. 티샷 지점에서는 페어웨이 우측으로 길게 늘어선 벙커 군락이 시야에 들어오며, 좌측은 숲으로 막혀 있습니다. 세컨드 샷 지점부터는 그린까지 완만한 오르막 경[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 이어집니다.
+**티샷 뷰:** 좌측으로 길게 휘어지는 아름다운 도그레그(dogleg) 홀입니다. 티샷 지점에서는 페어웨이 우측으로 길게 늘어선 벙커 군락이 시야에 들어오며, 좌측은 숲으로 막혀 있습니다. 세컨드 샷 지점부터는 그린까지 완만한 오르막 경[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 이어집니다.
 
 **숨겨진 위험:** 티샷 랜딩 지점의 우측 벙커에 빠지면 투온(two-on) 기회를 완전히 잃게 됩니다. 또한, 세컨드 샷 이후 페어웨이 좌측에 위치한 워터 해저드는 그린을 공략하는 데 심리적 압박을 가합니다. 그린 주변은 깊은 포대 그린 형태로, 그린을 놓치면 까다로운 어프로치 샷이 기다립니다.
 
@@ -146,7 +146,7 @@ seo_description: Book tee times at Satsuma Resort Golf Club in Kagoshima. Find g
 
 사츠마 리조트 골프 클럽에서의 미식 경험은 라운딩만큼이나 중요하며, 가고시마가 자랑하는 풍부한 식재료와 일본 요리의 정수를 동시에 맛볼 수 있는 특별한 기회입니다. 클럽하우스 레스토랑은 단순한 식사를 넘어, 미식의 예술을 선보입니다.
 
-### 흑돼지 돈카츠 (鹿児島黒豚とんかつ, [[[[Kagoshima](/course/kagoshima_ibusuki_southern_ko)](/course/kagoshima_kokusai_golf_ko)](/course/kagoshima_takachiho_ko)](/course/kagoshima_airport_36_cc_ko) Kurobuta Tonkatsu)
+### 흑돼지 돈카츠 (鹿児島黒豚とんかつ, [[[[Kagoshima](/course/kagoshima_ibusuki_southern?lang=ko)](/course/kagoshima?lang=kokusai_golf_ko)](/course/kagoshima_takachiho?lang=ko)](/course/kagoshima_airport_36_cc?lang=ko) Kurobuta Tonkatsu)
 
 가고시마의 대표적인 특산물인 '흑돼지(黒豚)'는 전 세계적으로도 그 맛을 인정받는 최고급 육류입니다. 사츠마 리조트에서 제공하는 흑돼지 돈카츠는 이 지역 흑돼지의 진정한 가치를 보여줍니다. 엄선된 흑돼지 등심이나 안심 부위를 두툼하게 썰어, 얇은 튀김옷을 입혀 황금빛으로 바삭하게 튀겨냅니다.
 
@@ -185,7 +185,7 @@ seo_description: Book tee times at Satsuma Resort Golf Club in Kagoshima. Find g
 
 *   **도쿄/오사카에서:**
     *   **신칸센 (Shinkansen):** 도쿄역 또는 신오사카역에서 규슈 신칸센을 이용하여 가고시마추오역(鹿児島中央駅)까지 이동합니다. 도쿄에서는 약 6시간 30분, 신오사카에서는 약 4시간이 소요됩니다.
-    *   **항공:** 각 공항에서 가고시마 공항(鹿児島空港)까지 직항편을 이용합니다. 도쿄 하네다/[나리타](/course/narita_golf_club_ko) 공항에서 약 1시간 45분, 오사카 이타미/간사이 공항에서 약 1시간 10분이 소요됩니다.
+    *   **항공:** 각 공항에서 가고시마 공항(鹿児島空港)까지 직항편을 이용합니다. 도쿄 하네다/[나리타](/course/narita_golf_club?lang=ko) 공항에서 약 1시간 45분, 오사카 이타미/간사이 공항에서 약 1시간 10분이 소요됩니다.
 *   **후쿠오카에서:**
     *   **신칸센:** 하카타역(博多駅)에서 규슈 신칸센을 이용하여 가고시마추오역까지 약 1시간 20분 소요됩니다. 가장 빠르고 편리한 방법입니다.
     *   **자동차:** 규슈 고속도로를 이용하여 약 3시간 정도 소요됩니다.

@@ -46,7 +46,7 @@ title: '기노조 골프 클럽 마스터 가이드: 명예로운 전통과 전�
 
 1.  **페널티 벙커:** 티샷 랜딩 존이나 그린 주변에 깊게 파여, 어설픈 샷이나 오판에 대한 명확한 페널티를 부여합니다. 이곳의 모래는 백색 규사(White Silica Sand)로 매우 고와서 탈출은 용이하지만, 깊이 때문에 그린까지 정확한 거리 조절은 어렵습니다.
 2.  **가이드 벙커:** 페어웨이 한쪽을 따라 길게 늘어서 있거나, 특정 지점에 배치되어 플레이어에게 안전한 공략 라인을 제시합니다. 이 벙커를 피하면 유리한 두 번째 샷 위치를 확보할 수 있지만, 벙커를 넘기려는 공격적인 시도는 실패 시 큰 위험을 감수해야 합니다.
-3.  **심리적 벙커:** 그린 주변에 배치되어 플레이어에게 안정적인 온 그린 대신, 공격적인 핀 공략을 시도하게 만드는 유혹을 제공합니다. 이는 특히 짧은 홀에서 두드러지는데, 벙커를 두려워하지 않고 과감하게 핀을 노리는 자만이 [버디](/guide/golf-score-terms-japanese_ko)를 가져갈 수 있습니다.
+3.  **심리적 벙커:** 그린 주변에 배치되어 플레이어에게 안정적인 온 그린 대신, 공격적인 핀 공략을 시도하게 만드는 유혹을 제공합니다. 이는 특히 짧은 홀에서 두드러지는데, 벙커를 두려워하지 않고 과감하게 핀을 노리는 자만이 [버디](/guide/golf-score-terms-japanese?lang=ko)를 가져갈 수 있습니다.
 
 벙커의 위치와 깊이, 그리고 모래의 종류까지 고려한 전략적인 접근이 기노조 라운드에서 빛을 발합니다.
 
@@ -56,7 +56,7 @@ title: '기노조 골프 클럽 마스터 가이드: 명예로운 전통과 전�
 
 *   **다층 그린:** 많은 홀이 2단 또는 3단 그린으로 설계되어 있어, 핀 위치에 따라 어프로치 샷의 정확성이 극도로 중요합니다. 같은 그린이라도 핀의 위치가 한 단 높거나 낮으면 퍼팅 라인과 거리감이 완전히 달라집니다.
 *   **숨겨진 브레이크:** 육안으로는 평평해 보이지만, 그린 전체가 주변 계곡이나 산의 지형에 따라 미세하게 흘러내리는 '배수 경사'를 가지고 있습니다. 이는 오랜 경험을 가진 캐디만이 정확히 읽어낼 수 있는 숨겨진 브레이크입니다.
-*   **착시 현상:** 일부 그린은 경[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 없는 것처럼 보이지만, 실제로는 강한 내리막이나 오르막 라이를 가지고 있어 착시 현상을 유발합니다. 특히 강한 햇빛 아래에서는 그림자의 방향까지 퍼팅에 영향을 미 미칠 수 있습니다.
+*   **착시 현상:** 일부 그린은 경[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 없는 것처럼 보이지만, 실제로는 강한 내리막이나 오르막 라이를 가지고 있어 착시 현상을 유발합니다. 특히 강한 햇빛 아래에서는 그림자의 방향까지 퍼팅에 영향을 미 미칠 수 있습니다.
 
 ### 하이 핸디캐퍼와 로우 핸디캐퍼를 위한 '리스크 앤 리워드'
 
@@ -101,7 +101,7 @@ title: '기노조 골프 클럽 마스터 가이드: 명예로운 전통과 전�
 
 이 4개 홀은 기노조 골프 클럽이 제공하는 전략적 깊이와 자연과의 조화를 완벽하게 보여주는 대표적인 예시입니다. 저의 조언이 여러분의 라운드에 큰 도움이 되기를 바랍니다.
 
-## 4. 클럽하우스와 오아시스, 대흑탕 온천 경험 (Clubhouse & [[[[[[The](/course/the_southern_links_resort_ko)](/course/the_masters_amakusa_course_ko)](/course/the_country_club_japan_ko)](/course/the_royal_golf_club_ko)](/course/the_windsor_golf_course_ko)](/course/the_north_country_golf_club_ko) Onsen Experience)
+## 4. 클럽하우스와 오아시스, 대흑탕 온천 경험 (Clubhouse & [[[[[[The](/course/the_southern_links_resort?lang=ko)](/course/the_masters_amakusa_course?lang=ko)](/course/the_country_club_japan?lang=ko)](/course/the_royal_golf_club?lang=ko)](/course/the_windsor_golf_course?lang=ko)](/course/the_north_country_golf_club?lang=ko) Onsen Experience)
 
 기노조 골프 클럽의 클럽하우스는 단순한 건물 이상의 의미를 지닙니다. 이곳은 1968년 개장 당시의 고풍스러운 품격과 현대적인 편의시설이 완벽하게 조화된 공간으로, 라운드의 시작과 끝을 더욱 특별하게 만들어줍니다.
 
@@ -165,15 +165,15 @@ title: '기노조 골프 클럽 마스터 가이드: 명예로운 전통과 전�
 
 기노조 골프 클럽은 오카야마현 소자시에 위치하며, 일본의 주요 도시에서 접근성이 매우 뛰어납니다.
 
-*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club?lang=ko)) 출발:**
     *   **신칸센 (Shinkansen):** 도쿄역에서 산요 신칸센(山陽新幹線)을 타고 오카야마역(岡山駅)까지 약 3시간 10분 소요됩니다.
     *   **이후 교통:** 오카야마역에서 택시로 약 40~50분, 또는 렌터카를 이용하면 약 30분 소요됩니다. 클럽하우스에서 오카야마역까지의 셔틀버스 서비스(사전 예약 필수)도 이용 가능합니다.
 
-*   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**
+*   **오사카 ([[Osaka](/course/osaka_ibaraki_country?lang=ko)](/course/osaka_golf_club?lang=ko)) 출발:**
     *   **신칸센 (Shinkansen):** 신오사카역(新大阪駅)에서 산요 신칸센을 타고 오카야마역까지 약 45분~1시간 소요됩니다.
     *   **이후 교통:** 오카야마역에서 택시 또는 렌터카를 이용합니다 (도쿄 출발과 동일).
 
-*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**
+*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north?lang=ko)](/course/fukuoka?lang=kokusai_golf_ko)](/course/fukuoka_international?lang=ko)](/course/fukuoka_country_club?lang=ko)) 출발:**
     *   **신칸센 (Shinkansen):** 하카타역(博多駅)에서 산요 신칸센을 타고 오카야마역까지 약 1시간 40분~2시간 소요됩니다.
     *   **이후 교통:** 오카야마역에서 택시 또는 렌터카를 이용합니다 (도쿄 출발과 동일).
 

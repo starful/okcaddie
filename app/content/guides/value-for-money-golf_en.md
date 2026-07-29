@@ -36,7 +36,7 @@ Here's a curated list of golf courses near Osaka that offer excellent value for 
 *   **Access:** Best accessed by car. Public transportation is possible but involves multiple transfers and a significant walk.
 *   **Tips:** Check their website for seasonal discounts and weekday specials. Consider bringing your own lunch to save money.
 
-**2. [Takarazuka Golf Club](/course/takarazuka_golf_club_en) Old Course (宝塚ゴルフ倶楽部（旧コース）):**
+**2. [Takarazuka Golf Club](/course/takarazuka_golf_club) Old Course (宝塚ゴルフ倶楽部（旧コース）):**
 
 *   **Location:** Hyogo Prefecture (approximately 45 minutes from Osaka by car).
 *   **Why it's budget-friendly:** While the "New Course" at Takarazuka Golf Club is more premium, the "Old Course" offers more affordable rates.
@@ -68,7 +68,7 @@ Here's a curated list of golf courses near Osaka that offer excellent value for 
 *   **Access:** Best accessed by car. Public transportation is possible but involves a bus ride from Hirakata-shi Station.
 *   **Tips:** Monitor online booking sites for deals. Consider playing on a weekday to avoid higher weekend rates.
 
-**6. Minami [Osaka Golf Club](/course/osaka_golf_club_en) (南大阪ゴルフクラブ):**
+**6. Minami [Osaka Golf Club](/course/osaka_golf_club) (南大阪ゴルフクラブ):**
 
 *   **Location:** Osaka Prefecture, Izumi City (approximately 1 hour from central Osaka by car).
 *   **Why it's budget-friendly:** Known for its affordable green fees and relaxed atmosphere.

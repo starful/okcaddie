@@ -30,7 +30,7 @@ description: 노스 컨트리 골프 클럽 실전 가이드. 티타임, 그린�
 ## 이런 골퍼에게
 
 - **CTS** 착륙 후 긴 내륙 이동 없이 치고 싶을 때
-- [홋카이도 클래식](/course/hokkaido_classic_golf_club_ko) 등과 루프를 짤 때
+- [홋카이도 클래식](/course/hokkaido_classic_golf_club?lang=ko) 등과 루프를 짤 때
 - 바람이 올라도 페어웨이에 둘 수 있는 중급자
 
 겨울 목적지는 아닙니다. 심설 시즌은 대부분 비현실적입니다. [홋카이도 여름 골프](/guide/hokkaido-summer-golf?lang=ko) 참고.
@@ -56,13 +56,13 @@ description: 노스 컨트리 골프 클럽 실전 가이드. 티타임, 그린�
 - **플라이-플레이-플라이** 또는 라운드 후 삿포로 이동에 유리
 - 하드케이스면 렌터카·사전 택시. 공항 버스는 비추천
 
-지토세·에니와 비교 시 [에니와 CC](/course/eniwa_country_club_ko)도 보세요.
+지토세·에니와 비교 시 [에니와 CC](/course/eniwa_country_club?lang=ko)도 보세요.
 
 ## 복장·팁
 
 - 소프트 스파이크, 7월 아침에도 레이어
 - 한여름엔 벌레 기피제
-- 관련: [삿포로 왓츠](/course/sapporo_golf_club_wattsu_course_ko) · [예약 팁](/guide/booking-tips-japan?lang=ko)
+- 관련: [삿포로 왓츠](/course/sapporo_golf_club_wattsu_course?lang=ko) · [예약 팁](/guide/booking-tips-japan?lang=ko)
 
 ## 정리
 

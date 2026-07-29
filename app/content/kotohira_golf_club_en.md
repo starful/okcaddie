@@ -48,7 +48,7 @@ Shikoku value clubs still spike on holidays. **Planning ranges**:
 - **Weekday**: often roughly mid-¥10,000s
 - **Weekend**: high-¥10,000s to low-¥20,000s depending on lunch/caddie
 
-Book: [Kotohira Golf Club booking](/booking/kotohira_golf_club_en). If Takamatsu is your base, compare with [Takamatsu Gold CC](/course/takamatsu_gold_country_club_en) for a two-day Shikoku loop.
+Book: [Kotohira Golf Club booking](/booking/kotohira_golf_club_en). If Takamatsu is your base, compare with [Takamatsu Gold CC](/course/takamatsu_gold_country_club) for a two-day Shikoku loop.
 
 ## Access
 

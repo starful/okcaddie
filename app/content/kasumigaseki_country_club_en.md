@@ -61,7 +61,7 @@ If a third party promises “guaranteed Kasumigaseki,” treat it with skepticis
 
 - Conservative private-club dress; soft spikes; no casual athletic wear
 - Handicap and introduction paperwork may be requested—carry what your host asks for
-- Related prestige context: [Hirono](/course/hirono_golf_club_en) · [Tokyo Golf Club](/course/tokyo_golf_club_en) · [Koganei](/course/koganei_golf_club_en) (similar access difficulty)
+- Related prestige context: [Hirono](/course/hirono_golf_club) · [Tokyo Golf Club](/course/tokyo_golf_club) · [Koganei](/course/koganei_golf_club) (similar access difficulty)
 - Bookable planning: [Tokyo-near golf](/guide/tokyo-near-golf) · [Luxury golf experience](/guide/luxury-golf-experience)
 
 ## Bottom line

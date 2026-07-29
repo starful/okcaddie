@@ -73,7 +73,7 @@ description: An essential guide to playing Keya Golf Club in Fukuoka, featuring 
 - 카라 셔츠, 골프 팬츠/테일러드 반바지 (청바지 불가)
 - 소프트 스파이크만
 - 어깨 시즌에도 바람막이 레이어
-- 관련: [후쿠오카 컨트리 클럽](/course/fukuoka_country_club_ko) · [일본 골프 예약 팁](/guide/booking-tips-japan?lang=ko) · [복장 가이드](/guide/dress-code-guide?lang=ko)
+- 관련: [후쿠오카 컨트리 클럽](/course/fukuoka_country_club?lang=ko) · [일본 골프 예약 팁](/guide/booking-tips-japan?lang=ko) · [복장 가이드](/guide/dress-code-guide?lang=ko)
 
 ## 정리
 

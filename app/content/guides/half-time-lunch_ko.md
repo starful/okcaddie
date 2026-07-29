@@ -58,13 +58,13 @@ title: 일본 골프장 9홀 종료 후 점심 식사 문화
 *   **정숙 유지:** 식사 중에는 큰 소리로 떠들거나 다른 사람에게 방해가 되는 행동을 삼가야 합니다.
 *   **음식 남기지 않기:** 음식을 남기는 것은 예의에 어긋나는 행동으로 간주됩니다. 먹을 만큼만 주문하고, 남기지 않도록 노력해야 합니다.
 *   **젓가락 사용법:** 젓가락을 올바르게 사용하고, 젓가락으로 음식을 뒤적거리거나 찌르는 행동은 삼가야 합니다.
-*   **감사 인사:** 식사를 마친 후에는 "잘 먹었습니다"라는 의미의 "[[[[고치](/course/kochi_tosa_country_ko)](/course/kochi_golf_club_heights_ko)](/course/kochi_golf_club_ko)](/course/kochi_kuroshio_country_club_ko)소사마데시타 (ごちそうさまでした)"라고 말하는 것이 좋습니다.
+*   **감사 인사:** 식사를 마친 후에는 "잘 먹었습니다"라는 의미의 "[[[[고치](/course/kochi_tosa_country?lang=ko)](/course/kochi_golf_club_heights?lang=ko)](/course/kochi_golf_club?lang=ko)](/course/kochi_kuroshio_country_club?lang=ko)소사마데시타 (ごちそうさまでした)"라고 말하는 것이 좋습니다.
 *   **팁 문화:** 일본에는 팁 문화가 없으므로, 팁을 줄 필요가 없습니다.
 
 ## 4. 예약 및 준비 사항
 
 *   **예약:** 일부 인기 있는 골프장 레스토랑은 사전 예약이 필요할 수 있습니다. 예약 가능 여부를 확인하고, 미리 예약하는 것이 좋습니다.
-*   **복장:** 일반적으로 골프 복장으로 식[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 가능하지만, 너무 편안한 복장이나 과도한 노출은 피하는 것이 좋습니다.
+*   **복장:** 일반적으로 골프 복장으로 식[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 가능하지만, 너무 편안한 복장이나 과도한 노출은 피하는 것이 좋습니다.
 *   **결제 수단:** 현금 또는 신용카드로 결제가 가능합니다. 일부 골프장은 전자화폐 결제를 지원하기도 합니다.
 *   **알레르기 정보:** 알레르기가 있는 경우, 예약 시 또는 메뉴 주문 시 미리 알리는 것이 좋습니다.
 

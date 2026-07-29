@@ -25,7 +25,7 @@ Passage Kinkai Island is a **premium Nagasaki coastal** golf destination—ocean
 | **Visitor access** | Limited products / stay packages — verify live |
 | **Best months** | April–June, Oct–Nov |
 | **Best for** | Scenic Kyushu trips with lodging budget |
-| **Also see** | [Passage Kinkai](/course/passage_kinkai_en) for related Kinkai listings |
+| **Also see** | [Passage Kinkai](/course/passage_kinkai) for related Kinkai listings |
 
 ## Who it's for
 
