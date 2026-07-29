@@ -30,7 +30,7 @@ Miyazaki Country Club is a **historic championship venue** on Kyushu’s east co
 ## Who it's for
 
 - Players who want a **tournament-tested layout** rather than pure resort width
-- Travelers already flying to Miyazaki for [Phoenix / Seagaia](/course/phoenix_seagaia_resort_en) or winter golf
+- Travelers already flying to Miyazaki for [Phoenix / Seagaia](/course/phoenix_seagaia_resort) or winter golf
 - Mid-handicappers willing to miss greens and scramble honestly
 
 If your only goal is easy scoring photos, a softer resort nine may fit better. MCC asks for iron control and green patience.
@@ -53,7 +53,7 @@ Championship-city rates vary. **Planning ranges**:
 ## Access
 
 - **Airport**: Miyazaki (KMI) → typically **20–40 minutes** by car depending on hotel base
-- Rental car is simplest for multi-course Miyazaki trips ([Tom Watson](/course/tom_watson_golf_course_en), Phoenix, MCC)
+- Rental car is simplest for multi-course Miyazaki trips ([Tom Watson](/course/tom_watson_golf_course), Phoenix, MCC)
 - Taxi from city hotels works for a single morning tee
 
 Mild winters make Miyazaki a popular escape from snow-country golfers—book lodging early for January–February weekends.
@@ -62,7 +62,7 @@ Mild winters make Miyazaki a popular escape from snow-country golfers—book lod
 
 - Collared shirt, tailored shorts/pants, soft spikes
 - Extra water and sunscreen in summer; wind layer in winter
-- Related: [Phoenix Country Club](/course/phoenix_country_club_en) · [Best winter golf](/guide/best-winter-golf)
+- Related: [Phoenix Country Club](/course/phoenix_country_club) · [Best winter golf](/guide/best-winter-golf)
 
 ## Bottom line
 

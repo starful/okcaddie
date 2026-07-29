@@ -67,8 +67,8 @@ title: '후쿠시마 골프 클럽 마스터 가이드: 20년 경력 베테랑 �
 ### 3.2. 7번 홀 (파 3, 핸디캡 13) – "계곡을 건너는 바람"
 
 *   **티샷 뷰:** 이 홀은 후쿠시마 골프 클럽의 시그니처 파3 홀 중 하나로, 티잉 그라운드에 서면 아찔한 계곡을 건너는 듯한 착시 현상을 불러일으킵니다. 거대한 바위들이 흩어져 있는 깊은 계곡을 건너 그린이 저 멀리 솟아 있으며, 좌우로는 빽빽한 숲이 장벽처럼 버티고 있습니다. 그린 앞쪽에는 깊은 벙커 2개가 입을 벌리고 있어 캐리 거리를 정확히 요구합니다. 바람의 영향이 강해 시각적인 아름다움만큼이나 도전적인 홀입니다.
-*   **숨겨진 해저드:** 계곡 전체가 OB 처리되어 있어, 티샷이 짧거나 좌우로 벗어날 경우 곧바로 페널티로 이어집니다. 그린 앞쪽 벙커는 깊이가 상당하여 한 번 빠지면 파세이브가 매우 어렵습니다. 특히, 그린의 착지 지점 좌측은 보이지 않는 급경[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 있어, 볼이 맞더라도 굴러 떨어져 벙커나 러프로 향하는 경우가 잦습니다.
-*   **야드 및 전략:** 화이트 티 기준 175야드의 홀로, 맞바람이 불거나 약간의 오르막 경사를 고려하면 한 클럽 길게 잡는 것이 일반적입니다. 그린 중앙을 목표로 하는 것이 가장 현명합니다. 그린 폭이 넓지 않아 정확한 아이언샷이 요구되며, 바람의 방향과 강도를 정확히 파악해야 합니다. 핀이 좌측에 꽂혀 있을 경우, 안전하게 그린 중앙을 보고 온 그린 시킨 후 롱 퍼팅으로 [버디](/guide/golf-score-terms-japanese_ko)를 노리는 것이 좋습니다. 절대적으로 벙커에 빠지지 않는 것에 집중해야 합니다. 캐리 거리를 충분히 확보하지 못하면 계곡으로 사라지므로, 항상 여유 있는 클럽 선택이 중요합니다.
+*   **숨겨진 해저드:** 계곡 전체가 OB 처리되어 있어, 티샷이 짧거나 좌우로 벗어날 경우 곧바로 페널티로 이어집니다. 그린 앞쪽 벙커는 깊이가 상당하여 한 번 빠지면 파세이브가 매우 어렵습니다. 특히, 그린의 착지 지점 좌측은 보이지 않는 급경[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 있어, 볼이 맞더라도 굴러 떨어져 벙커나 러프로 향하는 경우가 잦습니다.
+*   **야드 및 전략:** 화이트 티 기준 175야드의 홀로, 맞바람이 불거나 약간의 오르막 경사를 고려하면 한 클럽 길게 잡는 것이 일반적입니다. 그린 중앙을 목표로 하는 것이 가장 현명합니다. 그린 폭이 넓지 않아 정확한 아이언샷이 요구되며, 바람의 방향과 강도를 정확히 파악해야 합니다. 핀이 좌측에 꽂혀 있을 경우, 안전하게 그린 중앙을 보고 온 그린 시킨 후 롱 퍼팅으로 [버디](/guide/golf-score-terms-japanese?lang=ko)를 노리는 것이 좋습니다. 절대적으로 벙커에 빠지지 않는 것에 집중해야 합니다. 캐리 거리를 충분히 확보하지 못하면 계곡으로 사라지므로, 항상 여유 있는 클럽 선택이 중요합니다.
 *   **퍼팅 라인:** 그린은 전체적으로 뒤에서 앞으로 흐르는 완만한 경사를 가지고 있으며, 중앙에서 약간 오른쪽으로 솟아오른 언듈레이션이 있습니다. 홀컵이 우측 상단에 있을 경우, 그린 중앙에서 홀컵 방향으로 '오른쪽에서 왼쪽으로 한 컵' 정도의 브레이크를 읽어야 합니다. 내리막 경사가 강하므로 터치에 유의해야 하며, 오르막 퍼팅은 끝까지 홀컵을 밀어 넣는 느낌으로 스트로크 해야 합니다. 스팀프미터 12피트에 육박하는 그린 속도를 감안하여, 퍼팅 전 충분히 그린 경사를 파악하는 것이 중요합니다.
 
 ### 3.3. 11번 홀 (파 5, 핸디캡 5) – "선택의 딜레마"
@@ -90,7 +90,7 @@ title: '후쿠시마 골프 클럽 마스터 가이드: 20년 경력 베테랑 �
 
 이 4개 홀은 후쿠시마 골프 클럽이 지닌 다채로운 전략적 요소와 난이도를 응축하여 보여줍니다. 각 홀의 특성을 이해하고 현명하게 공략한다면, 분명 만족스러운 라운드를 경험하실 수 있을 것입니다.
 
-## 4. 클럽하우스 & 온천 경험: 라운드의 완벽한 마무리 (Clubhouse & [[[[[[The](/course/the_southern_links_resort_ko)](/course/the_masters_amakusa_course_ko)](/course/the_country_club_japan_ko)](/course/the_royal_golf_club_ko)](/course/the_windsor_golf_course_ko)](/course/the_north_country_golf_club_ko) Onsen Experience)
+## 4. 클럽하우스 & 온천 경험: 라운드의 완벽한 마무리 (Clubhouse & [[[[[[The](/course/the_southern_links_resort?lang=ko)](/course/the_masters_amakusa_course?lang=ko)](/course/the_country_club_japan?lang=ko)](/course/the_royal_golf_club?lang=ko)](/course/the_windsor_golf_course?lang=ko)](/course/the_north_country_golf_club?lang=ko) Onsen Experience)
 
 후쿠시마 골프 클럽의 클럽하우스는 단순한 건물을 넘어, 일본 전통 건축의 미학과 현대적인 편의시설이 조화롭게 어우러진 공간입니다. 1968년 개장 당시의 고풍스러운 목재 골조를 유지하면서도, 최근 리모델링을 통해 세련되고 쾌적한 환경을 제공합니다. 넓은 로비는 통창 너머로 코스의 웅장한 풍경을 한눈에 담을 수 있게 설계되어, 라운드 전후의 여유로운 휴식을 선사합니다. 직원들의 친절하고 세심한 접객은 일본 최고 수준의 서비스를 경험하게 합니다.
 
@@ -132,13 +132,13 @@ title: '후쿠시마 골프 클럽 마스터 가이드: 20년 경력 베테랑 �
 **주요 도시에서의 접근성:**
 후쿠시마 골프 클럽은 일본 동북 지방에 위치하여, 주요 도시로부터의 접근성이 비교적 용이합니다.
 
-*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club?lang=ko)) 출발:**
     *   **신칸센 (Shinkansen):** 도쿄역에서 야마비코(Yamabiko) 신칸센을 타고 후쿠시마역까지 약 1시간 30분 소요됩니다. 후쿠시마역에서는 클럽하우스 셔틀버스(사전 예약 필수) 또는 택시를 이용하여 약 30분이면 도착합니다. 가장 빠르고 편리한 방법입니다.
     *   **자동차:** 도쿄 시내에서 도호쿠 자동차도(東北自動車道)를 이용하여 후쿠시마 니시(福島西) IC까지 약 3시간 소요됩니다. IC에서 클럽까지는 약 15분 거리입니다. 여유로운 여행과 주변 관광을 계획한다면 렌터카를 추천합니다.
-*   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**
+*   **오사카 ([[Osaka](/course/osaka_ibaraki_country?lang=ko)](/course/osaka_golf_club?lang=ko)) 출발:**
     *   **항공 + 신칸센:** 오사카 이타미(伊丹) 공항에서 센다이(仙台) 공항까지 약 1시간 소요됩니다. 센다이 공항에서 센다이역까지 이동 후, 신칸센으로 후쿠시마역까지 약 25분 소요됩니다. 이후는 도쿄 출발과 동일합니다.
     *   **신칸센:** 신오사카역에서 도쿄역을 거쳐 후쿠시마역까지 약 4시간 30분 ~ 5시간 소요됩니다.
-*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**
+*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north?lang=ko)](/course/fukuoka?lang=kokusai_golf_ko)](/course/fukuoka_international?lang=ko)](/course/fukuoka_country_club?lang=ko)) 출발:**
     *   **항공 + 신칸센:** 후쿠오카 공항에서 센다이 공항까지 약 2시간 소요됩니다. 이후는 오사카 출발과 동일합니다.
 
 **베테랑 캐디의 비밀 팁 (Caddy's Secret Tip):**

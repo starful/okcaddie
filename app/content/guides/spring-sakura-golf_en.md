@@ -26,23 +26,23 @@ For a few short weeks each spring, Japan's golf courses turn into something out 
 
 Chiba's golf courses are numerous, well-maintained, and many line their approach roads and out-of-bounds areas with mature cherry trees.
 
-*   **[Chiba Country Club Umesato](/course/chiba_country_club_umesato_en)** — A championship-pedigree forest course in Noda that has hosted the Japan Open. Its wooded holes make a strong backdrop for blooming cherry trees along the practice areas and clubhouse approach.
-*   **[Narita Golf Club](/course/narita_golf_club_en)** — Extremely convenient if you're arriving via Narita Airport; play a sakura-season round on arrival or before departure without a major detour.
+*   **[Chiba Country Club Umesato](/course/chiba_country_club_umesato)** — A championship-pedigree forest course in Noda that has hosted the Japan Open. Its wooded holes make a strong backdrop for blooming cherry trees along the practice areas and clubhouse approach.
+*   **[Narita Golf Club](/course/narita_golf_club)** — Extremely convenient if you're arriving via Narita Airport; play a sakura-season round on arrival or before departure without a major detour.
 
 ## Tokyo Day-Trip Courses
 
 If you're based in central Tokyo and don't want to travel far, these courses are reachable without an overnight stay.
 
-*   **[Tokyo Golf Club](/course/tokyo_golf_club_en)** — Historic and tree-lined, located in Sayama, Saitama, just outside the city. One of Japan's most storied clubs, with mature plantings that include cherry trees near the clubhouse grounds.
+*   **[Tokyo Golf Club](/course/tokyo_golf_club)** — Historic and tree-lined, located in Sayama, Saitama, just outside the city. One of Japan's most storied clubs, with mature plantings that include cherry trees near the clubhouse grounds.
 
 ## Mt. Fuji View Courses: Blossoms in the Foreground, Fuji in the Back
 
 This is the marquee combination of the trip — pink blossoms with Mt. Fuji rising behind the green.
 
-*   **[Fuji Country Club](/course/fuji_country_club_en)** — Located in Gotemba at the base of Mt. Fuji, this historic course offers some of the most photographed Fuji views in Japanese golf.
-*   **[Fujizakura Country Club](/course/fujizakura_country_club_en)** — Set in Fujikawaguchiko, Yamanashi, right in the Fuji Five Lakes area. "Fujizakura" literally references Fuji cherry blossoms, and the course sits at elevation with unobstructed Fuji views.
-*   **[Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course_en)** — Another Gotemba-area option with a strong reputation and reliable Fuji sightlines on clear spring mornings.
-*   **[Hiratsuka Fuji Golf Course](/course/hiratsuka_fuji_golf_course_en)** — In Kanagawa's Ashigarakami district, offering Fuji views from a different angle at a more accessible price point.
+*   **[Fuji Country Club](/course/fuji_country_club)** — Located in Gotemba at the base of Mt. Fuji, this historic course offers some of the most photographed Fuji views in Japanese golf.
+*   **[Fujizakura Country Club](/course/fujizakura_country_club)** — Set in Fujikawaguchiko, Yamanashi, right in the Fuji Five Lakes area. "Fujizakura" literally references Fuji cherry blossoms, and the course sits at elevation with unobstructed Fuji views.
+*   **[Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course)** — Another Gotemba-area option with a strong reputation and reliable Fuji sightlines on clear spring mornings.
+*   **[Hiratsuka Fuji Golf Course](/course/hiratsuka_fuji_golf_course)** — In Kanagawa's Ashigarakami district, offering Fuji views from a different angle at a more accessible price point.
 
 ## Planning Your Sakura Golf Trip
 
@@ -54,9 +54,9 @@ This is the marquee combination of the trip — pink blossoms with Mt. Fuji risi
 
 ## Sample 3-Day Itinerary
 
-*   **Day 1:** Arrive Narita, play [Narita Golf Club](/course/narita_golf_club_en), overnight in Chiba or central Tokyo.
-*   **Day 2:** Morning round at [Chiba Country Club Umesato](/course/chiba_country_club_umesato_en) or [Tokyo Golf Club](/course/tokyo_golf_club_en), afternoon transfer toward Gotemba/Fuji Five Lakes.
-*   **Day 3:** Sunrise or late-morning round at [Fuji Country Club](/course/fuji_country_club_en) or [Fujizakura Country Club](/course/fujizakura_country_club_en) for the classic sakura-and-Fuji shot before heading back.
+*   **Day 1:** Arrive Narita, play [Narita Golf Club](/course/narita_golf_club), overnight in Chiba or central Tokyo.
+*   **Day 2:** Morning round at [Chiba Country Club Umesato](/course/chiba_country_club_umesato) or [Tokyo Golf Club](/course/tokyo_golf_club), afternoon transfer toward Gotemba/Fuji Five Lakes.
+*   **Day 3:** Sunrise or late-morning round at [Fuji Country Club](/course/fuji_country_club) or [Fujizakura Country Club](/course/fujizakura_country_club) for the classic sakura-and-Fuji shot before heading back.
 
 ## Bottom Line
 

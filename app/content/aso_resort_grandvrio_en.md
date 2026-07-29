@@ -38,7 +38,7 @@ Aso Resort Grandvrio is a **mountain stay-and-play** base inside the Mount Aso r
 - Golfers OK with **elevation, wind, and occasional fog**
 - Groups that prefer cart resort flow over private-club formality
 
-If you need a guaranteed ocean links day, this is the wrong landscape—compare coastal Kyushu options instead. For another Aso-area layout, see [Aso Sky Blue](/course/aso_sky_blue_golf_club_en).
+If you need a guaranteed ocean links day, this is the wrong landscape—compare coastal Kyushu options instead. For another Aso-area layout, see [Aso Sky Blue](/course/aso_sky_blue_golf_club).
 
 ## Course overview
 

@@ -27,32 +27,32 @@ Kyushu, Japan's third-largest island, is built for a multi-city golf circuit. It
 
 Your gateway into the circuit, with strong courses close to the airport.
 
-*   **[Fukuoka International](/course/fukuoka_international_en)** — A championship-caliber forest course in Munakata with real tournament pedigree; a strong opening round for the trip.
-*   **[Shimonoseki Golf Club](/course/shimonoseki_golf_club_en)** — Technically just across the Kanmon Strait in Yamaguchi, but close enough to Fukuoka to serve as a seaside-links detour before heading south.
+*   **[Fukuoka International](/course/fukuoka_international)** — A championship-caliber forest course in Munakata with real tournament pedigree; a strong opening round for the trip.
+*   **[Shimonoseki Golf Club](/course/shimonoseki_golf_club)** — Technically just across the Kanmon Strait in Yamaguchi, but close enough to Fukuoka to serve as a seaside-links detour before heading south.
 
 ## Stop 2: Kumamoto (Mount Aso Country)
 
 Kumamoto's courses trade ocean views for mountain and volcanic scenery.
 
-*   **[Kumamoto Airport Country Club](/course/kumamoto_airport_country_club_en)** — A forest course in Kikuyo with a long tournament history and easy access if you're flying between circuit legs.
-*   **[Kumamoto Chuo Golf](/course/kumamoto_chuo_golf_en)** — A challenging, value-priced forest layout also in Kikuyo, good for a second round in the area without a big price jump.
-*   **[Kumamoto Castle Golf](/course/kumamoto_castle_golf_en)** — Mountain-style holes near Kumamoto City itself, useful if you want to pair a round with a visit to Kumamoto Castle.
+*   **[Kumamoto Airport Country Club](/course/kumamoto_airport_country_club)** — A forest course in Kikuyo with a long tournament history and easy access if you're flying between circuit legs.
+*   **[Kumamoto Chuo Golf](/course/kumamoto_chuo_golf)** — A challenging, value-priced forest layout also in Kikuyo, good for a second round in the area without a big price jump.
+*   **[Kumamoto Castle Golf](/course/kumamoto_castle_golf)** — Mountain-style holes near Kumamoto City itself, useful if you want to pair a round with a visit to Kumamoto Castle.
 
 ## Stop 3: Kagoshima (Volcano & Onsen Country)
 
 Kagoshima's courses play in the shadow of Sakurajima, one of the most active volcanoes in Japan, and the region's sand-bath onsen culture is unmatched anywhere else on the circuit.
 
-*   **[Kagoshima Kokusai Golf](/course/kagoshima_kokusai_golf_en)** — Scenic mountain-style holes near Aira with strong value for money.
-*   **[Kagoshima Airport 36 CC](/course/kagoshima_airport_36_cc_en)** — A large 36-hole facility in Kirishima, convenient for flight connections and flexible tee-time availability.
-*   **[Kagoshima Takachiho](/course/kagoshima_takachiho_en)** — Also in Kirishima, with elevation changes and mountain scenery worth the short detour inland.
+*   **[Kagoshima Kokusai Golf](/course/kagoshima?lang=kokusai_golf_en)** — Scenic mountain-style holes near Aira with strong value for money.
+*   **[Kagoshima Airport 36 CC](/course/kagoshima_airport_36_cc)** — A large 36-hole facility in Kirishima, convenient for flight connections and flexible tee-time availability.
+*   **[Kagoshima Takachiho](/course/kagoshima_takachiho)** — Also in Kirishima, with elevation changes and mountain scenery worth the short detour inland.
 
 ## Stop 4: Miyazaki (The Circuit's Marquee Finish)
 
 Miyazaki is where the circuit peaks — home to Japan's most famous tournament venue and a genuinely subtropical, palm-lined golfing atmosphere.
 
-*   **[Miyazaki Country Club](/course/miyazaki_country_club_en)** — An ocean-side, historic championship venue that has hosted JLPGA events; book well ahead for weekend slots.
-*   **[Miyazaki Tom Watson Night](/course/miyazaki_tom_watson_night_en)** — A floodlit resort course that lets you fit in an extra round after dark, useful for maximizing a short circuit stop.
-*   **[Miyazaki Lakeside Golf](/course/miyazaki_lakeside_golf_en)** — A relaxed, scenic lake-view round to close out the trip at accessible green fees.
+*   **[Miyazaki Country Club](/course/miyazaki_country_club)** — An ocean-side, historic championship venue that has hosted JLPGA events; book well ahead for weekend slots.
+*   **[Miyazaki Tom Watson Night](/course/miyazaki_tom_watson_night)** — A floodlit resort course that lets you fit in an extra round after dark, useful for maximizing a short circuit stop.
+*   **[Miyazaki Lakeside Golf](/course/miyazaki_lakeside_golf)** — A relaxed, scenic lake-view round to close out the trip at accessible green fees.
 
 ## Suggested Driving Route
 

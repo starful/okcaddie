@@ -48,7 +48,7 @@ Chiba premium resorts spike on holidays. **Planning ranges**:
 - **Weekday**: often mid- to high-¥10,000s
 - **Weekend / GW / year-end**: commonly ¥20,000s with lunch
 
-Book: [Camellia Hills booking](/booking/camellia_hills_country_club_en). Nearby comparisons include [Sodegaura Country Club](/course/sodegaura_country_club_en).
+Book: [Camellia Hills booking](/booking/camellia_hills_country_club_en). Nearby comparisons include [Sodegaura Country Club](/course/sodegaura_country_club).
 
 ## Access
 

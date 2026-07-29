@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /booking/
+Disallow: /travel/
 
 Sitemap: https://okcaddie.net/sitemap.xml

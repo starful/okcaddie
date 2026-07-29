@@ -30,7 +30,7 @@ The North Country Golf Club in Chitose is one of the **easiest Hokkaido rounds t
 ## Who it's for
 
 - Travelers who land at **CTS** and want golf without a long inland drive
-- Groups building a Hokkaido loop with [Hokkaido Classic](/course/hokkaido_classic_golf_club_en) or Sapporo-area courses
+- Groups building a Hokkaido loop with [Hokkaido Classic](/course/hokkaido_classic_golf_club) or Sapporo-area courses
 - Mid-handicappers who can keep the ball in play when wind rises
 
 Not a winter destination—Hokkaido courses shut or are impractical for most visitors in deep snow months. See [Hokkaido summer golf](/guide/hokkaido-summer-golf).
@@ -56,13 +56,13 @@ Book: [North Country booking](/booking/the_north_country_golf_club_en). Add rent
 - Ideal for **fly-play-fly** or play-then-train to Sapporo
 - Rental car or pre-booked taxi; don’t rely on crowded airport buses with hard cases
 
-If comparing Chitose/Eniwa options, also look at [Eniwa Country Club](/course/eniwa_country_club_en).
+If comparing Chitose/Eniwa options, also look at [Eniwa Country Club](/course/eniwa_country_club).
 
 ## Dress code & tips
 
 - Soft spikes; layered clothing even in July mornings
 - Insect repellent can help in peak summer near vegetation
-- Related: [Sapporo Wattsu](/course/sapporo_golf_club_wattsu_course_en) · [Booking tips](/guide/booking-tips-japan)
+- Related: [Sapporo Wattsu](/course/sapporo_golf_club_wattsu_course) · [Booking tips](/guide/booking-tips-japan)
 
 ## Bottom line
 

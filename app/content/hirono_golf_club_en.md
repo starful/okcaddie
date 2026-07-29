@@ -21,7 +21,7 @@ description: Want to play Japan’s most exclusive golf course? Discover how to 
 
 
 
-As a seasoned golf course rater and a caddy with two decades of experience navigating the hallowed fairways of Japan's most revered courses, few names evoke the same reverence and professional intrigue as Hirono Golf Club. Often whispered in the same breath as Kawana Hotel Golf Course (Fuji Course) and [Tokyo Golf Club](/course/tokyo_golf_club_en), Hirono stands as an architectural masterpiece, a timeless bastion of strategic golf, and an enduring symbol of prestige within the global golf community. This is not merely a golf course; it is a pilgrimage for those who truly understand and appreciate the game's finest traditions.
+As a seasoned golf course rater and a caddy with two decades of experience navigating the hallowed fairways of Japan's most revered courses, few names evoke the same reverence and professional intrigue as Hirono Golf Club. Often whispered in the same breath as Kawana Hotel Golf Course (Fuji Course) and [Tokyo Golf Club](/course/tokyo_golf_club), Hirono stands as an architectural masterpiece, a timeless bastion of strategic golf, and an enduring symbol of prestige within the global golf community. This is not merely a golf course; it is a pilgrimage for those who truly understand and appreciate the game's finest traditions.
 
 ## Historical Prestige: The Genesis of a Japanese Golfing Icon
 

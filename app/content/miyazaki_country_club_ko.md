@@ -30,7 +30,7 @@ description: 미야자키 컨트리 클럽 실전 가이드. 티타임, 그린�
 ## 이런 골퍼에게
 
 - 리조트 폭보다 **대회 검증 레이아웃**을 원할 때
-- [피닉스/시가이아](/course/phoenix_seagaia_resort_ko)나 겨울 골프로 이미 미야자키에 올 때
+- [피닉스/시가이아](/course/phoenix_seagaia_resort?lang=ko)나 겨울 골프로 이미 미야자키에 올 때
 - 그린을 놓쳐도 정직하게 스크램블할 중급자
 
 쉬운 스코어 사진만 목적이면 더 부드러운 리조트가 맞습니다. MCC는 아이언 컨트롤과 그린 인내가 필요합니다.
@@ -53,7 +53,7 @@ description: 미야자키 컨트리 클럽 실전 가이드. 티타임, 그린�
 ## 접근
 
 - **공항**: 미야자키(KMI) → 차로 보통 **20–40분**
-- 다코스 일정이면 렌터카가 편함 ([톰 왓슨](/course/tom_watson_golf_course_ko), 피닉스, MCC)
+- 다코스 일정이면 렌터카가 편함 ([톰 왓슨](/course/tom_watson_golf_course?lang=ko), 피닉스, MCC)
 - 시내 호텔 기준 오전 한 타임은 택시도 가능
 
 눈 없는 겨울 피난처로 인기라 1–2월 주말은 숙소도 일찍 잡으세요.
@@ -62,7 +62,7 @@ description: 미야자키 컨트리 클럽 실전 가이드. 티타임, 그린�
 
 - 카라 셔츠, 테일러드 반바지/팬츠, 소프트 스파이크
 - 여름엔 물·선크림, 겨울엔 바람막이
-- 관련: [피닉스 컨트리 클럽](/course/phoenix_country_club_ko) · [겨울 골프](/guide/best-winter-golf?lang=ko)
+- 관련: [피닉스 컨트리 클럽](/course/phoenix_country_club?lang=ko) · [겨울 골프](/guide/best-winter-golf?lang=ko)
 
 ## 정리
 

@@ -50,10 +50,8 @@ def guide_list():
 @guides_bp.route("/guide/<guide_ref>")
 def guide_detail(guide_ref):
     base_id, legacy_lang = split_localized_id(guide_ref)
-    if legacy_lang:
-        return redirect(f"/guide/{base_id}?lang={legacy_lang}", code=301)
 
-    lang = request.args.get("lang", "en").strip().lower()
+    lang = (legacy_lang or request.args.get("lang", "en")).strip().lower()
     if lang not in SUPPORTED_LANGS:
         lang = "en"
 
@@ -65,6 +63,14 @@ def guide_detail(guide_ref):
         elif lang == "ko" and "lang=" not in dest:
             dest = f"{dest}&lang=ko"
         return redirect(dest, code=301)
+
+    if legacy_lang:
+        dest = f"/guide/{base_id}" + (f"?lang={legacy_lang}" if legacy_lang != "en" else "")
+        return redirect(dest, code=301)
+
+    lang = request.args.get("lang", "en").strip().lower()
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
 
     guide_id = resolve_guide_id(base_id, lang)
     if not guide_id:

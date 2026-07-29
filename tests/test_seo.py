@@ -77,7 +77,67 @@ def test_social_card_page(client):
     r = client.get("/card/pgm_golf_resort_okinawa")
     assert r.status_code == 200
     html = r.get_data(as_text=True)
+    assert 'name="robots" content="noindex,follow"' in html
+    assert 'rel="canonical" href="https://okcaddie.net/course/pgm_golf_resort_okinawa"' in html
     assert 'property="og:url" content="https://okcaddie.net/card/pgm_golf_resort_okinawa"' in html
     assert "/social/pgm_golf_resort_okinawa.jpg" in html
     assert "?v=" not in html.split('name="twitter:image"')[1][:120]
     assert "View course guide" in html
+
+
+def test_robots_txt_disallows_affiliate_paths(client):
+    r = client.get("/robots.txt")
+    assert r.status_code == 200
+    body = r.get_data(as_text=True)
+    assert "Disallow: /api/" in body
+    assert "Disallow: /booking/" in body
+    assert "Disallow: /travel/" in body
+
+
+def test_booking_and_travel_noindex(client):
+    r = client.get("/booking/pgm_golf_resort_okinawa_en")
+    assert r.status_code in (301, 302)
+    assert "noindex" in r.headers.get("X-Robots-Tag", "").lower()
+    r2 = client.get("/travel/rental/pgm_golf_resort_okinawa_en")
+    assert r2.status_code in (301, 302)
+    assert "noindex" in r2.headers.get("X-Robots-Tag", "").lower()
+
+
+def test_card_guide_slug_redirects(client):
+    r = client.get("/card/luxury-golf-experience")
+    assert r.status_code == 301
+    assert r.headers["Location"].endswith("/guide/luxury-golf-experience")
+
+
+def test_retired_cafe_course_redirects(client):
+    r = client.get("/course/kobe_harborland_cafe")
+    assert r.status_code == 301
+    assert "/courses" in r.headers["Location"]
+
+
+def test_sample_golf_club_excluded_from_sitemap(client):
+    r = client.get("/sitemap-courses.xml")
+    assert r.status_code == 200
+    assert "sample_golf_club" not in r.get_data(as_text=True)
+
+
+def test_lang_en_query_redirects(client):
+    r = client.get("/course/pgm_golf_resort_okinawa?lang=en")
+    assert r.status_code == 301
+    assert r.headers["Location"].endswith("/course/pgm_golf_resort_okinawa")
+
+
+def test_legacy_suffix_redirects(client):
+    r = client.get("/course/pgm_golf_resort_okinawa_en")
+    assert r.status_code == 301
+    assert r.headers["Location"].endswith("/course/pgm_golf_resort_okinawa")
+    r_ko = client.get("/course/pgm_golf_resort_okinawa_ko")
+    assert r_ko.status_code == 301
+    assert r_ko.headers["Location"].endswith("/course/pgm_golf_resort_okinawa?lang=ko")
+
+
+def test_retired_guide_legacy_suffix_single_hop(client):
+    r = client.get("/guide/golf-score-terms-japanese_ko")
+    assert r.status_code == 301
+    assert r.headers["Location"].endswith("/guide/understanding-scorecards?lang=ko")
+

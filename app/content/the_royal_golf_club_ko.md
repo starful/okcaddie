@@ -14,7 +14,7 @@ title: 'The Definitive Guide to The Royal Golf Club: An Expert Review (ko)'
 
 ## 일본 골프의 살아있는 역사, 더 로얄 골프 클럽: 그 위대한 서막
 
-일본 골프 코스 레이터이자 20년 경력의 베테랑 캐디로서, 저는 [이바라키](/course/ibaraki_golf_club_ko)현 호코타에 자리한 '더 로얄 골프 클럽'이 단순한 골프장을 넘어선, 하나의 거대한 유산이자 살아있는 역사임을 단언할 수 있습니다. 1930년대 초, 쇼와 시대의 태동과 함께 일본 왕실과 정재계 최고위층의 염원으로 탄생한 이곳은, '자연에 순응하며 인간의 한계를 시험한다'는 숭고한 철학 아래 위대한 서막을 열었습니다.
+일본 골프 코스 레이터이자 20년 경력의 베테랑 캐디로서, 저는 [이바라키](/course/ibaraki_golf_club?lang=ko)현 호코타에 자리한 '더 로얄 골프 클럽'이 단순한 골프장을 넘어선, 하나의 거대한 유산이자 살아있는 역사임을 단언할 수 있습니다. 1930년대 초, 쇼와 시대의 태동과 함께 일본 왕실과 정재계 최고위층의 염원으로 탄생한 이곳은, '자연에 순응하며 인간의 한계를 시험한다'는 숭고한 철학 아래 위대한 서막을 열었습니다.
 
 당시 일본 최고의 명장들이 드넓은 호코타 평원에 모여, 인위적인 손길을 최소화하면서도 전략적 깊이를 극대화하는 마스터피스를 창조했습니다. 클럽하우스의 고풍스러운 건축 양식부터 코스 곳곳에 숨 쉬는 수백 년 된 소나무 숲은, 시간이 멈춘 듯한 고귀한 분위기를 자아냅니다. 개장 이래, 더 로얄 골프 클럽은 단순한 스포츠 시설을 넘어, 일본 사회 엘리트층의 사교와 교류의 장이자, 국가 주요 행사의 상징적인 공간으로 자리매김했습니다. 수십 년에 걸쳐 수많은 내셔널 챔피언십과 국제 대회를 성공적으로 개최하며, 전설적인 프로 골퍼들의 뜨거운 승부처이자 무수한 명장면이 탄생한 역사의 현장이기도 합니다.
 
@@ -117,12 +117,12 @@ title: 'The Definitive Guide to The Royal Golf Club: An Expert Review (ko)'
 
 더 로얄 골프 클럽은 이바라키현 호코타에 위치하여 도쿄 및 기타 주요 도시에서의 접근성이 매우 우수합니다.
 
-*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club?lang=ko)) 출발:**
     *   **자동차:** 조반(常磐) 고속도로 이용 시 약 1시간 30분 ~ 2시간 소요. 렌터카 또는 클럽 셔틀 서비스(사전 예약 필수) 이용이 가장 편리합니다.
     *   **대중교통:** JR 조반선 미토(水戸)역까지 이동 후, 택시 또는 로컬 버스로 약 40분 소요됩니다.
-*   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**
+*   **오사카 ([[Osaka](/course/osaka_ibaraki_country?lang=ko)](/course/osaka_golf_club?lang=ko)) 출발:**
     *   **항공:** 이타미(ITM) 또는 간사이(KIX) 공항에서 이바라키 공항(IBR) 직항편 이용 (약 1시간 10분 소요). 이바라키 공항에서 클럽까지 택시로 약 30분 거리입니다. 또는 도쿄 경유.
-*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**
+*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north?lang=ko)](/course/fukuoka?lang=kokusai_golf_ko)](/course/fukuoka_international?lang=ko)](/course/fukuoka_country_club?lang=ko)) 출발:**
     *   **항공:** 후쿠오카 공항(FUK)에서 이바라키 공항(IBR) 직항편 이용 (약 1시간 40분 소요). 이바라키 공항에서 클럽까지 택시로 약 30분 거리입니다.
 
 ### 캐디의 비밀 팁: 더 로얄을 정복하는 마지막 한 수

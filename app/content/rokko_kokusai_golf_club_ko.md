@@ -45,10 +45,10 @@ title: 'The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (ko)'
 **그린의 난이도: 언듈레이션과 스팀프미터의 예술**
 롯코 국제의 그린은 그 자체로 또 하나의 예술 작품이자 극강의 도전입니다.
 *   **속도 (Stimpmeter):** 평균 10.5에서 11.5피트 사이를 유지하며, 메이저 대회를 앞두고는 12피트 이상으로 관리되기도 합니다. 이 빠른 그린 스피드는 퍼팅의 정확성을 극대화하며, 미스샷은 곧바로 쓰리 퍼팅으로 이어질 수 있습니다.
-*   **언듈레이션 (Undulation):** 롯코산의 지형적 특성을 반영하듯, 그린은 매우 미묘하고 복잡한 언듈레이션을 가지고 있습니다. 눈으로는 평평해 보이지만, 실제로는 미세한 경[[[사가](/course/saga_taku_classic_ko)](/course/saga_country_club_ko)](/course/saga_classic_golf_club_ko) 흐르고 있어 숙련된 캐디의 조언 없이는 라인을 읽기 어렵습니다. 핀 위치에 따라 그린 공략의 난이도는 극명하게 달라집니다. 어떤 핀은 그린 중앙에서 살짝만 벗어나도 경사를 타고 흘러내려 벙커나 러프에 빠질 위험이 있습니다.
+*   **언듈레이션 (Undulation):** 롯코산의 지형적 특성을 반영하듯, 그린은 매우 미묘하고 복잡한 언듈레이션을 가지고 있습니다. 눈으로는 평평해 보이지만, 실제로는 미세한 경[[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko) 흐르고 있어 숙련된 캐디의 조언 없이는 라인을 읽기 어렵습니다. 핀 위치에 따라 그린 공략의 난이도는 극명하게 달라집니다. 어떤 핀은 그린 중앙에서 살짝만 벗어나도 경사를 타고 흘러내려 벙커나 러프에 빠질 위험이 있습니다.
 
 **하이/로우 핸디캐퍼를 위한 '리스크 앤 리워드'**
-*   **로우 핸디캐퍼:** 롯코 국제는 로우 핸디캐퍼에게 전략적 사고와 정교한 샷 메이킹 능력을 시험하는 최적의 무대입니다. 드라이버를 길게 보낼 수 있는 파5 홀에서는 투 온(Two-on)을 노릴 수 있는 기회를 제공하지만, 그 대가로 벙커와 워터 해저드의 위험을 감수해야 합니다. 또한, 짧은 파4 홀에서도 온 그린을 위한 과감한 티샷을 시도할 수 있지만, 실패 시 치명적인 벌타로 이어질 수 있습니다. 그들의 정교한 아이언 샷은 어려운 핀 위치를 직접 공략하여 [버디](/guide/golf-score-terms-japanese_ko) 찬스를 만들 수 있지만, 그린의 복잡한 언듈레이션은 퍼팅의 압박감을 극대화합니다.
+*   **로우 핸디캐퍼:** 롯코 국제는 로우 핸디캐퍼에게 전략적 사고와 정교한 샷 메이킹 능력을 시험하는 최적의 무대입니다. 드라이버를 길게 보낼 수 있는 파5 홀에서는 투 온(Two-on)을 노릴 수 있는 기회를 제공하지만, 그 대가로 벙커와 워터 해저드의 위험을 감수해야 합니다. 또한, 짧은 파4 홀에서도 온 그린을 위한 과감한 티샷을 시도할 수 있지만, 실패 시 치명적인 벌타로 이어질 수 있습니다. 그들의 정교한 아이언 샷은 어려운 핀 위치를 직접 공략하여 [버디](/guide/golf-score-terms-japanese?lang=ko) 찬스를 만들 수 있지만, 그린의 복잡한 언듈레이션은 퍼팅의 압박감을 극대화합니다.
 *   **하이 핸디캐퍼:** 하이 핸디캐퍼에게는 안전한 레이업과 신중한 클럽 선택이 무엇보다 중요합니다. 모든 홀에서 무리한 시도보다는 페어웨이 중앙을 지키고, 그린 주변에서 쇼트 게임으로 만회하는 전략이 더 효과적입니다. 깊은 벙커를 피하고, 워터 해저드를 돌아가는 플레이는 때로는 파를 지키는 데 필수적입니다. 특히 그린 주변에서는 캐디의 도움을 받아 그린의 경사를 정확히 읽는 것이 쓰리 퍼팅을 피하는 핵심입니다. 롯코 국제는 하이 핸디캐퍼에게도 충분히 즐거움을 선사하지만, 인내심과 겸손함을 요구하는 코스입니다.
 
 이렇듯 롯코 국제 골프 클럽은 단순히 공을 치는 행위를 넘어, 자연과의 교감 속에서 자신의 실력과 지혜를 시험하는 진정한 골프 경험을 제공합니다. 모든 샷에 의미를 부여하고, 전략을 고민하게 만드는 설계자의 의도는 라운딩 내내 골퍼를 사로잡을 것입니다.
@@ -95,7 +95,7 @@ title: 'The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (ko)'
 
 이 네 홀은 롯코 국제 골프 클럽이 지닌 전략적인 깊이와 아름다움을 가장 잘 보여주는 홀들입니다. 각 홀마다 설계자의 의도를 파악하고, 자신의 실력과 상황에 맞는 현명한 판단으로 즐거운 라운딩을 경험하시길 바랍니다.
 
-## 클럽하우스 & 온천 체험: 품격 있는 휴식의 정점 (Clubhouse & [[[[[[The](/course/the_southern_links_resort_ko)](/course/the_masters_amakusa_course_ko)](/course/the_country_club_japan_ko)](/course/the_royal_golf_club_ko)](/course/the_windsor_golf_course_ko)](/course/the_north_country_golf_club_ko) Onsen Experience)
+## 클럽하우스 & 온천 체험: 품격 있는 휴식의 정점 (Clubhouse & [[[[[[The](/course/the_southern_links_resort?lang=ko)](/course/the_masters_amakusa_course?lang=ko)](/course/the_country_club_japan?lang=ko)](/course/the_royal_golf_club?lang=ko)](/course/the_windsor_golf_course?lang=ko)](/course/the_north_country_golf_club?lang=ko) Onsen Experience)
 
 롯코 국제 골프 클럽은 단순히 훌륭한 코스만을 제공하는 곳이 아닙니다. 라운딩 전후의 경험을 완벽하게 마무리하는 최고급 클럽하우스와 온천 시설은 이곳의 품격을 한층 더 높여줍니다.
 
@@ -113,7 +113,7 @@ title: 'The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (ko)'
 
 롯코 국제 골프 클럽에서의 라운딩 경험은 미식의 즐거움 없이는 완성되지 않습니다. 이곳의 레스토랑은 엄선된 현지 식재료와 일본 전통 요리 기술을 결합하여, 단순한 클럽 식사를 넘어 하나의 예술 작품 같은 미식 경험을 제공합니다. 저는 이곳의 시그니처 메뉴들을 몇 가지 추천하고자 합니다.
 
-*   **고베규 스테이크 ([Kobe](/course/kobe_grand_hill_ko) Beef Steak):** 롯코산은 효고현 고베에 인접해 있습니다. 고베를 방문했다면 세계 3대 진미 중 하나인 '고베규'를 맛보지 않고서는 돌아갈 수 없습니다. 롯코 국제의 레스토랑에서는 최상급 A5 등급의 고베규를 사용하여 완벽한 마블링과 부드러운 육즙이 살아있는 스테이크를 선보입니다. 미디엄 레어로 구워진 고기는 입안에서 사르르 녹아내리며, 라운딩으로 소진된 에너지를 고급스럽게 보충해 줍니다. 갓 지은 쌀밥, 신선한 야채, 그리고 고베규와 완벽한 조화를 이루는 특제 소스가 함께 제공되어 그 풍미를 한층 더 끌어올립니다.
+*   **고베규 스테이크 ([Kobe](/course/kobe_grand_hill?lang=ko) Beef Steak):** 롯코산은 효고현 고베에 인접해 있습니다. 고베를 방문했다면 세계 3대 진미 중 하나인 '고베규'를 맛보지 않고서는 돌아갈 수 없습니다. 롯코 국제의 레스토랑에서는 최상급 A5 등급의 고베규를 사용하여 완벽한 마블링과 부드러운 육즙이 살아있는 스테이크를 선보입니다. 미디엄 레어로 구워진 고기는 입안에서 사르르 녹아내리며, 라운딩으로 소진된 에너지를 고급스럽게 보충해 줍니다. 갓 지은 쌀밥, 신선한 야채, 그리고 고베규와 완벽한 조화를 이루는 특제 소스가 함께 제공되어 그 풍미를 한층 더 끌어올립니다.
 
 *   **쿠로부타 돈카츠 정식 (Kurobuta Tonkatsu Teishoku):** 육질이 부드럽고 풍미가 깊기로 유명한 가고시마산 '쿠로부타(흑돼지)'로 만든 돈카츠는 바삭한 튀김옷과 촉촉하고 고소한 속살의 완벽한 조화를 자랑합니다. 두툼하게 튀겨낸 돈카츠 한 점을 입에 넣으면 고기의 진한 맛과 육즙이 입안 가득 퍼지며, 특제 돈카츠 소스와 곁들여 먹으면 그 맛은 배가 됩니다. 신선한 양배추 샐러드, 미소시루, 그리고 찰기 있는 밥이 함께 제공되어 든든하고 만족스러운 한 끼 식사를 선사합니다.
 
@@ -135,13 +135,13 @@ title: 'The Definitive Guide to Rokko Kokusai Golf Club: An Expert Review (ko)'
 
 **주요 도시에서의 접근성:**
 롯코 국제 골프 클럽은 간사이 지방의 중심부에 위치하여 일본 주요 도시에서 접근성이 뛰어납니다.
-*   **오사카 ([[Osaka](/course/osaka_ibaraki_country_ko)](/course/osaka_golf_club_ko)) 출발:**
-    *   **자동차:** 한신 고속도로([Hanshin](/course/hanshin_public_golf_ko) Expressway)를 이용하면 약 40~50분 소요됩니다. 가장 편리하고 빠른 방법입니다.
+*   **오사카 ([[Osaka](/course/osaka_ibaraki_country?lang=ko)](/course/osaka_golf_club?lang=ko)) 출발:**
+    *   **자동차:** 한신 고속도로([Hanshin](/course/hanshin_public_golf?lang=ko) Expressway)를 이용하면 약 40~50분 소요됩니다. 가장 편리하고 빠른 방법입니다.
     *   **대중교통:** JR 오사카 역에서 JR 고베선(Kobe Line)을 타고 산노미야(Sannomiya) 역까지 약 20분 이동 후, 역에서 클럽 셔틀버스를 이용하거나 택시로 약 20분 추가 소요됩니다.
-*   **도쿄 ([Tokyo](/course/tokyo_golf_club_ko)) 출발:**
+*   **도쿄 ([Tokyo](/course/tokyo_golf_club?lang=ko)) 출발:**
     *   **신칸센 + 자동차/택시:** 도쿄역에서 신칸센 '노조미'를 타고 신코베(Shin-Kobe) 역까지 약 2시간 40분 소요됩니다. 신코베 역에서 클럽까지는 택시로 약 30분 소요됩니다. 비행기보다 시간 활용에 효율적입니다.
-    *   **비행기 + 자동차/택시:** 하네다(Haneda) 또는 [나리타](/course/narita_golf_club_ko)(Narita) 공항에서 이타미(Itami) 공항(오사카 국제공항) 또는 간사이([[Kansai](/course/kansai_classic_golf_club_ko)](/course/kansai_golf_club_ko)) 국제공항까지 비행기로 약 1시간 소요됩니다. 이타미 공항에서는 클럽까지 약 40분, 간사이 국제공항에서는 약 1시간 10분 정도 택시 또는 렌터카로 이동해야 합니다.
-*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north_ko)](/course/fukuoka_kokusai_golf_ko)](/course/fukuoka_international_ko)](/course/fukuoka_country_club_ko)) 출발:**
+    *   **비행기 + 자동차/택시:** 하네다(Haneda) 또는 [나리타](/course/narita_golf_club?lang=ko)(Narita) 공항에서 이타미(Itami) 공항(오사카 국제공항) 또는 간사이([[Kansai](/course/kansai_classic_golf_club?lang=ko)](/course/kansai_golf_club?lang=ko)) 국제공항까지 비행기로 약 1시간 소요됩니다. 이타미 공항에서는 클럽까지 약 40분, 간사이 국제공항에서는 약 1시간 10분 정도 택시 또는 렌터카로 이동해야 합니다.
+*   **후쿠오카 ([[[[Fukuoka](/course/fukuoka_keya_north?lang=ko)](/course/fukuoka?lang=kokusai_golf_ko)](/course/fukuoka_international?lang=ko)](/course/fukuoka_country_club?lang=ko)) 출발:**
     *   **신칸센 + 자동차/택시:** 하카타(Hakata) 역에서 신칸센 '노조미'를 타고 신코베(Shin-Kobe) 역까지 약 2시간 30분 소요됩니다. 신코베 역에서 클럽까지는 택시로 약 30분 소요됩니다.
 
 **캐디의 비밀 팁 (Caddy's Secret Tip):**

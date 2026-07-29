@@ -20,7 +20,7 @@ title: 'The Definitive Guide to Southern Links Golf Club: An Expert Review by an
   Rater & Senior Caddy'
 ---
 
-As an elite Japanese golf course rater with two decades of experience traversing the nation's most hallowed fairways, and having served as a senior caddy on many of them, I approach each course with a unique blend of technical scrutiny and practical, on-the-ground wisdom. My mission today is to unveil the profound magnificence of **[Southern Links](/course/southern_links_en) Golf Club** in Okinawa, a course that transcends mere recreation to offer an indelible golfing odyssey. This review is not just a description; it is a meticulously crafted guide, designed to illuminate every facet of this spectacular venue, ensuring you, the discerning golfer, are fully prepared to conquer its challenges and savor its unparalleled beauty.
+As an elite Japanese golf course rater with two decades of experience traversing the nation's most hallowed fairways, and having served as a senior caddy on many of them, I approach each course with a unique blend of technical scrutiny and practical, on-the-ground wisdom. My mission today is to unveil the profound magnificence of **[Southern Links](/course/southern_links) Golf Club** in Okinawa, a course that transcends mere recreation to offer an indelible golfing odyssey. This review is not just a description; it is a meticulously crafted guide, designed to illuminate every facet of this spectacular venue, ensuring you, the discerning golfer, are fully prepared to conquer its challenges and savor its unparalleled beauty.
 
 ## Historical Prestige: A Jewel in Japan's Southern Crown
 

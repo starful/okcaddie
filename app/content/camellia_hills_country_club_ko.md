@@ -52,7 +52,7 @@ description: Discover Camellia Hills Country Club in Kisarazu, Chiba. Learn abou
 - **평일**: 대략 1만엔대 중반~후반
 - **주말·GW·연말**: 중식 포함 시 2만엔대가 흔함
 
-[카멜리아 힐스 예약](/booking/camellia_hills_country_club_ko). 인근 비교: [소데가우라 CC](/course/sodegaura_country_club_ko).
+[카멜리아 힐스 예약](/booking/camellia_hills_country_club_ko). 인근 비교: [소데가우라 CC](/course/sodegaura_country_club?lang=ko).
 
 ## 접근
 

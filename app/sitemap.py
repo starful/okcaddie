@@ -7,12 +7,12 @@ from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
 try:
-    from .config import FEATURED_COURSE_BASE_IDS, SITE_URL
+    from .config import FEATURED_COURSE_BASE_IDS, SITE_URL, SITEMAP_EXCLUDED_COURSE_BASE_IDS
     from .data_loader import CACHED_DATA, CACHED_GUIDES
     from .ids import course_href, split_localized_id
     from .paths import BASE_DIR, CONTENT_DIR, GUIDE_DIR
 except ImportError:
-    from config import FEATURED_COURSE_BASE_IDS, SITE_URL
+    from config import FEATURED_COURSE_BASE_IDS, SITE_URL, SITEMAP_EXCLUDED_COURSE_BASE_IDS
     from data_loader import CACHED_DATA, CACHED_GUIDES
     from ids import course_href, split_localized_id
     from paths import BASE_DIR, CONTENT_DIR, GUIDE_DIR
@@ -67,6 +67,8 @@ def course_sitemap_entries(now_iso):
     for c in CACHED_DATA.get("courses", []):
         bid = c.get("base_id") or split_localized_id(c.get("id", ""))[0]
         lang = c.get("lang", "en")
+        if bid in SITEMAP_EXCLUDED_COURSE_BASE_IDS:
+            continue
         path = course_href(bid, lang)
         if path in seen_paths:
             continue
