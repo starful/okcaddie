@@ -10,6 +10,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/seasonal-weather-tips</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/seasonal-weather-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/seasonal-weather-tips?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/seasonal-weather-tips" />
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/snow-country-golf-onsen</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/snow-country-golf-onsen" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/snow-country-golf-onsen?lang=ko" />
@@ -180,6 +189,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/narita-airport-golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/narita-airport-golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/narita-airport-golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/narita-airport-golf" />
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/half-time-lunch</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/half-time-lunch" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/half-time-lunch?lang=ko" />
@@ -289,6 +307,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/understanding-scorecards?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/understanding-scorecards" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/narita-airport-golf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/narita-airport-golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/narita-airport-golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/narita-airport-golf" />
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -513,6 +540,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/snow-country-golf-onsen?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/snow-country-golf-onsen" />
     <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/seasonal-weather-tips?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/seasonal-weather-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/seasonal-weather-tips?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/seasonal-weather-tips" />
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

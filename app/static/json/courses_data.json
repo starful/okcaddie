@@ -1,6 +1,25 @@
 {
-  "last_updated": "2026.07.27",
+  "last_updated": "2026.07.30",
   "courses": [
+    {
+      "id": "hokkaido_brooks_golf_ko",
+      "base_id": "hokkaido_brooks_golf",
+      "lang": "ko",
+      "title": "Hokkaido Brooks Golf",
+      "lat": 42.8144,
+      "lng": 141.7156,
+      "categories": [
+        "Premium / Luxury",
+        "Championship",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/hokkaido_brooks_golf.jpg",
+      "address": "Tomakomai, Hokkaido",
+      "published": "2026-07-30",
+      "summary": "도마코마이 숲속에 자리한 챔피언십급 코스로, 신치토세 공항에서 가깝고 요금은 시즌에 따라 라쿠텐 GORA에서 실시간 확인이 필요합니다.",
+      "booking": "/booking/hokkaido_brooks_golf_ko",
+      "link": "/course/hokkaido_brooks_golf?lang=ko"
+    },
     {
       "id": "miyazaki_tom_watson_night_ko",
       "base_id": "miyazaki_tom_watson_night",
@@ -3166,7 +3185,7 @@
         "Forest Course"
       ],
       "thumbnail": "/static/images/shishido_hills_country_club.jpg",
-      "address": "일본 [이바라키](/course/ibaraki_golf_club_ko)현 가사마시 시시도 2070",
+      "address": "일본 [이바라키](/course/ibaraki_golf_club?lang=ko)현 가사마시 시시도 2070",
       "published": "2026-04-15",
       "summary": "20년 경력의 일본 캐디가 전하는 시시도 힐스 컨트리 클럽의 심층 분석. 역사, 코스 전략, 미식, 온천, 그리고 최적 방문 시기까지, 모든 것을 담은 9,000자 전문가 리뷰.",
       "booking": "/booking/shishido_hills_country_club_ko",
@@ -4809,7 +4828,7 @@
         "Forest Course"
       ],
       "thumbnail": "/static/images/katsuragi_golf_club.jpg",
-      "address": "[Shizuoka](/course/shizuoka_hamamatsu_course_ko) Prefecture, Fukuroi City",
+      "address": "[Shizuoka](/course/shizuoka_hamamatsu_course?lang=ko) Prefecture, Fukuroi City",
       "published": "2026-04-15",
       "summary": "카츠라기 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라한 전문가 리뷰입니다.",
       "booking": "/booking/katsuragi_golf_club_ko",

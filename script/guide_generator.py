@@ -76,7 +76,7 @@ def task_worker(topic_id, topic_name, lang, keywords):
         content = None
         body_len = 0
         quality_errors: list[str] = []
-        for attempt in range(3):
+        for attempt in range(2):
             extra = ""
             if attempt == 1 and body_len and body_len < MIN_BODY_CHARS:
                 extra = (
