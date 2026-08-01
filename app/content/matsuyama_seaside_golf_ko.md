@@ -1,15 +1,21 @@
 ---
-lang: "ko"
-title: "Matsuyama Seaside Golf"
-lat: "33.9544"
-lng: "132.8156"
-categories: "Seaside Links, Ocean View, Value"
-thumbnail: "/static/images/matsuyama_seaside_golf.jpg"
-address: "Matsuyama, Ehime"
-date: "2026-06-06"
-booking: "/booking/matsuyama_seaside_golf_ko"
-summary: "마쓰야마 해변 골프는 에히메현 마쓰야마시에 위치한 18홀 해변 링크스 코스로, 합리적인 가격에 바다 전망을 즐길 수 있습니다."
+lang: ko
+title: Matsuyama Seaside Golf Course | Ehime Tee Times, Green Fees & Booking
+lat: '33.9544'
+lng: '132.8156'
+categories: Seaside Links, Ocean View, Value
+thumbnail: /static/images/matsuyama_seaside_golf.jpg
+address: Matsuyama, Ehime
+date: '2026-06-06'
+booking: /booking/matsuyama_seaside_golf_ko
+summary: 마쓰야마 해변 골프는 에히메현 마쓰야마시에 위치한 18홀 해변 링크스 코스로, 합리적인 가격에 바다 전망을 즐길 수 있습니다.
+description: Book tee times at Matsuyama Seaside Golf in Ehime. 18-hole links course
+  with ocean views. Check green fees and reserve your seaside golf experience today.
+seo_title: Matsuyama Seaside Golf - Ehime's Premier 18-Hole Seaside Links Course
+seo_description: Matsuyama Seaside Golf offers authentic seaside golf in Ehime. Premium
+  18-hole links course. Book tee times, compare green fees, reserve today.
 ---
+
 
 ## 코스 개요
 

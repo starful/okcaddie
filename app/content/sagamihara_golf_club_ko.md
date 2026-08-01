@@ -9,8 +9,14 @@ lng: '139.3856'
 summary: 사가미하라 골프 클럽의 역사, 전략적 코스 분석, 홀별 마스터 가이드, 럭셔리 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자
   이상의 깊이 있는 탐험으로 일본 최고 골프 클럽의 진수를 경험하세요.
 thumbnail: /static/images/sagamihara_golf_club.jpg
-title: '사가미하라 골프 클럽: 일본 명문 코스를 완벽 해부하다 - 최고 평점 캐디의 마스터 리뷰'
+title: 'Sagamihara Golf Club: Green Fees, Course Guide & Booking'
+description: 'Sagamihara Golf Club guide: green fees, tee times, course layout, Rakuten
+  GORA booking, directions, and seasonal tips.'
+seo_title: Sagamihara Golf Club - Green Fees & Booking Guide
+seo_description: 'Sagamihara Golf Club: green fees, tee time booking via Rakuten GORA,
+  course layout, access guide, and course strategy. Book your round today.'
 ---
+
 
 ## [[[사가](/course/saga_taku_classic?lang=ko)](/course/saga_country_club?lang=ko)](/course/saga_classic_golf_club?lang=ko)미하라 골프 클럽: 시대를 초월한 일본 골프의 성지, 그 깊이를 탐하다
 

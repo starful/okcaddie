@@ -1,15 +1,23 @@
 ---
-lang: "en"
-title: "Phoenix Seagaia Resort"
-lat: "31.9544"
-lng: "131.4556"
-categories: "Stay & Play, Premium / Luxury, Resort"
-thumbnail: "/static/images/phoenix_seagaia_resort.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-06-27"
-booking: "/booking/phoenix_seagaia_resort_en"
-summary: "Phoenix Seagaia Resort in Miyazaki offers a challenging 18-hole championship course known for hosting the Dunlop Phoenix Tournament since 1974."
+lang: en
+title: Phoenix Seagaia Resort Golf Course | Miyazaki Tee Times & Green Fees
+lat: '31.9544'
+lng: '131.4556'
+categories: Stay & Play, Premium / Luxury, Resort
+thumbnail: /static/images/phoenix_seagaia_resort.jpg
+address: Miyazaki, Miyazaki
+date: '2026-06-27'
+booking: /booking/phoenix_seagaia_resort_en
+summary: Phoenix Seagaia Resort in Miyazaki offers a challenging 18-hole championship
+  course known for hosting the Dunlop Phoenix Tournament since 1974.
+description: Championship 18-hole golf course in Miyazaki, Japan. Home of Dunlop Phoenix
+  Tournament since 1974. Book tee times, view green fees, and reserve your round.
+seo_title: Phoenix Seagaia Resort | Miyazaki Championship Golf Course Bookings
+seo_description: Championship 18-hole golf course in Miyazaki, Japan. Home of Dunlop
+  Phoenix Tournament since 1974. Book tee times, view green fees, and reserve your
+  round.
 ---
+
 
 ## Course Overview
 

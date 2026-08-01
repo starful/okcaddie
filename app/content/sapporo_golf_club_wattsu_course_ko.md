@@ -3,16 +3,18 @@ address: 홋카이도 기타히로시마
 booking: /booking/sapporo_golf_club_wattsu_course_ko
 categories: 퍼블릭 토너먼트, 프라이빗 클럽, 역사
 date: '2026-07-12'
-description: 삿포로 골프 클럽 왓츠 코스. 방문자 예약 현실, 요금 참고, 코스 성향, 신치토세·삿포로 접근.
+description: 삿포로 골프 클럽 왓츠 코스의 그린피, 예약, 코스 정보를 한눈에. 명문 챔피언십 코스에서 최고의 라운드를 즐겨보세요.
 lang: ko
 lat: '42.8744'
 lng: '141.4856'
-seo_description: 삿포로 GC 왓츠 코스 예약·그린피 가이드. 챔피언십 코스 방문 팁과 CTS 접근.
-seo_title: 삿포로 골프 클럽 왓츠 코스 예약·요금 | OK Caddie
+seo_description: 삿포로 골프 클럽 왓츠 코스 예약 정보, 그린피 가격, 코스 특징을 완벽히 안내합니다. 명문 챔피언십 코스에서 온라인
+  예약 가능.
+seo_title: 삿포로 골프 클럽 왓츠 코스 예약·그린피 | OK Caddie
 summary: 왓츠 코스 실전 가이드. 예약 가능 여부 확인법, 요금 범위, 코스 성향, 삿포로·CTS 접근.
 thumbnail: /static/images/sapporo_golf_club_wattsu_course.jpg
-title: 삿포로 골프 클럽 왓츠 코스 — 예약·방문자 가이드
+title: 삿포로 골프 클럽 왓츠 코스 - 그린피·예약 완벽 가이드
 ---
+
 
 삿포로 골프 클럽 **왓츠 코스**(기타히로시마)는 홋카이도 대표 챔피언십 코스입니다. 리조트형 오키나와 코스와 달리, 수목이 감싼 클래식 시험장에 가깝습니다.
 
