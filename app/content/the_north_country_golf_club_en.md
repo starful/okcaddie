@@ -1,8 +1,10 @@
 ---
 lang: en
-seo_title: The North Country Golf Club Chitose — Fees & Booking | OKCaddie
-seo_description: Book The North Country Golf Club near Chitose, Hokkaido. Fee ranges, summer-season tips, layout notes, and access from New Chitose Airport.
-title: The North Country Golf Club — Tee Times, Fees & Visitor Guide
+seo_title: North Country Golf Club Chitose | Hokkaido Championship Course
+seo_description: Hokkaido's must-play golf destination. North Country Golf Club in
+  Chitose features scenic beauty, championship layout, competitive rates & airport
+  access.
+title: The North Country Golf Club
 lat: '42.8456'
 lng: '141.6744'
 categories: Public Tournament, Easy Booking, Seaside Links
@@ -10,9 +12,12 @@ thumbnail: /static/images/the_north_country_golf_club.jpg
 address: Chitose, Hokkaido
 date: '2026-07-12'
 booking: /booking/the_north_country_golf_club_en
-summary: Chitose-area Hokkaido golf—easy airport access, booking paths, summer fee ranges, and wind-aware play notes.
-description: Practical guide to The North Country Golf Club. Tee times, green fees, access from CTS, and visitor tips.
+summary: Chitose-area Hokkaido golf—easy airport access, booking paths, summer fee
+  ranges, and wind-aware play notes.
+description: Hokkaido's premier golf destination in Chitose with championship layout
+  and scenic beauty
 ---
+
 
 The North Country Golf Club in Chitose is one of the **easiest Hokkaido rounds to logistics-plan**—close to New Chitose Airport (CTS), generally visitor-bookable in season, and popular with golfers connecting Sapporo trips.
 

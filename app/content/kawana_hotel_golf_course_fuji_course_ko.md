@@ -3,16 +3,19 @@ address: 시즈오카현 이토시
 booking: /booking/kawana_hotel_golf_course_fuji_course_ko
 categories: 퍼블릭 토너먼트, 프리미엄 / 럭셔리, 시사이드
 date: '2026-07-12'
-description: 카와나 호텔 후지 코스. 방문자 예약·숙박 패키지, 요금 감각, 도쿄에서의 접근, 코스 성향.
+description: Luxury oceanside golf near Mt. Fuji. Complete booking guide, rates, hotel
+  packages & insider tips for Kawana Hotel Fuji Course.
 lang: ko
 lat: '34.9038'
 lng: '139.1389'
-seo_description: 카와나 호텔 후지 코스 예약·그린피 가이드. 이토 해안 코스, 호텔 패키지, 도쿄 접근.
-seo_title: 카와나 호텔 후지 코스 예약·그린피 | OK Caddie
+seo_description: Luxury oceanside golf near Mt. Fuji. Complete booking guide, rates,
+  hotel packages & insider tips for Kawana Hotel Fuji Course.
+seo_title: 'Kawana Hotel Fuji Course: Luxury Oceanside Golf & Mt. Fuji | OK Caddie'
 summary: 카와나 후지 코스 실전 가이드. 호텔·데이 플레이 구분, 요금, 도쿄 접근, 해안 코스 팁.
 thumbnail: /static/images/kawana_hotel_golf_course_fuji_course.jpg
-title: 카와나 호텔 후지 코스 — 예약·요금·방문자 가이드
+title: 'Kawana Hotel Fuji Course: Luxury Oceanside Golf & Mt. Fuji | OK Caddie'
 ---
+
 
 시즈오카 이토의 **카와나 호텔 후지 코스**는 “카와나 호텔 골프/리뷰”로 자주 검색되는 이즈 명문 해안 코스입니다. 저가 시티 근교 코스가 아니라, **호텔 스테이 + 경관형 라운드**에 가깝습니다.
 

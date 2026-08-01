@@ -61,6 +61,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/using-locker-rooms?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/using-locker-rooms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/using-locker-rooms?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/using-locker-rooms" />
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/beginner-friendly-courses?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/beginner-friendly-courses" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/beginner-friendly-courses?lang=ko" />
@@ -124,6 +133,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kobe-golf-history" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kobe-golf-history" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/korean-friendly-courses</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/korean-friendly-courses" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/korean-friendly-courses?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/korean-friendly-courses" />
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -381,6 +399,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/korean-friendly-courses?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/korean-friendly-courses" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/korean-friendly-courses?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/korean-friendly-courses" />
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/kobe-golf-history</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kobe-golf-history" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kobe-golf-history" />
@@ -617,6 +644,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/beginner-friendly-courses?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/beginner-friendly-courses" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/using-locker-rooms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/using-locker-rooms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/using-locker-rooms?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/using-locker-rooms" />
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
