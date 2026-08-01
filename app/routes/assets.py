@@ -91,3 +91,8 @@ def serve_images(filename):
 @assets_bp.route("/robots.txt")
 def robots_txt():
     return send_from_directory(STATIC_DIR, "robots.txt")
+
+
+@assets_bp.route("/ads.txt")
+def ads_txt():
+    return send_from_directory(STATIC_DIR, "ads.txt", mimetype="text/plain")

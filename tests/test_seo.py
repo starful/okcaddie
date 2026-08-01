@@ -94,6 +94,13 @@ def test_robots_txt_disallows_affiliate_paths(client):
     assert "Disallow: /travel/" in body
 
 
+def test_ads_txt(client):
+    r = client.get("/ads.txt")
+    assert r.status_code == 200
+    body = r.get_data(as_text=True)
+    assert "google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0" in body
+
+
 def test_booking_and_travel_noindex(client):
     r = client.get("/booking/pgm_golf_resort_okinawa_en")
     assert r.status_code in (301, 302)
