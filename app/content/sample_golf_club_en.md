@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Sample Golf Club"
-lat: "35.0"
-lng: "135.0"
-categories: "Public"
-thumbnail: "/static/images/sample_golf_club.jpg"
-address: "Hyogo"
-date: "2026-07-04"
-booking: "/booking/sample_golf_club_en"
-summary: "Sample Golf Club in Hyogo offers 18 holes of strategic play across rolling terrain, with weekday green fees starting around JPY 8,000."
+lang: en
+title: Sample Golf Club
+lat: '35.0'
+lng: '135.0'
+categories: Public
+thumbnail: /static/images/sample_golf_club.jpg
+address: Hyogo
+date: '2026-08-02'
+booking: /booking/sample_golf_club_en
+summary: Sample Golf Club in Hyogo offers 18 holes of strategic play across rolling
+  terrain, with weekday green fees starting around JPY 8,000.
 ---
+
 
 ## Course Overview
 

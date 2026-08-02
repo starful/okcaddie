@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Sample Golf Club"
-lat: "35.0"
-lng: "135.0"
-categories: "Public"
-thumbnail: "/static/images/sample_golf_club.jpg"
-address: "Hyogo"
-date: "2026-07-04"
-booking: "/booking/sample_golf_club_ko"
-summary: "효고현에 위치한 샘플 골프 클럽은 1985년 개장한 18홀 퍼블릭 코스로, 자연 지형을 활용한 전략적인 레이아웃이 특징입니다."
+lang: ko
+title: Sample Golf Club
+lat: '35.0'
+lng: '135.0'
+categories: Public
+thumbnail: /static/images/sample_golf_club.jpg
+address: Hyogo
+date: '2026-08-02'
+booking: /booking/sample_golf_club_ko
+summary: 효고현에 위치한 샘플 골프 클럽은 1985년 개장한 18홀 퍼블릭 코스로, 자연 지형을 활용한 전략적인 레이아웃이 특징입니다.
 ---
+
 
 ## 코스 개요
 

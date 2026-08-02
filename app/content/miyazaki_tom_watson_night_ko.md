@@ -2,7 +2,7 @@
 address: Miyazaki, Miyazaki
 booking: /booking/miyazaki_tom_watson_night_en
 categories: Night Golf, Premium / Luxury, Resort
-date: '2026-07-26'
+date: '2026-08-02'
 lang: ko
 lat: '31.9644'
 lng: '131.4656'
@@ -11,6 +11,7 @@ seo_description: Book night golf at Miyazaki Tom Watson. Green fee ranges, acces
 seo_title: Miyazaki Tom Watson Night Golf | Fees & Booking
 thumbnail: /static/images/miyazaki_tom_watson_night.jpg
 ---
+
 
 본문 초안 작성을 마쳤고, 길이 기준(3,000자 이상)을 여유 있게 넘기도록 일부 섹션을 보강했습니다. 이 세션에서는 파일 쓰기·bash 실행 권한이 자동 승인되지 않아 저장소에 직접 저장하지는 못했고, 완성된 마크다운을 아래에 그대로 드립니다.
 

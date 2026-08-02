@@ -1,7 +1,8 @@
 ---
-date: '2026-07-26'
+date: '2026-08-02'
 lang: en
 ---
+
 
 Write permission wasn't granted for that path, so here's the finished page content directly — let me know if you'd like me to retry saving it once permission is granted.
 
