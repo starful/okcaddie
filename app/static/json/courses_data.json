@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.08.01",
+  "last_updated": "2026-08-02",
   "courses": [
     {
       "id": "hokkaido_brooks_golf_ko",
@@ -34,7 +34,7 @@
       ],
       "thumbnail": "/static/images/miyazaki_tom_watson_night.jpg",
       "address": "Miyazaki, Miyazaki",
-      "published": "2026-07-26",
+      "published": "2026-08-02",
       "summary": "본문 초안 작성을 마쳤고, 길이 기준(3,000자 이상)을 여유 있게 넘기도록 일부 섹션을 보강했습니다. 이 세션에서는 파일 쓰기·bash 실행 권한이 자동 승인되지 않아 저장소에 직접 저장하지는 못했고, 완성된 마...",
       "booking": "/booking/miyazaki_tom_watson_night_en",
       "link": "/course/miyazaki_tom_watson_night?lang=ko"
@@ -53,7 +53,7 @@
       ],
       "thumbnail": "/static/images/miyazaki_tom_watson_night.jpg",
       "address": "Miyazaki, Miyazaki",
-      "published": "2026-07-26",
+      "published": "2026-08-02",
       "summary": "Floodlit resort golf in Miyazaki with weekday and weekend fee ranges — check live pricing and book at /booking/miyazaki_tom_watson_night_en.",
       "booking": "/booking/miyazaki_tom_watson_night_en",
       "link": "/course/miyazaki_tom_watson_night"
@@ -739,7 +739,7 @@
       ],
       "thumbnail": "/static/images/sample_golf_club.jpg",
       "address": "Hyogo",
-      "published": "2026-07-04",
+      "published": "2026-08-02",
       "summary": "효고현에 위치한 샘플 골프 클럽은 1985년 개장한 18홀 퍼블릭 코스로, 자연 지형을 활용한 전략적인 레이아웃이 특징입니다.",
       "booking": "/booking/sample_golf_club_ko",
       "link": "/course/sample_golf_club?lang=ko"
@@ -756,7 +756,7 @@
       ],
       "thumbnail": "/static/images/sample_golf_club.jpg",
       "address": "Hyogo",
-      "published": "2026-07-04",
+      "published": "2026-08-02",
       "summary": "Sample Golf Club in Hyogo offers 18 holes of strategic play across rolling terrain, with weekday green fees starting around JPY 8,000.",
       "booking": "/booking/sample_golf_club_en",
       "link": "/course/sample_golf_club"

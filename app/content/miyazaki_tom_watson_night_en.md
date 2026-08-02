@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Miyazaki Tom Watson Night"
-lat: "31.9644"
-lng: "131.4656"
-categories: "Night Golf, Premium / Luxury, Resort"
-thumbnail: "/static/images/miyazaki_tom_watson_night.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-07-26"
-booking: "/booking/miyazaki_tom_watson_night_en"
-summary: "Floodlit resort golf in Miyazaki with weekday and weekend fee ranges — check live pricing and book at /booking/miyazaki_tom_watson_night_en."
-seo_title: "Miyazaki Tom Watson Night Golf | Fees & Booking"
-seo_description: "Book night golf at Miyazaki Tom Watson. Green fee ranges, access from Miyazaki Airport, and what a twilight round includes."
+lang: en
+title: Miyazaki Tom Watson Night
+lat: '31.9644'
+lng: '131.4656'
+categories: Night Golf, Premium / Luxury, Resort
+thumbnail: /static/images/miyazaki_tom_watson_night.jpg
+address: Miyazaki, Miyazaki
+date: '2026-08-02'
+booking: /booking/miyazaki_tom_watson_night_en
+summary: Floodlit resort golf in Miyazaki with weekday and weekend fee ranges — check
+  live pricing and book at /booking/miyazaki_tom_watson_night_en.
+seo_title: Miyazaki Tom Watson Night Golf | Fees & Booking
+seo_description: Book night golf at Miyazaki Tom Watson. Green fee ranges, access
+  from Miyazaki Airport, and what a twilight round includes.
 ---
+
 
 ## Quick Facts
 
