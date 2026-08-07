@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "Matsuyama Seaside Golf"
-lat: "33.9544"
-lng: "132.8156"
-categories: "Seaside Links, Ocean View, Value"
-thumbnail: "/static/images/matsuyama_seaside_golf.jpg"
-address: "Matsuyama, Ehime"
-date: "2026-06-06"
-booking: "/booking/matsuyama_seaside_golf_en"
-summary: "Matsuyama Seaside Golf in Ehime offers a genuine seaside links experience across 18 holes, providing scenic ocean views and competitive green fees."
+address: Matsuyama, Ehime
+booking: /booking/matsuyama_seaside_golf_en
+categories: Seaside Links, Ocean View, Value
+date: '2026-06-06'
+description: Book tee times at Matsuyama Seaside Golf in Ehime. 18-hole links course
+  with ocean views. Check green fees and reserve your seaside golf experience today.
+lang: en
+lat: '33.9544'
+lng: '132.8156'
+seo_description: Matsuyama Seaside Golf offers authentic seaside golf in Ehime. Premium
+  18-hole links course. Book tee times, compare green fees, reserve today.
+seo_title: Matsuyama Seaside Golf - Ehime's Premier 18-Hole Seaside Links Course
+summary: Matsuyama Seaside Golf in Ehime offers a genuine seaside links experience
+  across 18 holes, providing scenic ocean views and competitive green fees.
+thumbnail: /static/images/matsuyama_seaside_golf.jpg
+title: Matsuyama Seaside Golf
 ---
 
 ## Course Overview

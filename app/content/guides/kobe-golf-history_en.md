@@ -1,18 +1,20 @@
 ---
 lang: en
-title: 'The History of Golf in Japan: Kobe & Japan''s Oldest Courses'
+title: 'Kobe Golf Club: Japan''s Oldest Golf Course & History'
 summary: Delve into the fascinating origins of golf in Kobe and Hyogo Prefecture,
   Japan. Discover how this sport, introduced by foreign residents, took root and flourished,
   shaping the landscape of recreational activities in the region. Explore the key
   figures, early golf courses, and cultural adaptations that define the unique history
   of golf in this part of Japan.
 date: '2026-04-15'
-description: Discover the history of golf in Japan. Explore Kobe Golf Club, Japan's
-  oldest golf course, and the rich heritage of Hyogo's legendary courses.
-seo_title: 'History of Golf in Japan: Kobe & Japan''s Oldest Course | OK Caddie'
-seo_description: Discover the history of golf in Japan. Explore Kobe Golf Club, Japan's
-  oldest golf course, and the rich heritage of Hyogo's legendary courses.
+description: Discover the rich history of golf in Japan through Kobe Golf Club, established
+  in 1903 as Japan's oldest golf course. Explore the heritage and evolution of Japan's
+  most historic golf courses in Hyogo.
+seo_title: 'Kobe Golf Club: Japan''s Oldest Golf Course & History'
+seo_description: Explore Kobe Golf Club, Japan's oldest golf course since 1903. Learn
+  the history of golf in Japan and Hyogo's legendary courses.
 ---
+
 
 
 

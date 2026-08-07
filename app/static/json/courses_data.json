@@ -1,24 +1,96 @@
 {
-  "last_updated": "2026-08-02",
+  "last_updated": "2026.08.08",
   "courses": [
     {
-      "id": "hokkaido_brooks_golf_ko",
-      "base_id": "hokkaido_brooks_golf",
-      "lang": "ko",
-      "title": "Hokkaido Brooks Golf",
-      "lat": 42.8144,
-      "lng": 141.7156,
+      "id": "kushiro_marsh_golf_en",
+      "base_id": "kushiro_marsh_golf",
+      "lang": "en",
+      "title": "Kushiro Marsh Golf",
+      "lat": 43.0544,
+      "lng": 144.4556,
       "categories": [
-        "Premium / Luxury",
-        "Championship",
-        "Forest"
+        "Scenic View",
+        "Nature",
+        "Wilderness"
       ],
-      "thumbnail": "/static/images/hokkaido_brooks_golf.jpg",
-      "address": "Tomakomai, Hokkaido",
-      "published": "2026-07-30",
-      "summary": "도마코마이 숲속에 자리한 챔피언십급 코스로, 신치토세 공항에서 가깝고 요금은 시즌에 따라 라쿠텐 GORA에서 실시간 확인이 필요합니다.",
-      "booking": "/booking/hokkaido_brooks_golf_ko",
-      "link": "/course/hokkaido_brooks_golf?lang=ko"
+      "thumbnail": "/static/images/kushiro_marsh_golf.jpg",
+      "address": "Kushiro, Hokkaido",
+      "published": "2026-08-08",
+      "summary": "A wetland-edge course near Kushiro, Hokkaido, with cooler summer rounds; verify a live quote and book via Rakuten GORA or your hotel desk.",
+      "booking": "/booking/kushiro_marsh_golf_en",
+      "link": "/course/kushiro_marsh_golf"
+    },
+    {
+      "id": "asahikawa_kokusai_golf_en",
+      "base_id": "asahikawa_kokusai_golf",
+      "lang": "en",
+      "title": "Asahikawa Kokusai Golf",
+      "lat": 43.7544,
+      "lng": 142.4556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
+      "address": "Asahikawa, Hokkaido",
+      "published": "2026-08-08",
+      "summary": "Asahikawa Kokusai Golf pairs mountain-style scenery with fair value; book via Rakuten GORA or the link below and verify live pricing.",
+      "booking": "/booking/asahikawa_kokusai_golf_en",
+      "link": "/course/asahikawa_kokusai_golf"
+    },
+    {
+      "id": "abashiri_lakeside_golf_en",
+      "base_id": "abashiri_lakeside_golf",
+      "lang": "en",
+      "title": "Abashiri Lakeside Golf",
+      "lat": 43.9544,
+      "lng": 144.1556,
+      "categories": [
+        "Value for Money",
+        "Lake View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/abashiri_lakeside_golf.jpg",
+      "address": "Abashiri, Hokkaido",
+      "published": "2026-08-08",
+      "summary": "Lakeside golf in Abashiri, Hokkaido, with budget-friendly weekday rates — check live pricing and book via /booking/abashiri_lakeside_golf_en.",
+      "booking": "/booking/abashiri_lakeside_golf_en",
+      "link": "/course/abashiri_lakeside_golf"
+    },
+    {
+      "id": "sample_golf_club_ko",
+      "base_id": "sample_golf_club",
+      "lang": "ko",
+      "title": "Sample Golf Club",
+      "lat": 35.0,
+      "lng": 135.0,
+      "categories": [
+        "Public"
+      ],
+      "thumbnail": "/static/images/sample_golf_club.jpg",
+      "address": "Hyogo",
+      "published": "2026-08-02",
+      "summary": "효고현에 위치한 샘플 골프 클럽은 1985년 개장한 18홀 퍼블릭 코스로, 자연 지형을 활용한 전략적인 레이아웃이 특징입니다.",
+      "booking": "/booking/sample_golf_club_ko",
+      "link": "/course/sample_golf_club?lang=ko"
+    },
+    {
+      "id": "sample_golf_club_en",
+      "base_id": "sample_golf_club",
+      "lang": "en",
+      "title": "Sample Golf Club",
+      "lat": 35.0,
+      "lng": 135.0,
+      "categories": [
+        "Public"
+      ],
+      "thumbnail": "/static/images/sample_golf_club.jpg",
+      "address": "Hyogo",
+      "published": "2026-08-02",
+      "summary": "Sample Golf Club in Hyogo offers 18 holes of strategic play across rolling terrain, with weekday green fees starting around JPY 8,000.",
+      "booking": "/booking/sample_golf_club_en",
+      "link": "/course/sample_golf_club"
     },
     {
       "id": "miyazaki_tom_watson_night_ko",
@@ -57,6 +129,25 @@
       "summary": "Floodlit resort golf in Miyazaki with weekday and weekend fee ranges — check live pricing and book at /booking/miyazaki_tom_watson_night_en.",
       "booking": "/booking/miyazaki_tom_watson_night_en",
       "link": "/course/miyazaki_tom_watson_night"
+    },
+    {
+      "id": "hokkaido_brooks_golf_ko",
+      "base_id": "hokkaido_brooks_golf",
+      "lang": "ko",
+      "title": "Hokkaido Brooks Golf",
+      "lat": 42.8144,
+      "lng": 141.7156,
+      "categories": [
+        "Premium / Luxury",
+        "Championship",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/hokkaido_brooks_golf.jpg",
+      "address": "Tomakomai, Hokkaido",
+      "published": "2026-07-30",
+      "summary": "도마코마이 숲속에 자리한 챔피언십급 코스로, 신치토세 공항에서 가깝고 요금은 시즌에 따라 라쿠텐 GORA에서 실시간 확인이 필요합니다.",
+      "booking": "/booking/hokkaido_brooks_golf_ko",
+      "link": "/course/hokkaido_brooks_golf?lang=ko"
     },
     {
       "id": "hokkaido_brooks_golf_en",
@@ -501,7 +592,7 @@
       "id": "kawana_hotel_golf_course_fuji_course_ko",
       "base_id": "kawana_hotel_golf_course_fuji_course",
       "lang": "ko",
-      "title": "카와나 호텔 후지 코스",
+      "title": "Kawana Hotel Fuji Course",
       "lat": 34.9038,
       "lng": 139.1389,
       "categories": [
@@ -726,40 +817,6 @@
       "summary": "Mount Aso caldera resort golf—package ranges, wind/elevation tips, onsen stay, and airport access for Kumamoto trips.",
       "booking": "/booking/aso_resort_grandvrio_en",
       "link": "/course/aso_resort_grandvrio"
-    },
-    {
-      "id": "sample_golf_club_ko",
-      "base_id": "sample_golf_club",
-      "lang": "ko",
-      "title": "Sample Golf Club",
-      "lat": 35.0,
-      "lng": 135.0,
-      "categories": [
-        "Public"
-      ],
-      "thumbnail": "/static/images/sample_golf_club.jpg",
-      "address": "Hyogo",
-      "published": "2026-08-02",
-      "summary": "효고현에 위치한 샘플 골프 클럽은 1985년 개장한 18홀 퍼블릭 코스로, 자연 지형을 활용한 전략적인 레이아웃이 특징입니다.",
-      "booking": "/booking/sample_golf_club_ko",
-      "link": "/course/sample_golf_club?lang=ko"
-    },
-    {
-      "id": "sample_golf_club_en",
-      "base_id": "sample_golf_club",
-      "lang": "en",
-      "title": "Sample Golf Club",
-      "lat": 35.0,
-      "lng": 135.0,
-      "categories": [
-        "Public"
-      ],
-      "thumbnail": "/static/images/sample_golf_club.jpg",
-      "address": "Hyogo",
-      "published": "2026-08-02",
-      "summary": "Sample Golf Club in Hyogo offers 18 holes of strategic play across rolling terrain, with weekday green fees starting around JPY 8,000.",
-      "booking": "/booking/sample_golf_club_en",
-      "link": "/course/sample_golf_club"
     },
     {
       "id": "wakamatsu_golf_club_ko",
@@ -1089,7 +1146,7 @@
       "id": "phoenix_seagaia_resort_en",
       "base_id": "phoenix_seagaia_resort",
       "lang": "en",
-      "title": "Phoenix Seagaia Resort",
+      "title": "Phoenix Seagaia Resort Golf Course | Miyazaki Tee Times & Green Fees",
       "lat": 31.9544,
       "lng": 131.4556,
       "categories": [
@@ -2251,7 +2308,7 @@
       "id": "matsuyama_seaside_golf_ko",
       "base_id": "matsuyama_seaside_golf",
       "lang": "ko",
-      "title": "Matsuyama Seaside Golf",
+      "title": "Matsuyama Seaside Golf Course | Ehime Tee Times, Green Fees & Booking",
       "lat": 33.9544,
       "lng": 132.8156,
       "categories": [
@@ -3367,7 +3424,7 @@
       "id": "sagamihara_golf_club_ko",
       "base_id": "sagamihara_golf_club",
       "lang": "ko",
-      "title": "사가미하라 골프 클럽",
+      "title": "Sagamihara Golf Club",
       "lat": 35.5444,
       "lng": 139.3856,
       "categories": [

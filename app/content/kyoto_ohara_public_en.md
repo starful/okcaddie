@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Kyoto Ohara Public Golf Course: Complete Visitor & Booking Guide'
+title: Kyoto Ohara Public Golf Course
 lat: '35.1144'
 lng: '135.8156'
 categories: Value for Money, Mountain Style, Scenic
@@ -10,12 +10,14 @@ date: '2026-06-27'
 booking: /booking/kyoto_ohara_public_en
 summary: A comprehensive 9,000-character master guide to Kyoto Ohara Public, covering
   strategy, history, and luxury facilities.
-description: An easy-to-follow guide to playing Kyoto Ohara Public Golf Course, featuring
-  green fees, course layout, and step-by-step English booking tips.
-seo_title: 'Kyoto Ohara Public Golf Course: Easy Booking & Fees'
-seo_description: 'Want to play golf in Kyoto? Guide to Kyoto Ohara Public Golf Course:
-  green fees, course layout, and how to book online in English.'
+description: Kyoto Ohara Public Golf Course offers convenient online booking in English,
+  featuring current green fees, detailed course information, and easy tee time reservations
+  for golfers visiting Japan.
+seo_title: Book Kyoto Ohara Golf Course - Easy Tee Times & Pricing
+seo_description: Kyoto Ohara Public Golf - Check live rates, reserve tee times, and
+  book instantly online in English. Easy, secure booking.
 ---
+
 
 
 
