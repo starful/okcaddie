@@ -185,6 +185,7 @@ def process_courses(limit):
         return 1
 
     tasks = []
+    half_skipped = 0
     with open(csv_path, mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         new_topic_count = 0
@@ -207,6 +208,15 @@ def process_courses(limit):
             ):
                 continue
 
+            en_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md"))
+            ko_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_ko.md"))
+            if en_exists or ko_exists:
+                half_skipped += 1
+                continue
+
+            if new_topic_count >= limit:
+                break
+
             base = {
                 'safe_name': safe_name,
                 'name': name,
@@ -224,24 +234,19 @@ def process_courses(limit):
                 'Phone': _safe(row, 'Phone'),
                 'Website': _safe(row, 'Website', 'URL'),
             }
-            row_tasks = []
             for lang in ['en', 'ko']:
-                out_path = os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")
-                if not os.path.exists(out_path):
-                    row_tasks.append({**base, 'lang': lang})
-            if not row_tasks:
-                continue
-            if new_topic_count >= limit:
-                break
-            tasks.extend(row_tasks)
+                tasks.append({**base, 'lang': lang})
             new_topic_count += 1
+
+    if half_skipped:
+        print(f"⏭️  반쪽(en/ko 한쪽만) {half_skipped}건 — 신규 페어 우선으로 스킵", flush=True)
 
     if not tasks:
         print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.", flush=True)
-        _emit_pipeline_result(step="items", topics=0, generated=0)
+        _emit_pipeline_result(step="items", topics=0, generated=0, skipped=half_skipped)
         return 0
 
-    print(f"🔥 코스 리뷰 생성 시작 (주제: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)", flush=True)
+    print(f"🔥 코스 리뷰 생성 시작 (신규 페어: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)", flush=True)
     print("🚀 동시 실행 쓰레드: 10", flush=True)
 
     success_count = 0
@@ -264,11 +269,17 @@ def process_courses(limit):
             topics=new_topic_count,
             generated=success_count,
             failed=failure_count,
+            skipped=half_skipped,
             ok=False,
         )
         return 1
     print(f"✅ 생성 완료: {success_count}개 파일", flush=True)
-    _emit_pipeline_result(step="items", topics=new_topic_count, generated=success_count)
+    _emit_pipeline_result(
+        step="items",
+        topics=new_topic_count,
+        generated=success_count,
+        skipped=half_skipped,
+    )
     return 0
 
 
