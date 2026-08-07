@@ -123,6 +123,7 @@ def generate_guides_parallel(limit=5):
     tasks = []
     new_topics_count = 0
     skipped_blocked = 0
+    half_skipped = 0
 
     csv_path = _guides_csv_path()
     if not os.path.exists(csv_path):
@@ -142,30 +143,36 @@ def generate_guides_parallel(limit=5):
                 print(f"⏭️  Skip blocked guide id in queue: {topic_id}")
                 continue
 
-            if not (
-                os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_en.md"))
-                and os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_ko.md"))
-            ):
-                for lang in ["en", "ko"]:
-                    tasks.append(
-                        {
-                            "topic_id": topic_id,
-                            "topic_name": row.get(f"topic_{lang}") or row.get("topic_en") or topic_id,
-                            "lang": lang,
-                            "keywords": row.get("keywords") or "",
-                        }
-                    )
-                new_topics_count += 1
+            en_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_en.md"))
+            ko_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_ko.md"))
+            if en_exists and ko_exists:
+                continue
+            if en_exists or ko_exists:
+                half_skipped += 1
+                continue
+
+            for lang in ["en", "ko"]:
+                tasks.append(
+                    {
+                        "topic_id": topic_id,
+                        "topic_name": row.get(f"topic_{lang}") or row.get("topic_en") or topic_id,
+                        "lang": lang,
+                        "keywords": row.get("keywords") or "",
+                    }
+                )
+            new_topics_count += 1
 
     if skipped_blocked:
         print(f"🛡️  Blocked queue rows skipped: {skipped_blocked}")
+    if half_skipped:
+        print(f"⏭️  반쪽(en/ko 한쪽만) 가이드 {half_skipped}건 — 신규 페어 우선으로 스킵")
 
     if not tasks:
-        print("💡 생성할 새 가이드가 없습니다.")
-        _emit_pipeline_result(step="guides", topics=0, generated=0)
+        print("💡 생성할 새 가이드 페어가 없습니다.")
+        _emit_pipeline_result(step="guides", topics=0, generated=0, skipped=half_skipped)
         return
 
-    print(f"🔥 병렬 처리 시작: 총 {len(tasks)}개 파일 생성 시도 (동시 작업 쓰레드: 10)")
+    print(f"🔥 병렬 처리 시작: 신규 {new_topics_count}페어 · {len(tasks)}파일 (동시 작업 쓰레드: 10)")
 
     ok = 0
     failed = 0
@@ -185,7 +192,13 @@ def generate_guides_parallel(limit=5):
                     ok += 1
                 elif result.startswith("❌"):
                     failed += 1
-    _emit_pipeline_result(step="guides", topics=new_topics_count, generated=ok, failed=failed)
+    _emit_pipeline_result(
+        step="guides",
+        topics=new_topics_count,
+        generated=ok,
+        failed=failed,
+        skipped=half_skipped,
+    )
 
 
 if __name__ == "__main__":
