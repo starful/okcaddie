@@ -319,6 +319,7 @@ def _noindex_redirect(url: str, code: int = 302):
 @courses_bp.route("/booking/<course_id>")
 def booking_redirect(course_id):
     area_code = 0
+    search_name = ""
     base_id, _legacy = split_localized_id(course_id)
     md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
     if not os.path.exists(md_path):
@@ -329,18 +330,95 @@ def booking_redirect(course_id):
                 md_path = alt
                 break
 
-    if os.path.exists(md_path):
-        with open(md_path, "r", encoding="utf-8") as f:
+    # Guides live under GUIDE_DIR — still map area for GORA region search.
+    guide_path = None
+    try:
+        from ..paths import GUIDE_DIR
+    except ImportError:
+        from paths import GUIDE_DIR
+    for candidate in (course_id, f"{base_id}_en", f"{base_id}_ko"):
+        gp = os.path.join(GUIDE_DIR, f"{candidate}.md")
+        if os.path.exists(gp):
+            guide_path = gp
+            break
+
+    content = ""
+    path = md_path if os.path.exists(md_path) else guide_path
+    if path and os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
             content = f.read()
-            for pref, code in AREA_MAP.items():
-                if pref in content:
-                    area_code = code
-                    break
+        pref = extract_prefecture(content)
+        if pref:
+            area_code = AREA_MAP.get(pref, 0)
+        # Prefer JP course title from frontmatter when present.
+        m = re.search(r'(?m)^title:\s*"([^"]+)"', content)
+        if m and path == md_path:
+            title = m.group(1).strip()
+            # GORA search works better with shorter Latin/JP names without fluff.
+            if title and len(title) <= 60:
+                search_name = title
+
+    if area_code == 0:
+        # English slug/prefecture hints (guides + courses).
+        blob = f"{base_id} {course_id} {content[:2000]}".lower().replace("-", "_")
+        en_hints = (
+            ("hokkaido", 1),
+            ("okinawa", 47),
+            ("tokyo", 13),
+            ("kanagawa", 14),
+            ("chiba", 12),
+            ("osaka", 27),
+            ("kyoto", 26),
+            ("hyogo", 28),
+            ("aichi", 23),
+            ("fukuoka", 40),
+            ("nagano", 20),
+            ("shizuoka", 22),
+            ("miyagi", 4),
+            ("hiroshima", 34),
+            ("ishikawa", 17),
+            ("tochigi", 9),
+            ("gunma", 10),
+            ("ibaraki", 8),
+            ("yamanashi", 19),
+            ("niigata", 15),
+            ("kumamoto", 43),
+            ("oita", 44),
+            ("kagoshima", 46),
+            ("mie", 24),
+            ("gifu", 21),
+            ("nara", 29),
+            ("wakayama", 30),
+            ("saga", 41),
+            ("nagasaki", 42),
+            ("miyazaki", 45),
+            ("yamaguchi", 35),
+            ("okayama", 33),
+            ("kagawa", 37),
+            ("ehime", 38),
+            ("kochi", 39),
+            ("tokushima", 36),
+            ("tottori", 31),
+            ("shimane", 32),
+            ("fukui", 18),
+            ("toyama", 16),
+            ("akita", 5),
+            ("aomori", 2),
+            ("iwate", 3),
+            ("yamagata", 6),
+            ("fukushima", 7),
+            ("saitama", 11),
+            ("shiga", 25),
+        )
+        for token, code in en_hints:
+            if token in blob:
+                area_code = code
+                break
 
     target_date = datetime.now() + timedelta(days=7)
 
     rakuten_params = [
-        ("search_c_name", ""),
+        ("search_c_name", search_name),
         ("year", str(target_date.year)),
         ("month", str(target_date.month)),
         ("day", str(target_date.day)),
