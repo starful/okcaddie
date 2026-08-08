@@ -187,37 +187,39 @@
                 <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {{ '일본 1위 골프 예약 서비스로 연결됩니다.' if active_lang == 'ko' else 'Redirects to Japan\'s leading golf booking site.' }}</p>
             </div>
 
-            <!-- 2. 클룩: 여행 필수품 그리드 -->
+            <!-- 2. Trip essentials: KO = Coupang + Rakuten eSIM; EN = Klook -->
             <div style="background: #f1f5f9; padding: 35px 25px; border-radius: 25px; border: 1px solid #e2e8f0;">
                 <h4 style="text-align: center; margin-bottom: 25px; font-weight: 900; color: #1e293b; font-size: 1.2rem;">
-                    🚗 {{ '골프 여행 필수품 최저가 준비' if active_lang == 'ko' else 'Golf Trip Essentials' }}
+                    🚗 {{ '골프 여행 필수품 준비' if active_lang == 'ko' else 'Golf Trip Essentials' }}
                 </h4>
                 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 15px;">
-                    <!-- 렌터카 -->
-                    <a href="/travel/rental/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
-                        <div style="font-size: 2rem; margin-bottom: 10px;">🚗</div>
-                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '일본 렌터카' if active_lang == 'ko' else 'Car Rental' }}</div>
-                    </a>
-                    <!-- 공항 픽업 -->
-                    <a href="/travel/pickup/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
-                        <div style="font-size: 2rem; margin-bottom: 10px;">🚐</div>
-                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '공항 픽업' if active_lang == 'ko' else 'Airport Van' }}</div>
-                    </a>
-                    <!-- eSIM -->
-                    <a href="/travel/esim/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
-                        <div style="font-size: 2rem; margin-bottom: 10px;">📱</div>
-                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '일본 eSIM' if active_lang == 'ko' else 'Japan eSIM' }}</div>
-                    </a>
                     {% if active_lang == 'ko' %}
                     <a href="/travel/coupang/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
                         <div style="font-size: 2rem; margin-bottom: 10px;">✈️</div>
                         <div style="font-weight: 700; color: #e7422d; font-size: 0.95rem;">쿠팡트래블</div>
                     </a>
+                    <a href="https://a.r10.to/hPsyyI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">📱</div>
+                        <div style="font-weight: 700; color: #bf0000; font-size: 0.95rem;">일본 eSIM</div>
+                    </a>
+                    {% else %}
+                    <a href="/travel/rental/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">🚗</div>
+                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">Car Rental</div>
+                    </a>
+                    <a href="/travel/pickup/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">🚐</div>
+                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">Airport Van</div>
+                    </a>
+                    <a href="/travel/esim/{{ post.id }}" target="_blank" rel="nofollow" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">📱</div>
+                        <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">Japan eSIM</div>
+                    </a>
                     {% endif %}
                 </div>
                 <p style="text-align: center; margin-top: 25px; font-size: 0.8rem; color: #64748b; font-weight: 600;">
-                    {{ '클룩(Klook)·쿠팡 제휴 링크로 연결됩니다.' if active_lang == 'ko' else 'Exclusive member deals powered by Klook.' }}
+                    {{ '쿠팡·라쿠텐 제휴 링크로 연결됩니다.' if active_lang == 'ko' else 'Exclusive member deals powered by Klook.' }}
                 </p>
             </div>
         </div>

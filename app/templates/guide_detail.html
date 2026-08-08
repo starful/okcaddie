@@ -157,7 +157,7 @@
                 {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
             </h3>
             <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
-                {{ '티타임은 라쿠텐 고라, 여행·숙소는 쿠팡트래블, 렌터카·픽업·eSIM은 클룩에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA, and prep rental, transfer & eSIM on Klook.' }}
+                {{ '티타임은 라쿠텐 고라, 여행·숙소는 쿠팡트래블, 일본 eSIM은 라쿠텐에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA, and prep rental, transfer & eSIM on Klook.' }}
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 10px;">
                 <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #bf0000;">
@@ -167,10 +167,14 @@
                 <a href="/travel/coupang/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #e7422d;">
                     쿠팡트래블에서 여행·숙소 보기
                 </a>
-                {% endif %}
-                <a href="/travel/guide/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #166534;">
-                    {{ '클룩에서 여행 준비하기' if active_lang == 'ko' else 'Prepare your trip on Klook' }}
+                <a href="https://a.r10.to/hPsyyI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #c41e3a;">
+                    라쿠텐에서 일본 eSIM 보기
                 </a>
+                {% else %}
+                <a href="/travel/guide/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #166534;">
+                    Prepare your trip on Klook
+                </a>
+                {% endif %}
             </div>
             {% if active_lang == 'ko' %}
             <p style="margin-top: 12px; font-size: 0.75rem; color: #888; max-width: 36rem; margin-left: auto; margin-right: auto; line-height: 1.45;">
