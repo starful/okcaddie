@@ -3,9 +3,14 @@ address: Sagamihara, Kanagawa
 booking: /booking/sagamihara_golf_club_en
 categories: Private Club, Public Tournament, Historic
 date: '2026-04-15'
+description: 'Sagamihara Golf Club guide: green fees, tee times, course layout, Rakuten
+  GORA booking, directions, and seasonal tips.'
 lang: en
 lat: '35.5444'
 lng: '139.3856'
+seo_description: 'Sagamihara Golf Club: green fees, tee time booking via Rakuten GORA,
+  course layout, access guide, and course strategy. Book your round today.'
+seo_title: Sagamihara Golf Club - Green Fees & Booking Guide
 summary: A comprehensive 9,000-character master guide to Sagamihara Golf Club, covering
   strategy, history, and luxury facilities, penned by an elite Japanese golf course
   rater and 20-year veteran caddy.

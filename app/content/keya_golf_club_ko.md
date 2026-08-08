@@ -1,9 +1,9 @@
 ---
 lang: ko
-seo_title: 'Keya Golf Club Fukuoka: Visitor Booking, Fees & Tee Times'
-seo_description: Want to play Keya Golf Club in Fukuoka? Get easy visitor booking
-  tips, green fees, ocean-view course highlights, and quick transit details.
-title: Keya Golf Club
+seo_title: 'Keya Golf Club Itoshima: Ocean-View Golf Course | Tee Times & Green Fees'
+seo_description: Discover Keya Golf Club's oceanfront beauty in Itoshima. Book tee
+  times, check visitor green fees, course layout & directions from Fukuoka Airport.
+title: Keya Golf Club Itoshima - Ocean-View Golf & Tee Times | OKCaddie
 lat: '33.6044'
 lng: '130.1356'
 categories: 퍼블릭 토너먼트, 프리미엄 / 럭셔리, 오션 뷰
@@ -12,9 +12,10 @@ address: 후쿠오카현 이토시마
 date: '2026-07-12'
 booking: /booking/keya_golf_club_ko
 summary: 이토시마 해안 케야 골프 클럽. 예약·요금 참고, 오션 뷰 코스 요약, 후쿠오카에서 가는 법.
-description: An essential guide to playing Keya Golf Club in Fukuoka, featuring visitor
-  booking options, green fees, and scenic course highlights.
+description: Experience Keya Golf Club's stunning oceanfront course in Itoshima, Fukuoka.
+  Book tee times, green fees, visitor rates & access from Fukuoka Airport.
 ---
+
 
 
 

@@ -1,8 +1,9 @@
 ---
 lang: ko
-seo_title: 가타야마즈 골프 클럽(이시카와) 티타임·그린피 | OKCaddie
-seo_description: 가가 가타야마즈 골프 클럽 실전 가이드. 예약, 요금 참고, 동해 바람 공략, 고마쓰 공항 접근.
-title: 가타야마즈 골프 클럽 — 티타임·요금·방문자 가이드
+seo_title: Katayamazu Golf Club | Book Tee Times & Green Fees in Ishikawa
+seo_description: Book tee times at Katayamazu Golf Club in Kaga, Ishikawa. View green
+  fees, course layout, and directions from Komatsu Airport.
+title: Katayamazu Golf Club | Book Tee Times & Green Fees
 lat: '36.2644'
 lng: '136.3356'
 categories: 퍼블릭 토너먼트, 프라이빗 클럽, 오션 뷰
@@ -11,8 +12,10 @@ address: 이시카와현 가가시
 date: '2026-07-12'
 booking: /booking/katayamazu_golf_club_ko
 summary: 가가 해안 클래식. 가타야마즈 예약·요금 참고, 바람 팁, 고마쓰에서 가는 법.
-description: 가타야마즈 골프 클럽 방문자 가이드. 그린피 계획, 티타임, 동해 접근, 실전 공략.
+description: Katayamazu Golf Club is a championship course in Kaga, Ishikawa, overlooking
+  the Sea of Japan. Known for scenic views and strategic layout.
 ---
+
 
 이시카와현 가가의 **가타야마즈 골프 클럽**은 일본 골퍼에게 잘 알려진 **동해안 클래식**입니다. 주요 포털에 방문자 상품이 열리는 편이라, 주말·성수기 수요와 바람·온천 동선을 함께 잡으면 됩니다.
 

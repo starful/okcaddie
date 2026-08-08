@@ -36,6 +36,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-language-essentials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-language-essentials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-language-essentials?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-language-essentials" />
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/driving-distance-etiquette</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/driving-distance-etiquette" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/driving-distance-etiquette?lang=ko" />
@@ -66,6 +75,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/using-locker-rooms?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/using-locker-rooms" />
     <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/caddy-tip-culture?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/caddy-tip-culture" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/caddy-tip-culture?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/caddy-tip-culture" />
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -554,6 +572,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-language-essentials?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-language-essentials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-language-essentials?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-language-essentials" />
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/miyazaki-pro-tour-courses</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/miyazaki-pro-tour-courses" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/miyazaki-pro-tour-courses" />
@@ -644,6 +671,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/beginner-friendly-courses?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/beginner-friendly-courses" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/caddy-tip-culture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/caddy-tip-culture" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/caddy-tip-culture?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/caddy-tip-culture" />
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

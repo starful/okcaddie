@@ -1,14 +1,21 @@
 ---
-lang: "ko"
-title: "Phoenix Seagaia Resort"
-lat: "31.9544"
-lng: "131.4556"
-categories: "Stay & Play, Premium / Luxury, Resort"
-thumbnail: "/static/images/phoenix_seagaia_resort.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-06-27"
-booking: "/booking/phoenix_seagaia_resort_ko"
-summary: "미야자키의 피닉스 시가이아 리조트에 위치한 이 코스는 1971년 개장한 27홀 골프장으로, 해안가 소나무 숲 사이의 전략적인 레이아웃이 돋보입니다."
+address: Miyazaki, Miyazaki
+booking: /booking/phoenix_seagaia_resort_ko
+categories: Stay & Play, Premium / Luxury, Resort
+date: '2026-06-27'
+description: Championship 18-hole golf course in Miyazaki, Japan. Home of Dunlop Phoenix
+  Tournament since 1974. Book tee times, view green fees, and reserve your round.
+lang: ko
+lat: '31.9544'
+lng: '131.4556'
+seo_description: Championship 18-hole golf course in Miyazaki, Japan. Home of Dunlop
+  Phoenix Tournament since 1974. Book tee times, view green fees, and reserve your
+  round.
+seo_title: Phoenix Seagaia Resort | Miyazaki Championship Golf Course Bookings
+summary: 미야자키의 피닉스 시가이아 리조트에 위치한 이 코스는 1971년 개장한 27홀 골프장으로, 해안가 소나무 숲 사이의 전략적인 레이아웃이
+  돋보입니다.
+thumbnail: /static/images/phoenix_seagaia_resort.jpg
+title: Phoenix Seagaia Resort
 ---
 
 ## Course Overview
