@@ -451,5 +451,8 @@ def travel_redirect(item_type, course_id):
         "pickup": "https://klook.tpo.mx/8qLZKsBY" if is_ko else "https://klook.tpo.mx/zPN5kiip",
         "esim": "https://klook.tpo.mx/OBHJbySq" if is_ko else "https://klook.tpo.mx/696NKlPT",
         "guide": guide_url,
+        # Coupang Partners (KO UI only — EN still 302s to travel fallback if hit).
+        "coupang": "https://link.coupang.com/a/f28OZJUsfI",
+        "coupang-golf": "https://link.coupang.com/a/f28WdI5CRU",
     }
     return _noindex_redirect(links.get(item_type, guide_url))

@@ -173,6 +173,17 @@
                    style="background: #bf0000; padding: 22px 60px; width: 100%; max-width: 500px; display: inline-block; border-radius: 50px; text-decoration: none; color: white; font-weight: 800; font-size: 1.2rem; box-shadow: 0 10px 20px rgba(191, 0, 0, 0.2);">
                     {{ '라쿠텐 고라에서 확인하기' if active_lang == 'ko' else 'Check on Rakuten GORA' }}
                 </a>
+                {% if active_lang == 'ko' %}
+                <div style="margin-top: 18px;">
+                    <a href="/travel/coupang-golf/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn"
+                       style="background: #e7422d; padding: 16px 36px; width: 100%; max-width: 500px; display: inline-block; border-radius: 50px; text-decoration: none; color: white; font-weight: 800; font-size: 1.05rem; box-shadow: 0 10px 20px rgba(231, 66, 45, 0.25);">
+                        쿠팡 로켓배송으로 골프용품 보기
+                    </a>
+                </div>
+                <p style="margin-top: 12px; font-size: 0.75rem; color: #888; max-width: 36rem; margin-left: auto; margin-right: auto; line-height: 1.45;">
+                    이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+                </p>
+                {% endif %}
                 <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {{ '일본 1위 골프 예약 서비스로 연결됩니다.' if active_lang == 'ko' else 'Redirects to Japan\'s leading golf booking site.' }}</p>
             </div>
 
@@ -198,9 +209,15 @@
                         <div style="font-size: 2rem; margin-bottom: 10px;">📱</div>
                         <div style="font-weight: 700; color: #27ae60; font-size: 0.95rem;">{{ '일본 eSIM' if active_lang == 'ko' else 'Japan eSIM' }}</div>
                     </a>
+                    {% if active_lang == 'ko' %}
+                    <a href="/travel/coupang/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">✈️</div>
+                        <div style="font-weight: 700; color: #e7422d; font-size: 0.95rem;">쿠팡트래블</div>
+                    </a>
+                    {% endif %}
                 </div>
                 <p style="text-align: center; margin-top: 25px; font-size: 0.8rem; color: #64748b; font-weight: 600;">
-                    {{ '클룩(Klook)에서 제공하는 독점 특가입니다.' if active_lang == 'ko' else 'Exclusive member deals powered by Klook.' }}
+                    {{ '클룩(Klook)·쿠팡 제휴 링크로 연결됩니다.' if active_lang == 'ko' else 'Exclusive member deals powered by Klook.' }}
                 </p>
             </div>
         </div>
