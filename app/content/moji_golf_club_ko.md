@@ -1,15 +1,22 @@
 ---
-lang: "ko"
-title: "Moji Golf Club"
-lat: "33.8544"
-lng: "130.9556"
-categories: "Private Club, Historic, Premium / Luxury"
-thumbnail: "/static/images/moji_golf_club.jpg"
-address: "Kitakyushu, Fukuoka"
-date: "2026-06-19"
-booking: "/booking/moji_golf_club_ko"
-summary: "기타큐슈에 위치한 모지 골프 클럽은 1929년 개장한 유서 깊은 18홀 코스로, 전략적인 플레이를 요구하며 일본 골프 역사의 한 부분을 경험할 수 있습니다."
+lang: ko
+title: 모지 골프클럽 | 그린피·예약·코스 가이드 | OKCaddie
+lat: '33.8544'
+lng: '130.9556'
+categories: Private Club, Historic, Premium / Luxury
+thumbnail: /static/images/moji_golf_club.jpg
+address: Kitakyushu, Fukuoka
+date: '2026-06-19'
+booking: /booking/moji_golf_club_ko
+summary: 기타큐슈에 위치한 모지 골프 클럽은 1929년 개장한 유서 깊은 18홀 코스로, 전략적인 플레이를 요구하며 일본 골프 역사의 한 부분을
+  경험할 수 있습니다.
+description: 기타큐슈에 위치한 모지 골프클럽은 1929년 개장한 전략적인 18홀 코스입니다. 그린피, 예약, 라쿠텐 고라 예약 정보를 OKCaddie에서
+  확인하세요.
+seo_title: 모지 골프클럽 그린피·예약·코스 정보 | 기타큐슈 OKCaddie
+seo_description: 모지 골프클럽의 그린피, 예약, 18홀 코스 정보를 확인하세요. 기타큐슈 1929년 개장한 역사 깊은 일본 골프장.
+  라쿠텐 고라.
 ---
+
 
 ## 코스 개요
 

@@ -8,8 +8,15 @@ lat: '35.4944'
 lng: '137.4156'
 summary: '에나 고원 골프 클럽에 대한 8,000자 이상 전문가 심층 가이드: 전략, 역사, 고급 시설까지 완벽 분석.'
 thumbnail: /static/images/ena_kogen_golf_club.jpg
-title: '에나 고원 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디의 심층 분석'
+title: Ena Kogen Golf Club | Green Fees, Tee Times & Booking | OKC
+description: Comprehensive guide to Ena Kogen Golf Club including green fees, tee
+  time availability, course layout, access information, and booking through Rakuten
+  GORA.
+seo_title: Ena Kogen Golf Club - Book Tee Times & Check Green Fees | OKC
+seo_description: Book Ena Kogen Golf Club tee times & check green fees. Find course
+  layout, access directions, and best seasons. Reserve online via Rakuten GORA.
 ---
+
 
 
 ## 에나 고원 골프 클럽: 일본 골프의 정수를 만나다

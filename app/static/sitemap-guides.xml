@@ -147,6 +147,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/two-ball-play-tips</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/two-ball-play-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/two-ball-play-tips?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/two-ball-play-tips" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/kobe-golf-history</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kobe-golf-history" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kobe-golf-history" />
@@ -212,6 +221,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/pga-tour-venues-japan" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/pga-tour-venues-japan" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/best-golf-restaurants</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/best-golf-restaurants" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/best-golf-restaurants?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/best-golf-restaurants" />
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -365,6 +383,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/best-golf-restaurants?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/best-golf-restaurants" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/best-golf-restaurants?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/best-golf-restaurants" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/using-gps-navigation?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/using-gps-navigation" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/using-gps-navigation?lang=ko" />
@@ -430,6 +457,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kobe-golf-history" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kobe-golf-history" />
     <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/two-ball-play-tips?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/two-ball-play-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/two-ball-play-tips?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/two-ball-play-tips" />
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
