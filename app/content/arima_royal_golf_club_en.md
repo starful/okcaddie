@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Arima Royal Golf Club: An Expert Review (en)"
-lat: "34.8344"
-lng: "135.2156"
-categories: "Premium / Luxury, Championship, Luxury"
-thumbnail: "/static/images/arima_royal_golf_club.jpg"
-address: "Kobe, Hyogo"
-date: "2026-04-15"
-booking: "/booking/arima_royal_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Arima Royal Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'Arima Royal Golf Club: Green Fees, Tee Times & Booking Guide'
+lat: '34.8344'
+lng: '135.2156'
+categories: Premium / Luxury, Championship, Luxury
+thumbnail: /static/images/arima_royal_golf_club.jpg
+address: Kobe, Hyogo
+date: '2026-04-15'
+booking: /booking/arima_royal_golf_club_en
+summary: A comprehensive 9,000-character master guide to Arima Royal Golf Club, covering
+  strategy, history, and luxury facilities.
+description: 'Book Arima Royal Golf Club now: Green fees, tee time reservations, course
+  guide & insider tips. Play this premium championship course today.'
+seo_title: 'Arima Royal Golf Club: Green Fees, Tee Times & Booking Guide'
+seo_description: 'Book Arima Royal Golf Club now: Green fees, tee time reservations,
+  course guide & insider tips. Play this premium championship course today.'
 ---
+
 
 ## Arima Royal Golf Club: A Masterpiece Forged in Tradition and Strategic Brilliance
 

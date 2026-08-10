@@ -1,15 +1,25 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Kishu Golf Club: An Expert Review by an Elite Japanese Caddy"
-lat: "33.7544"
-lng: "135.3956"
-categories: "Championship Course, Hidden Gem, Scenic Views, Luxury Experience, Traditional Japan"
-thumbnail: "/static/images/kishu_golf_club.jpg"
-address: "345-1 Kamihaya, Tanabe, Wakayama 646-0000, Japan"
-date: "2026-04-15"
-booking: "/booking/kishu_golf_club_en"
-summary: "An unparalleled 9,000-character master guide to Kishu Golf Club from an elite Japanese caddy, covering its prestigious history, strategic architecture, hole-by-hole insights, opulent clubhouse, gourmet dining, and essential travel tips for an unforgettable championship experience in Wakayama."
+lang: en
+title: Kishu Golf Club - Green Fees, Tee Times & Online Booking | OKCaddie
+lat: '33.7544'
+lng: '135.3956'
+categories: Championship Course, Hidden Gem, Scenic Views, Luxury Experience, Traditional
+  Japan
+thumbnail: /static/images/kishu_golf_club.jpg
+address: 345-1 Kamihaya, Tanabe, Wakayama 646-0000, Japan
+date: '2026-04-15'
+booking: /booking/kishu_golf_club_en
+summary: An unparalleled 9,000-character master guide to Kishu Golf Club from an elite
+  Japanese caddy, covering its prestigious history, strategic architecture, hole-by-hole
+  insights, opulent clubhouse, gourmet dining, and essential travel tips for an unforgettable
+  championship experience in Wakayama.
+description: Book Kishu Golf Club tee times & check green fees. Course layout, access
+  directions, best seasons & Rakuten GORA booking on OKCaddie.
+seo_title: Kishu Golf Club Green Fees Booking Tee Times Wakayama
+seo_description: 'Kishu Golf Club: Green fees, tee time booking, course layout & access
+  tips. Reserve via Rakuten GORA. Best seasons & strategy guide.'
 ---
+
 
 ## Kishu Golf Club: A Masterpiece Unveiled by Japan's Foremost Caddy & Rater
 

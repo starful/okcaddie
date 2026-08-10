@@ -1,6 +1,44 @@
 {
-  "last_updated": "2026.08.08",
+  "last_updated": "2026.08.11",
   "courses": [
+    {
+      "id": "iwate_numakunai_golf_en",
+      "base_id": "iwate_numakunai_golf",
+      "lang": "en",
+      "title": "Iwate Numakunai Golf",
+      "lat": 39.9544,
+      "lng": 141.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/iwate_numakunai_golf.jpg",
+      "address": "Iwate, Iwate",
+      "published": "2026-08-11",
+      "summary": "A forested, budget-friendly Iwate mountain course best booked ahead through Rakuten GORA or the OKCaddie link before you drive up.",
+      "booking": "/booking/iwate_numakunai_golf_en",
+      "link": "/course/iwate_numakunai_golf"
+    },
+    {
+      "id": "aomori_country_club_en",
+      "base_id": "aomori_country_club",
+      "lang": "en",
+      "title": "Aomori Country Club",
+      "lat": 40.7544,
+      "lng": 140.7556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/aomori_country_club.jpg",
+      "address": "Aomori, Aomori",
+      "published": "2026-08-11",
+      "summary": "Mountain-style course near Aomori city with scenic value; check current green fees and book via Rakuten GORA or the link below.",
+      "booking": "/booking/aomori_country_club_en",
+      "link": "/course/aomori_country_club"
+    },
     {
       "id": "kushiro_marsh_golf_en",
       "base_id": "kushiro_marsh_golf",
@@ -554,7 +592,7 @@
       "id": "keya_golf_club_ko",
       "base_id": "keya_golf_club",
       "lang": "ko",
-      "title": "Keya Golf Club",
+      "title": "Keya Golf Club Itoshima",
       "lat": 33.6044,
       "lng": 130.1356,
       "categories": [
@@ -630,7 +668,7 @@
       "id": "katayamazu_golf_club_ko",
       "base_id": "katayamazu_golf_club",
       "lang": "ko",
-      "title": "가타야마즈 골프 클럽",
+      "title": "Katayamazu Golf Club | Book Tee Times & Green Fees",
       "lat": 36.2644,
       "lng": 136.3356,
       "categories": [
@@ -3870,7 +3908,7 @@
       "id": "osaka_golf_club_en",
       "base_id": "osaka_golf_club",
       "lang": "en",
-      "title": "Osaka Golf Club",
+      "title": "Book Osaka Golf Club",
       "lat": 34.3144,
       "lng": 135.1556,
       "categories": [
