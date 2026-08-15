@@ -91,6 +91,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/sendai_country_club</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/sendai_country_club" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/sendai_country_club" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/ocean_castle_golf?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/ocean_castle_golf" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/ocean_castle_golf?lang=ko" />
@@ -1761,6 +1769,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/akita_minami_golf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/akita_minami_golf" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/akita_minami_golf" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/kobe_grand_hill</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kobe_grand_hill" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kobe_grand_hill?lang=ko" />
@@ -1966,6 +1982,14 @@
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/course/fukushima_azuma_golf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/fukushima_azuma_golf" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/fukushima_azuma_golf" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://okcaddie.net/course/rokko_kokusai_golf_club?lang=ko</loc>

@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Tom Watson Golf Course Miyazaki: Booking & Night Golf'
+title: Tom Watson Golf Course Miyazaki | Book Tee Times & Green Fees
 lat: '31.9644'
 lng: '131.4656'
 categories: Stay & Play, Easy Booking, Night Golf
@@ -10,13 +10,13 @@ date: '2026-06-27'
 booking: /booking/tom_watson_golf_course_en
 summary: Phoenix Seagaia’s Watson course—Korai fairways, fast bent greens, tour-grade
   bunkering, night-golf slots, and the fastest way to book a Miyazaki resort tee time.
-description: Experience premium resort golf at Tom Watson Golf Course in Miyazaki,
-  Japan. Access our complete booking guide, green fees, and twilight night golf options
-  at Phoenix Seagaia Resort.
-seo_title: Tom Watson Golf Course Miyazaki | Book Tee Times & Fees
-seo_description: Book tee times at Tom Watson Golf Course in Miyazaki. Get current
-  green fees, twilight night golf details, and resort information at Phoenix Seagaia.
+description: Book tee times at Tom Watson Golf Course in Miyazaki. Check current green
+  fees, twilight golf options, course details & Phoenix Seagaia resort.
+seo_title: Tom Watson Golf Course Miyazaki - Reserve Tee Times & Green Fees Online
+seo_description: Reserve tee times at Tom Watson Golf Course, Miyazaki. Compare green
+  fees, twilight golf rates, course reviews & Phoenix Seagaia resort amenities.
 ---
+
 
 
 

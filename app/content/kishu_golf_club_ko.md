@@ -3,9 +3,14 @@ address: 와카야마현 다나베시
 booking: /booking/kishu_golf_club_ko
 categories: Value for Money, Stay & Play, Scenic View
 date: '2026-04-15'
+description: Book Kishu Golf Club tee times & check green fees. Course layout, access
+  directions, best seasons & Rakuten GORA booking on OKCaddie.
 lang: ko
 lat: '33.7544'
 lng: '135.3956'
+seo_description: 'Kishu Golf Club: Green fees, tee time booking, course layout & access
+  tips. Reserve via Rakuten GORA. Best seasons & strategy guide.'
+seo_title: Kishu Golf Club Green Fees Booking Tee Times Wakayama
 summary: 일본 와카야마의 명문 키슈 골프 클럽에 대한 9,000자 분량의 심층 가이드. 역사, 코스 전략, 최고급 시설, 미식 경험까지 전문가의
   시선으로 파헤칩니다.
 thumbnail: /static/images/kishu_golf_club.jpg

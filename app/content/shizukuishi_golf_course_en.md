@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Shizukuishi Golf Course: An Expert Review (en)"
-lat: "39.6544"
-lng: "140.9556"
-categories: "Value for Money, Stay & Play, Scenic View"
-thumbnail: "/static/images/shizukuishi_golf_course.jpg"
-address: "Shizukuishi, Iwate"
-date: "2026-04-15"
-booking: "/booking/shizukuishi_golf_course_en"
-summary: "A comprehensive 9,000-character master guide to Shizukuishi Golf Course, covering strategy, history, and luxury facilities."
+lang: en
+title: Shizukuishi Golf Course | Book Tee Times, Green Fees & Course Details
+lat: '39.6544'
+lng: '140.9556'
+categories: Value for Money, Stay & Play, Scenic View
+thumbnail: /static/images/shizukuishi_golf_course.jpg
+address: Shizukuishi, Iwate
+date: '2026-04-15'
+booking: /booking/shizukuishi_golf_course_en
+summary: A comprehensive 9,000-character master guide to Shizukuishi Golf Course,
+  covering strategy, history, and luxury facilities.
+description: Reserve your round at Shizukuishi Golf Course. Check green fees, book
+  tee times, review course layout, and discover the best seasons to play.
+seo_title: Shizukuishi Golf Course | Book Tee Times, Green Fees & Course Details
+seo_description: Reserve your round at Shizukuishi Golf Course. Check green fees,
+  book tee times, review course layout, and discover the best seasons to play.
 ---
+
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of experience navigating Japan's most revered fairways, it is a distinct privilege to present this definitive review of the Shizukuishi Golf Course. Nestled in the breathtaking natural amphitheater of Iwate Prefecture, beneath the majestic gaze of Mount Iwate, Shizukuishi is not merely a golf course; it is an institution, a pilgrimage for those who seek the pinnacle of strategic design, pristine conditions, and an unparalleled Japanese hospitality experience. This review, meticulously crafted for the discerning clientele of 'OKCaddie', delves into every facet, from its storied past to the nuanced breaks on its immaculate greens, ensuring you are fully prepared for this extraordinary golfing odyssey.
 

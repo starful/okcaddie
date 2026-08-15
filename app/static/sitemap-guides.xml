@@ -164,6 +164,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-trolley-experience?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-trolley-experience" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-trolley-experience?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-trolley-experience" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/korean-friendly-courses</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/korean-friendly-courses" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/korean-friendly-courses?lang=ko" />
@@ -257,6 +266,14 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/half-time-lunch?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/half-time-lunch" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/high-altitude-golf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/high-altitude-golf" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/high-altitude-golf" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -457,6 +474,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kobe-golf-history" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kobe-golf-history" />
     <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/golf-trolley-experience</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-trolley-experience" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-trolley-experience?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-trolley-experience" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

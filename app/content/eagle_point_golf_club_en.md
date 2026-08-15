@@ -1,14 +1,24 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Eagle Point Golf Club: An Expert Review by an Elite Japanese Rater & Senior Caddy"
-lat: "35.9844"
-lng: "140.1956"
-categories: "Private Club, Premium / Luxury, Luxury"
-thumbnail: "/static/images/eagle_point_golf_club.jpg"
-address: "Ushiku, Ibaraki"
-date: "2026-04-15"
-booking: "/booking/eagle_point_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Eagle Point Golf Club, covering strategy, history, and luxury facilities from an elite Japanese golf course rater and senior caddy's perspective. Discover detailed architectural analysis, hole-by-hole strategies, the exquisite onsen, and gourmet dining for an unparalleled golfing journey in Japan."
+address: Ushiku, Ibaraki
+booking: /booking/eagle_point_golf_club_en
+categories: Private Club, Premium / Luxury, Luxury
+date: '2026-04-15'
+description: Book Eagle Point Golf Club easily online. Check green fees, view course
+  layout, get seasonal tips. Reserve tee times now.
+lang: en
+lat: '35.9844'
+lng: '140.1956'
+seo_description: Book your tee time at Eagle Point Golf Club instantly. Green fees,
+  course strategy guide, seasonal tips & online booking.
+seo_title: Eagle Point Golf Club | Book Online | Green Fees & Tee Times
+summary: A comprehensive 9,000-character master guide to Eagle Point Golf Club, covering
+  strategy, history, and luxury facilities from an elite Japanese golf course rater
+  and senior caddy's perspective. Discover detailed architectural analysis, hole-by-hole
+  strategies, the exquisite onsen, and gourmet dining for an unparalleled golfing
+  journey in Japan.
+thumbnail: /static/images/eagle_point_golf_club.jpg
+title: 'The Definitive Guide to Eagle Point Golf Club: An Expert Review by an Elite
+  Japanese Rater & Senior Caddy'
 ---
 
 As a seasoned golf course rater in Japan and a professional senior caddy with two decades of experience guiding discerning players across our archipelago's most revered fairways, it is a rare privilege to distill the essence of a truly exceptional club. Eagle Point Golf Club, nestled discreetly within the verdant landscapes of Ibaraki Prefecture, is not merely a golf course; it is an institution, a pilgrimage site for those who seek golf in its purest, most strategically demanding, and aesthetically harmonious form. This review, meticulously crafted for the discerning readership of OKCaddie, aims to be the definitive master guide, unearthing every nuanced detail that elevates Eagle Point to the zenith of Japanese golf.

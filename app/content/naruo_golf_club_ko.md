@@ -8,13 +8,14 @@ lat: '34.8194'
 lng: '135.3444'
 summary: 나루오 골프 클럽의 전략, 역사, 럭셔리 시설을 망라한 9,000자 심층 마스터 가이드.
 thumbnail: /static/images/naruo_golf_club.jpg
-title: 'Naruo Golf Club: Booking & Visitor Guide'
-description: Can you play Japan's exclusive Naruo Golf Club? Discover how to secure
-  a tee time, visitor booking tips, and current green fees.
-seo_title: 'How to Play Naruo Golf Club: Booking & Visitor Guide | OKCaddie'
-seo_description: Can you play Japan's exclusive Naruo Golf Club? Discover how to secure
-  a tee time, visitor booking tips, and current green fees.
+title: 'Naruo Golf Club: Japan''s Most Exclusive Course Booking Guide'
+description: The definitive guide to booking Japan's most prestigious golf club with
+  member and visitor access options.
+seo_title: 'Naruo Golf Club Japan: Insider Booking Guide & Visitor Access'
+seo_description: Exclusive insider guide to booking Japan's most prestigious golf
+  course. Member & visitor access, green fees, pro tips to secure your round.
 ---
+
 
 
 

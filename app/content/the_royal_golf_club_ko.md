@@ -3,9 +3,14 @@ address: Hokota, Ibaraki
 booking: /booking/the_royal_golf_club_ko
 categories: Premium / Luxury, Championship, Longest Course
 date: '2026-04-15'
+description: Book tee times at The Royal Golf Club. Check green fees, explore course
+  layout, and reserve online. Seoul's most exclusive golf destination.
 lang: ko
 lat: '36.1444'
 lng: '140.5456'
+seo_description: Reserve your round at The Royal Golf Club. Check green fees, book
+  online via Rakuten GORA, and explore championship course tips. Seoul golf.
+seo_title: Book The Royal Golf Club | Tee Times, Green Fees & Course Info
 summary: A comprehensive 9,000-character master guide to The Royal Golf Club, covering
   strategy, history, and luxury facilities.
 thumbnail: /static/images/the_royal_golf_club.jpg

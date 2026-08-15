@@ -8,13 +8,14 @@ lat: '35.9844'
 lng: '140.1956'
 summary: 전설적인 일본 골프 코스, 이글 포인트 골프 클럽에 대한 9,000자 분량의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라합니다.
 thumbnail: /static/images/eagle_point_golf_club.jpg
-title: Eagle Point Golf Club
-description: Book Eagle Point Golf Club easily online. Check green fees, view course
-  layout, get seasonal tips. Reserve tee times now.
-seo_title: Eagle Point Golf Club | Book Online | Green Fees & Tee Times
-seo_description: Book your tee time at Eagle Point Golf Club instantly. Green fees,
-  course strategy guide, seasonal tips & online booking.
+title: Book at Eagle Point Golf Club | Award-Winning Course & Tee Times
+description: Premium golf course with instant online booking. See live availability,
+  special rates & insider tips. Reserve your round today.
+seo_title: Eagle Point Golf Club - Book Tee Times Online | Premium Course
+seo_description: Premium golf course with instant online booking. See live availability,
+  special rates & insider tips. Reserve your round today.
 ---
+
 
 
 ## 일본 골프의 살아있는 전설, 이글 포인트 골프 클럽 심층 리뷰

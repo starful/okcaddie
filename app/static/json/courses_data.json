@@ -1,6 +1,63 @@
 {
-  "last_updated": "2026.08.11",
+  "last_updated": "2026.08.15",
   "courses": [
+    {
+      "id": "sendai_country_club_en",
+      "base_id": "sendai_country_club",
+      "lang": "en",
+      "title": "Sendai Country Club",
+      "lat": 38.2544,
+      "lng": 140.8556,
+      "categories": [
+        "Public Tournament",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/sendai_country_club.jpg",
+      "address": "Natori, Miyagi",
+      "published": "2026-08-15",
+      "summary": "Forest-lined tournament course in Natori, Miyagi, with public visitor access — check current green fees and book your tee time online.",
+      "booking": "/booking/sendai_country_club_en",
+      "link": "/course/sendai_country_club"
+    },
+    {
+      "id": "fukushima_azuma_golf_en",
+      "base_id": "fukushima_azuma_golf",
+      "lang": "en",
+      "title": "Fukushima Azuma Golf",
+      "lat": 37.7544,
+      "lng": 140.3556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukushima_azuma_golf.jpg",
+      "address": "Fukushima, Fukushima",
+      "published": "2026-08-15",
+      "summary": "Mountain-forest golf near Fukushima City with budget-friendly green fees; check live rates and book at /booking/fukushima_azuma_golf_en.",
+      "booking": "/booking/fukushima_azuma_golf_en",
+      "link": "/course/fukushima_azuma_golf"
+    },
+    {
+      "id": "akita_minami_golf_en",
+      "base_id": "akita_minami_golf",
+      "lang": "en",
+      "title": "Akita Minami Golf",
+      "lat": 39.6544,
+      "lng": 140.1556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/akita_minami_golf.jpg",
+      "address": "Akita, Akita",
+      "published": "2026-08-15",
+      "summary": "Akita Minami Golf pairs forest-lined fairways with visitor-friendly fees; check live rates and book via GORA before your trip.",
+      "booking": "/booking/akita_minami_golf_en",
+      "link": "/course/akita_minami_golf"
+    },
     {
       "id": "iwate_numakunai_golf_en",
       "base_id": "iwate_numakunai_golf",
@@ -2022,7 +2079,7 @@
       "id": "ena_kogen_golf_club_ko",
       "base_id": "ena_kogen_golf_club",
       "lang": "ko",
-      "title": "에나 고원 골프 클럽",
+      "title": "Ena Kogen Golf Club | Green Fees, Tee Times & Booking | OKC",
       "lat": 35.4944,
       "lng": 137.4156,
       "categories": [
@@ -2232,7 +2289,7 @@
       "id": "moji_golf_club_ko",
       "base_id": "moji_golf_club",
       "lang": "ko",
-      "title": "Moji Golf Club",
+      "title": "모지 골프클럽 | 그린피·예약·코스 가이드 | OKCaddie",
       "lat": 33.8544,
       "lng": 130.9556,
       "categories": [
@@ -5488,7 +5545,7 @@
       "id": "hirono_golf_club_ko",
       "base_id": "hirono_golf_club",
       "lang": "ko",
-      "title": "히로노 골프 클럽",
+      "title": "히로노 골프 클럽 그린피·멤버십·예약",
       "lat": 34.7967,
       "lng": 135.0111,
       "categories": [
@@ -6032,7 +6089,7 @@
       "id": "eagle_point_golf_club_ko",
       "base_id": "eagle_point_golf_club",
       "lang": "ko",
-      "title": "일본 최고 명문, 이글 포인트 골프 클럽",
+      "title": "Eagle Point Golf Club",
       "lat": 35.9844,
       "lng": 140.1956,
       "categories": [
