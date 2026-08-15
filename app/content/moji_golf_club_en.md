@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "Moji Golf Club"
-lat: "33.8544"
-lng: "130.9556"
-categories: "Private Club, Historic, Premium / Luxury"
-thumbnail: "/static/images/moji_golf_club.jpg"
-address: "Kitakyushu, Fukuoka"
-date: "2026-06-19"
-booking: "/booking/moji_golf_club_en"
-summary: "Moji Golf Club, established in 1929 in Kitakyushu, Fukuoka, presents a challenging 18-hole classic parkland layout with greens fees from ¥18,000."
+address: Kitakyushu, Fukuoka
+booking: /booking/moji_golf_club_en
+categories: Private Club, Historic, Premium / Luxury
+date: '2026-06-19'
+description: 기타큐슈에 위치한 모지 골프클럽은 1929년 개장한 전략적인 18홀 코스입니다. 그린피, 예약, 라쿠텐 고라 예약 정보를 OKCaddie에서
+  확인하세요.
+lang: en
+lat: '33.8544'
+lng: '130.9556'
+seo_description: 모지 골프클럽의 그린피, 예약, 18홀 코스 정보를 확인하세요. 기타큐슈 1929년 개장한 역사 깊은 일본 골프장.
+  라쿠텐 고라.
+seo_title: 모지 골프클럽 그린피·예약·코스 정보 | 기타큐슈 OKCaddie
+summary: Moji Golf Club, established in 1929 in Kitakyushu, Fukuoka, presents a challenging
+  18-hole classic parkland layout with greens fees from ¥18,000.
+thumbnail: /static/images/moji_golf_club.jpg
+title: Moji Golf Club
 ---
 
 ## Course Overview

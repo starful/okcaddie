@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "Okinawa Country Club"
-lat: "26.2544"
-lng: "127.7556"
-categories: "Value for Money, Historic, Scenic"
-thumbnail: "/static/images/okinawa_country_club.jpg"
-address: "Nishihara, Okinawa"
-date: "2026-06-27"
-booking: "/booking/okinawa_country_club_en"
-summary: "Okinawa Country Club offers a scenic and historic 18-hole golf experience in Nishihara, Okinawa, providing great value for players."
+address: Nishihara, Okinawa
+booking: /booking/okinawa_country_club_en
+categories: Value for Money, Historic, Scenic
+date: '2026-06-27'
+description: Okinawa's top-rated 18-hole golf in Nishihara. Book tee times, check
+  green fees & enjoy scenic fairways. Premium experience, great value.
+lang: en
+lat: '26.2544'
+lng: '127.7556'
+seo_description: Okinawa's top-rated 18-hole golf in Nishihara. Book tee times, check
+  green fees & enjoy scenic fairways. Premium experience, great value.
+seo_title: Okinawa Country Club - Book Tee Times & Green Fees | Reviews
+summary: Okinawa Country Club offers a scenic and historic 18-hole golf experience
+  in Nishihara, Okinawa, providing great value for players.
+thumbnail: /static/images/okinawa_country_club.jpg
+title: Okinawa Country Club
 ---
 
 ## Course Overview

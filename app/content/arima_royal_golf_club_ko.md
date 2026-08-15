@@ -1,14 +1,19 @@
 ---
-lang: "ko"
-title: "아리마 로얄 골프 클럽 완벽 가이드: 전문가 리뷰"
-lat: "34.8344"
-lng: "135.2156"
-categories: "프리미엄 / 럭셔리, 챔피언십, 럭셔리"
-thumbnail: "/static/images/arima_royal_golf_club.jpg"
-address: "효고현 고베시"
-date: "2026-04-15"
-booking: "/booking/arima_royal_golf_club_ko"
-summary: "아리마 로얄 골프 클럽의 역사, 코스 전략, 럭셔리 시설을 총망라한 9,000자 전문가 마스터 가이드입니다."
+address: 효고현 고베시
+booking: /booking/arima_royal_golf_club_ko
+categories: 프리미엄 / 럭셔리, 챔피언십, 럭셔리
+date: '2026-04-15'
+description: 'Book Arima Royal Golf Club now: Green fees, tee time reservations, course
+  guide & insider tips. Play this premium championship course today.'
+lang: ko
+lat: '34.8344'
+lng: '135.2156'
+seo_description: 'Book Arima Royal Golf Club now: Green fees, tee time reservations,
+  course guide & insider tips. Play this premium championship course today.'
+seo_title: 'Arima Royal Golf Club: Green Fees, Tee Times & Booking Guide'
+summary: 아리마 로얄 골프 클럽의 역사, 코스 전략, 럭셔리 시설을 총망라한 9,000자 전문가 마스터 가이드입니다.
+thumbnail: /static/images/arima_royal_golf_club.jpg
+title: '아리마 로얄 골프 클럽 완벽 가이드: 전문가 리뷰'
 ---
 
 골프 애호가 여러분, 그리고 일본 프리미엄 골프 경험을 찾는 분들을 위한 궁극의 가이드에 오신 것을 환영합니다. 저는 20년 경력의 베테랑 캐디이자 일본 최고의 코스 평가단원으로서, 오늘 여러분을 일본 효고현 고베시에 위치한 명문 "아리마 로얄 골프 클럽"으로 초대하고자 합니다. 단순한 라운드를 넘어, 이곳은 골프 예술과 일본 특유의 환대가 어우러진 하나의 걸작입니다. 지금부터 아리마 로얄 골프 클럽이 왜 단순한 골프장이 아닌, 필연적으로 경험해야 할 여정인지를 심도 깊게 분석해 드리겠습니다.
