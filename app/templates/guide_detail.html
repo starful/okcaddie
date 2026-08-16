@@ -151,13 +151,13 @@
         </section>
         {% endif %}
 
-        <!-- [수익화] 라쿠텐 GORA + 클룩(Klook) — 링크 분리 -->
+        <!-- [수익화] GORA (+ KO: Coupang / Rakuten eSIM). Klook CTA retired. -->
         <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">
             <h3 style="color: var(--accent-red); margin-bottom: 15px; font-size: 1.4rem; font-weight: 900;">
                 {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
             </h3>
             <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
-                {{ '골프 예약은 라쿠텐, 여행·숙소는 쿠팡트래블, 일본 eSIM은 라쿠텐에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA, and prep rental, transfer & eSIM on Klook.' }}
+                {{ '골프 예약은 라쿠텐, 여행·숙소는 쿠팡트래블, 일본 eSIM은 라쿠텐에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.' }}
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 10px;">
                 <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #bf0000;">
@@ -169,10 +169,6 @@
                 </a>
                 <a href="https://a.r10.to/hPsyyI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #1e3a8a;">
                     라쿠텐에서 일본 eSIM 보기
-                </a>
-                {% else %}
-                <a href="/travel/guide/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #166534;">
-                    Prepare your trip on Klook
                 </a>
                 {% endif %}
             </div>
@@ -205,8 +201,11 @@
         a.addEventListener('click', function () {
           if (typeof gtag === 'function') {
             var href = a.getAttribute('href') || '';
+            var category = 'guide_other';
+            if (href.indexOf('/booking/') === 0) category = 'guide_gora';
+            else if (href.indexOf('/travel/coupang') === 0) category = 'guide_coupang';
             gtag('event', 'partner_outbound_click', {
-              event_category: href.indexOf('/booking/') === 0 ? 'guide_gora' : 'guide_klook',
+              event_category: category,
               event_label: href.split('?')[0]
             });
           }

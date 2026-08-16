@@ -441,18 +441,14 @@ def booking_redirect(course_id):
 
 @courses_bp.route("/travel/<item_type>/<course_id>")
 def travel_redirect(item_type, course_id):
-    is_ko = course_id.endswith("_ko")
-    # "guide" = general Klook landing from guide pages (not GORA /booking/).
-    guide_url = (
-        "https://klook.tpo.mx/KTnRXF2K" if is_ko else "https://klook.tpo.mx/FSgpgNVg"
-    )
+    """Affiliate redirects. UI no longer links to Klook; keep legacy paths working."""
+    # Coupang Partners (KO UI). Legacy Klook shortlinks kept for old bookmarks only.
     links = {
-        "rental": "https://klook.tpo.mx/llRQoxrb" if is_ko else "https://klook.tpo.mx/skGztuAJ",
-        "pickup": "https://klook.tpo.mx/8qLZKsBY" if is_ko else "https://klook.tpo.mx/zPN5kiip",
-        "esim": "https://klook.tpo.mx/OBHJbySq" if is_ko else "https://klook.tpo.mx/696NKlPT",
-        "guide": guide_url,
-        # Coupang Partners (KO UI only — EN still 302s to travel fallback if hit).
         "coupang": "https://link.coupang.com/a/f28OZJUsfI",
         "coupang-golf": "https://link.coupang.com/a/f28WdI5CRU",
+        "rental": "https://klook.tpo.mx/skGztuAJ",
+        "pickup": "https://klook.tpo.mx/zPN5kiip",
+        "esim": "https://klook.tpo.mx/696NKlPT",
+        "guide": "https://klook.tpo.mx/FSgpgNVg",
     }
-    return _noindex_redirect(links.get(item_type, guide_url))
+    return _noindex_redirect(links.get(item_type, links["coupang"]))
