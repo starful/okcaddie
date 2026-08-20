@@ -113,7 +113,7 @@ def generate_medium(data: dict, *, min_chars: int = MIN_BODY_CHARS) -> int:
                 f"Write at least {min_chars} characters of useful trip-planning detail "
                 f"(Quick Facts → Fees/Booking → Access). No masterclass filler."
             )
-        response_text = _claude_md(prompt)
+        response_text = _claude_md(prompt + extra)
         candidate = clean_generated_markdown(response_text.strip())
 
         if data.get("seo"):

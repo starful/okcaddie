@@ -117,7 +117,22 @@ REQUIRED_COURSE_H2_HINTS = (
         "레이아웃",
     ),
     ("fee", "booking", "green fee", "요금", "예약", "그린피"),
-    ("access", "접근", "getting there", "가는 법", "교통"),
+    (
+        "access",
+        "접근",
+        "getting there",
+        "가는 법",
+        "교통",
+        "오시는",
+        "찾아가는",
+        "이동",
+        "위치와",
+        "how to get",
+        "getting to",
+        "airport",
+        "공항",
+        "주차",
+    ),
 )
 
 REQUIRED_GUIDE_H2_HINTS = (

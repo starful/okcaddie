@@ -81,6 +81,10 @@ Use unique ## wording for THIS course while covering themes in this order
 6. ## Dress Code & Tips — attire, soft spikes, pace, 3 practical tips.
 7. ## Bottom Line — 2 to 3 sentences: who should book this and the first next action.
 
+[H2 KEYWORDS — REQUIRED IN THE HEADING TEXT]
+The Access section H2 MUST contain one of: Access / 접근 / 교통 / 가는 법
+(examples: "## Access", "## 접근·교통", "## 가는 법과 주차"). Titles like "## 오시는 길" alone are NOT enough.
+
 [FORMATTING]
 - Raw Markdown only. NO code fences. NO character-count self-check at the end.
 - Start with YAML frontmatter (all values in double quotes):
