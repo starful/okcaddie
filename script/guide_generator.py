@@ -78,18 +78,22 @@ def task_worker(topic_id, topic_name, lang, keywords):
         quality_errors: list[str] = []
         for attempt in range(2):
             extra = ""
-            if attempt == 1 and body_len and body_len < MIN_BODY_CHARS:
-                extra = (
-                    f"\n\nIMPORTANT: Previous draft body was only {body_len} chars. "
-                    f"Write at least {MIN_BODY_CHARS} characters of useful steps (not filler)."
-                )
-            elif attempt >= 1 and quality_errors:
-                extra = (
-                    "\n\nIMPORTANT: Previous draft failed quality checks: "
-                    + "; ".join(quality_errors)
-                    + ". Fix those issues. Keep Quick Facts → Steps → Bottom Line."
-                )
-            response_text = _claude_md(prompt)
+            if attempt >= 1:
+                parts: list[str] = []
+                if body_len and body_len < MIN_BODY_CHARS:
+                    parts.append(
+                        f"Previous draft body was only {body_len} chars. "
+                        f"Write at least {MIN_BODY_CHARS} characters of useful steps (not filler)."
+                    )
+                if quality_errors:
+                    parts.append(
+                        "Previous draft failed quality checks: "
+                        + "; ".join(quality_errors)
+                        + ". Fix those issues. Keep Quick Facts → Steps → Bottom Line."
+                    )
+                if parts:
+                    extra = "\n\nIMPORTANT: " + " ".join(parts)
+            response_text = _claude_md(prompt + extra)
             content = clean_guide_markdown(response_text)
             if content == "SKIP_NOT_GOLF":
                 return f"⏭️  Skip not-golf topic: {topic_id}_{lang} ({topic_name})"
@@ -124,6 +128,7 @@ def generate_guides_parallel(limit=5):
     new_topics_count = 0
     skipped_blocked = 0
     half_skipped = 0
+    fill_half = os.environ.get("FILL_HALF", "").strip().lower() in ("1", "true", "yes")
 
     csv_path = _guides_csv_path()
     if not os.path.exists(csv_path):
@@ -147,6 +152,22 @@ def generate_guides_parallel(limit=5):
             ko_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{topic_id}_ko.md"))
             if en_exists and ko_exists:
                 continue
+            if fill_half:
+                if not (en_exists or ko_exists):
+                    continue
+                for lang, exists in (("en", en_exists), ("ko", ko_exists)):
+                    if exists:
+                        continue
+                    tasks.append(
+                        {
+                            "topic_id": topic_id,
+                            "topic_name": row.get(f"topic_{lang}") or row.get("topic_en") or topic_id,
+                            "lang": lang,
+                            "keywords": row.get("keywords") or "",
+                        }
+                    )
+                new_topics_count += 1
+                continue
             if en_exists or ko_exists:
                 half_skipped += 1
                 continue
@@ -168,10 +189,17 @@ def generate_guides_parallel(limit=5):
         print(f"⏭️  반쪽(en/ko 한쪽만) 가이드 {half_skipped}건 — 신규 페어 우선으로 스킵")
 
     if not tasks:
-        print("💡 생성할 새 가이드 페어가 없습니다.")
+        msg = (
+            "💡 채울 반쪽 가이드가 없습니다."
+            if fill_half
+            else "💡 생성할 새 가이드 페어가 없습니다."
+        )
+        print(msg)
         _emit_pipeline_result(step="guides", topics=0, generated=0, skipped=half_skipped)
         return
 
+    if fill_half:
+        print(f"ℹ️  반쪽 채우기: {new_topics_count}주제 · {len(tasks)}파일")
     print(f"🔥 병렬 처리 시작: 신규 {new_topics_count}페어 · {len(tasks)}파일 (동시 작업 쓰레드: 10)")
 
     ok = 0

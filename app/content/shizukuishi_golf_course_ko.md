@@ -3,9 +3,14 @@ address: 일본 이와테현 시즈쿠이시
 booking: /booking/shizukuishi_golf_course_ko
 categories: 가성비, 스테이 앤 플레이, 경치 좋은
 date: '2026-04-15'
+description: Reserve your round at Shizukuishi Golf Course. Check green fees, book
+  tee times, review course layout, and discover the best seasons to play.
 lang: ko
 lat: '39.6544'
 lng: '140.9556'
+seo_description: Reserve your round at Shizukuishi Golf Course. Check green fees,
+  book tee times, review course layout, and discover the best seasons to play.
+seo_title: Shizukuishi Golf Course | Book Tee Times, Green Fees & Course Details
 summary: 20년 경력의 베테랑 캐디가 시즈쿠이시 골프 코스의 역사, 전략, 시설, 미식, 계절별 팁까지 아우르는 9,000자 전문가 리뷰를
   제공합니다.
 thumbnail: /static/images/shizukuishi_golf_course.jpg

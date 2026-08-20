@@ -132,22 +132,27 @@ def generate_course_task(data):
         quality_errors: list[str] = []
         for attempt in range(2):
             extra = ""
-            if attempt == 1 and body_len and body_len < MIN_BODY_CHARS:
-                extra = (
-                    f"\n\nIMPORTANT: Previous draft body was only {body_len} chars. "
-                    f"Write at least {MIN_BODY_CHARS} characters of useful trip-planning detail "
-                    f"(not filler praise)."
-                )
-            elif attempt >= 1 and quality_errors:
-                extra = (
-                    "\n\nIMPORTANT: Previous draft failed quality checks: "
-                    + "; ".join(quality_errors)
-                    + ". Fix those issues. Keep the practical Quick Facts → Booking → Access structure. "
-                    "You MUST include these exact H2 headings: "
-                    "## Quick Facts, ## Course Overview, ## Green Fees & Booking, ## Access. "
-                    "Do not use masterclass / elite-caddy voice."
-                )
-            response_text = _claude_md(prompt)
+            if attempt >= 1:
+                parts: list[str] = []
+                if body_len and body_len < MIN_BODY_CHARS:
+                    parts.append(
+                        f"Previous draft body was only {body_len} chars. "
+                        f"Write at least {MIN_BODY_CHARS} characters of useful trip-planning detail "
+                        f"(not filler praise)."
+                    )
+                if quality_errors:
+                    parts.append(
+                        "Previous draft failed quality checks: "
+                        + "; ".join(quality_errors)
+                        + ". Fix those issues. Keep Quick Facts → Booking → Access structure. "
+                        "You MUST include an H2 whose title contains Access (KO: 접근 or 교통 or 가는 법), "
+                        "e.g. `## Access` or `## 접근·교통`. "
+                        "Also cover Quick Facts / Course Overview / Green Fees & Booking themes. "
+                        "Do not use masterclass / elite-caddy voice."
+                    )
+                if parts:
+                    extra = "\n\nIMPORTANT: " + " ".join(parts)
+            response_text = _claude_md(prompt + extra)
             content = clean_generated_markdown(response_text.strip())
             post = frontmatter.loads(content)
             body = post.content.strip()
@@ -186,6 +191,7 @@ def process_courses(limit):
 
     tasks = []
     half_skipped = 0
+    fill_half = os.environ.get("FILL_HALF", "").strip().lower() in ("1", "true", "yes")
     with open(csv_path, mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         new_topic_count = 0
@@ -203,17 +209,17 @@ def process_courses(limit):
                 print(f"⏭️  Skip off-theme CSV row: {name} ({safe_name})", flush=True)
                 continue
 
-            if os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md")) and os.path.exists(
-                os.path.join(CONTENT_DIR, f"{safe_name}_ko.md")
-            ):
-                continue
-
             en_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_en.md"))
             ko_exists = os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_ko.md"))
-            if en_exists or ko_exists:
-                half_skipped += 1
+            if en_exists and ko_exists:
                 continue
 
+            if fill_half:
+                if not (en_exists or ko_exists):
+                    continue
+            elif en_exists or ko_exists:
+                half_skipped += 1
+                continue
             if new_topic_count >= limit:
                 break
 
@@ -234,7 +240,10 @@ def process_courses(limit):
                 'Phone': _safe(row, 'Phone'),
                 'Website': _safe(row, 'Website', 'URL'),
             }
-            for lang in ['en', 'ko']:
+            langs = ["en", "ko"]
+            if fill_half:
+                langs = [lang for lang, exists in (("en", en_exists), ("ko", ko_exists)) if not exists]
+            for lang in langs:
                 tasks.append({**base, 'lang': lang})
             new_topic_count += 1
 
@@ -242,10 +251,13 @@ def process_courses(limit):
         print(f"⏭️  반쪽(en/ko 한쪽만) {half_skipped}건 — 신규 페어 우선으로 스킵", flush=True)
 
     if not tasks:
-        print("🙌 모든 코스 콘텐츠가 이미 최신 상태입니다.", flush=True)
+        msg = "🙌 채울 반쪽 코스가 없습니다." if fill_half else "🙌 모든 코스 콘텐츠가 이미 최신 상태입니다."
+        print(msg, flush=True)
         _emit_pipeline_result(step="items", topics=0, generated=0, skipped=half_skipped)
         return 0
 
+    if fill_half:
+        print(f"ℹ️  반쪽 채우기: {new_topic_count}주제 · {len(tasks)}파일", flush=True)
     print(f"🔥 코스 리뷰 생성 시작 (신규 페어: {new_topic_count}개, 파일: {len(tasks)}개, min body {MIN_BODY_CHARS} chars)", flush=True)
     print("🚀 동시 실행 쓰레드: 10", flush=True)
 

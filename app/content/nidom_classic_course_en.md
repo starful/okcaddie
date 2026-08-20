@@ -1,6 +1,14 @@
 ---
+address: Tomakomai, Hokkaido
+booking: /booking/nidom_classic_course_ko
+categories: Premium / Luxury, Forest Course, Resort
 date: '2026-07-26'
 lang: en
+lat: '42.7544'
+lng: '141.7556'
+seo_description: 훗카이도 도마코마이 니돔 클래식 코스의 요금대, 신치토세 공항 접근 방법, 예약 팁을 정리했습니다.
+seo_title: 니돔 클래식 코스 예약·요금 가이드 | 도마코마이 골프
+thumbnail: /static/images/nidom_classic_course.jpg
 ---
 
 I'll present the content directly rather than writing to a file, since file write wasn't authorized.

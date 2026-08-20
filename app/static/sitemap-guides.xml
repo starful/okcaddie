@@ -272,6 +272,7 @@
   <url>
     <loc>https://okcaddie.net/guide/high-altitude-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/high-altitude-golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/high-altitude-golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/high-altitude-golf" />
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -596,6 +597,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/mt-fuji-view-golf" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/mt-fuji-view-golf" />
     <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/high-altitude-golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/high-altitude-golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/high-altitude-golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/high-altitude-golf" />
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

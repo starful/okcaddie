@@ -1,8 +1,15 @@
 ---
+address: Motobu, Okinawa
+booking: /booking/bise_village_links_ko
+categories: Ocean View, Seaside Links, Secret
 date: '2026-08-02'
 lang: en
+lat: '26.7144'
+lng: '127.8856'
+seo_description: 오키나와 모토부 비세 빌리지 링크스 그린피 범위, 라쿠텐 GORA 예약법, 나하공항에서 접근 시간까지 실전 정리.
+seo_title: 비세 빌리지 링크스 그린피·예약 가이드 | 모토부 오키나와
+thumbnail: /static/images/bise_village_links.jpg
 ---
-
 
 Write permission wasn't granted for that path, so here's the finished page content directly — let me know if you'd like me to retry saving it once permission is granted.
 

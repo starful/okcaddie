@@ -1,6 +1,14 @@
 ---
+address: Sapporo, Hokkaido
+booking: /booking/sapporo_country_club_ko
+categories: Value for Money, Forest Course, Historic
 date: '2026-07-26'
 lang: en
+lat: '42.9544'
+lng: '141.3556'
+seo_description: 삿포로 컨트리클럽의 요금대, 접근 방법, 예약 팁을 정리했습니다. 삿포로 시내 및 신치토세공항 기준 이동 시간 포함.
+seo_title: 삿포로 컨트리클럽 그린피·예약 가이드
+thumbnail: /static/images/sapporo_country_club.jpg
 ---
 
 Since the file write wasn't permitted, here's the finished page content directly:

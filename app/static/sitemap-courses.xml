@@ -351,6 +351,15 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/sapporo_country_club</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/sapporo_country_club" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/sapporo_country_club?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/sapporo_country_club" />
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/okayama_country_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/okayama_country_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/okayama_country_club?lang=ko" />
@@ -389,6 +398,7 @@
   <url>
     <loc>https://okcaddie.net/course/kushiro_marsh_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kushiro_marsh_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kushiro_marsh_golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kushiro_marsh_golf" />
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -679,6 +689,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/abiko_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/abiko_golf_club" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/course/bise_village_links?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/bise_village_links" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/bise_village_links?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/bise_village_links" />
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -980,6 +999,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/akita_minami_golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/akita_minami_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/akita_minami_golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/akita_minami_golf" />
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/hiroshima_kokusai_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/hiroshima_kokusai_golf" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/hiroshima_kokusai_golf?lang=ko" />
@@ -1016,6 +1044,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/aomori_country_club?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/aomori_country_club" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/aomori_country_club?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/aomori_country_club" />
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/miyoshi_country_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/miyoshi_country_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/miyoshi_country_club?lang=ko" />
@@ -1036,6 +1073,7 @@
   <url>
     <loc>https://okcaddie.net/course/asahikawa_kokusai_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/asahikawa_kokusai_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/asahikawa_kokusai_golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/asahikawa_kokusai_golf" />
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -1258,6 +1296,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/iwate_numakunai_golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/iwate_numakunai_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/iwate_numakunai_golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/iwate_numakunai_golf" />
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/okinawa_country_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/okinawa_country_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/okinawa_country_club?lang=ko" />
@@ -1456,6 +1503,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/nidom_classic_course</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nidom_classic_course" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nidom_classic_course?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nidom_classic_course" />
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/katayamazu_golf_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/katayamazu_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/katayamazu_golf_club?lang=ko" />
@@ -1546,6 +1602,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/fukushima_azuma_golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/fukushima_azuma_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/fukushima_azuma_golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/fukushima_azuma_golf" />
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/abc_golf_club?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/abc_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/abc_golf_club?lang=ko" />
@@ -1575,6 +1640,7 @@
   <url>
     <loc>https://okcaddie.net/course/abashiri_lakeside_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/abashiri_lakeside_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/abashiri_lakeside_golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/abashiri_lakeside_golf" />
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -1707,6 +1773,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/asahikawa_kokusai_golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/asahikawa_kokusai_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/asahikawa_kokusai_golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/asahikawa_kokusai_golf" />
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/cherry_hills_robert_trent_jones</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/cherry_hills_robert_trent_jones" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/cherry_hills_robert_trent_jones?lang=ko" />
@@ -1736,6 +1811,7 @@
   <url>
     <loc>https://okcaddie.net/course/aomori_country_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/aomori_country_club" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/aomori_country_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/aomori_country_club" />
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -1771,6 +1847,7 @@
   <url>
     <loc>https://okcaddie.net/course/akita_minami_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/akita_minami_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/akita_minami_golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/akita_minami_golf" />
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1957,6 +2034,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/abashiri_lakeside_golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/abashiri_lakeside_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/abashiri_lakeside_golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/abashiri_lakeside_golf" />
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/hakone_country_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/hakone_country_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/hakone_country_club?lang=ko" />
@@ -1986,6 +2072,7 @@
   <url>
     <loc>https://okcaddie.net/course/fukushima_azuma_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/fukushima_azuma_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/fukushima_azuma_golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/fukushima_azuma_golf" />
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -2078,6 +2165,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/mie_country_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/mie_country_club" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/course/nidom_classic_course?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/nidom_classic_course" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/nidom_classic_course?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/nidom_classic_course" />
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2282,6 +2378,7 @@
   <url>
     <loc>https://okcaddie.net/course/iwate_numakunai_golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/iwate_numakunai_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/iwate_numakunai_golf?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/iwate_numakunai_golf" />
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -2410,6 +2507,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/okayama_country_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/okayama_country_club" />
     <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/course/sapporo_country_club?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/sapporo_country_club" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/sapporo_country_club?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/sapporo_country_club" />
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2891,6 +2997,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/course/bise_village_links</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/bise_village_links" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/bise_village_links?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/bise_village_links" />
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/course/abiko_golf_club</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/abiko_golf_club" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/abiko_golf_club?lang=ko" />
@@ -3175,6 +3290,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/aso_sky_blue_golf_club?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/aso_sky_blue_golf_club" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/course/kushiro_marsh_golf?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/course/kushiro_marsh_golf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/kushiro_marsh_golf?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/kushiro_marsh_golf" />
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
