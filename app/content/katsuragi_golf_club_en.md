@@ -1,15 +1,23 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Katsuragi Golf Club: An Expert Review by a Japanese Elite Rater and Senior Caddy"
-lat: "34.7944"
-lng: "137.9256"
-categories: "Public Tournament, Premium / Luxury, Forest Course"
-thumbnail: "/static/images/katsuragi_golf_club.jpg"
-address: "Fukuroi, Shizuoka"
-date: "2026-04-15"
-booking: "/booking/katsuragi_golf_club_en"
-summary: "An exhaustive 9,000-character master guide to Katsuragi Golf Club, meticulously detailing its strategic architecture, historical prestige, luxurious amenities, and unique golfing challenge. Penned by an elite Japanese golf course rater and senior caddy, this review offers unparalleled insights for the discerning golfer seeking the pinnacle of Japanese golf experiences, ensuring top SEO ranking for 'Katsuragi Golf Club'."
+lang: en
+title: 'Katsuragi Golf Club: Green Fees, Booking & Is It Worth It?'
+lat: '34.7944'
+lng: '137.9256'
+categories: Public Tournament, Premium / Luxury, Forest Course
+thumbnail: /static/images/katsuragi_golf_club.jpg
+address: Fukuroi, Shizuoka
+date: '2026-04-15'
+booking: /booking/katsuragi_golf_club_en
+summary: A senior caddy's field guide to Katsuragi Golf Club in Fukuroi, Shizuoka
+  — green fees, Rakuten GORA booking, layout strategy, access, and the best seasons
+  to play.
+description: Is Katsuragi Golf Club worth the green fee? A senior caddy's guide to
+  booking via Rakuten GORA, course strategy, access, and the best seasons to play.
+seo_title: 'Katsuragi Golf Club: Green Fees, Booking & Is It Worth It?'
+seo_description: Is Katsuragi Golf Club worth the green fee? A senior caddy's guide
+  to booking via Rakuten GORA, course strategy, access, and the best seasons to play.
 ---
+**Is Katsuragi Golf Club worth playing?** In short: yes, if you value Yamaha-level conditioning and strategic, tournament-tested design. Before you book, here's what actually matters — current green fees and Rakuten GORA booking steps, the layout's key strategic angles, access from Fukuroi Station, and which seasons play best.
 
 ## The Undisputed Majesty of Katsuragi Golf Club: A Senior Caddy's Masterclass Review
 

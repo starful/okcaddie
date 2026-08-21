@@ -1,15 +1,23 @@
 ---
-lang: "en"
-title: "Oita Tokyu Golf"
-lat: "33.1544"
-lng: "131.6556"
-categories: "Value for Money, Forest Course, Resort"
-thumbnail: "/static/images/oita_tokyu_golf.jpg"
-address: "Oita, Oita"
-date: "2026-06-19"
-booking: "/booking/oita_tokyu_golf_en"
-summary: "Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole forest course experience at an accessible price point."
+lang: en
+title: Oita Tokyu Golf | 18-Hole Forest Course, Green Fees & Tee Times | OKCaddie
+lat: '33.1544'
+lng: '131.6556'
+categories: Value for Money, Forest Course, Resort
+thumbnail: /static/images/oita_tokyu_golf.jpg
+address: Oita, Oita
+date: '2026-06-19'
+booking: /booking/oita_tokyu_golf_en
+summary: Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole
+  forest course experience at an accessible price point, with tree-lined fairways
+  that reward careful shot placement.
+description: 'Oita Tokyu Golf: a scenic 18-hole forest course near Oita, Japan. Compare
+  green fees, check tee times, and book online with OKCaddie.'
+seo_title: Oita Tokyu Golf (Oita) | Green Fees & Tee Times | OKCaddie
+seo_description: 'Oita Tokyu Golf: a scenic 18-hole forest course near Oita, Japan.
+  Compare green fees, check tee times, and book online with OKCaddie.'
 ---
+
 
 ## Course Overview
 
@@ -50,3 +58,7 @@ The clubhouse at Oita Tokyu Golf offers a welcoming and comfortable environment,
 ## Caddie Tips
 
 Playing Oita Tokyu Golf with a caddie, especially for your first visit, is highly recommended to enhance your experience and navigate its nuances effectively. Common mistakes here include underestimating the subtle elevation changes, leading to misjudged carries or approaches, and misreading greens that often break more than they appear due to the underlying topography. The tree-lined fairways demand accurate tee shots, and caddies excel at guiding you to the optimal landing zones to avoid being blocked out. They possess invaluable local knowledge regarding hidden hazards, the ideal club for each approach, and precise green reads that can save you strokes. For instance, many greens will have a general slope towards the valley or a specific mountain range, and a caddie will point this out. This course is particularly well-suited for mid-to-low handicap players who enjoy a strategic game where precision is rewarded over sheer power. Higher handicap players will also find it enjoyable, especially with a caddie's guidance, as the course is fair but demands thoughtful shot placement. It's a great choice for golfers who appreciate a well-maintained forest course with natural beauty and a relaxing resort atmosphere, rather than those seeking wide-open links-style challenges.
+
+## Tips for Visiting
+
+Because Oita Tokyu Golf's holes are framed by mature trees and subtle elevation changes, favor accuracy over distance off the tee — as on the tree-guarded dogleg at Hole 1. The Zoysia fairways and Bentgrass greens suit golfers who enjoy tactical, course-management golf rather than a pure power test. Before you head out, check current green fees and available tee times via Rakuten GORA or OKCaddie's booking links, since rates and availability can shift by season.
