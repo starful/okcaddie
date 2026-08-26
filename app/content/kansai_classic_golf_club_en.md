@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Kansai Classic Golf Club: An Expert Review (en)"
-lat: "34.8544"
-lng: "135.0556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/kansai_classic_golf_club.jpg"
-address: "Miki, Hyogo"
-date: "2026-04-15"
-booking: "/booking/kansai_classic_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Kansai Classic Golf Club, covering strategy, history, and luxury facilities."
+address: Miki, Hyogo
+booking: /booking/kansai_classic_golf_club_en
+categories: Value for Money, Forest Course, Championship
+date: '2026-04-15'
+description: 효고현 미키 간사이 클래식 골프 클럽 그린피, 라쿠텐 GORA 예약, 접근성, 베스트 시즌 정보. 일본 골프 여행 전 OKCaddie에서
+  확인하세요.
+lang: en
+lat: '34.8544'
+lng: '135.0556'
+seo_description: 효고현 미키 간사이 클래식 골프 클럽 그린피, 라쿠텐 GORA 예약, 접근성, 베스트 시즌 정보. 일본 골프 여행 전
+  OKCaddie에서 확인하세요.
+seo_title: 간사이 클래식 골프 클럽 그린피·예약 가이드 | 효고 미키 골프장 | OKCaddie
+summary: A comprehensive 9,000-character master guide to Kansai Classic Golf Club,
+  covering strategy, history, and luxury facilities.
+thumbnail: /static/images/kansai_classic_golf_club.jpg
+title: 'The Definitive Guide to Kansai Classic Golf Club: An Expert Review (en)'
 ---
 
 ## Kansai Classic Golf Club: A Masterpiece of Japanese Golf Heritage and Strategic Design

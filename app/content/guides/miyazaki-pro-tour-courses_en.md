@@ -1,25 +1,16 @@
 ---
 date: '2026-04-15'
 lang: en
-summary: Experience world-class golf in Miyazaki, Japan, a region renowned for its
-  stunning scenery, warm climate, and championship courses that host professional
-  tournaments. Discover the exceptional golfing destinations where top pros like Hideki
-  Matsuyama have competed and hone your skills on courses designed to challenge and
-  inspire. This guide unveils the best golf courses in Miyazaki, offering insights
-  into their unique features, historical significance, and accessibility for international
-  golfers.
-title: Best Japan Golf Courses | Expert Reviews, Green Fees & Booking | OKCaddie
-description: Discover 179 Japan golf courses with expert reviews, green fees & instant
-  booking. Find beginner-friendly courses by region.
-seo_title: 'Japan Golf Courses Directory: Find Top Courses, Prices & Book Online |
-  OKCaddie'
-seo_description: Discover 179 Japan golf courses with expert reviews, green fees &
-  instant booking. Find beginner-friendly courses by region.
+summary: A directory of 185 golf courses across Japan, searchable by region and style,
+  with green fees and booking links.
+title: 185 Japan Golf Courses – Compare & Book | OKCaddie
+description: Browse 185 golf courses across Japan by region and style. Compare green
+  fees and find booking links in one place.
+seo_title: 185 Japan Golf Courses – Compare & Book | OKCaddie
+seo_description: Browse 185 golf courses across Japan by region and style. Compare
+  green fees and find booking links in one place.
 ---
-
-
-
-
+From Hokkaido to Kyushu, this directory covers 185 golf courses across Japan, filterable by region and course style, with green fees and booking links to help you plan your round.
 
 ## Tee Off in Paradise: Your Guide to Miyazaki's Pro-Level Golf Courses
 

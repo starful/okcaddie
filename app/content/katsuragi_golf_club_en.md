@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Katsuragi Golf Club: Green Fees, Booking & Is It Worth It?'
+title: 'Katsuragi Golf Club Review: Fees, Booking & Caddy''s Verdict'
 lat: '34.7944'
 lng: '137.9256'
 categories: Public Tournament, Premium / Luxury, Forest Course
@@ -11,12 +11,14 @@ booking: /booking/katsuragi_golf_club_en
 summary: A senior caddy's field guide to Katsuragi Golf Club in Fukuroi, Shizuoka
   — green fees, Rakuten GORA booking, layout strategy, access, and the best seasons
   to play.
-description: Is Katsuragi Golf Club worth the green fee? A senior caddy's guide to
-  booking via Rakuten GORA, course strategy, access, and the best seasons to play.
-seo_title: 'Katsuragi Golf Club: Green Fees, Booking & Is It Worth It?'
-seo_description: Is Katsuragi Golf Club worth the green fee? A senior caddy's guide
-  to booking via Rakuten GORA, course strategy, access, and the best seasons to play.
+description: 'Yamaha''s flagship course, rated by a senior caddy: real green fees,
+  Rakuten GORA booking steps, strategic layout tips, and the best season to play.'
+seo_title: 'Katsuragi Golf Club Review: Fees, Booking & Caddy''s Verdict'
+seo_description: 'Yamaha''s flagship course, rated by a senior caddy: real green fees,
+  Rakuten GORA booking steps, strategic layout tips, and the best season to play.'
 ---
+**Quick verdict:** Katsuragi delivers Yamaha-grade conditioning and tournament-caliber strategy — worth the trip from Fukuroi Station if you play a proper course-management game. Below: current booking steps via Rakuten GORA, the layout's key strategic angles, and the best months to tee off.
+
 **Is Katsuragi Golf Club worth playing?** In short: yes, if you value Yamaha-level conditioning and strategic, tournament-tested design. Before you book, here's what actually matters — current green fees and Rakuten GORA booking steps, the layout's key strategic angles, access from Fukuroi Station, and which seasons play best.
 
 ## The Undisputed Majesty of Katsuragi Golf Club: A Senior Caddy's Masterclass Review
