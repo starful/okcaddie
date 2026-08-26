@@ -3,9 +3,14 @@ address: 사이타마현 사야마시
 booking: /booking/tokyo_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic
 date: '2026-04-15'
+description: 'Expert review of Tokyo Golf Club by a Japanese caddy: history, hole-by-hole
+  course guide, amenities, and tips for visiting golfers.'
 lang: ko
 lat: '35.8367'
 lng: '139.3956'
+seo_description: 'Expert review of Tokyo Golf Club by a Japanese caddy: history, hole-by-hole
+  course guide, amenities, and tips for visiting golfers.'
+seo_title: 'Tokyo Golf Club Review: History, Course Guide & Caddy Tips'
 summary: '도쿄골프클럽에 대한 포괄적인 8,000~9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 총망라하며 품격 있는 일본 골프
   경험을 선사합니다. #도쿄골프클럽 #일본골프 #프리미엄골프 #골프여행 #명문골프장 #캐디전략 #일본온천골프'
 thumbnail: /static/images/tokyo_golf_club.jpg

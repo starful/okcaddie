@@ -1,6 +1,82 @@
 {
-  "last_updated": "2026.08.20",
+  "last_updated": "2026.08.26",
   "courses": [
+    {
+      "id": "toyama_kokusai_golf_ko",
+      "base_id": "toyama_kokusai_golf",
+      "lang": "ko",
+      "title": "Toyama Kokusai Golf",
+      "lat": 36.6544,
+      "lng": 137.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/toyama_kokusai_golf.jpg",
+      "address": "Toyama, Toyama",
+      "published": "2026-08-26",
+      "summary": "도야마 산악 지형 골프장, 가성비 좋은 그린피와 편도 1시간대 접근성으로 당일 라운드에 적합.",
+      "booking": "/booking/toyama_kokusai_golf_ko",
+      "link": "/course/toyama_kokusai_golf?lang=ko"
+    },
+    {
+      "id": "toyama_kokusai_golf_en",
+      "base_id": "toyama_kokusai_golf",
+      "lang": "en",
+      "title": "Toyama Kokusai Golf",
+      "lat": 36.6544,
+      "lng": 137.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/toyama_kokusai_golf.jpg",
+      "address": "Toyama, Toyama",
+      "published": "2026-08-26",
+      "summary": "Toyama Kokusai Golf is a mountain-style value round near Toyama City; check live weekday/weekend rates before booking.",
+      "booking": "/booking/toyama_kokusai_golf_en",
+      "link": "/course/toyama_kokusai_golf"
+    },
+    {
+      "id": "niigata_country_club_ko",
+      "base_id": "niigata_country_club",
+      "lang": "ko",
+      "title": "Niigata Country Club",
+      "lat": 37.8544,
+      "lng": 138.9556,
+      "categories": [
+        "Private Club",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/niigata_country_club.jpg",
+      "address": "Niigata, Niigata",
+      "published": "2026-08-26",
+      "summary": "회원제 프라이빗 클럽인 니가타 컨트리클럽, 방문 전 동반·소개 여부와 요금을 반드시 확인하세요.",
+      "booking": "/booking/niigata_country_club_ko",
+      "link": "/course/niigata_country_club?lang=ko"
+    },
+    {
+      "id": "niigata_country_club_en",
+      "base_id": "niigata_country_club",
+      "lang": "en",
+      "title": "Niigata Country Club",
+      "lat": 37.8544,
+      "lng": 138.9556,
+      "categories": [
+        "Private Club",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/niigata_country_club.jpg",
+      "address": "Niigata, Niigata",
+      "published": "2026-08-26",
+      "summary": "Niigata Country Club is a private, tree-lined member course near Niigata City; visitors should arrange an introduction and confirm current fees before booking.",
+      "booking": "/booking/niigata_country_club_en",
+      "link": "/course/niigata_country_club"
+    },
     {
       "id": "sapporo_country_club_ko",
       "base_id": "sapporo_country_club",
@@ -1278,7 +1354,7 @@
       "id": "the_southern_links_resort_ko",
       "base_id": "the_southern_links_resort",
       "lang": "ko",
-      "title": "The Southern Links Resort",
+      "title": "The Southern Links Resort | Ocean-Carry Golf, Green Fees & Tee Times",
       "lat": 26.1144,
       "lng": 127.7356,
       "categories": [
@@ -1289,7 +1365,7 @@
       "thumbnail": "/static/images/the_southern_links_resort.jpg",
       "address": "Yaese, Okinawa",
       "published": "2026-06-27",
-      "summary": "오키나와 야에세에 위치한 더 서던 링크스 리조트는 태평양을 따라 펼쳐진 드라마틱한 해안선과 7번 홀의 절벽 너머 샷으로 유명합니다.",
+      "summary": "오키나와 야에세의 더 서던 링크스 리조트, 태평양을 가로지르는 절벽 캐리 홀과 그린피·티타임 예약 정보를 한눈에 확인하세요.",
       "booking": "/booking/the_southern_links_resort_ko",
       "link": "/course/the_southern_links_resort?lang=ko"
     },
@@ -1632,7 +1708,7 @@
       "thumbnail": "/static/images/okayama_country_club.jpg",
       "address": "Okayama, Okayama",
       "published": "2026-06-27",
-      "summary": "오카야마 컨트리클럽은 1961년 개장한 유서 깊은 사립 골프장으로, 오카야마 현의 울창한 숲 속에 자리하며 전략적인 코스 레이아웃을 제공합니다.",
+      "summary": "오카야마 컨트리클럽은 1961년 개장한 유서 깊은 사립 골프장으로, 오카야마 현의 울창한 숲 속에 자리하며 전략적인 코스 레이아웃과 홀별 공략법을 제공합니다.",
       "booking": "/booking/okayama_country_club_ko",
       "link": "/course/okayama_country_club?lang=ko"
     },
@@ -2528,7 +2604,7 @@
       "thumbnail": "/static/images/oita_tokyu_golf.jpg",
       "address": "Oita, Oita",
       "published": "2026-06-19",
-      "summary": "Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole forest course experience at an accessible price point.",
+      "summary": "Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole forest course experience at an accessible price point, with tree-lined fairways that reward careful shot placement.",
       "booking": "/booking/oita_tokyu_golf_en",
       "link": "/course/oita_tokyu_golf"
     },
@@ -3053,7 +3129,7 @@
       "id": "tokyo_golf_club_en",
       "base_id": "tokyo_golf_club",
       "lang": "en",
-      "title": "Tokyo Golf Club",
+      "title": "Tokyo Golf Club Review",
       "lat": 35.8367,
       "lng": 139.3956,
       "categories": [
@@ -3064,7 +3140,7 @@
       "thumbnail": "/static/images/tokyo_golf_club.jpg",
       "address": "Sayama, Saitama",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Tokyo Golf Club, meticulously reviewed by an elite Japanese golf course rater and senior caddy, covering its unparalleled history, strategic architecture, hole-by-hole masterclass, luxurious amenities, gourmet dining, and essential seasonal tips for an unforgettable premium golf experience in Japan. Discover why Tokyo Golf Club is the epitome of Japanese golf tradition and challenge.",
+      "summary": "An elite Japanese caddy's expert review of Tokyo Golf Club, covering its storied history, hole-by-hole course strategy, and practical tips for golfers hoping to visit.",
       "booking": "/booking/tokyo_golf_club_en",
       "link": "/course/tokyo_golf_club"
     },
@@ -5248,7 +5324,7 @@
       "thumbnail": "/static/images/katsuragi_golf_club.jpg",
       "address": "Fukuroi, Shizuoka",
       "published": "2026-04-15",
-      "summary": "An exhaustive 9,000-character master guide to Katsuragi Golf Club, meticulously detailing its strategic architecture, historical prestige, luxurious amenities, and unique golfing challenge. Penned by an elite Japanese golf course rater and senior caddy, this review offers unparalleled insights for the discerning golfer seeking the pinnacle of Japanese golf experiences, ensuring top SEO ranking for 'Katsuragi Golf Club'.",
+      "summary": "A senior caddy's field guide to Katsuragi Golf Club in Fukuroi, Shizuoka — green fees, Rakuten GORA booking, layout strategy, access, and the best seasons to play.",
       "booking": "/booking/katsuragi_golf_club_en",
       "link": "/course/katsuragi_golf_club"
     },
@@ -5440,7 +5516,7 @@
       "thumbnail": "/static/images/kansai_golf_club.jpg",
       "address": "Miki, Hyogo",
       "published": "2026-04-15",
-      "summary": "A comprehensive 9,000-character master guide to Kansai Golf Club, covering strategy, history, and luxury facilities.",
+      "summary": "A practical guide to Kansai Golf Club covering green fees, tee-time booking via Rakuten GORA, layout strategy, access, and the best seasons to play.",
       "booking": "/booking/kansai_golf_club_en",
       "link": "/course/kansai_golf_club"
     },
@@ -5448,7 +5524,7 @@
       "id": "kansai_classic_golf_club_ko",
       "base_id": "kansai_classic_golf_club",
       "lang": "ko",
-      "title": "간사이 클래식 골프 클럽 완전 분석",
+      "title": "간사이 클래식 골프 클럽 그린피·예약 가이드 | 효고 미키 골프장 | OKCaddie",
       "lat": 34.8544,
       "lng": 135.0556,
       "categories": [
@@ -5459,7 +5535,7 @@
       "thumbnail": "/static/images/kansai_classic_golf_club.jpg",
       "address": "효고현 미키시",
       "published": "2026-04-15",
-      "summary": "간사이 클래식 골프 클럽에 대한 포괄적인 9,000자 마스터 가이드로, 전략, 역사, 럭셔리 시설을 심도 있게 다룹니다.",
+      "summary": "효고현 미키 지역 간사이 클래식 골프 클럽의 역사, 코스 전략, 그린피·예약 정보를 정리한 상세 가이드.",
       "booking": "/booking/kansai_classic_golf_club_ko",
       "link": "/course/kansai_classic_golf_club?lang=ko"
     },
@@ -5792,7 +5868,7 @@
       "id": "hirono_golf_club_ko",
       "base_id": "hirono_golf_club",
       "lang": "ko",
-      "title": "히로노 골프 클럽 그린피·멤버십·예약",
+      "title": "Hirono Golf Club Tee Times",
       "lat": 34.7967,
       "lng": 135.0111,
       "categories": [
@@ -5803,7 +5879,7 @@
       "thumbnail": "/static/images/hirono_golf_club.jpg",
       "address": "효고현 미키시 히로노",
       "published": "2026-04-15",
-      "summary": "히로노 골프 클럽에 대한 9,000자에 달하는 종합 마스터 가이드. 전략, 역사, 럭셔리 시설을 총망라한 전문가 리뷰입니다.",
+      "summary": "A practical visitor's guide to Hirono Golf Club covering booking routes, member-guest policy, and what to expect before your round.",
       "booking": "/booking/hirono_golf_club_ko",
       "link": "/course/hirono_golf_club?lang=ko"
     },

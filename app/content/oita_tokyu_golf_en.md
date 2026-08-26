@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Oita Tokyu Golf | 18-Hole Forest Course, Green Fees & Tee Times | OKCaddie
+title: Oita Tokyu Golf (Oita, Japan) | Green Fees & Tee Times | OKCaddie
 lat: '33.1544'
 lng: '131.6556'
 categories: Value for Money, Forest Course, Resort
@@ -8,15 +8,16 @@ thumbnail: /static/images/oita_tokyu_golf.jpg
 address: Oita, Oita
 date: '2026-06-19'
 booking: /booking/oita_tokyu_golf_en
-summary: Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole
-  forest course experience at an accessible price point, with tree-lined fairways
-  that reward careful shot placement.
-description: 'Oita Tokyu Golf: a scenic 18-hole forest course near Oita, Japan. Compare
-  green fees, check tee times, and book online with OKCaddie.'
-seo_title: Oita Tokyu Golf (Oita) | Green Fees & Tee Times | OKCaddie
-seo_description: 'Oita Tokyu Golf: a scenic 18-hole forest course near Oita, Japan.
-  Compare green fees, check tee times, and book online with OKCaddie.'
+summary: Oita Tokyu Golf, set in Oita, Japan, offers a scenic and strategic 18-hole
+  forest course with Zoysia fairways and Bentgrass greens—an accessible favorite for
+  players who value tree-lined shot-making over sheer length.
+description: 'Oita Tokyu Golf (Oita, Japan): scenic 18-hole forest course, Zoysia
+  fairways, Bentgrass greens. Compare green fees & tee times, book with OKCaddie.'
+seo_title: Oita Tokyu Golf (Oita, Japan) | Green Fees & Tee Times | OKCaddie
+seo_description: 'Oita Tokyu Golf (Oita, Japan): scenic 18-hole forest course, Zoysia
+  fairways, Bentgrass greens. Compare green fees & tee times, book with OKCaddie.'
 ---
+
 
 
 ## Course Overview
@@ -62,3 +63,7 @@ Playing Oita Tokyu Golf with a caddie, especially for your first visit, is highl
 ## Tips for Visiting
 
 Because Oita Tokyu Golf's holes are framed by mature trees and subtle elevation changes, favor accuracy over distance off the tee — as on the tree-guarded dogleg at Hole 1. The Zoysia fairways and Bentgrass greens suit golfers who enjoy tactical, course-management golf rather than a pure power test. Before you head out, check current green fees and available tee times via Rakuten GORA or OKCaddie's booking links, since rates and availability can shift by season.
+
+## Who It Suits
+
+Oita Tokyu Golf rewards golfers who favor precision over power—strategic shot placement matters more than distance here, thanks to tree-lined fairways and gentle elevation changes throughout the forest setting. It's a good match for players comfortable navigating doglegs and well-guarded greens, as well as anyone seeking a scenic, less crowded round in Oita Prefecture. Before you go, compare green fees and check available tee times on OKCaddie to plan your visit.

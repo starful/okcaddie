@@ -3,9 +3,14 @@ address: 효고현 미키시
 booking: /booking/kansai_golf_club_ko
 categories: 프라이빗 클럽, 프리미엄 / 럭셔리, 럭셔리
 date: '2026-04-15'
+description: 'Kansai Golf Club guide: real green fees, Rakuten GORA booking, layout
+  strategy, access tips, and best seasons to play in Hyogo.'
 lang: ko
 lat: '34.8244'
 lng: '135.0356'
+seo_description: Real green fees, tee times & Rakuten GORA booking steps for Kansai
+  Golf Club — plus layout strategy, access tips & best seasons to play in Hyogo.
+seo_title: 'Kansai Golf Club Guide 2026: Green Fees, Tee Times & Booking'
 summary: 간사이 골프 클럽의 역사, 전략적 코스 분석, 최고급 시설, 미식 경험, 그리고 캐디의 비밀 팁까지, 9,000자 분량의 포괄적인
   마스터 가이드를 만나보세요.
 thumbnail: /static/images/kansai_golf_club.jpg

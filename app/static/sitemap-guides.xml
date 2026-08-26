@@ -114,6 +114,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/hyogo-the-golf-kingdom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom" />
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/luxury-golf-experience</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/luxury-golf-experience" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/luxury-golf-experience" />
@@ -152,6 +161,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/two-ball-play-tips?lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/two-ball-play-tips" />
     <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/ibaraki-hidden-gems</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/ibaraki-hidden-gems" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/ibaraki-hidden-gems?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/ibaraki-hidden-gems" />
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -488,6 +506,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/ibaraki-hidden-gems?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/ibaraki-hidden-gems" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/ibaraki-hidden-gems?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/ibaraki-hidden-gems" />
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/two-ball-play-tips?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/two-ball-play-tips" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/two-ball-play-tips?lang=ko" />
@@ -717,6 +744,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/luxury-golf-experience" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/luxury-golf-experience" />
     <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/hyogo-the-golf-kingdom?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom" />
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

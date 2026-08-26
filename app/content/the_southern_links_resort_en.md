@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Southern Links Resort"
-lat: "26.1144"
-lng: "127.7356"
-categories: "Seaside Links, Premium / Luxury, Resort"
-thumbnail: "/static/images/the_southern_links_resort.jpg"
-address: "Yaese, Okinawa"
-date: "2026-06-27"
-booking: "/booking/the_southern_links_resort_en"
-summary: "The Southern Links Resort in Okinawa offers 18 holes of dramatic seaside golf with two iconic ocean-carry holes."
+address: Yaese, Okinawa
+booking: /booking/the_southern_links_resort_en
+categories: Seaside Links, Premium / Luxury, Resort
+date: '2026-06-27'
+description: Play Okinawa's cliffside ocean-carry holes at The Southern Links Resort
+  — green fees, Rakuten GORA tee times, map & course guide inside.
+lang: en
+lat: '26.1144'
+lng: '127.7356'
+seo_description: Play Okinawa's cliffside ocean-carry holes at The Southern Links
+  Resort — green fees, Rakuten GORA tee times, map & course guide inside.
+seo_title: The Southern Links Resort | Ocean-Carry Golf, Green Fees & Tee Times
+summary: The Southern Links Resort in Okinawa offers 18 holes of dramatic seaside
+  golf with two iconic ocean-carry holes.
+thumbnail: /static/images/the_southern_links_resort.jpg
+title: The Southern Links Resort
 ---
 
 ## Course Overview

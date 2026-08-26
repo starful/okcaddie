@@ -1,6 +1,6 @@
 ---
 lang: ko
-title: The Southern Links Resort | Ocean-Carry Golf, Green Fees & Tee Times
+title: The Southern Links Resort | Ocean-Carry Golf & Green Fees
 lat: '26.1144'
 lng: '127.7356'
 categories: Seaside Links, Premium / Luxury, Resort
@@ -9,12 +9,13 @@ address: Yaese, Okinawa
 date: '2026-06-27'
 booking: /booking/the_southern_links_resort_ko
 summary: 오키나와 야에세의 더 서던 링크스 리조트, 태평양을 가로지르는 절벽 캐리 홀과 그린피·티타임 예약 정보를 한눈에 확인하세요.
-description: Play Okinawa's cliffside ocean-carry holes at The Southern Links Resort
-  — green fees, Rakuten GORA tee times, map & course guide inside.
-seo_title: The Southern Links Resort | Ocean-Carry Golf, Green Fees & Tee Times
-seo_description: Play Okinawa's cliffside ocean-carry holes at The Southern Links
-  Resort — green fees, Rakuten GORA tee times, map & course guide inside.
+description: Okinawa's dramatic ocean-carry 7th hole at The Southern Links Resort
+  — green fees, GORA tee times, map & course strategy guide inside.
+seo_title: The Southern Links Resort | Ocean-Carry Golf & Green Fees
+seo_description: Okinawa's dramatic ocean-carry 7th hole at The Southern Links Resort
+  — green fees, GORA tee times, map & course strategy guide inside.
 ---
+
 > 태평양을 정면으로 가로지르는 7번 홀 캐리 샷 한 번이면, 왜 이 코스가 오키나와 링크스 골프의 대명사인지 알게 됩니다. 절벽과 바다가 만드는 극적인 풍경 속에서 그린피, 티타임, 예약 방법까지 아래에서 바로 확인해 보세요.
 
 ## 코스 개요

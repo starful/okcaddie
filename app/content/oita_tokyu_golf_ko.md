@@ -1,14 +1,19 @@
 ---
-lang: "ko"
-title: "Oita Tokyu Golf"
-lat: "33.1544"
-lng: "131.6556"
-categories: "Value for Money, Forest Course, Resort"
-thumbnail: "/static/images/oita_tokyu_golf.jpg"
-address: "Oita, Oita"
-date: "2026-06-19"
-booking: "/booking/oita_tokyu_golf_ko"
-summary: "오이타 도큐 골프는 오이타현에 위치하며, 전략적인 산림 코스에서 합리적인 가격으로 18홀 라운딩을 즐길 수 있는 리조트형 골프장입니다."
+address: Oita, Oita
+booking: /booking/oita_tokyu_golf_ko
+categories: Value for Money, Forest Course, Resort
+date: '2026-06-19'
+description: 'Oita Tokyu Golf: a scenic 18-hole forest course near Oita, Japan. Compare
+  green fees, check tee times, and book online with OKCaddie.'
+lang: ko
+lat: '33.1544'
+lng: '131.6556'
+seo_description: 'Oita Tokyu Golf: a scenic 18-hole forest course near Oita, Japan.
+  Compare green fees, check tee times, and book online with OKCaddie.'
+seo_title: Oita Tokyu Golf (Oita) | Green Fees & Tee Times | OKCaddie
+summary: 오이타 도큐 골프는 오이타현에 위치하며, 전략적인 산림 코스에서 합리적인 가격으로 18홀 라운딩을 즐길 수 있는 리조트형 골프장입니다.
+thumbnail: /static/images/oita_tokyu_golf.jpg
+title: Oita Tokyu Golf
 ---
 
 ## 코스 개요

@@ -1,11 +1,17 @@
 ---
-address: '[Shizuoka](/course/shizuoka_hamamatsu_course?lang=ko) Prefecture, Fukuroi City'
+address: '[Shizuoka](/course/shizuoka_hamamatsu_course?lang=ko) Prefecture, Fukuroi
+  City'
 booking: /booking/katsuragi_golf_club_ko
 categories: Public Tournament, Premium / Luxury, Forest Course
 date: '2026-04-15'
+description: Is Katsuragi Golf Club worth the green fee? A senior caddy's guide to
+  booking via Rakuten GORA, course strategy, access, and the best seasons to play.
 lang: ko
 lat: '34.7944'
 lng: '137.9256'
+seo_description: Is Katsuragi Golf Club worth the green fee? A senior caddy's guide
+  to booking via Rakuten GORA, course strategy, access, and the best seasons to play.
+seo_title: 'Katsuragi Golf Club: Green Fees, Booking & Is It Worth It?'
 summary: 카츠라기 골프 클럽에 대한 9,000자 분량의 포괄적인 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라한 전문가 리뷰입니다.
 thumbnail: /static/images/katsuragi_golf_club.jpg
 title: '카츠라기 골프 클럽 완전 분석: 20년 경력 캐디가 전하는 마스터 피스 리뷰'
