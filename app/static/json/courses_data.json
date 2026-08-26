@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.08.26",
+  "last_updated": "2026-08-26",
   "courses": [
     {
       "id": "toyama_kokusai_golf_ko",
@@ -205,7 +205,7 @@
       ],
       "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
       "address": "Asahikawa, Hokkaido",
-      "published": "2026-08-20",
+      "published": "2026-08-26",
       "summary": "아사히카와 국제 골프는 다이세츠잔 자락의 합리적 요금 코스로, 라쿠텐 GORA 사전예약과 여름 시즌 방문이 핵심입니다.",
       "booking": "/booking/asahikawa_kokusai_golf_ko",
       "link": "/course/asahikawa_kokusai_golf?lang=ko"
@@ -395,7 +395,7 @@
       ],
       "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
       "address": "Asahikawa, Hokkaido",
-      "published": "2026-08-08",
+      "published": "2026-08-26",
       "summary": "Asahikawa Kokusai Golf pairs mountain-style scenery with fair value; book via Rakuten GORA or the link below and verify live pricing.",
       "booking": "/booking/asahikawa_kokusai_golf_en",
       "link": "/course/asahikawa_kokusai_golf"

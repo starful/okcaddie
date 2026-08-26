@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Asahikawa Kokusai Golf"
-lat: "43.7544"
-lng: "142.4556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/asahikawa_kokusai_golf.jpg"
-address: "Asahikawa, Hokkaido"
-date: "2026-08-20"
-booking: "/booking/asahikawa_kokusai_golf_ko"
-summary: "아사히카와 국제 골프는 다이세츠잔 자락의 합리적 요금 코스로, 라쿠텐 GORA 사전예약과 여름 시즌 방문이 핵심입니다."
-seo_title: "아사히카와 국제 골프 그린피·예약·가는 법 정리"
-seo_description: "홋카이도 아사히카와 국제 골프의 요금대, 최적 시즌, 삿포로·아사히카와 공항에서의 이동 방법을 실용적으로 안내합니다."
+lang: ko
+title: Asahikawa Kokusai Golf
+lat: '43.7544'
+lng: '142.4556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/asahikawa_kokusai_golf.jpg
+address: Asahikawa, Hokkaido
+date: '2026-08-26'
+booking: /booking/asahikawa_kokusai_golf_ko
+summary: 아사히카와 국제 골프는 다이세츠잔 자락의 합리적 요금 코스로, 라쿠텐 GORA 사전예약과 여름 시즌 방문이 핵심입니다.
+seo_title: 아사히카와 국제 골프 그린피·예약·가는 법 정리
+seo_description: 홋카이도 아사히카와 국제 골프의 요금대, 최적 시즌, 삿포로·아사히카와 공항에서의 이동 방법을 실용적으로 안내합니다.
 ---
+
 
 ## 한눈에 보기
 
