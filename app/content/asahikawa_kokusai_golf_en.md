@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Asahikawa Kokusai Golf"
-lat: "43.7544"
-lng: "142.4556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/asahikawa_kokusai_golf.jpg"
-address: "Asahikawa, Hokkaido"
-date: "2026-08-08"
-booking: "/booking/asahikawa_kokusai_golf_en"
-summary: "Asahikawa Kokusai Golf pairs mountain-style scenery with fair value; book via Rakuten GORA or the link below and verify live pricing."
-seo_title: "Asahikawa Kokusai Golf: Fees, Access & Booking Guide"
-seo_description: "Plan your round at Asahikawa Kokusai Golf in Hokkaido — green fee ranges, access from Asahikawa, and how to book a tee time."
+lang: en
+title: Asahikawa Kokusai Golf
+lat: '43.7544'
+lng: '142.4556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/asahikawa_kokusai_golf.jpg
+address: Asahikawa, Hokkaido
+date: '2026-08-26'
+booking: /booking/asahikawa_kokusai_golf_en
+summary: Asahikawa Kokusai Golf pairs mountain-style scenery with fair value; book
+  via Rakuten GORA or the link below and verify live pricing.
+seo_title: 'Asahikawa Kokusai Golf: Fees, Access & Booking Guide'
+seo_description: Plan your round at Asahikawa Kokusai Golf in Hokkaido — green fee
+  ranges, access from Asahikawa, and how to book a tee time.
 ---
+
 
 ## Quick Facts
 
