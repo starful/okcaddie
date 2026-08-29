@@ -21,6 +21,7 @@ try:
     from ..ids import resolve_guide_id, split_localized_id
     from ..paths import GUIDE_DIR
     from ..text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
+    from ..a8_affiliate import a8_banners_context
     from ..view_helpers import attach_seo_fields, course_cards, share_context
 except ImportError:
     from config import (
@@ -35,6 +36,7 @@ except ImportError:
     from ids import resolve_guide_id, split_localized_id
     from paths import GUIDE_DIR
     from text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
+    from a8_affiliate import a8_banners_context
     from view_helpers import attach_seo_fields, course_cards, share_context
 
 guides_bp = Blueprint("guides", __name__)
@@ -119,5 +121,6 @@ def guide_detail(guide_ref):
         og_image_height=630,
         cross_site_links=cross_links_for(FAMILY_SITE_ID, post_data["lang"]),
         **inject_family_context(FAMILY_SITE_ID, post_data["lang"]),
+        **a8_banners_context(lang=post_data["lang"]),
         **share_ctx,
     )

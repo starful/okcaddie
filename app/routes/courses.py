@@ -12,6 +12,7 @@ from flask import Blueprint, abort, jsonify, redirect, render_template, request
 
 try:
     from ..badges import enrich_item
+    from ..a8_affiliate import a8_banners_context
     from ..config import (
         AREA_MAP,
         FAMILY_SITE_ID,
@@ -40,6 +41,7 @@ try:
     )
 except ImportError:
     from badges import enrich_item
+    from a8_affiliate import a8_banners_context
     from config import (
         AREA_MAP,
         FAMILY_SITE_ID,
@@ -253,6 +255,7 @@ def course_detail(course_ref):
             address=post_data.get("address"),
         ),
         **inject_family_context(FAMILY_SITE_ID, post_data["lang"]),
+        **a8_banners_context(lang=post_data["lang"]),
         **og_image_context(base_id),
         **share_ctx,
     )
@@ -441,14 +444,9 @@ def booking_redirect(course_id):
 
 @courses_bp.route("/travel/<item_type>/<course_id>")
 def travel_redirect(item_type, course_id):
-    """Affiliate redirects. UI no longer links to Klook; keep legacy paths working."""
-    # Coupang Partners (KO UI). Legacy Klook shortlinks kept for old bookmarks only.
-    links = {
-        "coupang": "https://link.coupang.com/a/f28OZJUsfI",
-        "coupang-golf": "https://link.coupang.com/a/f28WdI5CRU",
-        "rental": "https://klook.tpo.mx/skGztuAJ",
-        "pickup": "https://klook.tpo.mx/zPN5kiip",
-        "esim": "https://klook.tpo.mx/696NKlPT",
-        "guide": "https://klook.tpo.mx/FSgpgNVg",
-    }
-    return _noindex_redirect(links.get(item_type, links["coupang"]))
+    """Legacy Klook paths → Agoda affiliate (A8)."""
+    try:
+        from ..a8_affiliate import _BANNERS
+    except ImportError:
+        from a8_affiliate import _BANNERS
+    return _noindex_redirect(_BANNERS["agoda"]["click_url"])

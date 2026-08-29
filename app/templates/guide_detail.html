@@ -151,36 +151,30 @@
         </section>
         {% endif %}
 
-        <!-- [수익화] GORA (+ KO: Coupang / Rakuten eSIM). Klook CTA retired. -->
+        <!-- [수익화] GORA (+ KO: Rakuten eSIM). -->
         <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">
             <h3 style="color: var(--accent-red); margin-bottom: 15px; font-size: 1.4rem; font-weight: 900;">
                 {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
             </h3>
             <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
-                {{ '골프 예약은 라쿠텐, 여행·숙소는 쿠팡트래블, 일본 eSIM은 라쿠텐에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.' }}
+                {{ '골프 예약은 라쿠텐, 일본 eSIM은 라쿠텐에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.' }}
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 10px;">
                 <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #bf0000;">
                     {{ '라쿠텐에서 골프 예약하기' if active_lang == 'ko' else 'Tee times on Rakuten GORA' }}
                 </a>
                 {% if active_lang == 'ko' %}
-                <a href="/travel/coupang/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #e7422d;">
-                    쿠팡트래블에서 여행·숙소 보기
-                </a>
                 <a href="https://a.r10.to/hPsyyI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #1e3a8a;">
                     라쿠텐에서 일본 eSIM 보기
                 </a>
                 {% endif %}
             </div>
-            {% if active_lang == 'ko' %}
-            <p style="margin-top: 12px; font-size: 0.75rem; color: #888; max-width: 36rem; margin-left: auto; margin-right: auto; line-height: 1.45;">
-                이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-            </p>
-            {% endif %}
             <p style="margin-top: 15px; font-size: 0.8rem; color: #aaa;">
                 * {{ '제휴 링크 · 새 탭에서 열림' if active_lang == 'ko' else 'Affiliate links · opens in a new tab' }}
             </p>
         </section>
+
+        {% include 'partials/a8_banners.html' %}
 
         <!-- 하단 네비게이션 버튼 -->
         <div class="detail-actions" style="margin-top: 60px; border-top: 1px solid #eee; padding-top: 40px; text-align: center; display: flex; flex-direction: column; gap: 15px; align-items: center;">
@@ -203,7 +197,6 @@
             var href = a.getAttribute('href') || '';
             var category = 'guide_other';
             if (href.indexOf('/booking/') === 0) category = 'guide_gora';
-            else if (href.indexOf('/travel/coupang') === 0) category = 'guide_coupang';
             gtag('event', 'partner_outbound_click', {
               event_category: category,
               event_label: href.split('?')[0]
