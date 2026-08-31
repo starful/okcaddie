@@ -1,6 +1,82 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026.08.31",
   "courses": [
+    {
+      "id": "ishikawa_kaga_country_ko",
+      "base_id": "ishikawa_kaga_country",
+      "lang": "ko",
+      "title": "Ishikawa Kaga Country",
+      "lat": 36.2544,
+      "lng": 136.3556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/ishikawa_kaga_country.jpg",
+      "address": "Kaga, Ishikawa",
+      "published": "2026-08-31",
+      "summary": "이시카와 가가 컨트리는 숲 코스 특유의 전략성과 합리적인 그린피를 함께 갖춘 챔피언십 코스로, 라쿠텐 GORA나 호텔 패키지로 예약 가능하다.",
+      "booking": "/booking/ishikawa_kaga_country_ko",
+      "link": "/course/ishikawa_kaga_country?lang=ko"
+    },
+    {
+      "id": "ishikawa_kaga_country_en",
+      "base_id": "ishikawa_kaga_country",
+      "lang": "en",
+      "title": "Ishikawa Kaga Country",
+      "lat": 36.2544,
+      "lng": 136.3556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/ishikawa_kaga_country.jpg",
+      "address": "Kaga, Ishikawa",
+      "published": "2026-08-31",
+      "summary": "Kaga's forested championship-style layout offers solid value; check live rates and book via /booking/ishikawa_kaga_country_en before your Ishikawa trip.",
+      "booking": "/booking/ishikawa_kaga_country_en",
+      "link": "/course/ishikawa_kaga_country"
+    },
+    {
+      "id": "fukui_kokusai_golf_ko",
+      "base_id": "fukui_kokusai_golf",
+      "lang": "ko",
+      "title": "Fukui Kokusai Golf",
+      "lat": 36.1544,
+      "lng": 136.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukui_kokusai_golf.jpg",
+      "address": "Fukui, Fukui",
+      "published": "2026-08-31",
+      "summary": "후쿠이 산악형 숲 코스, 가성비 좋은 그린피와 렌터카 기준 접근 정보까지 정리했습니다.",
+      "booking": "/booking/fukui_kokusai_golf_ko",
+      "link": "/course/fukui_kokusai_golf?lang=ko"
+    },
+    {
+      "id": "fukui_kokusai_golf_en",
+      "base_id": "fukui_kokusai_golf",
+      "lang": "en",
+      "title": "Fukui Kokusai Golf",
+      "lat": 36.1544,
+      "lng": 136.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukui_kokusai_golf.jpg",
+      "address": "Fukui, Fukui",
+      "published": "2026-08-31",
+      "summary": "Fukui Kokusai Golf is a forested mountain course near Fukui City with visitor-friendly access and value weekday rates — check live quotes and book online.",
+      "booking": "/booking/fukui_kokusai_golf_en",
+      "link": "/course/fukui_kokusai_golf"
+    },
     {
       "id": "toyama_kokusai_golf_ko",
       "base_id": "toyama_kokusai_golf",
@@ -76,6 +152,44 @@
       "summary": "Niigata Country Club is a private, tree-lined member course near Niigata City; visitors should arrange an introduction and confirm current fees before booking.",
       "booking": "/booking/niigata_country_club_en",
       "link": "/course/niigata_country_club"
+    },
+    {
+      "id": "asahikawa_kokusai_golf_ko",
+      "base_id": "asahikawa_kokusai_golf",
+      "lang": "ko",
+      "title": "Asahikawa Kokusai Golf",
+      "lat": 43.7544,
+      "lng": 142.4556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
+      "address": "Asahikawa, Hokkaido",
+      "published": "2026-08-26",
+      "summary": "아사히카와 국제 골프는 다이세츠잔 자락의 합리적 요금 코스로, 라쿠텐 GORA 사전예약과 여름 시즌 방문이 핵심입니다.",
+      "booking": "/booking/asahikawa_kokusai_golf_ko",
+      "link": "/course/asahikawa_kokusai_golf?lang=ko"
+    },
+    {
+      "id": "asahikawa_kokusai_golf_en",
+      "base_id": "asahikawa_kokusai_golf",
+      "lang": "en",
+      "title": "Asahikawa Kokusai Golf",
+      "lat": 43.7544,
+      "lng": 142.4556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
+      "address": "Asahikawa, Hokkaido",
+      "published": "2026-08-26",
+      "summary": "Asahikawa Kokusai Golf pairs mountain-style scenery with fair value; book via Rakuten GORA or the link below and verify live pricing.",
+      "booking": "/booking/asahikawa_kokusai_golf_en",
+      "link": "/course/asahikawa_kokusai_golf"
     },
     {
       "id": "sapporo_country_club_ko",
@@ -190,25 +304,6 @@
       "summary": "모토부 반도 해안 링크스, 성수기 주말은 예약 2~3주 전 확정 권장, 실시간 요금은 라쿠텐 GORA로 확인.",
       "booking": "/booking/bise_village_links_ko",
       "link": "/course/bise_village_links?lang=ko"
-    },
-    {
-      "id": "asahikawa_kokusai_golf_ko",
-      "base_id": "asahikawa_kokusai_golf",
-      "lang": "ko",
-      "title": "Asahikawa Kokusai Golf",
-      "lat": 43.7544,
-      "lng": 142.4556,
-      "categories": [
-        "Value for Money",
-        "Mountain Style",
-        "Scenic"
-      ],
-      "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
-      "address": "Asahikawa, Hokkaido",
-      "published": "2026-08-26",
-      "summary": "아사히카와 국제 골프는 다이세츠잔 자락의 합리적 요금 코스로, 라쿠텐 GORA 사전예약과 여름 시즌 방문이 핵심입니다.",
-      "booking": "/booking/asahikawa_kokusai_golf_ko",
-      "link": "/course/asahikawa_kokusai_golf?lang=ko"
     },
     {
       "id": "aomori_country_club_ko",
@@ -380,25 +475,6 @@
       "summary": "A wetland-edge course near Kushiro, Hokkaido, with cooler summer rounds; verify a live quote and book via Rakuten GORA or your hotel desk.",
       "booking": "/booking/kushiro_marsh_golf_en",
       "link": "/course/kushiro_marsh_golf"
-    },
-    {
-      "id": "asahikawa_kokusai_golf_en",
-      "base_id": "asahikawa_kokusai_golf",
-      "lang": "en",
-      "title": "Asahikawa Kokusai Golf",
-      "lat": 43.7544,
-      "lng": 142.4556,
-      "categories": [
-        "Value for Money",
-        "Mountain Style",
-        "Scenic"
-      ],
-      "thumbnail": "/static/images/asahikawa_kokusai_golf.jpg",
-      "address": "Asahikawa, Hokkaido",
-      "published": "2026-08-26",
-      "summary": "Asahikawa Kokusai Golf pairs mountain-style scenery with fair value; book via Rakuten GORA or the link below and verify live pricing.",
-      "booking": "/booking/asahikawa_kokusai_golf_en",
-      "link": "/course/asahikawa_kokusai_golf"
     },
     {
       "id": "abashiri_lakeside_golf_en",
@@ -1354,7 +1430,7 @@
       "id": "the_southern_links_resort_ko",
       "base_id": "the_southern_links_resort",
       "lang": "ko",
-      "title": "The Southern Links Resort | Ocean-Carry Golf, Green Fees & Tee Times",
+      "title": "The Southern Links Resort | Ocean-Carry Golf & Green Fees",
       "lat": 26.1144,
       "lng": 127.7356,
       "categories": [
@@ -2193,7 +2269,7 @@
       "id": "kochi_golf_club_heights_en",
       "base_id": "kochi_golf_club_heights",
       "lang": "en",
-      "title": "Kochi Golf Club",
+      "title": "Kochi Golf Club Heights",
       "lat": 33.5144,
       "lng": 133.5156,
       "categories": [
@@ -2593,7 +2669,7 @@
       "id": "oita_tokyu_golf_en",
       "base_id": "oita_tokyu_golf",
       "lang": "en",
-      "title": "Oita Tokyu Golf",
+      "title": "Oita Tokyu Golf (Oita, Japan) | Green Fees & Tee Times | OKCaddie",
       "lat": 33.1544,
       "lng": 131.6556,
       "categories": [
@@ -2604,7 +2680,7 @@
       "thumbnail": "/static/images/oita_tokyu_golf.jpg",
       "address": "Oita, Oita",
       "published": "2026-06-19",
-      "summary": "Oita Tokyu Golf, set in Oita, Oita, offers a scenic and strategic 18-hole forest course experience at an accessible price point, with tree-lined fairways that reward careful shot placement.",
+      "summary": "Oita Tokyu Golf, set in Oita, Japan, offers a scenic and strategic 18-hole forest course with Zoysia fairways and Bentgrass greens—an accessible favorite for players who value tree-lined shot-making over sheer length.",
       "booking": "/booking/oita_tokyu_golf_en",
       "link": "/course/oita_tokyu_golf"
     },
@@ -5313,7 +5389,7 @@
       "id": "katsuragi_golf_club_en",
       "base_id": "katsuragi_golf_club",
       "lang": "en",
-      "title": "Katsuragi Golf Club",
+      "title": "Katsuragi Golf Club Review",
       "lat": 34.7944,
       "lng": 137.9256,
       "categories": [
@@ -5868,7 +5944,7 @@
       "id": "hirono_golf_club_ko",
       "base_id": "hirono_golf_club",
       "lang": "ko",
-      "title": "Hirono Golf Club Tee Times",
+      "title": "Hirono Golf Club",
       "lat": 34.7967,
       "lng": 135.0111,
       "categories": [
@@ -5879,7 +5955,7 @@
       "thumbnail": "/static/images/hirono_golf_club.jpg",
       "address": "효고현 미키시 히로노",
       "published": "2026-04-15",
-      "summary": "A practical visitor's guide to Hirono Golf Club covering booking routes, member-guest policy, and what to expect before your round.",
+      "summary": "A practical visitor's guide to Hirono Golf Club — Japan's top-ranked course — covering booking routes, member-guest policy, and etiquette before your round.",
       "booking": "/booking/hirono_golf_club_ko",
       "link": "/course/hirono_golf_club?lang=ko"
     },
@@ -7086,7 +7162,7 @@
       "id": "totsuka_country_club_ko",
       "base_id": "totsuka_country_club",
       "lang": "ko",
-      "title": "Playing Totsuka Country Club",
+      "title": "Totsuka Country Club Guest Play",
       "lat": 35.4244,
       "lng": 139.5156,
       "categories": [
