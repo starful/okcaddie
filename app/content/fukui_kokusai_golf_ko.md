@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Fukui Kokusai Golf"
-lat: "36.1544"
-lng: "136.2556"
-categories: "Value for Money, Mountain Style, Forest"
-thumbnail: "/static/images/fukui_kokusai_golf.jpg"
-address: "Fukui, Fukui"
-date: "2026-08-31"
-booking: "/booking/fukui_kokusai_golf_ko"
-summary: "후쿠이 산악형 숲 코스, 가성비 좋은 그린피와 렌터카 기준 접근 정보까지 정리했습니다."
-seo_title: "후쿠이 국제 골프 - 그린피·예약·가는 법 정리"
-seo_description: "후쿠이현 산악 숲 코스, 후쿠이 국제 골프의 방문객 이용 방법과 그린피 예상 범위, 공항·역에서 가는 법을 확인하세요."
+lang: ko
+title: Fukui Kokusai Golf
+lat: '36.1544'
+lng: '136.2556'
+categories: Value for Money, Mountain Style, Forest
+thumbnail: /static/images/fukui_kokusai_golf.jpg
+address: Fukui, Fukui
+date: '2026-09-01'
+booking: /booking/fukui_kokusai_golf_ko
+summary: 후쿠이 산악형 숲 코스, 가성비 좋은 그린피와 렌터카 기준 접근 정보까지 정리했습니다.
+seo_title: 후쿠이 국제 골프 - 그린피·예약·가는 법 정리
+seo_description: 후쿠이현 산악 숲 코스, 후쿠이 국제 골프의 방문객 이용 방법과 그린피 예상 범위, 공항·역에서 가는 법을 확인하세요.
 ---
+
 
 ## 한눈에 보는 기본 정보
 

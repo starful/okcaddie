@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Niigata Country Club"
-lat: "37.8544"
-lng: "138.9556"
-categories: "Private Club, Forest Course, Historic"
-thumbnail: "/static/images/niigata_country_club.jpg"
-address: "Niigata, Niigata"
-date: "2026-08-26"
-booking: "/booking/niigata_country_club_ko"
-summary: "회원제 프라이빗 클럽인 니가타 컨트리클럽, 방문 전 동반·소개 여부와 요금을 반드시 확인하세요."
-seo_title: "니가타 컨트리클럽 방문 가이드 – 회원제 예약과 접근법"
-seo_description: "니가타 컨트리클럽의 방문객 이용 조건, 그린피 범위, 공항·역에서의 이동 방법을 정리한 실전 가이드."
+lang: ko
+title: Niigata Country Club
+lat: '37.8544'
+lng: '138.9556'
+categories: Private Club, Forest Course, Historic
+thumbnail: /static/images/niigata_country_club.jpg
+address: Niigata, Niigata
+date: '2026-09-01'
+booking: /booking/niigata_country_club_ko
+summary: 회원제 프라이빗 클럽인 니가타 컨트리클럽, 방문 전 동반·소개 여부와 요금을 반드시 확인하세요.
+seo_title: 니가타 컨트리클럽 방문 가이드 – 회원제 예약과 접근법
+seo_description: 니가타 컨트리클럽의 방문객 이용 조건, 그린피 범위, 공항·역에서의 이동 방법을 정리한 실전 가이드.
 ---
+
 
 ## 한눈에 보는 니가타 컨트리클럽
 

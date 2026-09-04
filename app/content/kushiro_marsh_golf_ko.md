@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Kushiro Marsh Golf"
-lat: "43.0544"
-lng: "144.4556"
-categories: "Scenic View, Nature, Wilderness"
-thumbnail: "/static/images/kushiro_marsh_golf.jpg"
-address: "Kushiro, Hokkaido"
-date: "2026-08-20"
-booking: "/booking/kushiro_marsh_golf_ko"
-summary: "습지 지형 홋카이도 코스, 라쿠텐 GORA 실시간 견적 확인 후 예약 권장, 렌터카 접근이 현실적."
-seo_title: "쿠시로 마쉬 골프 예약·요금·가는 법 가이드"
-seo_description: "홋카이도 쿠시로 습지 골프장의 요금대, 예약 방법, 공항에서의 접근 시간을 정리했습니다."
+lang: ko
+title: Kushiro Marsh Golf
+lat: '43.0544'
+lng: '144.4556'
+categories: Scenic View, Nature, Wilderness
+thumbnail: /static/images/kushiro_marsh_golf.jpg
+address: Kushiro, Hokkaido
+date: '2026-09-01'
+booking: /booking/kushiro_marsh_golf_ko
+summary: 습지 지형 홋카이도 코스, 라쿠텐 GORA 실시간 견적 확인 후 예약 권장, 렌터카 접근이 현실적.
+seo_title: 쿠시로 마쉬 골프 예약·요금·가는 법 가이드
+seo_description: 홋카이도 쿠시로 습지 골프장의 요금대, 예약 방법, 공항에서의 접근 시간을 정리했습니다.
 ---
+
 
 ## 한눈에 보는 핵심 정보
 

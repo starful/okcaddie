@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Toyama Kokusai Golf"
-lat: "36.6544"
-lng: "137.2556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/toyama_kokusai_golf.jpg"
-address: "Toyama, Toyama"
-date: "2026-08-26"
-booking: "/booking/toyama_kokusai_golf_ko"
-summary: "도야마 산악 지형 골프장, 가성비 좋은 그린피와 편도 1시간대 접근성으로 당일 라운드에 적합."
-seo_title: "도야마 코쿠사이 골프 - 요금·예약·가는 법 정리"
-seo_description: "도야마현 산악형 골프장 도야마 코쿠사이 골프의 그린피 시세, 접근 방법, 예약 팁을 정리했습니다."
+lang: ko
+title: Toyama Kokusai Golf
+lat: '36.6544'
+lng: '137.2556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/toyama_kokusai_golf.jpg
+address: Toyama, Toyama
+date: '2026-09-01'
+booking: /booking/toyama_kokusai_golf_ko
+summary: 도야마 산악 지형 골프장, 가성비 좋은 그린피와 편도 1시간대 접근성으로 당일 라운드에 적합.
+seo_title: 도야마 코쿠사이 골프 - 요금·예약·가는 법 정리
+seo_description: 도야마현 산악형 골프장 도야마 코쿠사이 골프의 그린피 시세, 접근 방법, 예약 팁을 정리했습니다.
 ---
+
 
 ## 퀵 팩트
 

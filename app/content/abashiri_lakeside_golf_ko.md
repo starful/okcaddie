@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Abashiri Lakeside Golf"
-lat: "43.9544"
-lng: "144.1556"
-categories: "Value for Money, Lake View, Scenic"
-thumbnail: "/static/images/abashiri_lakeside_golf.jpg"
-address: "Abashiri, Hokkaido"
-date: "2026-08-20"
-booking: "/booking/abashiri_lakeside_golf_ko"
-summary: "홋카이도 아바시리 호숫가 코스, 여름 성수기 요금과 왕복 차량 동선을 미리 확인하고 예약하세요."
-seo_title: "아바시리 레이크사이드 골프 요금·예약 가이드 | 홋카이도"
-seo_description: "아바시리 레이크사이드 골프의 그린피 예상 범위, 삿포로·아사히카와 기준 접근 시간, 예약 방법을 한 페이지로 정리했습니다."
+lang: ko
+title: Abashiri Lakeside Golf
+lat: '43.9544'
+lng: '144.1556'
+categories: Value for Money, Lake View, Scenic
+thumbnail: /static/images/abashiri_lakeside_golf.jpg
+address: Abashiri, Hokkaido
+date: '2026-09-01'
+booking: /booking/abashiri_lakeside_golf_ko
+summary: 홋카이도 아바시리 호숫가 코스, 여름 성수기 요금과 왕복 차량 동선을 미리 확인하고 예약하세요.
+seo_title: 아바시리 레이크사이드 골프 요금·예약 가이드 | 홋카이도
+seo_description: 아바시리 레이크사이드 골프의 그린피 예상 범위, 삿포로·아사히카와 기준 접근 시간, 예약 방법을 한 페이지로 정리했습니다.
 ---
+
 
 ## 한눈에 보는 핵심 정보
 

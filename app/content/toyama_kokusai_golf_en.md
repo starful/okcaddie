@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Toyama Kokusai Golf"
-lat: "36.6544"
-lng: "137.2556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/toyama_kokusai_golf.jpg"
-address: "Toyama, Toyama"
-date: "2026-08-26"
-booking: "/booking/toyama_kokusai_golf_en"
-summary: "Toyama Kokusai Golf is a mountain-style value round near Toyama City; check live weekday/weekend rates before booking."
-seo_title: "Toyama Kokusai Golf: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Toyama Kokusai Golf near Toyama City — access from the station, fee ranges, and how to book a tee time."
+lang: en
+title: Toyama Kokusai Golf
+lat: '36.6544'
+lng: '137.2556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/toyama_kokusai_golf.jpg
+address: Toyama, Toyama
+date: '2026-09-01'
+booking: /booking/toyama_kokusai_golf_en
+summary: Toyama Kokusai Golf is a mountain-style value round near Toyama City; check
+  live weekday/weekend rates before booking.
+seo_title: 'Toyama Kokusai Golf: Fees, Access & Booking Guide'
+seo_description: Plan a round at Toyama Kokusai Golf near Toyama City — access from
+  the station, fee ranges, and how to book a tee time.
 ---
+
 
 ## Quick Facts
 

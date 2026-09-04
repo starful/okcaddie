@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Abashiri Lakeside Golf"
-lat: "43.9544"
-lng: "144.1556"
-categories: "Value for Money, Lake View, Scenic"
-thumbnail: "/static/images/abashiri_lakeside_golf.jpg"
-address: "Abashiri, Hokkaido"
-date: "2026-08-08"
-booking: "/booking/abashiri_lakeside_golf_en"
-summary: "Lakeside golf in Abashiri, Hokkaido, with budget-friendly weekday rates — check live pricing and book via /booking/abashiri_lakeside_golf_en."
-seo_title: "Abashiri Lakeside Golf: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Abashiri Lakeside Golf in Hokkaido — green fee ranges, access from Memanbetsu Airport, and how to book your tee time."
+lang: en
+title: Abashiri Lakeside Golf
+lat: '43.9544'
+lng: '144.1556'
+categories: Value for Money, Lake View, Scenic
+thumbnail: /static/images/abashiri_lakeside_golf.jpg
+address: Abashiri, Hokkaido
+date: '2026-09-01'
+booking: /booking/abashiri_lakeside_golf_en
+summary: Lakeside golf in Abashiri, Hokkaido, with budget-friendly weekday rates —
+  check live pricing and book via /booking/abashiri_lakeside_golf_en.
+seo_title: 'Abashiri Lakeside Golf: Fees, Access & Booking Guide'
+seo_description: Plan a round at Abashiri Lakeside Golf in Hokkaido — green fee ranges,
+  access from Memanbetsu Airport, and how to book your tee time.
 ---
+
 
 ## Quick Facts
 

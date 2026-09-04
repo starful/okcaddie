@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Akita Minami Golf"
-lat: "39.6544"
-lng: "140.1556"
-categories: "Value for Money, Forest Course, Scenic"
-thumbnail: "/static/images/akita_minami_golf.jpg"
-address: "Akita, Akita"
-date: "2026-08-20"
-booking: "/booking/akita_minami_golf_ko"
-summary: "아키타 미나미 골프는 숲 지형 속 합리적 그린피와 편안한 페이스로 부담 없이 라운드하기 좋은 코스입니다."
-seo_title: "아키타 미나미 골프 그린피·예약 가이드 | 숲 코스 실전 정보"
-seo_description: "아키타 미나미 골프의 그린피 범위, 예약 방법, 공항에서 접근법까지 정리했습니다. 라운드 전 확인할 실전 정보를 확인하세요."
+lang: ko
+title: Akita Minami Golf
+lat: '39.6544'
+lng: '140.1556'
+categories: Value for Money, Forest Course, Scenic
+thumbnail: /static/images/akita_minami_golf.jpg
+address: Akita, Akita
+date: '2026-09-01'
+booking: /booking/akita_minami_golf_ko
+summary: 아키타 미나미 골프는 숲 지형 속 합리적 그린피와 편안한 페이스로 부담 없이 라운드하기 좋은 코스입니다.
+seo_title: 아키타 미나미 골프 그린피·예약 가이드 | 숲 코스 실전 정보
+seo_description: 아키타 미나미 골프의 그린피 범위, 예약 방법, 공항에서 접근법까지 정리했습니다. 라운드 전 확인할 실전 정보를 확인하세요.
 ---
+
 
 ## 한눈에 보기
 
