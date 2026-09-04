@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Ishikawa Kaga Country"
-lat: "36.2544"
-lng: "136.3556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/ishikawa_kaga_country.jpg"
-address: "Kaga, Ishikawa"
-date: "2026-08-31"
-booking: "/booking/ishikawa_kaga_country_en"
-summary: "Kaga's forested championship-style layout offers solid value; check live rates and book via /booking/ishikawa_kaga_country_en before your Ishikawa trip."
-seo_title: "Ishikawa Kaga Country Golf: Fees, Access & Booking"
-seo_description: "Plan a round at Ishikawa Kaga Country in Kaga City — forest layout, visitor access notes, seasonal fee ranges, and how to book online."
+lang: en
+title: Ishikawa Kaga Country
+lat: '36.2544'
+lng: '136.3556'
+categories: Value for Money, Forest Course, Championship
+thumbnail: /static/images/ishikawa_kaga_country.jpg
+address: Kaga, Ishikawa
+date: '2026-09-01'
+booking: /booking/ishikawa_kaga_country_en
+summary: Kaga's forested championship-style layout offers solid value; check live
+  rates and book via /booking/ishikawa_kaga_country_en before your Ishikawa trip.
+seo_title: 'Ishikawa Kaga Country Golf: Fees, Access & Booking'
+seo_description: Plan a round at Ishikawa Kaga Country in Kaga City — forest layout,
+  visitor access notes, seasonal fee ranges, and how to book online.
 ---
+
 
 ## Quick Facts
 

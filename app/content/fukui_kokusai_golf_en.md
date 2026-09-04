@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Fukui Kokusai Golf"
-lat: "36.1544"
-lng: "136.2556"
-categories: "Value for Money, Mountain Style, Forest"
-thumbnail: "/static/images/fukui_kokusai_golf.jpg"
-address: "Fukui, Fukui"
-date: "2026-08-31"
-booking: "/booking/fukui_kokusai_golf_en"
-summary: "Fukui Kokusai Golf is a forested mountain course near Fukui City with visitor-friendly access and value weekday rates — check live quotes and book online."
-seo_title: "Fukui Kokusai Golf: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Fukui Kokusai Golf — a value mountain-forest course near Fukui City. See fees, access from the station, and book your tee time online."
+lang: en
+title: Fukui Kokusai Golf
+lat: '36.1544'
+lng: '136.2556'
+categories: Value for Money, Mountain Style, Forest
+thumbnail: /static/images/fukui_kokusai_golf.jpg
+address: Fukui, Fukui
+date: '2026-09-01'
+booking: /booking/fukui_kokusai_golf_en
+summary: Fukui Kokusai Golf is a forested mountain course near Fukui City with visitor-friendly
+  access and value weekday rates — check live quotes and book online.
+seo_title: 'Fukui Kokusai Golf: Fees, Access & Booking Guide'
+seo_description: Plan a round at Fukui Kokusai Golf — a value mountain-forest course
+  near Fukui City. See fees, access from the station, and book your tee time online.
 ---
+
 
 ## Quick Facts
 

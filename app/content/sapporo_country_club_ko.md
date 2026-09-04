@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Sapporo Country Club"
-lat: "42.9544"
-lng: "141.3556"
-categories: "Value for Money, Forest Course, Historic"
-thumbnail: "/static/images/sapporo_country_club.jpg"
-address: "Sapporo, Hokkaido"
-date: "2026-08-20"
-booking: "/booking/sapporo_country_club_ko"
-summary: "삿포로 시내에서 가까운 숲 코스로 합리적 요금과 여름 시즌 예약 가능성이 강점인 골프장."
-seo_title: "삿포로 컨트리클럽 그린피·예약 가이드"
-seo_description: "삿포로 컨트리클럽의 요금대, 접근 방법, 예약 팁을 정리했습니다. 삿포로 시내 및 신치토세공항 기준 이동 시간 포함."
+lang: ko
+title: Sapporo Country Club
+lat: '42.9544'
+lng: '141.3556'
+categories: Value for Money, Forest Course, Historic
+thumbnail: /static/images/sapporo_country_club.jpg
+address: Sapporo, Hokkaido
+date: '2026-09-01'
+booking: /booking/sapporo_country_club_ko
+summary: 삿포로 시내에서 가까운 숲 코스로 합리적 요금과 여름 시즌 예약 가능성이 강점인 골프장.
+seo_title: 삿포로 컨트리클럽 그린피·예약 가이드
+seo_description: 삿포로 컨트리클럽의 요금대, 접근 방법, 예약 팁을 정리했습니다. 삿포로 시내 및 신치토세공항 기준 이동 시간 포함.
 ---
+
 
 ## 빠른 정보
 

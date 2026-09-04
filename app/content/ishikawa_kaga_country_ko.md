@@ -1,17 +1,19 @@
 ---
-lang: "ko"
-title: "Ishikawa Kaga Country"
-lat: "36.2544"
-lng: "136.3556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/ishikawa_kaga_country.jpg"
-address: "Kaga, Ishikawa"
-date: "2026-08-31"
-booking: "/booking/ishikawa_kaga_country_ko"
-summary: "이시카와 가가 컨트리는 숲 코스 특유의 전략성과 합리적인 그린피를 함께 갖춘 챔피언십 코스로, 라쿠텐 GORA나 호텔 패키지로 예약 가능하다."
-seo_title: "이시카와 가가 컨트리 그린피·예약 가이드"
-seo_description: "이시카와현 가가시 소재 챔피언십 숲 코스, 이시카와 가가 컨트리의 그린피 시세, 접근 방법, 예약 팁을 정리했다."
+lang: ko
+title: Ishikawa Kaga Country
+lat: '36.2544'
+lng: '136.3556'
+categories: Value for Money, Forest Course, Championship
+thumbnail: /static/images/ishikawa_kaga_country.jpg
+address: Kaga, Ishikawa
+date: '2026-09-01'
+booking: /booking/ishikawa_kaga_country_ko
+summary: 이시카와 가가 컨트리는 숲 코스 특유의 전략성과 합리적인 그린피를 함께 갖춘 챔피언십 코스로, 라쿠텐 GORA나 호텔 패키지로 예약
+  가능하다.
+seo_title: 이시카와 가가 컨트리 그린피·예약 가이드
+seo_description: 이시카와현 가가시 소재 챔피언십 숲 코스, 이시카와 가가 컨트리의 그린피 시세, 접근 방법, 예약 팁을 정리했다.
 ---
+
 
 ## 한눈에 보는 핵심 정보
 

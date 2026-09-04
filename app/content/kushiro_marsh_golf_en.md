@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Kushiro Marsh Golf"
-lat: "43.0544"
-lng: "144.4556"
-categories: "Scenic View, Nature, Wilderness"
-thumbnail: "/static/images/kushiro_marsh_golf.jpg"
-address: "Kushiro, Hokkaido"
-date: "2026-08-08"
-booking: "/booking/kushiro_marsh_golf_en"
-summary: "A wetland-edge course near Kushiro, Hokkaido, with cooler summer rounds; verify a live quote and book via Rakuten GORA or your hotel desk."
-seo_title: "Kushiro Marsh Golf: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Kushiro Marsh Golf in Hokkaido: green fee ranges, airport access, dress code tips, and how to book online."
+lang: en
+title: Kushiro Marsh Golf
+lat: '43.0544'
+lng: '144.4556'
+categories: Scenic View, Nature, Wilderness
+thumbnail: /static/images/kushiro_marsh_golf.jpg
+address: Kushiro, Hokkaido
+date: '2026-09-01'
+booking: /booking/kushiro_marsh_golf_en
+summary: A wetland-edge course near Kushiro, Hokkaido, with cooler summer rounds;
+  verify a live quote and book via Rakuten GORA or your hotel desk.
+seo_title: 'Kushiro Marsh Golf: Fees, Access & Booking Guide'
+seo_description: 'Plan a round at Kushiro Marsh Golf in Hokkaido: green fee ranges,
+  airport access, dress code tips, and how to book online.'
 ---
+
 
 ## Quick Facts
 

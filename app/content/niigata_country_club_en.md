@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Niigata Country Club"
-lat: "37.8544"
-lng: "138.9556"
-categories: "Private Club, Forest Course, Historic"
-thumbnail: "/static/images/niigata_country_club.jpg"
-address: "Niigata, Niigata"
-date: "2026-08-26"
-booking: "/booking/niigata_country_club_en"
-summary: "Niigata Country Club is a private, tree-lined member course near Niigata City; visitors should arrange an introduction and confirm current fees before booking."
-seo_title: "Niigata Country Club: Access, Fees & Booking Guide"
-seo_description: "Plan a visit to Niigata Country Club — introduction rules for visitors, estimated green fees, directions from Niigata, and how to book a round."
+lang: en
+title: Niigata Country Club
+lat: '37.8544'
+lng: '138.9556'
+categories: Private Club, Forest Course, Historic
+thumbnail: /static/images/niigata_country_club.jpg
+address: Niigata, Niigata
+date: '2026-09-01'
+booking: /booking/niigata_country_club_en
+summary: Niigata Country Club is a private, tree-lined member course near Niigata
+  City; visitors should arrange an introduction and confirm current fees before booking.
+seo_title: 'Niigata Country Club: Access, Fees & Booking Guide'
+seo_description: Plan a visit to Niigata Country Club — introduction rules for visitors,
+  estimated green fees, directions from Niigata, and how to book a round.
 ---
+
 
 ## Quick Facts
 

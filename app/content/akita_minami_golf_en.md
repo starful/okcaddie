@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Akita Minami Golf"
-lat: "39.6544"
-lng: "140.1556"
-categories: "Value for Money, Forest Course, Scenic"
-thumbnail: "/static/images/akita_minami_golf.jpg"
-address: "Akita, Akita"
-date: "2026-08-15"
-booking: "/booking/akita_minami_golf_en"
-summary: "Akita Minami Golf pairs forest-lined fairways with visitor-friendly fees; check live rates and book via GORA before your trip."
-seo_title: "Akita Minami Golf: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Akita Minami Golf — forest layout, estimated green fees, access from Akita, and how to book your tee time."
+lang: en
+title: Akita Minami Golf
+lat: '39.6544'
+lng: '140.1556'
+categories: Value for Money, Forest Course, Scenic
+thumbnail: /static/images/akita_minami_golf.jpg
+address: Akita, Akita
+date: '2026-09-01'
+booking: /booking/akita_minami_golf_en
+summary: Akita Minami Golf pairs forest-lined fairways with visitor-friendly fees;
+  check live rates and book via GORA before your trip.
+seo_title: 'Akita Minami Golf: Fees, Access & Booking Guide'
+seo_description: Plan a round at Akita Minami Golf — forest layout, estimated green
+  fees, access from Akita, and how to book your tee time.
 ---
+
 
 ## Quick Facts
 

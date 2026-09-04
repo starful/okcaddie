@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Sendai Country Club"
-lat: "38.2544"
-lng: "140.8556"
-categories: "Public Tournament, Forest Course, Historic"
-thumbnail: "/static/images/sendai_country_club.jpg"
-address: "Natori, Miyagi"
-date: "2026-08-15"
-booking: "/booking/sendai_country_club_en"
-summary: "Forest-lined tournament course in Natori, Miyagi, with public visitor access — check current green fees and book your tee time online."
-seo_title: "Sendai Country Club: Green Fees & Booking Guide"
-seo_description: "Plan your round at Sendai Country Club near Natori, Miyagi — access from Sendai, fee ranges by season, and online booking."
+lang: en
+title: Sendai Country Club
+lat: '38.2544'
+lng: '140.8556'
+categories: Public Tournament, Forest Course, Historic
+thumbnail: /static/images/sendai_country_club.jpg
+address: Natori, Miyagi
+date: '2026-09-01'
+booking: /booking/sendai_country_club_en
+summary: Forest-lined tournament course in Natori, Miyagi, with public visitor access
+  — check current green fees and book your tee time online.
+seo_title: 'Sendai Country Club: Green Fees & Booking Guide'
+seo_description: Plan your round at Sendai Country Club near Natori, Miyagi — access
+  from Sendai, fee ranges by season, and online booking.
 ---
+
 
 ## Quick Facts
 

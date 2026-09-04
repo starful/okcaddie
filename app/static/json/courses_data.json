@@ -1,81 +1,81 @@
 {
-  "last_updated": "2026.08.31",
+  "last_updated": "2026.09.04",
   "courses": [
     {
-      "id": "ishikawa_kaga_country_ko",
-      "base_id": "ishikawa_kaga_country",
+      "id": "yamanashi_fuji_golf_ko",
+      "base_id": "yamanashi_fuji_golf",
       "lang": "ko",
-      "title": "Ishikawa Kaga Country",
-      "lat": 36.2544,
-      "lng": 136.3556,
+      "title": "Yamanashi Fuji Golf",
+      "lat": 35.4544,
+      "lng": 138.7556,
       "categories": [
         "Value for Money",
-        "Forest Course",
-        "Championship"
+        "Mt. Fuji View",
+        "Scenic"
       ],
-      "thumbnail": "/static/images/ishikawa_kaga_country.jpg",
-      "address": "Kaga, Ishikawa",
-      "published": "2026-08-31",
-      "summary": "이시카와 가가 컨트리는 숲 코스 특유의 전략성과 합리적인 그린피를 함께 갖춘 챔피언십 코스로, 라쿠텐 GORA나 호텔 패키지로 예약 가능하다.",
-      "booking": "/booking/ishikawa_kaga_country_ko",
-      "link": "/course/ishikawa_kaga_country?lang=ko"
+      "thumbnail": "/static/images/yamanashi_fuji_golf.jpg",
+      "address": "Fuefuki, Yamanashi",
+      "published": "2026-09-04",
+      "summary": "후지산 조망과 합리적인 그린피가 강점인 야마나시 골프장, 예약은 라쿠텐 GORA 확인 후 진행 추천.",
+      "booking": "/booking/yamanashi_fuji_golf_ko",
+      "link": "/course/yamanashi_fuji_golf?lang=ko"
     },
     {
-      "id": "ishikawa_kaga_country_en",
-      "base_id": "ishikawa_kaga_country",
+      "id": "yamanashi_fuji_golf_en",
+      "base_id": "yamanashi_fuji_golf",
       "lang": "en",
-      "title": "Ishikawa Kaga Country",
-      "lat": 36.2544,
-      "lng": 136.3556,
+      "title": "Yamanashi Fuji Golf",
+      "lat": 35.4544,
+      "lng": 138.7556,
       "categories": [
         "Value for Money",
-        "Forest Course",
-        "Championship"
+        "Mt. Fuji View",
+        "Scenic"
       ],
-      "thumbnail": "/static/images/ishikawa_kaga_country.jpg",
-      "address": "Kaga, Ishikawa",
-      "published": "2026-08-31",
-      "summary": "Kaga's forested championship-style layout offers solid value; check live rates and book via /booking/ishikawa_kaga_country_en before your Ishikawa trip.",
-      "booking": "/booking/ishikawa_kaga_country_en",
-      "link": "/course/ishikawa_kaga_country"
+      "thumbnail": "/static/images/yamanashi_fuji_golf.jpg",
+      "address": "Fuefuki, Yamanashi",
+      "published": "2026-09-04",
+      "summary": "Fuefuki, Yamanashi course with fair weekday rates and Fuji-facing scenery; check live fees and book at /booking/yamanashi_fuji_golf_en.",
+      "booking": "/booking/yamanashi_fuji_golf_en",
+      "link": "/course/yamanashi_fuji_golf"
     },
     {
-      "id": "fukui_kokusai_golf_ko",
-      "base_id": "fukui_kokusai_golf",
+      "id": "shizuoka_hamamatsu_course_ko",
+      "base_id": "shizuoka_hamamatsu_course",
       "lang": "ko",
-      "title": "Fukui Kokusai Golf",
-      "lat": 36.1544,
-      "lng": 136.2556,
+      "title": "Shizuoka Hamamatsu Course",
+      "lat": 34.7544,
+      "lng": 137.7556,
       "categories": [
-        "Value for Money",
-        "Mountain Style",
-        "Forest"
+        "Private Club",
+        "Forest Course",
+        "Historic"
       ],
-      "thumbnail": "/static/images/fukui_kokusai_golf.jpg",
-      "address": "Fukui, Fukui",
-      "published": "2026-08-31",
-      "summary": "후쿠이 산악형 숲 코스, 가성비 좋은 그린피와 렌터카 기준 접근 정보까지 정리했습니다.",
-      "booking": "/booking/fukui_kokusai_golf_ko",
-      "link": "/course/fukui_kokusai_golf?lang=ko"
+      "thumbnail": "/static/images/shizuoka_hamamatsu_course.jpg",
+      "address": "Hamamatsu, Shizuoka",
+      "published": "2026-09-04",
+      "summary": "하마마츠 숲속 프라이빗 클럽, 소개·패키지 예약 기반이며 그린피는 평일 1.5만~2.5만엔대부터 시즌별 변동.",
+      "booking": "/booking/shizuoka_hamamatsu_course_ko",
+      "link": "/course/shizuoka_hamamatsu_course?lang=ko"
     },
     {
-      "id": "fukui_kokusai_golf_en",
-      "base_id": "fukui_kokusai_golf",
+      "id": "shizuoka_hamamatsu_course_en",
+      "base_id": "shizuoka_hamamatsu_course",
       "lang": "en",
-      "title": "Fukui Kokusai Golf",
-      "lat": 36.1544,
-      "lng": 136.2556,
+      "title": "Shizuoka Hamamatsu Course",
+      "lat": 34.7544,
+      "lng": 137.7556,
       "categories": [
-        "Value for Money",
-        "Mountain Style",
-        "Forest"
+        "Private Club",
+        "Forest Course",
+        "Historic"
       ],
-      "thumbnail": "/static/images/fukui_kokusai_golf.jpg",
-      "address": "Fukui, Fukui",
-      "published": "2026-08-31",
-      "summary": "Fukui Kokusai Golf is a forested mountain course near Fukui City with visitor-friendly access and value weekday rates — check live quotes and book online.",
-      "booking": "/booking/fukui_kokusai_golf_en",
-      "link": "/course/fukui_kokusai_golf"
+      "thumbnail": "/static/images/shizuoka_hamamatsu_course.jpg",
+      "address": "Hamamatsu, Shizuoka",
+      "published": "2026-09-04",
+      "summary": "A private forest club near Hamamatsu that takes visitors through hotel or member introduction; check live fees before booking.",
+      "booking": "/booking/shizuoka_hamamatsu_course_en",
+      "link": "/course/shizuoka_hamamatsu_course"
     },
     {
       "id": "toyama_kokusai_golf_ko",
@@ -91,7 +91,7 @@
       ],
       "thumbnail": "/static/images/toyama_kokusai_golf.jpg",
       "address": "Toyama, Toyama",
-      "published": "2026-08-26",
+      "published": "2026-09-01",
       "summary": "도야마 산악 지형 골프장, 가성비 좋은 그린피와 편도 1시간대 접근성으로 당일 라운드에 적합.",
       "booking": "/booking/toyama_kokusai_golf_ko",
       "link": "/course/toyama_kokusai_golf?lang=ko"
@@ -110,10 +110,67 @@
       ],
       "thumbnail": "/static/images/toyama_kokusai_golf.jpg",
       "address": "Toyama, Toyama",
-      "published": "2026-08-26",
+      "published": "2026-09-01",
       "summary": "Toyama Kokusai Golf is a mountain-style value round near Toyama City; check live weekday/weekend rates before booking.",
       "booking": "/booking/toyama_kokusai_golf_en",
       "link": "/course/toyama_kokusai_golf"
+    },
+    {
+      "id": "sendai_country_club_en",
+      "base_id": "sendai_country_club",
+      "lang": "en",
+      "title": "Sendai Country Club",
+      "lat": 38.2544,
+      "lng": 140.8556,
+      "categories": [
+        "Public Tournament",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/sendai_country_club.jpg",
+      "address": "Natori, Miyagi",
+      "published": "2026-09-01",
+      "summary": "Forest-lined tournament course in Natori, Miyagi, with public visitor access — check current green fees and book your tee time online.",
+      "booking": "/booking/sendai_country_club_en",
+      "link": "/course/sendai_country_club"
+    },
+    {
+      "id": "sapporo_country_club_ko",
+      "base_id": "sapporo_country_club",
+      "lang": "ko",
+      "title": "Sapporo Country Club",
+      "lat": 42.9544,
+      "lng": 141.3556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/sapporo_country_club.jpg",
+      "address": "Sapporo, Hokkaido",
+      "published": "2026-09-01",
+      "summary": "삿포로 시내에서 가까운 숲 코스로 합리적 요금과 여름 시즌 예약 가능성이 강점인 골프장.",
+      "booking": "/booking/sapporo_country_club_ko",
+      "link": "/course/sapporo_country_club?lang=ko"
+    },
+    {
+      "id": "sapporo_country_club_en",
+      "base_id": "sapporo_country_club",
+      "lang": "en",
+      "title": "No Title",
+      "lat": 42.9544,
+      "lng": 141.3556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Historic"
+      ],
+      "thumbnail": "/static/images/sapporo_country_club.jpg",
+      "address": "Sapporo, Hokkaido",
+      "published": "2026-09-01",
+      "summary": "Since the file write wasn't permitted, here's the finished page content directly:\n\nlang: \"en\"\ntitle: \"Sapporo Country Cl...",
+      "booking": "/booking/sapporo_country_club_ko",
+      "link": "/course/sapporo_country_club"
     },
     {
       "id": "niigata_country_club_ko",
@@ -129,7 +186,7 @@
       ],
       "thumbnail": "/static/images/niigata_country_club.jpg",
       "address": "Niigata, Niigata",
-      "published": "2026-08-26",
+      "published": "2026-09-01",
       "summary": "회원제 프라이빗 클럽인 니가타 컨트리클럽, 방문 전 동반·소개 여부와 요금을 반드시 확인하세요.",
       "booking": "/booking/niigata_country_club_ko",
       "link": "/course/niigata_country_club?lang=ko"
@@ -148,10 +205,200 @@
       ],
       "thumbnail": "/static/images/niigata_country_club.jpg",
       "address": "Niigata, Niigata",
-      "published": "2026-08-26",
+      "published": "2026-09-01",
       "summary": "Niigata Country Club is a private, tree-lined member course near Niigata City; visitors should arrange an introduction and confirm current fees before booking.",
       "booking": "/booking/niigata_country_club_en",
       "link": "/course/niigata_country_club"
+    },
+    {
+      "id": "kushiro_marsh_golf_ko",
+      "base_id": "kushiro_marsh_golf",
+      "lang": "ko",
+      "title": "Kushiro Marsh Golf",
+      "lat": 43.0544,
+      "lng": 144.4556,
+      "categories": [
+        "Scenic View",
+        "Nature",
+        "Wilderness"
+      ],
+      "thumbnail": "/static/images/kushiro_marsh_golf.jpg",
+      "address": "Kushiro, Hokkaido",
+      "published": "2026-09-01",
+      "summary": "습지 지형 홋카이도 코스, 라쿠텐 GORA 실시간 견적 확인 후 예약 권장, 렌터카 접근이 현실적.",
+      "booking": "/booking/kushiro_marsh_golf_ko",
+      "link": "/course/kushiro_marsh_golf?lang=ko"
+    },
+    {
+      "id": "kushiro_marsh_golf_en",
+      "base_id": "kushiro_marsh_golf",
+      "lang": "en",
+      "title": "Kushiro Marsh Golf",
+      "lat": 43.0544,
+      "lng": 144.4556,
+      "categories": [
+        "Scenic View",
+        "Nature",
+        "Wilderness"
+      ],
+      "thumbnail": "/static/images/kushiro_marsh_golf.jpg",
+      "address": "Kushiro, Hokkaido",
+      "published": "2026-09-01",
+      "summary": "A wetland-edge course near Kushiro, Hokkaido, with cooler summer rounds; verify a live quote and book via Rakuten GORA or your hotel desk.",
+      "booking": "/booking/kushiro_marsh_golf_en",
+      "link": "/course/kushiro_marsh_golf"
+    },
+    {
+      "id": "ishikawa_kaga_country_ko",
+      "base_id": "ishikawa_kaga_country",
+      "lang": "ko",
+      "title": "Ishikawa Kaga Country",
+      "lat": 36.2544,
+      "lng": 136.3556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/ishikawa_kaga_country.jpg",
+      "address": "Kaga, Ishikawa",
+      "published": "2026-09-01",
+      "summary": "이시카와 가가 컨트리는 숲 코스 특유의 전략성과 합리적인 그린피를 함께 갖춘 챔피언십 코스로, 라쿠텐 GORA나 호텔 패키지로 예약 가능하다.",
+      "booking": "/booking/ishikawa_kaga_country_ko",
+      "link": "/course/ishikawa_kaga_country?lang=ko"
+    },
+    {
+      "id": "ishikawa_kaga_country_en",
+      "base_id": "ishikawa_kaga_country",
+      "lang": "en",
+      "title": "Ishikawa Kaga Country",
+      "lat": 36.2544,
+      "lng": 136.3556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/ishikawa_kaga_country.jpg",
+      "address": "Kaga, Ishikawa",
+      "published": "2026-09-01",
+      "summary": "Kaga's forested championship-style layout offers solid value; check live rates and book via /booking/ishikawa_kaga_country_en before your Ishikawa trip.",
+      "booking": "/booking/ishikawa_kaga_country_en",
+      "link": "/course/ishikawa_kaga_country"
+    },
+    {
+      "id": "fukui_kokusai_golf_ko",
+      "base_id": "fukui_kokusai_golf",
+      "lang": "ko",
+      "title": "Fukui Kokusai Golf",
+      "lat": 36.1544,
+      "lng": 136.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukui_kokusai_golf.jpg",
+      "address": "Fukui, Fukui",
+      "published": "2026-09-01",
+      "summary": "후쿠이 산악형 숲 코스, 가성비 좋은 그린피와 렌터카 기준 접근 정보까지 정리했습니다.",
+      "booking": "/booking/fukui_kokusai_golf_ko",
+      "link": "/course/fukui_kokusai_golf?lang=ko"
+    },
+    {
+      "id": "fukui_kokusai_golf_en",
+      "base_id": "fukui_kokusai_golf",
+      "lang": "en",
+      "title": "Fukui Kokusai Golf",
+      "lat": 36.1544,
+      "lng": 136.2556,
+      "categories": [
+        "Value for Money",
+        "Mountain Style",
+        "Forest"
+      ],
+      "thumbnail": "/static/images/fukui_kokusai_golf.jpg",
+      "address": "Fukui, Fukui",
+      "published": "2026-09-01",
+      "summary": "Fukui Kokusai Golf is a forested mountain course near Fukui City with visitor-friendly access and value weekday rates — check live quotes and book online.",
+      "booking": "/booking/fukui_kokusai_golf_en",
+      "link": "/course/fukui_kokusai_golf"
+    },
+    {
+      "id": "akita_minami_golf_ko",
+      "base_id": "akita_minami_golf",
+      "lang": "ko",
+      "title": "Akita Minami Golf",
+      "lat": 39.6544,
+      "lng": 140.1556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/akita_minami_golf.jpg",
+      "address": "Akita, Akita",
+      "published": "2026-09-01",
+      "summary": "아키타 미나미 골프는 숲 지형 속 합리적 그린피와 편안한 페이스로 부담 없이 라운드하기 좋은 코스입니다.",
+      "booking": "/booking/akita_minami_golf_ko",
+      "link": "/course/akita_minami_golf?lang=ko"
+    },
+    {
+      "id": "akita_minami_golf_en",
+      "base_id": "akita_minami_golf",
+      "lang": "en",
+      "title": "Akita Minami Golf",
+      "lat": 39.6544,
+      "lng": 140.1556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/akita_minami_golf.jpg",
+      "address": "Akita, Akita",
+      "published": "2026-09-01",
+      "summary": "Akita Minami Golf pairs forest-lined fairways with visitor-friendly fees; check live rates and book via GORA before your trip.",
+      "booking": "/booking/akita_minami_golf_en",
+      "link": "/course/akita_minami_golf"
+    },
+    {
+      "id": "abashiri_lakeside_golf_ko",
+      "base_id": "abashiri_lakeside_golf",
+      "lang": "ko",
+      "title": "Abashiri Lakeside Golf",
+      "lat": 43.9544,
+      "lng": 144.1556,
+      "categories": [
+        "Value for Money",
+        "Lake View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/abashiri_lakeside_golf.jpg",
+      "address": "Abashiri, Hokkaido",
+      "published": "2026-09-01",
+      "summary": "홋카이도 아바시리 호숫가 코스, 여름 성수기 요금과 왕복 차량 동선을 미리 확인하고 예약하세요.",
+      "booking": "/booking/abashiri_lakeside_golf_ko",
+      "link": "/course/abashiri_lakeside_golf?lang=ko"
+    },
+    {
+      "id": "abashiri_lakeside_golf_en",
+      "base_id": "abashiri_lakeside_golf",
+      "lang": "en",
+      "title": "Abashiri Lakeside Golf",
+      "lat": 43.9544,
+      "lng": 144.1556,
+      "categories": [
+        "Value for Money",
+        "Lake View",
+        "Scenic"
+      ],
+      "thumbnail": "/static/images/abashiri_lakeside_golf.jpg",
+      "address": "Abashiri, Hokkaido",
+      "published": "2026-09-01",
+      "summary": "Lakeside golf in Abashiri, Hokkaido, with budget-friendly weekday rates — check live pricing and book via /booking/abashiri_lakeside_golf_en.",
+      "booking": "/booking/abashiri_lakeside_golf_en",
+      "link": "/course/abashiri_lakeside_golf"
     },
     {
       "id": "asahikawa_kokusai_golf_ko",
@@ -192,25 +439,6 @@
       "link": "/course/asahikawa_kokusai_golf"
     },
     {
-      "id": "sapporo_country_club_ko",
-      "base_id": "sapporo_country_club",
-      "lang": "ko",
-      "title": "Sapporo Country Club",
-      "lat": 42.9544,
-      "lng": 141.3556,
-      "categories": [
-        "Value for Money",
-        "Forest Course",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/sapporo_country_club.jpg",
-      "address": "Sapporo, Hokkaido",
-      "published": "2026-08-20",
-      "summary": "삿포로 시내에서 가까운 숲 코스로 합리적 요금과 여름 시즌 예약 가능성이 강점인 골프장.",
-      "booking": "/booking/sapporo_country_club_ko",
-      "link": "/course/sapporo_country_club?lang=ko"
-    },
-    {
       "id": "nidom_classic_course_ko",
       "base_id": "nidom_classic_course",
       "lang": "ko",
@@ -228,25 +456,6 @@
       "summary": "훗카이도 도마코마이 숲 속 리조트 코스, 신치토세 공항에서 접근성이 좋아 요금·예약 확인이 핵심입니다.",
       "booking": "/booking/nidom_classic_course_ko",
       "link": "/course/nidom_classic_course?lang=ko"
-    },
-    {
-      "id": "kushiro_marsh_golf_ko",
-      "base_id": "kushiro_marsh_golf",
-      "lang": "ko",
-      "title": "Kushiro Marsh Golf",
-      "lat": 43.0544,
-      "lng": 144.4556,
-      "categories": [
-        "Scenic View",
-        "Nature",
-        "Wilderness"
-      ],
-      "thumbnail": "/static/images/kushiro_marsh_golf.jpg",
-      "address": "Kushiro, Hokkaido",
-      "published": "2026-08-20",
-      "summary": "습지 지형 홋카이도 코스, 라쿠텐 GORA 실시간 견적 확인 후 예약 권장, 렌터카 접근이 현실적.",
-      "booking": "/booking/kushiro_marsh_golf_ko",
-      "link": "/course/kushiro_marsh_golf?lang=ko"
     },
     {
       "id": "iwate_numakunai_golf_ko",
@@ -325,63 +534,6 @@
       "link": "/course/aomori_country_club?lang=ko"
     },
     {
-      "id": "akita_minami_golf_ko",
-      "base_id": "akita_minami_golf",
-      "lang": "ko",
-      "title": "Akita Minami Golf",
-      "lat": 39.6544,
-      "lng": 140.1556,
-      "categories": [
-        "Value for Money",
-        "Forest Course",
-        "Scenic"
-      ],
-      "thumbnail": "/static/images/akita_minami_golf.jpg",
-      "address": "Akita, Akita",
-      "published": "2026-08-20",
-      "summary": "아키타 미나미 골프는 숲 지형 속 합리적 그린피와 편안한 페이스로 부담 없이 라운드하기 좋은 코스입니다.",
-      "booking": "/booking/akita_minami_golf_ko",
-      "link": "/course/akita_minami_golf?lang=ko"
-    },
-    {
-      "id": "abashiri_lakeside_golf_ko",
-      "base_id": "abashiri_lakeside_golf",
-      "lang": "ko",
-      "title": "Abashiri Lakeside Golf",
-      "lat": 43.9544,
-      "lng": 144.1556,
-      "categories": [
-        "Value for Money",
-        "Lake View",
-        "Scenic"
-      ],
-      "thumbnail": "/static/images/abashiri_lakeside_golf.jpg",
-      "address": "Abashiri, Hokkaido",
-      "published": "2026-08-20",
-      "summary": "홋카이도 아바시리 호숫가 코스, 여름 성수기 요금과 왕복 차량 동선을 미리 확인하고 예약하세요.",
-      "booking": "/booking/abashiri_lakeside_golf_ko",
-      "link": "/course/abashiri_lakeside_golf?lang=ko"
-    },
-    {
-      "id": "sendai_country_club_en",
-      "base_id": "sendai_country_club",
-      "lang": "en",
-      "title": "Sendai Country Club",
-      "lat": 38.2544,
-      "lng": 140.8556,
-      "categories": [
-        "Public Tournament",
-        "Forest Course",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/sendai_country_club.jpg",
-      "address": "Natori, Miyagi",
-      "published": "2026-08-15",
-      "summary": "Forest-lined tournament course in Natori, Miyagi, with public visitor access — check current green fees and book your tee time online.",
-      "booking": "/booking/sendai_country_club_en",
-      "link": "/course/sendai_country_club"
-    },
-    {
       "id": "fukushima_azuma_golf_en",
       "base_id": "fukushima_azuma_golf",
       "lang": "en",
@@ -399,25 +551,6 @@
       "summary": "Mountain-forest golf near Fukushima City with budget-friendly green fees; check live rates and book at /booking/fukushima_azuma_golf_en.",
       "booking": "/booking/fukushima_azuma_golf_en",
       "link": "/course/fukushima_azuma_golf"
-    },
-    {
-      "id": "akita_minami_golf_en",
-      "base_id": "akita_minami_golf",
-      "lang": "en",
-      "title": "Akita Minami Golf",
-      "lat": 39.6544,
-      "lng": 140.1556,
-      "categories": [
-        "Value for Money",
-        "Forest Course",
-        "Scenic"
-      ],
-      "thumbnail": "/static/images/akita_minami_golf.jpg",
-      "address": "Akita, Akita",
-      "published": "2026-08-15",
-      "summary": "Akita Minami Golf pairs forest-lined fairways with visitor-friendly fees; check live rates and book via GORA before your trip.",
-      "booking": "/booking/akita_minami_golf_en",
-      "link": "/course/akita_minami_golf"
     },
     {
       "id": "iwate_numakunai_golf_en",
@@ -456,44 +589,6 @@
       "summary": "Mountain-style course near Aomori city with scenic value; check current green fees and book via Rakuten GORA or the link below.",
       "booking": "/booking/aomori_country_club_en",
       "link": "/course/aomori_country_club"
-    },
-    {
-      "id": "kushiro_marsh_golf_en",
-      "base_id": "kushiro_marsh_golf",
-      "lang": "en",
-      "title": "Kushiro Marsh Golf",
-      "lat": 43.0544,
-      "lng": 144.4556,
-      "categories": [
-        "Scenic View",
-        "Nature",
-        "Wilderness"
-      ],
-      "thumbnail": "/static/images/kushiro_marsh_golf.jpg",
-      "address": "Kushiro, Hokkaido",
-      "published": "2026-08-08",
-      "summary": "A wetland-edge course near Kushiro, Hokkaido, with cooler summer rounds; verify a live quote and book via Rakuten GORA or your hotel desk.",
-      "booking": "/booking/kushiro_marsh_golf_en",
-      "link": "/course/kushiro_marsh_golf"
-    },
-    {
-      "id": "abashiri_lakeside_golf_en",
-      "base_id": "abashiri_lakeside_golf",
-      "lang": "en",
-      "title": "Abashiri Lakeside Golf",
-      "lat": 43.9544,
-      "lng": 144.1556,
-      "categories": [
-        "Value for Money",
-        "Lake View",
-        "Scenic"
-      ],
-      "thumbnail": "/static/images/abashiri_lakeside_golf.jpg",
-      "address": "Abashiri, Hokkaido",
-      "published": "2026-08-08",
-      "summary": "Lakeside golf in Abashiri, Hokkaido, with budget-friendly weekday rates — check live pricing and book via /booking/abashiri_lakeside_golf_en.",
-      "booking": "/booking/abashiri_lakeside_golf_en",
-      "link": "/course/abashiri_lakeside_golf"
     },
     {
       "id": "sample_golf_club_ko",
@@ -604,25 +699,6 @@
       "summary": "도마코마이 숲속에 자리한 챔피언십급 코스로, 신치토세 공항에서 가깝고 요금은 시즌에 따라 라쿠텐 GORA에서 실시간 확인이 필요합니다.",
       "booking": "/booking/hokkaido_brooks_golf_ko",
       "link": "/course/hokkaido_brooks_golf?lang=ko"
-    },
-    {
-      "id": "sapporo_country_club_en",
-      "base_id": "sapporo_country_club",
-      "lang": "en",
-      "title": "No Title",
-      "lat": 42.9544,
-      "lng": 141.3556,
-      "categories": [
-        "Value for Money",
-        "Forest Course",
-        "Historic"
-      ],
-      "thumbnail": "/static/images/sapporo_country_club.jpg",
-      "address": "Sapporo, Hokkaido",
-      "published": "2026-07-26",
-      "summary": "Since the file write wasn't permitted, here's the finished page content directly:\n\nlang: \"en\"\ntitle: \"Sapporo Country Cl...",
-      "booking": "/booking/sapporo_country_club_ko",
-      "link": "/course/sapporo_country_club"
     },
     {
       "id": "nidom_classic_course_en",
