@@ -24,6 +24,36 @@ FEATURED_COURSE_BASE_IDS = (
 )
 FEATURED_COURSE_BASE_IDS_SET = frozenset(FEATURED_COURSE_BASE_IDS)
 
+# Japanese catalog names for Rakuten GORA search_c_name.
+# EN/KO SEO titles return zero courses — only these strings (or a JP title / gora_name).
+GORA_SEARCH_NAMES: dict[str, str] = {
+    "pgm_golf_resort_okinawa": "PGMゴルフリゾート沖縄",
+    "ocean_castle_golf": "オーシャンキャッスルカントリークラブ",
+    "natsudomari_golf_links": "夏泊ゴルフリンクス",
+    "abc_golf_club": "ABCゴルフ倶楽部",
+    "eniwa_country_club": "恵庭カントリー倶楽部",
+    "totsuka_country_club": "戸塚カントリー倶楽部",
+    "kotohira_golf_club": "琴平カントリー倶楽部",
+    "shimonoseki_golf_club": "下関ゴルフ倶楽部",
+    "phoenix_seagaia_resort": "フェニックスシーガイア",
+    "karuizawa_72_golf_east": "軽井沢72",
+    "southern_links": "サザンリンクスゴルフクラブ",
+    "southern_links_golf_club": "サザンリンクスゴルフクラブ",
+    "kanucha_golf_course": "カヌチャゴルフコース",
+    "pgm_ishioka_golf_club": "PGM石岡ゴルフクラブ",
+    "shishido_hills_country_club": "宍戸ヒルズカントリークラブ",
+    "oarai_golf_club": "大洗ゴルフ倶楽部",
+    "ibaraki_golf_club": "茨城ゴルフ倶楽部",
+    "chiran_country_club": "知覧カントリークラブ",
+    "chukyo_golf_club": "中京ゴルフ倶楽部",
+    "satsuma_resort_golf_club": "薩摩リゾートゴルフ倶楽部",
+    "mie_kokusai_golf_club": "三重国際ゴルフクラブ",
+    "abiko_golf_club": "我孫子ゴルフ倶楽部",
+    "wakagi_golf_club": "若木ゴルフ倶楽部",
+    "nikko_country_club": "日光カントリークラブ",
+    "kyoto_golf_club_kamigamo": "京都ゴルフ倶楽部",
+}
+
 # Retired guides: 301 to guide hub (or a successor) instead of soft-404.
 RETIRED_GUIDE_REDIRECTS = {
     "guide_seed_001": "/guide",

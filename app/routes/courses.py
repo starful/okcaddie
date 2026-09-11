@@ -16,6 +16,7 @@ try:
     from ..config import (
         AREA_MAP,
         FAMILY_SITE_ID,
+        GORA_SEARCH_NAMES,
         GUIDE_RELATED_COURSES,
         RETIRED_COURSE_REDIRECTS,
         RETIRED_GUIDE_REDIRECTS,
@@ -45,6 +46,7 @@ except ImportError:
     from config import (
         AREA_MAP,
         FAMILY_SITE_ID,
+        GORA_SEARCH_NAMES,
         GUIDE_RELATED_COURSES,
         RETIRED_COURSE_REDIRECTS,
         RETIRED_GUIDE_REDIRECTS,
@@ -317,8 +319,8 @@ _JP_COURSE_NAME = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 _HANGUL = re.compile(r"[\uac00-\ud7af]")
 
 
-def _yaml_title(content: str) -> str:
-    match = re.search(r"(?m)^title:\s*(.*)$", content)
+def _yaml_field(content: str, key: str) -> str:
+    match = re.search(rf"(?m)^{re.escape(key)}:\s*(.*)$", content)
     if not match:
         return ""
     raw = match.group(1).strip()
@@ -327,14 +329,30 @@ def _yaml_title(content: str) -> str:
     return raw.strip()
 
 
-def gora_search_name(content: str, *, from_course_md: bool) -> str:
+def _yaml_title(content: str) -> str:
+    return _yaml_field(content, "title")
+
+
+def _usable_gora_name(raw: str) -> str:
+    name = humanize_title(raw)
+    if not name or _HANGUL.search(name) or not _JP_COURSE_NAME.search(name):
+        return ""
+    return name[:40]
+
+
+def gora_search_name(content: str, *, from_course_md: bool, base_id: str = "") -> str:
     """GORA is a Japanese catalog — EN/KO SEO titles return zero courses."""
     if not from_course_md:
         return ""
-    title = humanize_title(_yaml_title(content))
-    if not title or _HANGUL.search(title) or not _JP_COURSE_NAME.search(title):
-        return ""
-    return title[:40]
+    for raw in (
+        _yaml_field(content, "gora_name"),
+        GORA_SEARCH_NAMES.get(base_id, ""),
+        _yaml_title(content),
+    ):
+        name = _usable_gora_name(raw)
+        if name:
+            return name
+    return ""
 
 
 def _noindex_redirect(url: str, code: int = 302):
@@ -377,7 +395,9 @@ def booking_redirect(course_id):
         pref = extract_prefecture(content)
         if pref:
             area_code = AREA_MAP.get(pref, 0)
-        search_name = gora_search_name(content, from_course_md=path == md_path)
+        search_name = gora_search_name(
+            content, from_course_md=path == md_path, base_id=base_id
+        )
 
     if area_code == 0:
         # Slug first — article copy often says "from Tokyo" and would steal the area.
@@ -445,16 +465,18 @@ def booking_redirect(course_id):
     target_date = datetime.now() + timedelta(days=14)
 
     rakuten_params = [
-        ("search_c_name", search_name),
         ("year", str(target_date.year)),
         ("month", str(target_date.month)),
         ("day", str(target_date.day)),
         ("widthday", "7"),
         ("search_mode", "normal"),
         ("l-id", "search_btn_search"),
-        ("area[]", area_code if area_code > 0 else 12),
         ("order", "rec"),
     ]
+    if search_name:
+        rakuten_params.insert(0, ("search_c_name", search_name))
+    if area_code > 0:
+        rakuten_params.append(("area[]", area_code))
 
     target_url = "https://gora.golf.rakuten.co.jp/search/result/?" + urllib.parse.urlencode(rakuten_params)
     final_url = (
@@ -468,9 +490,5 @@ def booking_redirect(course_id):
 
 @courses_bp.route("/travel/<item_type>/<course_id>")
 def travel_redirect(item_type, course_id):
-    """Legacy Klook paths → Agoda affiliate (A8)."""
-    try:
-        from ..a8_affiliate import _BANNERS
-    except ImportError:
-        from a8_affiliate import _BANNERS
-    return _noindex_redirect(_BANNERS["agoda"]["click_url"])
+    """Legacy Klook hotel paths → GORA tee-time search, not Agoda."""
+    return booking_redirect(course_id)

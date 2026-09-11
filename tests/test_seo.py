@@ -173,24 +173,54 @@ def test_gora_search_name_skips_en_ko_seo_titles():
         from_course_md=True,
     ) == "PGMゴルフリゾート沖縄"
     assert gora_search_name('title: "PGMゴルフリゾート沖縄"\n', from_course_md=False) == ""
+    assert (
+        gora_search_name(
+            "title: PGM Golf Resort Okinawa\n",
+            from_course_md=True,
+            base_id="pgm_golf_resort_okinawa",
+        )
+        == "PGMゴルフリゾート沖縄"
+    )
+    assert (
+        gora_search_name(
+            'gora_name: "オーシャンキャッスルカントリークラブ"\ntitle: Ocean Castle\n',
+            from_course_md=True,
+        )
+        == "オーシャンキャッスルカントリークラブ"
+    )
 
 
-def test_booking_redirect_uses_prefecture_not_seo_title(client):
+def test_booking_redirect_uses_japanese_catalog_name(client):
     r = client.get("/booking/pgm_golf_resort_okinawa_en")
     assert r.status_code in (301, 302)
     loc = r.headers.get("Location", "")
     assert "hb.afl.rakuten.co.jp/hgc/" in loc
     q = _gora_query(loc)
     assert q.get("area[]") == ["47"]
-    assert q.get("search_c_name", [""]) == [""]
+    assert q.get("search_c_name") == ["PGMゴルフリゾート沖縄"]
     assert q.get("widthday") == ["7"]
 
     ko = _gora_query(client.get("/booking/ocean_castle_golf_ko").headers.get("Location", ""))
     assert ko.get("area[]") == ["47"]
-    assert ko.get("search_c_name", [""]) == [""]
+    assert ko.get("search_c_name") == ["オーシャンキャッスルカントリークラブ"]
 
     fuji = _gora_query(client.get("/booking/yamanashi_fuji_golf_en").headers.get("Location", ""))
     assert fuji.get("area[]") == ["19"]
-    assert fuji.get("search_c_name", [""]) == [""]
+    assert "search_c_name" not in fuji
     assert "Yamanashi Fuji Golf" not in client.get("/booking/yamanashi_fuji_golf_en").headers.get("Location", "")
+
+
+def test_booking_omits_chiba_when_area_unknown(client):
+    q = _gora_query(client.get("/booking/not_a_real_course_en").headers.get("Location", ""))
+    assert "area[]" not in q
+    assert "search_c_name" not in q
+
+
+def test_legacy_travel_path_goes_to_gora_not_agoda(client):
+    r = client.get("/travel/rental/pgm_golf_resort_okinawa_en")
+    loc = r.headers.get("Location", "")
+    assert r.status_code in (301, 302)
+    assert "hb.afl.rakuten.co.jp/hgc/" in loc
+    assert "a8.net" not in loc
+    assert _gora_query(loc).get("search_c_name") == ["PGMゴルフリゾート沖縄"]
 

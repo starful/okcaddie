@@ -21,6 +21,7 @@ COURSE_FRONTMATTER_KEYS = frozenset(
         "description",
         "seo_title",
         "seo_description",
+        "gora_name",
     }
 )
 
