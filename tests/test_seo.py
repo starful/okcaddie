@@ -148,3 +148,49 @@ def test_retired_guide_legacy_suffix_single_hop(client):
     assert r.status_code == 301
     assert r.headers["Location"].endswith("/guide/understanding-scorecards?lang=ko")
 
+
+def _gora_query(location: str) -> dict:
+    from urllib.parse import parse_qs, unquote, urlparse
+
+    wrapped = urlparse(location)
+    pc = unquote(parse_qs(wrapped.query).get("pc", [""])[0])
+    return parse_qs(urlparse(pc).query)
+
+
+def test_gora_search_name_skips_en_ko_seo_titles():
+    from routes.courses import gora_search_name
+
+    assert gora_search_name(
+        'title: "홋카이도 클래식 골프 클럽 마스터피스 리뷰"\n',
+        from_course_md=True,
+    ) == ""
+    assert gora_search_name(
+        "title: PGM Golf Resort Okinawa — Booking, Fees & Course Guide\n",
+        from_course_md=True,
+    ) == ""
+    assert gora_search_name(
+        'title: "PGMゴルフリゾート沖縄"\n',
+        from_course_md=True,
+    ) == "PGMゴルフリゾート沖縄"
+    assert gora_search_name('title: "PGMゴルフリゾート沖縄"\n', from_course_md=False) == ""
+
+
+def test_booking_redirect_uses_prefecture_not_seo_title(client):
+    r = client.get("/booking/pgm_golf_resort_okinawa_en")
+    assert r.status_code in (301, 302)
+    loc = r.headers.get("Location", "")
+    assert "hb.afl.rakuten.co.jp/hgc/" in loc
+    q = _gora_query(loc)
+    assert q.get("area[]") == ["47"]
+    assert q.get("search_c_name", [""]) == [""]
+    assert q.get("widthday") == ["7"]
+
+    ko = _gora_query(client.get("/booking/ocean_castle_golf_ko").headers.get("Location", ""))
+    assert ko.get("area[]") == ["47"]
+    assert ko.get("search_c_name", [""]) == [""]
+
+    fuji = _gora_query(client.get("/booking/yamanashi_fuji_golf_en").headers.get("Location", ""))
+    assert fuji.get("area[]") == ["19"]
+    assert fuji.get("search_c_name", [""]) == [""]
+    assert "Yamanashi Fuji Golf" not in client.get("/booking/yamanashi_fuji_golf_en").headers.get("Location", "")
+

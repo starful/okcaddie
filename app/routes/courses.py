@@ -313,6 +313,30 @@ def course_social_card(course_ref):
     )
 
 
+_JP_COURSE_NAME = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
+_HANGUL = re.compile(r"[\uac00-\ud7af]")
+
+
+def _yaml_title(content: str) -> str:
+    match = re.search(r"(?m)^title:\s*(.*)$", content)
+    if not match:
+        return ""
+    raw = match.group(1).strip()
+    if len(raw) >= 2 and raw[0] == raw[-1] and raw[0] in "\"'":
+        raw = raw[1:-1]
+    return raw.strip()
+
+
+def gora_search_name(content: str, *, from_course_md: bool) -> str:
+    """GORA is a Japanese catalog — EN/KO SEO titles return zero courses."""
+    if not from_course_md:
+        return ""
+    title = humanize_title(_yaml_title(content))
+    if not title or _HANGUL.search(title) or not _JP_COURSE_NAME.search(title):
+        return ""
+    return title[:40]
+
+
 def _noindex_redirect(url: str, code: int = 302):
     response = redirect(url, code=code)
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
@@ -353,17 +377,12 @@ def booking_redirect(course_id):
         pref = extract_prefecture(content)
         if pref:
             area_code = AREA_MAP.get(pref, 0)
-        # Prefer JP course title from frontmatter when present.
-        m = re.search(r'(?m)^title:\s*"([^"]+)"', content)
-        if m and path == md_path:
-            title = m.group(1).strip()
-            # GORA search works better with shorter Latin/JP names without fluff.
-            if title and len(title) <= 60:
-                search_name = title
+        search_name = gora_search_name(content, from_course_md=path == md_path)
 
     if area_code == 0:
-        # English slug/prefecture hints (guides + courses).
-        blob = f"{base_id} {course_id} {content[:2000]}".lower().replace("-", "_")
+        # Slug first — article copy often says "from Tokyo" and would steal the area.
+        slug_blob = f"{base_id} {course_id}".lower().replace("-", "_")
+        body_blob = content[:2000].lower().replace("-", "_")
         en_hints = (
             ("hokkaido", 1),
             ("okinawa", 47),
@@ -414,18 +433,23 @@ def booking_redirect(course_id):
             ("shiga", 25),
         )
         for token, code in en_hints:
-            if token in blob:
+            if token in slug_blob:
                 area_code = code
                 break
+        if area_code == 0:
+            for token, code in en_hints:
+                if token in body_blob:
+                    area_code = code
+                    break
 
-    target_date = datetime.now() + timedelta(days=7)
+    target_date = datetime.now() + timedelta(days=14)
 
     rakuten_params = [
         ("search_c_name", search_name),
         ("year", str(target_date.year)),
         ("month", str(target_date.month)),
         ("day", str(target_date.day)),
-        ("widthday", "1"),
+        ("widthday", "7"),
         ("search_mode", "normal"),
         ("l-id", "search_btn_search"),
         ("area[]", area_code if area_code > 0 else 12),
