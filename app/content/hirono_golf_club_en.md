@@ -1,9 +1,9 @@
 ---
 lang: en
-seo_title: 'How to Play Hirono Golf Club: Booking Guide & Rules'
-seo_description: Want to play Japan’s most exclusive golf course? Discover how to
-  secure a Hirono Golf Club tee time, visitor policies, and guest fees.
-title: 'How to Play Hirono Golf Club: Visitor & Booking Guide'
+seo_title: 'Hirono Golf Club: How Visitors Book'
+seo_description: How visitors book Hirono Golf Club—guest rules, tee-time paths, and
+  what to confirm before you fly.
+title: 'Hirono Golf Club: How Visitors Book'
 lat: '34.7967'
 lng: '135.0111'
 categories: Private Club, Premium / Luxury, Historic
@@ -14,8 +14,8 @@ booking: /booking/hirono_golf_club_en
 summary: 'Hirono in Miki: Charles Alison’s bunkers, Korai fairways vs bent greens,
   private-club access, realistic fees context, and booking paths—so you know before
   you fly.'
-description: Want to play Japan’s most exclusive golf course? Discover how to secure
-  a Hirono Golf Club tee time, visitor policies, and guest fees.
+description: How visitors book Hirono Golf Club—guest rules, tee-time paths, and
+  what to confirm before you fly.
 ---
 
 

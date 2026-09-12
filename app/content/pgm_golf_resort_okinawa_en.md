@@ -1,9 +1,9 @@
 ---
 lang: en
-seo_title: PGM Golf Resort Okinawa Booking & Green Fees | OK Caddie
-seo_description: Plan your round at PGM Golf Resort Okinawa in Onna. Layout overview,
-  how visitors book via Rakuten GORA, access from Naha, and practical play tips.
-title: PGM Golf Resort Okinawa — Booking, Fees & Course Guide
+seo_title: PGM Okinawa Green Fees & Booking
+seo_description: PGM Golf Resort Okinawa green fees, visitor booking, and access from
+  Naha—Onna 27-hole ocean resort practical play tips.
+title: PGM Okinawa Green Fees & Booking
 lat: '26.4344'
 lng: '127.8356'
 categories: Public Tournament, Premium / Luxury, Ocean View
