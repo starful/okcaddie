@@ -7,7 +7,13 @@ from datetime import datetime, timezone
 from flask import Blueprint, make_response, render_template, request
 
 try:
-    from ..config import FEATURED_COURSE_BASE_IDS, GOOGLE_MAPS_JS_API_KEY, SUPPORTED_LANGS
+    from ..config import (
+        FEATURED_COURSE_BASE_IDS,
+        GOOGLE_MAPS_JS_API_KEY,
+        HOME_PURPOSE_GUIDE_IDS,
+        HOME_REGION_GUIDE_IDS,
+        SUPPORTED_LANGS,
+    )
     from ..data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
     from ..sitemap import (
         course_sitemap_entries,
@@ -16,9 +22,15 @@ try:
         render_urlset,
         sitemap_index_xml,
     )
-    from ..view_helpers import course_cards, crawl_course_links, public_course
+    from ..view_helpers import course_cards, crawl_course_links, pinned_guides, public_course
 except ImportError:
-    from config import FEATURED_COURSE_BASE_IDS, GOOGLE_MAPS_JS_API_KEY, SUPPORTED_LANGS
+    from config import (
+        FEATURED_COURSE_BASE_IDS,
+        GOOGLE_MAPS_JS_API_KEY,
+        HOME_PURPOSE_GUIDE_IDS,
+        HOME_REGION_GUIDE_IDS,
+        SUPPORTED_LANGS,
+    )
     from data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
     from sitemap import (
         course_sitemap_entries,
@@ -27,7 +39,7 @@ except ImportError:
         render_urlset,
         sitemap_index_xml,
     )
-    from view_helpers import course_cards, crawl_course_links, public_course
+    from view_helpers import course_cards, crawl_course_links, pinned_guides, public_course
 
 pages_bp = Blueprint("pages", __name__)
 
@@ -43,6 +55,8 @@ def index():
     return render_template(
         "index.html",
         featured_guides=featured,
+        region_guides=pinned_guides(HOME_REGION_GUIDE_IDS, lang=lang),
+        purpose_guides=pinned_guides(HOME_PURPOSE_GUIDE_IDS, lang=lang),
         featured_courses=course_cards(FEATURED_COURSE_BASE_IDS, lang=lang),
         crawl_course_links=crawl_course_links(limit=60, lang=lang),
         active_lang=lang,

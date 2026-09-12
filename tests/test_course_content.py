@@ -35,6 +35,22 @@ Body starts here.
     assert post.content.startswith("## Course Overview")
 
 
+def test_loads_course_post_keeps_youtube_id():
+    raw = """---
+lang: "en"
+title: "Sample Course"
+lat: "35.1"
+lng: "139.2"
+youtube_id: dQw4w9WgXcQ
+---
+
+Body starts here.
+"""
+    post, normalized = loads_course_post(raw)
+    assert normalized is False
+    assert post["youtube_id"] == "dQw4w9WgXcQ"
+
+
 def test_load_course_post_file_reads_current_abiko_metadata():
     post, _ = load_course_post_file(str(ROOT / "app" / "content" / "abiko_golf_club_en.md"))
 

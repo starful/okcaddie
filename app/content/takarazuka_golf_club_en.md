@@ -1,4 +1,6 @@
 ---
+youtube_id: iPgBv4EaqP0
+
 lang: en
 title: Takarazuka Golf Club
 lat: '34.7944'

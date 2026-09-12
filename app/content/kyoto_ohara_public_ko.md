@@ -1,4 +1,6 @@
 ---
+youtube_id: OHkWFsQODEY
+
 address: 일본 교토부 교토시 사쿄구 오하라구치초 120
 booking: /booking/kyoto_ohara_public_ko
 categories: 가성비, 마운틴 코스, 경치

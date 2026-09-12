@@ -1,4 +1,6 @@
 ---
+youtube_id: 0_2EXGJovgs
+
 address: Yaese, Okinawa
 booking: /booking/the_southern_links_resort_en
 categories: Seaside Links, Premium / Luxury, Resort

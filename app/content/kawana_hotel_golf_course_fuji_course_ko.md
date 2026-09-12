@@ -1,4 +1,6 @@
 ---
+youtube_id: s0qIuY_5biA
+
 address: 시즈오카현 이토시
 booking: /booking/kawana_hotel_golf_course_fuji_course_ko
 categories: 퍼블릭 토너먼트, 프리미엄 / 럭셔리, 시사이드

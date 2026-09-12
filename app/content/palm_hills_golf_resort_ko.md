@@ -1,4 +1,6 @@
 ---
+youtube_id: f0OiWQoefQg
+
 lang: "ko"
 title: "Palm Hills Golf Resort"
 lat: "26.1544"

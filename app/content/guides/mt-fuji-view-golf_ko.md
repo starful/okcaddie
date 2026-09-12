@@ -1,11 +1,10 @@
 ---
 date: '2026-06-19'
-description: Discover Japan's best Mt. Fuji golf courses. Read expert reviews, booking
-  guides, travel tips & stunning views. Plan your golf trip now.
-seo_description: Discover Japan's best Mt. Fuji golf courses. Read expert reviews,
-  booking guides, travel tips & stunning views. Plan your golf trip now.
-seo_title: 'Mt. Fuji Golf Courses: Best Scenic Resorts in Japan | OKCaddie'
-title: 'Mt. Fuji Golf Courses: Best Scenic Resorts in Japan | OKCaddie'
+lang: ko
+title: 후지산 절경을 조망하며 라운딩하는 골프장
+summary: 후지산을 배경으로 라운딩할 수 있는 골프장을 소개합니다. 예약·교통·코스 특징을 여행 계획용으로 정리했습니다.
+seo_title: 후지산 전망 골프장 — 하코네·고텐바 예약 가이드 | OKCaddie
+seo_description: 후지산이 보이는 골프장·하코네·고텐바 그린피와 예약 팁. 일본 골프 여행은 OKCaddie에서.
 ---
 
 

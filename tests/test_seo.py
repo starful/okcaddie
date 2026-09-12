@@ -26,6 +26,30 @@ def test_home_has_crawler_links_and_editor_picks(client):
     assert "/course/pgm_golf_resort_okinawa" in html
 
 
+def test_home_pins_region_and_purpose_guides(client):
+    r = client.get("/?lang=ko")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "region-guides-heading" in html
+    assert "purpose-guides-heading" in html
+    assert "/guide/okinawa-ocean-golf?lang=ko" in html
+    assert "/guide/hokkaido-summer-golf?lang=ko" in html
+    assert "/guide/value-for-money-golf?lang=ko" in html
+    assert "홋카이도" in html
+    assert "오키나와" in html
+    assert "오사카 근교 가성비" in html
+    assert "Mt. Fuji Golf Courses: Best Scenic Resorts" not in html
+    assert "Latest Golf Guides" not in html
+
+
+def test_okinawa_guide_related_courses_are_okinawa(client):
+    r = client.get("/guide/okinawa-ocean-golf")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "/course/pgm_golf_resort_okinawa" in html
+    assert "/course/kanucha_golf_course" in html
+
+
 def test_api_courses_noindex(client):
     r = client.get("/api/courses")
     assert r.status_code == 200
@@ -64,6 +88,21 @@ def test_course_detail_has_reaction_panel(client):
     assert "?v=" not in html.split('name="twitter:image"')[1][:120]
     assert 'name="twitter:image"' in html
     assert "card/pgm_golf_resort_okinawa" in html
+
+
+def test_course_ko_keeps_gora_and_one_partner_box(client):
+    r = client.get("/course/pgm_golf_resort_okinawa?lang=ko")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "라쿠텐에서 골프 예약하기" in html
+    assert "a8-banners" in html
+    assert "Agoda — 골프장 주변 숙소" in html
+    assert "라쿠텐 eSIM" in html
+    assert "라쿠텐 트래블" in html
+    assert "a.r10.to/hPsyyI" in html
+    assert "a.r10.to/h5didY" in html
+    assert "TORA" not in html
+    assert "골프 여행 필수품" not in html
 
 
 def test_social_image_endpoint(client):

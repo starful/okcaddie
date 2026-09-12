@@ -209,6 +209,7 @@ def main():
                     "published": date_val,
                     "summary": summary,
                     "booking": post.get('booking', ''),
+                    "youtube_id": str(post.get("youtube_id") or "").strip(),
                     "link": (
                         f"/course/{base_id}"
                         + ("" if post.get('lang', 'en') == 'en' else "?lang=ko")

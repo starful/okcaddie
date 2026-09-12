@@ -1,4 +1,6 @@
 ---
+youtube_id: 0e0UwJt-VQo
+
 address: Yokohama, Kanagawa
 booking: /booking/yokohama_country_club_ko
 categories: Private Club, Public Tournament, Historic

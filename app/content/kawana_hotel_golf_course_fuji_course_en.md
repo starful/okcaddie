@@ -1,4 +1,6 @@
 ---
+youtube_id: s0qIuY_5biA
+
 address: Ito, Shizuoka
 booking: /booking/kawana_hotel_golf_course_fuji_course_en
 categories: Public Tournament, Premium / Luxury, Seaside Links

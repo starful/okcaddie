@@ -839,6 +839,62 @@ footer {
 .editor-picks-section { margin: 2rem 0 2.5rem; }
 .editor-picks-lead { color: #64748b; font-size: 0.95rem; margin: -0.5rem 0 1rem; }
 .editor-picks-grid .card-body h3 { font-size: 0.95rem; line-height: 1.35; }
+.home-guide-pins .view-all-box { margin-top: 8px; }
+
+.detail-youtube {
+  margin: 14px 0 24px;
+  padding: 12px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+.detail-youtube summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #1e293b;
+  list-style: none;
+}
+.detail-youtube summary::-webkit-details-marker { display: none; }
+.detail-youtube summary::before {
+  content: "▶ ";
+  color: #c00;
+  font-size: 0.85em;
+}
+.detail-youtube[open] summary::before { content: "▼ "; }
+.detail-youtube--hero {
+  margin: 0 0 24px;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.detail-youtube--hero .detail-youtube__frame {
+  max-width: none;
+  margin: 10px 0 8px;
+  border-radius: 12px;
+}
+.detail-youtube__frame {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 12px auto 8px;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000;
+}
+.detail-youtube__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.detail-youtube__link {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.detail-youtube__link a { color: #334155; font-weight: 600; }
 
 .course-crawl-nav {
     margin: 0 0 1.25rem;
@@ -1022,6 +1078,12 @@ body.compare-bar-active { padding-bottom: 90px; }
 .a8-banners__item--agoda .a8-banners__link { background: #5c2d91; }
 .a8-banners__item--agoda .a8-banners__link:hover { background: #4a2474; }
 .a8-banners__item--agoda .a8-banners__link::before { content: "🏨"; }
+.a8-banners__item--rakuten_esim .a8-banners__link { background: #1e3a8a; }
+.a8-banners__item--rakuten_esim .a8-banners__link:hover { background: #1e40af; }
+.a8-banners__item--rakuten_esim .a8-banners__link::before { content: "📱"; }
+.a8-banners__item--rakuten_travel .a8-banners__link { background: #bf0000; }
+.a8-banners__item--rakuten_travel .a8-banners__link:hover { background: #9f0000; }
+.a8-banners__item--rakuten_travel .a8-banners__link::before { content: "✈️"; }
 .a8-banners__item--kkday .a8-banners__link { background: #ea580c; }
 .a8-banners__item--kkday .a8-banners__link:hover { background: #c2410c; }
 .a8-banners__item--kkday .a8-banners__link::before { content: "🎫"; }

@@ -1,4 +1,6 @@
 ---
+youtube_id: OHkWFsQODEY
+
 lang: en
 title: Kyoto Ohara Public Golf Course
 lat: '35.1144'

@@ -18,17 +18,29 @@ _BANNERS: dict[str, dict[str, str]] = {
         "alt_en": "Agoda — affiliate",
         "alt_ko": "Agoda — 제휴",
     },
-    "tora_esim": {
-        "id": "tora_esim",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9I+GEM4QI+5NG6+5ZEMP",
-        "image_url": "https://www22.a8.net/svt/bgt?aid=260829414992&wid=006&eno=01&mid=s00000026367001005000&mc=1",
-        "pixel_url": "https://www11.a8.net/0.gif?a8mat=4BAH9I+GEM4QI+5NG6+5ZEMP",
-        "label_en": "TORA eSIM — Japan travel",
-        "label_ko": "TORA eSIM — 일본 여행",
-        "desc_en": "eSIM for navigation and tee-time apps.",
+    "rakuten_esim": {
+        "id": "rakuten_esim",
+        "click_url": "https://a.r10.to/hPsyyI",
+        "image_url": "",
+        "pixel_url": "",
+        "label_en": "Rakuten eSIM — Japan travel",
+        "label_ko": "라쿠텐 eSIM — 일본 여행",
+        "desc_en": "Japan travel eSIM.",
         "desc_ko": "일본 여행 eSIM.",
-        "alt_en": "TORA eSIM — affiliate",
-        "alt_ko": "TORA eSIM — 제휴",
+        "alt_en": "Rakuten eSIM",
+        "alt_ko": "라쿠텐 eSIM",
+    },
+    "rakuten_travel": {
+        "id": "rakuten_travel",
+        "click_url": "https://a.r10.to/h5didY",
+        "image_url": "",
+        "pixel_url": "",
+        "label_en": "Rakuten Travel — hotels in Japan",
+        "label_ko": "라쿠텐 트래블 — 일본 숙소",
+        "desc_en": "Book hotels for your Japan golf trip.",
+        "desc_ko": "일본 골프 여행 숙소 예약.",
+        "alt_en": "Rakuten Travel",
+        "alt_ko": "라쿠텐 트래블",
     },
 }
 
@@ -62,7 +74,9 @@ def a8_banners_context(*, lang: str = "en") -> dict[str, Any]:
     if not _enabled():
         return {"show_a8_banners": False, "a8_banners": []}
     is_ko = (lang or "en").lower() == "ko"
-    banners = [_copy(k, lang=lang) for k in ("agoda", "tora_esim")]
+    banners = [_copy("agoda", lang=lang), _copy("rakuten_travel", lang=lang)]
+    if is_ko:
+        banners.append(_copy("rakuten_esim", lang=lang))
     return {
         "show_a8_banners": True,
         "a8_banners": banners,

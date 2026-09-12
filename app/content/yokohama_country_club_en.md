@@ -1,4 +1,6 @@
 ---
+youtube_id: 0e0UwJt-VQo
+
 lang: en
 seo_title: 'How to Play Yokohama Country Club: Visitor Booking & Fees'
 seo_description: Want to tee off at Yokohama Country Club? Learn how visitors can

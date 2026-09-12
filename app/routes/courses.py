@@ -184,7 +184,7 @@ def course_detail(course_ref):
     post_data = dict(post_obj.metadata)
 
     post_content = re.sub(
-        r"^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary):.*$",
+        r"^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary|youtube_id):.*$",
         "",
         post_obj.content,
         flags=re.MULTILINE | re.IGNORECASE,

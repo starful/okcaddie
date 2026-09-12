@@ -1,4 +1,6 @@
 ---
+youtube_id: uPXVHP1yOFw
+
 lang: en
 seo_title: North Country Golf Club Chitose | Hokkaido Championship Course
 seo_description: Hokkaido's must-play golf destination. North Country Golf Club in

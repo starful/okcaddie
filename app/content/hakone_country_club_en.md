@@ -1,4 +1,6 @@
 ---
+youtube_id: Zw2qieh-_qc
+
 lang: en
 seo_title: 'How to Book Hakone Country Club: Green Fees & Guide | OK Caddie'
 seo_description: Want to play Hakone Country Club? Learn how to book tee times, guest

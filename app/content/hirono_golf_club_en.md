@@ -1,4 +1,6 @@
 ---
+youtube_id: 2URbT3UhjsQ
+
 lang: en
 seo_title: 'Hirono Golf Club: How Visitors Book'
 seo_description: How visitors book Hirono Golf Club—guest rules, tee-time paths, and

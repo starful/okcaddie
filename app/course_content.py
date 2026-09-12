@@ -22,6 +22,7 @@ COURSE_FRONTMATTER_KEYS = frozenset(
         "seo_title",
         "seo_description",
         "gora_name",
+        "youtube_id",
     }
 )
 
