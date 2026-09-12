@@ -1,4 +1,6 @@
 ---
+youtube_id: 9wDvMl_zfWc
+
 lang: ko
 seo_title: PGM 골프 리조트 오키나와 예약·그린피 가이드 | OK Caddie
 seo_description: 온나마을 PGM 골프 리조트 오키나와 방문 가이드. 코스 개요, 라쿠텐 GORA 예약, 나하 공항 접근, 실전 팁.

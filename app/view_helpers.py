@@ -10,15 +10,17 @@ from urllib.parse import quote
 try:
     from .badges import enrich_item
     from .config import FEATURED_COURSE_BASE_IDS, GCS_ASSET_PREFIX, SITE_URL
-    from .data_loader import CACHED_DATA
+    from .data_loader import CACHED_DATA, CACHED_GUIDES
     from .ids import course_href, split_localized_id
     from .text_utils import clean_summary, humanize_title, short_summary, truncate_text
 except ImportError:
     from badges import enrich_item
     from config import FEATURED_COURSE_BASE_IDS, GCS_ASSET_PREFIX, SITE_URL
-    from data_loader import CACHED_DATA
+    from data_loader import CACHED_DATA, CACHED_GUIDES
     from ids import course_href, split_localized_id
     from text_utils import clean_summary, humanize_title, short_summary, truncate_text
+
+_YT_ID_RE = re.compile(r"^[A-Za-z0-9_-]{6,64}$")
 
 
 def gcs_image_url(filename: str) -> str:
@@ -135,6 +137,26 @@ def course_cards(base_ids, lang="en", limit=None):
     return cards
 
 
+def pinned_guides(base_ids, lang="en"):
+    by_bl = {}
+    for g in CACHED_GUIDES:
+        bid = g.get("base_id")
+        glang = g.get("lang", "en")
+        if bid:
+            by_bl[(bid, glang)] = g
+    out = []
+    for bid in base_ids:
+        g = by_bl.get((bid, lang)) or by_bl.get((bid, "en"))
+        if g:
+            out.append(g)
+    return out
+
+
+def sanitize_youtube_id(raw) -> str:
+    yid = str(raw or "").strip()
+    return yid if _YT_ID_RE.match(yid) else ""
+
+
 def crawl_course_links(limit=60, lang="en"):
     by_bl = courses_by_base_lang()
     ordered_bases = []
@@ -212,6 +234,7 @@ def detail_trust_copy(lang):
 
 def enrich_course_detail_post(post):
     lang = str(post.get("lang") or "en")
+    post["youtube_id"] = sanitize_youtube_id(post.get("youtube_id"))
     if not post.get("editorial_note") or not post.get("illustration_note"):
         ed, ill = detail_trust_copy(lang)
         if not post.get("editorial_note"):

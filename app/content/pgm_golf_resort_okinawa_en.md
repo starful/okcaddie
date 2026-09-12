@@ -1,4 +1,6 @@
 ---
+youtube_id: 9wDvMl_zfWc
+
 lang: en
 seo_title: PGM Okinawa Green Fees & Booking
 seo_description: PGM Golf Resort Okinawa green fees, visitor booking, and access from

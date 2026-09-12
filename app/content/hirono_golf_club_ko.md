@@ -1,4 +1,6 @@
 ---
+youtube_id: 2URbT3UhjsQ
+
 address: 효고현 미키시 히로노
 booking: /booking/hirono_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic

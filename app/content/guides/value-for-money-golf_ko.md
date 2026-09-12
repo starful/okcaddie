@@ -1,10 +1,10 @@
 ---
 date: '2026-06-19'
-description: 'Best Budget Golf Courses in Osaka: Hidden Gems & Money-Saving Tips'
-seo_description: Skip overpriced Osaka courses. Discover hidden-gem golf clubs with
-  insider tips and cost-cutting strategies. Plan your perfect budget golf day now.
-seo_title: 'Best Budget Golf Courses Osaka: Play Premium Courses 50% Cheaper'
-title: 'Best Budget Golf Courses Osaka: Play Premium Courses 50% Cheaper'
+lang: ko
+title: 오사카 근교 가성비 좋은 저가 골프장 가이드
+summary: 오사카 근교의 숨겨진 가성비 골프장을 소개합니다. 교통편, 그린피, 코스 특징까지 정리했습니다.
+seo_title: 오사카 근교 가성비 골프장 — 그린피·예약 가이드 | OKCaddie
+seo_description: 오사카 근교 저가 골프장 그린피와 예약 팁. 평일·트와일라이트 절약 포인트까지 OKCaddie에서.
 ---
 
 

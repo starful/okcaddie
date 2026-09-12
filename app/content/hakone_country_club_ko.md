@@ -1,4 +1,6 @@
 ---
+youtube_id: Zw2qieh-_qc
+
 address: 하코네, 가나가와
 booking: /booking/hakone_country_club_ko
 categories: Private Club, Premium / Luxury, Scenic View

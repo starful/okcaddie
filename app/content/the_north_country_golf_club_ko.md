@@ -1,4 +1,6 @@
 ---
+youtube_id: uPXVHP1yOFw
+
 lang: ko
 seo_title: 노스 컨트리 골프 클럽(지토세) 요금·예약 | OKCaddie
 seo_description: 홋카이도 지토세 노스 컨트리 실전 가이드. 요금 참고, 여름 시즌 팁, 레이아웃, 신치토세 공항 접근.

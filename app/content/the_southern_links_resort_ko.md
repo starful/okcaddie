@@ -1,4 +1,6 @@
 ---
+youtube_id: 0_2EXGJovgs
+
 lang: ko
 title: The Southern Links Resort | Ocean-Carry Golf & Green Fees
 lat: '26.1144'

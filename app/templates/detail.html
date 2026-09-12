@@ -132,6 +132,28 @@
             </p>
         </header>
 
+        {% if post.youtube_id %}
+        <details class="detail-youtube detail-youtube--hero" open>
+            <summary>{% if is_ko %}유튜브에서 보기{% else %}Watch on YouTube{% endif %}</summary>
+            <div class="detail-youtube__frame">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/{{ post.youtube_id }}"
+                    title="{% if is_ko %}{{ post.title }} 소개 영상{% else %}{{ post.title }} on YouTube{% endif %}"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
+            <p class="detail-youtube__link">
+                <a href="https://www.youtube.com/watch?v={{ post.youtube_id }}"
+                   target="_blank"
+                   rel="noopener noreferrer nofollow">
+                    {% if is_ko %}YouTube에서 열기 ↗{% else %}Open on YouTube ↗{% endif %}
+                </a>
+            </p>
+        </details>
+        {% endif %}
+
         <!-- 메인 코스 이미지 -->
         <div class="detail-img-box" style="margin-bottom: 40px;">
             <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" loading="eager" fetchpriority="high" decoding="async" width="1200" height="675">
@@ -176,22 +198,6 @@
                 <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {{ '일본 1위 골프 예약 서비스로 연결됩니다.' if active_lang == 'ko' else 'Redirects to Japan\'s leading golf booking site.' }}</p>
             </div>
 
-            {% if active_lang == 'ko' %}
-            <div style="background: #f1f5f9; padding: 35px 25px; border-radius: 25px; border: 1px solid #e2e8f0;">
-                <h4 style="text-align: center; margin-bottom: 25px; font-weight: 900; color: #1e293b; font-size: 1.2rem;">
-                    🚗 골프 여행 필수품 준비
-                </h4>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 15px;">
-                    <a href="https://a.r10.to/hPsyyI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="travel-card" style="background: #fff; padding: 20px; border-radius: 18px; text-align: center; border: 1px solid #cbd5e1; text-decoration: none; transition: transform 0.2s;">
-                        <div style="font-size: 2rem; margin-bottom: 10px;">📱</div>
-                        <div style="font-weight: 700; color: #1e3a8a; font-size: 0.95rem;">일본 eSIM</div>
-                    </a>
-                </div>
-                <p style="text-align: center; margin-top: 25px; font-size: 0.8rem; color: #64748b; font-weight: 600;">
-                    라쿠텐 제휴 링크로 연결됩니다.
-                </p>
-            </div>
-            {% endif %}
         </div>
 
         {% include 'partials/a8_banners.html' %}

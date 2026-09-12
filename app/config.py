@@ -24,6 +24,22 @@ FEATURED_COURSE_BASE_IDS = (
 )
 FEATURED_COURSE_BASE_IDS_SET = frozenset(FEATURED_COURSE_BASE_IDS)
 
+# Home pins existing guides (no new /region URLs).
+HOME_REGION_GUIDE_IDS = (
+    "hokkaido-summer-golf",
+    "tokyo-near-golf",
+    "mt-fuji-view-golf",
+    "kansai-golf-weekend",
+    "kyushu-golf-circuit",
+    "okinawa-ocean-golf",
+)
+HOME_PURPOSE_GUIDE_IDS = (
+    "value-for-money-golf",
+    "onsen-after-golf",
+    "korean-friendly-courses",
+    "best-winter-golf",
+)
+
 # Japanese catalog names for Rakuten GORA search_c_name.
 # EN/KO SEO titles return zero courses — only these strings (or a JP title / gora_name).
 GORA_SEARCH_NAMES: dict[str, str] = {
@@ -156,87 +172,40 @@ AREA_MAP = {
 }
 PREFECTURE_KEYWORDS = tuple(AREA_MAP.keys())
 
+_GUIDE_RELATED_BASE: dict[str, tuple[str, ...]] = {
+    "okinawa-ocean-golf": (
+        "pgm_golf_resort_okinawa",
+        "southern_links_golf_club",
+        "kanucha_golf_course",
+    ),
+    "golf-etiquette-japan": ("yokohama_country_club", "tokyo_golf_club", "abc_golf_club"),
+    "autumn-leaves-golf": ("karuizawa_72_golf_east", "nasu_kogen_golf_club", "zao_country_club"),
+    "mt-fuji-view-golf": ("hakone_country_club", "fuji_country_club", "hiratsuka_fuji_golf_course"),
+    "onsen-after-golf": ("hakone_country_club", "beppu_golf_club", "nasu_kogen_golf_club"),
+    "hokkaido-summer-golf": (
+        "eniwa_country_club",
+        "sapporo_golf_club_wattsu_course",
+        "otaru_golf_club",
+    ),
+    "booking-tips-japan": ("pgm_golf_resort_okinawa", "yokohama_country_club", "abc_golf_club"),
+    "value-for-money-golf": ("abc_golf_club", "totsuka_country_club", "kotohira_golf_club"),
+    "women-friendly-golf": (
+        "yokohama_country_club",
+        "camellia_hills_country_club",
+        "phoenix_country_club",
+    ),
+    "tokyo-near-golf": ("yokohama_country_club", "totsuka_country_club", "narita_golf_club"),
+    "kansai-golf-weekend": ("hirono_golf_club", "kyoto_golf_club_kamigamo", "abc_golf_club"),
+    "kyushu-golf-circuit": (
+        "beppu_golf_club",
+        "satsuma_resort_golf_club",
+        "phoenix_seagaia_resort",
+    ),
+    "korean-friendly-courses": ("pgm_golf_resort_okinawa", "beppu_golf_club", "abc_golf_club"),
+    "best-winter-golf": ("beppu_golf_club", "satsuma_resort_golf_club", "pgm_golf_resort_okinawa"),
+}
 GUIDE_RELATED_COURSES = {
-    "okinawa-ocean-golf_en": [
-        "pgm_golf_resort_okinawa",
-        "southern_links_golf_club",
-        "phoenix_country_club",
-    ],
-    "okinawa-ocean-golf_ko": [
-        "pgm_golf_resort_okinawa",
-        "southern_links_golf_club",
-        "phoenix_country_club",
-    ],
-    "golf-etiquette-japan_en": [
-        "yokohama_country_club",
-        "tokyo_golf_club",
-        "abc_golf_club",
-    ],
-    "golf-etiquette-japan_ko": [
-        "yokohama_country_club",
-        "tokyo_golf_club",
-        "abc_golf_club",
-    ],
-    "autumn-leaves-golf_en": [
-        "karuizawa_72_golf_east",
-        "nasu_kogen_golf_club",
-        "zao_country_club",
-    ],
-    "autumn-leaves-golf_ko": [
-        "karuizawa_72_golf_east",
-        "nasu_kogen_golf_club",
-        "zao_country_club",
-    ],
-    "mt-fuji-view-golf_en": [
-        "hakone_country_club",
-        "fuji_country_club",
-        "hiratsuka_fuji_golf_course",
-    ],
-    "mt-fuji-view-golf_ko": [
-        "hakone_country_club",
-        "fuji_country_club",
-        "hiratsuka_fuji_golf_course",
-    ],
-    "onsen-after-golf_en": [
-        "hakone_country_club",
-        "beppu_golf_club",
-        "nasu_kogen_golf_club",
-    ],
-    "onsen-after-golf_ko": [
-        "hakone_country_club",
-        "beppu_golf_club",
-        "nasu_kogen_golf_club",
-    ],
-    "hokkaido-summer-golf_en": [
-        "eniwa_country_club",
-        "sapporo_golf_club_wattsu_course",
-        "nishinasuno_country_club",
-    ],
-    "hokkaido-summer-golf_ko": [
-        "eniwa_country_club",
-        "sapporo_golf_club_wattsu_course",
-        "nishinasuno_country_club",
-    ],
-    "booking-tips-japan_en": [
-        "pgm_golf_resort_okinawa",
-        "yokohama_country_club",
-        "abc_golf_club",
-    ],
-    "booking-tips-japan_ko": [
-        "pgm_golf_resort_okinawa",
-        "yokohama_country_club",
-        "abc_golf_club",
-    ],
-    "value-for-money-golf_en": ["abc_golf_club", "totsuka_country_club", "kotohira_golf_club"],
-    "value-for-money-golf_ko": ["abc_golf_club", "totsuka_country_club", "kotohira_golf_club"],
-    "women-friendly-golf_en": [
-        "yokohama_country_club",
-        "camellia_hills_country_club",
-        "phoenix_country_club",
-    ],
-    "women-friendly-golf_ko": [
-        "yokohama_country_club",
-        "camellia_hills_country_club",
-        "phoenix_country_club",
-    ],
+    f"{gid}_{lang}": list(ids)
+    for gid, ids in _GUIDE_RELATED_BASE.items()
+    for lang in ("en", "ko")
 }

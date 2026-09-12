@@ -151,23 +151,18 @@
         </section>
         {% endif %}
 
-        <!-- [수익화] GORA (+ KO: Rakuten eSIM). -->
+        <!-- [수익화] GORA. Other affiliates in one box below. -->
         <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">
             <h3 style="color: var(--accent-red); margin-bottom: 15px; font-size: 1.4rem; font-weight: 900;">
                 {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
             </h3>
             <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
-                {{ '골프 예약은 라쿠텐, 일본 eSIM은 라쿠텐에서 준비하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.' }}
+                {{ '골프 예약은 라쿠텐 고라에서 확인하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.' }}
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 10px;">
                 <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #bf0000;">
                     {{ '라쿠텐에서 골프 예약하기' if active_lang == 'ko' else 'Tee times on Rakuten GORA' }}
                 </a>
-                {% if active_lang == 'ko' %}
-                <a href="https://a.r10.to/hPsyyI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #1e3a8a;">
-                    라쿠텐에서 일본 eSIM 보기
-                </a>
-                {% endif %}
             </div>
             <p style="margin-top: 15px; font-size: 0.8rem; color: #aaa;">
                 * {{ '제휴 링크 · 새 탭에서 열림' if active_lang == 'ko' else 'Affiliate links · opens in a new tab' }}

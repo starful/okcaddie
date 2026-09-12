@@ -1,5 +1,10 @@
 ---
 date: '2026-05-22'
+lang: ko
+seo_title: 오키나와 골프장 순위 — 바다 전망·예약 가이드 | OKCaddie
+seo_description: 오키나와 해변 골프장·PGM 리조트 그린피·예약 팁. 오키나와 골프 여행 계획은 OKCaddie에서.
+title: 오키나와 바다 전망 해변 링크스 골프장 TOP 5
+summary: 오키나와 해변 링크스 골프장 TOP 5. 바다 전망과 예약 팁을 여행 계획용으로 정리했습니다.
 ---
 
 ---
