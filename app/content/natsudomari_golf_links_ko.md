@@ -1,8 +1,9 @@
 ---
 lang: ko
-seo_title: 나쓰도마리 골프 링크스 예약·티타임 (아오모리) | OKCaddie
-seo_description: 아오모리 나쓰도마리 링크스 가이드. 바람 공략, 그린피 참고, 아오모리·미사와 접근, 예약 팁.
-title: 나쓰도마리 골프 링크스 — 티타임·요금·방문자 가이드
+seo_title: Natsudomari Golf Links Tee Times, Aomori | OKCaddie
+seo_description: One of Japan's rare true links courses, on Mutsu Bay in Aomori. Wind
+  strategy, fee ranges, and access from Aomori or Misawa—check tee times and book.
+title: Natsudomari Golf Links, Aomori | True Links Golf | OKCaddie
 lat: '41.0144'
 lng: '140.8956'
 categories: 시사이드 링크스, 경관, 전략형
@@ -10,9 +11,11 @@ thumbnail: /static/images/natsudomari_golf_links.jpg
 address: 아오모리현 히가시쓰가루군 히라나이정
 date: '2026-07-12'
 booking: /booking/natsudomari_golf_links_ko
-summary: 무쓰만을 바라보는 북일본 링크스. 예약·요금 참고, 바람 공략, 접근 방법.
-description: 나쓰도마리 골프 링크스 실전 가이드. 티타임, 그린피, 바람 전략, 방문자 예약.
+summary: 무쓰만을 마주한, 일본에서 보기 드문 정통 링크스 코스. 바닷바람 공략과 예약 팁을 담았습니다.
+description: One of Japan's rare true links courses, on Mutsu Bay in Aomori. Wind
+  strategy, fee ranges, and access from Aomori or Misawa—check tee times and book.
 ---
+일본에서 진짜 **링크스 골프**를 만날 수 있는 몇 안 되는 코스, 나쓰도마리. 무쓰만의 바닷바람과 단단한 페어웨이가 스코틀랜드식 도전을 만듭니다. 아래에서 티타임과 바람 공략 팁을 확인하세요.
 
 아오모리 **나쓰도마리 골프 링크스**는 일본에서 손꼽히는 **스코틀랜드형 시사이드 링크스**입니다. 단단한 페어웨이, 해안 바람, 깊은 벙커, 무쓰만 전망이 핵심입니다.
 
