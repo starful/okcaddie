@@ -1,12 +1,13 @@
 ---
 date: '2026-06-19'
-description: 일본 골프장 드레스코드 A to Z! 클럽하우스 재킷·칼라 셔츠부터 남녀 복장 규정, 신발·양말 매너까지 라운딩 전 꼭 확인하세요.
-seo_description: 일본 골프장 복장 규정, 헷갈리시나요? 클럽하우스 재킷·셔츠부터 남녀 드레스코드까지 한 번에 정리했습니다.
-seo_title: 일본 골프장 드레스코드 완벽 가이드 – 클럽하우스 남녀 복장 규정
-title: 일본 골프장 드레스코드 완벽 가이드 | 남녀 복장 규정 총정리
+description: 'Free bilingual guides for golf in Japan: dress codes, booking steps,
+  etiquette rules, and the best seasons to play.'
+seo_description: 'Free bilingual guides for golf in Japan: dress codes, booking steps,
+  etiquette rules, and the best seasons to play.'
+seo_title: 'Japan Golf Guide: Dress Code, Booking & Etiquette Tips | OKCaddie'
+title: 'Japan Golf Guide: Dress Code, Booking & Etiquette Tips | OKCaddie'
 ---
-
-
+새로 일본 골프를 준비하신다면 여기서 시작하세요. 복장 규정부터 예약 절차, 매너, 계절별 추천까지 방문 전 꼭 알아야 할 실전 정보를 한 곳에 모았습니다.
 
 ---
 lang: "ko"

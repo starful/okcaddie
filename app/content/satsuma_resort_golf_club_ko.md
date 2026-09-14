@@ -6,16 +6,17 @@ date: '2026-04-15'
 lang: ko
 lat: '31.8944'
 lng: '130.4556'
-summary: 사츠마 리조트 골프 클럽의 역사, 전략, 럭셔리 시설을 망라하는 9,000자 분량의 종합 마스터 가이드입니다.
+summary: A practical guide to booking Satsuma Resort Golf Club in Kagoshima, covering
+  green fees, tee-time reservations, and course highlights for visiting golfers.
 thumbnail: /static/images/satsuma_resort_golf_club.jpg
-title: Satsuma Resort Golf Club, Kagoshima
-description: Plan your trip to Satsuma Resort Golf Club. Get the latest green fees,
-  booking guides, and expert course tips for your Kagoshima golf vacation.
-seo_title: 'Satsuma Resort Golf Club Kagoshima: Booking & Green Fees'
-seo_description: Book tee times at Satsuma Resort Golf Club in Kagoshima. Find green
-  fees, Rakuten GORA booking tips, course layouts, and travel guides.
+title: 'Satsuma Resort Golf Club Kagoshima: Green Fees & Booking Guide'
+description: See 2026 green fees, tee times & Rakuten GORA booking tips for Satsuma
+  Resort Golf Club in Kagoshima — plan your round today.
+seo_title: 'Satsuma Resort Golf Club Kagoshima: Green Fees & Booking Guide'
+seo_description: See 2026 green fees, tee times & Rakuten GORA booking tips for Satsuma
+  Resort Golf Club in Kagoshima — plan your round today.
 ---
-
+가고시마 여행에서 사츠마 리조트 골프 클럽 예약을 고민 중이신가요? 그린피, 티타임 예약 요령, 코스 특징까지 한눈에 정리했습니다. 라쿠텐 GORA를 통한 예약 팁과 함께, 이 명문 코스가 왜 규슈 골프 여행자들의 필수 코스인지 지금 바로 확인해보세요.
 
 ## 薩摩リゾートゴルフ倶楽部: 명문의 역사와 불변의 가치를 탐하다
 
