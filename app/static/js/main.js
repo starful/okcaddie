@@ -10,7 +10,8 @@ let state = {
     query: '',
     map: null,
     markers: [],
-    infoWindow: null
+    infoWindow: null,
+    mapFitted: false
 };
 
 function baseIdOf(course) {
@@ -64,7 +65,9 @@ async function initApp() {
  */
 function updateLanguageUI() {
     document.querySelectorAll('.theme-button').forEach(tBtn => {
-        const text = state.currentLang === 'ko' ? tBtn.dataset.ko : tBtn.dataset.en;
+        let text = tBtn.dataset.en;
+        if (state.currentLang === 'ko') text = tBtn.dataset.ko || text;
+        else if (state.currentLang === 'ja') text = tBtn.dataset.ja || text;
         const badgeHtml = tBtn.querySelector('.count-badge').outerHTML;
         tBtn.innerHTML = `${text} ${badgeHtml}`;
     });
@@ -77,8 +80,8 @@ async function initMap() {
     const { Map, InfoWindow } = await google.maps.importLibrary("maps");
     
     state.map = new Map(document.getElementById("map"), {
-        center: { lat: 36.5, lng: 138.0 },
-        zoom: 6,
+        center: { lat: 22, lng: 155 },
+        zoom: 3,
         mapId: "OKCADDIE_MAP_ID", // 필수: Google Cloud에서 발급받은 Map ID 입력
         disableDefaultUI: false,
         zoomControl: true,
@@ -181,6 +184,34 @@ async function updateMarkers(courses) {
 
         state.markers.push(marker);
     });
+
+    fitMapToCourses(courses);
+}
+
+function fitMapToCourses(courses) {
+    if (!state.map || state.mapFitted) return;
+    const pts = [];
+    for (const c of courses) {
+        const lat = Number(c.lat);
+        const lng = Number(c.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) continue;
+        if (lat === 0 && lng === 0) continue;
+        pts.push({ lat, lng: lng < 0 ? lng + 360 : lng });
+    }
+    if (!pts.length) return;
+
+    const minLat = Math.min(...pts.map((p) => p.lat));
+    const maxLat = Math.max(...pts.map((p) => p.lat));
+    const minLng = Math.min(...pts.map((p) => p.lng));
+    const maxLng = Math.max(...pts.map((p) => p.lng));
+    const west = minLng > 180 ? minLng - 360 : minLng;
+    const east = maxLng > 180 ? maxLng - 360 : maxLng;
+    const bounds = new google.maps.LatLngBounds(
+        { lat: minLat, lng: west },
+        { lat: maxLat, lng: east }
+    );
+    state.map.fitBounds(bounds, 56);
+    state.mapFitted = true;
 }
 
 /**

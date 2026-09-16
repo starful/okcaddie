@@ -7,7 +7,7 @@ import os
 SITE_URL = os.environ.get("SITE_URL", "https://okcaddie.net").rstrip("/")
 GCS_ASSET_PREFIX = "okcaddie"
 GOOGLE_MAPS_JS_API_KEY = os.environ.get("GOOGLE_MAPS_JS_API_KEY", "").strip()
-SUPPORTED_LANGS = frozenset({"en", "ko"})
+SUPPORTED_LANGS = frozenset({"en", "ko", "ja"})
 FAMILY_SITE_ID = "okcaddie"
 
 FEATURED_COURSE_BASE_IDS = (
@@ -68,6 +68,47 @@ GORA_SEARCH_NAMES: dict[str, str] = {
     "wakagi_golf_club": "若木ゴルフ倶楽部",
     "nikko_country_club": "日光カントリークラブ",
     "kyoto_golf_club_kamigamo": "京都ゴルフ倶楽部",
+    "hirono_golf_club": "廣野ゴルフ倶楽部",
+    "yokohama_country_club": "横浜カントリークラブ",
+    "hakone_country_club": "箱根カントリー倶楽部",
+    "tokyo_golf_club": "東京ゴルフ倶楽部",
+    "kasumigaseki_country_club": "霞ヶ関カンツリー倶楽部",
+    "naruo_golf_club": "鳴尾ゴルフ倶楽部",
+    "kawana_hotel_golf_course_fuji_course": "川奈ホテルゴルフコース",
+    "sagamihara_golf_club": "相模原ゴルフクラブ",
+    "fujizakura_country_club": "富士桜カントリー倶楽部",
+    "camellia_hills_country_club": "カメリアヒルズカントリークラブ",
+    "keya_golf_club": "芥屋ゴルフ倶楽部",
+    "koganei_golf_club": "小金井カントリー倶楽部",
+    "musashi_country_club_sasai": "武蔵カントリークラブ",
+    "nidom_classic_course": "ニドムクラシックコース",
+    "okinawa_country_club": "沖縄カントリークラブ",
+    "sapporo_golf_club_wattsu_course": "札幌ゴルフ倶楽部",
+    "takarazuka_golf_club": "宝塚ゴルフ倶楽部",
+    "aso_resort_grandvrio": "阿蘇リゾートグランヴィリオ",
+    "karuizawa_asama_golf_course": "軽井沢浅間ゴルフコース",
+    "narita_golf_club": "成田ゴルフクラブ",
+    "nasu_golf_club": "那須ゴルフ倶楽部",
+    "nasu_kogen_golf_club": "那須高原カントリークラブ",
+    "phoenix_country_club": "フェニックスカントリークラブ",
+    "otaru_golf_club": "小樽カントリー倶楽部",
+    "sapporo_country_club": "札幌カントリー倶楽部",
+    "sendai_country_club": "仙台カントリークラブ",
+    "zao_country_club": "蔵王カントリークラブ",
+    "fuji_country_club": "富士カントリークラブ",
+    "enoshima_golf_club": "江の島ゴルフクラブ",
+    "hiratsuka_fuji_golf_course": "平塚富士ゴルフコース",
+    "beppu_golf_club": "別府ゴルフ倶楽部",
+    "nago_bay_golf_course": "名護湾ゴルフコース",
+    "ryukyu_golf_club": "琉球ゴルフ倶楽部",
+    "taiheiyo_club_gotemba_course": "太平洋クラブ御殿場",
+    "the_windsor_golf_course": "ザ・ウィンザーホテル洞爺",
+    "hokkaido_classic_golf_club": "北海道クラシックゴルフクラブ",
+    "appi_kogen_golf_club": "安比高原ゴルフクラブ",
+    "ashinoko_country_club": "芦ノ湖カントリークラブ",
+    "katayamazu_golf_club": "片山津ゴルフ倶楽部",
+    "fuchu_country_club": "府中カントリークラブ",
+    "nishinomiya_country_club": "西宮カントリー倶楽部",
 }
 
 # Retired guides: 301 to guide hub (or a successor) instead of soft-404.

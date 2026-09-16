@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Shizuoka Hamamatsu Course"
-lat: "34.7544"
-lng: "137.7556"
-categories: "Private Club, Forest Course, Historic"
-thumbnail: "/static/images/shizuoka_hamamatsu_course.jpg"
-address: "Hamamatsu, Shizuoka"
-date: "2026-09-04"
-booking: "/booking/shizuoka_hamamatsu_course_en"
-summary: "A private forest club near Hamamatsu that takes visitors through hotel or member introduction; check live fees before booking."
-seo_title: "Shizuoka Hamamatsu Course: Access, Fees & Booking Guide"
-seo_description: "Plan a round at this private forest club near Hamamatsu, Shizuoka — access times, fee ranges, dress code, and how to book a tee time."
+lang: en
+title: Shizuoka Hamamatsu Course
+lat: '34.7544'
+lng: '137.7556'
+categories: Private Club, Forest Course, Historic
+thumbnail: /static/images/shizuoka_hamamatsu_course.jpg
+address: Hamamatsu, Shizuoka
+date: '2026-09-14'
+booking: /booking/shizuoka_hamamatsu_course_en
+summary: A private forest club near Hamamatsu that takes visitors through hotel or
+  member introduction; check live fees before booking.
+seo_title: 'Shizuoka Hamamatsu Course: Access, Fees & Booking Guide'
+seo_description: Plan a round at this private forest club near Hamamatsu, Shizuoka
+  — access times, fee ranges, dress code, and how to book a tee time.
 ---
+
 
 ## Quick Facts
 

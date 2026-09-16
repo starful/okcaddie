@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Shizuoka Hamamatsu Course"
-lat: "34.7544"
-lng: "137.7556"
-categories: "Private Club, Forest Course, Historic"
-thumbnail: "/static/images/shizuoka_hamamatsu_course.jpg"
-address: "Hamamatsu, Shizuoka"
-date: "2026-09-04"
-booking: "/booking/shizuoka_hamamatsu_course_ko"
-summary: "하마마츠 숲속 프라이빗 클럽, 소개·패키지 예약 기반이며 그린피는 평일 1.5만~2.5만엔대부터 시즌별 변동."
-seo_title: "하마마츠 골프장 예약 가이드 | 그린피·접근·드레스코드"
-seo_description: "시즈오카 하마마츠 숲 코스 프라이빗 클럽 완전 정리: 그린피 범위, 예약 방법, 하마마츠역 접근 시간, 복장 규정까지."
+lang: ko
+title: Shizuoka Hamamatsu Course
+lat: '34.7544'
+lng: '137.7556'
+categories: Private Club, Forest Course, Historic
+thumbnail: /static/images/shizuoka_hamamatsu_course.jpg
+address: Hamamatsu, Shizuoka
+date: '2026-09-14'
+booking: /booking/shizuoka_hamamatsu_course_ko
+summary: 하마마츠 숲속 프라이빗 클럽, 소개·패키지 예약 기반이며 그린피는 평일 1.5만~2.5만엔대부터 시즌별 변동.
+seo_title: 하마마츠 골프장 예약 가이드 | 그린피·접근·드레스코드
+seo_description: '시즈오카 하마마츠 숲 코스 프라이빗 클럽 완전 정리: 그린피 범위, 예약 방법, 하마마츠역 접근 시간, 복장 규정까지.'
 ---
+
 
 ## 핵심 정보 (Quick Facts)
 

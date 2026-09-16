@@ -12,7 +12,7 @@ from flask import Blueprint, abort, jsonify, redirect, render_template, request
 
 try:
     from ..badges import enrich_item
-    from ..a8_affiliate import a8_banners_context
+    from ..a8_affiliate import a8_banners_context, a8_dest_url
     from ..config import (
         AREA_MAP,
         FAMILY_SITE_ID,
@@ -25,8 +25,16 @@ try:
     )
     from ..course_content import load_course_post_file
     from ..data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
+    from ..gora_overseas import COUNTRY_ISO, is_overseas_slug, overseas_booking_dest
     from ..family_sites import cross_links_for, inject_family_context
-    from ..ids import extract_prefecture, resolve_course_id, resolve_guide_id, split_localized_id
+    from ..ids import (
+        extract_prefecture,
+        lang_from_course_id,
+        resolve_course_id,
+        resolve_guide_id,
+        split_localized_id,
+        course_href,
+    )
     from ..paths import CONTENT_DIR
     from ..text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from ..view_helpers import (
@@ -42,7 +50,7 @@ try:
     )
 except ImportError:
     from badges import enrich_item
-    from a8_affiliate import a8_banners_context
+    from a8_affiliate import a8_banners_context, a8_dest_url
     from config import (
         AREA_MAP,
         FAMILY_SITE_ID,
@@ -55,8 +63,16 @@ except ImportError:
     )
     from course_content import load_course_post_file
     from data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
+    from gora_overseas import COUNTRY_ISO, is_overseas_slug, overseas_booking_dest
     from family_sites import cross_links_for, inject_family_context
-    from ids import extract_prefecture, resolve_course_id, resolve_guide_id, split_localized_id
+    from ids import (
+        extract_prefecture,
+        lang_from_course_id,
+        resolve_course_id,
+        resolve_guide_id,
+        split_localized_id,
+        course_href,
+    )
     from paths import CONTENT_DIR
     from text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from view_helpers import (
@@ -145,10 +161,11 @@ def courses_index():
 
 
 def _lang_aware_redirect(dest: str, lang: str):
-    if lang == "ko" and "?" not in dest:
-        dest = f"{dest}?lang=ko"
-    elif lang == "ko" and "lang=" not in dest:
-        dest = f"{dest}&lang=ko"
+    if lang in ("ko", "ja"):
+        if "?" not in dest:
+            dest = f"{dest}?lang={lang}"
+        elif "lang=" not in dest:
+            dest = f"{dest}&lang={lang}"
     return redirect(dest, code=301)
 
 
@@ -184,7 +201,7 @@ def course_detail(course_ref):
     post_data = dict(post_obj.metadata)
 
     post_content = re.sub(
-        r"^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary|youtube_id):.*$",
+        r"^(lang|title|lat|lng|categories|thumbnail|address|date|booking|summary|youtube_id|gora_cid|gora_name|country):.*$",
         "",
         post_obj.content,
         flags=re.MULTILINE | re.IGNORECASE,
@@ -193,7 +210,13 @@ def course_detail(course_ref):
 
     post_data["id"] = course_id
     post_data["base_id"] = base_id
-    post_data["lang"] = "ko" if course_id.endswith("_ko") else "en"
+    post_data["lang"] = lang_from_course_id(course_id)
+    country = str(post_data.get("country") or "jp").strip().lower() or "jp"
+    post_data["country"] = country
+    post_data["country_iso"] = COUNTRY_ISO.get(country, "JP")
+    post_data["is_overseas"] = country != "jp" or bool(
+        str(post_data.get("gora_cid") or "").strip()
+    )
     post_data["title"] = humanize_title(post_data.get("title", ""))
     post_data["summary"] = short_summary(
         clean_summary(post_data.get("summary", ""), post_data["title"], post_data["lang"]),
@@ -241,7 +264,7 @@ def course_detail(course_ref):
 
     related_guides = [g for g in CACHED_GUIDES if g.get("lang") == post_data["lang"]][:3]
 
-    course_path = f"/course/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
+    course_path = course_href(base_id, post_data["lang"])
     share_ctx = share_context(course_id, post_data["title"], post_data["lang"], course_path, base_id=base_id)
 
     return render_template(
@@ -296,11 +319,11 @@ def course_social_card(course_ref):
 
     post_obj, _ = load_course_post_file(md_path)
     post_data = dict(post_obj.metadata)
-    post_data["lang"] = "ko" if course_id.endswith("_ko") else "en"
+    post_data["lang"] = lang_from_course_id(course_id)
     post_data["title"] = humanize_title(post_data.get("title", ""))
     post_data = attach_seo_fields(post_data, page_kind="course")
 
-    course_path = f"/course/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
+    course_path = course_href(base_id, post_data["lang"])
     card_path_val = card_path(base_id, post_data["lang"])
 
     return render_template(
@@ -317,6 +340,106 @@ def course_social_card(course_ref):
 
 _JP_COURSE_NAME = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 _HANGUL = re.compile(r"[\uac00-\ud7af]")
+
+# Prefecture tokens for slug/address. Longer keys first. Never substring-match
+# (sagamihara must not become Saga; body copy saying "Tokyo" must not steal Hyogo).
+_EN_AREA: tuple[tuple[str, int], ...] = (
+    ("hokkaido", 1),
+    ("kanagawa", 14),
+    ("yamanashi", 19),
+    ("kagoshima", 46),
+    ("yamaguchi", 35),
+    ("tokushima", 36),
+    ("hiroshima", 34),
+    ("ishikawa", 17),
+    ("fukuoka", 40),
+    ("fukushima", 7),
+    ("nagasaki", 42),
+    ("miyazaki", 45),
+    ("kumamoto", 43),
+    ("wakayama", 30),
+    ("yamagata", 6),
+    ("shizuoka", 22),
+    ("niigata", 15),
+    ("ibaraki", 8),
+    ("tochigi", 9),
+    ("saitama", 11),
+    ("okayama", 33),
+    ("tottori", 31),
+    ("shimane", 32),
+    ("miyagi", 4),
+    ("aomori", 2),
+    ("akita", 5),
+    ("iwate", 3),
+    ("nagano", 20),
+    ("toyama", 16),
+    ("gifu", 21),
+    ("aichi", 23),
+    ("shiga", 25),
+    ("kyoto", 26),
+    ("osaka", 27),
+    ("hyogo", 28),
+    ("nara", 29),
+    ("oita", 44),
+    ("saga", 41),
+    ("ehime", 38),
+    ("kagawa", 37),
+    ("kochi", 39),
+    ("chiba", 12),
+    ("tokyo", 13),
+    ("gunma", 10),
+    ("mie", 24),
+    ("okinawa", 47),
+    ("fukui", 18),
+)
+
+_PLACE_AREA: tuple[tuple[str, int], ...] = (
+    ("sagamihara", 14),
+    ("yokohama", 14),
+    ("hakone", 14),
+    ("takarazuka", 28),
+    ("nishinomiya", 28),
+    ("amagasaki", 28),
+    ("karuizawa", 20),
+    ("hamamatsu", 22),
+    ("gotemba", 22),
+    ("sapporo", 1),
+    ("sendai", 4),
+    ("nagoya", 23),
+    ("narita", 12),
+    ("beppu", 44),
+    ("kobe", 28),
+    ("nago", 47),
+    ("nasu", 9),
+    ("ito", 22),
+    ("miki", 28),
+)
+
+
+def _word_in(blob: str, token: str) -> bool:
+    return re.search(rf"(?<![a-z0-9]){re.escape(token)}(?![a-z0-9])", blob) is not None
+
+
+def gora_area_code(content: str, *, base_id: str, course_id: str = "") -> int:
+    """Prefecture for GORA area[] — address and slug only, never article body."""
+    address = _yaml_field(content, "address").lower()
+    parts = content.split("---", 2)
+    frontmatter = parts[1].lower() if len(parts) >= 3 else ""
+    loc_blob = f"{address} {frontmatter}"
+    for token, code in _EN_AREA + _PLACE_AREA:
+        if _word_in(loc_blob, token):
+            return code
+    tokens = set(base_id.lower().replace("-", "_").split("_"))
+    tokens.update((course_id or "").lower().replace("-", "_").split("_"))
+    tokens.discard("en")
+    tokens.discard("ko")
+    for token, code in _EN_AREA + _PLACE_AREA:
+        if token in tokens:
+            return code
+    pref = extract_prefecture(frontmatter)
+    if pref:
+        return AREA_MAP.get(pref, 0)
+    return 0
 
 
 def _yaml_field(content: str, key: str) -> str:
@@ -369,7 +492,7 @@ def booking_redirect(course_id):
     md_path = os.path.join(CONTENT_DIR, f"{course_id}.md")
     if not os.path.exists(md_path):
         # Accept bare base_id or wrong-suffix IDs from old share links.
-        for candidate in (f"{base_id}_en", f"{base_id}_ko"):
+        for candidate in (f"{base_id}_en", f"{base_id}_ko", f"{base_id}_ja"):
             alt = os.path.join(CONTENT_DIR, f"{candidate}.md")
             if os.path.exists(alt):
                 md_path = alt
@@ -381,7 +504,7 @@ def booking_redirect(course_id):
         from ..paths import GUIDE_DIR
     except ImportError:
         from paths import GUIDE_DIR
-    for candidate in (course_id, f"{base_id}_en", f"{base_id}_ko"):
+    for candidate in (course_id, f"{base_id}_en", f"{base_id}_ko", f"{base_id}_ja"):
         gp = os.path.join(GUIDE_DIR, f"{candidate}.md")
         if os.path.exists(gp):
             guide_path = gp
@@ -389,78 +512,22 @@ def booking_redirect(course_id):
 
     content = ""
     path = md_path if os.path.exists(md_path) else guide_path
+    gora_cid = ""
     if path and os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             content = f.read()
-        pref = extract_prefecture(content)
-        if pref:
-            area_code = AREA_MAP.get(pref, 0)
+        gora_cid = _yaml_field(content, "gora_cid")
+
+    if gora_cid or is_overseas_slug(base_id):
+        return _noindex_redirect(
+            overseas_booking_dest(gora_cid=gora_cid, slug=base_id)
+        )
+
+    if path and os.path.exists(path):
+        area_code = gora_area_code(content, base_id=base_id, course_id=course_id)
         search_name = gora_search_name(
             content, from_course_md=path == md_path, base_id=base_id
         )
-
-    if area_code == 0:
-        # Slug first — article copy often says "from Tokyo" and would steal the area.
-        slug_blob = f"{base_id} {course_id}".lower().replace("-", "_")
-        body_blob = content[:2000].lower().replace("-", "_")
-        en_hints = (
-            ("hokkaido", 1),
-            ("okinawa", 47),
-            ("tokyo", 13),
-            ("kanagawa", 14),
-            ("chiba", 12),
-            ("osaka", 27),
-            ("kyoto", 26),
-            ("hyogo", 28),
-            ("aichi", 23),
-            ("fukuoka", 40),
-            ("nagano", 20),
-            ("shizuoka", 22),
-            ("miyagi", 4),
-            ("hiroshima", 34),
-            ("ishikawa", 17),
-            ("tochigi", 9),
-            ("gunma", 10),
-            ("ibaraki", 8),
-            ("yamanashi", 19),
-            ("niigata", 15),
-            ("kumamoto", 43),
-            ("oita", 44),
-            ("kagoshima", 46),
-            ("mie", 24),
-            ("gifu", 21),
-            ("nara", 29),
-            ("wakayama", 30),
-            ("saga", 41),
-            ("nagasaki", 42),
-            ("miyazaki", 45),
-            ("yamaguchi", 35),
-            ("okayama", 33),
-            ("kagawa", 37),
-            ("ehime", 38),
-            ("kochi", 39),
-            ("tokushima", 36),
-            ("tottori", 31),
-            ("shimane", 32),
-            ("fukui", 18),
-            ("toyama", 16),
-            ("akita", 5),
-            ("aomori", 2),
-            ("iwate", 3),
-            ("yamagata", 6),
-            ("fukushima", 7),
-            ("saitama", 11),
-            ("shiga", 25),
-        )
-        for token, code in en_hints:
-            if token in slug_blob:
-                area_code = code
-                break
-        if area_code == 0:
-            for token, code in en_hints:
-                if token in body_blob:
-                    area_code = code
-                    break
 
     target_date = datetime.now() + timedelta(days=14)
 
@@ -486,6 +553,15 @@ def booking_redirect(course_id):
     )
 
     return _noindex_redirect(final_url)
+
+
+@courses_bp.route("/go/<banner_id>")
+def affiliate_go(banner_id):
+    """Crawlers must not hit A8 click URLs; robots.txt disallows /go/."""
+    dest = a8_dest_url(banner_id)
+    if not dest:
+        abort(404)
+    return _noindex_redirect(dest)
 
 
 @courses_bp.route("/travel/<item_type>/<course_id>")

@@ -99,8 +99,9 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert "Agoda — 골프장 주변 숙소" in html
     assert "라쿠텐 eSIM" in html
     assert "라쿠텐 트래블" in html
-    assert "a.r10.to/hPsyyI" in html
-    assert "a.r10.to/h5didY" in html
+    assert 'href="/go/agoda"' in html
+    assert 'href="/go/rakuten_travel"' in html
+    assert 'href="/go/rakuten_esim"' in html
     assert "TORA" not in html
     assert "골프 여행 필수품" not in html
 
@@ -131,6 +132,7 @@ def test_robots_txt_disallows_affiliate_paths(client):
     assert "Disallow: /api/" in body
     assert "Disallow: /booking/" in body
     assert "Disallow: /travel/" in body
+    assert "Disallow: /go/" in body
 
 
 def test_ads_txt(client):
@@ -249,6 +251,30 @@ def test_booking_redirect_uses_japanese_catalog_name(client):
     assert "Yamanashi Fuji Golf" not in client.get("/booking/yamanashi_fuji_golf_en").headers.get("Location", "")
 
 
+def test_booking_area_not_stolen_from_body(client):
+    hirono = _gora_query(client.get("/booking/hirono_golf_club_en").headers.get("Location", ""))
+    assert hirono.get("area[]") == ["28"]
+    assert hirono.get("search_c_name") == ["廣野ゴルフ倶楽部"]
+
+    natsu = _gora_query(
+        client.get("/booking/natsudomari_golf_links_en").headers.get("Location", "")
+    )
+    assert natsu.get("area[]") == ["2"]
+    assert natsu.get("search_c_name") == ["夏泊ゴルフリンクス"]
+
+    saga = _gora_query(client.get("/booking/sagamihara_golf_club_en").headers.get("Location", ""))
+    assert saga.get("area[]") == ["14"]
+    assert saga.get("search_c_name") == ["相模原ゴルフクラブ"]
+
+
+def test_affiliate_go_wraps_agoda(client):
+    r = client.get("/go/agoda")
+    assert r.status_code in (301, 302)
+    assert "noindex" in r.headers.get("X-Robots-Tag", "").lower()
+    assert "px.a8.net" in r.headers.get("Location", "")
+    assert client.get("/go/not-a-banner").status_code == 404
+
+
 def test_booking_omits_chiba_when_area_unknown(client):
     q = _gora_query(client.get("/booking/not_a_real_course_en").headers.get("Location", ""))
     assert "area[]" not in q
@@ -262,4 +288,55 @@ def test_legacy_travel_path_goes_to_gora_not_agoda(client):
     assert "hb.afl.rakuten.co.jp/hgc/" in loc
     assert "a8.net" not in loc
     assert _gora_query(loc).get("search_c_name") == ["PGMゴルフリゾート沖縄"]
+
+
+def test_overseas_booking_uses_gora_cid_not_japan_search(client):
+    from urllib.parse import parse_qs, unquote, urlparse
+
+    r = client.get("/booking/montgomerie_links_vietnam_en")
+    loc = r.headers.get("Location", "")
+    assert r.status_code in (301, 302)
+    assert "noindex" in r.headers.get("X-Robots-Tag", "").lower()
+    assert "hb.afl.rakuten.co.jp/hgc/" in loc
+    dest = unquote(parse_qs(urlparse(loc).query).get("pc", [""])[0])
+    assert "c_id/520472" in dest
+    assert "search/result" not in dest
+    assert "gora.golf.rakuten.co.jp/overseas" not in dest
+
+    japan = client.get("/booking/pgm_golf_resort_okinawa_en").headers.get("Location", "")
+    assert "search/result" in unquote(parse_qs(urlparse(japan).query).get("pc", [""])[0])
+
+
+def test_overseas_course_page_keeps_gora_button(client):
+    r = client.get("/course/montgomerie_links_vietnam")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "Check on Rakuten GORA" in html
+    assert 'href="/booking/montgomerie_links_vietnam_en"' in html
+    assert "Opens Rakuten GORA overseas booking" in html
+    assert "addressCountry\": \"VN\"" in html or 'addressCountry": "VN"' in html
+
+    ko = client.get("/course/montgomerie_links_vietnam?lang=ko")
+    assert ko.status_code == 200
+    ko_html = ko.get_data(as_text=True)
+    assert "라쿠텐 GORA 해외 예약으로 연결됩니다" in ko_html
+    assert "라쿠텐에서 골프 예약하기" in ko_html
+
+
+def test_overseas_ja_page_and_booking(client):
+    from urllib.parse import parse_qs, unquote, urlparse
+
+    r = client.get("/course/montgomerie_links_vietnam?lang=ja")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "楽天GORAで予約" in html
+    assert "楽天GORA海外予約へ移動します" in html
+    assert 'hreflang="ja"' in html
+    assert "このページは日本国内コースではありません" in html
+
+    booking = client.get("/booking/montgomerie_links_vietnam_ja")
+    loc = booking.headers.get("Location", "")
+    assert booking.status_code in (301, 302)
+    dest = unquote(parse_qs(urlparse(loc).query).get("pc", [""])[0])
+    assert "c_id/520472" in dest
 

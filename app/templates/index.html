@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 {{ total_course_count }}곳 지도. 그린피·티타임·라쿠텐 고라 예약과 EN/KO 코스 가이드를 한곳에서.{% else %}Japan golf map: {{ total_course_count }}+ courses—green fees, tee times, Rakuten GORA booking, EN/KO course guides.{% endif %}">
+    <meta name="description" content="{% if active_lang == 'ko' %}일본 골프장 {{ total_course_count }}곳 지도. 그린피·티타임·라쿠텐 고라 예약과 EN/KO/JA 코스 가이드를 한곳에서.{% elif active_lang == 'ja' %}日本のゴルフ場 {{ total_course_count }}コースの地図。グリーンフィー・ティータイム・楽天GORA予約とコースガイドを一箇所で。{% else %}Japan golf map: {{ total_course_count }}+ courses—green fees, tee times, Rakuten GORA booking, EN/KO/JA course guides.{% endif %}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 지도 · 200곳 · 예약 | OKCaddie{% else %}Japan Golf Map · 200+ Courses · Booking | OKCaddie{% endif %}">
-    <meta property="og:description" content="{% if (active_lang or 'en') == 'ko' %}일본 골프장 200곳 지도. 그린피·예약 링크와 영문/한국어 코스 가이드.{% else %}Live map of 200+ Japan golf courses—green fees, booking links, EN/KO course guides.{% endif %}">
-    {% set canonical_url = 'https://okcaddie.net/?lang=ko' if (active_lang or 'en') == 'ko' else 'https://okcaddie.net/' %}
+    <meta property="og:title" content="{% if active_lang == 'ko' %}일본 골프장 지도 · 200곳 · 예약 | OKCaddie{% elif active_lang == 'ja' %}日本ゴルフ地図 · 200コース · 予約 | OKCaddie{% else %}Japan Golf Map · 200+ Courses · Booking | OKCaddie{% endif %}">
+    <meta property="og:description" content="{% if active_lang == 'ko' %}일본 골프장 200곳 지도. 그린피·예약 링크와 영문/한국어/일본어 코스 가이드.{% elif active_lang == 'ja' %}日本ゴルフ場200コースの地図。グリーンフィー・予約リンクとEN/KO/JAコースガイド。{% else %}Live map of 200+ Japan golf courses—green fees, booking links, EN/KO/JA course guides.{% endif %}">
+    {% if active_lang == 'ko' %}
+    {% set canonical_url = 'https://okcaddie.net/?lang=ko' %}
+    {% elif active_lang == 'ja' %}
+    {% set canonical_url = 'https://okcaddie.net/?lang=ja' %}
+    {% else %}
+    {% set canonical_url = 'https://okcaddie.net/' %}
+    {% endif %}
     <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/">
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/?lang=ko">
+    <link rel="alternate" hreflang="ja" href="https://okcaddie.net/?lang=ja">
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/">
     <meta name="agd-partner-manual-verification" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -23,7 +30,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <title>{% if (active_lang or 'en') == 'ko' %}일본 골프장 지도 · {{ total_course_count }}곳 · 그린피·예약 | OKCaddie{% else %}Japan Golf Map · {{ total_course_count }}+ Courses · Green Fees & Booking | OKCaddie{% endif %}</title>
+    <title>{% if active_lang == 'ko' %}일본 골프장 지도 · {{ total_course_count }}곳 · 그린피·예약 | OKCaddie{% elif active_lang == 'ja' %}日本ゴルフ地図 · {{ total_course_count }}コース · グリーンフィー・予約 | OKCaddie{% else %}Japan Golf Map · {{ total_course_count }}+ Courses · Green Fees & Booking | OKCaddie{% endif %}</title>
     <link rel="stylesheet" href="/static/css/style.css">
     <script type="application/ld+json">
         {
@@ -31,7 +38,7 @@
           "@type": "WebSite",
           "name": "OKCaddie",
           "url": "https://okcaddie.net/",
-          "inLanguage": ["en", "ko"]
+          "inLanguage": ["en", "ko", "ja"]
         }
     </script>
 
@@ -78,17 +85,17 @@
         <div class="content-wrapper">
             <!-- 소개 박스 -->
             <article class="intro-box">
-                <h2>⛳ {{ '나에게 맞는 일본 골프장을 찾아보세요' if active_lang == 'ko' else 'Find Your Dream Golf Round in Japan' }}</h2>
-                <p>{{ total_course_count ~ '개 코스 지도·그린피·예약 가이드. ' if active_lang == 'ko' else (total_course_count ~ '+ courses on the map—green fees & booking. ') }}<a href="{{ '/courses?lang=ko' if active_lang == 'ko' else '/courses' }}">{{ '전체 목록 보기 →' if active_lang == 'ko' else 'Browse full directory →' }}</a></p>
+                <h2>⛳ {% if active_lang == 'ko' %}나에게 맞는 일본 골프장을 찾아보세요{% elif active_lang == 'ja' %}あなたに合う日本のゴルフ場を見つけよう{% else %}Find Your Dream Golf Round in Japan{% endif %}</h2>
+                <p>{% if active_lang == 'ko' %}{{ total_course_count }}개 코스 지도·그린피·예약 가이드. {% elif active_lang == 'ja' %}{{ total_course_count }}コースの地図・グリーンフィー・予約ガイド。{% else %}{{ total_course_count }}+ courses on the map—green fees & booking. {% endif %}<a href="{% if active_lang == 'ko' %}/courses?lang=ko{% elif active_lang == 'ja' %}/courses?lang=ja{% else %}/courses{% endif %}">{% if active_lang == 'ko' %}전체 목록 보기 →{% elif active_lang == 'ja' %}一覧を見る →{% else %}Browse full directory →{% endif %}</a></p>
             </article>
 
             {% if region_guides %}
             <section class="editor-picks-section home-guide-pins" aria-labelledby="region-guides-heading">
-                <h2 id="region-guides-heading" class="section-title">🗾 {{ '지역으로 고르기' if active_lang == 'ko' else 'Golf by region' }}</h2>
-                <p class="editor-picks-lead">{{ '홋카이도부터 오키나와까지, 여행자가 실제로 고르는 묶음입니다.' if active_lang == 'ko' else 'Hokkaido to Okinawa — the clusters visitors actually pick.' }}</p>
+                <h2 id="region-guides-heading" class="section-title">🗾 {% if active_lang == 'ko' %}지역으로 고르기{% elif active_lang == 'ja' %}地域で選ぶ{% else %}Golf by region{% endif %}</h2>
+                <p class="editor-picks-lead">{% if active_lang == 'ko' %}홋카이도부터 오키나와까지, 여행자가 실제로 고르는 묶음입니다.{% elif active_lang == 'ja' %}北海道から沖縄まで、旅行者が実際に選ぶエリア分けです。{% else %}Hokkaido to Okinawa — the clusters visitors actually pick.{% endif %}</p>
                 <div class="guide-highlight-grid editor-picks-grid">
                     {% for guide in region_guides %}
-                    <a href="/guide/{{ guide.base_id }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card{% if guide.is_new %} is-new{% endif %}">
+                    <a href="/guide/{{ guide.base_id }}{% if guide.lang == 'ko' %}?lang=ko{% elif guide.lang == 'ja' %}?lang=ja{% endif %}" class="guide-highlight-card{% if guide.is_new %} is-new{% endif %}">
                         {% if guide.is_new %}<span class="badge-new badge-new--float">New</span>{% endif %}
                         <div class="guide-img-wrapper card-visual">
                             <img src="{{ guide.image }}" alt="{{ guide.title }}" loading="lazy">
@@ -105,11 +112,11 @@
 
             {% if purpose_guides %}
             <section class="editor-picks-section home-guide-pins" aria-labelledby="purpose-guides-heading">
-                <h2 id="purpose-guides-heading" class="section-title">🎯 {{ '목적별로 보기' if active_lang == 'ko' else 'Play with a purpose' }}</h2>
-                <p class="editor-picks-lead">{{ '가성비·온천·한국어 응대·겨울 라운드.' if active_lang == 'ko' else 'Value, onsen after the round, Korean-friendly staff, winter golf.' }}</p>
+                <h2 id="purpose-guides-heading" class="section-title">🎯 {% if active_lang == 'ko' %}목적별로 보기{% elif active_lang == 'ja' %}目的で選ぶ{% else %}Play with a purpose{% endif %}</h2>
+                <p class="editor-picks-lead">{% if active_lang == 'ko' %}가성비·온천·한국어 응대·겨울 라운드.{% elif active_lang == 'ja' %}コスパ・温泉・冬ラウンドなど目的別。{% else %}Value, onsen after the round, Korean-friendly staff, winter golf.{% endif %}</p>
                 <div class="guide-highlight-grid editor-picks-grid">
                     {% for guide in purpose_guides %}
-                    <a href="/guide/{{ guide.base_id }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card{% if guide.is_new %} is-new{% endif %}">
+                    <a href="/guide/{{ guide.base_id }}{% if guide.lang == 'ko' %}?lang=ko{% elif guide.lang == 'ja' %}?lang=ja{% endif %}" class="guide-highlight-card{% if guide.is_new %} is-new{% endif %}">
                         {% if guide.is_new %}<span class="badge-new badge-new--float">New</span>{% endif %}
                         <div class="guide-img-wrapper card-visual">
                             <img src="{{ guide.image }}" alt="{{ guide.title }}" loading="lazy">
@@ -122,8 +129,8 @@
                     {% endfor %}
                 </div>
                 <div class="view-all-box">
-                    <a href="{{ '/guide?lang=ko' if active_lang == 'ko' else '/guide' }}" class="view-all-btn">
-                        {{ '전체 가이드 보기 📖' if active_lang == 'ko' else 'View All Guides 📖' }}
+                    <a href="{% if active_lang == 'ko' %}/guide?lang=ko{% elif active_lang == 'ja' %}/guide?lang=ja{% else %}/guide{% endif %}" class="view-all-btn">
+                        {% if active_lang == 'ko' %}전체 가이드 보기 📖{% elif active_lang == 'ja' %}ガイド一覧 📖{% else %}View All Guides 📖{% endif %}
                     </a>
                 </div>
             </section>
@@ -131,8 +138,8 @@
 
             {% if featured_courses %}
             <section class="editor-picks-section" aria-labelledby="editor-picks-heading">
-                <h2 id="editor-picks-heading" class="section-title">⭐ {{ '인기 코스 가이드' if active_lang == 'ko' else 'Popular course guides' }}</h2>
-                <p class="editor-picks-lead">{{ '그린피·예약·코스 공략 — 검색 여행자를 위해 자주 찾는 코스입니다.' if active_lang == 'ko' else 'Green fees, booking & course tips—frequently searched trip-planning pages.' }}</p>
+                <h2 id="editor-picks-heading" class="section-title">⭐ {% if active_lang == 'ko' %}인기 코스 가이드{% elif active_lang == 'ja' %}人気コースガイド{% else %}Popular course guides{% endif %}</h2>
+                <p class="editor-picks-lead">{% if active_lang == 'ko' %}그린피·예약·코스 공략 — 검색 여행자를 위해 자주 찾는 코스입니다.{% elif active_lang == 'ja' %}グリーンフィー・予約・コース攻略 — よく検索される旅行向けページです。{% else %}Green fees, booking & course tips—frequently searched trip-planning pages.{% endif %}</p>
                 <div class="guide-highlight-grid editor-picks-grid">
                     {% for course in featured_courses %}
                     <a href="{{ course.link }}" class="guide-highlight-card{% if course.is_new %} is-new{% endif %}">
@@ -154,16 +161,16 @@
 
             <!-- 골프장 리스트 섹션 -->
             <section id="list-section">
-                <h2 class="list-title">⛳ {{ '지도에서 코스 탐색' if active_lang == 'ko' else 'Explore courses on the map' }}</h2>
+                <h2 class="list-title">⛳ {% if active_lang == 'ko' %}지도에서 코스 탐색{% elif active_lang == 'ja' %}地図でコースを探す{% else %}Explore courses on the map{% endif %}</h2>
                 {% if crawl_course_links %}
-                <nav class="course-crawl-nav" aria-label="{{ '코스 목록 (크롤러·검색)' if active_lang == 'ko' else 'Course index for search crawlers' }}">
-                    <p class="course-crawl-nav__label">{{ '지도에 등록된 코스 (' ~ crawl_course_links|length ~ '+)' if active_lang == 'ko' else ('Courses on the map (' ~ crawl_course_links|length ~ '+ listed)') }}</p>
+                <nav class="course-crawl-nav" aria-label="{% if active_lang == 'ko' %}코스 목록 (크롤러·검색){% elif active_lang == 'ja' %}コース一覧（検索・クローラー）{% else %}Course index for search crawlers{% endif %}">
+                    <p class="course-crawl-nav__label">{% if active_lang == 'ko' %}지도에 등록된 코스 ({{ crawl_course_links|length }}+){% elif active_lang == 'ja' %}地図のコース ({{ crawl_course_links|length }}+){% else %}Courses on the map ({{ crawl_course_links|length }}+ listed){% endif %}</p>
                     <ul class="course-crawl-nav__list">
                         {% for item in crawl_course_links %}
                         <li><a href="{{ item.link }}">{{ item.label }}</a></li>
                         {% endfor %}
                     </ul>
-                    <p class="course-crawl-nav__more"><a href="{{ '/courses?lang=ko' if active_lang == 'ko' else '/courses' }}">{{ '전체 코스 목록 페이지 →' if active_lang == 'ko' else 'Full course directory page →' }}</a></p>
+                    <p class="course-crawl-nav__more"><a href="{% if active_lang == 'ko' %}/courses?lang=ko{% elif active_lang == 'ja' %}/courses?lang=ja{% else %}/courses{% endif %}">{% if active_lang == 'ko' %}전체 코스 목록 페이지 →{% elif active_lang == 'ja' %}コース一覧ページ →{% else %}Full course directory page →{% endif %}</a></p>
                 </nav>
                 {% endif %}
                 <div id="course-list" class="course-grid"></div>
@@ -183,6 +190,6 @@
     </script>
     
     <!-- 메인 비즈니스 로직 자바스크립트 -->
-    <script type="module" src="/static/js/main.js?v=5"></script>
+    <script type="module" src="/static/js/main.js?v=6"></script>
 </body>
 </html>

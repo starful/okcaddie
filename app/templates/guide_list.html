@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if lang == 'ko' %}일본 골프 가이드 · 예약·매너·시즌 | OKCaddie{% else %}Japan Golf Guides · Booking, Etiquette & Seasons | OKCaddie{% endif %}</title>
-    <meta name="description" content="{% if lang == 'ko' %}일본 골프 여행을 위한 한국어/영문 가이드. 예약 팁, 매너, 시즌별 코스 추천을 한곳에서.{% else %}Bilingual Japan golf travel guides: booking tips, etiquette, seasonal picks, transport.{% endif %}">
+    <title>{% if lang == 'ko' %}일본 골프 가이드 · 예약·매너·시즌 | OKCaddie{% elif lang == 'ja' %}日本ゴルフガイド · 予約・マナー・シーズン | OKCaddie{% else %}Japan Golf Guides · Booking, Etiquette & Seasons | OKCaddie{% endif %}</title>
+    <meta name="description" content="{% if lang == 'ko' %}일본 골프 여행을 위한 한국어/영문 가이드. 예약 팁, 매너, 시즌별 코스 추천을 한곳에서.{% elif lang == 'ja' %}日本ゴルフ旅行向けガイド。予約のコツ、マナー、季節別コース選びを一箇所で。{% else %}Bilingual Japan golf travel guides: booking tips, etiquette, seasonal picks, transport.{% endif %}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if lang == 'ko' %}일본 골프 가이드 · 예약·매너·시즌 | OKCaddie{% else %}Japan Golf Guides · Booking, Etiquette & Seasons | OKCaddie{% endif %}">
-    <meta property="og:description" content="{% if lang == 'ko' %}예약·매너·시즌별 가이드를 한국어와 영어로 정리.{% else %}Booking, etiquette and seasonal guides in EN & KO.{% endif %}">
-    {% set guide_list_canon = 'https://okcaddie.net/guide?lang=ko' if lang == 'ko' else 'https://okcaddie.net/guide' %}
+    <meta property="og:title" content="{% if lang == 'ko' %}일본 골프 가이드 · 예약·매너·시즌 | OKCaddie{% elif lang == 'ja' %}日本ゴルフガイド · 予約・マナー・シーズン | OKCaddie{% else %}Japan Golf Guides · Booking, Etiquette & Seasons | OKCaddie{% endif %}">
+    <meta property="og:description" content="{% if lang == 'ko' %}예약·매너·시즌별 가이드를 한국어와 영어로 정리.{% elif lang == 'ja' %}予約・マナー・季節別ガイドを日本語で整理。{% else %}Booking, etiquette and seasonal guides in EN & KO.{% endif %}">
+    {% set guide_list_canon = 'https://okcaddie.net/guide?lang=ko' if lang == 'ko' else ('https://okcaddie.net/guide?lang=ja' if lang == 'ja' else 'https://okcaddie.net/guide') %}
     <meta property="og:url" content="{{ guide_list_canon }}">
     <meta property="og:image" content="https://okcaddie.net/static/images/logo.png">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="{{ guide_list_canon }}">
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide">
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide?lang=ko">
+    <link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide?lang=ja">
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -40,13 +41,13 @@
 
     <main class="container" style="margin-top: 40px; margin-bottom: 100px;">
         <h1 class="list-title" style="text-align: left; margin-bottom: 40px;">
-            📖 {{ '일본 골프 완벽 가이드' if lang == 'ko' else 'Japan Golf Expert Guides' }}
+            📖 {% if lang == 'ko' %}일본 골프 완벽 가이드{% elif lang == 'ja' %}日本ゴルフ完全ガイド{% else %}Japan Golf Expert Guides{% endif %}
         </h1>
 
         <!-- 가이드 전체 리스트 -->
         <div class="guide-highlight-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
             {% for guide in guides %}
-            <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if guide.lang == 'ko' else '' }}" class="guide-highlight-card">
+            <a href="/guide/{{ guide.base_id or (guide.id | replace('_ko', '') | replace('_en', '') | replace('_ja', '')) }}{% if guide.lang == 'ko' %}?lang=ko{% elif guide.lang == 'ja' %}?lang=ja{% endif %}" class="guide-highlight-card">
                 <div class="guide-img-wrapper" style="height: 200px;"><img src="{{ guide.image }}" alt=""></div>
                 <div class="card-body">
                     <div style="font-size: 0.8rem; color: #999; margin-bottom: 5px;">{{ guide.date }}</div>
@@ -58,7 +59,7 @@
         </div>
 
         <div class="back-btn-container" style="text-align: center; margin-top: 60px;">
-            <a href="{{ '/?lang=ko' if lang == 'ko' else '/' }}" class="back-btn">🗺️ {{ '지도로 돌아가기' if lang == 'ko' else 'Back to Map' }}</a>
+            <a href="{% if lang == 'ko' %}/?lang=ko{% elif lang == 'ja' %}/?lang=ja{% else %}/{% endif %}" class="back-btn">🗺️ {% if lang == 'ko' %}지도로 돌아가기{% elif lang == 'ja' %}地図に戻る{% else %}Back to Map{% endif %}</a>
         </div>
     </main>
 

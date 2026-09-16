@@ -93,10 +93,11 @@ def compare_page():
     raw_ids = [x.strip() for x in (request.args.get("ids") or "").split(",") if x.strip()]
     ids = []
     for rid in raw_ids:
-        base = rid.replace("_en", "").replace("_ko", "") if rid.endswith(("_en", "_ko")) else rid
-        # also handle already-base ids
-        if base.endswith("_en") or base.endswith("_ko"):
-            base = base.rsplit("_", 1)[0]
+        base = rid
+        for suf in ("_en", "_ko", "_ja"):
+            if base.endswith(suf):
+                base = base[: -len(suf)]
+                break
         if base not in ids:
             ids.append(base)
         if len(ids) >= 3:

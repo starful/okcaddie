@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% set is_ko = post.lang == 'ko' %}
+    {% set is_ja = post.lang == 'ja' %}
     {% set seo_title = post.seo_title %}
     {% set seo_desc = post.seo_description %}
     <title>{{ seo_title }}</title>
@@ -11,10 +12,10 @@
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="OKCaddie">
-    <meta property="og:locale" content="{{ 'ko_KR' if is_ko else 'en_US' }}">
+    <meta property="og:locale" content="{{ 'ko_KR' if is_ko else ('ja_JP' if is_ja else 'en_US') }}">
     <meta property="og:title" content="{{ seo_title }}">
     <meta property="og:description" content="{{ seo_desc }}">
-    {% set course_canonical = 'https://okcaddie.net/course/' ~ post.base_id ~ ('?lang=ko' if is_ko else '') %}
+    {% set course_canonical = 'https://okcaddie.net/course/' ~ post.base_id ~ ('?lang=ko' if is_ko else ('?lang=ja' if is_ja else '')) %}
     <meta property="og:url" content="{{ og_page_url }}">
     <meta property="og:image" content="{{ og_image_abs }}">
     <meta property="og:image:secure_url" content="{{ og_image_abs }}">
@@ -47,15 +48,49 @@
     <link rel="canonical" href="{{ course_canonical }}">
     {% set base_id = post.base_id %}
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />
+    <link rel="alternate" hreflang="ja" href="https://okcaddie.net/course/{{ base_id }}?lang=ja" />
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}" />
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}" />
     {% set has_geo = post.lat and post.lng %}
-    {% set q1 = ('이 코스는 어디에 있나요?' if is_ko else 'Where is ' ~ post.title ~ ' located?') %}
-    {% set q1a = (post.title ~ '은(는) ' ~ post.address ~ ' 에 위치합니다. 페이지 상단의 지도와 좌표를 참고하세요.') if is_ko else (post.title ~ ' is located at ' ~ post.address ~ '. Use the map and coordinates above for navigation.') %}
-    {% set q2 = ('어떻게 예약할 수 있나요?' if is_ko else 'How can I book a tee time at ' ~ post.title ~ '?') %}
-    {% set q2a = ('페이지의 \"라쿠텐에서 골프 예약하기\" 버튼으로 일본 1위 골프 예약 채널의 실시간 티타임과 그린피를 확인할 수 있습니다.' if is_ko else ('Use the "Check on Rakuten GORA" button on this page to view real-time tee times and green fees from Japan\'s leading golf booking platform.')) %}
-    {% set q3 = ('베스트 시즌은 언제인가요?' if is_ko else 'When is the best time to play ' ~ post.title ~ '?') %}
-    {% set q3a = ('일본 본토 코스는 보통 4-6월과 9-11월 잔디 컨디션이 가장 좋습니다. 코스 위치와 표고에 따라 최적기가 달라지니 본문 \"Tips\" 섹션을 참고하세요.' if is_ko else ('Most courses on mainland Japan play best in April-June and September-November when turf conditions peak. Altitude and region shift the window — see the Tips section for course-specific notes.')) %}
+    {% if is_ja %}
+    {% set q1 = post.title ~ 'はどこにありますか？' %}
+    {% set q1a = post.title ~ 'は' ~ post.address ~ 'にあります。ページ上部の地図と座標を参照してください。' %}
+    {% set q2 = post.title ~ 'のティーはどのように予約できますか？' %}
+    {% set q3 = post.title ~ 'のベストシーズンは？' %}
+    {% elif is_ko %}
+    {% set q1 = '이 코스는 어디에 있나요?' %}
+    {% set q1a = (post.title ~ '은(는) ' ~ post.address ~ ' 에 위치합니다. 페이지 상단의 지도와 좌표를 참고하세요.') %}
+    {% set q2 = '어떻게 예약할 수 있나요?' %}
+    {% set q3 = '베스트 시즌은 언제인가요?' %}
+    {% else %}
+    {% set q1 = 'Where is ' ~ post.title ~ ' located?' %}
+    {% set q1a = post.title ~ ' is located at ' ~ post.address ~ '. Use the map and coordinates above for navigation.' %}
+    {% set q2 = 'How can I book a tee time at ' ~ post.title ~ '?' %}
+    {% set q3 = 'When is the best time to play ' ~ post.title ~ '?' %}
+    {% endif %}
+    {% if post.is_overseas %}
+    {% if is_ja %}
+    {% set q2a = 'ページの「楽天GORAで予約」ボタンから、楽天GORA海外予約のティータイムとグリーンフィーを確認できます。' %}
+    {% set q3a = '熱帯・リゾートコースは通年プレー可能ですが、雨季と真昼の暑さを避けてください。本文Tipsで地域シーズンを確認。' %}
+    {% elif is_ko %}
+    {% set q2a = '페이지의 \"라쿠텐에서 골프 예약하기\" 버튼으로 라쿠텐 GORA 해외 예약 페이지의 티타임과 그린피를 확인할 수 있습니다.' %}
+    {% set q3a = '열대·리조트 코스는 연중 플레이가 가능하지만 우기와 한낮 더위를 피하세요. 본문 Tips에서 권역별 시즌을 확인하세요.' %}
+    {% else %}
+    {% set q2a = 'Use the "Check on Rakuten GORA" button on this page to open this course on Rakuten GORA overseas booking.' %}
+    {% set q3a = 'Tropical and resort courses play year-round, but skip peak rain and midday heat. See Tips on this page for the local season window.' %}
+    {% endif %}
+    {% else %}
+    {% if is_ja %}
+    {% set q2a = 'ページの「楽天GORAで予約」ボタンから、日本の主要ゴルフ予約チャネルのリアルタイムティーとグリーンフィーを確認できます。' %}
+    {% set q3a = '日本本土コースは通常4〜6月と9〜11月の芝コンディションが良いです。標高・地域で最適期が変わるので本文Tipsを参照。' %}
+    {% elif is_ko %}
+    {% set q2a = '페이지의 \"라쿠텐에서 골프 예약하기\" 버튼으로 일본 1위 골프 예약 채널의 실시간 티타임과 그린피를 확인할 수 있습니다.' %}
+    {% set q3a = '일본 본토 코스는 보통 4-6월과 9-11월 잔디 컨디션이 가장 좋습니다. 코스 위치와 표고에 따라 최적기가 달라지니 본문 \"Tips\" 섹션을 참고하세요.' %}
+    {% else %}
+    {% set q2a = 'Use the "Check on Rakuten GORA" button on this page to view real-time tee times and green fees from Japan\'s leading golf booking platform.' %}
+    {% set q3a = 'Most courses on mainland Japan play best in April-June and September-November when turf conditions peak. Altitude and region shift the window — see the Tips section for course-specific notes.' %}
+    {% endif %}
+    {% endif %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -69,7 +104,7 @@
           "image": "{{ og_image_abs }}",
           "address": {
             "@type": "PostalAddress",
-            "addressCountry": "JP",
+                            "addressCountry": "{{ post.country_iso or 'JP' }}",
             "streetAddress": "{{ post.address }}"
           }{% if has_geo %},
           "geo": {
@@ -128,7 +163,7 @@
                 <span>🏷️ {{ post.categories|join(', ') if post.categories is iterable else post.categories }}</span>
             </div>
             <p style="margin-top:10px; color:#94a3b8; font-size:0.85rem;">
-                {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else 'OKCaddie 편집팀 검수' }} · {{ post.date }}
+                {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else ('OKCaddie編集チーム監修' if active_lang == 'ja' else 'OKCaddie 편집팀 검수') }} · {{ post.date }}
             </p>
         </header>
 
@@ -189,13 +224,13 @@
             <!-- 1. 라쿠텐 고라: 티타임 예약 -->
             <div style="text-align: center; margin-bottom: 50px;">
                 <h3 style="margin-bottom: 25px; font-weight: 800; font-size: 1.4rem;">
-                    ⛳ {{ '실시간 티타임 및 예약 가능 여부' if active_lang == 'ko' else 'Live Tee Times & Booking' }}
+                    ⛳ {% if active_lang == 'ko' %}실시간 티타임 및 예약 가능 여부{% elif active_lang == 'ja' %}リアルタイムティー・予約状況{% else %}Live Tee Times & Booking{% endif %}
                 </h3>
                 <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn" 
                    style="background: #bf0000; padding: 22px 60px; width: 100%; max-width: 500px; display: inline-block; border-radius: 50px; text-decoration: none; color: white; font-weight: 800; font-size: 1.2rem; box-shadow: 0 10px 20px rgba(191, 0, 0, 0.2);">
-                    {{ '라쿠텐에서 골프 예약하기' if active_lang == 'ko' else 'Check on Rakuten GORA' }}
+                    {% if active_lang == 'ko' %}라쿠텐에서 골프 예약하기{% elif active_lang == 'ja' %}楽天GORAで予約{% else %}Check on Rakuten GORA{% endif %}
                 </a>
-                <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {{ '일본 1위 골프 예약 서비스로 연결됩니다.' if active_lang == 'ko' else 'Redirects to Japan\'s leading golf booking site.' }}</p>
+                <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {% if post.is_overseas %}{% if active_lang == 'ko' %}라쿠텐 GORA 해외 예약으로 연결됩니다.{% elif active_lang == 'ja' %}楽天GORA海外予約へ移動します。{% else %}Opens Rakuten GORA overseas booking.{% endif %}{% else %}{% if active_lang == 'ko' %}일본 1위 골프 예약 서비스로 연결됩니다.{% elif active_lang == 'ja' %}日本の主要ゴルフ予約サービスへ移動します。{% else %}Redirects to Japan\'s leading golf booking site.{% endif %}{% endif %}</p>
             </div>
 
         </div>
@@ -205,7 +240,7 @@
         <!-- [FAQ] FAQPage 스키마 가시성 보장용 -->
         <section class="course-faq" style="margin-top: 55px; padding: 30px 25px; background: #f8fafc; border-radius: 18px; border: 1px solid #e2e8f0;">
             <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.25rem;">
-                ❓ {{ '자주 묻는 질문' if active_lang == 'ko' else 'Frequently Asked Questions' }}
+                ❓ {% if active_lang == 'ko' %}자주 묻는 질문{% elif active_lang == 'ja' %}よくある質問{% else %}Frequently Asked Questions{% endif %}
             </h3>
             <details style="margin-bottom: 14px; padding: 14px 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px;">
                 <summary style="font-weight: 700; cursor: pointer;">{{ q1 }}</summary>
@@ -232,7 +267,7 @@
         {% if related_courses %}
         <section style="margin-top: 55px;">
             <h3 style="margin-bottom: 18px;">
-                {{ '관련 코스' if active_lang == 'ko' else 'Related Courses' }}
+                {% if active_lang == 'ko' %}관련 코스{% elif active_lang == 'ja' %}関連コース{% else %}Related Courses{% endif %}
             </h3>
             <div class="course-grid">
                 {% for c in related_courses %}
@@ -252,7 +287,7 @@
         {% if related_guides %}
         <section style="margin-top: 45px;">
             <h3 style="margin-bottom: 18px;">
-                {{ '함께 읽으면 좋은 가이드' if active_lang == 'ko' else 'Related Guides' }}
+                {% if active_lang == 'ko' %}함께 읽으면 좋은 가이드{% elif active_lang == 'ja' %}あわせて読みたいガイド{% else %}Related Guides{% endif %}
             </h3>
             <div class="guide-highlight-grid">
                 {% for g in related_guides %}
@@ -274,7 +309,7 @@
         <div class="detail-actions" style="margin-top: 60px; text-align: center;">
             <div class="back-btn-container">
                 <a href="{{ '/?lang=ko' if (active_lang or 'en') == 'ko' else '/' }}" class="back-btn" style="display: inline-block; padding: 12px 35px; background: #f8fafc; color: #475569 !important; border-radius: 50px; font-weight: 700; text-decoration: none; border: 1px solid #e2e8f0;">
-                    🗺️ {{ '전체 코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
+                    🗺️ {% if active_lang == 'ko' %}전체 코스 지도로 돌아가기{% elif active_lang == 'ja' %}コース地図に戻る{% else %}Back to Course Map{% endif %}
                 </a>
             </div>
         </div>

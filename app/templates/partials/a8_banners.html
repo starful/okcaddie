@@ -2,7 +2,7 @@
 {% if show_a8_banners and a8_banners %}
 <aside class="a8-banners affiliate-box affiliate-box--a8"
        role="complementary"
-       aria-label="{{ '제휴 광고' if current_lang == 'kr' else 'Affiliate ads' }}">
+       aria-label="{{ '제휴 광고' if (active_lang or current_lang) == 'ko' else 'Affiliate ads' }}">
     {% if a8_banners_title %}
     <p class="affiliate-box__title">{{ a8_banners_title }}</p>
     {% endif %}

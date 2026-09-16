@@ -35,6 +35,8 @@ def thumbnail_cache_v(published_or_date: str | None) -> str:
 def thumbnail_with_v(url: str, cache_v: str | None = None) -> str:
     if not url:
         return url
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
     v = thumbnail_cache_v(cache_v)
     base = url.split("?", 1)[0]
     return f"{base}?v={v}" if v else base
@@ -66,8 +68,8 @@ def og_page_url(page_path: str) -> str:
 
 def card_path(base_id: str, lang: str) -> str:
     path = f"/card/{base_id}"
-    if lang == "ko":
-        path += "?lang=ko"
+    if lang in ("ko", "ja"):
+        path += f"?lang={lang}"
     return path
 
 
@@ -80,6 +82,8 @@ def share_context(slug: str, title: str, lang: str, page_path: str, base_id: str
     card_id = base_id or slug.rsplit("_", 1)[0]
     share_url_x = f"{SITE_URL}{card_path(card_id, lang)}"
     if lang == "ko":
+        share_tweet = f"{title} — OKCaddie"
+    elif lang == "ja":
         share_tweet = f"{title} — OKCaddie"
     else:
         share_tweet = f"{title} — Japan golf guide on OKCaddie"
@@ -200,6 +204,16 @@ def attach_seo_fields(post, page_kind="course"):
         default_title = (
             truncate_text(f"{title} | {hook} | OKCaddie", 60) if title else "일본 골프 가이드 | OKCaddie"
         )
+    elif lang == "ja":
+        hook = "グリーンフィー・予約・コースガイド" if is_course else "ゴルフ旅行ガイド"
+        tail = (
+            " OKCaddieで地図・料金・楽天GORA予約を確認。"
+            if is_course
+            else " OKCaddieで実用Tipsとコースリンクを確認。"
+        )
+        default_title = (
+            truncate_text(f"{title} | {hook} | OKCaddie", 60) if title else "ゴルフガイド | OKCaddie"
+        )
     else:
         hook = "green fees, tee times & booking" if is_course else "Japan golf travel guide"
         tail = (
@@ -221,10 +235,16 @@ def attach_seo_fields(post, page_kind="course"):
 
 
 def detail_trust_copy(lang):
-    if str(lang or "en").lower() == "ko":
+    code = str(lang or "en").lower()
+    if code == "ko":
         return (
             "본 글은 여행 계획용 에디토리얼 콘텐츠입니다. 공식 클럽 사이트가 아니므로 그린피·영업·예약 조건은 방문 전 라쿠텐 고라 또는 클럽에 반드시 확인하세요.",
             "상단 이미지는 이해를 돕기 위한 예시이며, 실제 코스 전경·시설과 다를 수 있습니다.",
+        )
+    if code == "ja":
+        return (
+            "本ページは旅行計画用の編集コンテンツです。公式クラブサイトではありません。グリーンフィー・営業・予約条件は、訪問前に楽天GORAまたはクラブで必ずご確認ください。",
+            "上部画像は参考用です。実際のコース景観・施設と異なる場合があります。",
         )
     return (
         "Editorial trip-planning content—not the club's official site. Confirm green fees, access, and tee times on Rakuten GORA or with the club before you book.",

@@ -109,11 +109,14 @@ def build_detail_sitemap(urls, kind):
         base_id = entry.get("base_id", "")
         en_key = (base_id, "en")
         ko_key = (base_id, "ko")
+        ja_key = (base_id, "ja")
         alternates = []
         if en_key in grouped:
             alternates.append(("en", grouped[en_key]["url"]))
         if ko_key in grouped:
             alternates.append(("ko", grouped[ko_key]["url"]))
+        if ja_key in grouped:
+            alternates.append(("ja", grouped[ja_key]["url"]))
         xd = grouped[en_key]["url"] if en_key in grouped else path
         alternates.append(("x-default", xd))
         xml.extend(_xml_url_block(
@@ -210,15 +213,22 @@ def main():
                     "summary": summary,
                     "booking": post.get('booking', ''),
                     "youtube_id": str(post.get("youtube_id") or "").strip(),
+                    "country": str(post.get("country") or "jp").strip().lower() or "jp",
+                    "gora_cid": str(post.get("gora_cid") or "").strip(),
                     "link": (
                         f"/course/{base_id}"
-                        + ("" if post.get('lang', 'en') == 'en' else "?lang=ko")
+                        if post.get('lang', 'en') == 'en'
+                        else f"/course/{base_id}?lang={post.get('lang')}"
                     ),
                 }
                 courses_for_json.append(course_data)
 
                 _clang = post.get('lang', 'en')
-                _cpath = f"/course/{base_id}" if _clang == 'en' else f"/course/{base_id}?lang=ko"
+                _cpath = (
+                    f"/course/{base_id}"
+                    if _clang == 'en'
+                    else f"/course/{base_id}?lang={_clang}"
+                )
                 urls_for_sitemap.append({
                     "url": _cpath,
                     "date": date_val,
@@ -252,7 +262,10 @@ def main():
                     latest_guide_date = date_val
                 base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
                 _glang = post.get('lang', 'en')
-                _gpath = f"/guide/{base_id}" if _glang == 'en' else f"/guide/{base_id}?lang=ko"
+                if _glang == 'en':
+                    _gpath = f"/guide/{base_id}"
+                else:
+                    _gpath = f"/guide/{base_id}?lang={_glang}"
                 urls_for_sitemap.append({
                     "url": _gpath,
                     "date": date_val,
@@ -264,8 +277,15 @@ def main():
                 })
             except Exception:
                 base_id = guide_id.rsplit('_', 1)[0] if '_' in guide_id else guide_id
-                lang = 'ko' if guide_id.endswith('_ko') else 'en'
-                _gpath_fb = f"/guide/{base_id}" if lang == 'en' else f"/guide/{base_id}?lang=ko"
+                if guide_id.endswith('_ko'):
+                    lang = 'ko'
+                elif guide_id.endswith('_ja'):
+                    lang = 'ja'
+                else:
+                    lang = 'en'
+                _gpath_fb = (
+                    f"/guide/{base_id}" if lang == 'en' else f"/guide/{base_id}?lang={lang}"
+                )
                 urls_for_sitemap.append({
                     "url": _gpath_fb,
                     "date": fixed_date,

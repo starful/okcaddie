@@ -22,6 +22,8 @@ COURSE_FRONTMATTER_KEYS = frozenset(
         "seo_title",
         "seo_description",
         "gora_name",
+        "gora_cid",
+        "country",
         "youtube_id",
     }
 )
@@ -37,6 +39,8 @@ COURSE_METADATA_FALLBACK_KEYS = frozenset(
         "description",
         "seo_title",
         "seo_description",
+        "gora_cid",
+        "country",
     }
 )
 
@@ -104,6 +108,8 @@ def _lang_from_path(path: str) -> str | None:
     stem = os.path.splitext(os.path.basename(path))[0]
     if stem.endswith("_ko"):
         return "ko"
+    if stem.endswith("_ja"):
+        return "ja"
     if stem.endswith("_en"):
         return "en"
     return None
@@ -120,11 +126,21 @@ def _title_from_content(body: str) -> str:
 
 
 def _sibling_course_path(path: str) -> str | None:
+    """Prefer EN sibling for metadata fallback (lat/lng/thumbnail)."""
     stem, ext = os.path.splitext(path)
-    if stem.endswith("_ko"):
-        return stem[:-3] + "_en" + ext
-    if stem.endswith("_en"):
-        return stem[:-3] + "_ko" + ext
+    for suf in ("_ko", "_ja", "_en"):
+        if stem.endswith(suf):
+            base = stem[: -len(suf)]
+            en = base + "_en" + ext
+            if suf != "_en" and os.path.exists(en):
+                return en
+            for other in ("_ko", "_ja"):
+                if other == suf:
+                    continue
+                cand = base + other + ext
+                if os.path.exists(cand):
+                    return cand
+            return None
     return None
 
 

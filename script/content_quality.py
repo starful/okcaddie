@@ -115,8 +115,28 @@ REQUIRED_COURSE_H2_HINTS = (
         "기본 정보",
         "course layout",
         "레이아웃",
+        "概要",
+        "基本情報",
+        "コース概要",
+        "一覧",
+        "クイック",
+        "ファクト",
+        "特徴",
+        "要点",
+        "サマリー",
     ),
-    ("fee", "booking", "green fee", "요금", "예약", "그린피"),
+    (
+        "fee",
+        "booking",
+        "green fee",
+        "요금",
+        "예약",
+        "그린피",
+        "料金",
+        "予約",
+        "グリーンフィ",
+        "フィー",
+    ),
     (
         "access",
         "접근",
@@ -132,13 +152,55 @@ REQUIRED_COURSE_H2_HINTS = (
         "airport",
         "공항",
         "주차",
+        "アクセス",
+        "交通",
+        "行き方",
+        "駐車場",
     ),
 )
 
 REQUIRED_GUIDE_H2_HINTS = (
-    ("who", "for", "대상", "이런"),
-    ("how", "step", "방법", "흐름", "tips", "팁"),
-    ("bottom", "summary", "정리", "key takeaway"),
+    (
+        "who",
+        "for",
+        "대상",
+        "이런",
+        "対象",
+        "向いている",
+        "こんな人",
+        "おすすめ",
+        "読者",
+        "対象者",
+        "対象外",
+    ),
+    (
+        "how",
+        "step",
+        "방법",
+        "흐름",
+        "tips",
+        "팁",
+        "手順",
+        "方法",
+        "流れ",
+        "やり方",
+        "ステップ",
+        "進め方",
+        "チェック",
+        "手配",
+    ),
+    (
+        "bottom",
+        "summary",
+        "정리",
+        "key takeaway",
+        "まとめ",
+        "結論",
+        "最後に",
+        "要点",
+        "おわりに",
+        "決定",
+    ),
 )
 
 
@@ -211,8 +273,8 @@ def validate_guide_body(body: str, *, topic_name: str = "") -> list[str]:
         errors.append(f"missing H2 themes: {', '.join(missing)}")
     # Soft golf relevance: body should mention golf somehow for travel guides
     blob = f"{topic_name}\n{body}".lower()
-    if "golf" not in blob and "골프" not in blob:
-        errors.append("not golf-related (missing golf/골프)")
+    if "golf" not in blob and "골프" not in blob and "ゴルフ" not in blob:
+        errors.append("not golf-related (missing golf/골프/ゴルフ)")
     return errors
 
 

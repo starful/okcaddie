@@ -38,18 +38,37 @@ def test_build_course_prompt_requests_practical_structure():
     assert "as an elite" in prompt
 
 
-def test_build_guide_prompt_blocks_fluff_voice():
+def test_build_course_prompt_japanese():
+    prompt = build_course_prompt(
+        {
+            "lang": "ja",
+            "safe_name": "sample_golf_club",
+            "name": "Sample Golf Club",
+            "lat": "35.0",
+            "lng": "139.0",
+            "address": "Tokyo",
+            "features": "Public",
+        }
+    )
+    assert "Japanese" in prompt
+    assert "2,800 characters" in prompt
+    assert "アクセス" in prompt
+    assert "クイックファクト" in prompt
+
+
+def test_build_guide_prompt_japanese():
     prompt = build_guide_prompt(
         topic_id="booking-tips-japan",
-        topic_name="How to book golf in Japan",
-        lang="en",
-        keywords="rakuten gora, tee time",
-        today="2026-07-12",
+        topic_name="日本のゴルフ予約",
+        lang="ja",
+        keywords="楽天GORA",
+        today="2026-09-16",
     )
-    assert "date: \"2026-07-12\"" in prompt
-    assert "## Bottom Line" in prompt
-    assert "SKIP_NOT_GOLF" in prompt
-    assert "as an elite" in prompt
+    assert "Japanese" in prompt
+    assert "## 対象者" in prompt
+    assert "## 手順" in prompt
+    assert "## まとめ" in prompt
+    assert "ゴルフ旅行者" in prompt
 
 
 def test_blocked_guide_ids():

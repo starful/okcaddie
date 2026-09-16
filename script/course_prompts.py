@@ -6,8 +6,14 @@ from datetime import datetime
 
 # Practical pages beat padded masterclass prose (see 2026-07 content cleanup).
 MIN_BODY_CHARS = 3000
+# Hangul/Kanji packs denser meaning; keep a language-aware floor for KO/JA.
+MIN_BODY_CHARS_BY_LANG = {"en": 3000, "ko": 2500, "ja": 2000}
 
-LANG_FULL = {"en": "English", "ko": "Korean"}
+
+def min_body_chars(lang: str) -> int:
+    return MIN_BODY_CHARS_BY_LANG.get(str(lang).lower(), MIN_BODY_CHARS)
+
+LANG_FULL = {"en": "English", "ko": "Korean", "ja": "Japanese"}
 
 CSV_FACT_FIELDS = [
     ("Holes", "Holes"),
@@ -22,12 +28,18 @@ CSV_FACT_FIELDS = [
 
 
 def length_target(lang: str) -> str:
-    return "3,000 to 6,500 characters" if lang == "ko" else "3,500 to 7,000 characters"
+    if lang == "ko":
+        return "at least 2,800 characters (prefer 3,200+)"
+    if lang == "ja":
+        return "at least 2,800 characters (prefer 3,200+); count Japanese characters in the body"
+    return "3,500 to 7,000 characters"
 
 
 def summary_hint(lang: str) -> str:
     if lang == "ko":
         return "예약·요금·접근이 드러나는 구체적 한 문장 요약(<=140자)."
+    if lang == "ja":
+        return "予約・料金・アクセスが分かる具体的な一文要約(<=140字)。"
     return "One concrete sentence (<=155 chars) mentioning booking, fees, or access."
 
 
@@ -60,7 +72,7 @@ Coordinates: {data['lat']}, {data['lng']}
 Tags: {data['features']}{facts}
 
 [HARD RULES]
-- Total length: {length_target(lang)}. Minimum body after frontmatter: {MIN_BODY_CHARS} characters.
+- Total length: {length_target(lang)}. Minimum body after frontmatter: {min_body_chars(lang)} characters.
 - Use H2 (##) only. 7 sections covering the themes below (unique wording OK).
 - Do NOT use: "world-class", "unforgettable", "must-visit", "Definitive Guide", "Expert Review",
   "masterpiece", "as an elite", "two decades", "Historical Prestige", "Hole-by-Hole Masterclass",
@@ -82,8 +94,10 @@ Use unique ## wording for THIS course while covering themes in this order
 7. ## Bottom Line — 2 to 3 sentences: who should book this and the first next action.
 
 [H2 KEYWORDS — REQUIRED IN THE HEADING TEXT]
-The Access section H2 MUST contain one of: Access / 접근 / 교통 / 가는 법
-(examples: "## Access", "## 접근·교통", "## 가는 법과 주차"). Titles like "## 오시는 길" alone are NOT enough.
+For Japanese pages, the first H2 MUST be exactly `## クイックファクト` (or include クイックファクト / 基本情報 / コース概要).
+The Access section H2 MUST contain one of: Access / 접근 / 교통 / 가는 법 / アクセス / 交通 / 行き方
+(examples: "## Access", "## 접근·교통", "## アクセス・交通", "## 行き方と駐車場").
+Fee/booking H2 must include 料金 or 予約 or グリーン.
 
 [FORMATTING]
 - Raw Markdown only. NO code fences. NO character-count self-check at the end.

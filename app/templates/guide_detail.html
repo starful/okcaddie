@@ -6,6 +6,7 @@
     
     <!-- SEO 메타 태그 -->
     {% set is_ko_guide = (post.lang or 'en') == 'ko' %}
+    {% set is_ja_guide = (post.lang or 'en') == 'ja' %}
     {% set guide_seo_title = post.seo_title %}
     {% set guide_seo_desc = post.seo_description %}
     <title>{{ guide_seo_title }}</title>
@@ -14,7 +15,13 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ guide_seo_title }}">
     <meta property="og:description" content="{{ guide_seo_desc }}">
-    {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id ~ ('?lang=ko' if (post.lang or 'en') == 'ko' else '') %}
+    {% if (post.lang or 'en') == 'ko' %}
+    {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id ~ '?lang=ko' %}
+    {% elif (post.lang or 'en') == 'ja' %}
+    {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id ~ '?lang=ja' %}
+    {% else %}
+    {% set guide_canonical = 'https://okcaddie.net/guide/' ~ post.base_id %}
+    {% endif %}
     <meta property="og:url" content="{{ og_page_url }}">
     <meta property="og:image" content="{{ og_image_abs }}">
     <meta property="og:image:secure_url" content="{{ og_image_abs }}">
@@ -45,6 +52,7 @@
     <link rel="canonical" href="{{ guide_canonical }}">
     {% set base_id = post.base_id %}
     <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}?lang=ko" />
+    <link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/{{ base_id }}?lang=ja" />
     <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}" />
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/{{ base_id }}" />
 
@@ -79,8 +87,8 @@
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": {% if is_ko_guide %}"홈"{% else %}"Home"{% endif %}, "item": "https://okcaddie.net/{% if is_ko_guide %}?lang=ko{% endif %}" },
-            { "@type": "ListItem", "position": 2, "name": {% if is_ko_guide %}"가이드"{% else %}"Guides"{% endif %}, "item": "https://okcaddie.net/guide{% if is_ko_guide %}?lang=ko{% endif %}" },
+            { "@type": "ListItem", "position": 1, "name": {% if is_ko_guide %}"홈"{% elif is_ja_guide %}"ホーム"{% else %}"Home"{% endif %}, "item": "https://okcaddie.net/{% if is_ko_guide %}?lang=ko{% elif is_ja_guide %}?lang=ja{% endif %}" },
+            { "@type": "ListItem", "position": 2, "name": {% if is_ko_guide %}"가이드"{% elif is_ja_guide %}"ガイド"{% else %}"Guides"{% endif %}, "item": "https://okcaddie.net/guide{% if is_ko_guide %}?lang=ko{% elif is_ja_guide %}?lang=ja{% endif %}" },
             { "@type": "ListItem", "position": 3, "name": "{{ post.title }}", "item": "{{ guide_canonical }}" }
           ]
         }
@@ -108,7 +116,7 @@
                 📅 Published on: {{ post.date }}
             </div>
             <p style="margin-top:10px; color:#94a3b8; font-size:0.85rem;">
-                {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else 'OKCaddie 편집팀 검수' }}
+                {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else ('OKCaddie編集チーム監修' if active_lang == 'ja' else 'OKCaddie 편집팀 검수') }}
             </p>
         </header>
 
@@ -131,7 +139,7 @@
         {% if related_courses %}
         <section class="related-courses-section" aria-labelledby="related-courses-heading">
             <h2 id="related-courses-heading" style="margin: 2.5rem 0 1rem; font-size: 1.25rem;">
-                {{ '이 가이드와 함께 보면 좋은 코스' if active_lang == 'ko' else 'Courses linked to this guide' }}
+                {% if active_lang == 'ko' %}이 가이드와 함께 보면 좋은 코스{% elif active_lang == 'ja' %}このガイドとあわせて見たいコース{% else %}Courses linked to this guide{% endif %}
             </h2>
             <div class="guide-highlight-grid">
                 {% for course in related_courses %}
@@ -154,18 +162,18 @@
         <!-- [수익화] GORA. Other affiliates in one box below. -->
         <section class="booking-banner" style="margin-top: 60px; padding: 40px 20px; background: #fff5f5; border: 2px solid var(--accent-red); border-radius: 20px; text-align: center;">
             <h3 style="color: var(--accent-red); margin-bottom: 15px; font-size: 1.4rem; font-weight: 900;">
-                {{ '일본 골프 여행, 지금 바로 준비하세요!' if active_lang == 'ko' else 'Plan Your Japan Golf Trip Today!' }}
+                {% if active_lang == 'ko' %}일본 골프 여행, 지금 바로 준비하세요!{% elif active_lang == 'ja' %}日本ゴルフ旅行を今すぐ準備しよう{% else %}Plan Your Japan Golf Trip Today!{% endif %}
             </h3>
             <p style="color: #4a5568; margin-bottom: 25px; font-weight: 600;">
-                {{ '골프 예약은 라쿠텐 고라에서 확인하세요.' if active_lang == 'ko' else 'Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.' }}
+                {% if active_lang == 'ko' %}골프 예약은 라쿠텐 고라에서 확인하세요.{% elif active_lang == 'ja' %}ゴルフ予約は楽天GORAで確認を。{% else %}Book tee times on Rakuten GORA — Japan\'s leading golf reservation platform.{% endif %}
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 10px;">
                 <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="booking-btn" style="padding: 16px 28px; font-size: 1.05rem; background: #bf0000;">
-                    {{ '라쿠텐에서 골프 예약하기' if active_lang == 'ko' else 'Tee times on Rakuten GORA' }}
+                    {% if active_lang == 'ko' %}라쿠텐에서 골프 예약하기{% elif active_lang == 'ja' %}楽天GORAで予約{% else %}Tee times on Rakuten GORA{% endif %}
                 </a>
             </div>
             <p style="margin-top: 15px; font-size: 0.8rem; color: #aaa;">
-                * {{ '제휴 링크 · 새 탭에서 열림' if active_lang == 'ko' else 'Affiliate links · opens in a new tab' }}
+                * {% if active_lang == 'ko' %}제휴 링크 · 새 탭에서 열림{% elif active_lang == 'ja' %}アフィリエイトリンク · 新しいタブで開きます{% else %}Affiliate links · opens in a new tab{% endif %}
             </p>
         </section>
 
@@ -173,11 +181,11 @@
 
         <!-- 하단 네비게이션 버튼 -->
         <div class="detail-actions" style="margin-top: 60px; border-top: 1px solid #eee; padding-top: 40px; text-align: center; display: flex; flex-direction: column; gap: 15px; align-items: center;">
-            <a href="{{ '/guide?lang=ko' if (active_lang or 'en') == 'ko' else '/guide' }}" class="back-btn">
-                📖 {{ '다른 가이드 더 보기' if active_lang == 'ko' else 'Read More Guides' }}
+            <a href="{% if active_lang == 'ko' %}/guide?lang=ko{% elif active_lang == 'ja' %}/guide?lang=ja{% else %}/guide{% endif %}" class="back-btn">
+                📖 {% if active_lang == 'ko' %}다른 가이드 더 보기{% elif active_lang == 'ja' %}他のガイドを見る{% else %}Read More Guides{% endif %}
             </a>
-            <a href="{{ '/?lang=ko' if (active_lang or 'en') == 'ko' else '/' }}" class="back-btn" style="background: #2c3e50; color: white !important;">
-                🗺️ {{ '코스 지도로 돌아가기' if active_lang == 'ko' else 'Back to Course Map' }}
+            <a href="{% if active_lang == 'ko' %}/?lang=ko{% elif active_lang == 'ja' %}/?lang=ja{% else %}/{% endif %}" class="back-btn" style="background: #2c3e50; color: white !important;">
+                🗺️ {% if active_lang == 'ko' %}코스 지도로 돌아가기{% elif active_lang == 'ja' %}コース地図に戻る{% else %}Back to Course Map{% endif %}
             </a>
         </div>
     </article>

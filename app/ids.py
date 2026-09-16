@@ -14,13 +14,19 @@ try:
 except ImportError:
     from config import PREFECTURE_KEYWORDS
 
+_LANG_SUFFIXES = ("_ko", "_en", "_ja")
+
 
 def split_localized_id(item_id):
-    if item_id.endswith("_ko"):
-        return item_id[:-3], "ko"
-    if item_id.endswith("_en"):
-        return item_id[:-3], "en"
+    for suf in _LANG_SUFFIXES:
+        if item_id.endswith(suf):
+            return item_id[: -len(suf)], suf[1:]
     return item_id, None
+
+
+def lang_from_course_id(course_id: str) -> str:
+    _, lang = split_localized_id(course_id or "")
+    return lang or "en"
 
 
 def extract_prefecture(text):
@@ -53,4 +59,16 @@ def resolve_guide_id(base_id, lang):
 
 
 def course_href(base_id, lang):
-    return f"/course/{base_id}" + ("?lang=ko" if lang == "ko" else "")
+    if lang == "ko":
+        return f"/course/{base_id}?lang=ko"
+    if lang == "ja":
+        return f"/course/{base_id}?lang=ja"
+    return f"/course/{base_id}"
+
+
+def guide_href(base_id, lang):
+    if lang == "ko":
+        return f"/guide/{base_id}?lang=ko"
+    if lang == "ja":
+        return f"/guide/{base_id}?lang=ja"
+    return f"/guide/{base_id}"

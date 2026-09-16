@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if active_lang == 'ko' %}일본 골프장 전체 목록{% if page > 1 %} ({{ page }}p){% endif %} | OKCaddie{% else %}Japan Golf Courses Directory{% if page > 1 %} (Page {{ page }}){% endif %} | OKCaddie{% endif %}</title>
-    <meta name="description" content="{{ ('일본 골프장 ' ~ total_courses ~ '곳을 지역·스타일별로 탐색하세요. 그린피·예약·코스 가이드 포함.') if active_lang == 'ko' else ('Browse ' ~ total_courses ~ ' Japan golf courses by region and style. Green fees, booking links, course guides.') }}">
+    <title>{% if active_lang == 'ko' %}일본 골프장 전체 목록{% if page > 1 %} ({{ page }}p){% endif %} | OKCaddie{% elif active_lang == 'ja' %}日本ゴルフ場一覧{% if page > 1 %} ({{ page }}p){% endif %} | OKCaddie{% else %}Japan Golf Courses Directory{% if page > 1 %} (Page {{ page }}){% endif %} | OKCaddie{% endif %}</title>
+    <meta name="description" content="{% if active_lang == 'ko' %}일본 골프장 {{ total_courses }}곳을 지역·스타일별로 탐색하세요. 그린피·예약·코스 가이드 포함.{% elif active_lang == 'ja' %}日本のゴルフ場{{ total_courses }}コースを地域・スタイル別に。グリーンフィー・予約・ガイド付き。{% else %}Browse {{ total_courses }} Japan golf courses by region and style. Green fees, booking links, course guides.{% endif %}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     {% set is_ko = (active_lang or 'en') == 'ko' %}
+    {% set is_ja = (active_lang or 'en') == 'ja' %}
     {% if is_ko %}
       {% set canon = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
-      {% set href_en = 'https://okcaddie.net/courses' ~ ('?page=' ~ page if page > 1 else '') %}
-      {% set href_ko = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
+    {% elif is_ja %}
+      {% set canon = 'https://okcaddie.net/courses?lang=ja' ~ ('&page=' ~ page if page > 1 else '') %}
     {% else %}
       {% set canon = 'https://okcaddie.net/courses' ~ ('?page=' ~ page if page > 1 else '') %}
-      {% set href_en = canon %}
-      {% set href_ko = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
     {% endif %}
+    {% set href_en = 'https://okcaddie.net/courses' ~ ('?page=' ~ page if page > 1 else '') %}
+    {% set href_ko = 'https://okcaddie.net/courses?lang=ko' ~ ('&page=' ~ page if page > 1 else '') %}
+    {% set href_ja = 'https://okcaddie.net/courses?lang=ja' ~ ('&page=' ~ page if page > 1 else '') %}
     <link rel="canonical" href="{{ canon }}">
     <link rel="alternate" hreflang="en" href="{{ href_en }}">
     <link rel="alternate" hreflang="ko" href="{{ href_ko }}">
+    <link rel="alternate" hreflang="ja" href="{{ href_ja }}">
     <link rel="alternate" hreflang="x-default" href="{{ href_en }}">
     {% if has_prev %}
       {% if is_ko %}
@@ -49,16 +52,16 @@
 
     <main class="container" style="margin-top: 40px; margin-bottom: 100px;">
         <h1 class="list-title" style="text-align: left; margin-bottom: 12px;">
-            ⛳ {{ '일본 골프장 전체 목록' if active_lang == 'ko' else 'All Japan Golf Courses' }}
+            ⛳ {% if active_lang == 'ko' %}일본 골프장 전체 목록{% elif active_lang == 'ja' %}日本ゴルフ場一覧{% else %}All Japan Golf Courses{% endif %}
         </h1>
         <p style="color:#64748b; margin-bottom: 30px;">
-            {{ total_courses }} {{ '개 코스' if active_lang == 'ko' else 'courses indexed' }}
+            {{ total_courses }} {% if active_lang == 'ko' %}개 코스{% elif active_lang == 'ja' %}コース{% else %}courses indexed{% endif %}
         </p>
 
         <section class="course-grid">
             {% for c in courses %}
             <article class="course-card">
-                <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if c.lang == 'ko' else '' }}">
+                <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '') | replace('_ja', '')) }}{% if c.lang == 'ko' %}?lang=ko{% elif c.lang == 'ja' %}?lang=ja{% endif %}">
                     <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
                     <div class="card-content">
                         <div class="card-title">{{ c.title }}</div>

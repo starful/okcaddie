@@ -32,9 +32,13 @@ def load_guide_post(path: str):
 
 
 def guide_id_parts(guide_id: str) -> tuple[str, str]:
-    base_id = guide_id.rsplit("_", 1)[0]
-    lang = "ko" if guide_id.endswith("_ko") else "en"
-    return base_id, lang
+    try:
+        from .ids import split_localized_id
+    except ImportError:
+        from ids import split_localized_id
+
+    base_id, lang = split_localized_id(guide_id)
+    return base_id, (lang or "en")
 
 
 def build_guide_list_item(filename: str) -> dict | None:

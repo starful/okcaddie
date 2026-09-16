@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Yamanashi Fuji Golf"
-lat: "35.4544"
-lng: "138.7556"
-categories: "Value for Money, Mt. Fuji View, Scenic"
-thumbnail: "/static/images/yamanashi_fuji_golf.jpg"
-address: "Fuefuki, Yamanashi"
-date: "2026-09-04"
-booking: "/booking/yamanashi_fuji_golf_ko"
-summary: "후지산 조망과 합리적인 그린피가 강점인 야마나시 골프장, 예약은 라쿠텐 GORA 확인 후 진행 추천."
-seo_title: "야마나시 후지 골프 예약·요금·가는 법 정리"
-seo_description: "후에후키시 소재 후지산 뷰 골프장. 그린피 시세, 도쿄·나리타공항 접근법, 예약 방법까지 실전 가이드."
+lang: ko
+title: Yamanashi Fuji Golf
+lat: '35.4544'
+lng: '138.7556'
+categories: Value for Money, Mt. Fuji View, Scenic
+thumbnail: /static/images/yamanashi_fuji_golf.jpg
+address: Fuefuki, Yamanashi
+date: '2026-09-14'
+booking: /booking/yamanashi_fuji_golf_ko
+summary: 후지산 조망과 합리적인 그린피가 강점인 야마나시 골프장, 예약은 라쿠텐 GORA 확인 후 진행 추천.
+seo_title: 야마나시 후지 골프 예약·요금·가는 법 정리
+seo_description: 후에후키시 소재 후지산 뷰 골프장. 그린피 시세, 도쿄·나리타공항 접근법, 예약 방법까지 실전 가이드.
 ---
+
 
 ## 퀵 팩트
 

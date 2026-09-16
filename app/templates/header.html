@@ -4,14 +4,14 @@
         <div class="header-layout">
             <!-- 좌측 가이드 -->
             <div class="header-left">
-                <a href="{{ '/guide?lang=ko' if (active_lang or 'en') == 'ko' else '/guide' }}" class="nav-link">
-                    📖 <span class="hide-mobile">{{ '가이드' if active_lang == 'ko' else 'Guides' }}</span>
+                <a href="{% if active_lang == 'ko' %}/guide?lang=ko{% elif active_lang == 'ja' %}/guide?lang=ja{% else %}/guide{% endif %}" class="nav-link">
+                    📖 <span class="hide-mobile">{% if active_lang == 'ko' %}가이드{% elif active_lang == 'ja' %}ガイド{% else %}Guides{% endif %}</span>
                 </a>
             </div>
             
             <!-- 중앙 로고 -->
             <div class="header-center">
-                <a href="{{ '/?lang=ko' if (active_lang or 'en') == 'ko' else '/' }}">
+                <a href="{% if active_lang == 'ko' %}/?lang=ko{% elif active_lang == 'ja' %}/?lang=ja{% else %}/{% endif %}">
                     <img src="/static/images/logo.png" alt="OKCaddie" class="logo-img">
                 </a>
             </div>
@@ -19,16 +19,18 @@
             <!-- 우측 언어 버튼 -->
             <div class="header-right lang-selector" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end;">
                 {% if post and post.id %}
-                    {% set base_id = post.base_id or (post.id | replace('_ko', '') | replace('_en', '')) %}
+                    {% set base_id = post.base_id or (post.id | replace('_ko', '') | replace('_en', '') | replace('_ja', '')) %}
                     {% set path_prefix = '/guide/' if request.path.startswith('/guide') else '/course/' %}
                     <a href="{{ path_prefix }}{{ base_id }}?lang=ko" class="lang-btn {{ 'active' if active_lang == 'ko' }}">KO</a>
+                    <a href="{{ path_prefix }}{{ base_id }}?lang=ja" class="lang-btn {{ 'active' if active_lang == 'ja' }}">JA</a>
                     <a href="{{ path_prefix }}{{ base_id }}" class="lang-btn {{ 'active' if active_lang == 'en' }}">EN</a>
                 {% else %}
                     <a href="{% if request.path == '/courses' %}/courses?lang=ko{% if request.args.get('page') and request.args.get('page') != '1' %}&page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/?lang=ko{% elif request.path == '/guide' %}/guide?lang=ko{% elif request.path == '/compare' %}/compare?lang=ko{% elif request.path == '/about' or request.path == '/about.html' %}/about?lang=ko{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy?lang=ko{% else %}?lang=ko{% endif %}" class="lang-btn {{ 'active' if active_lang == 'ko' }}" data-lang="ko">KO</a>
+                    <a href="{% if request.path == '/courses' %}/courses?lang=ja{% if request.args.get('page') and request.args.get('page') != '1' %}&page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/?lang=ja{% elif request.path == '/guide' %}/guide?lang=ja{% elif request.path == '/compare' %}/compare?lang=ja{% elif request.path == '/about' or request.path == '/about.html' %}/about?lang=ja{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy?lang=ja{% else %}?lang=ja{% endif %}" class="lang-btn {{ 'active' if active_lang == 'ja' }}" data-lang="ja">JA</a>
                     <a href="{% if request.path == '/courses' %}/courses{% if request.args.get('page') and request.args.get('page') != '1' %}?page={{ request.args.get('page') }}{% endif %}{% elif request.path == '/' %}/{% elif request.path == '/guide' %}/guide{% elif request.path == '/compare' %}/compare{% elif request.path == '/about' or request.path == '/about.html' %}/about{% elif request.path == '/privacy' or request.path == '/privacy.html' %}/privacy{% else %}?lang=en{% endif %}" class="lang-btn {{ 'active' if active_lang == 'en' }}" data-lang="en">EN</a>
                 {% endif %}
                 <a href="/compare?lang={{ active_lang or 'en' }}" class="header-compare-btn" data-compare-open>
-                    {{ '비교' if active_lang == 'ko' else 'Compare' }}
+                    {% if active_lang == 'ko' %}비교{% elif active_lang == 'ja' %}比較{% else %}Compare{% endif %}
                     <span class="header-compare-badge" data-compare-count>0</span>
                 </a>
             </div>
@@ -36,30 +38,30 @@
         {% if request.path == '/' %}
         <div class="map-search-wrap">
             <input type="search" id="map-search" class="map-search-input"
-                   placeholder="{{ '코스·지역·테마 검색…' if active_lang == 'ko' else 'Search courses, area, theme…' }}"
+                   placeholder="{% if active_lang == 'ko' %}코스·지역·테마 검색…{% elif active_lang == 'ja' %}コース・地域・テーマ検索…{% else %}Search courses, area, theme…{% endif %}"
                    autocomplete="off">
         </div>
         <div class="theme-filter-container">
             <div class="theme-filter-buttons">
-                <button type="button" class="theme-button active" data-theme="all" data-en="All" data-ko="전체">
+                <button type="button" class="theme-button active" data-theme="all" data-en="All" data-ko="전체" data-ja="すべて">
                     All <span class="count-badge" id="count-all">0</span>
                 </button>
-                <button type="button" class="theme-button" data-theme="Value for Money" data-en="💰 Budget" data-ko="💰 가성비">
+                <button type="button" class="theme-button" data-theme="Value for Money" data-en="💰 Budget" data-ko="💰 가성비" data-ja="💰 コスパ">
                     💰 Budget <span class="count-badge" id="count-value">0</span>
                 </button>
-                <button type="button" class="theme-button" data-theme="Premium / Luxury" data-en="💎 Premium" data-ko="💎 프리미엄">
+                <button type="button" class="theme-button" data-theme="Premium / Luxury" data-en="💎 Premium" data-ko="💎 프리미엄" data-ja="💎 プレミアム">
                     💎 Premium <span class="count-badge" id="count-premium">0</span>
                 </button>
-                <button type="button" class="theme-button" data-theme="Public Tournament" data-en="🏆 Tour" data-ko="🏆 대회코스">
+                <button type="button" class="theme-button" data-theme="Public Tournament" data-en="🏆 Tour" data-ko="🏆 대회코스" data-ja="🏆 大会コース">
                     🏆 Tour <span class="count-badge" id="count-tour">0</span>
                 </button>
-                <button type="button" class="theme-button" data-theme="Stay & Play" data-en="🏨 Resort" data-ko="🏨 숙박/리조트">
+                <button type="button" class="theme-button" data-theme="Stay & Play" data-en="🏨 Resort" data-ko="🏨 숙박/리조트" data-ja="🏨 ステイ＆プレイ">
                     🏨 Resort <span class="count-badge" id="count-resort">0</span>
                 </button>
-                <button type="button" class="theme-button" data-theme="Easy Booking" data-en="📅 Easy" data-ko="📅 예약편리">
+                <button type="button" class="theme-button" data-theme="Easy Booking" data-en="📅 Easy" data-ko="📅 예약편리" data-ja="📅 予約しやすい">
                     📅 Easy <span class="count-badge" id="count-easy">0</span>
                 </button>
-                <button type="button" class="theme-button" data-theme="Private Club" data-en="🔒 Private" data-ko="🔒 회원제">
+                <button type="button" class="theme-button" data-theme="Private Club" data-en="🔒 Private" data-ko="🔒 회원제" data-ja="🔒 会員制">
                     🔒 Private <span class="count-badge" id="count-private">0</span>
                 </button>
             </div>

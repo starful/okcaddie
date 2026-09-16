@@ -20,11 +20,11 @@
     {% include 'partials/family_sites.html' %}
 
     <div class="container">
-        <nav class="footer-nav" aria-label="{{ '푸터 링크' if active_lang == 'ko' else 'Footer links' }}">
-            <a href="{{ '/courses?lang=ko' if (active_lang or 'en') == 'ko' else '/courses' }}">{{ '전체 코스' if active_lang == 'ko' else 'Courses' }}</a>
-            <a href="{{ '/about?lang=ko' if (active_lang or 'en') == 'ko' else '/about' }}">{{ '소개' if active_lang == 'ko' else 'About' }}</a>
-            <a href="{{ '/contact?lang=ko' if (active_lang or 'en') == 'ko' else '/contact' }}">{{ '문의' if active_lang == 'ko' else 'Contact' }}</a>
-            <a href="{{ '/privacy?lang=ko' if (active_lang or 'en') == 'ko' else '/privacy' }}">{{ '개인정보 처리방침' if active_lang == 'ko' else 'Privacy Policy' }}</a>
+        <nav class="footer-nav" aria-label="{% if active_lang == 'ko' %}푸터 링크{% elif active_lang == 'ja' %}フッターリンク{% else %}Footer links{% endif %}">
+            <a href="{% if active_lang == 'ko' %}/courses?lang=ko{% elif active_lang == 'ja' %}/courses?lang=ja{% else %}/courses{% endif %}">{% if active_lang == 'ko' %}전체 코스{% elif active_lang == 'ja' %}コース一覧{% else %}Courses{% endif %}</a>
+            <a href="{% if active_lang == 'ko' %}/about?lang=ko{% elif active_lang == 'ja' %}/about?lang=ja{% else %}/about{% endif %}">{% if active_lang == 'ko' %}소개{% elif active_lang == 'ja' %}について{% else %}About{% endif %}</a>
+            <a href="{% if active_lang == 'ko' %}/contact?lang=ko{% elif active_lang == 'ja' %}/contact?lang=ja{% else %}/contact{% endif %}">{% if active_lang == 'ko' %}문의{% elif active_lang == 'ja' %}お問い合わせ{% else %}Contact{% endif %}</a>
+            <a href="{% if active_lang == 'ko' %}/privacy?lang=ko{% elif active_lang == 'ja' %}/privacy?lang=ja{% else %}/privacy{% endif %}">{% if active_lang == 'ko' %}개인정보 처리방침{% elif active_lang == 'ja' %}プライバシー{% else %}Privacy Policy{% endif %}</a>
         </nav>
 
         <p class="footer-copy">

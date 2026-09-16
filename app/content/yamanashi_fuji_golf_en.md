@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Yamanashi Fuji Golf"
-lat: "35.4544"
-lng: "138.7556"
-categories: "Value for Money, Mt. Fuji View, Scenic"
-thumbnail: "/static/images/yamanashi_fuji_golf.jpg"
-address: "Fuefuki, Yamanashi"
-date: "2026-09-04"
-booking: "/booking/yamanashi_fuji_golf_en"
-summary: "Fuefuki, Yamanashi course with fair weekday rates and Fuji-facing scenery; check live fees and book at /booking/yamanashi_fuji_golf_en."
-seo_title: "Yamanashi Fuji Golf: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Yamanashi Fuji Golf in Fuefuki — access from Tokyo, fee ranges, and how to book online."
+lang: en
+title: Yamanashi Fuji Golf
+lat: '35.4544'
+lng: '138.7556'
+categories: Value for Money, Mt. Fuji View, Scenic
+thumbnail: /static/images/yamanashi_fuji_golf.jpg
+address: Fuefuki, Yamanashi
+date: '2026-09-14'
+booking: /booking/yamanashi_fuji_golf_en
+summary: Fuefuki, Yamanashi course with fair weekday rates and Fuji-facing scenery;
+  check live fees and book at /booking/yamanashi_fuji_golf_en.
+seo_title: 'Yamanashi Fuji Golf: Fees, Access & Booking Guide'
+seo_description: Plan a round at Yamanashi Fuji Golf in Fuefuki — access from Tokyo,
+  fee ranges, and how to book online.
 ---
+
 
 ## Quick Facts
 

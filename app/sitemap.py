@@ -83,6 +83,8 @@ def course_sitemap_entries(now_iso):
             alternates.append(("en", f"{SITE_URL}{course_href(bid, 'en')}"))
         if (bid, "ko") in grouped:
             alternates.append(("ko", f"{SITE_URL}{course_href(bid, 'ko')}"))
+        if (bid, "ja") in grouped:
+            alternates.append(("ja", f"{SITE_URL}{course_href(bid, 'ja')}"))
         xd = f"{SITE_URL}{course_href(bid, 'en')}"
         alternates.append(("x-default", xd))
         entries.append(
@@ -102,7 +104,11 @@ def guide_sitemap_entries(now_iso):
     for g in CACHED_GUIDES:
         base_id = g.get("base_id") or split_localized_id(g.get("id", ""))[0]
         lang = g.get("lang", "en")
-        path = f"/guide/{base_id}" + ("?lang=ko" if lang == "ko" else "")
+        path = f"/guide/{base_id}"
+        if lang == "ko":
+            path += "?lang=ko"
+        elif lang == "ja":
+            path += "?lang=ja"
         guide_id = g.get("id") or f"{base_id}_{lang}"
         md_path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
         fallback = safe_iso_date(g.get("date"), now_iso)
@@ -110,10 +116,13 @@ def guide_sitemap_entries(now_iso):
         alternates = []
         en_path = os.path.join(GUIDE_DIR, f"{base_id}_en.md")
         ko_path = os.path.join(GUIDE_DIR, f"{base_id}_ko.md")
+        ja_path = os.path.join(GUIDE_DIR, f"{base_id}_ja.md")
         if os.path.exists(en_path):
             alternates.append(("en", f"{SITE_URL}/guide/{base_id}"))
         if os.path.exists(ko_path):
             alternates.append(("ko", f"{SITE_URL}/guide/{base_id}?lang=ko"))
+        if os.path.exists(ja_path):
+            alternates.append(("ja", f"{SITE_URL}/guide/{base_id}?lang=ja"))
         alternates.append(("x-default", f"{SITE_URL}/guide/{base_id}"))
         entries.append(
             {

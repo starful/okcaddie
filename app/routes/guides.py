@@ -18,7 +18,7 @@ try:
     from ..data_loader import CACHED_GUIDES
     from ..family_sites import cross_links_for, inject_family_context
     from ..guide_content import guide_image_url, load_guide_post
-    from ..ids import resolve_guide_id, split_localized_id
+    from ..ids import guide_href, resolve_guide_id, split_localized_id
     from ..paths import GUIDE_DIR
     from ..text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from ..a8_affiliate import a8_banners_context
@@ -33,7 +33,7 @@ except ImportError:
     from data_loader import CACHED_GUIDES
     from family_sites import cross_links_for, inject_family_context
     from guide_content import guide_image_url, load_guide_post
-    from ids import resolve_guide_id, split_localized_id
+    from ids import guide_href, resolve_guide_id, split_localized_id
     from paths import GUIDE_DIR
     from text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from a8_affiliate import a8_banners_context
@@ -106,7 +106,7 @@ def guide_detail(guide_ref):
         limit=6,
     )
 
-    guide_path = f"/guide/{base_id}{'?lang=ko' if post_data['lang'] == 'ko' else ''}"
+    guide_path = guide_href(base_id, post_data["lang"])
     share_ctx = share_context(guide_id, post_data["title"], post_data["lang"], guide_path)
 
     return render_template(

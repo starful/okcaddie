@@ -3,5 +3,6 @@ Allow: /
 Disallow: /api/
 Disallow: /booking/
 Disallow: /travel/
+Disallow: /go/
 
 Sitemap: https://okcaddie.net/sitemap.xml

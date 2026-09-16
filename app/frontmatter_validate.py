@@ -23,6 +23,8 @@ def _lang_from_filename(path: str) -> str | None:
     stem = Path(path).stem
     if stem.endswith("_ko"):
         return "ko"
+    if stem.endswith("_ja"):
+        return "ja"
     if stem.endswith("_en"):
         return "en"
     return None
