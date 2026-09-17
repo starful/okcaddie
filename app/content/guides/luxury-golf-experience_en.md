@@ -105,6 +105,8 @@ Before diving into the specific clubs, it's crucial to understand the cultural a
     *   **International Reputation:** Hirono's reputation extends beyond Japan, attracting golfers from around the world who seek to experience one of the finest courses in existence.
 *   **The Luxury Experience:** Membership at Hirono Golf Club represents the pinnacle of golfing achievement in Japan. It's an opportunity to play on a world-class course, surrounded by natural beauty and a community of like-minded individuals.
 
+For a coastal resort alternative that visitors can more often access via hotel packages, see [Kawana Hotel Golf Course (Fuji Course)](/course/kawana_hotel_golf_course_fuji_course)—an Alison classic with Pacific views and on-site onsen.
+
 ## Beyond the Membership Fee: The Ongoing Costs of Luxury Golf
 
 While the initial membership fee is the most significant expense, it's important to understand that ongoing costs are also substantial. These can include:

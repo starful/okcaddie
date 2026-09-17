@@ -37,6 +37,8 @@ The primary platforms for Hitori Yoyaku are:
 *   **Rakuten GORA (楽天GORA):** Another massive player, backed by the Rakuten ecosystem. Also features a robust "一人予約" system.
 *   **ALBA.Net Golf (ゴルフ場予約 by ALBA.Net):** A reputable golf media company with its own **booking** engine, including solo options.
 
+Resort-style courses near Tokyo—like [Kawana Hotel Golf Course (Fuji Course)](/course/kawana_hotel_golf_course_fuji_course)—sometimes accept singles via hotel packages or pairing, but always confirm *hitori yoyaku* availability before you travel.
+
 **Navigating the Platforms (GDO & Rakuten GORA Focus):**
 
 While interfaces may vary slightly, the core functionality is similar. Here’s a step-by-step guide:

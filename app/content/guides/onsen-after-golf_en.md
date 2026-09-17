@@ -60,7 +60,7 @@ Here's a curated list of some of the best golf courses in Japan that offer acces
 
 **Kanto (Greater Tokyo Area):**
 
-*   **Kawana Hotel Golf Course (Fuji Course):** A classic course with breathtaking views of Mount Fuji and the Pacific Ocean. The hotel features several onsen baths, offering a variety of mineral waters and therapeutic benefits. One of the most iconic golfing destinations in Japan. The onsen here is particularly renowned for its skin-beautifying properties.
+*   **[Kawana Hotel Golf Course (Fuji Course)](/course/kawana_hotel_golf_course_fuji_course):** A classic course with breathtaking views of Mount Fuji and the Pacific Ocean. The hotel features several onsen baths, offering a variety of mineral waters and therapeutic benefits. One of the most iconic golfing destinations in Japan. The onsen here is particularly renowned for its skin-beautifying properties.
 *   **[Taiheiyo Club Gotemba Course](/course/taiheiyo_club_gotemba_course):** Another course with stunning views of Mount Fuji. The Taiheiyo Club offers a luxurious golfing experience, with impeccable service and world-class facilities. The onsen provides a relaxing and rejuvenating experience. Hosts professional tournaments.
 *   **Izu Marriott Hotel Shuzenji:** Offers a beautiful golf course nestled in the Izu Peninsula, known for its stunning coastal scenery. The hotel features a luxurious onsen with both indoor and outdoor baths, offering breathtaking views of the surrounding landscape.
 

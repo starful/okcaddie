@@ -221,8 +221,18 @@ _GUIDE_RELATED_BASE: dict[str, tuple[str, ...]] = {
     ),
     "golf-etiquette-japan": ("yokohama_country_club", "tokyo_golf_club", "abc_golf_club"),
     "autumn-leaves-golf": ("karuizawa_72_golf_east", "nasu_kogen_golf_club", "zao_country_club"),
-    "mt-fuji-view-golf": ("hakone_country_club", "fuji_country_club", "hiratsuka_fuji_golf_course"),
-    "onsen-after-golf": ("hakone_country_club", "beppu_golf_club", "nasu_kogen_golf_club"),
+    "mt-fuji-view-golf": (
+        "hakone_country_club",
+        "fuji_country_club",
+        "hiratsuka_fuji_golf_course",
+        "kawana_hotel_golf_course_fuji_course",
+    ),
+    "onsen-after-golf": (
+        "hakone_country_club",
+        "beppu_golf_club",
+        "nasu_kogen_golf_club",
+        "kawana_hotel_golf_course_fuji_course",
+    ),
     "hokkaido-summer-golf": (
         "eniwa_country_club",
         "sapporo_golf_club_wattsu_course",
@@ -234,8 +244,14 @@ _GUIDE_RELATED_BASE: dict[str, tuple[str, ...]] = {
         "yokohama_country_club",
         "camellia_hills_country_club",
         "phoenix_country_club",
+        "kawana_hotel_golf_course_fuji_course",
     ),
-    "tokyo-near-golf": ("yokohama_country_club", "totsuka_country_club", "narita_golf_club"),
+    "tokyo-near-golf": (
+        "yokohama_country_club",
+        "totsuka_country_club",
+        "narita_golf_club",
+        "kawana_hotel_golf_course_fuji_course",
+    ),
     "kansai-golf-weekend": ("hirono_golf_club", "kyoto_golf_club_kamigamo", "abc_golf_club"),
     "kyushu-golf-circuit": (
         "beppu_golf_club",
@@ -244,9 +260,36 @@ _GUIDE_RELATED_BASE: dict[str, tuple[str, ...]] = {
     ),
     "korean-friendly-courses": ("pgm_golf_resort_okinawa", "beppu_golf_club", "abc_golf_club"),
     "best-winter-golf": ("beppu_golf_club", "satsuma_resort_golf_club", "pgm_golf_resort_okinawa"),
+    "single-golfer-booking": (
+        "pgm_golf_resort_okinawa",
+        "abc_golf_club",
+        "kawana_hotel_golf_course_fuji_course",
+    ),
+    "luxury-golf-experience": (
+        "hirono_golf_club",
+        "kawana_hotel_golf_course_fuji_course",
+        "kasumigaseki_country_club",
+    ),
 }
 GUIDE_RELATED_COURSES = {
     f"{gid}_{lang}": list(ids)
     for gid, ids in _GUIDE_RELATED_BASE.items()
-    for lang in ("en", "ko")
+    for lang in ("en", "ko", "ja")
 }
+
+# Course → guide base_ids (used on course detail "related guides").
+_COURSE_RELATED_GUIDES_BASE: dict[str, tuple[str, ...]] = {
+    "kawana_hotel_golf_course_fuji_course": (
+        "tokyo-near-golf",
+        "onsen-after-golf",
+        "luxury-golf-experience",
+        "single-golfer-booking",
+    ),
+    "hirono_golf_club": ("kansai-golf-weekend", "luxury-golf-experience", "booking-tips-japan"),
+    "pgm_golf_resort_okinawa": (
+        "okinawa-ocean-golf",
+        "booking-tips-japan",
+        "korean-friendly-courses",
+    ),
+}
+COURSE_RELATED_GUIDES = dict(_COURSE_RELATED_GUIDES_BASE)

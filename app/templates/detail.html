@@ -154,9 +154,9 @@
             <button type="button"
                 class="compare-toggle-btn detail-compare-btn"
                 data-compare-id="{{ post.base_id }}"
-                data-label-default="{{ '+ 비교' if is_ko else '+ Compare' }}"
-                data-label-selected="{{ '✓ 비교 중' if is_ko else '✓ Comparing' }}">
-                {{ '+ 비교' if is_ko else '+ Compare' }}
+                data-label-default="{{ '+ 비교' if is_ko else ('+ 比較' if is_ja else '+ Compare') }}"
+                data-label-selected="{{ '✓ 비교 중' if is_ko else ('✓ 比較中' if is_ja else '✓ Comparing') }}">
+                {{ '+ 비교' if is_ko else ('+ 比較' if is_ja else '+ Compare') }}
             </button>
             <div class="detail-meta" style="color: #666; font-size: 0.95rem;">
                 <span>📍 {{ post.address }}</span> | 
@@ -166,6 +166,8 @@
                 {{ 'Reviewed by OKCaddie Editorial Team' if active_lang == 'en' else ('OKCaddie編集チーム監修' if active_lang == 'ja' else 'OKCaddie 편집팀 검수') }} · {{ post.date }}
             </p>
         </header>
+
+        {% include 'partials/early_booking_cta.html' %}
 
         {% if post.youtube_id %}
         <details class="detail-youtube detail-youtube--hero" open>
@@ -183,7 +185,7 @@
                 <a href="https://www.youtube.com/watch?v={{ post.youtube_id }}"
                    target="_blank"
                    rel="noopener noreferrer nofollow">
-                    {% if is_ko %}YouTube에서 열기 ↗{% else %}Open on YouTube ↗{% endif %}
+                    {% if is_ko %}YouTube에서 열기 ↗{% elif is_ja %}YouTubeで開く ↗{% else %}Open on YouTube ↗{% endif %}
                 </a>
             </p>
         </details>
@@ -201,11 +203,13 @@
         {% if 'Private Club' in post.categories or '회원제' in post.categories %}
         <div class="private-alert" style="background: #fff5f5; border: 1px solid #feb2b2; padding: 25px; border-radius: 15px; margin-bottom: 40px; color: #c53030;">
             <h3 style="margin-top: 0; font-size: 1.1rem; margin-bottom: 10px;">
-                🔒 {{ '회원제 전용 클럽' if is_ko else 'Private Member-Only Club' }}
+                🔒 {{ '회원제 전용 클럽' if is_ko else ('会員制専用クラブ' if is_ja else 'Private Member-Only Club') }}
             </h3>
             <p style="margin-bottom: 0; font-size: 0.95rem; line-height: 1.6;">
                 {% if is_ko %}
                 이 코스는 회원제 전용 클럽입니다. 일반 예약이 제한될 수 있으니, 전문 대행사나 공식 채널을 통해 라운딩 가능 여부를 먼저 확인하시기 바랍니다.
+                {% elif is_ja %}
+                このコースは会員制専用クラブです。一般予約が制限される場合があるため、公式チャネルやゴルフツアー会社でプレー可否を事前に確認してください。
                 {% else %}
                 This is a private, members-only club. Public tee times may be unavailable—confirm access through an official channel or a golf tour agency before you travel.
                 {% endif %}
@@ -272,7 +276,7 @@
             <div class="course-grid">
                 {% for c in related_courses %}
                 <article class="course-card">
-                    <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_en', '')) }}{{ '?lang=ko' if c.lang == 'ko' else '' }}">
+                    <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_ja', '') | replace('_en', '')) }}{{ '?lang=ko' if c.lang == 'ko' else ('?lang=ja' if c.lang == 'ja' else '') }}">
                         <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
                         <div class="card-content">
                             <div class="card-title">{{ c.title }}</div>
@@ -291,7 +295,7 @@
             </h3>
             <div class="guide-highlight-grid">
                 {% for g in related_guides %}
-                <a href="/guide/{{ g.id }}" class="guide-highlight-card">
+                <a href="{{ g.link or ('/guide/' ~ (g.base_id or g.id) ~ ('?lang=ko' if g.lang == 'ko' else ('?lang=ja' if g.lang == 'ja' else ''))) }}" class="guide-highlight-card">
                     <div class="guide-img-wrapper">
                         <img src="{{ g.image }}" alt="{{ g.title }}" loading="lazy">
                     </div>

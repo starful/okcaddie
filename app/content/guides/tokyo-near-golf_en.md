@@ -35,10 +35,10 @@ Before diving into specific course recommendations, it's crucial to understand t
 
 Here's a detailed breakdown of some of the best golf courses within a reasonable driving distance from Tokyo, catering to various skill levels and budgets:
 
-**1. Kawana Hotel Golf Course (Fuji Course): Shizuoka Prefecture**
+**1. [Kawana Hotel Golf Course (Fuji Course)](/course/kawana_hotel_golf_course_fuji_course): Shizuoka Prefecture**
 
-*   **Distance from Tokyo:** Approximately 2-3 hours by car, depending on traffic. Accessible by train to Ito Station, followed by a taxi ride.
-*   **Course Overview:** The Fuji Course at Kawana Hotel is legendary, consistently ranked among the best courses in Japan. Designed by Charles H. Alison, it offers stunning ocean views, challenging bunkering, and undulating greens. This is a bucket-list course for any serious golfer.
+    *   **Distance from Tokyo:** Approximately 2-3 hours by car, depending on traffic. Accessible by train to Ito Station, followed by a taxi ride.
+    *   **Course Overview:** The Fuji Course at Kawana Hotel is legendary, consistently ranked among the best courses in Japan. Designed by Charles H. Alison, it offers stunning ocean views, challenging bunkering, and undulating greens. This is a bucket-list course for any serious golfer.
 *   **Pros:** Spectacular scenery, world-class design, impeccable course conditions.
 *   **Cons:** High price point, can be difficult to book, relatively far from Tokyo.
 *   **Suitability:** Experienced golfers seeking a premium golfing experience.

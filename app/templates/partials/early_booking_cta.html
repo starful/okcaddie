@@ -1,0 +1,29 @@
+{# Compact above-the-fold GORA CTA for guide + course detail pages. #}
+{% set _lang = active_lang|default(post.lang)|default('en') %}
+{% set _booking_id = post.id %}
+<aside class="early-booking-cta" style="margin: 0 0 28px; padding: 16px 18px; background: #fff5f5; border: 1px solid #fecaca; border-radius: 14px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+  <p style="margin: 0; color: #4a5568; font-size: 0.95rem; font-weight: 600; line-height: 1.45; flex: 1 1 220px;">
+    {% if _lang == 'ko' %}실시간 티타임은 라쿠텐 고라에서 확인하세요.{% elif _lang == 'ja' %}リアルタイムティーは楽天GORAで確認できます。{% else %}Check live tee times on Rakuten GORA.{% endif %}
+  </p>
+  <a href="/booking/{{ _booking_id }}"
+     target="_blank"
+     rel="nofollow sponsored noopener noreferrer"
+     class="booking-btn early-booking-cta__btn"
+     style="display: inline-block; padding: 12px 22px; background: #bf0000; color: #fff; font-weight: 800; font-size: 0.95rem; border-radius: 999px; text-decoration: none; white-space: nowrap;">
+    {% if _lang == 'ko' %}라쿠텐에서 예약하기{% elif _lang == 'ja' %}楽天GORAで予約{% else %}Book on Rakuten GORA{% endif %}
+  </a>
+</aside>
+<script>
+(function () {
+  document.querySelectorAll('.early-booking-cta a[href^="/booking/"]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      if (typeof gtag === 'function') {
+        gtag('event', 'partner_outbound_click', {
+          event_category: 'early_cta_gora',
+          event_label: (a.getAttribute('href') || '').split('?')[0]
+        });
+      }
+    });
+  });
+})();
+</script>

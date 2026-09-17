@@ -17,6 +17,7 @@ try:
         AREA_MAP,
         FAMILY_SITE_ID,
         GORA_SEARCH_NAMES,
+        COURSE_RELATED_GUIDES,
         GUIDE_RELATED_COURSES,
         RETIRED_COURSE_REDIRECTS,
         RETIRED_GUIDE_REDIRECTS,
@@ -29,6 +30,7 @@ try:
     from ..family_sites import cross_links_for, inject_family_context
     from ..ids import (
         extract_prefecture,
+        guide_href,
         lang_from_course_id,
         resolve_course_id,
         resolve_guide_id,
@@ -55,6 +57,7 @@ except ImportError:
         AREA_MAP,
         FAMILY_SITE_ID,
         GORA_SEARCH_NAMES,
+        COURSE_RELATED_GUIDES,
         GUIDE_RELATED_COURSES,
         RETIRED_COURSE_REDIRECTS,
         RETIRED_GUIDE_REDIRECTS,
@@ -67,6 +70,7 @@ except ImportError:
     from family_sites import cross_links_for, inject_family_context
     from ids import (
         extract_prefecture,
+        guide_href,
         lang_from_course_id,
         resolve_course_id,
         resolve_guide_id,
@@ -88,6 +92,37 @@ except ImportError:
     )
 
 courses_bp = Blueprint("courses", __name__)
+
+
+def _related_guides_for_course(base_id: str, lang: str, limit: int = 3) -> list[dict]:
+    """Prefer COURSE_RELATED_GUIDES mapping; fall back to same-lang guides."""
+    by_base = {
+        (g.get("base_id") or split_localized_id(g.get("id", ""))[0]): g
+        for g in CACHED_GUIDES
+        if g.get("lang") == lang
+    }
+    related: list[dict] = []
+    for gid in COURSE_RELATED_GUIDES.get(base_id, ()):
+        g = by_base.get(gid)
+        if not g:
+            continue
+        item = dict(g)
+        item["link"] = guide_href(gid, lang)
+        related.append(item)
+        if len(related) >= limit:
+            return related
+    if related:
+        return related
+    for g in CACHED_GUIDES:
+        if g.get("lang") != lang:
+            continue
+        item = dict(g)
+        bid = item.get("base_id") or split_localized_id(item.get("id", ""))[0]
+        item["link"] = guide_href(bid, lang)
+        related.append(item)
+        if len(related) >= limit:
+            break
+    return related
 
 
 @courses_bp.route("/api/courses")
@@ -262,7 +297,7 @@ def course_detail(course_ref):
         c["title"] = humanize_title(c.get("title", ""))
         related_courses.append(c)
 
-    related_guides = [g for g in CACHED_GUIDES if g.get("lang") == post_data["lang"]][:3]
+    related_guides = _related_guides_for_course(base_id, post_data["lang"])
 
     course_path = course_href(base_id, post_data["lang"])
     share_ctx = share_context(course_id, post_data["title"], post_data["lang"], course_path, base_id=base_id)
