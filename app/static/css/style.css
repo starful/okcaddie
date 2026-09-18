@@ -1075,6 +1075,18 @@ body.compare-bar-active { padding-bottom: 90px; }
     line-height: 1;
     content: "🔗";
 }
+.a8-banners__item--jalan_golf .a8-banners__link { background: #0ea5e9; }
+.a8-banners__item--jalan_golf .a8-banners__link:hover { background: #0284c7; }
+.a8-banners__item--jalan_golf .a8-banners__link::before { content: "⛳"; }
+.a8-banners__item--fairway_golf .a8-banners__link { background: #166534; }
+.a8-banners__item--fairway_golf .a8-banners__link:hover { background: #14532d; }
+.a8-banners__item--fairway_golf .a8-banners__link::before { content: "🏌️"; }
+.a8-banners__item--alpen_golf5 .a8-banners__link { background: #b45309; }
+.a8-banners__item--alpen_golf5 .a8-banners__link:hover { background: #92400e; }
+.a8-banners__item--alpen_golf5 .a8-banners__link::before { content: "🛍️"; }
+.a8-banners__item--victoria_golf .a8-banners__link { background: #1d4ed8; }
+.a8-banners__item--victoria_golf .a8-banners__link:hover { background: #1e40af; }
+.a8-banners__item--victoria_golf .a8-banners__link::before { content: "🎒"; }
 .a8-banners__item--agoda .a8-banners__link { background: #5c2d91; }
 .a8-banners__item--agoda .a8-banners__link:hover { background: #4a2474; }
 .a8-banners__item--agoda .a8-banners__link::before { content: "🏨"; }

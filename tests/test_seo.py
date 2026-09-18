@@ -104,8 +104,8 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert 'href="/go/rakuten_esim"' in html
     assert 'href="/go/jalan_golf"' in html
     assert 'href="/go/fairway_golf"' in html
-    assert 'href="/go/alpen_golf5"' in html
-    assert 'href="/go/victoria_golf"' in html
+    assert 'href="/go/alpen_golf5"' not in html
+    assert 'href="/go/victoria_golf"' not in html
     assert "じゃらんゴルフ" in html
     assert "Fairway Golf" in html
     assert "TORA" not in html
@@ -283,6 +283,7 @@ def test_affiliate_go_wraps_agoda(client):
 
 
 def test_affiliate_go_wraps_new_golf_partners(client):
+    # Visible partners + kept-but-hidden gear IDs still resolve via /go/.
     for banner_id, token in (
         ("jalan_golf", "1OQCCA"),
         ("fairway_golf", "1PBRY2"),

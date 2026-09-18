@@ -151,12 +151,10 @@ def a8_banners_context(*, lang: str = "en") -> dict[str, Any]:
     if not _enabled():
         return {"show_a8_banners": False, "a8_banners": []}
     code = (lang or "en").lower()
-    # Booking + gear A8 partners, then lodging / travel add-ons.
+    # Keep the partner box scannable: 1 booking alt, 1 gear shop, lodging.
     banners = [
         _copy("jalan_golf", lang=lang),
         _copy("fairway_golf", lang=lang),
-        _copy("alpen_golf5", lang=lang),
-        _copy("victoria_golf", lang=lang),
         _copy("agoda", lang=lang),
         _copy("rakuten_travel", lang=lang),
     ]
