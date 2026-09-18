@@ -102,8 +102,15 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert 'href="/go/agoda"' in html
     assert 'href="/go/rakuten_travel"' in html
     assert 'href="/go/rakuten_esim"' in html
+    assert 'href="/go/jalan_golf"' in html
+    assert 'href="/go/fairway_golf"' in html
+    assert 'href="/go/alpen_golf5"' in html
+    assert 'href="/go/victoria_golf"' in html
+    assert "じゃらんゴルフ" in html
+    assert "Fairway Golf" in html
     assert "TORA" not in html
     assert "골프 여행 필수품" not in html
+    assert "hinata" not in html.lower()
 
 
 def test_social_image_endpoint(client):
@@ -273,6 +280,20 @@ def test_affiliate_go_wraps_agoda(client):
     assert "noindex" in r.headers.get("X-Robots-Tag", "").lower()
     assert "px.a8.net" in r.headers.get("Location", "")
     assert client.get("/go/not-a-banner").status_code == 404
+
+
+def test_affiliate_go_wraps_new_golf_partners(client):
+    for banner_id, token in (
+        ("jalan_golf", "1OQCCA"),
+        ("fairway_golf", "1PBRY2"),
+        ("alpen_golf5", "1X2ET6"),
+        ("victoria_golf", "1LR6BE"),
+    ):
+        r = client.get(f"/go/{banner_id}")
+        assert r.status_code in (301, 302)
+        loc = r.headers.get("Location", "")
+        assert "px.a8.net" in loc
+        assert token in loc
 
 
 def test_booking_omits_chiba_when_area_unknown(client):
