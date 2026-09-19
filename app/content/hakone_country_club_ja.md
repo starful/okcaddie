@@ -3,18 +3,19 @@ address: Hakone, Kanagawa, Japan
 booking: /booking/hakone_country_club_ja
 categories: Private Club, Premium / Luxury, Scenic View, Championship Course
 date: '2026-09-17'
-description: Planning to play Hakone Country Club? Discover how to secure visitor
-  tee times, current green fees, and what to expect at this prestigious golf course
-  near Mt. Fuji.
+description: Members-only mountain golf near Mt. Fuji. See if you can book as a guest,
+  typical fee ranges, and the steps to reserve tee times.
 lang: ja
 lat: '35.2544'
 lng: '139.0056'
-seo_description: 箱根カントリー倶楽部の予約方法、平日・週末の料金目安、東京・小田原からのアクセスを解説。ビジター利用の実情も正直に紹介します。
-seo_title: 箱根カントリー倶楽部 予約ガイド｜料金相場とビジターアクセス
-summary: 箱根カントリー倶楽部は紹介制中心の山岳コース。料金相場とビジター予約の実務、アクセスの注意点をまとめた実践ガイド。
+seo_description: Members-only mountain golf near Mt. Fuji. See if you can book as
+  a guest, typical fee ranges, and the steps to reserve tee times.
+seo_title: 'Hakone Country Club: Visitor Fees & How to Book'
+summary: 箱根カントリー倶楽部は紹介制中心の山岳コース。ビジター利用の条件や料金相場、予約の実務、アクセスの注意点をまとめた実践ガイド。
 thumbnail: /static/images/hakone_country_club.jpg
-title: 'Hakone Country Club: Booking Guide & Green Fees'
+title: 'Hakone Country Club: Visitor Fees & How to Book'
 ---
+箱根カントリー倶楽部は「誰でも予約できるコースではない」ことで知られる紹介制中心の山岳コース。だからこそ、ビジターとして訪れる条件を事前に把握しておくことが、スムーズな予約への近道です。本ガイドでは、会員同伴なしでも当てはまる予約ルートの考え方や料金相場の目安、アクセス時の注意点を順に整理しました。
 
 ## クイックファクト
 

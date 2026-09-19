@@ -3,17 +3,19 @@ address: Ito, Shizuoka
 booking: /booking/kawana_hotel_golf_course_fuji_course_ja
 categories: Public Tournament, Premium / Luxury, Seaside Links
 date: '2026-09-17'
-description: Kawana Hotel Fuji Course—how visitors think about access, fees, hotel
-  stay packages, and what the oceanside layout demands.
+description: 'Kawana Hotel Fuji Course guide: green fee ranges, booking routes, hotel
+  packages, and oceanside links strategy near Ito, Shizuoka.'
 lang: ja
 lat: '34.9038'
 lng: '139.1389'
-seo_description: 静岡県伊東市、川奈ホテル富士コースの料金相場・アクセス・予約方法を解説。visitorプレーの可否やベストシーズンも紹介。
-seo_title: 川奈ホテル富士コース 予約・料金ガイド｜伊東の名門シーサイドコース
-summary: 静岡・伊東の川奈ホテル富士コースの予約方法、料金相場、アクセス、visitor向けの注意点をまとめた実用ガイド。
+seo_description: 'Kawana Hotel Fuji Course guide: green fee ranges, booking routes,
+  hotel packages, and oceanside links strategy near Ito, Shizuoka.'
+seo_title: 'Kawana Hotel Fuji Course: Green Fees, Booking & Tips | OK Caddie'
+summary: 静岡・伊東の川奈ホテル富士コースについて、グリーンフィーの目安・予約方法・宿泊パッケージ・アクセスをまとめた実用ガイド。
 thumbnail: /static/images/kawana_hotel_golf_course_fuji_course.jpg
-title: Kawana Hotel Fuji Course — Booking, Fees & Visitor Guide
+title: 'Kawana Hotel Fuji Course: Green Fees, Booking & Tips | OK Caddie'
 ---
+川奈ホテル富士コースの「料金の目安」「予約の取り方」「visitor受け入れ条件」を先に知りたい方向けに要点をまとめました。楽天GORAでの空き枠確認から宿泊セットプランまで、伊豆・伊東エリアで人気の高いこのシーサイドリンクスを賢く予約するためのポイントを押さえてから、詳細を読み進めてください。
 
 ## クイックファクト
 

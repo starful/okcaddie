@@ -1,8 +1,7 @@
 ---
 youtube_id: 0_2EXGJovgs
-
 lang: ko
-title: The Southern Links Resort | Ocean-Carry Golf & Green Fees
+title: The Southern Links Resort | Ocean-Carry 7th Hole, Green Fees
 lat: '26.1144'
 lng: '127.7356'
 categories: Seaside Links, Premium / Luxury, Resort
@@ -10,13 +9,15 @@ thumbnail: /static/images/the_southern_links_resort.jpg
 address: Yaese, Okinawa
 date: '2026-06-27'
 booking: /booking/the_southern_links_resort_ko
-summary: 오키나와 야에세의 더 서던 링크스 리조트, 태평양을 가로지르는 절벽 캐리 홀과 그린피·티타임 예약 정보를 한눈에 확인하세요.
-description: Okinawa's dramatic ocean-carry 7th hole at The Southern Links Resort
-  — green fees, GORA tee times, map & course strategy guide inside.
-seo_title: The Southern Links Resort | Ocean-Carry Golf & Green Fees
-seo_description: Okinawa's dramatic ocean-carry 7th hole at The Southern Links Resort
-  — green fees, GORA tee times, map & course strategy guide inside.
+summary: A course guide to The Southern Links Resort in Okinawa, home to the iconic
+  ocean-carry 7th hole, with green fees, tee times, and hole-by-hole strategy.
+description: 'One shot decides it all: Okinawa''s iconic ocean-carry 7th hole at The
+  Southern Links Resort. Green fees, tee times & course guide inside.'
+seo_title: The Southern Links Resort | Ocean-Carry 7th Hole, Green Fees
+seo_description: 'One shot decides it all: Okinawa''s iconic ocean-carry 7th hole
+  at The Southern Links Resort. Green fees, tee times & course guide inside.'
 ---
+오키나와 골프 여행자들이 가장 많이 찾는 홀, 바로 더 서던 링크스 리조트의 7번 홀입니다. 태평양을 통째로 건너야 하는 캐리 샷 한 번으로 코스에 대한 인상이 결정됩니다. 그린피, 예약 방법, 홀별 공략법까지 이 가이드 하나로 정리했습니다.
 
 > 태평양을 정면으로 가로지르는 7번 홀 캐리 샷 한 번이면, 왜 이 코스가 오키나와 링크스 골프의 대명사인지 알게 됩니다. 절벽과 바다가 만드는 극적인 풍경 속에서 그린피, 티타임, 예약 방법까지 아래에서 바로 확인해 보세요.
 

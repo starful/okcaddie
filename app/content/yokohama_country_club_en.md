@@ -1,11 +1,10 @@
 ---
 youtube_id: 0e0UwJt-VQo
-
 lang: en
-seo_title: 'How to Play Yokohama Country Club: Visitor Booking & Fees'
-seo_description: Want to tee off at Yokohama Country Club? Learn how visitors can
-  book a round, check green fees, and access this exclusive Japanese course.
-title: 'How to Play Yokohama Country Club: Visitor Guide & Fees'
+seo_title: 'Yokohama Country Club Visitor Guide: Fees, Booking &amp; Tips'
+seo_description: Planning to play Yokohama Country Club? Visitor rules, green fee
+  ranges, booking steps, and course tips from a Japan golf rater.
+title: 'Yokohama Country Club Visitor Guide: Fees, Booking &amp; Tips'
 lat: '35.4344'
 lng: '139.5456'
 categories: Private Club, Public Tournament, Historic
@@ -13,17 +12,12 @@ thumbnail: /static/images/yokohama_country_club.jpg
 address: Yokohama, Kanagawa
 date: '2026-04-15'
 booking: /booking/yokohama_country_club_en
-summary: A comprehensive 9,000-character master guide to Yokohama Country Club, covering
-  strategy, history, and luxury facilities, penned by an elite Japanese golf rater
-  and caddy.
-description: An expert guide on how visitors can secure a tee time at the prestigious
-  Yokohama Country Club, including green fees and booking tips.
+summary: An updated visitor-focused guide to Yokohama Country Club covering booking
+  steps, fee ranges, and course character from a veteran Japanese golf rater and caddy.
+description: Planning to play Yokohama Country Club? Visitor rules, green fee ranges,
+  booking steps, and course tips from a Japan golf rater.
 ---
-
-
-
-
-
+**Quick answer:** Yes, visitors can play Yokohama Country Club — but booking usually runs through a member introduction or a hotel/travel concierge rather than a public system, and fees shift by season and day of week. Below, a veteran Japanese golf rater breaks down what to expect before you book.
 
 As an elite Japanese golf course rater and a seasoned professional caddy with two decades of dedicated service, I have walked the hallowed fairways of Japan's most revered golf institutions countless times. Yet, few courses encapsulate the profound essence of Japanese golf — a delicate balance of strategic challenge, natural beauty, and meticulous *omotenashi* — quite like the Yokohama Country Club (YCC). For the discerning global golfer seeking the pinnacle of the Japanese golf experience, YCC is not merely a destination; it is a pilgrimage. This masterpiece review, meticulously crafted for OKCaddie's esteemed readership, will peel back the layers of this iconic club, revealing its soul from the foundational earth to the subtle undulations of its greens. Prepare for an unparalleled insight into a true *Meimon* (名門) of Japanese golf.
 
