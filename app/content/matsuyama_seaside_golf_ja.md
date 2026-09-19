@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Matsuyama Seaside Golf"
-lat: "33.9544"
-lng: "132.8156"
-categories: "Seaside Links, Ocean View, Value"
-thumbnail: "/static/images/matsuyama_seaside_golf.jpg"
-address: "Matsuyama, Ehime"
-date: "2026-09-18"
-booking: "/booking/matsuyama_seaside_golf_ja"
-summary: "松山シーサイドゴルフは瀬戸内海を望むリンクス風コースで、予約はGORA経由が中心。料金は季節変動あり、事前確認がおすすめ。"
-seo_title: "松山シーサイドゴルフ 予約・料金・アクセスガイド"
-seo_description: "愛媛県松山の海沿いリンクスコース。グリーンフィー目安、アクセス、予約方法をまとめた実用ガイド。"
+address: Matsuyama, Ehime
+booking: /booking/matsuyama_seaside_golf_ja
+categories: Seaside Links, Ocean View, Value
+date: '2026-09-18'
+description: Book tee times at Matsuyama Seaside Golf in Ehime. 18-hole links course
+  with ocean views. Check green fees and reserve your seaside golf experience today.
+lang: ja
+lat: '33.9544'
+lng: '132.8156'
+seo_description: 愛媛県松山の海沿いリンクスコース。グリーンフィー目安、アクセス、予約方法をまとめた実用ガイド。
+seo_title: 松山シーサイドゴルフ 予約・料金・アクセスガイド
+summary: 松山シーサイドゴルフは瀬戸内海を望むリンクス風コースで、予約はGORA経由が中心。料金は季節変動あり、事前確認がおすすめ。
+thumbnail: /static/images/matsuyama_seaside_golf.jpg
+title: Matsuyama Seaside Golf
 ---
 
 ## クイックファクト

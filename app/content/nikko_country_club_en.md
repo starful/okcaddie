@@ -1,14 +1,20 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Nikko Country Club: An Expert Review (en)"
-lat: "36.7244"
-lng: "139.6356"
-categories: "Private Club, Scenic View, Mountain Style"
-thumbnail: "/static/images/nikko_country_club.jpg"
-address: "Nikko, Tochigi"
-date: "2026-04-15"
-booking: "/booking/nikko_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Nikko Country Club, covering strategy, history, and luxury facilities."
+address: Nikko, Tochigi
+booking: /booking/nikko_country_club_en
+categories: Private Club, Scenic View, Mountain Style
+date: '2026-04-15'
+description: 'Nikko Country Club guide: green fees, Rakuten GORA booking, tee times,
+  hole-by-hole strategy, access tips & best seasons to play in Nikko, Japan.'
+lang: en
+lat: '36.7244'
+lng: '139.6356'
+seo_description: 'Nikko Country Club guide: green fees, Rakuten GORA booking, tee
+  times, hole-by-hole strategy, access tips & best seasons to play in Nikko, Japan.'
+seo_title: Nikko Country Club | Green Fees, Tee Times & Booking | OKCaddie
+summary: A comprehensive 9,000-character master guide to Nikko Country Club, covering
+  strategy, history, and luxury facilities.
+thumbnail: /static/images/nikko_country_club.jpg
+title: 'The Definitive Guide to Nikko Country Club: An Expert Review (en)'
 ---
 
 As an elite Japanese golf course rater and a seasoned senior caddy with two decades of dedicated service, I have walked the hallowed fairways of countless venerable institutions across this nation. Yet, few evoke the profound sense of reverence and strategic challenge quite like **Nikko Country Club**. Nestled amidst the breathtaking grandeur of Tochigi Prefecture, a stone's throw from the ancient, UNESCO-listed shrines and temples of Nikko, this club is not merely a golf course; it is a meticulously crafted experience, a living testament to Japanese golf's enduring legacy and architectural brilliance.

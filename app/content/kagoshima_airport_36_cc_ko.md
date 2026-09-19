@@ -3,9 +3,14 @@ address: 가고시마현 기리시마시
 booking: /booking/kagoshima_airport_36_cc_ko
 categories: 가성비, 쉬운예약, 대규모
 date: '2026-04-15'
+description: 가고시마 공항 36 컨트리클럽 그린피, 예약 방법, 공항에서 가는 법, 코스 공략까지 정리했어요. 라쿠텐 고라 예약 링크와
+  지도도 함께 확인하세요.
 lang: ko
 lat: '31.8544'
 lng: '130.7156'
+seo_description: 가고시마 공항 36 컨트리클럽 그린피, 예약 방법, 공항에서 가는 법, 코스 공략까지 정리했어요. 라쿠텐 고라 예약
+  링크와 지도도 함께 확인하세요.
+seo_title: 가고시마 공항 36 컨트리클럽 후기 | 그린피·예약·가는 법 | OKCaddie
 summary: 가고시마 공항 36 컨트리클럽에 대한 전략, 역사, 럭셔리 시설을 아우르는 9,000자 분량의 종합 마스터 가이드입니다.
 thumbnail: /static/images/kagoshima_airport_36_cc.jpg
 title: '가고시마 공항 36 컨트리클럽 심층 분석: 20년 경력 베테랑 캐디의 마스터피스 리뷰'

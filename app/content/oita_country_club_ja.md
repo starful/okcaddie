@@ -1,16 +1,20 @@
 ---
-lang: "ja"
-title: "Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater & Senior Caddy"
-lat: "33.1544"
-lng: "131.5556"
-categories: "Luxury Golf, Strategic Design, Onsen Experience, Historical Prestige, Forest Course"
-thumbnail: "/static/images/oita_country_club.jpg"
-address: "3136-1 Shimogori, Oita, 870-1123, Japan"
-date: "2026-09-18"
-booking: "/booking/oita_country_club_ja"
-summary: "大分カントリークラブの料金相場・アクセス・予約方法を旅程目線で整理。九州温泉旅と組み合わせやすい森林コースです。"
-seo_title: "大分カントリークラブ 料金・アクセス・予約ガイド"
-seo_description: "大分カントリークラブの visitor 向け情報を解説。グリーンフィー相場、大分空港からのアクセス、予約手段まで実用的にまとめました。"
+address: 3136-1 Shimogori, Oita, 870-1123, Japan
+booking: /booking/oita_country_club_ja
+categories: Luxury Golf, Strategic Design, Onsen Experience, Historical Prestige,
+  Forest Course
+date: '2026-09-18'
+description: Easily book your tee time at Oita Country Club. Discover green fees,
+  Rakuten GORA booking guides, course maps, and expert tips on OKCaddie.
+lang: ja
+lat: '33.1544'
+lng: '131.5556'
+seo_description: 大分カントリークラブの visitor 向け情報を解説。グリーンフィー相場、大分空港からのアクセス、予約手段まで実用的にまとめました。
+seo_title: 大分カントリークラブ 料金・アクセス・予約ガイド
+summary: 大分カントリークラブの料金相場・アクセス・予約方法を旅程目線で整理。九州温泉旅と組み合わせやすい森林コースです。
+thumbnail: /static/images/oita_country_club.jpg
+title: 'Oita Country Club: A Masterpiece Review by an Elite Japanese Golf Rater &
+  Senior Caddy'
 ---
 
 ## クイックファクト

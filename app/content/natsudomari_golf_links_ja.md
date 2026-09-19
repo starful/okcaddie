@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Natsudomari Golf Links — Tee Times, Fees & Visitor Guide"
-lat: "41.0144"
-lng: "140.8956"
-categories: "Seaside Links, Scenic View, Strategic Design"
-thumbnail: "/static/images/natsudomari_golf_links.jpg"
-address: "Hiranai, Higashitsugaru District, Aomori Prefecture, Japan"
-date: "2026-09-18"
-booking: "/booking/natsudomari_golf_links_ja"
-summary: "青森県平内町、夏泊半島に位置するシーサイドリンクス。海風とアップダウンを活かした戦略的なコース設計で、予約はゴルフ場予約サイトか宿泊施設経由が基本。"
-seo_title: "夏泊ゴルフリンクス 料金・予約・アクセス完全ガイド"
-seo_description: "青森・夏泊半島のシーサイドリンクスを解説。グリーンフィー目安、予約方法、青森空港からのアクセス、服装マナーまで来場前に知りたい情報をまとめました。"
+address: Hiranai, Higashitsugaru District, Aomori Prefecture, Japan
+booking: /booking/natsudomari_golf_links_ja
+categories: Seaside Links, Scenic View, Strategic Design
+date: '2026-09-18'
+description: Northern Japan links on Mutsu Bay. Tee times, green-fee planning, wind
+  strategy, and visitor booking tips for Natsudomari.
+lang: ja
+lat: '41.0144'
+lng: '140.8956'
+seo_description: 青森・夏泊半島のシーサイドリンクスを解説。グリーンフィー目安、予約方法、青森空港からのアクセス、服装マナーまで来場前に知りたい情報をまとめました。
+seo_title: 夏泊ゴルフリンクス 料金・予約・アクセス完全ガイド
+summary: 青森県平内町、夏泊半島に位置するシーサイドリンクス。海風とアップダウンを活かした戦略的なコース設計で、予約はゴルフ場予約サイトか宿泊施設経由が基本。
+thumbnail: /static/images/natsudomari_golf_links.jpg
+title: Natsudomari Golf Links — Tee Times, Fees & Visitor Guide
 ---
 
 ## クイックファクト

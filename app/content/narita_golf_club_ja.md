@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Narita Golf Club"
-lat: "35.8344"
-lng: "140.3856"
-categories: "Private Club, Premium / Luxury, Luxury"
-thumbnail: "/static/images/narita_golf_club.jpg"
-address: "Narita, Chiba"
-date: "2026-09-18"
-booking: "/booking/narita_golf_club_ja"
-summary: "成田空港近郊の会員制プレミアムコース。訪問には紹介が必要な場合が多く、料金は要事前確認。空港連泊プランと相性が良い一打です。"
-seo_title: "成田ゴルフ倶楽部|料金・予約・アクセス完全ガイド"
-seo_description: "千葉県成田市の成田ゴルフ倶楽部を解説。visitor access、料金相場、成田空港からのアクセス、予約方法まで旅行者目線でまとめました。"
+address: Narita, Chiba
+booking: /booking/narita_golf_club_ja
+categories: Private Club, Premium / Luxury, Luxury
+date: '2026-09-18'
+description: Want to play Narita Golf Club? Find current green fees, booking options,
+  tee times, and expert course tips for this top Chiba golf course near Tokyo.
+lang: ja
+lat: '35.8344'
+lng: '140.3856'
+seo_description: 千葉県成田市の成田ゴルフ倶楽部を解説。visitor access、料金相場、成田空港からのアクセス、予約方法まで旅行者目線でまとめました。
+seo_title: 成田ゴルフ倶楽部|料金・予約・アクセス完全ガイド
+summary: 成田空港近郊の会員制プレミアムコース。訪問には紹介が必要な場合が多く、料金は要事前確認。空港連泊プランと相性が良い一打です。
+thumbnail: /static/images/narita_golf_club.jpg
+title: Narita Golf Club
 ---
 
 ## クイックファクト

@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Naruo Golf Club: An Expert Review"
-lat: "34.8194"
-lng: "135.3444"
-categories: "Private Club, Parkland, Historic"
-thumbnail: "/static/images/naruo_golf_club.jpg"
-address: "Kawanishi, Hyogo"
-date: "2026-09-18"
-booking: "/booking/naruo_golf_club_ja"
-summary: "兵庫県川西市の名門プライベートクラブ、鳴尾ゴルフ倶楽部の会員制事情・料金目安・アクセスを解説。ビジター単独での予約は原則不可、会員紹介が前提です。"
-seo_title: "鳴尾ゴルフ倶楽部ガイド|料金相場・アクセス・予約方法"
-seo_description: "兵庫県川西市にある鳴尾ゴルフ倶楽部を紹介。会員制の実態、来場のための条件、料金相場、アクセス、服装マナーまで旅行計画に使える情報をまとめました。"
+address: Kawanishi, Hyogo
+booking: /booking/naruo_golf_club_ja
+categories: Private Club, Parkland, Historic
+date: '2026-09-18'
+description: An essential visitor guide to playing Naruo Golf Club, featuring green
+  fees, booking channels, and expert course tips.
+lang: ja
+lat: '34.8194'
+lng: '135.3444'
+seo_description: 兵庫県川西市にある鳴尾ゴルフ倶楽部を紹介。会員制の実態、来場のための条件、料金相場、アクセス、服装マナーまで旅行計画に使える情報をまとめました。
+seo_title: 鳴尾ゴルフ倶楽部ガイド|料金相場・アクセス・予約方法
+summary: 兵庫県川西市の名門プライベートクラブ、鳴尾ゴルフ倶楽部の会員制事情・料金目安・アクセスを解説。ビジター単独での予約は原則不可、会員紹介が前提です。
+thumbnail: /static/images/naruo_golf_club.jpg
+title: 'The Definitive Guide to Naruo Golf Club: An Expert Review'
 ---
 
 ## クイックファクト

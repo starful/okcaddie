@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Okinawa Country Club"
-lat: "26.2544"
-lng: "127.7556"
-categories: "Value for Money, Historic, Scenic"
-thumbnail: "/static/images/okinawa_country_club.jpg"
-address: "Nishihara, Okinawa"
-date: "2026-09-18"
-booking: "/booking/okinawa_country_club_ja"
-summary: "西原町にある歴史あるコストパフォーマンス重視のコース。那覇から車で30分前後、料金・アクセス・予約方法を実用目線で解説。"
-seo_title: "沖縄カントリークラブ 料金・アクセス・予約ガイド"
-seo_description: "沖縄県西原町の沖縄カントリークラブを解説。グリーン料金の目安、那覇空港からのアクセス、予約方法、服装マナーまで旅行者向けにまとめました。"
+address: Nishihara, Okinawa
+booking: /booking/okinawa_country_club_ja
+categories: Value for Money, Historic, Scenic
+date: '2026-09-18'
+description: Okinawa's top-rated 18-hole golf in Nishihara. Book tee times, check
+  green fees & enjoy scenic fairways. Premium experience, great value.
+lang: ja
+lat: '26.2544'
+lng: '127.7556'
+seo_description: 沖縄県西原町の沖縄カントリークラブを解説。グリーン料金の目安、那覇空港からのアクセス、予約方法、服装マナーまで旅行者向けにまとめました。
+seo_title: 沖縄カントリークラブ 料金・アクセス・予約ガイド
+summary: 西原町にある歴史あるコストパフォーマンス重視のコース。那覇から車で30分前後、料金・アクセス・予約方法を実用目線で解説。
+thumbnail: /static/images/okinawa_country_club.jpg
+title: Okinawa Country Club
 ---
 
 ## クイックファクト

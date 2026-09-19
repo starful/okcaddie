@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Okayama Country Club"
-lat: "34.7144"
-lng: "133.9156"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/okayama_country_club.jpg"
-address: "Okayama, Okayama"
-date: "2026-09-18"
-booking: "/booking/okayama_country_club_ja"
-summary: "岡山カントリー倶楽部は会員制の森林コース。ビジター利用は紹介制が中心で、予約前の確認が必須です。"
-seo_title: "岡山カントリー倶楽部 予約・アクセス・料金の目安"
-seo_description: "岡山カントリー倶楽部の visitor 利用条件、料金レンジ、岡山からのアクセスを解説。予約前に確認すべきポイントをまとめました。"
+address: Okayama, Okayama
+booking: /booking/okayama_country_club_ja
+categories: Private Club, Historic, Forest Course
+date: '2026-09-18'
+description: 'Okayama Country Club: a 1961 forest course near Okayama City. Hole-by-hole
+  strategy, green fees, Rakuten GORA booking & tee times.'
+lang: ja
+lat: '34.7144'
+lng: '133.9156'
+seo_description: 岡山カントリー倶楽部の visitor 利用条件、料金レンジ、岡山からのアクセスを解説。予約前に確認すべきポイントをまとめました。
+seo_title: 岡山カントリー倶楽部 予約・アクセス・料金の目安
+summary: 岡山カントリー倶楽部は会員制の森林コース。ビジター利用は紹介制が中心で、予約前の確認が必須です。
+thumbnail: /static/images/okayama_country_club.jpg
+title: Okayama Country Club
 ---
 
 ## クイックファクト

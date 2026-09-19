@@ -1,16 +1,19 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Nishinasuno Country Club: An Expert Review"
-lat: "36.8944"
-lng: "139.9656"
-categories: "Premium / Luxury, Forest Course, Scenic View"
-thumbnail: "/static/images/nishinasuno_country_club.jpg"
-address: "Nasushiobara, Tochigi"
-date: "2026-09-18"
-booking: "/booking/nishinasuno_country_club_ja"
-summary: "栃木県那須塩原の西那須野カントリークラブについて、料金相場・アクセス・予約方法まで旅程を組みやすい形でまとめた実用ガイド。"
-seo_title: "西那須野カントリークラブ完全ガイド|料金・アクセス・予約"
-seo_description: "栃木県那須塩原の西那須野カントリークラブの料金目安、アクセス方法、予約手順を解説。那須・塩原エリアのゴルフ旅行計画にそのまま使える実用情報。"
+address: Nasushiobara, Tochigi
+booking: /booking/nishinasuno_country_club_ja
+categories: Premium / Luxury, Forest Course, Scenic View
+date: '2026-09-18'
+description: Your complete English guide to playing at Nishinasuno Country Club in
+  Tochigi, Japan. Find green fees, step-by-step booking options, and course layout
+  strategies.
+lang: ja
+lat: '36.8944'
+lng: '139.9656'
+seo_description: 栃木県那須塩原の西那須野カントリークラブの料金目安、アクセス方法、予約手順を解説。那須・塩原エリアのゴルフ旅行計画にそのまま使える実用情報。
+seo_title: 西那須野カントリークラブ完全ガイド|料金・アクセス・予約
+summary: 栃木県那須塩原の西那須野カントリークラブについて、料金相場・アクセス・予約方法まで旅程を組みやすい形でまとめた実用ガイド。
+thumbnail: /static/images/nishinasuno_country_club.jpg
+title: 'The Definitive Guide to Nishinasuno Country Club: An Expert Review'
 ---
 
 ## クイックファクト

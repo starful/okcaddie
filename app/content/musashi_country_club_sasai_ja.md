@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Musashi Country Club Sasai: An Expert Review"
-lat: "35.8444"
-lng: "139.3856"
-categories: "Private Club, Public Tournament, Forest Course"
-thumbnail: "/static/images/musashi_country_club_sasai.jpg"
-address: "Sayama, Saitama"
-date: "2026-09-18"
-booking: "/booking/musashi_country_club_sasai_ja"
-summary: "埼玉県狭山市の武蔵カントリークラブ狭山コース。会員制中心だが紹介・提携ルートでの来場も可能。料金・アクセス・予約導線を解説。"
-seo_title: "武蔵カントリークラブ狭山|料金・アクセス・予約ガイド"
-seo_description: "埼玉県狭山市の武蔵カントリークラブ狭山コースの visitor 情報。グリーンフィー目安、都心からのアクセス、予約方法をまとめて紹介。"
+address: Sayama, Saitama
+booking: /booking/musashi_country_club_sasai_ja
+categories: Private Club, Public Tournament, Forest Course
+date: '2026-09-18'
+description: Plan your round at Saitama's Musashi Country Club Sasai. Discover green
+  fees, visitor booking options, course layout, and exclusive travel tips.
+lang: ja
+lat: '35.8444'
+lng: '139.3856'
+seo_description: 埼玉県狭山市の武蔵カントリークラブ狭山コースの visitor 情報。グリーンフィー目安、都心からのアクセス、予約方法をまとめて紹介。
+seo_title: 武蔵カントリークラブ狭山|料金・アクセス・予約ガイド
+summary: 埼玉県狭山市の武蔵カントリークラブ狭山コース。会員制中心だが紹介・提携ルートでの来場も可能。料金・アクセス・予約導線を解説。
+thumbnail: /static/images/musashi_country_club_sasai.jpg
+title: 'The Definitive Guide to Musashi Country Club Sasai: An Expert Review'
 ---
 
 ## クイックファクト

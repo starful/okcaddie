@@ -1,16 +1,19 @@
 ---
-lang: "ja"
-title: "Kyoto Ohara Public Golf Course"
-lat: "35.1144"
-lng: "135.8156"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kyoto_ohara_public.jpg"
-address: "Kyoto, Kyoto"
-date: "2026-09-18"
-booking: "/booking/kyoto_ohara_public_ja"
-summary: "京都・大原の山あいに広がるパブリックコース。手頃な料金と静かな環境が魅力で、予約はオンライン確認がおすすめ。"
-seo_title: "京都大原パブリックGC|料金・アクセス・予約ガイド"
-seo_description: "京都市大原エリアのパブリックゴルフ場を徹底解説。グリーン料金の目安、京都駅からのアクセス、予約方法まで旅行者向けに整理しました。"
+address: Kyoto, Kyoto
+booking: /booking/kyoto_ohara_public_ja
+categories: Value for Money, Mountain Style, Scenic
+date: '2026-09-18'
+description: Kyoto Ohara Public Golf Course offers convenient online booking in English,
+  featuring current green fees, detailed course information, and easy tee time reservations
+  for golfers visiting Japan.
+lang: ja
+lat: '35.1144'
+lng: '135.8156'
+seo_description: 京都市大原エリアのパブリックゴルフ場を徹底解説。グリーン料金の目安、京都駅からのアクセス、予約方法まで旅行者向けに整理しました。
+seo_title: 京都大原パブリックGC|料金・アクセス・予約ガイド
+summary: 京都・大原の山あいに広がるパブリックコース。手頃な料金と静かな環境が魅力で、予約はオンライン確認がおすすめ。
+thumbnail: /static/images/kyoto_ohara_public.jpg
+title: Kyoto Ohara Public Golf Course
 ---
 
 ## クイックファクト

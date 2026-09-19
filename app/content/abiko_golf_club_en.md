@@ -3,9 +3,14 @@ address: Abiko, Chiba
 booking: /booking/abiko_golf_club_en
 categories: Private Club, Premium / Luxury, Historic
 date: '2026-04-15'
+description: 'C.H. Alison''s 1930 design near Tokyo: green fees, Rakuten GORA booking,
+  strategy, access & best seasons for Abiko Golf Club on OKCaddie.'
 lang: en
 lat: '35.8544'
 lng: '140.0356'
+seo_description: 'C.H. Alison''s 1930 design near Tokyo: green fees, Rakuten GORA
+  booking, strategy, access & best seasons for Abiko Golf Club on OKCaddie.'
+seo_title: 'Abiko Golf Club Review: Alison Design, Fees & Tee Times'
 summary: A comprehensive 9,000-character master guide to Abiko Golf Club, covering
   its unparalleled history, strategic architectural genius, luxury facilities, and
   gourmet dining, crafted by an elite Japanese golf course rater and senior caddy.

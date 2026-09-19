@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Kagoshima Airport 36 CC: An Expert Review"
-lat: "31.8544"
-lng: "130.7156"
-categories: "Value for Money, Easy Booking, Large Scale"
-thumbnail: "/static/images/kagoshima_airport_36_cc.jpg"
-address: "Kirishima, Kagoshima"
-date: "2026-09-17"
-booking: "/booking/kagoshima_airport_36_cc_ja"
-summary: "空港近接の36ホールで予約が取りやすく、料金も手頃。フライト前後にラウンドを組み込みたい旅行者向けの実用ガイド。"
-seo_title: "鹿児島空港36CC 料金・アクセス・予約ガイド"
-seo_description: "鹿児島空港36CCの料金相場、空港からのアクセス、予約方法をまとめた旅行者向け実用ガイド。フライト前後のラウンドに最適。"
+address: Kirishima, Kagoshima
+booking: /booking/kagoshima_airport_36_cc_ja
+categories: Value for Money, Easy Booking, Large Scale
+date: '2026-09-17'
+description: 가고시마 공항 36 컨트리클럽 그린피, 예약 방법, 공항에서 가는 법, 코스 공략까지 정리했어요. 라쿠텐 고라 예약 링크와
+  지도도 함께 확인하세요.
+lang: ja
+lat: '31.8544'
+lng: '130.7156'
+seo_description: 鹿児島空港36CCの料金相場、空港からのアクセス、予約方法をまとめた旅行者向け実用ガイド。フライト前後のラウンドに最適。
+seo_title: 鹿児島空港36CC 料金・アクセス・予約ガイド
+summary: 空港近接の36ホールで予約が取りやすく、料金も手頃。フライト前後にラウンドを組み込みたい旅行者向けの実用ガイド。
+thumbnail: /static/images/kagoshima_airport_36_cc.jpg
+title: 'The Definitive Guide to Kagoshima Airport 36 CC: An Expert Review'
 ---
 
 ## クイックファクト

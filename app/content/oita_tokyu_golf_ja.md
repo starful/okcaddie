@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Oita Tokyu Golf (Oita, Japan)"
-lat: "33.1544"
-lng: "131.6556"
-categories: "Value for Money, Forest Course, Resort"
-thumbnail: "/static/images/oita_tokyu_golf.jpg"
-address: "Oita, Oita"
-date: "2026-09-18"
-booking: "/booking/oita_tokyu_golf_ja"
-summary: "大分の森林コースでコスパ重視。予約はGORA経由が中心、料金は季節変動あり要確認。"
-seo_title: "大分東急ゴルフ｜料金・アクセス・予約ガイド"
-seo_description: "大分東急ゴルフの基本情報、グリーンフィー目安、アクセス、予約方法を解説。旅行前に確認したいポイントをまとめました。"
+address: Oita, Oita
+booking: /booking/oita_tokyu_golf_ja
+categories: Value for Money, Forest Course, Resort
+date: '2026-09-18'
+description: 'Oita Tokyu Golf (Oita, Japan): scenic 18-hole forest course, Zoysia
+  fairways, Bentgrass greens. Compare green fees & tee times, book with OKCaddie.'
+lang: ja
+lat: '33.1544'
+lng: '131.6556'
+seo_description: 大分東急ゴルフの基本情報、グリーンフィー目安、アクセス、予約方法を解説。旅行前に確認したいポイントをまとめました。
+seo_title: 大分東急ゴルフ｜料金・アクセス・予約ガイド
+summary: 大分の森林コースでコスパ重視。予約はGORA経由が中心、料金は季節変動あり要確認。
+thumbnail: /static/images/oita_tokyu_golf.jpg
+title: Oita Tokyu Golf (Oita, Japan)
 ---
 
 ## クイックファクト

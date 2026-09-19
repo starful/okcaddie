@@ -1,16 +1,19 @@
 ---
-lang: "ja"
-title: "Kumamoto Airport Country Club: Complete Booking Guide"
-lat: "32.8444"
-lng: "130.8656"
-categories: "Public Tournament, Forest Course, Scenic View"
-thumbnail: "/static/images/kumamoto_airport_country_club.jpg"
-address: "Kikuyo, Kumamoto"
-date: "2026-09-18"
-booking: "/booking/kumamoto_airport_country_club_ja"
-summary: "熊本空港から車で15分前後、益城町に位置するパブリック志向のコース。料金相場・予約方法・アクセスを具体的に解説。"
-seo_title: "熊本エアポートCC 予約・料金ガイド|熊本空港近郊"
-seo_description: "熊本県菊陽町・熊本エアポートカントリークラブの予約方法、平日/週末の料金目安、空港からのアクセスをまとめた実用ガイド。"
+address: Kikuyo, Kumamoto
+booking: /booking/kumamoto_airport_country_club_ja
+categories: Public Tournament, Forest Course, Scenic View
+date: '2026-09-18'
+description: Your ultimate guide to playing at the prestigious Kumamoto Airport Country
+  Club. Discover current green fees, course layouts, and how to easily book tee times
+  from abroad.
+lang: ja
+lat: '32.8444'
+lng: '130.8656'
+seo_description: 熊本県菊陽町・熊本エアポートカントリークラブの予約方法、平日/週末の料金目安、空港からのアクセスをまとめた実用ガイド。
+seo_title: 熊本エアポートCC 予約・料金ガイド|熊本空港近郊
+summary: 熊本空港から車で15分前後、益城町に位置するパブリック志向のコース。料金相場・予約方法・アクセスを具体的に解説。
+thumbnail: /static/images/kumamoto_airport_country_club.jpg
+title: 'Kumamoto Airport Country Club: Complete Booking Guide'
 ---
 
 ## クイックファクト

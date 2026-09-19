@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Nasu Ogawa Golf Club"
-lat: "36.7844"
-lng: "140.1156"
-categories: "Strategic, Championship Course, Onsen Golf, Japanese Hospitality"
-thumbnail: "/static/images/nasu_ogawa_golf_club.jpg"
-address: "323 Nakagawa, Nasu-gun, Tochigi, Japan"
-date: "2026-09-18"
-booking: "/booking/nasu_ogawa_golf_club_ja"
-summary: "那須の温泉エリアにある戦略的なチャンピオンシップコース。予約方法・料金目安・アクセスを実用目線でまとめました。"
-seo_title: "那須小川ゴルフ倶楽部|料金・予約・アクセスガイド"
-seo_description: "栃木県那須郡の那須小川ゴルフ倶楽部。グリーンフィー目安、予約方法、アクセス、服装マナーまで旅行前に必要な情報を解説。"
+address: 323 Nakagawa, Nasu-gun, Tochigi, Japan
+booking: /booking/nasu_ogawa_golf_club_ja
+categories: Strategic, Championship Course, Onsen Golf, Japanese Hospitality
+date: '2026-09-18'
+description: Book your round at Nasu Ogawa Golf Club in Tochigi, Japan. Find updated
+  green fees, tee times, Rakuten GORA booking links, and course tips on OK Caddie.
+lang: ja
+lat: '36.7844'
+lng: '140.1156'
+seo_description: 栃木県那須郡の那須小川ゴルフ倶楽部。グリーンフィー目安、予約方法、アクセス、服装マナーまで旅行前に必要な情報を解説。
+seo_title: 那須小川ゴルフ倶楽部|料金・予約・アクセスガイド
+summary: 那須の温泉エリアにある戦略的なチャンピオンシップコース。予約方法・料金目安・アクセスを実用目線でまとめました。
+thumbnail: /static/images/nasu_ogawa_golf_club.jpg
+title: Nasu Ogawa Golf Club
 ---
 
 ## クイックファクト

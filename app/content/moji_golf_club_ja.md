@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Moji Golf Club"
-lat: "33.8544"
-lng: "130.9556"
-categories: "Private Club, Historic, Premium / Luxury"
-thumbnail: "/static/images/moji_golf_club.jpg"
-address: "Kitakyushu, Fukuoka"
-date: "2026-09-18"
-booking: "/booking/moji_golf_club_ja"
-summary: "北九州・門司にある伝統会員制コース。ビジター利用は原則紹介制で、料金・予約条件は事前確認が必須。"
-seo_title: "門司ゴルフ倶楽部 予約・料金・アクセス情報"
-seo_description: "北九州市門司区の会員制ゴルフ場、門司ゴルフ倶楽部の基本情報。ビジター利用条件、料金相場、空港・駅からのアクセス、服装マナーまで解説。"
+address: Kitakyushu, Fukuoka
+booking: /booking/moji_golf_club_ja
+categories: Private Club, Historic, Premium / Luxury
+date: '2026-09-18'
+description: 기타큐슈에 위치한 모지 골프클럽은 1929년 개장한 전략적인 18홀 코스입니다. 그린피, 예약, 라쿠텐 고라 예약 정보를 OKCaddie에서
+  확인하세요.
+lang: ja
+lat: '33.8544'
+lng: '130.9556'
+seo_description: 北九州市門司区の会員制ゴルフ場、門司ゴルフ倶楽部の基本情報。ビジター利用条件、料金相場、空港・駅からのアクセス、服装マナーまで解説。
+seo_title: 門司ゴルフ倶楽部 予約・料金・アクセス情報
+summary: 北九州・門司にある伝統会員制コース。ビジター利用は原則紹介制で、料金・予約条件は事前確認が必須。
+thumbnail: /static/images/moji_golf_club.jpg
+title: Moji Golf Club
 ---
 
 ## クイックファクト

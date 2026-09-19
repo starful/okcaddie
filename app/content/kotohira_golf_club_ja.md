@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Kotohira Golf Club — Tee Times, Fees & Visitor Guide"
-lat: "34.2044"
-lng: "133.8556"
-categories: "Value for Money, Stay & Play, Easy Booking"
-thumbnail: "/static/images/kotohira_golf_club.jpg"
-address: "Manno, Kagawa"
-date: "2026-09-18"
-booking: "/booking/kotohira_golf_club_ja"
-summary: "香川県まんのう町、こんぴらさん近くの琴平ゴルフクラブ。料金相場・予約方法・アクセスをまとめた実用ガイド。"
-seo_title: "琴平ゴルフクラブ 料金・予約・アクセス完全ガイド"
-seo_description: "香川県まんのう町の琴平ゴルフクラブの基本情報、グリーンフィー相場、予約方法、空港からのアクセスを解説。"
+address: Manno, Kagawa
+booking: /booking/kotohira_golf_club_ja
+categories: Value for Money, Stay & Play, Easy Booking
+date: '2026-09-18'
+description: Practical guide to Kotohira Golf Club. Tee times, green-fee planning,
+  stay-and-play angles, and visitor tips in Kagawa.
+lang: ja
+lat: '34.2044'
+lng: '133.8556'
+seo_description: 香川県まんのう町の琴平ゴルフクラブの基本情報、グリーンフィー相場、予約方法、空港からのアクセスを解説。
+seo_title: 琴平ゴルフクラブ 料金・予約・アクセス完全ガイド
+summary: 香川県まんのう町、こんぴらさん近くの琴平ゴルフクラブ。料金相場・予約方法・アクセスをまとめた実用ガイド。
+thumbnail: /static/images/kotohira_golf_club.jpg
+title: Kotohira Golf Club — Tee Times, Fees & Visitor Guide
 ---
 
 ## クイックファクト

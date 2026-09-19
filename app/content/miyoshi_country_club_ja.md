@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Miyoshi Country Club (Aichi) Golf Booking Guide"
-lat: "35.0944"
-lng: "137.0856"
-categories: "Tournament Course, Private Club, Forest Course"
-thumbnail: "/static/images/miyoshi_country_club.jpg"
-address: "Miyoshi, Aichi"
-date: "2026-09-18"
-booking: "/booking/miyoshi_country_club_ja"
-summary: "愛知県三好市のトーナメントコース。会員制のため訪問には紹介や代理予約が必要な場合が多く、事前確認が重要。"
-seo_title: "三好カントリークラブ(愛知)予約ガイド|料金・アクセス"
-seo_description: "愛知県三好市の三好カントリークラブの予約方法、料金の目安、アクセス、訪問時の注意点をまとめた実用ガイド。"
+address: Miyoshi, Aichi
+booking: /booking/miyoshi_country_club_ja
+categories: Tournament Course, Private Club, Forest Course
+date: '2026-09-18'
+description: How to play at Miyoshi Country Club in Aichi near Nagoya. Find green
+  fees, booking guides, and course tips for Japan's prestigious Tokai Classic venue.
+lang: ja
+lat: '35.0944'
+lng: '137.0856'
+seo_description: 愛知県三好市の三好カントリークラブの予約方法、料金の目安、アクセス、訪問時の注意点をまとめた実用ガイド。
+seo_title: 三好カントリークラブ(愛知)予約ガイド|料金・アクセス
+summary: 愛知県三好市のトーナメントコース。会員制のため訪問には紹介や代理予約が必要な場合が多く、事前確認が重要。
+thumbnail: /static/images/miyoshi_country_club.jpg
+title: Miyoshi Country Club (Aichi) Golf Booking Guide
 ---
 
 ## クイックファクト

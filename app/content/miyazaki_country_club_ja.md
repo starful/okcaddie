@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Miyazaki Country Club — Tee Times, Green Fees & Visitor Guide"
-lat: "31.8644"
-lng: "131.4456"
-categories: "Public Tournament, Ocean View, Historic"
-thumbnail: "/static/images/miyazaki_country_club.jpg"
-address: "Miyazaki, Miyazaki"
-date: "2026-09-18"
-booking: "/booking/miyazaki_country_club_ja"
-summary: "宮崎カントリークラブは公開競技の実績を持つ海沿いコース。料金相場・アクセス・予約方法を旅程目線でまとめた。"
-seo_title: "宮崎カントリークラブ 料金・予約・アクセス完全ガイド"
-seo_description: "宮崎カントリークラブのグリーンフィー相場、宮崎空港からのアクセス、予約方法をまとめた実用ガイド。海沿いレイアウトの特徴も解説。"
+address: Miyazaki, Miyazaki
+booking: /booking/miyazaki_country_club_ja
+categories: Public Tournament, Ocean View, Historic
+date: '2026-09-18'
+description: Practical guide to Miyazaki Country Club. Tee times, green-fee planning,
+  access, and what tournament turf feels like for visitors.
+lang: ja
+lat: '31.8644'
+lng: '131.4456'
+seo_description: 宮崎カントリークラブのグリーンフィー相場、宮崎空港からのアクセス、予約方法をまとめた実用ガイド。海沿いレイアウトの特徴も解説。
+seo_title: 宮崎カントリークラブ 料金・予約・アクセス完全ガイド
+summary: 宮崎カントリークラブは公開競技の実績を持つ海沿いコース。料金相場・アクセス・予約方法を旅程目線でまとめた。
+thumbnail: /static/images/miyazaki_country_club.jpg
+title: Miyazaki Country Club — Tee Times, Green Fees & Visitor Guide
 ---
 
 ## クイックファクト

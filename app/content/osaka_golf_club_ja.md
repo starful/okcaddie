@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Book Osaka Golf Club - Tee Times & Green Fees"
-lat: "34.3144"
-lng: "135.1556"
-categories: "Private Club, Seaside Links, Historic, Championship Course"
-thumbnail: "/static/images/osaka_golf_club.jpg"
-address: "Misaki, Osaka Prefecture, Japan"
-date: "2026-09-18"
-booking: "/booking/osaka_golf_club_ja"
-summary: "大阪府岬町にある歴史あるシーサイドリンクス、大阪ゴルフクラブの料金相場・アクセス・予約方法を旅程目線で解説。"
-seo_title: "大阪ゴルフクラブ 予約・グリーンフィー完全ガイド"
-seo_description: "岬町の名門シーサイドリンクス、大阪ゴルフクラブの料金相場・アクセス・ビジター利用条件をチェックしてから予約を。"
+address: Misaki, Osaka Prefecture, Japan
+booking: /booking/osaka_golf_club_ja
+categories: Private Club, Seaside Links, Historic, Championship Course
+date: '2026-09-18'
+description: Easy-to-follow guide for booking Osaka Golf Club with verified rates
+  and insider reservation tips
+lang: ja
+lat: '34.3144'
+lng: '135.1556'
+seo_description: 岬町の名門シーサイドリンクス、大阪ゴルフクラブの料金相場・アクセス・ビジター利用条件をチェックしてから予約を。
+seo_title: 大阪ゴルフクラブ 予約・グリーンフィー完全ガイド
+summary: 大阪府岬町にある歴史あるシーサイドリンクス、大阪ゴルフクラブの料金相場・アクセス・予約方法を旅程目線で解説。
+thumbnail: /static/images/osaka_golf_club.jpg
+title: Book Osaka Golf Club - Tee Times & Green Fees
 ---
 
 ## クイックファクト
