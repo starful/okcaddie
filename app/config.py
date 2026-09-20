@@ -111,6 +111,38 @@ GORA_SEARCH_NAMES: dict[str, str] = {
     "nishinomiya_country_club": "西宮カントリー倶楽部",
 }
 
+# Verified Rakuten GORA Japan course IDs (public / bookable on GORA).
+# Deep-link to calendar instead of prefecture keyword search.
+GORA_COURSE_IDS: dict[str, str] = {
+    "pgm_golf_resort_okinawa": "470006",
+    "ocean_castle_golf": "520083",
+    "abc_golf_club": "280028",
+    "eniwa_country_club": "10015",
+    "natsudomari_golf_links": "20008",
+    "totsuka_country_club": "140032",
+    "kanucha_golf_course": "470007",
+    "pgm_ishioka_golf_club": "80007",
+    "karuizawa_72_golf_east": "200015",
+    "kotohira_golf_club": "370005",
+    "beppu_golf_club": "440020",
+    "phoenix_seagaia_resort": "450012",
+    "phoenix_country_club": "450012",
+    "southern_links": "470011",
+    "southern_links_golf_club": "470011",
+    "the_southern_links_resort": "470011",
+    "aso_resort_grandvrio": "430006",
+    "oarai_golf_club": "80019",
+    "wakagi_golf_club": "410016",
+    "abiko_golf_club": "120005",
+    "shishido_hills_country_club": "80057",
+    "chiran_country_club": "460028",
+    "camellia_hills_country_club": "120029",
+    "keya_golf_club": "400015",
+    "appi_kogen_golf_club": "30001",
+    "nidom_classic_course": "10112",
+    "taiheiyo_club_gotemba_course": "220046",
+}
+
 # Retired guides: 301 to guide hub (or a successor) instead of soft-404.
 RETIRED_GUIDE_REDIRECTS = {
     "guide_seed_001": "/guide",

@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Abiko Golf Club: An Expert Review by an Elite Caddy"
-lat: "35.8544"
-lng: "140.0356"
-categories: "Private Club, Premium / Luxury, Historic"
-thumbnail: "/static/images/abiko_golf_club.jpg"
-address: "Abiko, Chiba"
-date: "2026-09-16"
-booking: "/booking/abiko_golf_club_ja"
-summary: "我孫子ゴルフ倶楽部は、会員同伴または紹介制の歴史ある林間コースです。予約は会員を通じて、料金は季節変動します。アクセスは都心から車で約1時間。"
-seo_title: "我孫子ゴルフ倶楽部：料金、予約、アクセスガイド【OKCaddie】"
-seo_description: "千葉県我孫子市の伝統ある我孫子ゴルフ倶楽部でのプレーを計画中ですか？会員同伴・紹介制の予約方法、最新の料金相場、都心からのアクセス情報を詳しく解説。"
+address: Abiko, Chiba
+booking: /booking/abiko_golf_club_ja
+categories: Private Club, Premium / Luxury, Historic
+date: '2026-09-16'
+description: 'C.H. Alison''s 1930 design near Tokyo: green fees, Rakuten GORA booking,
+  strategy, access & best seasons for Abiko Golf Club on OKCaddie.'
+lang: ja
+lat: '35.8544'
+lng: '140.0356'
+seo_description: 千葉県我孫子市の伝統ある我孫子ゴルフ倶楽部でのプレーを計画中ですか？会員同伴・紹介制の予約方法、最新の料金相場、都心からのアクセス情報を詳しく解説。
+seo_title: 我孫子ゴルフ倶楽部：料金、予約、アクセスガイド【OKCaddie】
+summary: 我孫子ゴルフ倶楽部は、会員同伴または紹介制の歴史ある林間コースです。予約は会員を通じて、料金は季節変動します。アクセスは都心から車で約1時間。
+thumbnail: /static/images/abiko_golf_club.jpg
+title: 'The Definitive Guide to Abiko Golf Club: An Expert Review by an Elite Caddy'
 ---
 
 ## クイックファクト

@@ -16,6 +16,7 @@ try:
     from ..config import (
         AREA_MAP,
         FAMILY_SITE_ID,
+        GORA_COURSE_IDS,
         GORA_SEARCH_NAMES,
         COURSE_RELATED_GUIDES,
         GUIDE_RELATED_COURSES,
@@ -26,7 +27,12 @@ try:
     )
     from ..course_content import load_course_post_file
     from ..data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
-    from ..gora_overseas import COUNTRY_ISO, is_overseas_slug, overseas_booking_dest
+    from ..gora_overseas import (
+        COUNTRY_ISO,
+        is_overseas_slug,
+        japan_booking_dest,
+        overseas_booking_dest,
+    )
     from ..family_sites import cross_links_for, inject_family_context
     from ..ids import (
         extract_prefecture,
@@ -56,6 +62,7 @@ except ImportError:
     from config import (
         AREA_MAP,
         FAMILY_SITE_ID,
+        GORA_COURSE_IDS,
         GORA_SEARCH_NAMES,
         COURSE_RELATED_GUIDES,
         GUIDE_RELATED_COURSES,
@@ -66,7 +73,12 @@ except ImportError:
     )
     from course_content import load_course_post_file
     from data_loader import CACHED_DATA, CACHED_GUIDES, ensure_course_cache
-    from gora_overseas import COUNTRY_ISO, is_overseas_slug, overseas_booking_dest
+    from gora_overseas import (
+        COUNTRY_ISO,
+        is_overseas_slug,
+        japan_booking_dest,
+        overseas_booking_dest,
+    )
     from family_sites import cross_links_for, inject_family_context
     from ids import (
         extract_prefecture,
@@ -249,9 +261,16 @@ def course_detail(course_ref):
     country = str(post_data.get("country") or "jp").strip().lower() or "jp"
     post_data["country"] = country
     post_data["country_iso"] = COUNTRY_ISO.get(country, "JP")
-    post_data["is_overseas"] = country != "jp" or bool(
-        str(post_data.get("gora_cid") or "").strip()
-    )
+    mapped_cid = str(GORA_COURSE_IDS.get(base_id) or "").strip()
+    yaml_cid = str(post_data.get("gora_cid") or "").strip()
+    if not yaml_cid and mapped_cid:
+        post_data["gora_cid"] = mapped_cid
+    post_data["is_overseas"] = country != "jp" or is_overseas_slug(base_id)
+    if isinstance(post_data.get("categories"), str):
+        post_data["categories"] = [
+            c.strip() for c in post_data["categories"].split(",")
+        ]
+    post_data["is_private"] = _is_private_categories(post_data.get("categories"))
     post_data["title"] = humanize_title(post_data.get("title", ""))
     post_data["summary"] = short_summary(
         clean_summary(post_data.get("summary", ""), post_data["title"], post_data["lang"]),
@@ -259,9 +278,6 @@ def course_detail(course_ref):
     )
     post_data = attach_seo_fields(post_data, page_kind="course")
     enrich_course_detail_post(post_data)
-
-    if isinstance(post_data.get("categories"), str):
-        post_data["categories"] = [c.strip() for c in post_data["categories"].split(",")]
 
     cache_v = thumbnail_cache_v(post_data.get("date") or post_data.get("published"))
     base_id_for_img = post_data.get("base_id") or base_id
@@ -456,25 +472,35 @@ def _word_in(blob: str, token: str) -> bool:
 
 
 def gora_area_code(content: str, *, base_id: str, course_id: str = "") -> int:
-    """Prefecture for GORA area[] — address and slug only, never article body."""
+    """Prefecture for GORA area[] — address + slug only (never summary/body)."""
     address = _yaml_field(content, "address").lower()
-    parts = content.split("---", 2)
-    frontmatter = parts[1].lower() if len(parts) >= 3 else ""
-    loc_blob = f"{address} {frontmatter}"
     for token, code in _EN_AREA + _PLACE_AREA:
-        if _word_in(loc_blob, token):
+        if _word_in(address, token):
             return code
     tokens = set(base_id.lower().replace("-", "_").split("_"))
     tokens.update((course_id or "").lower().replace("-", "_").split("_"))
     tokens.discard("en")
     tokens.discard("ko")
+    tokens.discard("ja")
     for token, code in _EN_AREA + _PLACE_AREA:
         if token in tokens:
             return code
-    pref = extract_prefecture(frontmatter)
+    # Japanese prefecture name only inside the address line.
+    pref = extract_prefecture(address)
     if pref:
         return AREA_MAP.get(pref, 0)
     return 0
+
+
+def _is_private_categories(categories) -> bool:
+    if isinstance(categories, str):
+        cats = [c.strip() for c in categories.split(",")]
+    elif isinstance(categories, (list, tuple, set)):
+        cats = [str(c).strip() for c in categories]
+    else:
+        cats = []
+    markers = ("Private Club", "회원제", "会員制")
+    return any(any(m in c for m in markers) for c in cats)
 
 
 def _yaml_field(content: str, key: str) -> str:
@@ -548,15 +574,26 @@ def booking_redirect(course_id):
     content = ""
     path = md_path if os.path.exists(md_path) else guide_path
     gora_cid = ""
+    country = "jp"
     if path and os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             content = f.read()
-        gora_cid = _yaml_field(content, "gora_cid")
+        gora_cid = _yaml_field(content, "gora_cid").strip()
+        country = (_yaml_field(content, "country") or "jp").strip().lower() or "jp"
 
-    if gora_cid or is_overseas_slug(base_id):
+    if not gora_cid:
+        gora_cid = str(GORA_COURSE_IDS.get(base_id) or "").strip()
+
+    overseas = country != "jp" or is_overseas_slug(base_id)
+    if overseas:
         return _noindex_redirect(
             overseas_booking_dest(gora_cid=gora_cid, slug=base_id)
         )
+
+    if gora_cid:
+        dest = japan_booking_dest(gora_cid)
+        if dest:
+            return _noindex_redirect(dest)
 
     if path and os.path.exists(path):
         area_code = gora_area_code(content, base_id=base_id, course_id=course_id)

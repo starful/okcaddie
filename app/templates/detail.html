@@ -227,6 +227,19 @@
             
             <!-- 1. 라쿠텐 고라: 티타임 예약 -->
             <div style="text-align: center; margin-bottom: 50px;">
+                {% set _private = post.is_private or ('Private Club' in (post.categories or [])) or ('회원제' in (post.categories or [])) or ('会員制' in (post.categories or [])) %}
+                {% if _private and not post.is_overseas %}
+                <h3 style="margin-bottom: 16px; font-weight: 800; font-size: 1.25rem;">
+                    {% if active_lang == 'ko' %}회원제 — GORA 일반 예약이 제한될 수 있습니다{% elif active_lang == 'ja' %}会員制 — GORA一般予約が制限される場合があります{% else %}Private club — public GORA booking may be limited{% endif %}
+                </h3>
+                <p style="margin: 0 auto 20px; max-width: 520px; color: #64748b; font-size: 0.95rem; line-height: 1.6;">
+                    {% if active_lang == 'ko' %}티타임이 공개된 경우에만 예약할 수 있습니다. 아래는 가능 여부 확인용입니다.{% elif active_lang == 'ja' %}一般公開枠がある場合のみ予約できます。下のリンクは空き確認用です。{% else %}Book only if a public slot is listed. The link below is for availability checks.{% endif %}
+                </p>
+                <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="booking-btn"
+                   style="background: #64748b; padding: 16px 36px; width: 100%; max-width: 420px; display: inline-block; border-radius: 50px; text-decoration: none; color: white; font-weight: 700; font-size: 1.05rem;">
+                    {% if active_lang == 'ko' %}GORA에서 가능 여부 확인{% elif active_lang == 'ja' %}GORAで空きを確認{% else %}Check GORA listing{% endif %}
+                </a>
+                {% else %}
                 <h3 style="margin-bottom: 25px; font-weight: 800; font-size: 1.4rem;">
                     ⛳ {% if active_lang == 'ko' %}실시간 티타임 및 예약 가능 여부{% elif active_lang == 'ja' %}リアルタイムティー・予約状況{% else %}Live Tee Times & Booking{% endif %}
                 </h3>
@@ -235,6 +248,7 @@
                     {% if active_lang == 'ko' %}라쿠텐에서 골프 예약하기{% elif active_lang == 'ja' %}楽天GORAで予約{% else %}Check on Rakuten GORA{% endif %}
                 </a>
                 <p style="margin-top: 15px; font-size: 0.85rem; color: #888;">* {% if post.is_overseas %}{% if active_lang == 'ko' %}라쿠텐 GORA 해외 예약으로 연결됩니다.{% elif active_lang == 'ja' %}楽天GORA海外予約へ移動します。{% else %}Opens Rakuten GORA overseas booking.{% endif %}{% else %}{% if active_lang == 'ko' %}일본 1위 골프 예약 서비스로 연결됩니다.{% elif active_lang == 'ja' %}日本の主要ゴルフ予約サービスへ移動します。{% else %}Redirects to Japan\'s leading golf booking site.{% endif %}{% endif %}</p>
+                {% endif %}
             </div>
 
         </div>

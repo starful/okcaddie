@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Nikko Country Club: An Expert Review"
-lat: "36.7244"
-lng: "139.6356"
-categories: "Private Club, Scenic View, Mountain Style"
-thumbnail: "/static/images/nikko_country_club.jpg"
-address: "Nikko, Tochigi"
-date: "2026-09-18"
-booking: "/booking/nikko_country_club_ja"
-summary: "栃木県日光市の山岳会員制コース。ビジター利用条件や料金相場、アクセスまで事前確認のポイントをまとめた実用ガイド。"
-seo_title: "日光カントリー倶楽部 料金・予約とアクセスガイド"
-seo_description: "栃木県日光市の日光カントリー倶楽部を紹介。ビジター利用の条件、料金相場、アクセス、服装マナーまで予約前に知りたい情報を解説。"
+address: Nikko, Tochigi
+booking: /booking/nikko_country_club_ja
+categories: Private Club, Scenic View, Mountain Style
+date: '2026-09-18'
+description: 'Nikko Country Club guide: green fees, Rakuten GORA booking, tee times,
+  hole-by-hole strategy, access tips & best seasons to play in Nikko, Japan.'
+lang: ja
+lat: '36.7244'
+lng: '139.6356'
+seo_description: 栃木県日光市の日光カントリー倶楽部を紹介。ビジター利用の条件、料金相場、アクセス、服装マナーまで予約前に知りたい情報を解説。
+seo_title: 日光カントリー倶楽部 料金・予約とアクセスガイド
+summary: 栃木県日光市の山岳会員制コース。ビジター利用条件や料金相場、アクセスまで事前確認のポイントをまとめた実用ガイド。
+thumbnail: /static/images/nikko_country_club.jpg
+title: 'The Definitive Guide to Nikko Country Club: An Expert Review'
 ---
 
 ## クイックファクト

@@ -354,6 +354,14 @@ def overseas_course_url(gora_cid: str) -> str:
     return f"https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/{cid}/"
 
 
+def japan_course_calendar_url(gora_cid: str) -> str:
+    """Japan domestic tee-time calendar — better conversion than keyword search."""
+    cid = (gora_cid or "").strip()
+    if not cid.isdigit():
+        return ""
+    return f"https://search.gora.golf.rakuten.co.jp/cal/disp/c_id/{cid}/"
+
+
 def overseas_booking_dest(*, gora_cid: str = "", slug: str = "") -> str:
     cid = (gora_cid or "").strip()
     if not cid and slug:
@@ -363,6 +371,13 @@ def overseas_booking_dest(*, gora_cid: str = "", slug: str = "") -> str:
     if course_url:
         return gora_affiliate_wrap(course_url)
     return OVERSEAS_HUB_URL
+
+
+def japan_booking_dest(gora_cid: str) -> str:
+    cal = japan_course_calendar_url(gora_cid)
+    if cal:
+        return gora_affiliate_wrap(cal)
+    return ""
 
 
 def is_overseas_slug(slug: str) -> bool:

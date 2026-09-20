@@ -239,18 +239,14 @@ def test_gora_search_name_skips_en_ko_seo_titles():
 
 
 def test_booking_redirect_uses_japanese_catalog_name(client):
-    r = client.get("/booking/pgm_golf_resort_okinawa_en")
+    r = client.get("/booking/ocean_castle_golf_ko")
     assert r.status_code in (301, 302)
     loc = r.headers.get("Location", "")
     assert "hb.afl.rakuten.co.jp/hgc/" in loc
-    q = _gora_query(loc)
-    assert q.get("area[]") == ["47"]
-    assert q.get("search_c_name") == ["PGMゴルフリゾート沖縄"]
-    assert q.get("widthday") == ["7"]
+    from urllib.parse import parse_qs, unquote, urlparse
 
-    ko = _gora_query(client.get("/booking/ocean_castle_golf_ko").headers.get("Location", ""))
-    assert ko.get("area[]") == ["47"]
-    assert ko.get("search_c_name") == ["オーシャンキャッスルカントリークラブ"]
+    dest = unquote(parse_qs(urlparse(loc).query).get("pc", [""])[0])
+    assert "cal/disp/c_id/520083" in dest
 
     fuji = _gora_query(client.get("/booking/yamanashi_fuji_golf_en").headers.get("Location", ""))
     assert fuji.get("area[]") == ["19"]
@@ -263,15 +259,50 @@ def test_booking_area_not_stolen_from_body(client):
     assert hirono.get("area[]") == ["28"]
     assert hirono.get("search_c_name") == ["廣野ゴルフ倶楽部"]
 
-    natsu = _gora_query(
-        client.get("/booking/natsudomari_golf_links_en").headers.get("Location", "")
-    )
-    assert natsu.get("area[]") == ["2"]
-    assert natsu.get("search_c_name") == ["夏泊ゴルフリンクス"]
-
+    # Still on keyword search (no verified c_id yet).
     saga = _gora_query(client.get("/booking/sagamihara_golf_club_en").headers.get("Location", ""))
     assert saga.get("area[]") == ["14"]
     assert saga.get("search_c_name") == ["相模原ゴルフクラブ"]
+
+    # Summary saying "Osaka" must not steal Hyogo from address.
+    taka = _gora_query(client.get("/booking/takarazuka_golf_club_en").headers.get("Location", ""))
+    assert taka.get("area[]") == ["28"]
+    hanshin = _gora_query(client.get("/booking/hanshin_public_golf_en").headers.get("Location", ""))
+    assert hanshin.get("area[]") == ["28"]
+
+
+def test_japan_public_course_uses_gora_calendar_deep_link(client):
+    from urllib.parse import parse_qs, unquote, urlparse
+
+    r = client.get("/booking/pgm_golf_resort_okinawa_en")
+    loc = r.headers.get("Location", "")
+    assert r.status_code in (301, 302)
+    dest = unquote(parse_qs(urlparse(loc).query).get("pc", [""])[0])
+    assert "cal/disp/c_id/470006" in dest
+    assert "search/result" not in dest
+
+    abc = unquote(
+        parse_qs(
+            urlparse(client.get("/booking/abc_golf_club_en").headers.get("Location", "")).query
+        ).get("pc", [""])[0]
+    )
+    assert "cal/disp/c_id/280028" in abc
+
+    natsu = unquote(
+        parse_qs(
+            urlparse(
+                client.get("/booking/natsudomari_golf_links_en").headers.get("Location", "")
+            ).query
+        ).get("pc", [""])[0]
+    )
+    assert "cal/disp/c_id/20008" in natsu
+
+    totsuka = unquote(
+        parse_qs(
+            urlparse(client.get("/booking/totsuka_country_club_en").headers.get("Location", "")).query
+        ).get("pc", [""])[0]
+    )
+    assert "cal/disp/c_id/140032" in totsuka
 
 
 def test_affiliate_go_wraps_agoda(client):
@@ -309,7 +340,35 @@ def test_legacy_travel_path_goes_to_gora_not_agoda(client):
     assert r.status_code in (301, 302)
     assert "hb.afl.rakuten.co.jp/hgc/" in loc
     assert "a8.net" not in loc
-    assert _gora_query(loc).get("search_c_name") == ["PGMゴルフリゾート沖縄"]
+    dest = _gora_query(loc)
+    # Legacy /travel still goes to GORA affiliate; public courses deep-link to calendar.
+    assert "hb.afl.rakuten.co.jp/hgc/" in loc
+    from urllib.parse import parse_qs, unquote, urlparse
+
+    pc = unquote(parse_qs(urlparse(loc).query).get("pc", [""])[0])
+    assert "cal/disp/c_id/470006" in pc or dest.get("search_c_name") == ["PGMゴルフリゾート沖縄"]
+
+
+def test_private_club_softens_gora_cta(client):
+    r = client.get("/course/hirono_golf_club")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "Private club — public GORA booking may be limited" in html
+    assert "Check GORA listing" in html
+    assert 'class="booking-btn"' in html
+    assert html.count("Check GORA listing") >= 1
+    # Strong public CTA copy should not appear as the button label.
+    assert ">Check on Rakuten GORA<" not in html
+    assert "Book on Rakuten GORA" not in html
+
+
+def test_public_course_keeps_strong_gora_cta(client):
+    r = client.get("/course/pgm_golf_resort_okinawa")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert ">Check on Rakuten GORA<" in html or "Check on Rakuten GORA" in html
+    assert "Book on Rakuten GORA" in html
+    assert "Private club — public GORA booking may be limited" not in html
 
 
 def test_overseas_booking_uses_gora_cid_not_japan_search(client):
@@ -326,7 +385,9 @@ def test_overseas_booking_uses_gora_cid_not_japan_search(client):
     assert "gora.golf.rakuten.co.jp/overseas" not in dest
 
     japan = client.get("/booking/pgm_golf_resort_okinawa_en").headers.get("Location", "")
-    assert "search/result" in unquote(parse_qs(urlparse(japan).query).get("pc", [""])[0])
+    japan_pc = unquote(parse_qs(urlparse(japan).query).get("pc", [""])[0])
+    assert "cal/disp/c_id/470006" in japan_pc
+    assert "search/result" not in japan_pc
 
 
 def test_overseas_course_page_keeps_gora_button(client):
