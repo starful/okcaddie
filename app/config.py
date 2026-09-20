@@ -141,6 +141,17 @@ GORA_COURSE_IDS: dict[str, str] = {
     "appi_kogen_golf_club": "30001",
     "nidom_classic_course": "10112",
     "taiheiyo_club_gotemba_course": "220046",
+    # 2026-09-20 batch — verified on booking.gora guide/disp (exact name match)
+    "yokohama_country_club": "140047",
+    "okinawa_country_club": "470005",
+    "otaru_golf_club": "520515",
+    "ryukyu_golf_club": "470018",
+    "fujizakura_country_club": "190030",
+    "ibaraki_golf_club": "80010",
+    "narita_golf_club": "120099",
+    "kawana_hotel_golf_course_fuji_course": "520174",
+    "sagamihara_golf_club": "140017",
+    "katayamazu_golf_club": "170006",
 }
 
 # Retired guides: 301 to guide hub (or a successor) instead of soft-404.

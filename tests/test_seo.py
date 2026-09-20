@@ -259,17 +259,27 @@ def test_booking_area_not_stolen_from_body(client):
     assert hirono.get("area[]") == ["28"]
     assert hirono.get("search_c_name") == ["廣野ゴルフ倶楽部"]
 
-    # Still on keyword search (no verified c_id yet).
-    saga = _gora_query(client.get("/booking/sagamihara_golf_club_en").headers.get("Location", ""))
-    assert saga.get("area[]") == ["14"]
-    assert saga.get("search_c_name") == ["相模原ゴルフクラブ"]
-
     # Summary saying "Osaka" must not steal Hyogo from address.
     taka = _gora_query(client.get("/booking/takarazuka_golf_club_en").headers.get("Location", ""))
     assert taka.get("area[]") == ["28"]
     hanshin = _gora_query(client.get("/booking/hanshin_public_golf_en").headers.get("Location", ""))
     assert hanshin.get("area[]") == ["28"]
 
+
+def test_new_gora_cids_use_calendar_deep_link(client):
+    from urllib.parse import parse_qs, unquote, urlparse
+
+    for slug, cid in (
+        ("sagamihara_golf_club_en", "140017"),
+        ("yokohama_country_club_en", "140047"),
+        ("okinawa_country_club_en", "470005"),
+        ("narita_golf_club_en", "120099"),
+        ("kawana_hotel_golf_course_fuji_course_en", "520174"),
+    ):
+        r = client.get(f"/booking/{slug}")
+        assert r.status_code in (301, 302), slug
+        dest = unquote(parse_qs(urlparse(r.headers.get("Location", "")).query).get("pc", [""])[0])
+        assert f"cal/disp/c_id/{cid}" in dest, (slug, dest)
 
 def test_japan_public_course_uses_gora_calendar_deep_link(client):
     from urllib.parse import parse_qs, unquote, urlparse
