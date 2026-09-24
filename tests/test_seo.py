@@ -106,11 +106,23 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert 'href="/go/fairway_golf"' in html
     assert 'href="/go/alpen_golf5"' not in html
     assert 'href="/go/victoria_golf"' not in html
+    assert 'href="/go/rizap_golf"' not in html
     assert "じゃらんゴルフ" in html
     assert "Fairway Golf" in html
+    assert "RIZAP" not in html
     assert "TORA" not in html
     assert "골프 여행 필수품" not in html
     assert "hinata" not in html.lower()
+
+
+def test_course_ja_shows_rizap_golf_school(client):
+    r = client.get("/course/pgm_golf_resort_okinawa?lang=ja")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert 'href="/go/rizap_golf"' in html
+    assert "RIZAP GOLF" in html
+    assert 'href="/go/jalan_golf"' in html
+    assert 'href="/go/fairway_golf"' in html
 
 
 def test_social_image_endpoint(client):
@@ -330,6 +342,7 @@ def test_affiliate_go_wraps_new_golf_partners(client):
         ("fairway_golf", "1PBRY2"),
         ("alpen_golf5", "1X2ET6"),
         ("victoria_golf", "1LR6BE"),
+        ("rizap_golf", "6Y26PM"),
     ):
         r = client.get(f"/go/{banner_id}")
         assert r.status_code in (301, 302)

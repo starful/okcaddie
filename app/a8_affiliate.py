@@ -81,6 +81,21 @@ _BANNERS: dict[str, dict[str, str]] = {
         "alt_ko": "Victoria Golf — 제휴",
         "alt_ja": "ヴィクトリアゴルフ — アフィリエイト",
     },
+    "rizap_golf": {
+        "id": "rizap_golf",
+        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BCIRR+6Y26PM+CW6+BF23HE",
+        "image_url": "",
+        "pixel_url": "https://www18.a8.net/0.gif?a8mat=4BCIRR+6Y26PM+CW6+BF23HE",
+        "label_en": "RIZAP Golf — score-focused school",
+        "label_ko": "RIZAP 골프 — 스코어 특화 스쿨",
+        "label_ja": "RIZAP GOLF — スコア特化スクール",
+        "desc_en": "Book a golf school consultation in Japan.",
+        "desc_ko": "일본 골프 스쿨 상담·내점.",
+        "desc_ja": "スコアアップのゴルフスクール。無料カウンセリング・来店。",
+        "alt_en": "RIZAP Golf — affiliate",
+        "alt_ko": "RIZAP 골프 — 제휴",
+        "alt_ja": "RIZAP GOLF — アフィリエイト",
+    },
     "rakuten_esim": {
         "id": "rakuten_esim",
         "click_url": "https://a.r10.to/hPsyyI",
@@ -151,7 +166,8 @@ def a8_banners_context(*, lang: str = "en") -> dict[str, Any]:
     if not _enabled():
         return {"show_a8_banners": False, "a8_banners": []}
     code = (lang or "en").lower()
-    # Keep the partner box scannable: 1 booking alt, 1 gear shop, lodging.
+    # Keep the partner box scannable: booking + gear + lodging.
+    # RIZAP (lesson/school) is JA-only — not for KO/EN trip booking intent.
     banners = [
         _copy("jalan_golf", lang=lang),
         _copy("fairway_golf", lang=lang),
@@ -160,9 +176,11 @@ def a8_banners_context(*, lang: str = "en") -> dict[str, Any]:
     ]
     if code == "ko":
         banners.append(_copy("rakuten_esim", lang=lang))
+    if code == "ja":
+        banners.append(_copy("rizap_golf", lang=lang))
     titles = {
         "ko": "골프 여행 제휴",
-        "ja": "ゴルフトリップ提携",
+        "ja": "ゴルフ提携（予約・用品・スクール）",
         "en": "Golf trip partners",
     }
     notes = {
