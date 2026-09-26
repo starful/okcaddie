@@ -331,7 +331,12 @@ def course_detail(course_ref):
             address=post_data.get("address"),
         ),
         **inject_family_context(FAMILY_SITE_ID, post_data["lang"]),
-        **a8_banners_context(lang=post_data["lang"]),
+        **a8_banners_context(
+            lang=post_data["lang"],
+            lat=post_data.get("lat"),
+            lng=post_data.get("lng"),
+            country=post_data.get("country"),
+        ),
         **og_image_context(base_id),
         **share_ctx,
     )
@@ -629,8 +634,12 @@ def booking_redirect(course_id):
 
 @courses_bp.route("/go/<banner_id>")
 def affiliate_go(banner_id):
-    """Crawlers must not hit A8 click URLs; robots.txt disallows /go/."""
-    dest = a8_dest_url(banner_id)
+    """Crawlers must not follow affiliate click URLs; robots.txt disallows /go/."""
+    dest = a8_dest_url(
+        banner_id,
+        city=request.args.get("city"),
+        lang=request.args.get("lang") or request.args.get("hl"),
+    )
     if not dest:
         abort(404)
     return _noindex_redirect(dest)
