@@ -1,6 +1,182 @@
 {
-  "last_updated": "2026.09.20",
+  "last_updated": "2026.09.26",
   "courses": [
+    {
+      "id": "mie_tsu_country_club_ko",
+      "base_id": "mie_tsu_country_club",
+      "lang": "ko",
+      "title": "Mie Tsu Country Club",
+      "lat": 34.7544,
+      "lng": 136.4556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/mie_tsu_country_club.jpg",
+      "address": "Tsu, Mie",
+      "published": "2026-09-26",
+      "summary": "미에현 츠시 숲속 챔피언십 코스, 평일·주말 그린피 범위와 나고야·오사카발 접근 방법을 정리했습니다.",
+      "booking": "/booking/mie_tsu_country_club_ko",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/mie_tsu_country_club?lang=ko"
+    },
+    {
+      "id": "mie_tsu_country_club_ja",
+      "base_id": "mie_tsu_country_club",
+      "lang": "ja",
+      "title": "Mie Tsu Country Club",
+      "lat": 34.7544,
+      "lng": 136.4556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/mie_tsu_country_club.jpg",
+      "address": "Tsu, Mie",
+      "published": "2026-09-26",
+      "summary": "三重県津市の森林コース、コスパ重視派向け。料金相場・アクセス・予約方法を実用目線でまとめた。",
+      "booking": "/booking/mie_tsu_country_club_ja",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/mie_tsu_country_club?lang=ja"
+    },
+    {
+      "id": "mie_tsu_country_club_en",
+      "base_id": "mie_tsu_country_club",
+      "lang": "en",
+      "title": "Mie Tsu Country Club",
+      "lat": 34.7544,
+      "lng": 136.4556,
+      "categories": [
+        "Value for Money",
+        "Forest Course",
+        "Championship"
+      ],
+      "thumbnail": "/static/images/mie_tsu_country_club.jpg",
+      "address": "Tsu, Mie",
+      "published": "2026-09-26",
+      "summary": "Mie Tsu Country Club offers forested championship-style golf near Tsu; check live fees and tee times before booking.",
+      "booking": "/booking/mie_tsu_country_club_en",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/mie_tsu_country_club"
+    },
+    {
+      "id": "gifu_seki_forest_ko",
+      "base_id": "gifu_seki_forest",
+      "lang": "ko",
+      "title": "Gifu Seki Forest",
+      "lat": 35.4544,
+      "lng": 136.9556,
+      "categories": [
+        "Premium / Luxury",
+        "Forest Course",
+        "Strategic"
+      ],
+      "thumbnail": "/static/images/gifu_seki_forest.jpg",
+      "address": "Seki, Gifu",
+      "published": "2026-09-26",
+      "summary": "기후현 세키 숲속에 자리한 프리미엄 전략형 코스, 시즌별 요금 변동이 커 예약 전 실시간 견적 확인이 필수입니다.",
+      "booking": "/booking/gifu_seki_forest_ko",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/gifu_seki_forest?lang=ko"
+    },
+    {
+      "id": "gifu_seki_forest_ja",
+      "base_id": "gifu_seki_forest",
+      "lang": "ja",
+      "title": "Gifu Seki Forest",
+      "lat": 35.4544,
+      "lng": 136.9556,
+      "categories": [
+        "Premium / Luxury",
+        "Forest Course",
+        "Strategic"
+      ],
+      "thumbnail": "/static/images/gifu_seki_forest.jpg",
+      "address": "Seki, Gifu",
+      "published": "2026-09-26",
+      "summary": "岐阜県関市の森林コース。戦略性重視のレイアウトで、平日・週末の料金目安とアクセス手段を確認してから予約したい一打。",
+      "booking": "/booking/gifu_seki_forest_ja",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/gifu_seki_forest?lang=ja"
+    },
+    {
+      "id": "aichi_nagoya_golf_club_ko",
+      "base_id": "aichi_nagoya_golf_club",
+      "lang": "ko",
+      "title": "Aichi Nagoya Golf Club",
+      "lat": 35.1544,
+      "lng": 137.0556,
+      "categories": [
+        "Private Club",
+        "Historic",
+        "Forest Course"
+      ],
+      "thumbnail": "/static/images/aichi_nagoya_golf_club.jpg",
+      "address": "Nagoya, Aichi",
+      "published": "2026-09-26",
+      "summary": "나고야 근교 숲속 프라이빗 코스, 회원 소개 필요 여부는 예약 전 확인하고 시즌별 요금은 실시간으로 조회하세요.",
+      "booking": "/booking/aichi_nagoya_golf_club_ko",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/aichi_nagoya_golf_club?lang=ko"
+    },
+    {
+      "id": "aichi_nagoya_golf_club_ja",
+      "base_id": "aichi_nagoya_golf_club",
+      "lang": "ja",
+      "title": "Aichi Nagoya Golf Club",
+      "lat": 35.1544,
+      "lng": 137.0556,
+      "categories": [
+        "Private Club",
+        "Historic",
+        "Forest Course"
+      ],
+      "thumbnail": "/static/images/aichi_nagoya_golf_club.jpg",
+      "address": "Nagoya, Aichi",
+      "published": "2026-09-26",
+      "summary": "名古屋近郊の会員制フォレストコース。ビジター利用は要確認、予約前に最新の空き状況と料金を照会するのが安心です。",
+      "booking": "/booking/aichi_nagoya_golf_club_ja",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/aichi_nagoya_golf_club?lang=ja"
+    },
+    {
+      "id": "aichi_nagoya_golf_club_en",
+      "base_id": "aichi_nagoya_golf_club",
+      "lang": "en",
+      "title": "Aichi Nagoya Golf Club",
+      "lat": 35.1544,
+      "lng": 137.0556,
+      "categories": [
+        "Private Club",
+        "Historic",
+        "Forest Course"
+      ],
+      "thumbnail": "/static/images/aichi_nagoya_golf_club.jpg",
+      "address": "Nagoya, Aichi",
+      "published": "2026-09-26",
+      "summary": "Aichi Nagoya Golf Club is a private, forest-lined historic club near Nagoya — confirm introduction terms and get a live fee quote before booking.",
+      "booking": "/booking/aichi_nagoya_golf_club_en",
+      "youtube_id": "",
+      "country": "jp",
+      "gora_cid": "",
+      "link": "/course/aichi_nagoya_golf_club"
+    },
     {
       "id": "zao_country_club_ja",
       "base_id": "zao_country_club",

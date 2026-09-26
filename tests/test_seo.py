@@ -99,7 +99,10 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert "Agoda — 골프장 주변 숙소" in html
     assert "라쿠텐 eSIM" in html
     assert "라쿠텐 트래블" in html
-    assert 'href="/go/agoda"' in html
+    # Course pages deep-link Agoda Partners by nearest city (not A8 /go/agoda).
+    assert "agoda.com/partners/partnersearch.aspx" in html
+    assert "cid=1969838" in html
+    assert "city=10740" in html  # Naha hub for Okinawa PGM
     assert 'href="/go/rakuten_travel"' in html
     assert 'href="/go/rakuten_esim"' in html
     assert 'href="/go/jalan_golf"' in html
@@ -331,8 +334,27 @@ def test_affiliate_go_wraps_agoda(client):
     r = client.get("/go/agoda")
     assert r.status_code in (301, 302)
     assert "noindex" in r.headers.get("X-Robots-Tag", "").lower()
-    assert "px.a8.net" in r.headers.get("Location", "")
+    loc = r.headers.get("Location", "")
+    assert "agoda.com/partners/partnersearch.aspx" in loc
+    assert "cid=1969838" in loc
+    assert "city=5085" in loc  # default Tokyo — never empty worldwide search
+    assert "a8.net" not in loc
     assert client.get("/go/not-a-banner").status_code == 404
+
+
+def test_course_agoda_uses_partners_city_deeplink(client):
+    import re
+
+    r = client.get("/course/pgm_golf_resort_okinawa?lang=ko")
+    assert r.status_code == 200
+    html = r.get_data(as_text=True)
+    assert "agoda.com/partners/partnersearch.aspx" in html
+    assert "cid=1969838" in html
+    assert "city=10740" in html  # Naha hub for Okinawa
+    agoda_hrefs = re.findall(r'href="([^"]*agoda[^"]*)"', html, flags=re.I)
+    assert agoda_hrefs
+    assert all("agoda.com/partners" in h for h in agoda_hrefs)
+    assert all("a8.net" not in h for h in agoda_hrefs)
 
 
 def test_affiliate_go_wraps_new_golf_partners(client):

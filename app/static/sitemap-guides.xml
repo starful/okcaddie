@@ -324,6 +324,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/summer-cooling-gear?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/summer-cooling-gear" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/summer-cooling-gear?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/summer-cooling-gear" />
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/booking-tips-japan?lang=ja</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/booking-tips-japan" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/booking-tips-japan?lang=ko" />
@@ -428,6 +437,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/kyushu-golf-circuit?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/kyushu-golf-circuit" />
     <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/shikoku-hidden-links</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/shikoku-hidden-links" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/shikoku-hidden-links?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/shikoku-hidden-links" />
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1042,6 +1060,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/summer-cooling-gear</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/summer-cooling-gear" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/summer-cooling-gear?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/summer-cooling-gear" />
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/golf-tax-exemption</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-tax-exemption" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-tax-exemption?lang=ko" />
@@ -1214,6 +1241,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/using-gps-navigation?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/using-gps-navigation" />
     <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/shikoku-hidden-links?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/shikoku-hidden-links" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/shikoku-hidden-links?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/shikoku-hidden-links" />
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

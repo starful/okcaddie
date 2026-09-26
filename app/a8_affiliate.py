@@ -1,25 +1,34 @@
-"""A8.net affiliate banners for OK Caddie."""
+"""A8.net affiliate banners for OK Caddie.
+
+Agoda uses Agoda Partners (CID) links, not A8.
+"""
 
 from __future__ import annotations
 
 import os
 from typing import Any
 
+try:
+    from agoda_partners import partner_search_url, url_for_location
+except ImportError:
+    from .agoda_partners import partner_search_url, url_for_location
+
 _BANNERS: dict[str, dict[str, str]] = {
     "agoda": {
         "id": "agoda",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+13AQKA+4X1W+5ZMCH",
-        "image_url": "https://www29.a8.net/svt/bgt?aid=260829415066&wid=006&eno=01&mid=s00000022946001006000&mc=1",
-        "pixel_url": "https://www13.a8.net/0.gif?a8mat=4BAH9J+13AQKA+4X1W+5ZMCH",
+        # click_url filled at copy-time via Agoda Partners
+        "click_url": "",
+        "image_url": "",
+        "pixel_url": "",
         "label_en": "Agoda — hotels near the course",
         "label_ko": "Agoda — 골프장 주변 숙소",
         "label_ja": "Agoda — コース周辺ホテル",
         "desc_en": "Book stays for your golf trip in Japan.",
         "desc_ko": "일본 골프 여행 숙소 예약.",
         "desc_ja": "ゴルフ旅行の宿泊予約。",
-        "alt_en": "Agoda — affiliate",
-        "alt_ko": "Agoda — 제휴",
-        "alt_ja": "Agoda — アフィリエイト",
+        "alt_en": "Agoda — hotels",
+        "alt_ko": "Agoda — 숙소",
+        "alt_ja": "Agoda — 宿泊",
     },
     "jalan_golf": {
         "id": "jalan_golf",
@@ -138,19 +147,67 @@ def _enabled() -> bool:
     )
 
 
-def a8_dest_url(banner_id: str) -> str:
-    src = _BANNERS.get((banner_id or "").strip().lower())
+def a8_dest_url(
+    banner_id: str,
+    *,
+    city: str | int | None = None,
+    lang: str | None = None,
+    lat: float | None = None,
+    lng: float | None = None,
+    country: str | None = None,
+) -> str:
+    bid = (banner_id or "").strip().lower()
+    if bid == "agoda":
+        if city is not None and str(city).strip():
+            return partner_search_url(lang=lang or "en", city_id=city)
+        if lat is not None or lng is not None or country:
+            return url_for_location(
+                lang=lang or "en",
+                lat=lat,
+                lng=lng,
+                country=country,
+                default_city=5085,
+            )
+        return partner_search_url(lang=lang or "en", city_id=5085)
+    src = _BANNERS.get(bid)
     if not src:
         return ""
     key = src["id"].upper()
     return os.getenv(f"A8_{key}_CLICK_URL", src["click_url"])
 
 
-def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
+def _copy(
+    banner_id: str,
+    *,
+    lang: str,
+    lat: float | None = None,
+    lng: float | None = None,
+    country: str | None = None,
+) -> dict[str, str]:
     src = _BANNERS[banner_id]
     code = (lang or "en").lower()
     suffix = code if code in ("ko", "ja") else "en"
     key = banner_id.upper()
+    if banner_id == "agoda":
+        click = url_for_location(
+            lang=lang,
+            lat=lat,
+            lng=lng,
+            country=country,
+            default_city=5085 if (country or "jp").lower() in ("jp", "japan", "") else None,
+        )
+        # Always use Partners URL (with city) — /go/agoda without city landed on
+        # empty worldwide search and Agoda's error UI.
+        return {
+            "id": src["id"],
+            "click_url": click,
+            "image_url": "",
+            "pixel_url": "",
+            "label": src[f"label_{suffix}"],
+            "desc": src[f"desc_{suffix}"],
+            "alt": src[f"alt_{suffix}"],
+            "partners_url": click,
+        }
     return {
         "id": src["id"],
         "click_url": f"/go/{banner_id}",
@@ -162,16 +219,23 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
     }
 
 
-def a8_banners_context(*, lang: str = "en") -> dict[str, Any]:
+def a8_banners_context(
+    *,
+    lang: str = "en",
+    lat: float | None = None,
+    lng: float | None = None,
+    country: str | None = None,
+) -> dict[str, Any]:
     if not _enabled():
         return {"show_a8_banners": False, "a8_banners": []}
     code = (lang or "en").lower()
     # Keep the partner box scannable: booking + gear + lodging.
     # RIZAP (lesson/school) is JA-only — not for KO/EN trip booking intent.
+    kw = {"lang": lang, "lat": lat, "lng": lng, "country": country}
     banners = [
         _copy("jalan_golf", lang=lang),
         _copy("fairway_golf", lang=lang),
-        _copy("agoda", lang=lang),
+        _copy("agoda", **kw),
         _copy("rakuten_travel", lang=lang),
     ]
     if code == "ko":
