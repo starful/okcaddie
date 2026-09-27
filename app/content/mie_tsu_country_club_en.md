@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Mie Tsu Country Club"
-lat: "34.7544"
-lng: "136.4556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/mie_tsu_country_club.jpg"
-address: "Tsu, Mie"
-date: "2026-09-26"
-booking: "/booking/mie_tsu_country_club_en"
-summary: "Mie Tsu Country Club offers forested championship-style golf near Tsu; check live fees and tee times before booking."
-seo_title: "Mie Tsu Country Club: Fees, Access & Booking Guide"
-seo_description: "Plan a round at Mie Tsu Country Club in Tsu, Mie — green fee ranges, access from Nagoya/Tsu, and how to book tee times."
+lang: en
+title: Mie Tsu Country Club
+lat: '34.7544'
+lng: '136.4556'
+categories: Value for Money, Forest Course, Championship
+thumbnail: /static/images/mie_tsu_country_club.jpg
+address: Tsu, Mie
+date: '2026-09-27'
+booking: /booking/mie_tsu_country_club_en
+summary: Mie Tsu Country Club offers forested championship-style golf near Tsu; check
+  live fees and tee times before booking.
+seo_title: 'Mie Tsu Country Club: Fees, Access & Booking Guide'
+seo_description: Plan a round at Mie Tsu Country Club in Tsu, Mie — green fee ranges,
+  access from Nagoya/Tsu, and how to book tee times.
 ---
+
 
 ## Quick Facts
 

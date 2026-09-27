@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Leopalace Resort Country Club"
-lat: "13.3890"
-lng: "144.7240"
-categories: "Resort, Value for Money, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200"
-address: "Yona, Guam"
-date: '2026-09-15'
+title: Leopalace Resort Country Club
+lat: '13.3890'
+lng: '144.7240'
+categories: Resort, Value for Money, Scenic
+thumbnail: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200
+address: Yona, Guam
+date: '2026-09-27'
 booking: /booking/leopalace_resort_guam_en
 country: gu
-gora_cid: "520024"
-summary: "Leopalace Resort Country Club in Yona, Guam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Leopalace Resort Country Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Leopalace Resort Country Club in Yona, Guam."
+gora_cid: '520024'
+summary: Leopalace Resort Country Club in Yona, Guam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Leopalace Resort Country Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Leopalace
+  Resort Country Club in Yona, Guam.
 ---
+
 Leopalace Resort Country Club is in Yona, Guam. South Guam resort club with a hotel stay-and-play option. A practical first Guam round from the airport.
 
 ## Quick facts

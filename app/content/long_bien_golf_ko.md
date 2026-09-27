@@ -1,19 +1,20 @@
 ---
 lang: ko
-title: "Long Bien Golf Course"
-lat: "21.0540"
-lng: "105.8860"
-categories: "Championship, Public Tournament, City Course"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Hanoi, Vietnam"
-date: '2026-09-15'
+title: Long Bien Golf Course
+lat: '21.0540'
+lng: '105.8860'
+categories: Championship, Public Tournament, City Course
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Hanoi, Vietnam
+date: '2026-09-27'
 booking: /booking/long_bien_golf_ko
 country: vn
-gora_cid: "520468"
-summary: "Hanoi, Vietnam Long Bien Golf Course. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Long Bien Golf Course 그린피·예약"
-seo_description: "Hanoi, Vietnam Long Bien Golf Course 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520468'
+summary: Hanoi, Vietnam Long Bien Golf Course. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Long Bien Golf Course 그린피·예약
+seo_description: Hanoi, Vietnam Long Bien Golf Course 그린피, 공항 접근, 라쿠텐 GORA 해외 예약.
 ---
+
 Long Bien Golf Course는 Hanoi, Vietnam에 있는 골프장입니다. 하노이 시내권 27홀(Nelson & Haworth). 킹스 아일랜드보다 접근이 쉽습니다.
 
 ## 한눈에

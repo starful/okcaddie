@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Aichi Nagoya Golf Club"
-lat: "35.1544"
-lng: "137.0556"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/aichi_nagoya_golf_club.jpg"
-address: "Nagoya, Aichi"
-date: "2026-09-26"
-booking: "/booking/aichi_nagoya_golf_club_ko"
-summary: "나고야 근교 숲속 프라이빗 코스, 회원 소개 필요 여부는 예약 전 확인하고 시즌별 요금은 실시간으로 조회하세요."
-seo_title: "Aichi Nagoya Golf Club 예약·요금 가이드 | 나고야 포레스트 코스"
-seo_description: "나고야 아이치 소재 프라이빗 포레스트 코스, 방문객 입장 조건과 그린피 범위, 접근 교통, 예약 방법을 정리했습니다."
+lang: ko
+title: Aichi Nagoya Golf Club
+lat: '35.1544'
+lng: '137.0556'
+categories: Private Club, Historic, Forest Course
+thumbnail: /static/images/aichi_nagoya_golf_club.jpg
+address: Nagoya, Aichi
+date: '2026-09-27'
+booking: /booking/aichi_nagoya_golf_club_ko
+summary: 나고야 근교 숲속 프라이빗 코스, 회원 소개 필요 여부는 예약 전 확인하고 시즌별 요금은 실시간으로 조회하세요.
+seo_title: Aichi Nagoya Golf Club 예약·요금 가이드 | 나고야 포레스트 코스
+seo_description: 나고야 아이치 소재 프라이빗 포레스트 코스, 방문객 입장 조건과 그린피 범위, 접근 교통, 예약 방법을 정리했습니다.
 ---
+
 
 ## 기본 정보 한눈에 보기
 

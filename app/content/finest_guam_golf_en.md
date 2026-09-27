@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Finest Guam Golf & Resort"
-lat: "13.5180"
-lng: "144.8360"
-categories: "Resort, Public Tournament, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Dededo, Guam"
-date: '2026-09-15'
+title: Finest Guam Golf & Resort
+lat: '13.5180'
+lng: '144.8360'
+categories: Resort, Public Tournament, Value for Money
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Dededo, Guam
+date: '2026-09-27'
 booking: /booking/finest_guam_golf_en
 country: gu
-gora_cid: "520698"
-summary: "Finest Guam Golf & Resort in Dededo, Guam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Finest Guam Golf & Resort: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Finest Guam Golf & Resort in Dededo, Guam."
+gora_cid: '520698'
+summary: Finest Guam Golf & Resort in Dededo, Guam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Finest Guam Golf & Resort: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Finest
+  Guam Golf & Resort in Dededo, Guam.
 ---
+
 Finest Guam Golf & Resort is in Dededo, Guam. Northern Guam (Dededo), close to Tumon hotels. Formerly Starts Guam Golf Resort.
 
 ## Quick facts

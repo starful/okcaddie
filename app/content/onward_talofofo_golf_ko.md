@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Onward Talofofo Golf Club"
-lat: "13.3380"
-lng: "144.7590"
-categories: "Championship, Ocean View, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Talofofo, Guam"
-date: '2026-09-15'
+title: Onward Talofofo Golf Club
+lat: '13.3380'
+lng: '144.7590'
+categories: Championship, Ocean View, Scenic
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Talofofo, Guam
+date: '2026-09-27'
 booking: /booking/onward_talofofo_golf_ko
 country: gu
-gora_cid: "520058"
-summary: "Talofofo, Guam Onward Talofofo Golf Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Onward Talofofo Golf Club 그린피·예약"
-seo_description: "Talofofo, Guam Onward Talofofo Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520058'
+summary: Talofofo, Guam Onward Talofofo Golf Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Onward Talofofo Golf Club 그린피·예약
+seo_description: Talofofo, Guam Onward Talofofo Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Onward Talofofo Golf Club는 Talofofo, Guam에 있는 골프장입니다. 괌 남쪽 언덕 코스. 태평양 조망이 있고, 만길라오보다 노출되고 페어웨이가 단단한 편입니다.
 
 ## 한눈에
