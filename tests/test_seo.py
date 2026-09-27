@@ -98,34 +98,33 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert "a8-banners" in html
     assert "Agoda — 골프장 주변 숙소" in html
     assert "라쿠텐 eSIM" in html
-    assert "라쿠텐 트래블" in html
-    # Course pages deep-link Agoda Partners by nearest city (not A8 /go/agoda).
+    assert "라쿠텐 트래블" not in html
     assert "agoda.com/partners/partnersearch.aspx" in html
     assert "cid=1969838" in html
-    assert "city=10740" in html  # Naha hub for Okinawa PGM
-    assert 'href="/go/rakuten_travel"' in html
+    assert "city=717899" in html
+    assert "amazon.co.jp" in html
+    assert "tag=starful06-22" in html
+    assert "Amazon — 골프 용품" in html
     assert 'href="/go/rakuten_esim"' in html
-    assert 'href="/go/jalan_golf"' in html
-    assert 'href="/go/fairway_golf"' in html
-    assert 'href="/go/alpen_golf5"' not in html
-    assert 'href="/go/victoria_golf"' not in html
+    assert 'href="/go/jalan_golf"' not in html
+    assert 'href="/go/fairway_golf"' not in html
     assert 'href="/go/rizap_golf"' not in html
-    assert "じゃらんゴルフ" in html
-    assert "Fairway Golf" in html
+    assert "じゃらんゴルフ" not in html
+    assert "Fairway Golf" not in html
     assert "RIZAP" not in html
     assert "TORA" not in html
-    assert "골프 여행 필수품" not in html
-    assert "hinata" not in html.lower()
 
 
-def test_course_ja_shows_rizap_golf_school(client):
+def test_course_ja_shows_agoda_and_amazon(client):
     r = client.get("/course/pgm_golf_resort_okinawa?lang=ja")
     assert r.status_code == 200
     html = r.get_data(as_text=True)
-    assert 'href="/go/rizap_golf"' in html
-    assert "RIZAP GOLF" in html
-    assert 'href="/go/jalan_golf"' in html
-    assert 'href="/go/fairway_golf"' in html
+    assert "Agoda" in html
+    assert "amazon.co.jp" in html
+    assert 'href="/go/rizap_golf"' not in html
+    assert "RIZAP" not in html
+    assert 'href="/go/jalan_golf"' not in html
+    assert 'href="/go/fairway_golf"' not in html
 
 
 def test_social_image_endpoint(client):
@@ -350,27 +349,19 @@ def test_course_agoda_uses_partners_city_deeplink(client):
     html = r.get_data(as_text=True)
     assert "agoda.com/partners/partnersearch.aspx" in html
     assert "cid=1969838" in html
-    assert "city=10740" in html  # Naha hub for Okinawa
+    assert "city=717899" in html  # Okinawa hub (partner-confirmed)
     agoda_hrefs = re.findall(r'href="([^"]*agoda[^"]*)"', html, flags=re.I)
     assert agoda_hrefs
     assert all("agoda.com/partners" in h for h in agoda_hrefs)
     assert all("a8.net" not in h for h in agoda_hrefs)
 
 
-def test_affiliate_go_wraps_new_golf_partners(client):
-    # Visible partners + kept-but-hidden gear IDs still resolve via /go/.
-    for banner_id, token in (
-        ("jalan_golf", "1OQCCA"),
-        ("fairway_golf", "1PBRY2"),
-        ("alpen_golf5", "1X2ET6"),
-        ("victoria_golf", "1LR6BE"),
-        ("rizap_golf", "6Y26PM"),
-    ):
-        r = client.get(f"/go/{banner_id}")
-        assert r.status_code in (301, 302)
-        loc = r.headers.get("Location", "")
-        assert "px.a8.net" in loc
-        assert token in loc
+def test_affiliate_go_wraps_rakuten_esim(client):
+    r = client.get("/go/rakuten_esim")
+    assert r.status_code in (301, 302)
+    assert "a.r10.to" in r.headers.get("Location", "")
+    assert client.get("/go/jalan_golf").status_code == 404
+    assert client.get("/go/fairway_golf").status_code == 404
 
 
 def test_booking_omits_chiba_when_area_unknown(client):
