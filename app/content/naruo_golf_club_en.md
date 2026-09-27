@@ -1,4 +1,6 @@
 ---
+youtube_id: hXVjYyFraxw
+
 address: Kawanishi, Hyogo
 booking: /booking/naruo_golf_club_en
 categories: Private Club, Parkland, Historic

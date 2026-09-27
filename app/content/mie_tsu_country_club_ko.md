@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Mie Tsu Country Club"
-lat: "34.7544"
-lng: "136.4556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/mie_tsu_country_club.jpg"
-address: "Tsu, Mie"
-date: "2026-09-26"
-booking: "/booking/mie_tsu_country_club_ko"
-summary: "미에현 츠시 숲속 챔피언십 코스, 평일·주말 그린피 범위와 나고야·오사카발 접근 방법을 정리했습니다."
-seo_title: "미에 츠 컨트리클럽 그린피·예약 가이드"
-seo_description: "미에현 츠시 미에 츠 컨트리클럽의 요금대, 나고야·오사카 접근 시간, 예약 절차를 실전 기준으로 안내합니다."
+lang: ko
+title: Mie Tsu Country Club
+lat: '34.7544'
+lng: '136.4556'
+categories: Value for Money, Forest Course, Championship
+thumbnail: /static/images/mie_tsu_country_club.jpg
+address: Tsu, Mie
+date: '2026-09-27'
+booking: /booking/mie_tsu_country_club_ko
+summary: 미에현 츠시 숲속 챔피언십 코스, 평일·주말 그린피 범위와 나고야·오사카발 접근 방법을 정리했습니다.
+seo_title: 미에 츠 컨트리클럽 그린피·예약 가이드
+seo_description: 미에현 츠시 미에 츠 컨트리클럽의 요금대, 나고야·오사카 접근 시간, 예약 절차를 실전 기준으로 안내합니다.
 ---
+
 
 ## クイックファクト
 

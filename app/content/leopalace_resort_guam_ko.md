@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Leopalace Resort Country Club"
-lat: "13.3890"
-lng: "144.7240"
-categories: "Resort, Value for Money, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200"
-address: "Yona, Guam"
-date: '2026-09-15'
+title: Leopalace Resort Country Club
+lat: '13.3890'
+lng: '144.7240'
+categories: Resort, Value for Money, Scenic
+thumbnail: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200
+address: Yona, Guam
+date: '2026-09-27'
 booking: /booking/leopalace_resort_guam_ko
 country: gu
-gora_cid: "520024"
-summary: "Yona, Guam Leopalace Resort Country Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Leopalace Resort Country Club 그린피·예약"
-seo_description: "Yona, Guam Leopalace Resort Country Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520024'
+summary: Yona, Guam Leopalace Resort Country Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Leopalace Resort Country Club 그린피·예약
+seo_description: Yona, Guam Leopalace Resort Country Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Leopalace Resort Country Club는 Yona, Guam에 있는 골프장입니다. 괌 남쪽 리조트 클럽. 호텔 패키지와 함께 잡는 경우가 많고, 공항에서 첫 라운드로 쓰기 쉽습니다.
 
 ## 한눈에

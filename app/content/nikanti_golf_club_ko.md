@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "NiKanti Golf Club"
-lat: "13.7870"
-lng: "100.2730"
-categories: "Championship, Scenic, Premium / Luxury"
-thumbnail: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200"
-address: "Nakhon Pathom, Thailand"
-date: '2026-09-15'
+title: NiKanti Golf Club
+lat: '13.7870'
+lng: '100.2730'
+categories: Championship, Scenic, Premium / Luxury
+thumbnail: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200
+address: Nakhon Pathom, Thailand
+date: '2026-09-28'
 booking: /booking/nikanti_golf_club_ko
 country: th
-gora_cid: "520402"
-summary: "Nakhon Pathom, Thailand NiKanti Golf Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "NiKanti Golf Club 그린피·예약"
-seo_description: "Nakhon Pathom, Thailand NiKanti Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520402'
+summary: Nakhon Pathom, Thailand NiKanti Golf Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: NiKanti Golf Club 그린피·예약
+seo_description: Nakhon Pathom, Thailand NiKanti Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 NiKanti Golf Club는 Nakhon Pathom, Thailand에 있는 골프장입니다. 방콕 남서쪽 나콘파톰. 시내 클럽보다 한적하고, 코스 조형이 뚜렷합니다.
 
 ## 한눈에

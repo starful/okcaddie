@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Phoenix Seagaia Resort Golf Course | Miyazaki, Japan
+title: Phoenix Seagaia Resort Golf Course – Dunlop Phoenix Host | Miyazaki
 lat: '31.9544'
 lng: '131.4556'
 categories: Stay & Play, Premium / Luxury, Resort
@@ -8,15 +8,17 @@ thumbnail: /static/images/phoenix_seagaia_resort.jpg
 address: Miyazaki, Miyazaki
 date: '2026-06-27'
 booking: /booking/phoenix_seagaia_resort_en
-summary: Home of the Dunlop Phoenix Tournament since 1974, this Robert Trent Jones
-  Jr.-designed course in Miyazaki tests golfers with pine-lined fairways and fast
-  bentgrass greens.
-description: Home of the Dunlop Phoenix Tournament since 1974. Compare tee times,
-  green fees & course layout for this Miyazaki championship 18-hole course.
-seo_title: Phoenix Seagaia Resort Golf Course | Miyazaki, Japan
-seo_description: Home of the Dunlop Phoenix Tournament since 1974. Compare tee times,
-  green fees & course layout for this Miyazaki championship 18-hole course.
+summary: Home to the Dunlop Phoenix Tournament since 1974, this Robert Trent Jones
+  Jr. design in Miyazaki challenges golfers with pine-lined fairways, fast bentgrass
+  greens, and championship-caliber strategy.
+description: Home of the Dunlop Phoenix Tournament since 1974 — compare tee times,
+  green fees & book Miyazaki's top championship course today.
+seo_title: Phoenix Seagaia Golf | Dunlop Phoenix Host Course
+seo_description: Compare tee times & green fees at Phoenix Seagaia's Dunlop Phoenix
+  host course — a Robert Trent Jones Jr. design in Miyazaki, Japan.
 ---
+**Ready to tee it up where golf's biggest names have battled since 1974?** Phoenix Seagaia Resort's Robert Trent Jones Jr.-designed course pairs pine-lined fairways with fast bentgrass greens in a coastal Miyazaki setting — compare tee times, green fees, and hole-by-hole strategy below before you book your round.
+
 Since 1974, the world's best professionals have battled the pines and bentgrass greens of Phoenix Country Club at the Dunlop Phoenix Tournament — and this Robert Trent Jones Jr. design still plays every bit as demanding for visiting golfers today. Explore the tee times, green fees, and hole-by-hole strategy for one of Japan's most storied championship courses below.
 
 ## Course Overview

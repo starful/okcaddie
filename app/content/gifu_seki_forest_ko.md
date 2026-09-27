@@ -1,17 +1,18 @@
 ---
-lang: "ko"
-title: "Gifu Seki Forest"
-lat: "35.4544"
-lng: "136.9556"
-categories: "Premium / Luxury, Forest Course, Strategic"
-thumbnail: "/static/images/gifu_seki_forest.jpg"
-address: "Seki, Gifu"
-date: "2026-09-26"
-booking: "/booking/gifu_seki_forest_ko"
-summary: "기후현 세키 숲속에 자리한 프리미엄 전략형 코스, 시즌별 요금 변동이 커 예약 전 실시간 견적 확인이 필수입니다."
-seo_title: "기후 세키 포레스트 그린피·예약 가이드 | 접근·시즌 요금"
-seo_description: "기후현 세키시 숲속 프리미엄 골프장, 그린피 예상 범위와 나고야에서의 접근 방법, 예약 절차를 정리했습니다."
+lang: ko
+title: Gifu Seki Forest
+lat: '35.4544'
+lng: '136.9556'
+categories: Premium / Luxury, Forest Course, Strategic
+thumbnail: /static/images/gifu_seki_forest.jpg
+address: Seki, Gifu
+date: '2026-09-27'
+booking: /booking/gifu_seki_forest_ko
+summary: 기후현 세키 숲속에 자리한 프리미엄 전략형 코스, 시즌별 요금 변동이 커 예약 전 실시간 견적 확인이 필수입니다.
+seo_title: 기후 세키 포레스트 그린피·예약 가이드 | 접근·시즌 요금
+seo_description: 기후현 세키시 숲속 프리미엄 골프장, 그린피 예상 범위와 나고야에서의 접근 방법, 예약 절차를 정리했습니다.
 ---
+
 
 ## クイックファクト
 

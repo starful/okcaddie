@@ -1,19 +1,20 @@
 ---
 lang: ko
-title: "Finest Guam Golf & Resort"
-lat: "13.5180"
-lng: "144.8360"
-categories: "Resort, Public Tournament, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Dededo, Guam"
-date: '2026-09-15'
+title: Finest Guam Golf & Resort
+lat: '13.5180'
+lng: '144.8360'
+categories: Resort, Public Tournament, Value for Money
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Dededo, Guam
+date: '2026-09-27'
 booking: /booking/finest_guam_golf_ko
 country: gu
-gora_cid: "520698"
-summary: "Dededo, Guam Finest Guam Golf & Resort. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Finest Guam Golf & Resort 그린피·예약"
-seo_description: "Dededo, Guam Finest Guam Golf & Resort 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520698'
+summary: Dededo, Guam Finest Guam Golf & Resort. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Finest Guam Golf & Resort 그린피·예약
+seo_description: Dededo, Guam Finest Guam Golf & Resort 그린피, 공항 접근, 라쿠텐 GORA 해외 예약.
 ---
+
 Finest Guam Golf & Resort는 Dededo, Guam에 있는 골프장입니다. 괌 북쪽 데데도. 투몬 호텔가에서 가깝고, 예전 스타츠 괌 골프 리조트입니다.
 
 ## 한눈에

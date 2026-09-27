@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Onward Talofofo Golf Club"
-lat: "13.3380"
-lng: "144.7590"
-categories: "Championship, Ocean View, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Talofofo, Guam"
-date: '2026-09-15'
+title: Onward Talofofo Golf Club
+lat: '13.3380'
+lng: '144.7590'
+categories: Championship, Ocean View, Scenic
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Talofofo, Guam
+date: '2026-09-27'
 booking: /booking/onward_talofofo_golf_en
 country: gu
-gora_cid: "520058"
-summary: "Onward Talofofo Golf Club in Talofofo, Guam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Onward Talofofo Golf Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Onward Talofofo Golf Club in Talofofo, Guam."
+gora_cid: '520058'
+summary: Onward Talofofo Golf Club in Talofofo, Guam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Onward Talofofo Golf Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Onward
+  Talofofo Golf Club in Talofofo, Guam.
 ---
+
 Onward Talofofo Golf Club is in Talofofo, Guam. Hillside layout in southern Guam with Pacific views. Firmer and more exposed than Mangilao.
 
 ## Quick facts

@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Long Bien Golf Course"
-lat: "21.0540"
-lng: "105.8860"
-categories: "Championship, Public Tournament, City Course"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Hanoi, Vietnam"
-date: '2026-09-15'
+title: Long Bien Golf Course
+lat: '21.0540'
+lng: '105.8860'
+categories: Championship, Public Tournament, City Course
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Hanoi, Vietnam
+date: '2026-09-27'
 booking: /booking/long_bien_golf_en
 country: vn
-gora_cid: "520468"
-summary: "Long Bien Golf Course in Hanoi, Vietnam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Long Bien Golf Course: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Long Bien Golf Course in Hanoi, Vietnam."
+gora_cid: '520468'
+summary: Long Bien Golf Course in Hanoi, Vietnam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Long Bien Golf Course: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Long Bien
+  Golf Course in Hanoi, Vietnam.
 ---
+
 Long Bien Golf Course is in Hanoi, Vietnam. 27-hole Nelson & Haworth course in Hanoi. More city-accessible than Kings Island.
 
 ## Quick facts

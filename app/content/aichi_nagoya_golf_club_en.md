@@ -1,17 +1,20 @@
 ---
-lang: "en"
-title: "Aichi Nagoya Golf Club"
-lat: "35.1544"
-lng: "137.0556"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/aichi_nagoya_golf_club.jpg"
-address: "Nagoya, Aichi"
-date: "2026-09-26"
-booking: "/booking/aichi_nagoya_golf_club_en"
-summary: "Aichi Nagoya Golf Club is a private, forest-lined historic club near Nagoya — confirm introduction terms and get a live fee quote before booking."
-seo_title: "Aichi Nagoya Golf Club: Access, Fees & Booking Guide"
-seo_description: "Plan a visit to Aichi Nagoya Golf Club, a historic forest course near Nagoya. Access routes, dress code, fee ranges, and how to arrange a tee time."
+lang: en
+title: Aichi Nagoya Golf Club
+lat: '35.1544'
+lng: '137.0556'
+categories: Private Club, Historic, Forest Course
+thumbnail: /static/images/aichi_nagoya_golf_club.jpg
+address: Nagoya, Aichi
+date: '2026-09-27'
+booking: /booking/aichi_nagoya_golf_club_en
+summary: Aichi Nagoya Golf Club is a private, forest-lined historic club near Nagoya
+  — confirm introduction terms and get a live fee quote before booking.
+seo_title: 'Aichi Nagoya Golf Club: Access, Fees & Booking Guide'
+seo_description: Plan a visit to Aichi Nagoya Golf Club, a historic forest course
+  near Nagoya. Access routes, dress code, fee ranges, and how to arrange a tee time.
 ---
+
 
 ## Quick Facts
 

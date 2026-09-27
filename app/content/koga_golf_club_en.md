@@ -1,4 +1,6 @@
 ---
+youtube_id: rC2aXfiEdBI
+
 address: Koga, Fukuoka
 booking: /booking/koga_golf_club_en
 categories: Private Club, Championship, Seaside Links
