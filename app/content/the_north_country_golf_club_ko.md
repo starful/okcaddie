@@ -1,5 +1,5 @@
 ---
-youtube_id: uPXVHP1yOFw
+youtube_id: f_cVLBKUGQE
 
 lang: ko
 seo_title: 노스 컨트리 골프 클럽(지토세) 요금·예약 | OKCaddie

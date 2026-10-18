@@ -1,5 +1,5 @@
 ---
-youtube_id: 2URbT3UhjsQ
+youtube_id: YuT2WnN9im8
 
 lang: en
 seo_title: 'Hirono Golf Club: How Visitors Book'

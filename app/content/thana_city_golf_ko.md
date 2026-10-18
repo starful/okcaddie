@@ -1,19 +1,22 @@
 ---
 lang: ko
-title: "Thana City Golf & Sports Club"
-lat: "13.6600"
-lng: "100.6800"
-categories: "Public Tournament, Value for Money, Resort"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Samut Prakan, Thailand"
-date: '2026-09-15'
+title: Thana City Golf & Sports Club
+lat: '13.6600'
+lng: '100.6800'
+categories: Public Tournament, Value for Money, Resort
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Samut Prakan, Thailand
+date: '2026-09-28'
 booking: /booking/thana_city_golf_ko
 country: th
-gora_cid: "520406"
-summary: "Samut Prakan, Thailand Thana City Golf & Sports Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Thana City Golf & Sports Club 그린피·예약"
-seo_description: "Samut Prakan, Thailand Thana City Golf & Sports Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520406'
+summary: Samut Prakan, Thailand Thana City Golf & Sports Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Thana City Golf & Sports Club 그린피·예약
+seo_description: Samut Prakan, Thailand Thana City Golf & Sports Club 그린피, 공항 접근,
+  라쿠텐 GORA 해외 예약.
 ---
+
+
 Thana City Golf & Sports Club는 Samut Prakan, Thailand에 있는 골프장입니다. 방콕 시내·공항에서 가깝습니다. 회원제보다 방문객 라운드가 수월한 편입니다.
 
 ## 한눈에

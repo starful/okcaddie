@@ -1,23 +1,26 @@
 ---
-youtube_id: 2URbT3UhjsQ
-
+youtube_id: YuT2WnN9im8
 address: 효고현 미키시 히로노
 booking: /booking/hirono_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic
 date: '2026-04-15'
-description: 'Ranked Japan''s #1 golf course, Hirono is member-guest only. Here''s
-  exactly how to get invited, book a tee time, and what to expect on your round.'
+description: 'Hirono, Japan''s #1 golf course, requires member sponsorship. Learn
+  how to get invited, understand policies, etiquette, and what to expect.'
 lang: ko
 lat: '34.7967'
 lng: '135.0111'
-seo_description: 'Ranked Japan''s #1 golf course, Hirono is member-guest only. Here''s
-  exactly how to get invited, book a tee time, and what to expect on your round.'
+seo_description: 'Hirono, Japan''s #1 golf course, requires member sponsorship. Learn
+  how to get invited, understand policies, etiquette, and what to expect.'
 seo_title: 'Hirono Golf Club: Japan''s #1 Course – Booking Guide & Rules'
-summary: A practical visitor's guide to Hirono Golf Club — Japan's top-ranked course
-  — covering booking routes, member-guest policy, and etiquette before your round.
+summary: Title and meta already strong. Added English quick-start section to complement
+  Korean content, improving accessibility for English-speaking searchers.
 thumbnail: /static/images/hirono_golf_club.jpg
 title: 'Hirono Golf Club: Japan''s #1 Course – Booking Guide & Rules'
 ---
+## English Quick Start
+
+Hirono Golf Club (Japan's #1-ranked course) requires member sponsorship—no public booking. Most visitors are invited by Japanese business contacts or existing members. Expect ultra-strict dress code, quiet pace of play, and championship conditions. Designed by Charles Hugh Alison in 1932. Plan approximately 6 hours for your round.
+
 히로노 골프 클럽은 일본 골프 코스 순위에서 부동의 1위를 지켜온, 회원 동반 없이는 밟을 수 없는 폐쇄형 성지입니다. '나도 가능할까?'라는 궁금증에 답하기 위해, 실제 방문객 경로로 검증된 초청 확보 방법과 예약 절차, 라운드 전 반드시 알아야 할 에티켓까지 이 가이드 하나에 정리했습니다.
 
 히로노 골프 클럽은 회원 동반 없이는 라운드가 불가능한 폐쇄형 명문 코스입니다. 이 가이드는 방문 자격, 예약 경로, 동반자 정책, 그리고 라운드 전 알아야 할 에티켓을 실제 방문객 관점에서 정리했습니다.

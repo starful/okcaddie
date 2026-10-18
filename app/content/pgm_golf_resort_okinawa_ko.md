@@ -1,5 +1,5 @@
 ---
-youtube_id: 9wDvMl_zfWc
+youtube_id: QF8gxl0mokA
 
 lang: ko
 seo_title: PGM 골프 리조트 오키나와 예약·그린피 가이드 | OK Caddie

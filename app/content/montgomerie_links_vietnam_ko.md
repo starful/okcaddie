@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Montgomerie Links Vietnam"
-lat: "15.9730"
-lng: "108.3470"
-categories: "Links Style, Championship, Ocean View"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Da Nang, Vietnam"
-date: '2026-09-15'
+title: Montgomerie Links Vietnam
+lat: '15.9730'
+lng: '108.3470'
+categories: Links Style, Championship, Ocean View
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Da Nang, Vietnam
+date: '2026-09-28'
 booking: /booking/montgomerie_links_vietnam_ko
 country: vn
-gora_cid: "520472"
-summary: "Da Nang, Vietnam Montgomerie Links Vietnam. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Montgomerie Links Vietnam 그린피·예약"
-seo_description: "Da Nang, Vietnam Montgomerie Links Vietnam 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520472'
+summary: Da Nang, Vietnam Montgomerie Links Vietnam. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Montgomerie Links Vietnam 그린피·예약
+seo_description: Da Nang, Vietnam Montgomerie Links Vietnam 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Montgomerie Links Vietnam는 Da Nang, Vietnam에 있는 골프장입니다. 다낭–호이안 사이 콜린 몬고메리 링크스 스타일. 바람과 샌디 웨이스트가 핵심 방어입니다.
 
 ## 한눈에

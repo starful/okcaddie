@@ -3,17 +3,19 @@ address: Izu, Shizuoka
 booking: /booking/izu_ohito_country_club_ja
 categories: Value for Money, Stay & Play, Mt. Fuji View
 date: '2026-09-17'
-description: Plan your round at Izu Ohito Country Club. Find updated green fees, easy
-  English booking options, course layout tips, and stunning Mt. Fuji views.
+description: 伊豆大仁カントリークラブは富士山を望める初中級者向け。コスパ良好、東京から2時間、戦略的設計。料金・予約・アクセスガイド。
 lang: ja
 lat: '35.0144'
 lng: '138.9656'
-seo_description: 静岡県伊豆の大仁カントリークラブの基本情報、グリーンフィー目安、アクセス、予約方法をコンパクトに解説します。
-seo_title: 伊豆大仁カントリークラブ 料金・予約・アクセス完全ガイド
-summary: 伊豆・大仁カントリークラブは静岡県伊豆エリアでコスパ良く富士山を望めるコース。予約はRakuten GORA経由が中心。
+seo_description: 伊豆大仁カントリークラブは富士山を望める初中級者向け。コスパ良好、東京から2時間、戦略的設計。料金・予約・アクセスガイド。
+seo_title: '伊豆大仁カントリークラブ: 富士山の眺め、初中級者向けコスパコース'
+summary: Changed focus from generic 'complete guide' to value positioning (budget-friendly,
+  beginner-friendly, Mt. Fuji views, Tokyo proximity). Improved discoverability for
+  cost-conscious golfers.
 thumbnail: /static/images/izu_ohito_country_club.jpg
-title: 'The Definitive Guide to Izu Ohito Country Club: An Expert Review'
+title: '伊豆大仁カントリークラブ: 富士山の眺め、初中級者向けコスパコース'
 ---
+
 
 ## クイックファクト
 

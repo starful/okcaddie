@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Montgomerie Links Vietnam"
-lat: "15.9730"
-lng: "108.3470"
-categories: "Links Style, Championship, Ocean View"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Da Nang, Vietnam"
-date: '2026-09-15'
+title: Montgomerie Links Vietnam
+lat: '15.9730'
+lng: '108.3470'
+categories: Links Style, Championship, Ocean View
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Da Nang, Vietnam
+date: '2026-09-28'
 booking: /booking/montgomerie_links_vietnam_en
 country: vn
-gora_cid: "520472"
-summary: "Montgomerie Links Vietnam in Da Nang, Vietnam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Montgomerie Links Vietnam: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Montgomerie Links Vietnam in Da Nang, Vietnam."
+gora_cid: '520472'
+summary: Montgomerie Links Vietnam in Da Nang, Vietnam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Montgomerie Links Vietnam: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Montgomerie
+  Links Vietnam in Da Nang, Vietnam.
 ---
+
 Montgomerie Links Vietnam is in Da Nang, Vietnam. Colin Montgomerie links-style course between Da Nang and Hoi An. Wind and sandy waste are the defense.
 
 ## Quick facts

@@ -3,18 +3,18 @@ address: Toyako, Hokkaido
 booking: /booking/the_windsor_golf_course_ja
 categories: Stay & Play, Premium / Luxury, Ocean View
 date: '2026-09-19'
-description: Plan your round at The Windsor Golf Course in Toyako, Hokkaido. Explore
-  green fees, tee times, Rakuten GORA booking, and layout strategy.
+description: 洞爺湖ウィンザーゴルフコースは温泉リゾート内。ステイ&プレープラン、グリーンフィー、アクセス、予約方法を実用的に解説。
 lang: ja
 lat: '42.5944'
 lng: '140.7756'
-seo_description: 北海道・洞爺湖畔のウィンザーゴルフコースを訪問者目線で解説。グリーンフィー目安、新千歳空港からのアクセス、予約方法まで実用情報を紹介。
-seo_title: ウィンザーゴルフコース(洞爺湖)料金・アクセス・予約ガイド
-summary: 洞爺湖畔・ウィンザーゴルフコースの料金目安、アクセス、予約方法をまとめた旅行者向け実用ガイド。
+seo_description: 洞爺湖ウィンザーゴルフコースは温泉リゾート内。ステイ&プレープラン、グリーンフィー、アクセス、予約方法を実用的に解説。
+seo_title: '洞爺湖ウィンザーゴルフコース: 温泉リゾートで泊まってプレー + 予約ガイド'
+summary: Repositioned as resort stay experience, not just golf. Enhanced meta with
+  stay-and-play angle for better search intent match on resort courses.
 thumbnail: /static/images/the_windsor_golf_course.jpg
-title: 'The Definitive Guide to The Windsor Golf Course: An Expert Review by an Elite
-  Caddy'
+title: '洞爺湖ウィンザーゴルフコース: 温泉リゾートで泊まってプレー + 予約ガイド'
 ---
+
 
 ## クイックファクト
 

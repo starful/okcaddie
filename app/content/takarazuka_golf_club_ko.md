@@ -1,5 +1,5 @@
 ---
-youtube_id: iPgBv4EaqP0
+youtube_id: IzJRn4_Qsb0
 
 lang: "ko"
 title: "Takarazuka Golf Club"

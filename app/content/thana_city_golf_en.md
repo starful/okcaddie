@@ -1,19 +1,23 @@
 ---
 lang: en
-title: "Thana City Golf & Sports Club"
-lat: "13.6600"
-lng: "100.6800"
-categories: "Public Tournament, Value for Money, Resort"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Samut Prakan, Thailand"
-date: '2026-09-15'
+title: Thana City Golf & Sports Club
+lat: '13.6600'
+lng: '100.6800'
+categories: Public Tournament, Value for Money, Resort
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Samut Prakan, Thailand
+date: '2026-09-28'
 booking: /booking/thana_city_golf_en
 country: th
-gora_cid: "520406"
-summary: "Thana City Golf & Sports Club in Samut Prakan, Thailand. Check live tee times on Rakuten GORA overseas."
-seo_title: "Thana City Golf & Sports Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Thana City Golf & Sports Club in Samut Prakan, Thailand."
+gora_cid: '520406'
+summary: Thana City Golf & Sports Club in Samut Prakan, Thailand. Check live tee times
+  on Rakuten GORA overseas.
+seo_title: 'Thana City Golf & Sports Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Thana City
+  Golf & Sports Club in Samut Prakan, Thailand.
 ---
+
+
 Thana City Golf & Sports Club is in Samut Prakan, Thailand. Close to Bangkok downtown and the airport. A practical public-style option versus members-only clubs.
 
 ## Quick facts

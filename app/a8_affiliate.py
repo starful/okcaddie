@@ -166,7 +166,12 @@ def a8_banners_context(
     country: str | None = None,
 ) -> dict[str, Any]:
     if not _enabled():
-        return {"show_a8_banners": False, "a8_banners": []}
+        return {
+            "show_a8_banners": False,
+            "a8_banners": [],
+            "agoda_cta": None,
+            "show_agoda_cta": False,
+        }
     code = (lang or "en").lower()
     kw = {"lang": lang, "lat": lat, "lng": lng, "country": country}
     banners = [
@@ -185,9 +190,12 @@ def a8_banners_context(
         "ja": "アフィリエイト広告 · 新しいタブで開きます",
         "en": "Affiliate ads · opens in new tab",
     }
+    agoda = next((b for b in banners if b.get("id") == "agoda"), None)
     return {
         "show_a8_banners": True,
         "a8_banners": banners,
         "a8_banners_title": titles.get(code, titles["en"]),
         "a8_banners_note": notes.get(code, notes["en"]),
+        "agoda_cta": agoda,
+        "show_agoda_cta": agoda is not None,
     }

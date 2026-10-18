@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Waikele Country Club"
-lat: "21.4020"
-lng: "-158.0060"
-categories: "Public Tournament, Scenic, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Waipahu, Oahu, Hawaii"
-date: '2026-09-15'
+title: Waikele Country Club
+lat: '21.4020'
+lng: '-158.0060'
+categories: Public Tournament, Scenic, Value for Money
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Waipahu, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/waikele_country_club_ko
 country: us
-gora_cid: "520494"
-summary: "Waipahu, Oahu, Hawaii Waikele Country Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Waikele Country Club 그린피·예약"
-seo_description: "Waipahu, Oahu, Hawaii Waikele Country Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520494'
+summary: Waipahu, Oahu, Hawaii Waikele Country Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Waikele Country Club 그린피·예약
+seo_description: Waipahu, Oahu, Hawaii Waikele Country Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Waikele Country Club는 Waipahu, Oahu, Hawaii에 있는 골프장입니다. 오아후 중앙. 진주만·코오라우 방향 조망이 있고, 북쇼어보다 이동이 짧습니다.
 
 ## 한눈에

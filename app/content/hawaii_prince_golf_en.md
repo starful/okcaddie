@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Hawaii Prince Golf Club"
-lat: "21.3330"
-lng: "-158.0470"
-categories: "Resort, Championship, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Ewa Beach, Oahu, Hawaii"
-date: '2026-09-15'
+title: Hawaii Prince Golf Club
+lat: '21.3330'
+lng: '-158.0470'
+categories: Resort, Championship, Value for Money
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Ewa Beach, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/hawaii_prince_golf_en
 country: us
-gora_cid: "520488"
-summary: "Hawaii Prince Golf Club in Ewa Beach, Oahu, Hawaii. Check live tee times on Rakuten GORA overseas."
-seo_title: "Hawaii Prince Golf Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Hawaii Prince Golf Club in Ewa Beach, Oahu, Hawaii."
+gora_cid: '520488'
+summary: Hawaii Prince Golf Club in Ewa Beach, Oahu, Hawaii. Check live tee times
+  on Rakuten GORA overseas.
+seo_title: 'Hawaii Prince Golf Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Hawaii
+  Prince Golf Club in Ewa Beach, Oahu, Hawaii.
 ---
+
 Hawaii Prince Golf Club is in Ewa Beach, Oahu, Hawaii. 27-hole West Oahu club (three nines). A common visitor booking versus Waikiki hotel golf.
 
 ## Quick facts

@@ -1,5 +1,5 @@
 ---
-youtube_id: uPXVHP1yOFw
+youtube_id: f_cVLBKUGQE
 
 lang: en
 seo_title: North Country Golf Club Chitose | Hokkaido Championship Course

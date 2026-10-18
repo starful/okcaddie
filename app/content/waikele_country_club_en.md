@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Waikele Country Club"
-lat: "21.4020"
-lng: "-158.0060"
-categories: "Public Tournament, Scenic, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Waipahu, Oahu, Hawaii"
-date: '2026-09-15'
+title: Waikele Country Club
+lat: '21.4020'
+lng: '-158.0060'
+categories: Public Tournament, Scenic, Value for Money
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Waipahu, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/waikele_country_club_en
 country: us
-gora_cid: "520494"
-summary: "Waikele Country Club in Waipahu, Oahu, Hawaii. Check live tee times on Rakuten GORA overseas."
-seo_title: "Waikele Country Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Waikele Country Club in Waipahu, Oahu, Hawaii."
+gora_cid: '520494'
+summary: Waikele Country Club in Waipahu, Oahu, Hawaii. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Waikele Country Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Waikele
+  Country Club in Waipahu, Oahu, Hawaii.
 ---
+
 Waikele Country Club is in Waipahu, Oahu, Hawaii. Central Oahu views toward Pearl Harbor and the Koolau range. Shorter transfer than North Shore.
 
 ## Quick facts

@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "BRG Kings Island Golf Resort"
-lat: "21.1180"
-lng: "105.3280"
-categories: "Resort, Scenic, Championship"
-thumbnail: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200"
-address: "Hanoi, Vietnam"
-date: '2026-09-15'
+title: BRG Kings Island Golf Resort
+lat: '21.1180'
+lng: '105.3280'
+categories: Resort, Scenic, Championship
+thumbnail: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200
+address: Hanoi, Vietnam
+date: '2026-09-28'
 booking: /booking/brg_kings_island_golf_ko
 country: vn
-gora_cid: "520467"
-summary: "Hanoi, Vietnam BRG Kings Island Golf Resort. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "BRG Kings Island Golf Resort 그린피·예약"
-seo_description: "Hanoi, Vietnam BRG Kings Island Golf Resort 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520467'
+summary: Hanoi, Vietnam BRG Kings Island Golf Resort. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: BRG Kings Island Golf Resort 그린피·예약
+seo_description: Hanoi, Vietnam BRG Kings Island Golf Resort 그린피, 공항 접근, 라쿠텐 GORA
+  해외 예약.
 ---
+
 BRG Kings Island Golf Resort는 Hanoi, Vietnam에 있는 골프장입니다. 하노이 서쪽 동모 호수 섬 리조트. 마운틴 뷰 나인이 있고, 시내에서 이동 시간을 넉넉히 보세요.
 
 ## 한눈에

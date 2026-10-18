@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Alpine Golf Club"
-lat: "14.1170"
-lng: "100.6170"
-categories: "Championship, Premium / Luxury, Tournament"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Pathum Thani, Thailand"
-date: '2026-09-15'
+title: Alpine Golf Club
+lat: '14.1170'
+lng: '100.6170'
+categories: Championship, Premium / Luxury, Tournament
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Pathum Thani, Thailand
+date: '2026-09-28'
 booking: /booking/alpine_golf_club_bangkok_ko
 country: th
-gora_cid: "520401"
-summary: "Pathum Thani, Thailand Alpine Golf Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Alpine Golf Club 그린피·예약"
-seo_description: "Pathum Thani, Thailand Alpine Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520401'
+summary: Pathum Thani, Thailand Alpine Golf Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Alpine Golf Club 그린피·예약
+seo_description: Pathum Thani, Thailand Alpine Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약.
 ---
+
+
 Alpine Golf Club는 Pathum Thani, Thailand에 있는 골프장입니다. 방콕 북쪽 파툼타니의 로널드 프림 설계 챔피언십 코스. 태국에서 이름이 가장 알려진 코스 중 하나입니다.
 
 ## 한눈에

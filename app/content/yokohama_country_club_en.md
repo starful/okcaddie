@@ -1,5 +1,5 @@
 ---
-youtube_id: 0e0UwJt-VQo
+youtube_id: z4kjgfoAqOo
 lang: en
 seo_title: 'Yokohama Country Club Visitor Guide: Fees, Booking &amp; Tips'
 seo_description: Planning to play Yokohama Country Club? Visitor rules, green fee

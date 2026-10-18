@@ -1,4 +1,6 @@
 ---
+youtube_id: Qv83P0s2Z4M
+
 lang: en
 seo_title: Keya Golf Club Itoshima — Tee Times, Fees & Access | OKCaddie
 seo_description: Plan Keya Golf Club in Itoshima, Fukuoka. Visitor booking paths, green-fee ranges, ocean-view layout notes, and access from Fukuoka Airport.

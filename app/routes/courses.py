@@ -550,6 +550,35 @@ def _noindex_redirect(url: str, code: int = 302):
     return response
 
 
+def _log_affiliate_outbound(banner_id: str, dest_url: str) -> None:
+    """Append to WORK_ROOT/data/affiliate_clicks.jsonl (read by okadmin)."""
+    try:
+        import json
+        from pathlib import Path
+
+        root = Path(os.environ.get("WORK_ROOT", "/opt/work"))
+        path = root / "data" / "affiliate_clicks.jsonl"
+        row = {
+            "ts": datetime.now().astimezone().isoformat(timespec="seconds"),
+            "site_id": "okcaddie",
+            "banner_id": (banner_id or "").strip()[:64],
+            "dest_url": (dest_url or "").strip()[:2000],
+            "page": (request.referrer or request.path or "").strip()[:500],
+            "source": "redirect",
+        }
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    except OSError:
+        pass
+
+
+def _affiliate_redirect(banner_id: str, dest_url: str):
+    if dest_url:
+        _log_affiliate_outbound(banner_id, dest_url)
+    return _noindex_redirect(dest_url)
+
+
 @courses_bp.route("/booking/<course_id>")
 def booking_redirect(course_id):
     area_code = 0
@@ -591,14 +620,15 @@ def booking_redirect(course_id):
 
     overseas = country != "jp" or is_overseas_slug(base_id)
     if overseas:
-        return _noindex_redirect(
-            overseas_booking_dest(gora_cid=gora_cid, slug=base_id)
+        return _affiliate_redirect(
+            "gora_overseas",
+            overseas_booking_dest(gora_cid=gora_cid, slug=base_id),
         )
 
     if gora_cid:
         dest = japan_booking_dest(gora_cid)
         if dest:
-            return _noindex_redirect(dest)
+            return _affiliate_redirect("gora_booking", dest)
 
     if path and os.path.exists(path):
         area_code = gora_area_code(content, base_id=base_id, course_id=course_id)
@@ -629,7 +659,7 @@ def booking_redirect(course_id):
         + "&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
     )
 
-    return _noindex_redirect(final_url)
+    return _affiliate_redirect("gora_search", final_url)
 
 
 @courses_bp.route("/go/<banner_id>")
@@ -642,7 +672,7 @@ def affiliate_go(banner_id):
     )
     if not dest:
         abort(404)
-    return _noindex_redirect(dest)
+    return _affiliate_redirect(banner_id, dest)
 
 
 @courses_bp.route("/travel/<item_type>/<course_id>")
