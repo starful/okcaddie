@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Thai Country Club"
-lat: "13.5850"
-lng: "100.6380"
-categories: "Championship, Premium / Luxury, Historic"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Samut Prakan, Thailand"
-date: '2026-09-15'
+title: Thai Country Club
+lat: '13.5850'
+lng: '100.6380'
+categories: Championship, Premium / Luxury, Historic
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Samut Prakan, Thailand
+date: '2026-09-28'
 booking: /booking/thai_country_club_en
 country: th
-gora_cid: "520405"
-summary: "Thai Country Club in Samut Prakan, Thailand. Check live tee times on Rakuten GORA overseas."
-seo_title: "Thai Country Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Thai Country Club in Samut Prakan, Thailand."
+gora_cid: '520405'
+summary: Thai Country Club in Samut Prakan, Thailand. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Thai Country Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Thai Country
+  Club in Samut Prakan, Thailand.
 ---
+
 Thai Country Club is in Samut Prakan, Thailand. Peninsula Hotels group club near Suvarnabhumi. Convenient if you land in Bangkok and want a serious round the same trip.
 
 ## Quick facts

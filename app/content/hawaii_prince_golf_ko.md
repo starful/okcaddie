@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Hawaii Prince Golf Club"
-lat: "21.3330"
-lng: "-158.0470"
-categories: "Resort, Championship, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Ewa Beach, Oahu, Hawaii"
-date: '2026-09-15'
+title: Hawaii Prince Golf Club
+lat: '21.3330'
+lng: '-158.0470'
+categories: Resort, Championship, Value for Money
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+address: Ewa Beach, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/hawaii_prince_golf_ko
 country: us
-gora_cid: "520488"
-summary: "Ewa Beach, Oahu, Hawaii Hawaii Prince Golf Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Hawaii Prince Golf Club 그린피·예약"
-seo_description: "Ewa Beach, Oahu, Hawaii Hawaii Prince Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520488'
+summary: Ewa Beach, Oahu, Hawaii Hawaii Prince Golf Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Hawaii Prince Golf Club 그린피·예약
+seo_description: Ewa Beach, Oahu, Hawaii Hawaii Prince Golf Club 그린피, 공항 접근, 라쿠텐 GORA
+  해외 예약.
 ---
+
 Hawaii Prince Golf Club는 Ewa Beach, Oahu, Hawaii에 있는 골프장입니다. 오아후 서쪽 27홀(나인 3개). 와이키키 호텔 골프보다 방문객 예약이 많은 편입니다.
 
 ## 한눈에

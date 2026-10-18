@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Turtle Bay Resort Palmer Course"
-lat: "21.7060"
-lng: "-157.9980"
-categories: "Championship, Ocean View, Resort"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Kahuku, Oahu, Hawaii"
-date: '2026-09-15'
+title: Turtle Bay Resort Palmer Course
+lat: '21.7060'
+lng: '-157.9980'
+categories: Championship, Ocean View, Resort
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Kahuku, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/turtle_bay_palmer_ko
 country: us
-gora_cid: "520484"
-summary: "Kahuku, Oahu, Hawaii Turtle Bay Resort Palmer Course. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Turtle Bay Resort Palmer Course 그린피·예약"
-seo_description: "Kahuku, Oahu, Hawaii Turtle Bay Resort Palmer Course 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520484'
+summary: Kahuku, Oahu, Hawaii Turtle Bay Resort Palmer Course. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Turtle Bay Resort Palmer Course 그린피·예약
+seo_description: Kahuku, Oahu, Hawaii Turtle Bay Resort Palmer Course 그린피, 공항 접근,
+  라쿠텐 GORA 해외 예약.
 ---
+
 Turtle Bay Resort Palmer Course는 Kahuku, Oahu, Hawaii에 있는 골프장입니다. 오아후 북쇼어 터틀베이의 아놀드 파머 코스. 바다 홀과 바람이 있고, 파지오 코스가 형제 레이아웃입니다.
 
 ## 한눈에

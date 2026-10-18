@@ -1,4 +1,6 @@
 ---
+youtube_id: Qv83P0s2Z4M
+
 lang: ko
 seo_title: 'Keya Golf Club Itoshima: Ocean-View Golf Course | Tee Times & Green Fees'
 seo_description: Discover Keya Golf Club's oceanfront beauty in Itoshima. Book tee

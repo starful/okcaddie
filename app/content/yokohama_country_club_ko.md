@@ -1,5 +1,5 @@
 ---
-youtube_id: 0e0UwJt-VQo
+youtube_id: z4kjgfoAqOo
 
 address: Yokohama, Kanagawa
 booking: /booking/yokohama_country_club_ko

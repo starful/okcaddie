@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Thai Country Club"
-lat: "13.5850"
-lng: "100.6380"
-categories: "Championship, Premium / Luxury, Historic"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Samut Prakan, Thailand"
-date: '2026-09-15'
+title: Thai Country Club
+lat: '13.5850'
+lng: '100.6380'
+categories: Championship, Premium / Luxury, Historic
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Samut Prakan, Thailand
+date: '2026-09-28'
 booking: /booking/thai_country_club_ko
 country: th
-gora_cid: "520405"
-summary: "Samut Prakan, Thailand Thai Country Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Thai Country Club 그린피·예약"
-seo_description: "Samut Prakan, Thailand Thai Country Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520405'
+summary: Samut Prakan, Thailand Thai Country Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Thai Country Club 그린피·예약
+seo_description: Samut Prakan, Thailand Thai Country Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Thai Country Club는 Samut Prakan, Thailand에 있는 골프장입니다. 수완나품 공항과 가까운 페닌슐라 그룹 클럽. 방콕 도착 일정에 본격 라운드를 넣기 쉽습니다.
 
 ## 한눈에

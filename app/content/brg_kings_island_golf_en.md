@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "BRG Kings Island Golf Resort"
-lat: "21.1180"
-lng: "105.3280"
-categories: "Resort, Scenic, Championship"
-thumbnail: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200"
-address: "Hanoi, Vietnam"
-date: '2026-09-15'
+title: BRG Kings Island Golf Resort
+lat: '21.1180'
+lng: '105.3280'
+categories: Resort, Scenic, Championship
+thumbnail: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200
+address: Hanoi, Vietnam
+date: '2026-09-28'
 booking: /booking/brg_kings_island_golf_en
 country: vn
-gora_cid: "520467"
-summary: "BRG Kings Island Golf Resort in Hanoi, Vietnam. Check live tee times on Rakuten GORA overseas."
-seo_title: "BRG Kings Island Golf Resort: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for BRG Kings Island Golf Resort in Hanoi, Vietnam."
+gora_cid: '520467'
+summary: BRG Kings Island Golf Resort in Hanoi, Vietnam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'BRG Kings Island Golf Resort: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for BRG Kings
+  Island Golf Resort in Hanoi, Vietnam.
 ---
+
 BRG Kings Island Golf Resort is in Hanoi, Vietnam. Lake-island resort west of Hanoi (Dong Mo). Mountain-view nines; allow transfer time from the city.
 
 ## Quick facts

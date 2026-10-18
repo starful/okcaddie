@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Tan Son Nhat Golf Course"
-lat: "10.8180"
-lng: "106.6590"
-categories: "Public Tournament, Value for Money, City Course"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Ho Chi Minh City, Vietnam"
-date: '2026-09-15'
+title: Tan Son Nhat Golf Course
+lat: '10.8180'
+lng: '106.6590'
+categories: Public Tournament, Value for Money, City Course
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Ho Chi Minh City, Vietnam
+date: '2026-09-28'
 booking: /booking/tan_son_nhat_golf_ko
 country: vn
-gora_cid: "520462"
-summary: "Ho Chi Minh City, Vietnam Tan Son Nhat Golf Course. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Tan Son Nhat Golf Course 그린피·예약"
-seo_description: "Ho Chi Minh City, Vietnam Tan Son Nhat Golf Course 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520462'
+summary: Ho Chi Minh City, Vietnam Tan Son Nhat Golf Course. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Tan Son Nhat Golf Course 그린피·예약
+seo_description: Ho Chi Minh City, Vietnam Tan Son Nhat Golf Course 그린피, 공항 접근, 라쿠텐
+  GORA 해외 예약.
 ---
+
 Tan Son Nhat Golf Course는 Ho Chi Minh City, Vietnam에 있는 골프장입니다. 탄손녓 공항 옆 퍼블릭 코스. 호치민 시내 체류나 경유 일정에 라운드를 넣기 쉽습니다.
 
 ## 한눈에

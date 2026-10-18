@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Kapolei Golf Course"
-lat: "21.3350"
-lng: "-158.0780"
-categories: "Championship, Public Tournament, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Kapolei, Oahu, Hawaii"
-date: '2026-09-15'
+title: Kapolei Golf Course
+lat: '21.3350'
+lng: '-158.0780'
+categories: Championship, Public Tournament, Scenic
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Kapolei, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/kapolei_golf_course_ko
 country: us
-gora_cid: "520480"
-summary: "Kapolei, Oahu, Hawaii Kapolei Golf Course. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Kapolei Golf Course 그린피·예약"
-seo_description: "Kapolei, Oahu, Hawaii Kapolei Golf Course 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520480'
+summary: Kapolei, Oahu, Hawaii Kapolei Golf Course. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Kapolei Golf Course 그린피·예약
+seo_description: Kapolei, Oahu, Hawaii Kapolei Golf Course 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Kapolei Golf Course는 Kapolei, Oahu, Hawaii에 있는 골프장입니다. 오아후 서쪽 테드 로빈슨 퍼블릭 코스. LPGA·챔피언스 투어 개최지. 방문객은 렌탈 클럽이 일반적입니다.
 
 ## 한눈에

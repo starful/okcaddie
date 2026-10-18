@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Phoenix Country Club (Miyazaki, Japan) | Golf Booking Guide
+title: 'Phoenix Country Club (Miyazaki): Dunlop Phoenix Tournament Venue & Booking'
 lat: '31.9567'
 lng: '131.4692'
 categories: Public Tournament, Stay & Play, Premium / Luxury
@@ -8,16 +8,17 @@ thumbnail: /static/images/phoenix_country_club.jpg
 address: Miyazaki, Miyazaki
 date: '2026-04-15'
 booking: /booking/phoenix_country_club_en
-summary: A comprehensive 9,000-character master guide to Phoenix Country Club, covering
-  strategy, history, and luxury facilities.
-description: An essential guide to playing at Phoenix Country Club in Miyazaki, Japan.
-  Access green fees, tee times, Rakuten GORA booking, and expert golf course tips.
-seo_title: 'Phoenix Country Club Miyazaki: Booking & Green Fees'
-seo_description: Book tee times at Miyazaki's famous Phoenix Country Club. Find green
-  fees, Rakuten GORA booking guides, and expert course tips on OK Caddie.
+summary: Added tournament heritage to title (major search driver). Clarified practical
+  booking value in meta. Removed self-congratulatory language.
+description: Miyazaki's Phoenix Country Club hosts the prestigious Dunlop Phoenix
+  Tournament. Book tee times, check green fees, and plan your round.
+seo_title: 'Phoenix Country Club (Miyazaki): Dunlop Phoenix Tournament Venue & Booking'
+seo_description: Miyazaki's Phoenix Country Club hosts the prestigious Dunlop Phoenix
+  Tournament. Book tee times, check green fees, and plan your round.
 ---
+## Visitor Essentials
 
-
+Phoenix Country Club welcomes resort guests and visitors. The Dunlop Phoenix Tournament, held annually since 1973, has featured champions including Tiger Woods and Jack Nicklaus. Book via Rakuten GORA or the resort directly. Expect championship-length course with moderate-to-challenging conditions. Best season: October-November (tournament period) or spring.
 
 As an elite Japanese golf course rater and a professional senior caddy with two decades of experience navigating the hallowed fairways of this nation, I present to you an unparalleled analysis of Phoenix Country Club. Nestled amidst the idyllic Miyazaki coastline, Phoenix Country Club is not merely a golf course; it is a profound testament to Japanese golf's ambition, an architectural marvel, and a crucible where legends are forged. This review, crafted for the discerning connoisseurs of 'OKCaddie,' will dissect every facet of this legendary club, ensuring you are equipped with the knowledge to truly appreciate and conquer its challenges.
 

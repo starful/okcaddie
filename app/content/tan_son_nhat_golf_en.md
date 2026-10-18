@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Tan Son Nhat Golf Course"
-lat: "10.8180"
-lng: "106.6590"
-categories: "Public Tournament, Value for Money, City Course"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Ho Chi Minh City, Vietnam"
-date: '2026-09-15'
+title: Tan Son Nhat Golf Course
+lat: '10.8180'
+lng: '106.6590'
+categories: Public Tournament, Value for Money, City Course
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Ho Chi Minh City, Vietnam
+date: '2026-09-28'
 booking: /booking/tan_son_nhat_golf_en
 country: vn
-gora_cid: "520462"
-summary: "Tan Son Nhat Golf Course in Ho Chi Minh City, Vietnam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Tan Son Nhat Golf Course: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Tan Son Nhat Golf Course in Ho Chi Minh City, Vietnam."
+gora_cid: '520462'
+summary: Tan Son Nhat Golf Course in Ho Chi Minh City, Vietnam. Check live tee times
+  on Rakuten GORA overseas.
+seo_title: 'Tan Son Nhat Golf Course: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Tan Son
+  Nhat Golf Course in Ho Chi Minh City, Vietnam.
 ---
+
 Tan Son Nhat Golf Course is in Ho Chi Minh City, Vietnam. Public course next to Tan Son Nhat airport. Easy add-on round on a Ho Chi Minh layover or city stay.
 
 ## Quick facts

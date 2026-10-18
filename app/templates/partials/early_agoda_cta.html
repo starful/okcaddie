@@ -1,0 +1,18 @@
+{# Above-the-fold Agoda stay CTA — paired with GORA early booking. #}
+{% if show_agoda_cta and agoda_cta %}
+{% set _lang = active_lang|default(post.lang)|default('en') %}
+<aside class="early-agoda-cta" style="margin: 0 0 28px; padding: 16px 18px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+  <p style="margin: 0; color: #1e3a5f; font-size: 0.95rem; font-weight: 600; line-height: 1.45; flex: 1 1 220px;">
+    {% if _lang == 'ko' %}골프장 주변 숙소는 Agoda에서 비교·예약하세요.{% elif _lang == 'ja' %}コース周辺の宿はAgodaで比較・予約できます。{% else %}Compare and book stays near the course on Agoda.{% endif %}
+  </p>
+  <a href="{{ agoda_cta.click_url }}"
+     target="_blank"
+     rel="nofollow sponsored noopener noreferrer"
+     class="booking-btn early-agoda-cta__btn"
+     data-track="affiliate_a8"
+     data-track-label="agoda-early"
+     style="display: inline-block; padding: 12px 22px; background: #1d4ed8; color: #fff; font-weight: 800; font-size: 0.95rem; border-radius: 999px; text-decoration: none; white-space: nowrap;">
+    {% if _lang == 'ko' %}Agoda에서 숙소 보기{% elif _lang == 'ja' %}Agodaで宿を探す{% else %}Find stays on Agoda{% endif %}
+  </a>
+</aside>
+{% endif %}

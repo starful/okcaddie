@@ -1,19 +1,21 @@
 ---
 lang: ko
-title: "Ko Olina Golf Club"
-lat: "21.3370"
-lng: "-158.1190"
-categories: "Resort, Championship, Premium / Luxury"
-thumbnail: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200"
-address: "Kapolei, Oahu, Hawaii"
-date: '2026-09-15'
+title: Ko Olina Golf Club
+lat: '21.3370'
+lng: '-158.1190'
+categories: Resort, Championship, Premium / Luxury
+thumbnail: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200
+address: Kapolei, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/ko_olina_golf_club_ko
 country: us
-gora_cid: "520483"
-summary: "Kapolei, Oahu, Hawaii Ko Olina Golf Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Ko Olina Golf Club 그린피·예약"
-seo_description: "Kapolei, Oahu, Hawaii Ko Olina Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '520483'
+summary: Kapolei, Oahu, Hawaii Ko Olina Golf Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Ko Olina Golf Club 그린피·예약
+seo_description: Kapolei, Oahu, Hawaii Ko Olina Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
 Ko Olina Golf Club는 Kapolei, Oahu, Hawaii에 있는 골프장입니다. 코올리나 리조트 코스. 인근 호텔 스테이앤플레이가 자연스럽고, LPGA 하와이안 레이디스 개최 이력이 있습니다.
 
 ## 한눈에

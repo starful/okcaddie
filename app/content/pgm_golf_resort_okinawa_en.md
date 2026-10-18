@@ -1,5 +1,5 @@
 ---
-youtube_id: 9wDvMl_zfWc
+youtube_id: QF8gxl0mokA
 
 lang: en
 seo_title: PGM Okinawa Green Fees & Booking

@@ -1,19 +1,25 @@
 ---
 lang: en
-title: "Onward Mangilao Golf Club"
-lat: "13.4470"
-lng: "144.8470"
-categories: "Ocean View, Resort, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Mangilao, Guam"
-date: '2026-09-15'
+title: Onward Mangilao Golf Club
+lat: '13.4470'
+lng: '144.8470'
+categories: Ocean View, Resort, Scenic
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Mangilao, Guam
+date: '2026-09-28'
 booking: /booking/onward_mangilao_golf_en
 country: gu
-gora_cid: "510003"
-summary: "Onward Mangilao Golf Club in Mangilao, Guam. Check live tee times on Rakuten GORA overseas."
-seo_title: "Onward Mangilao Golf Club: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Onward Mangilao Golf Club in Mangilao, Guam."
+gora_cid: '510003'
+summary: Onward Mangilao Golf Club in Mangilao, Guam. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Onward Mangilao Golf Club: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Onward
+  Mangilao Golf Club in Mangilao, Guam.
 ---
+
+
+
+
 Onward Mangilao Golf Club is in Mangilao, Guam. East-coast Guam course looking over the Pacific. Resort-style cart golf; trade winds matter on exposed holes.
 
 ## Quick facts

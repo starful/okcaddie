@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Turtle Bay Resort Palmer Course"
-lat: "21.7060"
-lng: "-157.9980"
-categories: "Championship, Ocean View, Resort"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Kahuku, Oahu, Hawaii"
-date: '2026-09-15'
+title: Turtle Bay Resort Palmer Course
+lat: '21.7060'
+lng: '-157.9980'
+categories: Championship, Ocean View, Resort
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+address: Kahuku, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/turtle_bay_palmer_en
 country: us
-gora_cid: "520484"
-summary: "Turtle Bay Resort Palmer Course in Kahuku, Oahu, Hawaii. Check live tee times on Rakuten GORA overseas."
-seo_title: "Turtle Bay Resort Palmer Course: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Turtle Bay Resort Palmer Course in Kahuku, Oahu, Hawaii."
+gora_cid: '520484'
+summary: Turtle Bay Resort Palmer Course in Kahuku, Oahu, Hawaii. Check live tee times
+  on Rakuten GORA overseas.
+seo_title: 'Turtle Bay Resort Palmer Course: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Turtle
+  Bay Resort Palmer Course in Kahuku, Oahu, Hawaii.
 ---
+
 Turtle Bay Resort Palmer Course is in Kahuku, Oahu, Hawaii. Arnold Palmer course at Turtle Bay on Oahu's North Shore. Ocean holes and wind; the Fazio course is the sister layout.
 
 ## Quick facts

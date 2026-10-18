@@ -1,19 +1,22 @@
 ---
 lang: en
-title: "Kapolei Golf Course"
-lat: "21.3350"
-lng: "-158.0780"
-categories: "Championship, Public Tournament, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Kapolei, Oahu, Hawaii"
-date: '2026-09-15'
+title: Kapolei Golf Course
+lat: '21.3350'
+lng: '-158.0780'
+categories: Championship, Public Tournament, Scenic
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Kapolei, Oahu, Hawaii
+date: '2026-09-28'
 booking: /booking/kapolei_golf_course_en
 country: us
-gora_cid: "520480"
-summary: "Kapolei Golf Course in Kapolei, Oahu, Hawaii. Check live tee times on Rakuten GORA overseas."
-seo_title: "Kapolei Golf Course: Fees & Booking"
-seo_description: "Green fees, access, and Rakuten GORA overseas booking for Kapolei Golf Course in Kapolei, Oahu, Hawaii."
+gora_cid: '520480'
+summary: Kapolei Golf Course in Kapolei, Oahu, Hawaii. Check live tee times on Rakuten
+  GORA overseas.
+seo_title: 'Kapolei Golf Course: Fees & Booking'
+seo_description: Green fees, access, and Rakuten GORA overseas booking for Kapolei
+  Golf Course in Kapolei, Oahu, Hawaii.
 ---
+
 Kapolei Golf Course is in Kapolei, Oahu, Hawaii. Ted Robinson public course in West Oahu. Former LPGA / Champions Tour host. Rental clubs are standard for visitors.
 
 ## Quick facts

@@ -97,6 +97,8 @@ def test_course_ko_keeps_gora_and_one_partner_box(client):
     assert "라쿠텐에서 골프 예약하기" in html
     assert "a8-banners" in html
     assert "Agoda — 골프장 주변 숙소" in html
+    assert "agoda-early" in html
+    assert "Agoda에서 숙소 보기" in html
     assert "라쿠텐 eSIM" in html
     assert "라쿠텐 트래블" not in html
     assert "agoda.com/partners/partnersearch.aspx" in html

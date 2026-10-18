@@ -1,19 +1,24 @@
 ---
 lang: ko
-title: "Onward Mangilao Golf Club"
-lat: "13.4470"
-lng: "144.8470"
-categories: "Ocean View, Resort, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200"
-address: "Mangilao, Guam"
-date: '2026-09-15'
+title: Onward Mangilao Golf Club
+lat: '13.4470'
+lng: '144.8470'
+categories: Ocean View, Resort, Scenic
+thumbnail: https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1200
+address: Mangilao, Guam
+date: '2026-09-28'
 booking: /booking/onward_mangilao_golf_ko
 country: gu
-gora_cid: "510003"
-summary: "Mangilao, Guam Onward Mangilao Golf Club. 라쿠텐 GORA 해외에서 티타임 확인."
-seo_title: "Onward Mangilao Golf Club 그린피·예약"
-seo_description: "Mangilao, Guam Onward Mangilao Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약."
+gora_cid: '510003'
+summary: Mangilao, Guam Onward Mangilao Golf Club. 라쿠텐 GORA 해외에서 티타임 확인.
+seo_title: Onward Mangilao Golf Club 그린피·예약
+seo_description: Mangilao, Guam Onward Mangilao Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외
+  예약.
 ---
+
+
+
+
 Onward Mangilao Golf Club는 Mangilao, Guam에 있는 골프장입니다. 괌 동해안에서 태평양이 보이는 리조트 코스. 카트 플레이가 기본이고, 바람 부는 홀은 클럽 선택이 갈립니다.
 
 ## 한눈에
