@@ -1,19 +1,21 @@
 ---
-lang: ja
-title: "Onward Talofofo Golf Club"
-lat: "13.3380"
-lng: "144.7590"
-categories: "Championship, Ocean View, Scenic"
-thumbnail: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200"
-address: "Talofofo, Guam"
-date: '2026-09-15'
+address: Talofofo, Guam
 booking: /booking/onward_talofofo_golf_ja
+categories: Championship, Ocean View, Scenic
 country: gu
-gora_cid: "520058"
-summary: "Talofofo, GuamのOnward Talofofo Golf Club。楽天GORA海外でティータイム確認。"
-seo_title: "Onward Talofofo Golf Club グリーンフィー・予約"
-seo_description: "Talofofo, Guam Onward Talofofo Golf Clubのグリーンフィー、空港アクセス、楽天GORA海外予約。"
+date: '2026-09-15'
+description: Onward Talofofo Golf Club green fees, airport access, and Rakuten GORA overseas booking in Talofofo, Guam.
+gora_cid: '520058'
+lang: ja
+lat: '13.3380'
+lng: '144.7590'
+seo_description: Talofofo, Guam Onward Talofofo Golf Clubのグリーンフィー、空港アクセス、楽天GORA海外予約。
+seo_title: Onward Talofofo Golf Club グリーンフィー・予約
+summary: Talofofo, GuamのOnward Talofofo Golf Club。楽天GORA海外でティータイム確認。
+thumbnail: https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=1200
+title: Onward Talofofo Golf Club
 ---
+
 Onward Talofofo Golf ClubはTalofofo, Guamにあるゴルフ場です。グアム南部の丘陵コース。太平洋の眺望があり、マンギラオより露出が多くフェアウェイが締まった印象です。
 
 ## ひと目で

@@ -51,9 +51,10 @@
     <!-- [SEO] Canonical 및 다국어 연결 (Hreflang) -->
     <link rel="canonical" href="{{ guide_canonical }}">
     {% set base_id = post.base_id %}
-    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}?lang=ko" />
-    <link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/{{ base_id }}?lang=ja" />
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}" />
+    {# Only advertise langs that have real guide content — must match sitemap-guides.xml #}
+    {% if 'ko' in (available_langs or []) %}<link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/{{ base_id }}?lang=ko" />{% endif %}
+    {% if 'ja' in (available_langs or []) %}<link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/{{ base_id }}?lang=ja" />{% endif %}
+    {% if 'en' in (available_langs or []) %}<link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/{{ base_id }}" />{% endif %}
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/{{ base_id }}" />
 
     <!-- [SEO] JSON-LD 구조화 데이터 (Article + Breadcrumb) -->

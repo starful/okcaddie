@@ -35,6 +35,7 @@ try:
     )
     from ..family_sites import cross_links_for, inject_family_context
     from ..ids import (
+        available_course_langs,
         extract_prefecture,
         guide_href,
         lang_from_course_id,
@@ -81,6 +82,7 @@ except ImportError:
     )
     from family_sites import cross_links_for, inject_family_context
     from ids import (
+        available_course_langs,
         extract_prefecture,
         guide_href,
         lang_from_course_id,
@@ -323,6 +325,7 @@ def course_detail(course_ref):
         post=post_data,
         content=content_html,
         active_lang=post_data["lang"],
+        available_langs=available_course_langs(base_id),
         related_courses=related_courses,
         related_guides=related_guides,
         cross_site_links=cross_links_for(

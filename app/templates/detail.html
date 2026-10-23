@@ -47,9 +47,10 @@
     <!-- [SEO] 중복 콘텐츠 방지 및 언어 연결 -->
     <link rel="canonical" href="{{ course_canonical }}">
     {% set base_id = post.base_id %}
-    <link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />
-    <link rel="alternate" hreflang="ja" href="https://okcaddie.net/course/{{ base_id }}?lang=ja" />
-    <link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}" />
+    {# Only advertise langs that have real course content — must match sitemap-courses.xml #}
+    {% if 'ko' in (available_langs or []) %}<link rel="alternate" hreflang="ko" href="https://okcaddie.net/course/{{ base_id }}?lang=ko" />{% endif %}
+    {% if 'ja' in (available_langs or []) %}<link rel="alternate" hreflang="ja" href="https://okcaddie.net/course/{{ base_id }}?lang=ja" />{% endif %}
+    {% if 'en' in (available_langs or []) %}<link rel="alternate" hreflang="en" href="https://okcaddie.net/course/{{ base_id }}" />{% endif %}
     <link rel="alternate" hreflang="x-default" href="https://okcaddie.net/course/{{ base_id }}" />
     {% set has_geo = post.lat and post.lng %}
     {% if is_ja %}
