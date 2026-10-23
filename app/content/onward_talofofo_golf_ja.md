@@ -4,7 +4,7 @@ booking: /booking/onward_talofofo_golf_ja
 categories: Championship, Ocean View, Scenic
 country: gu
 date: '2026-09-15'
-description: Talofofo, Guam Onward Talofofo Golf Club 그린피, 공항 접근, 라쿠텐 GORA 해외 예약.
+description: Onward Talofofo Golf Club green fees, airport access, and Rakuten GORA overseas booking in Talofofo, Guam.
 gora_cid: '520058'
 lang: ja
 lat: '13.3380'
