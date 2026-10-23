@@ -2,7 +2,7 @@
 date: '2026-10-23'
 lang: ja
 summary: 日本のゴルフ場で恥をかかないための服装・マナー・予約の実践チェックリスト。初回ラウンド前にこれだけ確認すればよい。
-title: Golf Etiquette and Dress Code Guide for Beginners in Japan
+title: 初心者のための日本ゴルフマナー・服装ガイド
 ---
 
 ## クイックファクト

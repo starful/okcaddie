@@ -2,7 +2,7 @@
 date: '2026-10-23'
 lang: ja
 summary: 日本のゴルフ場予約の手順、費用の目安、よくある失敗をまとめた、旅行者がすぐ使える実践ガイド。
-title: Guide to Booking Japanese Golf Courses
+title: 日本のゴルフ場予約ガイド
 ---
 
 ## クイックファクト
