@@ -107,6 +107,12 @@ except ImportError:
 
 courses_bp = Blueprint("courses", __name__)
 
+# In-memory /api/courses cache, keyed by lang. Invalidated whenever
+# CACHED_DATA's last_updated changes (mirrors data_loader's mtime check).
+_API_COURSES_CACHE: dict[str, list] = {}
+_API_COURSES_CACHE_LAST_UPDATED: object = None
+_API_COURSES_CACHE_MAX_AGE = 300
+
 
 def _related_guides_for_course(base_id: str, lang: str, limit: int = 3) -> list[dict]:
     """Prefer COURSE_RELATED_GUIDES mapping; fall back to same-lang guides."""
@@ -141,33 +147,44 @@ def _related_guides_for_course(base_id: str, lang: str, limit: int = 3) -> list[
 
 @courses_bp.route("/api/courses")
 def api_courses():
+    global _API_COURSES_CACHE_LAST_UPDATED
     ensure_course_cache()
     lang = request.args.get("lang", "en")
-    filtered = []
-    for c in CACHED_DATA.get("courses", []):
-        if c.get("lang") == lang:
-            temp = enrich_item(public_course(c))
-            temp["lang"] = lang
-            temp["title"] = humanize_title(temp.get("title", ""))
-            temp["summary"] = clean_summary(temp.get("summary", ""), temp["title"], lang)
-            filtered.append(temp)
-    if not filtered:
-        filtered = [
-            enrich_item(
-                {
-                    **public_course(c),
-                    "title": humanize_title(c.get("title", "")),
-                    "summary": clean_summary(
-                        c.get("summary", ""),
-                        humanize_title(c.get("title", "")),
-                        c.get("lang", "en"),
-                    ),
-                }
-            )
-            for c in CACHED_DATA.get("courses", [])
-        ]
-    response = jsonify({"last_updated": CACHED_DATA.get("last_updated"), "courses": filtered})
+    last_updated = CACHED_DATA.get("last_updated")
+    if last_updated != _API_COURSES_CACHE_LAST_UPDATED:
+        _API_COURSES_CACHE.clear()
+        _API_COURSES_CACHE_LAST_UPDATED = last_updated
+
+    filtered = _API_COURSES_CACHE.get(lang)
+    if filtered is None:
+        filtered = []
+        for c in CACHED_DATA.get("courses", []):
+            if c.get("lang") == lang:
+                temp = enrich_item(public_course(c))
+                temp["lang"] = lang
+                temp["title"] = humanize_title(temp.get("title", ""))
+                temp["summary"] = clean_summary(temp.get("summary", ""), temp["title"], lang)
+                filtered.append(temp)
+        if not filtered:
+            filtered = [
+                enrich_item(
+                    {
+                        **public_course(c),
+                        "title": humanize_title(c.get("title", "")),
+                        "summary": clean_summary(
+                            c.get("summary", ""),
+                            humanize_title(c.get("title", "")),
+                            c.get("lang", "en"),
+                        ),
+                    }
+                )
+                for c in CACHED_DATA.get("courses", [])
+            ]
+        _API_COURSES_CACHE[lang] = filtered
+
+    response = jsonify({"last_updated": last_updated, "courses": filtered})
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    response.headers["Cache-Control"] = f"public, max-age={_API_COURSES_CACHE_MAX_AGE}"
     return response
 
 

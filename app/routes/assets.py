@@ -18,6 +18,8 @@ except ImportError:
 
 assets_bp = Blueprint("assets", __name__)
 
+IMAGE_CACHE_MAX_AGE = 86400
+
 
 @assets_bp.route("/favicon.ico")
 @assets_bp.route("/favicon-32x32.png")
@@ -81,11 +83,13 @@ def serve_images(filename):
     if any(x in filename for x in ["favicon", "apple-touch"]):
         local_path = os.path.join(images_root, filename)
         if os.path.isfile(local_path):
-            return send_from_directory(images_root, filename)
+            return send_from_directory(images_root, filename, max_age=IMAGE_CACHE_MAX_AGE)
     url = f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}"
     if request.query_string:
         url = f"{url}?{request.query_string.decode()}"
-    return redirect(url, code=302)
+    response = redirect(url, code=302)
+    response.headers["Cache-Control"] = f"public, max-age={IMAGE_CACHE_MAX_AGE}"
+    return response
 
 
 @assets_bp.route("/robots.txt")
