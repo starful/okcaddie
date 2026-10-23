@@ -18,7 +18,7 @@ try:
     from ..data_loader import CACHED_GUIDES
     from ..family_sites import cross_links_for, inject_family_context
     from ..guide_content import guide_image_url, load_guide_post
-    from ..ids import guide_href, resolve_guide_id, split_localized_id
+    from ..ids import available_guide_langs, guide_href, resolve_guide_id, split_localized_id
     from ..paths import GUIDE_DIR
     from ..text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from ..a8_affiliate import a8_banners_context
@@ -33,7 +33,7 @@ except ImportError:
     from data_loader import CACHED_GUIDES
     from family_sites import cross_links_for, inject_family_context
     from guide_content import guide_image_url, load_guide_post
-    from ids import guide_href, resolve_guide_id, split_localized_id
+    from ids import available_guide_langs, guide_href, resolve_guide_id, split_localized_id
     from paths import GUIDE_DIR
     from text_utils import clean_summary, humanize_title, short_summary, strip_llm_selfcheck
     from a8_affiliate import a8_banners_context
@@ -115,6 +115,7 @@ def guide_detail(guide_ref):
         content=html_content,
         image=img_url,
         active_lang=post_data["lang"],
+        available_langs=available_guide_langs(base_id),
         related_courses=related_courses,
         og_image_abs=img_url,
         og_image_width=1200,

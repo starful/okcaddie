@@ -1,16 +1,20 @@
 ---
+address: Takarazuka, Hyogo
+booking: /booking/takarazuka_golf_club_ko
+categories: Private Club, Historic, Forest Course
+date: '2026-06-27'
+description: Takarazuka Golf Club, a historic private forest course in Hyogo, offers
+  36 holes of traditional Japanese golf near Osaka.
+lang: ko
+lat: '34.7944'
+lng: '135.3556'
+seo_description: 효고 타카라즈카 골프. 1926년 창설 일본 역사 명문 사설장. 이스트·웨스트 각 18홀 파72 정통 숲 코스. 오사카
+  인근.
+seo_title: 타카라즈카 골프 클럽 | 1926년 창설 일본 명문 36홀 (오사카)
+summary: 효고현 다카라즈카 골프 클럽은 1926년 개장한 유서 깊은 산림 코스로, 전략적인 플레이와 정교한 샷을 요구합니다.
+thumbnail: /static/images/takarazuka_golf_club.jpg
+title: Takarazuka Golf Club
 youtube_id: IzJRn4_Qsb0
-
-lang: "ko"
-title: "Takarazuka Golf Club"
-lat: "34.7944"
-lng: "135.3556"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/takarazuka_golf_club.jpg"
-address: "Takarazuka, Hyogo"
-date: "2026-06-27"
-booking: "/booking/takarazuka_golf_club_ko"
-summary: "효고현 다카라즈카 골프 클럽은 1926년 개장한 유서 깊은 산림 코스로, 전략적인 플레이와 정교한 샷을 요구합니다."
 ---
 
 ## Course Overview

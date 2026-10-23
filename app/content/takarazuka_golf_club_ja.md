@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "Takarazuka Golf Club"
-lat: "34.7944"
-lng: "135.3556"
-categories: "Private Club, Historic, Forest Course"
-thumbnail: "/static/images/takarazuka_golf_club.jpg"
-address: "Takarazuka, Hyogo"
-date: "2026-09-19"
-booking: "/booking/takarazuka_golf_club_ja"
-summary: "兵庫県宝塚市にある歴史ある会員制の林間コース。ビジター利用は紹介や特定の枠に限られるため、事前確認と予約導線の把握が重要。"
-seo_title: "宝塚ゴルフ倶楽部 料金・アクセス・予約ガイド"
-seo_description: "宝塚ゴルフ倶楽部(兵庫県宝塚市)の料金目安、アクセス、ビジター利用の実態をまとめた実践ガイド。予約前に知っておきたいポイントを解説。"
+address: Takarazuka, Hyogo
+booking: /booking/takarazuka_golf_club_ja
+categories: Private Club, Historic, Forest Course
+date: '2026-09-19'
+description: Takarazuka Golf Club, a historic private forest course in Hyogo, offers
+  36 holes of traditional Japanese golf near Osaka.
+lang: ja
+lat: '34.7944'
+lng: '135.3556'
+seo_description: 宝塚ゴルフ倶楽部(兵庫県宝塚市)の料金目安、アクセス、ビジター利用の実態をまとめた実践ガイド。予約前に知っておきたいポイントを解説。
+seo_title: 宝塚ゴルフ倶楽部 料金・アクセス・予約ガイド
+summary: 兵庫県宝塚市にある歴史ある会員制の林間コース。ビジター利用は紹介や特定の枠に限られるため、事前確認と予約導線の把握が重要。
+thumbnail: /static/images/takarazuka_golf_club.jpg
+title: Takarazuka Golf Club
 ---
 
 ## クイックファクト

@@ -108,6 +108,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/beginner-etiquette-jp?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/beginner-etiquette-jp" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/beginner-etiquette-jp?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/beginner-etiquette-jp" />
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/golf-trolley-experience?lang=ja</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-trolley-experience" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-trolley-experience?lang=ko" />
@@ -509,6 +518,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/seasonal-courses</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/seasonal-courses" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/seasonal-courses?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/seasonal-courses" />
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/winter-discount-packages?lang=ja</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/winter-discount-packages" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/winter-discount-packages?lang=ko" />
@@ -717,6 +735,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/japan-golf-booking-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/japan-golf-booking-guide" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/japan-golf-booking-guide?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/japan-golf-booking-guide" />
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/narita-airport-golf</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/narita-airport-golf" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/narita-airport-golf?lang=ko" />
@@ -890,6 +917,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/ibaraki-hidden-gems?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/ibaraki-hidden-gems" />
     <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/beginner-etiquette-jp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/beginner-etiquette-jp" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/beginner-etiquette-jp?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/beginner-etiquette-jp" />
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1273,6 +1309,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/seasonal-courses?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/seasonal-courses" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/seasonal-courses?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/seasonal-courses" />
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/snow-country-golf-onsen?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/snow-country-golf-onsen" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/snow-country-golf-onsen?lang=ko" />
@@ -1426,6 +1471,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/beginner-friendly-courses?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/beginner-friendly-courses" />
     <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/japan-golf-booking-guide?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/japan-golf-booking-guide" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/japan-golf-booking-guide?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/japan-golf-booking-guide" />
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

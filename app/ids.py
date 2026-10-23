@@ -58,6 +58,24 @@ def resolve_guide_id(base_id, lang):
     return None
 
 
+def available_course_langs(base_id):
+    """Langs with real course markdown — matches sitemap-courses.xml alternates."""
+    return [
+        lang
+        for lang in ("en", "ko", "ja")
+        if os.path.exists(os.path.join(CONTENT_DIR, f"{base_id}_{lang}.md"))
+    ]
+
+
+def available_guide_langs(base_id):
+    """Langs with real guide markdown — matches sitemap-guides.xml alternates."""
+    return [
+        lang
+        for lang in ("en", "ko", "ja")
+        if os.path.exists(os.path.join(GUIDE_DIR, f"{base_id}_{lang}.md"))
+    ]
+
+
 def course_href(base_id, lang):
     if lang == "ko":
         return f"/course/{base_id}?lang=ko"

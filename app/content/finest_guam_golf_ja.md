@@ -1,19 +1,22 @@
 ---
-lang: ja
-title: "Finest Guam Golf & Resort"
-lat: "13.5180"
-lng: "144.8360"
-categories: "Resort, Public Tournament, Value for Money"
-thumbnail: "https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200"
-address: "Dededo, Guam"
-date: '2026-09-15'
+address: Dededo, Guam
 booking: /booking/finest_guam_golf_ja
+categories: Resort, Public Tournament, Value for Money
 country: gu
-gora_cid: "520698"
-summary: "Dededo, GuamのFinest Guam Golf & Resort。楽天GORA海外でティータイム確認。"
-seo_title: "Finest Guam Golf & Resort グリーンフィー・予約"
-seo_description: "Dededo, Guam Finest Guam Golf & Resortのグリーンフィー、空港アクセス、楽天GORA海外予約。"
+date: '2026-09-15'
+description: Green fees, access, and Rakuten GORA overseas booking for Finest Guam
+  Golf & Resort in Dededo, Guam.
+gora_cid: '520698'
+lang: ja
+lat: '13.5180'
+lng: '144.8360'
+seo_description: Dededo, Guam Finest Guam Golf & Resortのグリーンフィー、空港アクセス、楽天GORA海外予約。
+seo_title: Finest Guam Golf & Resort グリーンフィー・予約
+summary: Dededo, GuamのFinest Guam Golf & Resort。楽天GORA海外でティータイム確認。
+thumbnail: https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=1200
+title: Finest Guam Golf & Resort
 ---
+
 Finest Guam Golf & ResortはDededo, Guamにあるゴルフ場です。グアム北部デデド。トゥモンのホテル街から近く、旧スターツ・グアム・ゴルフ・リゾートです。
 
 ## ひと目で
