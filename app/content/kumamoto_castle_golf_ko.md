@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Kumamoto Castle Golf"
-lat: "32.7544"
-lng: "130.7556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kumamoto_castle_golf.jpg"
-address: "Kumamoto, Kumamoto"
-date: "2026-06-27"
-booking: "/booking/kumamoto_castle_golf_ko"
-summary: "구마모토성 골프는 구마모토 시내에서 접근성이 좋은 18홀 산악 코스로, 합리적인 비용으로 경치 좋은 라운딩을 즐길 수 있습니다."
+lang: ko
+title: Kumamoto Castle Golf
+lat: '32.7544'
+lng: '130.7556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kumamoto_castle_golf.jpg
+address: Kumamoto, Kumamoto
+date: '2026-10-27'
+booking: /booking/kumamoto_castle_golf_ko
+summary: 구마모토성 골프는 구마모토 시내에서 접근성이 좋은 18홀 산악 코스로, 합리적인 비용으로 경치 좋은 라운딩을 즐길 수 있습니다.
 ---
+
 
 ## 코스 개요
 

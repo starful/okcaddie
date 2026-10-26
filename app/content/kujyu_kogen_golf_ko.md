@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Kujyu Kogen Golf"
-lat: "33.0544"
-lng: "131.2556"
-categories: "Mountain Style, Scenic View, High Altitude"
-thumbnail: "/static/images/kujyu_kogen_golf.jpg"
-address: "Taketa, Oita"
-date: "2026-06-27"
-booking: "/booking/kujyu_kogen_golf_ko"
-summary: "오이타 다케타에 위치한 쿠쥬 고원 골프는 해발 800m 고지에 자리하여 계절별로 다른 고원 풍경과 전략적인 산악 코스 경험을 제공합니다."
+lang: ko
+title: Kujyu Kogen Golf
+lat: '33.0544'
+lng: '131.2556'
+categories: Mountain Style, Scenic View, High Altitude
+thumbnail: /static/images/kujyu_kogen_golf.jpg
+address: Taketa, Oita
+date: '2026-10-27'
+booking: /booking/kujyu_kogen_golf_ko
+summary: 오이타 다케타에 위치한 쿠쥬 고원 골프는 해발 800m 고지에 자리하여 계절별로 다른 고원 풍경과 전략적인 산악 코스 경험을 제공합니다.
 ---
+
 
 ## Course Overview
 쿠쥬 고원 골프는 1974년에 개장하여 규슈 오이타현 다케타시에 위치한 유서 깊은 산악 코스입니다. 총 18홀, 파 72로 구성되어 있으며, 레귤러 티 기준 약 6,300~6,800야드의 전장을 자랑합니다. 이 코스는 해발 800미터 고원에 자리하고 있어 여름에는 시원하고 쾌적한 라운딩을, 가을에는 단풍으로 물든 고원 특유의 수려한 경관을 만끽할 수 있습니다. 자연 지형을 최대한 보존하고 활용하여 설계되었으며, 벤트그라스 그린과 중지(Zoysia) 페어웨이가 조화를 이루어 골퍼들에게 전략적이면서도 아름다운 경험을 제공합니다. 높은 고도 덕분에 공이 평지보다 약 5~10% 더 날아가므로 클럽 선택에 신중을 기해야 하며, 변화무쌍한 고도 변화와 각 홀마다 다른 전략을 요구하는 레이아웃이 이 코스의 주요 특징입니다. 전체적으로 정교한 샷과 코스 매니지먼트 능력이 중요시되는 도전적인 산악형 코스입니다.
