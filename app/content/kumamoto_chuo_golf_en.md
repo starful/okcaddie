@@ -6,7 +6,7 @@ lng: '130.8556'
 categories: Value for Money, Forest Course, Championship
 thumbnail: /static/images/kumamoto_chuo_golf.jpg
 address: Kikuyo, Kumamoto
-date: '2026-10-27'
+date: '2026-06-27'
 booking: /booking/kumamoto_chuo_golf_en
 summary: Kumamoto Chuo Golf in Kikuyo offers a challenging forest layout with competitive
   green fees, making it a strong value proposition for golfers visiting central Kyushu.

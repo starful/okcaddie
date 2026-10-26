@@ -6,7 +6,7 @@ lng: '131.2556'
 categories: Mountain Style, Scenic View, High Altitude
 thumbnail: /static/images/kujyu_kogen_golf.jpg
 address: Taketa, Oita
-date: '2026-10-27'
+date: '2026-06-27'
 booking: /booking/kujyu_kogen_golf_en
 summary: Kujyu Kogen Golf offers a mountain-style 18-hole layout in Oita, Japan, featuring
   dramatic elevation changes and panoramic views of the Kujyu mountain range.

@@ -6,7 +6,7 @@ lng: '131.2556'
 categories: Mountain Style, Scenic View, High Altitude
 thumbnail: /static/images/kujyu_kogen_golf.jpg
 address: Taketa, Oita
-date: '2026-10-27'
+date: '2026-06-27'
 booking: /booking/kujyu_kogen_golf_ko
 summary: 오이타 다케타에 위치한 쿠쥬 고원 골프는 해발 800m 고지에 자리하여 계절별로 다른 고원 풍경과 전략적인 산악 코스 경험을 제공합니다.
 ---
