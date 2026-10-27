@@ -13,18 +13,13 @@ seo_description: 'Japan''s #1-ranked course requires member sponsorship. Discove
   pathways to get invited, master strict etiquette, dress codes, and championship
   play tips.'
 seo_title: 'Hirono Golf Club (Japan''s #1): How to Get Invited + Member Sponsorship'
-summary: Added English quick-start section to improve accessibility for non-Korean-speaking
-  golfers seeking member sponsorship guidance.
+summary: 일본 랭킹 1위 히로노 골프 클럽에 초청받는 방법과 회원 동반 예약, 엄격한 에티켓과 드레스코드, 전략 공략 팁을 담은 가이드.
 thumbnail: /static/images/hirono_golf_club.jpg
 title: 'Hirono Golf Club (Japan''s #1): How to Get Invited + Member Sponsorship'
 ---
 ## English Quick Start
 
 Hirono Golf Club (Japan's #1-ranked course) requires member sponsorship—no public booking. Most visitors are invited by Japanese business contacts or existing members. Expect ultra-strict dress code, quiet pace of play, and championship conditions. Designed by Charles Hugh Alison in 1932. Plan approximately 6 hours for your round.
-
-히로노 골프 클럽은 일본 골프 코스 순위에서 부동의 1위를 지켜온, 회원 동반 없이는 밟을 수 없는 폐쇄형 성지입니다. '나도 가능할까?'라는 궁금증에 답하기 위해, 실제 방문객 경로로 검증된 초청 확보 방법과 예약 절차, 라운드 전 반드시 알아야 할 에티켓까지 이 가이드 하나에 정리했습니다.
-
-히로노 골프 클럽은 회원 동반 없이는 라운드가 불가능한 폐쇄형 명문 코스입니다. 이 가이드는 방문 자격, 예약 경로, 동반자 정책, 그리고 라운드 전 알아야 할 에티켓을 실제 방문객 관점에서 정리했습니다.
 
 일본 골프 코스의 심장부를 탐험하는 여정에서, 효고현의 미키시에 자리한 히로노 골프 클럽(Hirono Golf Club)은 단순한 골프장을 넘어선 '성지'로 자리매김하고 있습니다. 저는 지난 20년간 일본 최고의 코스들을 누비며 골프를 넘어선 예술과 철학을 읽어온 베테랑 캐디이자 골프 코스 평가자로서, 이 히로노 골프 클럽에 대한 깊이 있는 분석과 찬사를 여러분께 바칩니다. 'OKCaddie' 독자 여러분이 최고의 골프 경험을 준비하는 데 있어, 이 가이드가 나침반이 되어줄 것이라 확신합니다.
 
