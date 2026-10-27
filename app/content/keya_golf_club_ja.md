@@ -4,17 +4,18 @@ booking: /booking/keya_golf_club_ja
 categories: Public Tournament, Premium / Luxury, Ocean View
 date: '2026-09-17'
 description: 'Keya Golf Club in Itoshima, Fukuoka: oceanfront golf near Fukuoka Airport.
-  Check green fees, tee times, course layout, dress code & access tips.'
+  Green fees, course layout, dress code & booking tips.'
 lang: ja
 lat: '33.6044'
 lng: '130.1356'
 seo_description: 'Keya Golf Club in Itoshima, Fukuoka: oceanfront golf near Fukuoka
-  Airport. Check green fees, tee times, course layout, dress code & access tips.'
-seo_title: 'Keya Golf Club Itoshima: Ocean-View Course, Tee Times & Fees'
-summary: 福岡・糸島の海を望む本格コース。風の影響を受けやすいレイアウトのため、訪問前の準備ヒントを追記。料金は季節変動あり、予約は事前に空き状況を確認するのが安心。
+  Airport. Green fees, course layout, dress code & booking tips.'
+seo_title: 'Keya Golf Club Itoshima: Oceanfront Course, Green Fees & Booking'
+summary: 福岡糸島の海景ゴルフコース。グリーンフィー、難易度、予約方法を解説。
 thumbnail: /static/images/keya_golf_club.jpg
-title: 'Keya Golf Club Itoshima: Ocean-View Course, Tee Times & Fees'
+title: 'Keya Golf Club Itoshima: Oceanfront Course, Green Fees & Booking'
 ---
+
 
 
 
