@@ -1,8 +1,7 @@
 ---
 date: '2026-04-12'
 lang: ko
-summary: Strengthened title with direct recommendation ('강추') and season-specific
-  benefits to boost CTR among winter golfers.
+summary: 겨울 골프 최적지 규슈 추천 5곳과 온화한 기후, 온천, 미식, 가성비까지 아우르는 완벽한 겨울 라운딩 가이드.
 title: '겨울 골프 강추: 규슈 TOP 5 골프장 + 온천, 미식, 가성비 완벽 가이드'
 description: 겨울 골프 최적지 규슈의 명문 코스 5곳. 따뜻한 기후, 온천, 미식, 합리적 가격의 완벽한 겨울 라운딩 패키지.
 seo_title: '겨울 골프 강추: 규슈 TOP 5 골프장 + 온천, 미식, 가성비 완벽 가이드'

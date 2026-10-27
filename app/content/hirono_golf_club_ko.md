@@ -22,10 +22,6 @@ title: 'Hirono Golf Club (Japan''s #1): How to Get Invited + Member Sponsorship'
 
 Hirono Golf Club (Japan's #1-ranked course) requires member sponsorship—no public booking. Most visitors are invited by Japanese business contacts or existing members. Expect ultra-strict dress code, quiet pace of play, and championship conditions. Designed by Charles Hugh Alison in 1932. Plan approximately 6 hours for your round.
 
-## English Quick Start
-
-Hirono Golf Club (Japan's #1-ranked course) requires member sponsorship—no public booking. Most visitors are invited by Japanese business contacts or existing members. Expect ultra-strict dress code, quiet pace of play, and championship conditions. Designed by Charles Hugh Alison in 1932. Plan approximately 6 hours for your round.
-
 히로노 골프 클럽은 일본 골프 코스 순위에서 부동의 1위를 지켜온, 회원 동반 없이는 밟을 수 없는 폐쇄형 성지입니다. '나도 가능할까?'라는 궁금증에 답하기 위해, 실제 방문객 경로로 검증된 초청 확보 방법과 예약 절차, 라운드 전 반드시 알아야 할 에티켓까지 이 가이드 하나에 정리했습니다.
 
 히로노 골프 클럽은 회원 동반 없이는 라운드가 불가능한 폐쇄형 명문 코스입니다. 이 가이드는 방문 자격, 예약 경로, 동반자 정책, 그리고 라운드 전 알아야 할 에티켓을 실제 방문객 관점에서 정리했습니다.
@@ -129,7 +125,7 @@ Hirono Golf Club (Japan's #1-ranked course) requires member sponsorship—no pub
 
 2.  **카이세키 도시락 (会席弁当):** 점심 식사로는 전통적인 카이세키 요리의 정수를 담은 도시락을 추천합니다. 작고 아름다운 그릇에 담긴 다양한 제철 요리들은 눈으로 먼저 즐거움을 선사합니다. 사시미, 튀김, 조림, 구이, 그리고 밥과 국물 요리까지, 일본 요리의 섬세함과 다채로움을 한 번에 경험할 수 있습니다. 각 요리마다 신선한 재료 본연의 맛을 최대한 살리면서도, 정교한 조리법으로 깊은 풍미를 더합니다. 특히 계절마다 메뉴가 바뀌므로, 방문 시기에 따라 새로운 맛의 발견을 기대할 수 있습니다. 가볍지만 영양 균형이 잘 잡혀 있어 오후 라운드에 부담을 주지 않으면서도 충분한 만족감을 선사합니다.
 
-3.  **히로노 특선 장어덮밥 (ひろの特選うな重):** 이 지역 특유의 신선한 장어를 사용하여 전통 방식 그대로 구워낸 장어덮밥은 히로노의 숨겨진 보물입니다. 숯불에 노릇하게 구워진 장어는 겉은 바삭하고 속은 촉촉하며, 달콤짭짤한 특제 타래 소스가 배어들어 밥과 환상적인 조화를 이룹니다. 장어 특유의 고소함과 숯불 향이 어우러져 한 그릇을 비우는 내내 행복감을 선사합니다. 갓 지은 윤기 흐르는 쌀밥 위에 얹힌 장어는 그야말로 ‘보양식’으로, 라운드 후 기력 보충에 더할 나위 없이 좋습니다. 일본 전통 미소시루와 츠케모노(절임 채소)가 함께 제공되어 깔끔한 맛을 더합니다.
+3.  **히로노 특선 장어덮밥 (ひろの特選うな重):** 이 지역 특유의 신선한 장어를 사용하여 전통 방식 그대로 구워낸 장어덮밥은 히로노의 숨겨진 보물입니다. 숯불에 노릇하게 구워진 장어는 겉은 바삭하고 속은 촉촉하며, 달콤짭짤한 특제 타래 소스가 배어들어 밥과 환상적인 조화를 이룹니다. 장어 특유의 고소함과 숯불 향이 어우러져 한 그릇을 비우는 내내 행복감을 선사합니다. 갓 지은 윤기 흐르는 쌀밥 위에 얹힌 장어는 그야말로 '보양식'으로, 라운드 후 기력 보충에 더할 나위 없이 좋습니다. 일본 전통 미소시루와 츠케모노(절임 채소)가 함께 제공되어 깔끔한 맛을 더합니다.
 
 4.  **계절 한정 소바 또는 우동 (季節限定そば・うどん):** 따뜻하고 부담 없는 식사를 원한다면, 그날그날 신선한 재료로 육수를 낸 소바나 우동을 추천합니다. 특히 겨울철에는 지역 특산물을 활용한 냄비우동이나 따뜻한 카레 우동 등 계절 한정 메뉴가 제공되기도 합니다. 면발의 쫄깃함과 깊고 진한 국물 맛은 일품이며, 튀김이나 유부초밥 등을 곁들여 간단하면서도 든든한 한 끼를 즐길 수 있습니다. 특히 라운드 중 그늘집에서 즐기는 시원한 소바 한 그릇은 더운 여름날의 갈증을 해소하는 데 최고입니다.
 
