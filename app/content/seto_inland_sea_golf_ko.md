@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "세토 내해 골프"
-lat: "34.4544"
-lng: "133.5156"
-categories: "Seaside Links, Scenic View, Championship"
-thumbnail: "/static/images/seto_inland_sea_golf.jpg"
-address: "Kasaoka, Okayama"
-date: "2026-06-27"
-booking: "/booking/seto_inland_sea_golf_ko"
-summary: "오카야마 가사오카에 위치한 세토 내해 골프는 세토 내해를 배경으로 18홀 챔피언십 코스를 제공합니다."
+lang: ko
+title: 세토 내해 골프
+lat: '34.4544'
+lng: '133.5156'
+categories: Seaside Links, Scenic View, Championship
+thumbnail: /static/images/seto_inland_sea_golf.jpg
+address: Kasaoka, Okayama
+date: '2026-10-27'
+booking: /booking/seto_inland_sea_golf_ko
+summary: 오카야마 가사오카에 위치한 세토 내해 골프는 세토 내해를 배경으로 18홀 챔피언십 코스를 제공합니다.
 ---
+
 
 ## Course Overview
 

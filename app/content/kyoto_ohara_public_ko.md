@@ -1,10 +1,9 @@
 ---
 youtube_id: OHkWFsQODEY
-
 address: 일본 교토부 교토시 사쿄구 오하라구치초 120
 booking: /booking/kyoto_ohara_public_ko
 categories: 가성비, 마운틴 코스, 경치
-date: '2026-04-15'
+date: '2026-10-27'
 description: An essential guide to playing at Kyoto Ohara Public Golf Course, featuring
   up-to-date green fees, booking paths via Rakuten GORA, course layouts, and access
   tips for travelers.
@@ -20,6 +19,7 @@ summary: 교토 오하라 퍼블릭은 단순한 골프 코스가 아닙니다. 
 thumbnail: /static/images/kyoto_ohara_public.jpg
 title: '교토 오하라 퍼블릭 완벽 가이드: 20년 경력의 전문 캐디가 전하는 최고의 리뷰'
 ---
+
 
 ## 교토 오하라 퍼블릭: 전설이 숨 쉬는 명문 퍼블릭 코스 마스터 리뷰
 

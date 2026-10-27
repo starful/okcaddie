@@ -2,7 +2,7 @@
 address: Nasu, Tochigi
 booking: /booking/nasu_golf_club_ko
 categories: Private Club, Mountain Style, Historic
-date: '2026-04-15'
+date: '2026-10-27'
 lang: ko
 lat: '37.0944'
 lng: '140.0156'
@@ -11,6 +11,7 @@ summary: 나스 골프 클럽의 전략, 역사, 그리고 럭셔리 시설을 �
 thumbnail: /static/images/nasu_golf_club.jpg
 title: '나스 골프 클럽 완벽 가이드: 20년 베테랑 캐디가 전하는 명품 코스 리뷰 (ko)'
 ---
+
 
 # 나스 골프 클럽: 일본 골프의 정수를 경험하다 – 20년 베테랑 캐디의 심층 분석
 

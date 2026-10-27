@@ -2,7 +2,7 @@
 address: 효고현 미키시
 booking: /booking/cherry_hills_robert_trent_jones_ko
 categories: 프리미엄 / 럭셔리, 챔피언십, 전략적
-date: '2026-04-15'
+date: '2026-10-27'
 lang: ko
 lat: '34.7844'
 lng: '135.0756'
@@ -16,6 +16,7 @@ seo_title: Cherry Hills Golf Club Hyogo | Booking & Course Guide
 seo_description: Plan your round at Cherry Hills Golf Club in Hyogo. Get green fees,
   Robert Trent Jones Jr. design insights, and easy Japan golf booking tips.
 ---
+
 
 
 

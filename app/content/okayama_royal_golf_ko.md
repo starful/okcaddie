@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Okayama Royal Golf"
-lat: "34.8544"
-lng: "133.8556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/okayama_royal_golf.jpg"
-address: "Kibi, Okayama"
-date: "2026-06-27"
-booking: "/booking/okayama_royal_golf_ko"
-summary: "岡山ロイヤルゴルフ는 岡山市에서 접근성이 좋은 산악형 코스로, 합리적인 가격에 경치 좋은 라운딩을 즐길 수 있습니다."
+lang: ko
+title: Okayama Royal Golf
+lat: '34.8544'
+lng: '133.8556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/okayama_royal_golf.jpg
+address: Kibi, Okayama
+date: '2026-10-27'
+booking: /booking/okayama_royal_golf_ko
+summary: 岡山ロイヤルゴルフ는 岡山市에서 접근성이 좋은 산악형 코스로, 합리적인 가격에 경치 좋은 라운딩을 즐길 수 있습니다.
 ---
+
 
 ## 코스 개요
 

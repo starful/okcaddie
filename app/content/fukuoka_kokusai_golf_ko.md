@@ -1,15 +1,16 @@
 ---
-lang: "ko"
-title: "Fukuoka Kokusai Golf"
-lat: "33.7544"
-lng: "130.5556"
-categories: "Value for Money, Championship, Forest"
-thumbnail: "/static/images/fukuoka_kokusai_golf.jpg"
-address: "Munakata, Fukuoka"
-date: "2026-06-06"
-booking: "/booking/fukuoka_kokusai_golf_ko"
-summary: "후쿠오카 고쿠사이 골프는 후쿠오카현 무나카타시에 위치한 27홀 챔피언십 코스로, 전략적인 코스 설계와 합리적인 비용이 특징입니다."
+lang: ko
+title: Fukuoka Kokusai Golf
+lat: '33.7544'
+lng: '130.5556'
+categories: Value for Money, Championship, Forest
+thumbnail: /static/images/fukuoka_kokusai_golf.jpg
+address: Munakata, Fukuoka
+date: '2026-10-27'
+booking: /booking/fukuoka_kokusai_golf_ko
+summary: 후쿠오카 고쿠사이 골프는 후쿠오카현 무나카타시에 위치한 27홀 챔피언십 코스로, 전략적인 코스 설계와 합리적인 비용이 특징입니다.
 ---
+
 
 ## 코스 개요
 

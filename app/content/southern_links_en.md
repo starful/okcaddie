@@ -1,15 +1,19 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Southern Links: An Expert Review by OKCaddie (en)"
-lat: "26.1144"
-lng: "127.7356"
-categories: "Premium / Luxury, Easy Booking, Ocean View, Okinawa Golf"
-thumbnail: "/static/images/southern_links.jpg"
-address: "1000 Aza Gushikami, Yaese-cho, Shimajiri-gun, Okinawa 901-0402, Japan"
-date: "2026-04-15"
-booking: "/booking/southern_links_en"
-summary: "A comprehensive 9,000-character master guide to Southern Links, Okinawa's crown jewel, covering its illustrious history, strategic architectural analysis, a hole-by-hole masterclass, luxurious clubhouse amenities, gourmet dining, and essential seasonal tips for an unparalleled golfing pilgrimage."
+lang: en
+title: 'The Definitive Guide to Southern Links: An Expert Review by OKCaddie (en)'
+lat: '26.1144'
+lng: '127.7356'
+categories: Premium / Luxury, Easy Booking, Ocean View, Okinawa Golf
+thumbnail: /static/images/southern_links.jpg
+address: 1000 Aza Gushikami, Yaese-cho, Shimajiri-gun, Okinawa 901-0402, Japan
+date: '2026-10-27'
+booking: /booking/southern_links_en
+summary: A comprehensive 9,000-character master guide to Southern Links, Okinawa's
+  crown jewel, covering its illustrious history, strategic architectural analysis,
+  a hole-by-hole masterclass, luxurious clubhouse amenities, gourmet dining, and essential
+  seasonal tips for an unparalleled golfing pilgrimage.
 ---
+
 
 As an elite Japanese golf course rater and a seasoned senior caddy with two decades of dedicated service, I have walked the hallowed fairways of countless premier clubs across the archipelago. Yet, few resonate with the unique blend of challenge, beauty, and cultural immersion quite like [Southern Links Golf Club](/course/southern_links_golf_club) in Okinawa. This is not merely a golf course; it is a meticulously crafted experience, a testament to visionary design harmonizing with nature's grandeur. For the discerning golfer seeking the pinnacle of Japanese golf, Southern Links represents an indispensable pilgrimage. Prepare for a definitive analysis, presented with the precision and depth befitting its stature, optimized to be the #1 resource for your golfing journey.
 

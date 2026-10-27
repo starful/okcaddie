@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Gifu North Golf Club: An Expert Review (en)"
-lat: "35.5144"
-lng: "136.7556"
-categories: "Value for Money, Mountain Style, Forest"
-thumbnail: "/static/images/gifu_north_golf_club.jpg"
-address: "Yamagata, Gifu"
-date: "2026-04-15"
-booking: "/booking/gifu_north_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Gifu North Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'The Definitive Guide to Gifu North Golf Club: An Expert Review (en)'
+lat: '35.5144'
+lng: '136.7556'
+categories: Value for Money, Mountain Style, Forest
+thumbnail: /static/images/gifu_north_golf_club.jpg
+address: Yamagata, Gifu
+date: '2026-10-27'
+booking: /booking/gifu_north_golf_club_en
+summary: A comprehensive 9,000-character master guide to Gifu North Golf Club, covering
+  strategy, history, and luxury facilities.
 ---
+
 
 ## Unveiling the Spirit of Gifu North Golf Club: A Caddy's Masterpiece Review
 
