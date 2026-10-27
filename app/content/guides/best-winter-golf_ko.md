@@ -1,13 +1,14 @@
 ---
 date: '2026-04-12'
 lang: ko
-summary: 겨울 골프 최적지 규슈 추천 5곳 + 실용적 라운딩 준비 가이드
-title: '겨울 골프 최적지 규슈 골프장 TOP 5: 온천과 미식까지'
-description: 'Winter golf in Kyushu: 5 best courses, warm climate, international standard
-  play. Hot springs, Michelin dining, great value. Beginner to pro-friendly.'
-seo_title: '겨울 골프 최적지 규슈 골프장 TOP 5: 온천과 미식까지'
-seo_description: '겨울에도 따뜻한 규슈 골프 여행: 추천 골프장 5곳, 온화한 기후와 국제 수준 코스, 온천과 미식, 합리적인 가격까지. 초보부터 상급자까지 모두 만족하는 겨울철 라운딩 완벽 가이드.'
+summary: 겨울 골프 최적지 규슈 추천 5곳과 온화한 기후, 온천, 미식, 가성비까지 아우르는 완벽한 겨울 라운딩 가이드.
+title: '겨울 골프 강추: 규슈 TOP 5 골프장 + 온천, 미식, 가성비 완벽 가이드'
+description: 겨울 골프 최적지 규슈의 명문 코스 5곳. 따뜻한 기후, 온천, 미식, 합리적 가격의 완벽한 겨울 라운딩 패키지.
+seo_title: '겨울 골프 강추: 규슈 TOP 5 골프장 + 온천, 미식, 가성비 완벽 가이드'
+seo_description: '겨울 골프는 규슈에서: 따뜻한 기후, TOP 5 명문 코스, 온천과 미식, 가성비. 초보~상급자 라운딩 완벽 가이드.'
 ---
+
+
 
 
 

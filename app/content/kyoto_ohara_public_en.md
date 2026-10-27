@@ -1,7 +1,10 @@
 ---
+
+```markdown
+---
 youtube_id: OHkWFsQODEY
 lang: en
-title: Kyoto Ohara Public Golf Course
+title: 'Kyoto Ohara Public Golf Course: Championship Design & Strategic Play'
 lat: '35.1144'
 lng: '135.8156'
 categories: Value for Money, Mountain Style, Scenic
@@ -9,15 +12,16 @@ thumbnail: /static/images/kyoto_ohara_public.jpg
 address: Kyoto, Kyoto
 date: '2026-10-27'
 booking: /booking/kyoto_ohara_public_en
-summary: A comprehensive 9,000-character master guide to Kyoto Ohara Public, covering
-  strategy, history, and luxury facilities.
-description: Kyoto Ohara Public Golf Course offers convenient online booking in English,
-  featuring current green fees, detailed course information, and easy tee time reservations
-  for golfers visiting Japan.
-seo_title: Book Kyoto Ohara Golf Course - Easy Tee Times & Pricing
-seo_description: Kyoto Ohara Public Golf - Check live rates, reserve tee times, and
-  book instantly online in English. Easy, secure booking.
+summary: A comprehensive 9,000-character master guide to Kyoto Ohara Public Golf
+  Course, covering its history, architectural design, hole-by-hole strategy, onsen
+  experience, gourmet dining, and seasonal access tips from a veteran Japanese caddy.
+description: Championship-level golf with strategic design. Book public course access
+  with private club experience near Kyoto.
+seo_title: 'Kyoto Ohara Public Golf Course: Championship Design & Strategic Play'
+seo_description: Championship-level golf with strategic precision. Book Kyoto Ohara
+  Public—where excellent public course access meets private club experience near Kyoto.
 ---
+
 
 
 
@@ -101,7 +105,7 @@ The penultimate hole, 'The Gatekeeper,' is a long, demanding par-4 that can make
 
 Stepping into the Kyoto Ohara Public clubhouse is an immediate transition from the strategic intensity of the course to an embrace of refined Japanese hospitality. The architectural style blends traditional Japanese aesthetics – natural wood, subtle lighting, and minimalist design – with contemporary comfort. The high ceilings and panoramic windows offer stunning views of the 18th green and the surrounding Ohara landscape, creating an atmosphere of serene sophistication without feeling ostentatious. It exudes a welcoming calm, inviting golfers to unwind and reflect on their round.
 
-The **locker rooms** at Kyoto Ohara Public are a testament to Japanese meticulousness and attention to detail. Far from the utilitarian spaces found at many public courses, these are spacious, impeccably clean, and well-appointed. Each locker is generously sized, offering ample space for golf attire and personal belongings. Plush towels, high-quality toiletries (including a range of Japanese brands), and modern, private changing areas ensure comfort and discretion. The sense of order and cleanliness is palpable, reflecting a deep respect for the guests' experience. It's not just a place to change; it’s an extension of the course's commitment to excellence, providing a tranquil space to prepare for or recover from your game.
+The **locker rooms** at Kyoto Ohara Public are a testament to Japanese meticulousness and attention to detail. Far from the utilitarian spaces found at many public courses, these are spacious, impeccably clean, and well-appointed. Each locker is generously sized, offering ample space for golf attire and personal belongings. Plush towels, high-quality toiletries (including a range of Japanese brands), and modern, private changing areas ensure comfort and discretion. The sense of order and cleanliness is palpable, reflecting a deep respect for the guests' experience. It's not just a place to change; it's an extension of the course's commitment to excellence, providing a tranquil space to prepare for or recover from your game.
 
 However, the true crown jewel of the Kyoto Ohara Public post-round experience is its magnificent **Daikokujo (Grand Bath/Onsen)**. This is not merely a shower; it is a ritual, a cultural immersion, and an essential component of the Japanese golf experience. The Onsen here draws its water from a natural hot spring deep beneath the Ohara foothills, renowned for its alkaline mineral composition. The water, clear and odorless, is rich in sodium bicarbonate and chloride ions, known locally for their skin-softening and muscle-relaxing properties.
 
@@ -113,7 +117,7 @@ The dining experience at Kyoto Ohara Public is not an afterthought; it is a deli
 
 My top recommendation, and a dish I find myself returning to repeatedly, is the **Kurobuta Tonkatsu Set**. This isn't just any pork cutlet. Sourced from premium Kagoshima Kurobuta pork, renowned for its marbling and tender texture, the cutlet is expertly breaded in fresh panko and deep-fried to a perfect, golden crispness. The result is a profoundly satisfying crunch that gives way to incredibly juicy, flavorful pork. Served with a rich, tangy tonkatsu sauce, finely shredded cabbage, and fragrant Koshihikari rice, it's a dish of comforting perfection. The balance of textures and flavors is exquisite, making it the ultimate post-round indulgence.
 
-For those seeking a lighter, yet equally flavorful option, the **Local Soba Noodle Set** is a revelation. The soba noodles are made from buckwheat flour harvested in the surrounding Kyoto region, lending them a distinct chewiness and earthy aroma. Served hot in a delicate, dashi-based broth, often with tempura of seasonal vegetables (like Kyoto's famous Kamoナス eggplant or Fushimiとうがらし peppers) and tender chicken, or cold with a soy-based dipping sauce, it’s a refreshing and authentic taste of local cuisine. The broth is subtle yet deep, reflecting hours of careful simmering.
+For those seeking a lighter, yet equally flavorful option, the **Local Soba Noodle Set** is a revelation. The soba noodles are made from buckwheat flour harvested in the surrounding Kyoto region, lending them a distinct chewiness and earthy aroma. Served hot in a delicate, dashi-based broth, often with tempura of seasonal vegetables (like Kyoto's famous Kamoナス eggplant or Fushimiとうがらし peppers) and tender chicken, or cold with a soy-based dipping sauce, it's a refreshing and authentic taste of local cuisine. The broth is subtle yet deep, reflecting hours of careful simmering.
 
 Another outstanding choice, particularly if you are celebrating a great round, is the **Premium Unagi Donburi**. Grilled freshwater eel (unagi) is a delicacy, and Kyoto Ohara Public excels at its preparation. The eel is meticulously grilled over charcoal, resulting in a crispy skin and melt-in-your-mouth tender flesh, lacquered with a sweet and savory tare sauce that has been perfected over generations. Served atop a bed of steaming white rice, garnished with sansho pepper, it is a luxurious and deeply satisfying dish that offers a quintessential Japanese culinary experience. The rich umami flavor, combined with the subtle sweetness, is simply unforgettable.
 
@@ -142,3 +146,6 @@ Kyoto Ohara Public is remarkably accessible, considering its pristine, mountain-
 
 **Final Verdict:**
 Kyoto Ohara Public is not merely a golf course; it is an experience, a pilgrimage, and a strategic masterpiece. It epitomizes the very best of Japanese golf, offering an impeccable blend of challenging design, pristine conditions, breathtaking natural beauty, and unparalleled hospitality – all at a value that defies its world-class quality. As your senior caddy, I declare it an essential destination for any serious golfer seeking to immerse themselves in the authentic spirit of Japanese golf. From its meticulously crafted holes that demand strategic acumen to its rejuvenating Onsen and exquisite local cuisine, Kyoto Ohara Public delivers an unforgettable journey. It stands proudly as a beacon of accessible excellence, a course that genuinely belongs on every discerning golfer's must-play list. Come, play, and discover why this "public" course holds a truly prestigious place in my heart, and undoubtedly, will in yours.
+```
+
+Note: this session has no file-system tools (Read/Write/Edit/Bash), so I couldn't write this back to `app/content/kyoto_ohara_public_en.md` directly — you'll need to apply it yourself.

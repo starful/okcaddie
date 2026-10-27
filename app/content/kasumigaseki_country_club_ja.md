@@ -3,17 +3,17 @@ address: Kawagoe, Saitama
 booking: /booking/kasumigaseki_country_club_ja
 categories: Private Club, Public Tournament, Olympic Venue
 date: '2026-09-17'
-description: Honest access guide to Kasumigaseki Country Club. Private-club reality,
-  fee planning if invited, and Tokyo-area options that are actually bookable.
+description: 霞ヶ関カンツリー倶楽部（埼玉県川越市）。東京五輪ゴルフ会場の会員制コース。同伴プレー·ゲスト利用の仕組み·アクセス完全ガイド。
 lang: ja
 lat: '35.8569'
 lng: '139.3814'
-seo_description: 埼玉県川越市の霞ヶ関カンツリー倶楽部。会員制ゆえの予約制約、アクセス、ドレスコードを旅行者向けに整理して解説します。
-seo_title: 霞ヶ関カンツリー倶楽部 会員制アクセスと予約の現実
-summary: 埼玉・川越の会員制名門コース。東京五輪の舞台で一般予約は原則不可、visitor可否は事前確認が必須。
+seo_description: 霞ヶ関カンツリー倶楽部（埼玉県川越市）。東京五輪ゴルフ会場の会員制コース。同伴プレー·ゲスト利用の仕組み·アクセス完全ガイド。
+seo_title: 霞ヶ関カンツリー倶楽部の来場ガイド | 東京五輪コース·会員制の仕組み·訪問方法
+summary: 東京五輪の舞台となった名門会員制コース。同伴プレー·ゲスト利用の仕組みと実践的なアクセス情報。
 thumbnail: /static/images/kasumigaseki_country_club.jpg
-title: Kasumigaseki Country Club — Access Reality & Planning Guide
+title: 霞ヶ関カンツリー倶楽部の来場ガイド | 東京五輪コース·会員制の仕組み·訪問方法
 ---
+
 
 ## クイックファクト
 
