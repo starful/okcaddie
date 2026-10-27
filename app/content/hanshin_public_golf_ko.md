@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "Hanshin Public Golf"
-lat: "34.7544"
-lng: "135.3156"
-categories: "Value for Money, River Side, Easy Access"
-thumbnail: "/static/images/hanshin_public_golf.jpg"
-address: "Amagasaki, Hyogo"
-date: "2026-06-27"
-booking: "/booking/hanshin_public_golf_ko"
-summary: "Hanshin Public Golf는 효고현 아마가사키에 위치한 9홀 코스로, 오사카 도심에서 약 30분 거리에 있어 접근성이 뛰어나며 합리적인 가격으로 캐주얼 골퍼들에게 사랑받습니다."
+lang: ko
+title: Hanshin Public Golf
+lat: '34.7544'
+lng: '135.3156'
+categories: Value for Money, River Side, Easy Access
+thumbnail: /static/images/hanshin_public_golf.jpg
+address: Amagasaki, Hyogo
+date: '2026-10-27'
+booking: /booking/hanshin_public_golf_ko
+summary: Hanshin Public Golf는 효고현 아마가사키에 위치한 9홀 코스로, 오사카 도심에서 약 30분 거리에 있어 접근성이 뛰어나며
+  합리적인 가격으로 캐주얼 골퍼들에게 사랑받습니다.
 ---
+
 
 ## 코스 개요
 

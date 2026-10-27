@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Fukuoka Kokusai Golf"
-lat: "33.7544"
-lng: "130.5556"
-categories: "Value for Money, Championship, Forest"
-thumbnail: "/static/images/fukuoka_kokusai_golf.jpg"
-address: "Munakata, Fukuoka"
-date: "2026-06-06"
-booking: "/booking/fukuoka_kokusai_golf_en"
-summary: "Fukuoka Kokusai Golf in Munakata offers two distinct 18-hole courses, providing excellent value amidst a classic forest setting just north of Fukuoka city."
+lang: en
+title: Fukuoka Kokusai Golf
+lat: '33.7544'
+lng: '130.5556'
+categories: Value for Money, Championship, Forest
+thumbnail: /static/images/fukuoka_kokusai_golf.jpg
+address: Munakata, Fukuoka
+date: '2026-10-27'
+booking: /booking/fukuoka_kokusai_golf_en
+summary: Fukuoka Kokusai Golf in Munakata offers two distinct 18-hole courses, providing
+  excellent value amidst a classic forest setting just north of Fukuoka city.
 ---
+
 
 ## Course Overview
 

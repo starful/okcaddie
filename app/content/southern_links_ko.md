@@ -2,7 +2,7 @@
 address: 오키나와 야에세
 booking: /booking/southern_links_ko
 categories: 프리미엄 / 럭셔리, 쉬운 예약, 오션 뷰
-date: '2026-04-15'
+date: '2026-10-27'
 lang: ko
 lat: '26.1144'
 lng: '127.7356'
@@ -10,6 +10,7 @@ summary: 사잔 링크스에 대한 포괄적인 9,000자 전문가 마스터 �
 thumbnail: /static/images/southern_links.jpg
 title: '사잔 링크스 마스터 가이드: 명예로운 전문가 리뷰 (ko)'
 ---
+
 
 ## 사잔 링크스: 오키나와의 대자연이 빚어낸 걸작, 명예로운 심층 분석
 

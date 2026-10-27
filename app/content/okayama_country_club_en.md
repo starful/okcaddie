@@ -2,7 +2,7 @@
 address: Okayama, Okayama
 booking: /booking/okayama_country_club_en
 categories: Private Club, Historic, Forest Course
-date: '2026-06-27'
+date: '2026-10-27'
 description: 'Okayama Country Club: a 1961 forest course near Okayama City. Hole-by-hole
   strategy, green fees, Rakuten GORA booking & tee times.'
 lang: en
@@ -16,6 +16,7 @@ summary: Okayama Country Club is a historic 18-hole private forest course near O
 thumbnail: /static/images/okayama_country_club.jpg
 title: Okayama Country Club
 ---
+
 
 ## Course Overview
 

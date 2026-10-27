@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "Kumamoto Castle Golf"
-lat: "32.7544"
-lng: "130.7556"
-categories: "Value for Money, Mountain Style, Scenic"
-thumbnail: "/static/images/kumamoto_castle_golf.jpg"
-address: "Kumamoto, Kumamoto"
-date: "2026-06-27"
-booking: "/booking/kumamoto_castle_golf_en"
-summary: "Kumamoto Castle Golf offers 18 holes of scenic, mountain-style golf near Kumamoto City, providing excellent value for golfers seeking a strategic round."
+lang: en
+title: Kumamoto Castle Golf
+lat: '32.7544'
+lng: '130.7556'
+categories: Value for Money, Mountain Style, Scenic
+thumbnail: /static/images/kumamoto_castle_golf.jpg
+address: Kumamoto, Kumamoto
+date: '2026-06-27'
+booking: /booking/kumamoto_castle_golf_en
+summary: Kumamoto Castle Golf offers 18 holes of scenic, mountain-style golf near
+  Kumamoto City, providing excellent value for golfers seeking a strategic round.
 ---
+
 
 ## Course Overview
 

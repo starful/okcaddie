@@ -1,15 +1,17 @@
 ---
-lang: "ko"
-title: "구마모토 추오 골프"
-lat: "32.8544"
-lng: "130.8556"
-categories: "Value for Money, Forest Course, Championship"
-thumbnail: "/static/images/kumamoto_chuo_golf.jpg"
-address: "Kikuyo, Kumamoto"
-date: "2026-06-27"
-booking: "/booking/kumamoto_chuo_golf_ko"
-summary: "구마모토 추오 골프는 구마모토현 기쿠요에 위치하며, 뛰어난 가성비와 도전적인 삼림 코스 레이아웃으로 연간 약 5만 명의 골퍼들이 찾는 곳입니다."
+lang: ko
+title: 구마모토 추오 골프
+lat: '32.8544'
+lng: '130.8556'
+categories: Value for Money, Forest Course, Championship
+thumbnail: /static/images/kumamoto_chuo_golf.jpg
+address: Kikuyo, Kumamoto
+date: '2026-06-27'
+booking: /booking/kumamoto_chuo_golf_ko
+summary: 구마모토 추오 골프는 구마모토현 기쿠요에 위치하며, 뛰어난 가성비와 도전적인 삼림 코스 레이아웃으로 연간 약 5만 명의 골퍼들이 찾는
+  곳입니다.
 ---
+
 
 ## 코스 개요
 

@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Nasu Golf Club: An Expert Review (en)"
-lat: "37.0944"
-lng: "140.0156"
-categories: "Private Club, Mountain Style, Historic"
-thumbnail: "/static/images/nasu_golf_club.jpg"
-address: "Nasu, Tochigi"
-date: "2026-04-15"
-booking: "/booking/nasu_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Nasu Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'The Definitive Guide to Nasu Golf Club: An Expert Review (en)'
+lat: '37.0944'
+lng: '140.0156'
+categories: Private Club, Mountain Style, Historic
+thumbnail: /static/images/nasu_golf_club.jpg
+address: Nasu, Tochigi
+date: '2026-10-27'
+booking: /booking/nasu_golf_club_en
+summary: A comprehensive 9,000-character master guide to Nasu Golf Club, covering
+  strategy, history, and luxury facilities.
 ---
+
 
 As a seasoned golf course rater for 'OKCaddie' and a professional senior caddy with two decades of experience navigating Japan's most revered fairways, I approach each course with a unique blend of critical eye and intimate knowledge. My mission today is to unveil the profound elegance and strategic genius of **Nasu Golf Club**, a true gem nestled in the sublime landscapes of Tochigi Prefecture. This is not merely a review; it is an expedition into the very soul of Japanese golf, designed to equip the discerning golfer with unparalleled insight, ensuring your round at Nasu transcends mere sport to become an unforgettable pilgrimage. Prepare for a masterpiece, crafted for those who demand the zenith of golf experiences and seek to conquer Japan's most iconic layouts.
 

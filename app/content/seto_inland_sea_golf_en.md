@@ -6,11 +6,12 @@ lng: '133.5156'
 categories: Seaside Links, Scenic View, Championship
 thumbnail: /static/images/seto_inland_sea_golf.jpg
 address: Kasaoka, Okayama
-date: '2026-06-27'
+date: '2026-10-27'
 booking: /booking/seto_inland_sea_golf_en
 summary: Seto Inland Sea Golf in Kasaoka, Okayama, offers 18 holes of strategic seaside
   links play with significant elevation changes.
 ---
+
 
 
 ## Course Overview

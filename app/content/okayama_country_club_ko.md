@@ -6,7 +6,7 @@ lng: '133.9156'
 categories: Private Club, Historic, Forest Course
 thumbnail: /static/images/okayama_country_club.jpg
 address: Okayama, Okayama
-date: '2026-06-27'
+date: '2026-10-27'
 booking: /booking/okayama_country_club_ko
 summary: 오카야마 컨트리클럽은 1961년 개장한 유서 깊은 사립 골프장으로, 오카야마 현의 울창한 숲 속에 자리하며 전략적인 코스 레이아웃과
   홀별 공략법을 제공합니다.
@@ -16,6 +16,7 @@ seo_title: 'Okayama Country Club: 1961 Forest Course Guide & Green Fees'
 seo_description: 'Okayama Country Club: 1961 forest course guide with hole-by-hole
   strategy (holes 5, 7, 12), green fees & Rakuten GORA tee time booking.'
 ---
+
 오카야마 컨트리클럽이 궁금하다면 지금 확인하세요 — 1961년 개장한 이 숲속 명문 코스는 좁은 페어웨이와 도그레그 홀로 정교한 샷 메이킹을 시험합니다. 5번, 7번, 12번 홀 공략법부터 그린피, 라쿠텐 GORA 예약 방법까지 한눈에 정리했습니다.
 
 오카야마 컨트리클럽은 1961년 개장 이래 오카야마현 울창한 숲 속에서 전략적인 샷 메이킹을 요구하는 정통 산악 코스로 사랑받아 왔습니다. 좁은 페어웨이와 도그레그 홀이 만들어내는 팽팽한 긴장감, 잘 관리된 벤트그라스 그린이 어우러져 매 라운드마다 새로운 도전을 선사합니다. 그린피 정보와 라쿠텐 GORA 예약 방법까지 아래에서 확인해 보세요.
