@@ -3,14 +3,14 @@ address: 2710 Totsukacho, Totsuka Ward, Yokohama, Kanagawa 244-0813, Japan
 booking: /booking/totsuka_country_club_ja
 categories: Premium / Luxury, Private Club
 date: '2026-09-20'
-description: Totsuka Country Club 회원제 코스 비지터 플레이 가이드. 3가지 예약 루트, 그린피 범위, 도쿄·요코하마 접근법.
+description: 戸塚カントリー倶楽部の会員制コース、ビジタープレーガイド。3つの予約ルート、グリーンフィーの目安、東京・横浜からのアクセス方法。
 lang: ja
 lat: '35.4244'
 lng: '139.5156'
 seo_description: 'Totsuka Country Club visitor play: 3 booking routes (no intro needed),
   green fee ranges, and access from Tokyo/Yokohama.'
 seo_title: Can You Play Totsuka Country Club as a Guest? Fees, Routes & Tips
-summary: 横浜市戸塚区의 회원제 丘陵コース. ビジター利用은 제한적이나, 紹介·宿泊パッケージ·예약사이트 3가지 루트로 플레이 가능.
+summary: 横浜市戸塚区の会員制丘陵コース。ビジター利用は限定的だが、紹介・宿泊パッケージ・予約サイトの3つのルートでプレー可能。
 thumbnail: /static/images/totsuka_country_club.jpg
 title: Can You Play Totsuka Country Club as a Guest? Fees, Routes & Tips
 ---
