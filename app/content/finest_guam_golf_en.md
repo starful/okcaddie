@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Finest Guam Golf & Resort: Fees & Booking'
+title: Finest Guam Golf & Resort | 투몬 근처 리조트 코스, 그린피 & 예약
 lat: '13.5180'
 lng: '144.8360'
 categories: Resort, Public Tournament, Value for Money
@@ -11,12 +11,11 @@ booking: /booking/finest_guam_golf_en
 country: gu
 gora_cid: '520698'
 summary: 괌 데데도 위치 리조트 골프장 그린피·접근·예약 정보
-seo_title: Finest Guam Golf & Resort (괌) | 그린피, 예약, 코스
-seo_description: 괌 데데도 Finest Guam Golf & Resort. 투몬 근처 북쪽 리조트 코스. 라쿠텐 GORA 해외 예약으로
-  실시간 그린피 확인·예약.
-description: Green fees, access, and Rakuten GORA overseas booking for Finest Guam
-  Golf & Resort in Dededo, Guam.
+seo_title: Finest Guam Golf & Resort | 투몬 근처 리조트 코스, 그린피 & 예약 가이드
+seo_description: 괌 북부 리조트 코스 Finest. 실시간 그린피 확인, 라쿠텐 GORA 예약, 투몬 호텔 연계 가능.
+description: 괌 데데도 위치 리조트 골프장. 투몬 호텔 근처, 실시간 그린피 확인 및 라쿠텐 GORA 예약 가능.
 ---
+
 
 
 Finest Guam Golf & Resort is in Dededo, Guam. Northern Guam (Dededo), close to Tumon hotels. Formerly Starts Guam Golf Resort.

@@ -8,11 +8,13 @@ try:
     from .assets import assets_bp
     from .courses import courses_bp
     from .guides import guides_bp
+    from .internal import internal_bp
     from .pages import pages_bp
 except ImportError:
     from routes.assets import assets_bp
     from routes.courses import courses_bp
     from routes.guides import guides_bp
+    from routes.internal import internal_bp
     from routes.pages import pages_bp
 
 
@@ -21,3 +23,4 @@ def register_routes(app: Flask) -> None:
     app.register_blueprint(courses_bp)
     app.register_blueprint(guides_bp)
     app.register_blueprint(assets_bp)
+    app.register_blueprint(internal_bp)
