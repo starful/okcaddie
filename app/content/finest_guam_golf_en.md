@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Finest Guam Golf & Resort | 투몬 근처 리조트 코스, 그린피 & 예약
+title: Finest Guam Golf & Resort | 괌 투몬 리조트 코스 그린피·예약
 lat: '13.5180'
 lng: '144.8360'
 categories: Resort, Public Tournament, Value for Money
@@ -10,11 +10,12 @@ date: '2026-09-27'
 booking: /booking/finest_guam_golf_en
 country: gu
 gora_cid: '520698'
-summary: 괌 데데도 위치 리조트 골프장 그린피·접근·예약 정보
-seo_title: Finest Guam Golf & Resort | 투몬 근처 리조트 코스, 그린피 & 예약 가이드
-seo_description: 괌 북부 리조트 코스 Finest. 실시간 그린피 확인, 라쿠텐 GORA 예약, 투몬 호텔 연계 가능.
-description: 괌 데데도 위치 리조트 골프장. 투몬 호텔 근처, 실시간 그린피 확인 및 라쿠텐 GORA 예약 가능.
+summary: 괌 투몬 리조트 골프장의 실시간 그린피, 라쿠텐 GORA 예약 및 호텔 연계 정보.
+seo_title: Finest Guam Golf & Resort | 괌 투몬 리조트 코스 그린피·예약
+seo_description: 괌 투몬 리조트 골프장 Finest 라운딩. 실시간 그린피, 라쿠텐 GORA 예약, 호텔 연계.
+description: 괌 투몬 리조트 골프장 Finest 라운딩. 실시간 그린피, 라쿠텐 GORA 예약, 호텔 연계.
 ---
+
 
 
 
