@@ -426,6 +426,9 @@ a {
 }
 .booking-btn:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(39, 174, 96, 0.4); }
 
+/* 모바일 전용 상단 고정(sticky) 예약 CTA */
+.mobile-sticky-cta { display: none; }
+
 .back-btn-container { margin-top: 30px; }
 .back-btn {
     display: inline-flex; align-items: center; padding: 12px 35px; background: #f1f5f9;
@@ -785,6 +788,38 @@ footer {
     .course-grid { grid-template-columns: 1fr; gap: 20px; }
     
     .detail-container { margin: 20px auto 60px; padding: 0 15px; }
+
+    /* 모바일 상단 고정 예약 CTA */
+    .mobile-sticky-cta {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        margin: 0 -15px 16px;
+        padding: 10px 15px;
+        background: rgba(255, 255, 255, 0.97);
+        backdrop-filter: saturate(180%) blur(6px);
+        border-bottom: 1px solid #e2e8f0;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+    .mobile-sticky-cta__btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #bf0000;
+        color: #fff !important;
+        padding: 12px 16px;
+        border-radius: 50px;
+        font-weight: 800;
+        font-size: 0.98rem;
+        text-decoration: none;
+    }
+    .mobile-sticky-cta__btn:active { opacity: 0.85; }
+
+    /* 모바일 이미지 로딩 최적화: 레이아웃 흔들림 방지 + 디코딩 영역 축소 */
+    .detail-img-box { aspect-ratio: 16 / 9; }
+    .detail-img { max-height: none; height: 100%; }
+
     .detail-title { font-size: 1.7rem; }
     .detail-meta { line-height: 1.5; }
     .booking-btn { width: 100%; padding: 16px; font-size: 1.15rem; }

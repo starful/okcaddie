@@ -149,6 +149,13 @@
     {% include 'header.html' %}
 
     <article class="detail-container">
+        <!-- 모바일 전용 상단 고정 예약 CTA -->
+        <div class="mobile-sticky-cta">
+            <a href="/booking/{{ post.id }}" target="_blank" rel="nofollow" class="mobile-sticky-cta__btn">
+                {% if active_lang == 'ko' %}⛳ 예약하기{% elif active_lang == 'ja' %}⛳ 予約する{% else %}⛳ Book Now{% endif %}
+            </a>
+        </div>
+
         <!-- 상단 헤더: 제목 및 메타 정보 -->
         <header class="detail-header" style="text-align: center; margin-bottom: 40px;">
             <h1 class="detail-title" style="margin-bottom: 15px; line-height: 1.2; word-break: keep-all;">{{ post.title }}</h1>
