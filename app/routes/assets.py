@@ -19,7 +19,7 @@ except ImportError:
 assets_bp = Blueprint("assets", __name__)
 
 IMAGE_CACHE_MAX_AGE = 86400
-_WEBP_CONVERTIBLE = (".jpg", ".jpeg", ".png")
+_WEBP_CONVERTIBLE = (".jpg", ".jpeg")
 
 
 def _wants_webp() -> bool:

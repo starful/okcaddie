@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import secrets
 
 from flask import Blueprint, abort, jsonify, request
 
@@ -20,7 +21,8 @@ REPORT_FILE = os.path.join(BASE_DIR, "..", "script", "reports", "gsc_index_statu
 @internal_bp.route("/internal/index-status")
 def index_status():
     token = os.environ.get("INTERNAL_DASHBOARD_TOKEN", "").strip()
-    if not token or request.args.get("token") != token:
+    supplied = request.headers.get("X-Internal-Token", "")
+    if not token or not secrets.compare_digest(supplied, token):
         abort(404)
 
     if not os.path.exists(REPORT_FILE):
