@@ -1,8 +1,9 @@
 ---
 lang: en
-seo_title: Miyazaki Country Club — Tee Times, Fees & JLPGA Venue Guide | OKCaddie
-seo_description: Book Miyazaki Country Club. Green-fee ranges, visitor booking, ocean-side layout notes, and access tips for Miyazaki’s championship host course.
-title: Miyazaki Country Club — Tee Times, Green Fees & Visitor Guide
+seo_title: Miyazaki Country Club — JLPGA Host | Live Tee Times & Green Fees
+seo_description: JLPGA championship host course. Book Miyazaki with live green fees,
+  tee times, and visitor booking details.
+title: Miyazaki Country Club — JLPGA Host | Live Tee Times & Green Fees
 lat: '31.8644'
 lng: '131.4456'
 categories: Public Tournament, Ocean View, Historic
@@ -10,9 +11,12 @@ thumbnail: /static/images/miyazaki_country_club.jpg
 address: Miyazaki, Miyazaki
 date: '2026-07-12'
 booking: /booking/miyazaki_country_club_en
-summary: JLPGA host venue in Miyazaki—booking paths, fee ranges, coastal play tips, and how it fits a Seagaia-area trip.
-description: Practical guide to Miyazaki Country Club. Tee times, green-fee planning, access, and what tournament turf feels like for visitors.
+summary: JLPGA host venue with live booking, fee quotes, and visitor access information
+  for Miyazaki rounds.
+description: JLPGA championship host course. Book Miyazaki with live green fees, tee
+  times, and visitor booking details.
 ---
+
 
 Miyazaki Country Club is a **historic championship venue** on Kyushu’s east coast—best known to many travelers as a longtime **JLPGA Tour Championship** host. Visitors can often book products in season, but expect higher demand around event weeks and holidays.
 
