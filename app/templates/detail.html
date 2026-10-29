@@ -293,7 +293,7 @@
                 {% for c in related_courses %}
                 <article class="course-card">
                     <a href="/course/{{ c.base_id or (c.id | replace('_ko', '') | replace('_ja', '') | replace('_en', '')) }}{{ '?lang=ko' if c.lang == 'ko' else ('?lang=ja' if c.lang == 'ja' else '') }}">
-                        <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy">
+                        <img src="{{ c.thumbnail }}" class="card-thumb" alt="{{ c.title }}" loading="lazy" decoding="async">
                         <div class="card-content">
                             <div class="card-title">{{ c.title }}</div>
                         </div>
@@ -313,7 +313,7 @@
                 {% for g in related_guides %}
                 <a href="{{ g.link or ('/guide/' ~ (g.base_id or g.id) ~ ('?lang=ko' if g.lang == 'ko' else ('?lang=ja' if g.lang == 'ja' else ''))) }}" class="guide-highlight-card">
                     <div class="guide-img-wrapper">
-                        <img src="{{ g.image }}" alt="{{ g.title }}" loading="lazy">
+                        <img src="{{ g.image }}" alt="{{ g.title }}" loading="lazy" decoding="async">
                     </div>
                     <div class="card-body">
                         <h4 style="margin:0 0 6px;">{{ g.title }}</h4>

@@ -19,6 +19,32 @@ except ImportError:
 assets_bp = Blueprint("assets", __name__)
 
 IMAGE_CACHE_MAX_AGE = 86400
+_WEBP_CONVERTIBLE = (".jpg", ".jpeg")
+
+
+def _wants_webp() -> bool:
+    return "image/webp" in request.headers.get("Accept", "")
+
+
+def _fetch_as_webp(url: str) -> bytes | None:
+    """Mobile Lighthouse: re-encode the GCS original as WebP for clients that support it."""
+    try:
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            raw = resp.read()
+            if not raw:
+                return None
+    except Exception:
+        return None
+
+    try:
+        from PIL import Image
+
+        img = Image.open(io.BytesIO(raw)).convert("RGB")
+        buf = io.BytesIO()
+        img.save(buf, format="WEBP", quality=80, method=4)
+        return buf.getvalue()
+    except Exception:
+        return None
 
 
 @assets_bp.route("/favicon.ico")
@@ -87,6 +113,15 @@ def serve_images(filename):
     url = f"https://storage.googleapis.com/ok-project-assets/okcaddie/{filename}"
     if request.query_string:
         url = f"{url}?{request.query_string.decode()}"
+
+    if filename.lower().endswith(_WEBP_CONVERTIBLE) and _wants_webp():
+        webp_bytes = _fetch_as_webp(url)
+        if webp_bytes:
+            response = Response(webp_bytes, mimetype="image/webp")
+            response.headers["Cache-Control"] = f"public, max-age={IMAGE_CACHE_MAX_AGE}"
+            response.headers["Vary"] = "Accept"
+            return response
+
     response = redirect(url, code=302)
     response.headers["Cache-Control"] = f"public, max-age={IMAGE_CACHE_MAX_AGE}"
     return response
