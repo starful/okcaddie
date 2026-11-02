@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Finest Guam Golf & Resort | 괌 투몬 리조트 코스 그린피·예약
+title: Finest Guam Golf Resort | Real-Time Booking & Green Fees
 lat: '13.5180'
 lng: '144.8360'
 categories: Resort, Public Tournament, Value for Money
@@ -10,11 +10,15 @@ date: '2026-09-27'
 booking: /booking/finest_guam_golf_en
 country: gu
 gora_cid: '520698'
-summary: 괌 투몬 리조트 골프장의 실시간 그린피, 라쿠텐 GORA 예약 및 호텔 연계 정보.
-seo_title: Finest Guam Golf & Resort | 괌 투몬 리조트 코스 그린피·예약
-seo_description: 괌 투몬 리조트 골프장 Finest 라운딩. 실시간 그린피, 라쿠텐 GORA 예약, 호텔 연계.
-description: 괌 투몬 리조트 골프장 Finest 라운딩. 실시간 그린피, 라쿠텐 GORA 예약, 호텔 연계.
+summary: Real-time booking and rates on Rakuten GORA. Golf in Guam near Tumon with
+  hotel connections.
+seo_title: Finest Guam Golf Resort | Real-Time Booking & Green Fees
+seo_description: Guam golf course in Dededo near Tumon. Live rates via Rakuten GORA,
+  easy booking, resort packages.
+description: Guam golf course in Dededo near Tumon. Live rates via Rakuten GORA, easy
+  booking, resort packages.
 ---
+
 
 
 
