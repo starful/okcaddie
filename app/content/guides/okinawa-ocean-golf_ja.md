@@ -1,9 +1,14 @@
 ---
 date: '2026-09-16'
 lang: ja
-summary: 沖縄の海沿いゴルフ場を予約・移動・季節選びまで具体的な手順で解説する実用ガイド。
-title: 沖縄のシーサイドゴルフ
+summary: Complete guide to oceanside golf in Okinawa with course selection, booking,
+  best seasons (Nov-Apr), transportation, and cost information.
+title: 沖縄の海沿いゴルフ完全ガイド | コース選び・予約・季節・移動手段
+description: '沖縄の海沿いゴルフ場ガイド: コース選び、予約、ベストシーズン(11月～4月)、移動手段、グリーンフィーの実用ガイド.'
+seo_title: 沖縄の海沿いゴルフ完全ガイド | コース選び・予約・季節・移動手段
+seo_description: '沖縄の海沿いゴルフ場ガイド: コース選び、予約、ベストシーズン(11月～4月)、移動手段、グリーンフィーの実用ガイド.'
 ---
+
 
 ## クイックファクト
 

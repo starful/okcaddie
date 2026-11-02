@@ -6,15 +6,17 @@ date: '2026-04-15'
 lang: ko
 lat: '35.9844'
 lng: '140.1956'
-summary: 전설적인 일본 골프 코스, 이글 포인트 골프 클럽에 대한 9,000자 분량의 종합 마스터 가이드. 역사, 전략, 럭셔리 시설을 총망라합니다.
+summary: 'Japan''s most prestigious golf club: 1968 Robert Trent Jones design with
+  elite membership and world-class course architecture.'
 thumbnail: /static/images/eagle_point_golf_club.jpg
-title: Book at Eagle Point Golf Club | Award-Winning Course & Tee Times
-description: Premium golf course with instant online booking. See live availability,
-  special rates & insider tips. Reserve your round today.
-seo_title: Eagle Point Golf Club - Book Tee Times Online | Premium Course
-seo_description: Premium golf course with instant online booking. See live availability,
-  special rates & insider tips. Reserve your round today.
+title: Eagle Point Golf Club | Historic 1968 RTJ Design Japan Legend
+description: Historic 1968 Japanese golf legend designed by Robert Trent Jones Sr.
+  Elite member club, championship 36-hole layout.
+seo_title: Eagle Point Golf Club | Historic 1968 RTJ Design Japan Legend
+seo_description: Historic 1968 Japanese golf legend designed by Robert Trent Jones
+  Sr. Elite member club, championship 36-hole layout.
 ---
+
 
 
 

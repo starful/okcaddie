@@ -1,15 +1,22 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Caledonian Golf Club: An Expert Review (en)"
-lat: "35.7444"
-lng: "140.4056"
-categories: "Premium / Luxury, Scenic View, Championship"
-thumbnail: "/static/images/caledonian_golf_club.jpg"
-address: "Shibayama, Chiba"
-date: "2026-04-15"
-booking: "/booking/caledonian_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Caledonian Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'Caledonian Golf Club Guide: Course Strategy, History & Tee Times'
+lat: '35.7444'
+lng: '140.4056'
+categories: Premium / Luxury, Scenic View, Championship
+thumbnail: /static/images/caledonian_golf_club.jpg
+address: Shibayama, Chiba
+date: '2026-04-15'
+booking: /booking/caledonian_golf_club_en
+summary: Expert guide to Caledonian Golf Club covering course strategy, luxury facilities,
+  golf history, and tee time booking details.
+description: 'Complete guide to Caledonian Golf Club: course design, history, luxury
+  amenities, green fees, and how to book tee times.'
+seo_title: 'Caledonian Golf Club Guide: Course Strategy, History & Tee Times'
+seo_description: 'Complete guide to Caledonian Golf Club: course design, history,
+  luxury amenities, green fees, and how to book tee times.'
 ---
+
 
 ## The Undisputed Majesty of Caledonian Golf Club: A Senior Caddy's Masterpiece Review
 
