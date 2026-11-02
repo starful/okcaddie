@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "カレドニアン・ゴルフクラブ：千葉のプレミアカースを徹底解説"
-lat: "35.7444"
-lng: "140.4056"
-categories: "Premium / Luxury, Scenic View, Championship"
-thumbnail: "/static/images/caledonian_golf_club.jpg"
-address: "Shibayama, Chiba"
-date: "2026-09-16"
-booking: "/booking/caledonian_golf_club_ja"
-summary: "千葉県柴山町に位置するカレドニアン・ゴルフクラブの予約方法、料金、アクセスを解説。最高峰のゴルフ体験を求める方向けのプレミアカースです。"
-seo_title: "カレドニアン・ゴルフクラブ | 料金・予約・アクセス徹底ガイド"
-seo_description: "千葉県柴山町に位置するカレドニアン・ゴルフクラブ。このチャンピオンシップコースの料金、予約方法、NRTからのアクセス情報を詳しく解説。あなたの日本ゴルフ旅行の計画に。"
+address: Shibayama, Chiba
+booking: /booking/caledonian_golf_club_ja
+categories: Premium / Luxury, Scenic View, Championship
+date: '2026-09-16'
+description: 'Complete guide to Caledonian Golf Club: course design, history, luxury
+  amenities, green fees, and how to book tee times.'
+lang: ja
+lat: '35.7444'
+lng: '140.4056'
+seo_description: 千葉県柴山町に位置するカレドニアン・ゴルフクラブ。このチャンピオンシップコースの料金、予約方法、NRTからのアクセス情報を詳しく解説。あなたの日本ゴルフ旅行の計画に。
+seo_title: カレドニアン・ゴルフクラブ | 料金・予約・アクセス徹底ガイド
+summary: 千葉県柴山町に位置するカレドニアン・ゴルフクラブの予約方法、料金、アクセスを解説。最高峰のゴルフ体験を求める方向けのプレミアカースです。
+thumbnail: /static/images/caledonian_golf_club.jpg
+title: カレドニアン・ゴルフクラブ：千葉のプレミアカースを徹底解説
 ---
 
 ## クイックファクト：カレドニアン・ゴルフクラブ
