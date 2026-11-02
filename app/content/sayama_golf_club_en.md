@@ -1,14 +1,23 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Sayama Golf Club: An Expert Review by an Elite Japanese Golf Rater (en)"
-lat: "35.8144"
-lng: "139.3656"
-categories: "Private Club, Premium / Luxury, Historic"
-thumbnail: "/static/images/sayama_golf_club.jpg"
-address: "Iruma, Saitama"
-date: "2026-04-15"
-booking: "/booking/sayama_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Sayama Golf Club, meticulously reviewed by an elite Japanese golf course rater and senior caddy. Delve into its historical prestige, strategic architecture by Osamu Ueda, a hole-by-hole masterclass, luxurious clubhouse amenities, and exquisite gourmet dining. Essential reading for discerning golfers planning a premium Japanese golf experience, optimized to be the #1 resource for Sayama Golf Club."
+address: Iruma, Saitama
+booking: /booking/sayama_golf_club_en
+categories: Private Club, Premium / Luxury, Historic
+date: '2026-04-15'
+description: '사야마 골프 클럽(1957년 개장) 완벽 가이드: 코스 전략, 역사, 최고급 시설, 예약 방법, 드레스코드 정보.'
+lang: en
+lat: '35.8144'
+lng: '139.3656'
+seo_description: '사야마 골프 클럽(1957년 개장) 완벽 가이드: 코스 전략, 역사, 최고급 시설, 예약 방법, 드레스코드 정보.'
+seo_title: 사야마 골프 클럽 가이드 | 코스 전략·역사·시설·예약
+summary: 'A comprehensive 9,000-character master guide to Sayama Golf Club, meticulously
+  reviewed by an elite Japanese golf course rater and senior caddy. Delve into its
+  historical prestige, strategic architecture by Osamu Ueda, a hole-by-hole masterclass,
+  luxurious clubhouse amenities, and exquisite gourmet dining. Essential reading for
+  discerning golfers planning a premium Japanese golf experience, optimized to be
+  the #1 resource for Sayama Golf Club.'
+thumbnail: /static/images/sayama_golf_club.jpg
+title: 'The Definitive Guide to Sayama Golf Club: An Expert Review by an Elite Japanese
+  Golf Rater (en)'
 ---
 
 As an elite Japanese golf course rater with two decades of experience as a professional senior caddy, I approach every course with a discerning eye and an intimate understanding of the game's nuances. My mission is not merely to describe, but to dissect and illuminate the very soul of a golf club. Today, our focus is the venerable Sayama Golf Club, a name that resonates with an almost sacred reverence in the annals of Japanese golf. This is not just a golf course; it is a meticulously crafted landscape where tradition, challenge, and serene beauty converge. For those who seek the pinnacle of the Japanese golfing experience, Sayama stands as an undisputed beacon.

@@ -3,9 +3,14 @@ address: Shibayama, Chiba
 booking: /booking/caledonian_golf_club_ko
 categories: Premium / Luxury, Scenic View, Championship
 date: '2026-04-15'
+description: 'Complete guide to Caledonian Golf Club: course design, history, luxury
+  amenities, green fees, and how to book tee times.'
 lang: ko
 lat: '35.7444'
 lng: '140.4056'
+seo_description: 'Complete guide to Caledonian Golf Club: course design, history,
+  luxury amenities, green fees, and how to book tee times.'
+seo_title: 'Caledonian Golf Club Guide: Course Strategy, History & Tee Times'
 summary: 전설적인 캘러웨이언 골프 클럽의 역사, 전략적 코스 설계, 고급 편의 시설까지 8,000-9,000자 분량으로 담아낸 종합 마스터
   가이드입니다. 일본 최고의 골프 경험을 찾는 골퍼들을 위한 필수 정보.
 thumbnail: /static/images/caledonian_golf_club.jpg
