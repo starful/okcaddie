@@ -11,15 +11,10 @@ from typing import Any
 
 try:
     from agoda_partners import partner_search_url, url_for_location
+    from amazon_affiliate import AMAZON_GOLF_URL, amazon_kind, amazon_url
 except ImportError:
     from .agoda_partners import partner_search_url, url_for_location
-
-# Amazon JP Associates — golf gear search (tag=starful06-22)
-AMAZON_GOLF_URL = os.getenv(
-    "AMAZON_JP_GOLF_URL",
-    "https://www.amazon.co.jp/s?k=golf&tag=starful06-22&linkCode=ll2"
-    "&linkId=1b50c5ce7e68ac003be574ef9650dbee&ref_=as_li_ss_tl",
-)
+    from .amazon_affiliate import AMAZON_GOLF_URL, amazon_kind, amazon_url
 
 _BANNERS: dict[str, dict[str, str]] = {
     "agoda": {
@@ -71,12 +66,9 @@ _BANNERS: dict[str, dict[str, str]] = {
 
 
 def _enabled() -> bool:
-    return os.getenv("A8_OKCADDIE_ENABLED", "1").strip().lower() in (
-        "1",
-        "true",
-        "yes",
-        "on",
-    )
+    # AFFILIATE_OKCADDIE_ENABLED wins; A8_OKCADDIE_ENABLED is the legacy fallback.
+    raw = os.getenv("AFFILIATE_OKCADDIE_ENABLED") or os.getenv("A8_OKCADDIE_ENABLED") or "1"
+    return raw.strip().lower() in ("1", "true", "yes", "on")
 
 
 def a8_dest_url(
@@ -115,6 +107,7 @@ def _copy(
     lat: float | None = None,
     lng: float | None = None,
     country: str | None = None,
+    amazon_kind_value: str = "golf",
 ) -> dict[str, str]:
     src = _BANNERS[banner_id]
     code = (lang or "en").lower()
@@ -140,7 +133,7 @@ def _copy(
     if banner_id == "amazon_golf":
         return {
             "id": src["id"],
-            "click_url": src["click_url"],
+            "click_url": amazon_url(amazon_kind_value),
             "image_url": "",
             "pixel_url": "",
             "label": src[f"label_{suffix}"],
@@ -164,7 +157,10 @@ def a8_banners_context(
     lat: float | None = None,
     lng: float | None = None,
     country: str | None = None,
+    guide_id: str | None = None,
+    kind: str | None = None,
 ) -> dict[str, Any]:
+    """Banner context. ``guide_id``/``kind`` pick Amazon keywords (golf|beginner|foliage)."""
     if not _enabled():
         return {
             "show_a8_banners": False,
@@ -176,7 +172,7 @@ def a8_banners_context(
     kw = {"lang": lang, "lat": lat, "lng": lng, "country": country}
     banners = [
         _copy("agoda", **kw),
-        _copy("amazon_golf", lang=lang),
+        _copy("amazon_golf", lang=lang, amazon_kind_value=kind or amazon_kind(guide_id)),
     ]
     if code == "ko":
         banners.append(_copy("rakuten_esim", lang=lang))

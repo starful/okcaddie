@@ -122,6 +122,6 @@ def guide_detail(guide_ref):
         og_image_height=630,
         cross_site_links=cross_links_for(FAMILY_SITE_ID, post_data["lang"]),
         **inject_family_context(FAMILY_SITE_ID, post_data["lang"]),
-        **a8_banners_context(lang=post_data["lang"]),
+        **a8_banners_context(lang=post_data["lang"], guide_id=base_id),
         **share_ctx,
     )
