@@ -14,7 +14,7 @@
                target="_blank"
                rel="nofollow sponsored noopener noreferrer"
                title="{{ banner.label }}{% if banner.desc %} — {{ banner.desc }}{% endif %}"
-               data-track="affiliate_a8"
+               data-track="{{ 'affiliate_agoda' if banner.id == 'agoda' else 'affiliate_a8' }}"
                data-track-label="{{ banner.id }}">
                 <span class="a8-banners__label">{{ banner.label }}</span>
                 {% if banner.desc %}
