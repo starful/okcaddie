@@ -1,4 +1,6 @@
 ---
+youtube_id: c99zgrSIUBI
+
 address: 오카야마현 소자시 (Soja, Okayama)
 booking: /booking/kinojo_golf_club_ko
 categories: Premium / Luxury, Easy Booking, Scenic View

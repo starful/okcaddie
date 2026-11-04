@@ -1,4 +1,6 @@
 ---
+youtube_id: 2nmqDqOqFd4
+
 address: Shibayama, Chiba
 booking: /booking/caledonian_golf_club_ko
 categories: Premium / Luxury, Scenic View, Championship

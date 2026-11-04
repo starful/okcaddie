@@ -1,4 +1,6 @@
 ---
+youtube_id: CM2mBMl6c9c
+
 lang: "en"
 title: "The Definitive Guide to Pacific Golf Club: An Expert Review (en)"
 lat: "33.5644"

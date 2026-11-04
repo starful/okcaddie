@@ -1,4 +1,6 @@
 ---
+youtube_id: c99zgrSIUBI
+
 lang: "en"
 title: "The Definitive Guide to Kinojo Golf Club: An Expert Review (en)"
 lat: "34.7244"
