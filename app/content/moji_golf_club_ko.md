@@ -1,4 +1,6 @@
 ---
+youtube_id: lHZP7SXOMZM
+
 lang: ko
 title: 모지 골프클럽 그린피·가격·예약·코스정보 | 기타큐슈 | OKCaddie
 lat: '33.8544'

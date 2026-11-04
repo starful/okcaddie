@@ -1,4 +1,6 @@
 ---
+youtube_id: lHZP7SXOMZM
+
 address: Kitakyushu, Fukuoka
 booking: /booking/moji_golf_club_en
 categories: Private Club, Historic, Premium / Luxury
