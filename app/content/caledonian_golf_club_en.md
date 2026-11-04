@@ -1,4 +1,6 @@
 ---
+youtube_id: 2nmqDqOqFd4
+
 lang: en
 title: 'Caledonian Golf Club Guide: Course Strategy, History & Tee Times'
 lat: '35.7444'

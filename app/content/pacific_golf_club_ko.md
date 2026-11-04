@@ -1,4 +1,6 @@
 ---
+youtube_id: CM2mBMl6c9c
+
 address: 일본 고치현 코난시
 booking: /booking/pacific_golf_club_ko
 categories: 프리미엄 골프, 오션 뷰, 전략적 디자인, 일본 명문
