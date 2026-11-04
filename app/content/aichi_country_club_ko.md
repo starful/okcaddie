@@ -1,4 +1,6 @@
 ---
+youtube_id: nDZz0K4rM7Y
+
 address: 일본 아이치현 나고야시
 booking: /booking/aichi_country_club_ko
 categories: Private Club, Forest Course, Historic

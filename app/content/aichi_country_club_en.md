@@ -1,4 +1,6 @@
 ---
+youtube_id: nDZz0K4rM7Y
+
 lang: "en"
 title: "The Definitive Guide to Aichi Country Club: An Expert Review by a Japanese Golf Rater & Senior Caddy"
 lat: "35.1544"
