@@ -1,4 +1,6 @@
 ---
+youtube_id: 0tlycHytE7o
+
 address: Iruma, Saitama
 booking: /booking/sayama_golf_club_en
 categories: Private Club, Premium / Luxury, Historic

@@ -1,4 +1,6 @@
 ---
+youtube_id: 0tlycHytE7o
+
 address: 사이타마현 이루마시 미노와 262-2
 booking: /booking/sayama_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic
