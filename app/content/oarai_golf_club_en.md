@@ -1,4 +1,6 @@
 ---
+youtube_id: F5mjuMUGsk0
+
 address: Oarai, Ibaraki
 booking: /booking/oarai_golf_club_en
 categories: Private Club, Seaside Links, Championship

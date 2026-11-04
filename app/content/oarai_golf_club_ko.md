@@ -1,4 +1,6 @@
 ---
+youtube_id: F5mjuMUGsk0
+
 address: 오아라이, 이바라키
 booking: /booking/oarai_golf_club_ko
 categories: Private Club, Seaside Links, Championship
