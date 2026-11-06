@@ -2,7 +2,7 @@
 address: Nagasaki, Nagasaki
 booking: /booking/passage_kinkai_ko
 categories: Premium / Luxury, Stay & Play, Ocean View
-date: '2026-04-15'
+date: '2026-11-07'
 lang: ko
 lat: '32.8944'
 lng: '129.8356'
@@ -10,6 +10,7 @@ summary: 더 패시지 긴카이의 역사, 전략, 럭셔리 시설을 망라�
 thumbnail: /static/images/passage_kinkai.jpg
 title: '더 패시지 긴카이 심층 분석: 전문가 리뷰 (ko)'
 ---
+
 
 존경하는 골퍼 여러분, 그리고 OKCaddie 독자 여러분. 저는 20년 경력의 베테랑 캐디이자 일본 최고의 골프 코스 평가자로 활동하고 있는 [후지](/course/fuji_country_club?lang=ko)모토 타쿠미(藤本 拓海)입니다. 오늘 이 자리에서, 저는 나가사키의 보석이자 일본 골프 코스 중에서도 특별한 지위를 지닌 '더 패시지 긴카이([Passage](/course/passage_kinkai_island?lang=ko) Kinkai)'를 여러분께 심층적으로 소개하고자 합니다. 단순한 라운딩을 넘어선 하나의 예술 작품이자 도전의 장인 이곳의 모든 면모를, 저의 오랜 경험과 전문적인 시각으로 해부해 드리겠습니다. 이 글은 약 8,000자에서 9,000자에 달하는 방대한 분량으로, 더 패시지 긴카이에 대한 여러분의 모든 궁금증을 해소하고, 다음 라운딩을 위한 완벽한 전략 가이드가 될 것입니다.
 
