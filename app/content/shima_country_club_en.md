@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Shima Country Club: An Expert Review (en)"
-lat: "34.3344"
-lng: "136.8156"
-categories: "Value for Money, Ocean View, Scenic View"
-thumbnail: "/static/images/shima_country_club.jpg"
-address: "Shima, Mie"
-date: "2026-04-15"
-booking: "/booking/shima_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Shima Country Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'The Definitive Guide to Shima Country Club: An Expert Review (en)'
+lat: '34.3344'
+lng: '136.8156'
+categories: Value for Money, Ocean View, Scenic View
+thumbnail: /static/images/shima_country_club.jpg
+address: Shima, Mie
+date: '2026-11-07'
+booking: /booking/shima_country_club_en
+summary: A comprehensive 9,000-character master guide to Shima Country Club, covering
+  strategy, history, and luxury facilities.
 ---
+
 
 ## The Definitive Guide to Shima Country Club: An Expert Review
 

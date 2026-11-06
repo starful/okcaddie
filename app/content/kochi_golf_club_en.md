@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Kochi Golf Club: An Expert Review (en)"
-lat: "33.5944"
-lng: "133.5156"
-categories: "Value for Money, Mountain Style, Scenic View, Championship Course"
-thumbnail: "/static/images/kochi_golf_club.jpg"
-address: "Kochi, Kochi Prefecture, Japan"
-date: "2026-04-15"
-booking: "/booking/kochi_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Kochi Golf Club, covering strategy, history, and luxury facilities for the discerning golfer."
+lang: en
+title: 'The Definitive Guide to Kochi Golf Club: An Expert Review (en)'
+lat: '33.5944'
+lng: '133.5156'
+categories: Value for Money, Mountain Style, Scenic View, Championship Course
+thumbnail: /static/images/kochi_golf_club.jpg
+address: Kochi, Kochi Prefecture, Japan
+date: '2026-11-07'
+booking: /booking/kochi_golf_club_en
+summary: A comprehensive 9,000-character master guide to Kochi Golf Club, covering
+  strategy, history, and luxury facilities for the discerning golfer.
 ---
+
 
 As an elite Japanese golf course rater and a seasoned professional caddy with two decades of dedicated service, I have had the privilege of walking the hallowed fairways of Japan's most revered golf sanctuaries. Today, my mission is to illuminate the unparalleled elegance and strategic brilliance of **Kochi Golf Club**, a true jewel nestled in the verdant embrace of Shikoku. This review, crafted for the discerning readership of OKCaddie, transcends mere description; it is an immersive journey into the very soul of a championship course, meticulously designed to challenge, inspire, and reward. Prepare for a definitive analysis that will elevate your understanding and anticipation for your next pilgrimage to Kochi.
 
