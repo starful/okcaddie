@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Miki Golf Club: An Expert Review (en)"
-lat: "34.8144"
-lng: "135.0156"
-categories: "Public Tournament, Forest Course, Historic"
-thumbnail: "/static/images/miki_golf_club.jpg"
-address: "Miki, Hyogo"
-date: "2026-04-15"
-booking: "/booking/miki_golf_club_en"
-summary: "A comprehensive 9,000-character master guide to Miki Golf Club, covering strategy, history, and luxury facilities."
+lang: en
+title: 'The Definitive Guide to Miki Golf Club: An Expert Review (en)'
+lat: '34.8144'
+lng: '135.0156'
+categories: Public Tournament, Forest Course, Historic
+thumbnail: /static/images/miki_golf_club.jpg
+address: Miki, Hyogo
+date: '2026-11-07'
+booking: /booking/miki_golf_club_en
+summary: A comprehensive 9,000-character master guide to Miki Golf Club, covering
+  strategy, history, and luxury facilities.
 ---
+
 
 ## The Definitive Guide to Miki Golf Club: A Masterpiece Unveiled by a Veteran Caddy and Rater
 

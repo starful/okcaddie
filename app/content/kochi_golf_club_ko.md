@@ -2,7 +2,7 @@
 address: 일본 고치현 고치시 타카오 1404
 booking: /booking/kochi_golf_club_ko
 categories: 가치, 산악 코스, 경치, 일본 골프
-date: '2026-04-15'
+date: '2026-11-07'
 lang: ko
 lat: '33.5944'
 lng: '133.5156'
@@ -11,6 +11,7 @@ summary: 고치 골프 클럽에 대한 포괄적인 9,000자 마스터 가이�
 thumbnail: /static/images/kochi_golf_club.jpg
 title: '고치 골프 클럽 마스터 가이드: 20년 경력의 캐디가 전하는 심층 분석'
 ---
+
 
 ## [[[고치](/course/kochi_tosa_country?lang=ko)](/course/kochi_golf_club_heights?lang=ko)](/course/kochi_kuroshio_country_club?lang=ko) 골프 클럽: 시간과 전략이 빚어낸 남국의 걸작
 

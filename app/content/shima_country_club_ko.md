@@ -2,7 +2,7 @@
 address: 일본 미에현 시마시 아고초 우노고야 2167-2
 booking: /booking/shima_country_club_ko
 categories: 프리미엄, 오션뷰, 전략적코스, 미식
-date: '2026-04-15'
+date: '2026-11-07'
 lang: ko
 lat: '34.3344'
 lng: '136.8156'
@@ -11,6 +11,7 @@ summary: 이세시마 국립공원의 절경 속에 자리한 시마 컨트리 �
 thumbnail: /static/images/shima_country_club.jpg
 title: '시마 컨트리 클럽 완벽 공략: 20년 경력 베테랑 캐디의 전문가 리뷰 (ko)'
 ---
+
 
 # 시마 컨트리 클럽: 일본 골프의 정수를 만나다
 
