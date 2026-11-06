@@ -1,16 +1,18 @@
 ---
-lang: "ja"
-title: "The Definitive Guide to Sayama Golf Club: An Expert Review by an Elite Japanese Golf Rater"
-lat: "35.8144"
-lng: "139.3656"
-categories: "Private Club, Premium / Luxury, Historic"
-thumbnail: "/static/images/sayama_golf_club.jpg"
-address: "Iruma, Saitama"
-date: "2026-09-19"
-booking: "/booking/sayama_golf_club_ja"
-summary: "埼玉県入間市の老舗プライベートクラブ、狭山ゴルフクラブの料金目安・訪問方法・予約導線をまとめた実用ガイド。"
-seo_title: "狭山ゴルフクラブ 料金・アクセス・予約ガイド"
-seo_description: "埼玉県入間市の狭山ゴルフクラブについて、訪問資格・グリーンフィー目安・都心からのアクセス・予約方法を解説します。"
+address: Iruma, Saitama
+booking: /booking/sayama_golf_club_ja
+categories: Private Club, Premium / Luxury, Historic
+date: '2026-09-19'
+description: '사야마 골프 클럽(1957년 개장) 완벽 가이드: 코스 전략, 역사, 최고급 시설, 예약 방법, 드레스코드 정보.'
+lang: ja
+lat: '35.8144'
+lng: '139.3656'
+seo_description: 埼玉県入間市の狭山ゴルフクラブについて、訪問資格・グリーンフィー目安・都心からのアクセス・予約方法を解説します。
+seo_title: 狭山ゴルフクラブ 料金・アクセス・予約ガイド
+summary: 埼玉県入間市の老舗プライベートクラブ、狭山ゴルフクラブの料金目安・訪問方法・予約導線をまとめた実用ガイド。
+thumbnail: /static/images/sayama_golf_club.jpg
+title: 'The Definitive Guide to Sayama Golf Club: An Expert Review by an Elite Japanese
+  Golf Rater'
 ---
 
 ## クイックファクト
