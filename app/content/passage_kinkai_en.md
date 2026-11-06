@@ -1,15 +1,17 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Passage Kinkai: An Expert Review (en)"
-lat: "32.8944"
-lng: "129.8356"
-categories: "Premium / Luxury, Stay & Play, Ocean View"
-thumbnail: "/static/images/passage_kinkai.jpg"
-address: "Nagasaki, Nagasaki"
-date: "2026-04-15"
-booking: "/booking/passage_kinkai_en"
-summary: "A comprehensive 9,000-character master guide to Passage Kinkai, covering strategy, history, and luxury facilities."
+lang: en
+title: 'The Definitive Guide to Passage Kinkai: An Expert Review (en)'
+lat: '32.8944'
+lng: '129.8356'
+categories: Premium / Luxury, Stay & Play, Ocean View
+thumbnail: /static/images/passage_kinkai.jpg
+address: Nagasaki, Nagasaki
+date: '2026-11-07'
+booking: /booking/passage_kinkai_en
+summary: A comprehensive 9,000-character master guide to Passage Kinkai, covering
+  strategy, history, and luxury facilities.
 ---
+
 
 ## Passage Kinkai: A Masterpiece Unveiled by Japan's Foremost Golf Rater
 
