@@ -43,6 +43,8 @@ def index_status():
             "index_rate": round(indexed / total * 100, 1) if total else 0.0,
             "last_resubmitted": report.get("last_resubmitted", False),
             "last_reindexed_count": report.get("last_reindexed_count", 0),
+            "last_periodic_resubmit_at": report.get("last_periodic_resubmit_at"),
+            "last_periodic_resubmit_count": report.get("last_periodic_resubmit_count", 0),
             "unindexed_urls": unindexed_urls,
         }
     )
