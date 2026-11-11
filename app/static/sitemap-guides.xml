@@ -274,6 +274,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/jp-autumn-foliage-golf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/jp-autumn-foliage-golf" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/jp-autumn-foliage-golf?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/jp-autumn-foliage-golf" />
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/autumn-foliage-golf-japan?lang=ja</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/autumn-foliage-golf-japan" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/autumn-foliage-golf-japan?lang=ja" />
@@ -541,6 +550,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/public-vs-private-access?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/public-vs-private-access" />
     <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/okinawa-night-golf-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/okinawa-night-golf-guide" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/okinawa-night-golf-guide?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/okinawa-night-golf-guide" />
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1151,6 +1169,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/jp-autumn-foliage-golf?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/jp-autumn-foliage-golf" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/jp-autumn-foliage-golf?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/jp-autumn-foliage-golf" />
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/kansai-golf-weekend</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/kansai-golf-weekend" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/kansai-golf-weekend?lang=ko" />
@@ -1398,6 +1425,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/seasonal-courses?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/seasonal-courses" />
     <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/okinawa-night-golf-guide?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/okinawa-night-golf-guide" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/okinawa-night-golf-guide?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/okinawa-night-golf-guide" />
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
