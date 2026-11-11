@@ -1,10 +1,10 @@
 ---
 youtube_id: z4kjgfoAqOo
 lang: en
-seo_title: 'How to Play Yokohama Country Club: Visitor Guide & Green Fees'
-seo_description: Can visitors play Yokohama Country Club? Learn visitor policies,
-  green fees, how to book, and insider tips from a seasoned Japan golf caddy.
-title: 'How to Play Yokohama Country Club: Visitor Guide & Green Fees'
+seo_title: 'Yokohama Country Club Visitor Guide: How Non-Members Can Play & Book'
+seo_description: Visitors can play Yokohama Country Club through member intro or hotel
+  booking. Learn visitor access, fee ranges, and caddy insights.
+title: 'Yokohama Country Club Visitor Guide: How Non-Members Can Play & Book'
 lat: '35.4344'
 lng: '139.5456'
 categories: Private Club, Public Tournament, Historic
@@ -12,11 +12,13 @@ thumbnail: /static/images/yokohama_country_club.jpg
 address: Yokohama, Kanagawa
 date: '2026-04-15'
 booking: /booking/yokohama_country_club_en
-summary: An updated visitor-focused guide to Yokohama Country Club covering booking
-  steps, fee ranges, and course character from a veteran Japanese golf rater and caddy.
-description: Can visitors play Yokohama Country Club? Learn visitor policies, green
-  fees, how to book, and insider tips from a seasoned Japan golf caddy.
+summary: Updated guide for visitors seeking to play Yokohama Country Club, covering
+  booking methods, fee ranges, and insider tips from a veteran Japanese golf caddy.
+description: Visitors can play Yokohama Country Club through member intro or hotel
+  booking. Learn visitor access, fee ranges, and caddy insights.
 ---
+
+
 
 **Quick answer:** Yes, visitors can play Yokohama Country Club — but booking usually runs through a member introduction or a hotel/travel concierge rather than a public system, and fees shift by season and day of week. Below, a veteran Japanese golf rater breaks down what to expect before you book.
 
@@ -145,3 +147,11 @@ Yokohama Country Club is not just a golf course; it is an institution, a nationa
 ## Visitor Experience at Yokohama Country Club
 
 YCC welcomes serious golfers through member introduction or hotel concierge arrangements. The 18-hole championship layout features demanding par-4s, well-bunkered greens, and strategic water hazards. Visitors appreciate the immaculate conditioning year-round, professional caddy service included with green fees, and respectful pace of play. Best seasons for visiting are autumn (October–November) and spring (April–May), when weather is mild and course conditions peak. Bring a handicap certificate, as most introductions require proof of golfing ability.
+
+## Visitor Access: How Non-Members Book at Yokohama Country Club
+
+Yokohama Country Club does not operate a public booking system. Instead, visitor access typically flows through two primary channels: **member introduction** (where a current member vouches for and hosts a visitor) or **hotel and travel concierge services** (particularly useful for international visitors). Many premium Japanese hotels and travel agencies maintain established relationships with YCC and can facilitate introductions. Green fees vary by season and day of week, with weekend and peak-season rates higher than weekday play. Contact the club directly or work through your hotel concierge to confirm current rates and availability.
+
+## Visitor Access: How Non-Members Book at Yokohama Country Club
+
+Yokohama Country Club does not operate a public booking system. Instead, visitor access typically flows through two primary channels: **member introduction** (where a current member vouches for and hosts a visitor) or **hotel and travel concierge services** (particularly useful for international visitors). Many premium Japanese hotels and travel agencies maintain established relationships with YCC and can facilitate introductions. Green fees vary by season and day of week, with weekend and peak-season rates higher than weekday play. Contact the club directly or work through your hotel concierge to confirm current rates and availability.
