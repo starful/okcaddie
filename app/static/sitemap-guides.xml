@@ -80,6 +80,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/womens-golf-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/womens-golf-guide" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/womens-golf-guide?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/womens-golf-guide" />
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/driving-distance-etiquette</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/driving-distance-etiquette" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/driving-distance-etiquette?lang=ko" />
@@ -662,6 +671,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-gear-shopping-japan?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-gear-shopping-japan" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/golf-gear-shopping-japan?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-gear-shopping-japan" />
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/okinawa-ocean-golf?lang=ko</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/okinawa-ocean-golf" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/okinawa-ocean-golf?lang=ko" />
@@ -697,6 +715,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/beginner-friendly-courses?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/beginner-friendly-courses" />
     <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/live-golf-scores-japan?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/live-golf-scores-japan" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/live-golf-scores-japan?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/live-golf-scores-japan" />
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -953,6 +980,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/korean-friendly-courses?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/korean-friendly-courses" />
     <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/womens-golf-guide?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/womens-golf-guide" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/womens-golf-guide?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/womens-golf-guide" />
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1536,6 +1572,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okcaddie.net/guide/golf-gear-shopping-japan</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-gear-shopping-japan" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/golf-gear-shopping-japan?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/golf-gear-shopping-japan" />
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://okcaddie.net/guide/golf-etiquette-japan?lang=ja</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/golf-etiquette-japan" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://okcaddie.net/guide/golf-etiquette-japan?lang=ko" />
@@ -1552,6 +1597,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom?lang=ja" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/hyogo-the-golf-kingdom" />
     <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okcaddie.net/guide/live-golf-scores-japan</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okcaddie.net/guide/live-golf-scores-japan" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okcaddie.net/guide/live-golf-scores-japan?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okcaddie.net/guide/live-golf-scores-japan" />
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
