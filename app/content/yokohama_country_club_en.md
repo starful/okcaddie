@@ -1,9 +1,9 @@
 ---
 youtube_id: z4kjgfoAqOo
 lang: en
-seo_title: 'Yokohama Country Club Visitor Guide: How Non-Members Can Play & Book'
-seo_description: Visitors can play Yokohama Country Club through member intro or hotel
-  booking. Learn visitor access, fee ranges, and caddy insights.
+seo_title: 'Yokohama Country Club: Visitor Access Guide for Non-Members in Japan'
+seo_description: 'Yokohama Country Club visitor access: non-member booking via member
+  intro, hotel concierge, insider caddy guide, visitor information.'
 title: 'Yokohama Country Club Visitor Guide: How Non-Members Can Play & Book'
 lat: '35.4344'
 lng: '139.5456'
@@ -13,10 +13,12 @@ address: Yokohama, Kanagawa
 date: '2026-04-15'
 booking: /booking/yokohama_country_club_en
 summary: Updated guide for visitors seeking to play Yokohama Country Club, covering
-  booking methods, fee ranges, and insider tips from a veteran Japanese golf caddy.
+  booking methods and insider tips from a veteran Japanese golf caddy.
 description: Visitors can play Yokohama Country Club through member intro or hotel
   booking. Learn visitor access, fee ranges, and caddy insights.
 ---
+
+
 
 
 
@@ -155,3 +157,13 @@ Yokohama Country Club does not operate a public booking system. Instead, visitor
 ## Visitor Access: How Non-Members Book at Yokohama Country Club
 
 Yokohama Country Club does not operate a public booking system. Instead, visitor access typically flows through two primary channels: **member introduction** (where a current member vouches for and hosts a visitor) or **hotel and travel concierge services** (particularly useful for international visitors). Many premium Japanese hotels and travel agencies maintain established relationships with YCC and can facilitate introductions. Green fees vary by season and day of week, with weekend and peak-season rates higher than weekday play. Contact the club directly or work through your hotel concierge to confirm current rates and availability.
+
+## Visitor Booking Paths: Non-Member Access Routes
+
+Visitors can access Yokohama Country Club through two established channels:
+
+**Member Introduction:** A current YCC member introduces a guest, typically offering preferred fee rates and full clubhouse privileges including cart, caddy, lunch, and lockers.
+
+**Hotel Concierge:** Major Tokyo hotels and golf travel agencies maintain relationships with YCC and arrange guest rounds. The concierge handles booking and logistics.
+
+Fee structure varies by season and day. Contact your member sponsor or hotel concierge for current rates—walk-in play is not available at this private club level.
