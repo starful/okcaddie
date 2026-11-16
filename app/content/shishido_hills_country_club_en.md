@@ -1,15 +1,24 @@
 ---
-lang: "en"
-title: "The Definitive Guide to Shishido Hills Country Club: An Expert Review"
-lat: "36.3244"
-lng: "140.3056"
-categories: "Public Tournament, Premium / Luxury, Forest Course"
-thumbnail: "/static/images/shishido_hills_country_club.jpg"
-address: "Kasama, Ibaraki"
-date: "2026-04-15"
-booking: "/booking/shishido_hills_country_club_en"
-summary: "A comprehensive 9,000-character master guide to Shishido Hills Country Club, covering strategy, history, and luxury facilities, essential for ranking #1 on Google for premium Japanese golf travel."
+lang: en
+title: 'The Definitive Guide to Shishido Hills Country Club: An Expert Review'
+lat: '36.3244'
+lng: '140.3056'
+categories: Public Tournament, Premium / Luxury, Forest Course
+thumbnail: /static/images/shishido_hills_country_club.jpg
+address: Kasama, Ibaraki
+date: '2026-04-15'
+booking: /booking/shishido_hills_country_club_en
+summary: Championship golf course in Ibaraki hosting Japan Golf Tour events with championship
+  East & West courses.
+description: 'A comprehensive 9,000-character master guide to Shishido Hills Country
+  Club, covering strategy, history, and luxury facilities, essential for ranking #1
+  on Google for premium Japanese golf travel.'
+seo_title: 'Shishido Hills Country Club: Championship Golf Course in Ibaraki, Japan'
+seo_description: 'Shishido Hills Country Club in Ibaraki: championship 18-hole layout,
+  hosted Japan Golf Tour Championship, expert strategy guide, member golf course.'
 ---
+
+
 
 ## Shishido Hills Country Club: A Masterpiece Unveiled by Japan's Foremost Golf Rater
 
