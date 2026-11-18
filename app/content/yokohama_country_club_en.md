@@ -1,10 +1,9 @@
 ---
 youtube_id: z4kjgfoAqOo
 lang: en
-seo_title: 'Yokohama Country Club: Visitor Access Guide for Non-Members in Japan'
-seo_description: 'Yokohama Country Club visitor access: non-member booking via member
-  intro, hotel concierge, insider caddy guide, visitor information.'
-title: 'Yokohama Country Club Visitor Guide: How Non-Members Can Play & Book'
+seo_title: '横浜カントリークラブ: ビジターアクセス＆ブッキングガイド（1960年設立）'
+seo_description: '横浜カントリークラブ（1960年設立）: 日本を代表するチャンピオンシップコース。ビジター予約、会員紹介、コンシェルジュアクセス。'
+title: '横浜カントリークラブ: ビジターアクセス＆ブッキングガイド（1960年設立）'
 lat: '35.4344'
 lng: '139.5456'
 categories: Private Club, Public Tournament, Historic
@@ -12,11 +11,11 @@ thumbnail: /static/images/yokohama_country_club.jpg
 address: Yokohama, Kanagawa
 date: '2026-04-15'
 booking: /booking/yokohama_country_club_en
-summary: Updated guide for visitors seeking to play Yokohama Country Club, covering
-  booking methods and insider tips from a veteran Japanese golf caddy.
-description: Visitors can play Yokohama Country Club through member intro or hotel
-  booking. Learn visitor access, fee ranges, and caddy insights.
+summary: '1960年創立横浜カントリークラブ: ビジターガイド、会員紹介、コンシェルジュアクセス、ゴルフ旅行会社予約方法。'
+description: '横浜カントリークラブ（1960年設立）: 日本を代表するチャンピオンシップコース。ビジター予約、会員紹介、コンシェルジュアクセス。'
 ---
+
+
 
 
 
@@ -167,3 +166,15 @@ Visitors can access Yokohama Country Club through two established channels:
 **Hotel Concierge:** Major Tokyo hotels and golf travel agencies maintain relationships with YCC and arrange guest rounds. The concierge handles booking and logistics.
 
 Fee structure varies by season and day. Contact your member sponsor or hotel concierge for current rates—walk-in play is not available at this private club level.
+
+## Practical Booking Paths for Visitors
+
+**Hotel Concierge**: Top Tokyo hotels (Four Seasons, Peninsula, Mandarin Oriental) maintain golf liaison programs with private club relationships. Request through your hotel 1–3 weeks ahead.
+
+**Member Introduction**: Direct club access via a Japanese business contact or club member. Submit introduction request formally through the club.
+
+**Golf Travel Specialists**: Select Japanese golf tour operators have established relationships with private clubs and handle guest bookings and logistics.
+
+## ビジターアクセス・予約情報
+
+横浜カントリークラブへのビジタープレーは、会員の紹介またはホテルコンシェルジュを通じて手配することができます。一流のゴルフ旅行会社も非会員向けのラウンド手配を行っています。ラウンド料金はシーズン（キャディー料金含む）および曜日によって異なります。予約は数週間前に確認することをお勧めします。
