@@ -1,10 +1,11 @@
 ---
 youtube_id: QF8gxl0mokA
+
 lang: en
-seo_title: PGM Golf Resort Okinawa—Book 27 Holes + Ocean Views, Cart Play Near Naha
-seo_description: 'PGM Golf Resort Okinawa: Visitor-friendly 27-hole ocean course near
-  Naha with English booking, cart play, full resort amenities & seasonal packages.'
-title: PGM Golf Resort Okinawa—Book 27 Holes + Ocean Views, Cart Play Near Naha
+seo_title: PGM Okinawa Green Fees & Booking
+seo_description: PGM Golf Resort Okinawa green fees, visitor booking, and access from
+  Naha—Onna 27-hole ocean resort practical play tips.
+title: PGM Okinawa Green Fees & Booking
 lat: '26.4344'
 lng: '127.8356'
 categories: Public Tournament, Premium / Luxury, Ocean View
@@ -12,12 +13,11 @@ thumbnail: /static/images/pgm_golf_resort_okinawa.jpg
 address: Onna, Okinawa
 date: '2026-07-12'
 booking: /booking/pgm_golf_resort_okinawa_en
-summary: Oceanside 27-hole resort course perfect for visitors seeking reliable, easy-to-book
-  golf near Naha with full resort amenities.
-description: 'PGM Golf Resort Okinawa: Visitor-friendly 27-hole ocean course near
-  Naha with English booking, cart play, full resort amenities & seasonal packages.'
+summary: Visitor guide to PGM Golf Resort Okinawa—27-hole ocean-side layout in Onna,
+  booking paths, access from Naha Airport, and what to expect on fee day.
+description: Your practical guide to PGM Golf Resort Okinawa. Green-fee ranges, booking
+  steps, access from Naha, and tips for this scenic PGM resort course.
 ---
-PGM is Okinawa's easiest big-name course for visitors—no member introduction needed. Book the 27-hole ocean-view course with English-language support, full cart play, restaurant, locker room, and baths. Perfect for winter escapes and mixed-handicap groups.
 
 PGM Golf Resort Okinawa is a **27-hole public resort** on Okinawa’s west coast in Onna Village. It is one of the island’s easiest big-name courses for visitors to book, with ocean views, cart play, and English-friendly third-party booking options.
 

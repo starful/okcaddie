@@ -1,7 +1,7 @@
 ---
 youtube_id: IzJRn4_Qsb0
 lang: en
-title: '타카라즈카 골프클럽: 1926년 36홀 역사적 챔피언십 코스'
+title: Takarazuka Golf Club
 lat: '34.7944'
 lng: '135.3556'
 categories: Private Club, Historic, Forest Course
@@ -9,13 +9,15 @@ thumbnail: /static/images/takarazuka_golf_club.jpg
 address: Takarazuka, Hyogo
 date: '2026-06-27'
 booking: /booking/takarazuka_golf_club_en
-summary: '1926년 오사무 우에다 설계: 36홀 클래식 일본 숲 골프 명작.'
-description: '1926년 타카라즈카 골프클럽: 역사적 36홀 챔피언십 코스. 오사카 인근 동서 코스 일본 클래식 숲 골프.'
-seo_title: '타카라즈카 골프클럽: 1926년 36홀 역사적 챔피언십 코스'
-seo_description: '1926년 타카라즈카 골프클럽: 역사적 36홀 챔피언십 코스. 오사카 인근 동서 코스 일본 클래식 숲 골프.'
+summary: 1926년 창설된 일본 역사 명문 사설장, 36홀 정통 숲 코스
+description: Takarazuka Golf Club, a historic private forest course in Hyogo, offers
+  36 holes of traditional Japanese golf near Osaka.
+seo_title: 타카라즈카 골프 클럽 | 1926년 창설 일본 명문 36홀 (오사카)
+seo_description: 효고 타카라즈카 골프. 1926년 창설 일본 역사 명문 사설장. 이스트·웨스트 각 18홀 파72 정통 숲 코스. 오사카
+  인근.
 ---
 
-Few courses in Asia combine championship pedigree with century-old heritage like Takarazuka Golf Club. Its 36-hole layout—split into pristine East and West championship courses—has challenged Japan's best golfers for generations. The classic forest setting, strategic bunkering, and meticulous conditioning define Japanese championship golf at its finest.
+
 
 ## Course Overview
 
@@ -67,19 +69,3 @@ The clubhouse at Takarazuka Golf Club reflects its long history and traditional 
 ## Caddie Tips
 
 Playing Takarazuka with a local caddie is highly recommended, especially for first-time visitors, as their insights are invaluable. Common mistakes include misreading the subtle breaks on the bentgrass greens, which often have more undulation than they appear. Caddies can also provide critical advice on club selection, particularly when factoring in elevation changes and wind conditions that might not be immediately apparent. Trusting their suggested lines off the tee to avoid the dense tree lines is crucial for a successful round. This course suits strategic players who prioritize accuracy and course management over raw power. Mid-to-low handicappers who appreciate traditional design and enjoy a thinking person's golf challenge will find Takarazuka Golf Club particularly rewarding. High handicappers might find the tight fairways and strategic demands a significant test.
-
-## Visitor Access & Booking Information
-
-Takarazuka Golf Club operates as a private members' club near Osaka. Non-members seeking to play typically arrange access through member sponsorship or golf concierge services in the Kansai region.
-
-## Visitor Access & Booking Information
-
-Takarazuka Golf Club operates as a private members' club near Osaka. Non-members seeking to play typically arrange access through member sponsorship or golf concierge services in the Kansai region.
-
-## Visitor Information & Access
-
-Takarazuka operates as a private members-only institution located in Hyogo Prefecture near Osaka. While primarily exclusive to members, accompanied play through member introductions or premium golf tour packages may be arranged. The club maintains Japan's traditional golf etiquette standards. Access typically requires advance coordination through established golf travel services specializing in Japanese courses.
-
-## 비지터 정보 및 접근
-
-타카라즈카 골프클럽은 회원 전용 시설로 효고현(오사카 인근)에 위치합니다. 회원 소개나 프리미엄 일본 골프 여행사를 통한 동반 플레이가 가능할 수 있습니다. 클럽은 일본 골프 전통 에티켓을 엄격히 준수합니다. 플레이 접근은 일본 골프 여행사를 통한 사전 조율이 필요합니다.
