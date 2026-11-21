@@ -1,6 +1,4 @@
 ---
-youtube_id: 0tlycHytE7o
-
 address: 사이타마현 이루마시 미노와 262-2
 booking: /booking/sayama_golf_club_ko
 categories: Private Club, Premium / Luxury, Historic
@@ -8,15 +6,10 @@ date: '2026-04-15'
 lang: ko
 lat: '35.8144'
 lng: '139.3656'
-summary: Comprehensive guide to Japan's prestigious Sayama Golf Club since 1957, covering
-  course strategy, history, facilities, and booking.
+summary: 사야마 골프 클럽의 역사, 코스 전략, 최고급 시설, 미식 경험 및 캐디의 비밀 팁까지, 약 9,000자에 이르는 종합 마스터 가이드.
 thumbnail: /static/images/sayama_golf_club.jpg
-title: 사야마 골프 클럽 가이드 | 코스 전략·역사·시설·예약
-description: '사야마 골프 클럽(1957년 개장) 완벽 가이드: 코스 전략, 역사, 최고급 시설, 예약 방법, 드레스코드 정보.'
-seo_title: 사야마 골프 클럽 가이드 | 코스 전략·역사·시설·예약
-seo_description: '사야마 골프 클럽(1957년 개장) 완벽 가이드: 코스 전략, 역사, 최고급 시설, 예약 방법, 드레스코드 정보.'
+title: '사야마 골프 클럽 마스터 가이드: 20년 경력 베테랑 캐디가 전하는 심층 분석'
 ---
-
 
 ## 사야마 골프 클럽: 일본 골프의 정수를 경험하다
 

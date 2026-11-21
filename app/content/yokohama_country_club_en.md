@@ -1,9 +1,10 @@
 ---
 youtube_id: z4kjgfoAqOo
 lang: en
-seo_title: '横浜カントリークラブ（1960年設立）: 日本有数のチャンピオンシップコースへのビジター・ゲストプレー完全ガイド'
-seo_description: '横浜カントリークラブ（1960年設立）: 日本有数のチャンピオンシップコース。ビジター予約、会員紹介、ホテル・コンシェルジュアクセス、ゴルフ旅行会社予約方法。'
-title: '横浜カントリークラブ（1960年設立）: 日本有数のチャンピオンシップコースへのビジター・ゲストプレー完全ガイド'
+seo_title: 'Yokohama Country Club Visitor Guide: Fees, Booking &amp; Tips'
+seo_description: Planning to play Yokohama Country Club? Visitor rules, green fee
+  ranges, booking steps, and course tips from a Japan golf rater.
+title: 'Yokohama Country Club Visitor Guide: Fees, Booking &amp; Tips'
 lat: '35.4344'
 lng: '139.5456'
 categories: Private Club, Public Tournament, Historic
@@ -11,17 +12,11 @@ thumbnail: /static/images/yokohama_country_club.jpg
 address: Yokohama, Kanagawa
 date: '2026-04-15'
 booking: /booking/yokohama_country_club_en
-summary: '1960年創立横浜カントリークラブ: ビジターガイド、会員紹介、コンシェルジュアクセス、ゴルフ旅行会社予約方法。'
-description: '横浜カントリークラブ（1960年設立）: 日本有数のチャンピオンシップコース。ビジター予約、会員紹介、ホテル・コンシェルジュアクセス、ゴルフ旅行会社予約方法。'
+summary: An updated visitor-focused guide to Yokohama Country Club covering booking
+  steps, fee ranges, and course character from a veteran Japanese golf rater and caddy.
+description: Planning to play Yokohama Country Club? Visitor rules, green fee ranges,
+  booking steps, and course tips from a Japan golf rater.
 ---
-
-
-
-
-
-
-
-
 **Quick answer:** Yes, visitors can play Yokohama Country Club — but booking usually runs through a member introduction or a hotel/travel concierge rather than a public system, and fees shift by season and day of week. Below, a veteran Japanese golf rater breaks down what to expect before you book.
 
 As an elite Japanese golf course rater and a seasoned professional caddy with two decades of dedicated service, I have walked the hallowed fairways of Japan's most revered golf institutions countless times. Yet, few courses encapsulate the profound essence of Japanese golf — a delicate balance of strategic challenge, natural beauty, and meticulous *omotenashi* — quite like the Yokohama Country Club (YCC). For the discerning global golfer seeking the pinnacle of the Japanese golf experience, YCC is not merely a destination; it is a pilgrimage. This masterpiece review, meticulously crafted for OKCaddie's esteemed readership, will peel back the layers of this iconic club, revealing its soul from the foundational earth to the subtle undulations of its greens. Prepare for an unparalleled insight into a true *Meimon* (名門) of Japanese golf.
@@ -145,41 +140,3 @@ My advice: **Always take one extra club for your approach, especially on uphill 
 
 **Final Verdict:**
 Yokohama Country Club is not just a golf course; it is an institution, a national treasure that seamlessly blends the rigorous demands of championship golf with the refined elegance of Japanese hospitality. From its storied history and strategically brilliant architecture to its luxurious clubhouse, rejuvenating onsen, and exquisite dining, every facet of YCC is meticulously crafted for an unparalleled experience. It is a true test of skill, a feast for the senses, and a profound immersion into the very heart of Japanese golf culture. For the discerning golfer seeking the ultimate challenge and luxury, Yokohama Country Club is an absolute, unequivocal must-play. It is, without question, one of Japan's most revered *Meimon*, a masterpiece that will forever remain etched in your golfing memory.
-
-## Visitor Experience at Yokohama Country Club
-
-YCC welcomes serious golfers through member introduction or hotel concierge arrangements. The 18-hole championship layout features demanding par-4s, well-bunkered greens, and strategic water hazards. Visitors appreciate the immaculate conditioning year-round, professional caddy service included with green fees, and respectful pace of play. Best seasons for visiting are autumn (October–November) and spring (April–May), when weather is mild and course conditions peak. Bring a handicap certificate, as most introductions require proof of golfing ability.
-
-## Visitor Access: How Non-Members Book at Yokohama Country Club
-
-Yokohama Country Club does not operate a public booking system. Instead, visitor access typically flows through two primary channels: **member introduction** (where a current member vouches for and hosts a visitor) or **hotel and travel concierge services** (particularly useful for international visitors). Many premium Japanese hotels and travel agencies maintain established relationships with YCC and can facilitate introductions. Green fees vary by season and day of week, with weekend and peak-season rates higher than weekday play. Contact the club directly or work through your hotel concierge to confirm current rates and availability.
-
-## Visitor Access: How Non-Members Book at Yokohama Country Club
-
-Yokohama Country Club does not operate a public booking system. Instead, visitor access typically flows through two primary channels: **member introduction** (where a current member vouches for and hosts a visitor) or **hotel and travel concierge services** (particularly useful for international visitors). Many premium Japanese hotels and travel agencies maintain established relationships with YCC and can facilitate introductions. Green fees vary by season and day of week, with weekend and peak-season rates higher than weekday play. Contact the club directly or work through your hotel concierge to confirm current rates and availability.
-
-## Visitor Booking Paths: Non-Member Access Routes
-
-Visitors can access Yokohama Country Club through two established channels:
-
-**Member Introduction:** A current YCC member introduces a guest, typically offering preferred fee rates and full clubhouse privileges including cart, caddy, lunch, and lockers.
-
-**Hotel Concierge:** Major Tokyo hotels and golf travel agencies maintain relationships with YCC and arrange guest rounds. The concierge handles booking and logistics.
-
-Fee structure varies by season and day. Contact your member sponsor or hotel concierge for current rates—walk-in play is not available at this private club level.
-
-## Practical Booking Paths for Visitors
-
-**Hotel Concierge**: Top Tokyo hotels (Four Seasons, Peninsula, Mandarin Oriental) maintain golf liaison programs with private club relationships. Request through your hotel 1–3 weeks ahead.
-
-**Member Introduction**: Direct club access via a Japanese business contact or club member. Submit introduction request formally through the club.
-
-**Golf Travel Specialists**: Select Japanese golf tour operators have established relationships with private clubs and handle guest bookings and logistics.
-
-## ビジターアクセス・予約情報
-
-横浜カントリークラブへのビジタープレーは、会員の紹介またはホテルコンシェルジュを通じて手配することができます。一流のゴルフ旅行会社も非会員向けのラウンド手配を行っています。ラウンド料金はシーズン（キャディー料金含む）および曜日によって異なります。予約は数週間前に確認することをお勧めします。
-
-## ビジター予約・アクセス方法
-
-横浜カントリークラブへのビジタープレーは、会員の紹介、ホテルコンシェルジュ、またはゴルフ旅行会社経由での予約が主流です。季節や曜日により料金が変動するため、事前の確認が必要です。コースは四季の風情を楽しめる戦略的な設計となっており、訪問ゴルファーに人気があります。
