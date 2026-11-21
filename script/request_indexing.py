@@ -79,6 +79,12 @@ def get_urls_from_sitemaps():
 
 
 def request_indexing(priority_urls=None, daily_limit=200):
+    # Disabled 2026-11-21: the Indexing API is only for JobPosting/BroadcastEvent pages.
+    # Using it on normal pages is a risk to the whole site in Google Search. Set
+    # ALLOW_INDEXING_API=1 only if a page type it supports is added.
+    if os.environ.get("ALLOW_INDEXING_API") != "1":
+        print("Indexing API disabled (ALLOW_INDEXING_API is not 1); skipped.")
+        return None
     urls = list(priority_urls or []) + [u for u in get_urls_from_sitemaps() if u not in (priority_urls or [])]
     seen = set()
     deduped = []
